@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "PSP6 · Banca de 5 minutos — Sustentação do problema",
+  "entry": "psp6-banca-5min.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": ["html", "pdf", "zip"],
+  "createdAt": "2026-08-25T12:47:55.000Z",
+  "updatedAt": "2026-08-25T12:47:55.000Z",
+  "metadata": {
+    "inferred": false,
+    "designSystemId": "user:unb",
+    "slideCount": 6,
+    "author": "Codex — 2026-08-25"
+  }
+}

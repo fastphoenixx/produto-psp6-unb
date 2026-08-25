@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Análise preliminar do mercado de louças sanitárias, anterioridade tecnológica e espaço de oportunidade.">
+  <meta name="author" content="Engenharia de Produto + PSP6 · Universidade de Brasília">
+  <title>UnB · Louças sanitárias — Mercado e patentes</title>
+  <style>
+/* UnB — Editorial Técnico · design tokens */
+:root{
+  /* color */
+  --navy:#0E2A4E;        /* primary */
+  --navy-deep:#081B33;   /* dark sections / cover / dividers */
+  --navy-soft:#16386180;  /* panel tint */
+  --gold:#C9A14C;        /* accent — máx 1-2 destaques por slide */
+  --gold-2:#E3C172;      /* realce */
+  --paper:#FAF7EF;       /* light background (projetor) */
+  --paper-2:#FFFFFF;     /* cards */
+  --ink:#1E2A37;         /* body text */
+  --ink-dim:#52606D;     /* secondary */
+  --mute:#8A93A0;        /* labels/tertiary */
+  --line:#E6DEC9;        /* hairlines on light */
+  --line-dark:#22426d;   /* hairlines on navy */
+  --good:#2E7D52;
+  --bad:#C0492C;
+  /* type */
+  --font-display:'Montserrat','Liberation Sans',sans-serif;
+  --font-sans:'Montserrat','Liberation Sans','DejaVu Sans',sans-serif;
+  --font-mono:'Space Mono','DejaVu Sans Mono',monospace;
+  /* spacing scale: 4 8 12 16 24 32 48 64 90 */
+}
+    *{box-sizing:border-box}
+    html{background:var(--ink);scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);font-family:var(--font-sans);font-size:11pt;line-height:1.42}
+    a{color:inherit}
+    .page{position:relative;width:210mm;min-width:210mm;max-width:210mm;height:297mm;min-height:297mm;max-height:297mm;margin:0 auto;overflow:hidden;background:var(--paper);page-break-after:always;break-after:page}
+    .page>*{min-width:0;min-height:0}
+    .page:last-child{page-break-after:auto;break-after:auto}
+    .kicker,.eyebrow,.chip,.page-no,.group-title,.patent-id,.cta,.micro{font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.13em}
+    .kicker{font-size:8pt;font-weight:700}
+    .page-no{font-size:7pt;color:var(--mute)}
+    .rule{height:1px;background:var(--line)}
+    .gold{color:var(--gold)}
+    .page-head{display:flex;align-items:center;justify-content:space-between;padding-bottom:4mm;border-bottom:1px solid var(--line)}
+
+    /* page 1 */
+    .market{display:grid;grid-template-rows:94mm minmax(0,1fr);background:var(--paper)}
+    .market-hero{padding:11mm 15mm 8mm;background:var(--navy-deep);color:var(--paper);display:grid;grid-template-rows:auto minmax(0,1fr) auto;position:relative;overflow:hidden}
+    .market-hero:after{content:"22";position:absolute;right:-7mm;bottom:-30mm;font:900 178mm/.8 var(--font-mono);color:var(--navy-soft);pointer-events:none}
+    .hero-top,.hero-core,.hero-meta{position:relative;z-index:1}
+    .hero-top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line-dark);padding-bottom:4mm}
+    .unb-mark{font:800 11pt var(--font-display);letter-spacing:.04em}
+    .hero-core{display:grid;grid-template-columns:minmax(0,1fr) 48mm;align-items:end;gap:8mm;padding:6mm 0 4mm}
+    h1{font:900 27pt/.94 var(--font-display);letter-spacing:.07em;text-transform:uppercase;margin:0;max-width:124mm}
+    .subtitle{font-size:10.5pt;line-height:1.3;color:var(--paper);margin:3mm 0 0;max-width:116mm}
+    .hero-stat{align-self:end;border-left:1px solid var(--gold);padding-left:6mm}
+    .hero-stat b{display:block;font:700 29pt/.9 var(--font-mono);color:var(--gold-2);letter-spacing:-.08em}
+    .hero-stat span{display:block;font-size:9.5pt;line-height:1.18;margin-top:2mm}
+    .hero-meta{font:7.4pt var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+    .market-body{min-height:0;overflow:hidden;padding:8mm 15mm 10mm;display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:7mm}
+    .stats-row{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid var(--line)}
+    .mini-stat{padding:5mm 4mm;border-right:1px solid var(--line)}
+    .mini-stat:last-child{border-right:0}
+    .mini-stat b{display:block;font:700 17pt var(--font-mono);color:var(--navy);margin-bottom:1mm}
+    .mini-stat span{font-size:8.5pt;line-height:1.25;display:block}
+    .market-note{display:grid;grid-template-columns:1.05fr .95fr;gap:8mm;align-items:start}
+    .market-note h2{font:800 15pt/1.08 var(--font-display);text-transform:uppercase;letter-spacing:.08em;margin:0 0 3mm}
+    .question h2{font:800 15pt/1.08 var(--font-display);margin:0 0 3mm}
+    .market-note p{margin:0;color:var(--ink-dim);font-size:9.4pt}
+    .source-link{display:inline-flex;align-items:center;gap:2mm;margin-top:3mm;color:var(--navy);font:700 8pt var(--font-mono);text-decoration-thickness:1px;text-underline-offset:2px}
+    .scope-note{border-left:3px solid var(--bad);padding-left:5mm}
+    .scope-note b{display:block;font-size:9pt;margin-bottom:1mm}
+    .problem-block{min-height:0;display:grid;grid-template-rows:auto minmax(0,1fr);gap:7mm}
+    .flow{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);background:var(--paper-2)}
+    .flow-step{min-height:26mm;padding:5mm 4mm;position:relative;border-right:1px solid var(--line)}
+    .flow-step:last-child{border-right:0;background:var(--navy);color:var(--paper)}
+    .flow-step:not(:last-child):after{content:"→";position:absolute;right:-3mm;top:9mm;width:6mm;height:6mm;text-align:center;background:var(--paper-2);color:var(--navy);z-index:2}
+    .flow-step b{display:block;font:700 7.4pt/1.2 var(--font-mono);text-transform:uppercase;letter-spacing:.08em}
+    .flow-step span{display:block;font-size:7.8pt;line-height:1.25;margin-top:2mm;color:var(--ink-dim)}
+    .flow-step:last-child span{color:var(--mute)}
+    .question{display:grid;grid-template-columns:38mm 1fr;gap:8mm;align-items:center;background:var(--navy-deep);color:var(--paper);padding:7mm 8mm}
+    .question .micro{font-size:7pt;color:var(--mute)}
+    .question h2{margin:0;font-size:17pt;text-transform:none}
+
+    /* page 2 */
+    .atlas{padding:12mm 13mm 10mm;display:grid;grid-template-rows:auto auto minmax(0,1fr) auto minmax(0,1fr);gap:4mm}
+    .atlas-title{display:grid;grid-template-columns:1fr 58mm;gap:8mm;align-items:end}
+    .atlas h2,.strategy h2{font:900 25pt/.96 var(--font-display);text-transform:uppercase;letter-spacing:.08em;margin:0}
+    .atlas-intro{margin:0;font-size:8.5pt;color:var(--ink-dim);line-height:1.35}
+    .group-title{font-size:7.5pt;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:3mm}
+    .group-title:after{content:"";height:1px;background:var(--line);flex:1}
+    .patent-grid{min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr));gap:3mm}
+    .patent{position:relative;display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;gap:2mm;padding:5mm 5mm 4mm;background:var(--paper-2);border:1px solid var(--line);text-decoration:none;transition:transform .18s,border-color .18s,background .18s;min-height:0}
+    .patent:hover{transform:translateY(-1.2mm);border-color:var(--navy);background:oklch(from var(--paper-2) calc(l - .04) c h)}
+    .patent:focus-visible{outline:1.2mm solid var(--gold);outline-offset:1mm}
+    .patent-top{display:flex;align-items:center;justify-content:space-between;gap:3mm}
+    .chip{font-size:6.4pt;font-weight:700;color:var(--paper);background:var(--navy);padding:1.2mm 2mm}
+    .patent-id{font-size:6.4pt;color:var(--ink-dim);letter-spacing:.08em;text-align:right}
+    .patent h3{font:800 10.5pt/1.05 var(--font-display);margin:0;color:var(--navy)}
+    .patent p{font-size:7.7pt;line-height:1.32;margin:0;color:var(--ink-dim)}
+    .function{font-size:7pt;color:var(--ink);font-weight:700}
+    .function:before{content:"FUNÇÃO · ";font:700 6.2pt var(--font-mono);letter-spacing:.08em;color:var(--mute)}
+    .cta{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:2.2mm;font-size:6.5pt;font-weight:700;color:var(--navy);text-decoration:underline;text-underline-offset:2px}
+    .closest{position:absolute;right:4mm;top:4mm;background:var(--gold);color:var(--navy-deep);font:700 5.7pt var(--font-mono);padding:1.2mm 2mm;text-transform:uppercase;letter-spacing:.08em;max-width:40mm;text-align:center}
+    .closest + .patent-top{padding-right:42mm}
+    .atlas-foot{font:6.4pt/1.35 var(--font-mono);color:var(--mute);border-top:1px solid var(--line);padding-top:2.5mm}
+
+    /* page 3 */
+    .strategy{display:grid;grid-template-rows:47mm minmax(0,1fr) 39mm;background:var(--paper)}
+    .strategy-head{padding:12mm 15mm 8mm;background:var(--navy-deep);color:var(--paper);display:grid;grid-template-columns:1fr 53mm;gap:10mm;align-items:end}
+    .strategy-head p{font-size:8.5pt;color:var(--mute);margin:0}
+    .strategy-body{min-height:0;overflow:hidden;padding:10mm 15mm;display:grid;grid-template-rows:auto auto auto minmax(0,1fr);gap:8mm}
+    .territories{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
+    .territory{padding:7mm 6mm;min-height:58mm;border-right:1px solid var(--line);position:relative;background:var(--paper-2)}
+    .territory:last-child{border-right:0;background:var(--navy);color:var(--paper)}
+    .territory .num{font:700 22pt var(--font-mono);color:var(--line);position:absolute;right:4mm;top:2mm}
+    .territory:last-child .num{color:var(--line-dark)}
+    .territory h3{font:800 12pt/1.1 var(--font-display);text-transform:uppercase;letter-spacing:.08em;margin:16mm 0 4mm;max-width:43mm}
+    .territory ul{padding:0;margin:0;list-style:none;font-size:8.3pt;color:var(--ink-dim)}
+    .territory li{padding:1.5mm 0;border-top:1px solid var(--line)}
+    .territory:last-child ul{color:var(--mute)}
+    .territory:last-child li{border-color:var(--line-dark)}
+    .territory:last-child h3{color:var(--gold-2)}
+    .thesis{border-block:1px solid var(--navy);padding:7mm 0;display:grid;grid-template-columns:38mm 1fr;gap:8mm;align-items:center}
+    .thesis span{font:700 7pt var(--font-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--navy)}
+    .thesis blockquote{margin:0;font:800 16pt/1.2 var(--font-display);letter-spacing:-.02em}
+    .implications h3,.next h3{font:800 11pt var(--font-display);text-transform:uppercase;letter-spacing:.08em;margin:0 0 3mm}
+    .imp-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}
+    .imp{display:grid;grid-template-columns:8mm 1fr;gap:3mm;padding:4mm 5mm 4mm 0;border-bottom:1px solid var(--line);font-size:8.5pt}
+    .imp:nth-child(odd){border-right:1px solid var(--line);margin-right:5mm}
+    .imp b{font:700 8pt var(--font-mono);color:var(--navy)}
+    .next{align-self:end;background:var(--paper-2);border:1px solid var(--line);padding:6mm;display:grid;grid-template-columns:35mm 1fr;gap:6mm;align-items:center}
+    .next h3{margin:0;color:var(--navy)}
+    .next p{margin:0;font-size:9pt}
+    .legal{padding:8mm 15mm;background:var(--navy);color:var(--paper);display:grid;grid-template-columns:1fr 40mm;gap:8mm;align-items:end}
+    .legal p{margin:0;font-size:7.2pt;line-height:1.45;color:var(--mute)}
+    .legal strong{color:var(--paper)}
+
+    @media screen{
+      body{padding:12mm 0;display:grid;gap:10mm}
+      .page{box-shadow:0 8mm 24mm oklch(0 0 0/.28)}
+    }
+    @media (max-width:850px){body{padding:0;display:block;overflow-x:auto}.page{transform-origin:top left}}
+    @page{size:A4 portrait;margin:0}
+    @media print{
+      html,body{background:var(--paper);padding:0}
+      .page{margin:0;box-shadow:none}
+      a{color:inherit;text-decoration:none}
+    }
+  </style>
+</head>
+<body>
+  <section class="page market" data-od-id="pagina-mercado-problema">
+    <header class="market-hero">
+      <div class="hero-top"><span class="kicker gold">Análise preliminar · 01</span><span class="unb-mark">UnB · ENGENHARIA DE PRODUÇÃO</span></div>
+      <div class="hero-core">
+        <div><h1 data-od-id="titulo-principal">Louças sanitárias em trânsito</h1><p class="subtitle">Análise preliminar de mercado, anterioridade tecnológica e espaço de oportunidade</p></div>
+        <div class="hero-stat" data-od-id="dado-22-milhoes"><b>22 mi</b><span>de peças produzidas por ano no Brasil</span></div>
+      </div>
+      <div class="hero-meta">Engenharia de Produto + PSP6 · Universidade de Brasília · Agosto de 2026</div>
+    </header>
+    <main class="market-body">
+      <div class="stats-row" data-od-id="indicadores-setor">
+        <div class="mini-stat"><b>26</b><span>unidades fabris de médio e grande porte</span></div>
+        <div class="mini-stat"><b>08</b><span>estados com presença industrial do setor</span></div>
+        <div class="mini-stat"><b>TOP 5</b><span>Brasil entre os maiores produtores mundiais</span></div>
+        <div class="mini-stat"><b>≈ 7 mil</b><span>empregos diretos associados à indústria</span></div>
+      </div>
+      <div class="market-note">
+        <div><h2>Escala comprovada</h2><p>O volume anual evidencia um fluxo industrial relevante de produtos cerâmicos frágeis — da fábrica ao recebimento. É contexto suficiente para justificar investigação técnica e operacional.</p><a class="source-link" data-od-id="fonte-anfacer" href="https://www.anfacer.org.br/sobre/numeros-do-setor" target="_blank" rel="noopener">FONTE · ANFACER — NÚMEROS DO SETOR ↗</a></div>
+        <div class="scope-note"><b>O dado não mede avarias.</b><p>Sem um denominador confiável por lote, período ou etapa logística, não cabe estimar quantas peças quebram. Escala de produção e taxa de quebra são grandezas diferentes.</p></div>
+      </div>
+      <div class="problem-block">
+        <div class="flow" data-od-id="fluxo-risco">
+          <div class="flow-step"><b>01 · Fabricação e distribuição</b><span>Produto cerâmico entra no fluxo logístico.</span></div>
+          <div class="flow-step"><b>02 · Transporte</b><span>Pressão, vibração, queda e manuseio.</span></div>
+          <div class="flow-step"><b>03 · Recebimento</b><span>Embalagem pode ocultar a condição interna.</span></div>
+          <div class="flow-step"><b>04 · Abertura e conferência</b><span>A avaria torna-se visível tardiamente.</span></div>
+          <div class="flow-step"><b>05 · Contato potencial</b><span>Bordas cortantes e fragmentos soltos.</span></div>
+        </div>
+        <div class="question" data-od-id="pergunta-projeto"><span class="micro">Enunciado de projeto</span><h2>Como permitir a conferência segura de uma louça sanitária potencialmente avariada?</h2></div>
+      </div>
+    </main>
+  </section>
+
+  <section class="page atlas" data-od-id="pagina-atlas-patentes">
+    <div class="page-head"><span class="kicker">Anterioridade tecnológica</span><span class="page-no">02 / 03</span></div>
+    <div class="atlas-title"><h2 data-od-id="titulo-atlas">Atlas clicável<br>de patentes</h2><p class="atlas-intro">A busca se organiza por proximidade funcional, sem concluir novidade, atividade inventiva, patenteabilidade ou liberdade de operação.</p></div>
+    <div class="group-title">A · Diretamente relacionadas a louças e embalagens frágeis</div>
+    <div class="patent-grid" data-od-id="grupo-patentes-diretas">
+      <a class="patent" data-od-id="patente-us20150014208" href="https://patents.google.com/patent/US20150014208A1/en" target="_blank" rel="noopener"><div class="patent-top"><span class="chip">US · USPTO</span><span class="patent-id">US9221577B2 · US20150014208A1</span></div><h3>Packaging system for toilet components</h3><p><span class="function">Imobilizar e compactar.</span> Encaixes de papelão protegem bacia, caixa e tampa; redução declarada de aproximadamente 27% no volume da embalagem.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+      <a class="patent" data-od-id="patente-jp2007186235" href="https://patents.google.com/patent/JP2007186235A/en" target="_blank" rel="noopener"><div class="patent-top"><span class="chip">JP · JPO</span><span class="patent-id">JP2007186235A</span></div><h3>Packaging material for toilet bowl</h3><p><span class="function">Amortecer e conferir.</span> Amortecedores moldados integrados à caixa e furos de conferência aproximam proteção e inspeção.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+      <a class="patent" data-od-id="patente-cn114194553" href="https://patents.google.com/patent/CN114194553A/en" target="_blank" rel="noopener"><div class="patent-top"><span class="chip">CN · CNIPA</span><span class="patent-id">CN114194553A · CN114194553B</span></div><h3>Packaging structure for toilet transportation</h3><p><span class="function">Resistir e substituir.</span> Estrutura dobrável contra pressão, vibração e queda; busca substituir madeira e EPS.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+      <a class="patent" data-od-id="patente-us10301097" href="https://patents.google.com/patent/US10301097B2/en" target="_blank" rel="noopener"><div class="patent-top"><span class="chip">US · USPTO</span><span class="patent-id">US10301097B2</span></div><h3>Shipping container for frangible products</h3><p><span class="function">Estruturar e proteger.</span> Interior de papelão para produtos grandes e frágeis, incluindo vasos, cubas e banheiras.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+    </div>
+    <div class="group-title">B · Tecnologias adjacentes que podem inspirar funções</div>
+    <div class="patent-grid" data-od-id="grupo-patentes-adjacentes">
+      <a class="patent" data-od-id="patente-us10597214" href="https://patents.google.com/patent/US10597214B2/en" target="_blank" rel="noopener"><span class="closest">Referência mais próxima</span><div class="patent-top"><span class="chip">US · USPTO</span><span class="patent-id">US10597214B2</span></div><h3>Protection + impingement detection wrap</h3><p><span class="function">Proteger e indicar.</span> Células se rompem e mudam visualmente na região do impacto: combinação mais próxima entre proteção e indicação.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+      <a class="patent" data-od-id="patente-ep2780725" href="https://patents.google.com/patent/EP2780725A1/en" target="_blank" rel="noopener"><div class="patent-top"><span class="chip">EP · EPO</span><span class="patent-id">EP2780725A1 · EP2780725B1</span></div><h3>Single-use impact indicator</h3><p><span class="function">Registrar impacto.</span> Indicador irreversível muda de aparência; a base consultada indica a família europeia fora de vigor.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+      <a class="patent" data-od-id="patente-us6321911" href="https://patents.google.com/patent/US6321911B1/en" target="_blank" rel="noopener"><div class="patent-top"><span class="chip">US · USPTO</span><span class="patent-id">US6321911B1</span></div><h3>Fragility package</h3><p><span class="function">Inspecionar sem abrir.</span> Embalagem transparente permite inspeção visual e protege o objeto contra impactos.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+      <a class="patent" data-od-id="patente-us4506793" href="https://patents.google.com/patent/US4506793A/en" target="_blank" rel="noopener"><div class="patent-top"><span class="chip">US · USPTO</span><span class="patent-id">US4506793A</span></div><h3>Breakable vial</h3><p><span class="function">Conter após a quebra.</span> Manga flexível contém fragmentos e cobre bordas afiadas; analogia funcional, não aplicação direta a louças.</p><span class="cta">Abrir patente <span>↗</span></span></a>
+    </div>
+    <div class="atlas-foot">LEITURA · Cada cartão abre a publicação indicada no Google Patents. Números agrupados representam publicação e/ou concessão da mesma referência informada.</div>
+  </section>
+
+  <section class="page strategy" data-od-id="pagina-leitura-estrategica">
+    <header class="strategy-head"><div><span class="kicker gold">Síntese funcional · 03</span><h2 data-od-id="titulo-leitura-estrategica">Leitura<br>estratégica</h2></div><p>Da solução conhecida para as funções que ainda precisam ser investigadas.</p></header>
+    <main class="strategy-body">
+      <div class="territories" data-od-id="matriz-territorios">
+        <article class="territory"><span class="num">01</span><h3>Território ocupado</h3><ul><li>Amortecer</li><li>Imobilizar</li><li>Registrar impacto</li><li>Melhorar eficiência logística</li></ul></article>
+        <article class="territory"><span class="num">02</span><h3>Território adjacente</h3><ul><li>Inspeção sem abertura</li><li>Mudança visual</li><li>Contenção de fragmentos</li></ul></article>
+        <article class="territory"><span class="num">03</span><h3>Interseção a investigar</h3><ul><li>Alertar antes do contato</li><li>Inspecionar com segurança</li><li>Conter fragmentos em louças sanitárias</li></ul></article>
+      </div>
+      <div class="thesis" data-od-id="conclusao-principal"><span>Conclusão preliminar</span><blockquote>A oportunidade não parece estar em “mais uma embalagem que evita quebra”, mas na experiência segura de descobrir uma quebra que já aconteceu.</blockquote></div>
+      <section class="implications" data-od-id="implicacoes-disciplina"><h3>Implicações para Engenharia de Produto + PSP6</h3><div class="imp-grid"><div class="imp"><b>01</b><span>Transformar soluções existentes em <strong>funções</strong>, sem copiar sua forma.</span></div><div class="imp"><b>02</b><span>Derivar <strong>requisitos mensuráveis</strong> de alerta, inspeção e contenção.</span></div><div class="imp"><b>03</b><span>Alimentar modelagem funcional, matriz morfológica e <strong>TRIZ</strong>.</span></div><div class="imp"><b>04</b><span>Evitar conceitos já cobertos e orientar eventual <strong>patente própria</strong>.</span></div></div></section>
+      <aside class="next" data-od-id="proximo-passo"><h3>Próximo passo →</h3><p>Medir avarias por lote e período; depois pesquisar famílias correspondentes no <strong>INPI</strong> antes de qualquer conclusão de patenteabilidade.</p></aside>
+    </main>
+    <footer class="legal"><p><strong>Escopo e cautela.</strong> Busca preliminar realizada em bases públicas. Status jurídicos devem ser confirmados nos escritórios competentes. O documento não constitui parecer jurídico nem análise de liberdade de operação.</p><span class="page-no">03 / 03</span></footer>
+  </section>
+</body>
+</html>

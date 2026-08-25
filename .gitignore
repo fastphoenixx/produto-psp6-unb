@@ -1,0 +1,36 @@
+# Private source material and incoming files
+_inbox/
+
+# Recordings, exported conversations and transcription workspaces
+*.m4a
+*.mp3
+*.mp4
+*.wav
+*.ogg
+*.opus
+*.webm
+*.zip
+*.enc
+*.segments.json
+02_Aulas/transcricoes/
+02_Aulas/estudo/site/
+03_Projeto/campo/entrevista-*/
+
+# Course library and third-party examples are not redistributed publicly
+01_Disciplina/*.pdf
+04_Referencias/
+05_Exemplos/
+
+# Local assistant and application configuration
+.agents/
+.codex/
+.claude/
+.git-public/
+.DS_Store
+Thumbs.db
+
+# Temporary and generated system files
+*.tmp
+*.swp
+*.bak
+~$*

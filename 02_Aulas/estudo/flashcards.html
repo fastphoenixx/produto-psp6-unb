@@ -1,0 +1,339 @@
+<title>Flashcards — Abordagens do PDP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<style>
+  :root{
+    --azul:#003366; --verde:#006633; --azul-claro:#E8EDF3; --verde-claro:#E6F0EA;
+    --grafite:#2B2F33; --cinza:#6B7176; --fundo:#F7F8F9; --card:#FFFFFF; --borda:#E3E6E8;
+    --vermelho:#C0392B; --ambar:#B7791F; --sombra:0 2px 10px rgba(0,0,0,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --azul:#7FA8D4; --verde:#5FBF8A; --azul-claro:#1B2733; --verde-claro:#16281F;
+      --grafite:#E8EAEC; --cinza:#9AA1A7; --fundo:#121517; --card:#1A1E21; --borda:#2C3235;
+      --vermelho:#E5796B; --ambar:#D6A54A; --sombra:0 2px 10px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --azul:#7FA8D4; --verde:#5FBF8A; --azul-claro:#1B2733; --verde-claro:#16281F;
+    --grafite:#E8EAEC; --cinza:#9AA1A7; --fundo:#121517; --card:#1A1E21; --borda:#2C3235;
+    --vermelho:#E5796B; --ambar:#D6A54A; --sombra:0 2px 10px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html,body{overscroll-behavior-x:none}
+  body{margin:0 auto;background:var(--fundo);color:var(--grafite);max-width:760px;
+       font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:22px 16px 40px}
+  nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+  nav a{font-size:.8rem;padding:6px 12px;border:1px solid var(--borda);border-radius:999px;
+        text-decoration:none;color:var(--grafite);background:var(--card)}
+  nav a:hover{border-color:var(--azul)}
+  nav a.on{background:var(--azul);color:#fff;border-color:var(--azul)}
+  header{border-bottom:3px solid var(--verde);padding-bottom:11px;margin-bottom:14px}
+  h1{margin:0 0 3px;font-size:1.28rem;color:var(--azul)}
+  .sub{color:var(--cinza);font-size:.82rem}
+  .barra{display:flex;flex-wrap:wrap;gap:7px;margin:13px 0}
+  .barra button{font:inherit;font-size:.78rem;padding:6px 12px;border:1px solid var(--borda);
+         background:var(--card);color:var(--grafite);border-radius:999px;cursor:pointer}
+  .barra button:hover{border-color:var(--azul)}
+  .barra button.on{background:var(--azul);color:#fff;border-color:var(--azul)}
+  .barra button.destaque{border-color:var(--verde);color:var(--verde);font-weight:600}
+  .barra button.destaque.on{background:var(--verde);color:#fff;border-color:var(--verde)}
+
+  /* contadores estilo Anki */
+  .contadores{display:flex;gap:16px;justify-content:center;font-size:.86rem;
+              font-variant-numeric:tabular-nums;margin:16px 0 8px}
+  .contadores b{font-weight:700}
+  .cNovas{color:var(--azul)} .cAprend{color:var(--vermelho)} .cPront{color:var(--verde)}
+  .prog{height:4px;background:var(--borda);border-radius:99px;overflow:hidden;margin-bottom:18px}
+  .prog>i{display:block;height:100%;background:var(--verde);width:0;transition:width .3s}
+
+  /* pilha de cartões */
+  .palco{position:relative;min-height:270px;touch-action:pan-y;margin-bottom:24px}
+  .fundoCard{position:absolute;inset:7px 7px auto 7px;height:100%;background:var(--card);
+             border:1px solid var(--borda);border-radius:14px;opacity:.55;transform:scale(.97)}
+  .card{position:relative;background:var(--card);border:1px solid var(--borda);
+        border-radius:14px;box-shadow:var(--sombra);padding:26px 24px;min-height:270px;
+        display:flex;flex-direction:column;justify-content:center;cursor:grab;
+        user-select:none;-webkit-user-select:none;touch-action:pan-y}
+  .card.arrastando{cursor:grabbing;transition:none}
+  .card.solta{transition:transform .28s cubic-bezier(.2,.7,.3,1),opacity .28s}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--cinza);margin-bottom:14px}
+  .q{font-size:1.1rem;font-weight:600;color:var(--azul);line-height:1.45}
+  .a{margin-top:18px;padding-top:16px;border-top:1px solid var(--borda);font-size:.97rem}
+  .dica{margin-top:20px;font-size:.74rem;color:var(--cinza);text-align:center}
+  .hide{display:none!important}
+
+  /* selos de swipe */
+  .selo{position:absolute;top:20px;padding:6px 14px;border:3px solid;border-radius:8px;
+        font-weight:800;font-size:.92rem;letter-spacing:.05em;opacity:0;pointer-events:none}
+  .seloBom{right:20px;color:var(--verde);border-color:var(--verde);transform:rotate(11deg)}
+  .seloNovo{left:20px;color:var(--vermelho);border-color:var(--vermelho);transform:rotate(-11deg)}
+
+  /* botoes de avaliacao — 4 niveis */
+  .avaliar{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .avaliar button{font:inherit;padding:12px 4px;border-radius:10px;cursor:pointer;
+                  border:1px solid var(--borda);background:var(--card);color:var(--grafite);
+                  display:flex;flex-direction:column;align-items:center;gap:3px}
+  .avaliar button strong{font-size:.87rem;font-weight:650}
+  .avaliar button span{font-size:.68rem;color:var(--cinza)}
+  .b1{border-color:var(--vermelho)!important;color:var(--vermelho)!important}
+  .b2{border-color:var(--ambar)!important;color:var(--ambar)!important}
+  .b3{border-color:var(--verde)!important;color:var(--verde)!important}
+  .b4{border-color:var(--azul)!important;color:var(--azul)!important}
+  .avaliar button:hover{filter:brightness(1.06)}
+  .mostrar{width:100%;padding:14px;border-radius:10px;border:1px solid var(--azul);
+           background:var(--azul);color:#fff;font:inherit;font-weight:600;cursor:pointer}
+
+  .fim{text-align:center;padding:38px 22px;background:var(--verde-claro);border-radius:14px}
+  .fim h2{color:var(--verde);margin:0 0 8px}
+  .fim button{font:inherit;font-size:.85rem;padding:9px 16px;margin:5px 4px;border-radius:8px;
+              border:1px solid var(--borda);background:var(--card);color:var(--grafite);cursor:pointer}
+  footer{margin-top:2.6em;padding-top:1.1em;border-top:1px solid var(--borda);
+         font-size:.74rem;color:var(--cinza)}
+  @media (max-width:560px){
+    body{padding:14px 12px 28px}
+    h1{font-size:1.08rem} .sub{font-size:.75rem}
+    header{padding-bottom:8px;margin-bottom:10px}
+    /* filtros viram faixa rolavel de uma linha, senao empurram o cartao pra fora da tela */
+    .barra{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:9px -12px;padding:0 12px}
+    .barra::-webkit-scrollbar{display:none}
+    .barra button{flex:0 0 auto}
+    .contadores{gap:11px;font-size:.8rem;margin:11px 0 6px}
+    .prog{margin-bottom:11px}
+    .palco,.card{min-height:210px}
+    .card{padding:20px 18px}
+    .q{font-size:1rem} .a{font-size:.93rem;margin-top:14px;padding-top:12px}
+    .avaliar{gap:6px}
+    .avaliar button{padding:11px 2px}
+    .avaliar button strong{font-size:.8rem}
+    .avaliar button span{font-size:.62rem}
+    footer{font-size:.7rem}
+  }
+</style>
+
+<div class="wrap">
+<header>
+  <h1>Abordagens de Desenvolvimento de Produto</h1>
+  <div class="sub">Engenharia de Produto · Semana 1 (aulas 01 e 02) — tópicos de estudo da professora</div>
+</header>
+
+<div class="barra" id="filtros"></div>
+<div class="barra">
+  <button onclick="embaralhar()">↺ Embaralhar</button>
+  <button onclick="reiniciar()">⟲ Recomeçar</button>
+</div>
+
+<div class="contadores">
+  <span class="cNovas"><b id="cNovas">0</b> novas</span>
+  <span class="cAprend"><b id="cAprend">0</b> aprendendo</span>
+  <span class="cPront"><b id="cPront">0</b> prontas</span>
+</div>
+<div class="prog"><i id="pbarra"></i></div>
+
+<div id="area">
+  <div class="palco" id="palco">
+    <div class="fundoCard" id="fundoCard"></div>
+    <div class="card" id="card">
+      <div class="selo seloBom" id="seloBom">BOM</div>
+      <div class="selo seloNovo" id="seloNovo">DE NOVO</div>
+      <div class="tag" id="tag"></div>
+      <div class="q" id="q"></div>
+      <div class="a hide" id="a"></div>
+      <div class="dica" id="dica">toque no cartão ou aperte <b>espaço</b> para ver a resposta</div>
+    </div>
+  </div>
+
+  <button class="mostrar" id="btMostrar" onclick="virar()">Mostrar resposta</button>
+
+  <div class="avaliar hide" id="avaliar">
+    <button class="b1" onclick="avaliar(1)"><strong>De novo</strong><span>1 · ← arrasta</span></button>
+    <button class="b2" onclick="avaliar(2)"><strong>Difícil</strong><span>2</span></button>
+    <button class="b3" onclick="avaliar(3)"><strong>Bom</strong><span>3 · arrasta →</span></button>
+    <button class="b4" onclick="avaliar(4)"><strong>Fácil</strong><span>4</span></button>
+  </div>
+</div>
+
+<div class="fim hide" id="fim">
+  <h2>Baralho concluído</h2>
+  <p id="resumo"></p>
+  <button onclick="reiniciar()">Estudar de novo</button>
+  <button onclick="soDificeis()">Repetir só as que travaram</button>
+</div>
+
+<footer>
+  Material de estudo pessoal. Resumo e cartões elaborados a partir de
+  ROZENFELD, H. et al. <em>Gestão de Desenvolvimento de Produtos</em> (Saraiva, 2006), cap. 1 —
+  disciplina EPR 0013, Engenharia de Produção · UnB.
+</footer>
+</div>
+
+<script>
+const TODOS = [{"q": "Quantas eras de evolução da gestão do PDP existem, e quais são?", "a": "Três: (1) Desenvolvimento Sequencial de Produtos, (2) Desenvolvimento Integrado de Produtos, (3) Novas abordagens para o Desenvolvimento Integrado.", "t": "eras"}, {"q": "Quais são as 2 abordagens da era do Desenvolvimento Sequencial?", "a": "Tradicional (ou Sequencial) e Metodologia de Projeto.", "t": "eras"}, {"q": "Quais são as 3 abordagens da era do Desenvolvimento Integrado?", "a": "Engenharia Simultânea, Stage-Gates e Modelo de Funil.", "t": "eras"}, {"q": "Quais são as 4 abordagens da era das Novas Abordagens?", "a": "Lean, Design for Six Sigma (DFSS), Modelos de Maturidade e Gerenciamento do Ciclo de Vida dos Produtos (PLM).", "t": "eras"}, {"q": "Qual é a melhor abordagem de gestão do PDP?", "a": "Nenhuma. Não existe uma única melhor abordagem para todas as empresas — depende do contexto.", "t": "conceito"}, {"q": "De que depende a escolha da abordagem mais adequada?", "a": "Do ambiente competitivo, das capacitações existentes, do desempenho do PDP, da complexidade do produto e do status estático/dinâmico das inovações no setor.", "t": "conceito"}, {"q": "O que originou o Desenvolvimento de Produtos Sequencial?", "a": "Os princípios da administração científica (divisão de tarefas, a maneira ótima, as pessoas certas) e a estruturação funcional das organizações, após a produção em massa de Ford.", "t": "sequencial"}, {"q": "Por que a abordagem tradicional se chama \"sequencial\"?", "a": "Porque a informação sobre o produto era definida numa ordem lógica de uma área funcional para outra — Marketing, depois Design, Engenharia, Produção — sem interação forte entre elas.", "t": "sequencial"}, {"q": "No Desenvolvimento Sequencial, quando os fornecedores eram envolvidos?", "a": "Somente nas fases finais do desenvolvimento; a empresa procurava ser excessivamente autossuficiente.", "t": "sequencial"}, {"q": "Como era a carreira do profissional no Desenvolvimento Sequencial?", "a": "Especializado, com promoção essencialmente vertical e sem mobilidade horizontal — valorizava o aprofundamento e o isolamento do conhecimento.", "t": "sequencial"}, {"q": "Qual era a premissa implícita do Desenvolvimento Sequencial?", "a": "Que a excelência no desenvolvimento de produto dependia única e exclusivamente da excelência dentro de cada área de especialização.", "t": "sequencial"}, {"q": "No Desenvolvimento Sequencial, qual era o problema do gerente de projeto?", "a": "Ele surgiu para cuidar do projeto como um todo, mas seu poder e influência eram limitados e bem menores que os do gerente funcional, que tomava a decisão final.", "t": "sequencial"}, {"q": "O que foi a abordagem das Metodologias de Projeto?", "a": "A busca de excelência funcional — encontrar a sequência de etapas e atividades mais racional para desenvolver um produto. Ainda com gerenciamento funcional, sem visão de processo integrado.", "t": "sequencial"}, {"q": "Qual a diferença entre Tradicional e Metodologia de Projeto?", "a": "Ambas são sequenciais e funcionais. A Metodologia de Projeto acrescenta a sistematização das atividades por métodos, mas ainda não integra as áreas nem tem visão de processo.", "t": "sequencial"}, {"q": "Quando surgiu o movimento da Engenharia Simultânea, e por quê?", "a": "No final dos anos 1980, pela maior diversidade de produtos, valorização de prazos, pressão de custos, regulamentação socioambiental, aceleração da inovação e clientes mais exigentes.", "t": "integrado"}, {"q": "Qual foi a inovação organizacional mais significativa da Engenharia Simultânea?", "a": "Os times multifuncionais de projeto encabeçados por um gerente de projeto peso pesado — a descoberta da Estrutura Matricial Forte.", "t": "integrado"}, {"q": "Quais técnicas foram sistematizadas pelo movimento da Engenharia Simultânea?", "a": "QFD (Desdobramento da Função Qualidade), matriz de seleção de Pugh, FMEA (Análise dos Modos de Falha e seus Efeitos) e Análise de Valor.", "t": "integrado"}, {"q": "Qual o foco principal da abordagem Stage-Gates?", "a": "O foco no processo de negócio, com ênfase na avaliação da transição de fases — procedimentos sistemáticos para aprovar a passagem de uma fase à seguinte.", "t": "integrado"}, {"q": "Quem propôs o Modelo de Funil e o que ele integra?", "a": "Clark e Wheelwright. Integra o planejamento estratégico de mercado e de negócio com as atividades de desenvolvimento de produto.", "t": "integrado"}, {"q": "Como funciona o Modelo de Funil?", "a": "O PDP começa pelo planejamento de um conjunto de projetos (o portfólio) e, por um processo de negócio disciplinado com fases e avaliações, só os produtos com maior probabilidade de sucesso chegam ao mercado.", "t": "integrado"}, {"q": "Qual a contribuição do Modelo de Funil em relação ao Stage-Gates?", "a": "O Funil acrescenta a importância da gestão de portfólio e o relacionamento entre a transição de fases e essa gestão, além do alinhamento com a estratégia.", "t": "integrado"}, {"q": "Cite 4 características da era do Desenvolvimento Integrado de Produtos.", "a": "Desenvolvimento visto como processo; P&D inserido na estratégia da empresa; uso de projetos plataforma e modularizados; simultaneidade e superposição de atividades. (Também: times multifuncionais, fornecedores desde o início, revisão constante, profissionais generalistas.)", "t": "integrado"}, {"q": "No Desenvolvimento Integrado, como é o perfil do profissional?", "a": "Mais generalista, com promoção vertical e horizontal e muita mobilidade interna. A visão ampla é tão importante quanto a competência técnica.", "t": "integrado"}, {"q": "Por que a participação das áreas no início do projeto é fundamental?", "a": "Porque gera consenso sobre os parâmetros básicos do projeto, evitando divergências posteriores e permitindo que ele transcorra de forma mais fluida.", "t": "integrado"}, {"q": "Quais as vantagens obtidas com o Desenvolvimento Integrado?", "a": "Salto na produtividade, na qualidade dos produtos e na rapidez de resposta (menor lead time); maior variedade de produtos e maior taxa de renovação do que a concorrência.", "t": "integrado"}, {"q": "Quais são as duas contribuições principais do Desenvolvimento Lean?", "a": "(1) Visão mais orgânica: máxima simplificação, menos formalização, foco em prototipagem, testes e aprendizagem. (2) Retardar ao máximo as decisões de detalhe, como tolerâncias.", "t": "novas"}, {"q": "No Lean, qual é o papel do gerente de projeto?", "a": "Além de coordenador e motivador, ele é um tutor — orienta o processo de aprendizagem dos engenheiros e técnicos sob sua supervisão, em busca de inovação constante.", "t": "novas"}, {"q": "Por que o Lean prega diminuir a formalização do processo?", "a": "Porque as atividades de formalização não agregam valor — conceito trazido da manufatura enxuta.", "t": "novas"}, {"q": "Qual o foco do Design for Six Sigma (DFSS)?", "a": "A integração entre necessidades dos clientes, requisitos de produto, especificações e tolerâncias por meio de otimização com ferramentas estatísticas e de simulação.", "t": "novas"}, {"q": "O que a abordagem de Modelos de Maturidade propõe?", "a": "O conceito de níveis de maturidade e o uso de indicadores para avaliar o grau de evolução do processo de desenvolvimento, garantindo implantação e melhoria contínua.", "t": "novas"}, {"q": "O que é o Gerenciamento do Ciclo de Vida dos Produtos (PLM)?", "a": "A integração de todas as etapas do ciclo de vida do produto, incluindo a produção e a integração entre projetos, com uso de recursos de TI.", "t": "novas"}, {"q": "Cite as características comuns às novas abordagens do PDP.", "a": "Simplificar a formalização; ênfase na aprendizagem e em soluções inovadoras (mais tempo avaliando soluções, uso de estatística e modelos computacionais, gestão do conhecimento); níveis de maturidade; gerenciamento do ciclo de vida.", "t": "novas"}, {"q": "Quais são as 4 formas de arranjo organizacional do PDP?", "a": "Funcional, Matricial peso leve, Matricial peso pesado e Por projeto (autônoma).", "t": "arranjos"}, {"q": "O que é uma \"função\" no contexto organizacional?", "a": "Uma área de responsabilidade que envolve alto grau de especialização de conhecimento, em formação e experiência. As clássicas no PDP são Marketing, Engenharia e Manufatura.", "t": "arranjos"}, {"q": "Na estrutura funcional, como é a ligação organizacional?", "a": "Forte pela função — hierarquia, espaço físico próprio, orçamento próprio e um gerente originário da própria unidade.", "t": "arranjos"}, {"q": "Na estrutura por projeto, a quem o indivíduo reporta?", "a": "Ao gerente do projeto, e não ao responsável pela área funcional de origem. Normalmente compartilha espaço físico do projeto.", "t": "arranjos"}, {"q": "O que é um Tiger Team?", "a": "Um time com recursos dedicados exclusivamente a um projeto específico de vital importância para a empresa — exemplo típico de organização por projeto.", "t": "arranjos"}, {"q": "Qual a diferença entre gerente peso pesado e peso leve?", "a": "O peso pesado tem completa autonomia sobre orçamento e avaliação de desempenho do time e decide a alocação de recursos. O peso leve é apenas coordenador/administrador, sem autoridade sobre pessoas nem orçamento.", "t": "arranjos"}, {"q": "Na estrutura matricial, quantos superiores o indivíduo tem?", "a": "Dois: um da organização funcional e outro referente ao projeto.", "t": "arranjos"}, {"q": "Qual a questão principal da organização funcional?", "a": "Como garantir a integração entre as diferentes funções para atingir os objetivos do projeto.", "t": "arranjos"}, {"q": "Qual a questão principal da organização por projeto?", "a": "Como compartilhar o aprendizado de um projeto para outro, já que os times ficam isolados e mudam a cada projeto.", "t": "arranjos"}, {"q": "Que arranjo usar para um projeto de atualização ou ajuste de produto?", "a": "Uma organização funcional pode ser suficiente.", "t": "arranjos"}, {"q": "Que arranjo usar para projetos com alto grau de inovação ou forte natureza de P&D?", "a": "A organização por projeto pura pode ser a mais adequada.", "t": "arranjos"}, {"q": "O que a Toyota fez de diferente na organização do seu PDP?", "a": "Manteve a força de coordenação e integração cross-funcional da organização peso pesado e aumentou a capacidade de coordenar vários projetos simultaneamente, por meio de equipes de coordenadores de projetos.", "t": "arranjos"}, {"q": "Qual a diferença entre gestão estratégica e gestão operacional do PDP?", "a": "A estratégica segue a orientação estratégica da empresa e direciona as decisões operacionais. A operacional cuida do planejamento e controle das atividades rotineiras — requisitos, especificações, avaliações, protótipos, custos e prazos.", "t": "conceito"}, {"q": "O que caracteriza uma empresa com excelência em desenvolvimento de produtos?", "a": "Possui um modelo para o PDP com forte consistência entre seus elementos e tem a gestão estratégica e a operacional devidamente articuladas.", "t": "conceito"}, {"q": "[Q1] Apresente um exemplo de produto classificado como bem de capital e justifique.", "a": "Um torno CNC (ou prensa, trator, tomógrafo). Justificativa: é um bem adquirido por uma organização para PRODUZIR outros bens ou serviços — não é consumido pelo usuário final. Tem vida útil longa, alto valor unitário, e a compra é uma decisão de investimento avaliada por retorno, não por consumo.", "t": "s1-produtos"}, {"q": "[Q2] Classifique um tipo de produto para a área da saúde e justifique.", "a": "Depende do uso: um tomógrafo é bem de capital (o hospital investe nele para prestar serviço, vida longa, decisão de investimento); uma seringa ou luva é bem de consumo não durável (descartável, baixo valor unitário, consumo recorrente); um marca-passo é bem durável de uso final. A justificativa deve sempre apontar quem usa, para quê e por quanto tempo.", "t": "s1-produtos"}, {"q": "[Q3] Apresente um exemplo de servitização e sua proposta de valor.", "a": "Rolls-Royce \"power by the hour\": em vez de vender a turbina, vende horas de voo com disponibilidade garantida (Michelin vendendo km rodado é outro exemplo). Proposta de valor: o cliente não imobiliza capital, paga pelo uso/resultado, e o risco de manutenção e desempenho migra para o fabricante — que passa a ter receita recorrente e interesse em durabilidade.", "t": "s1-produtos"}, {"q": "[Q4] Apresente um exemplo de produtização e sua proposta de valor.", "a": "Uma consultoria que transforma um serviço sob medida em um pacote fechado, padronizado e replicável — escopo, prazo e preço definidos — ou em um software (SaaS). Proposta de valor: preço previsível, entrega padronizada e mais rápida, menor dependência de quem executa; para o fornecedor, escalabilidade.", "t": "s1-produtos"}, {"q": "O que é servitização e o que é produtização?", "a": "Servitização: um fabricante de PRODUTO passa a oferecer serviços/resultado (vende a função, não o bem). Produtização: um prestador de SERVIÇO empacota sua entrega como produto padronizado e replicável. São movimentos em sentidos opostos que convergem para o PSS.", "t": "s1-produtos"}, {"q": "O que é um PSS (Product-Service System)?", "a": "Sistema Produto-Serviço: uma combinação integrada de produtos e serviços que, juntos, entregam valor ao cliente. O foco desloca-se da posse do bem para a função ou o resultado entregue.", "t": "s1-produtos"}, {"q": "O que é valor, no contexto de projeto de produto?", "a": "É a relação entre os benefícios/funções percebidos pelo cliente e os recursos necessários para obtê-los (custo, tempo, esforço). Na Análise de Valor: valor = função ÷ custo. Aumenta-se valor entregando mais função pelo mesmo custo, ou a mesma função por custo menor.", "t": "s1-produtos"}, {"q": "O que é o ciclo de vida do produto (visão de engenharia)?", "a": "Todas as fases desde a concepção até o descarte: projeto, produção, distribuição, uso, manutenção, retirada e descarte/reciclagem. Não confundir com o ciclo de vida de MERCADO (introdução, crescimento, maturidade, declínio), que trata das vendas ao longo do tempo.", "t": "s1-produtos"}, {"q": "[Q5] Defina projeto e processo de negócio, e a diferença entre eles.", "a": "Projeto é um esforço TEMPORÁRIO, com início e fim definidos, para criar um resultado ÚNICO. Processo de negócio é um conjunto de atividades REPETITIVAS e contínuas que transformam entradas em saídas de valor. Diferença: o projeto é único e temporário; o processo é rotineiro e permanente. O PDP é um processo de negócio que contém, dentro dele, diversos projetos de desenvolvimento.", "t": "s1-projeto"}, {"q": "[Q6] Qual a diferença entre os termos Design e Project?", "a": "Design é a atividade de CONCEBER — definir como o produto será, sua forma, função e solução técnica. Project é o EMPREENDIMENTO e sua gestão — escopo, prazo, custo e recursos. O português usa \"projeto\" para os dois, o que gera a confusão: projetar o objeto (design) não é o mesmo que gerenciar o empreendimento (project).", "t": "s1-projeto"}, {"q": "O que é projeto de engenharia, segundo Back et al.?", "a": "O uso de princípios científicos, informações técnicas e imaginação na definição de estruturas, máquinas ou sistemas que desempenhem funções pré-especificadas com máxima economia e eficiência. A responsabilidade da equipe vai das especificações até as instruções de fabricação, uso e descarte.", "t": "s1-projeto"}, {"q": "Quais os elementos da definição de \"projetar\" em Back et al.?", "a": "Meios para fins (projeta-se para uma meta definida, não como exercício abstrato); plano mental (é processo de pensamento, lida com ideias antes de números); plano/esquema (distinto da implementação, admite alternativas); invenção (busca-se algo novo — criatividade é crucial).", "t": "s1-projeto"}, {"q": "O que é o Processo de Desenvolvimento de Produtos (PDP)?", "a": "Conjunto de atividades pelas quais, a partir das necessidades do mercado, das possibilidades e restrições tecnológicas e das estratégias da empresa, chega-se às especificações de projeto do produto e do seu processo de produção — incluindo o acompanhamento pós-lançamento, as mudanças necessárias e a descontinuidade planejada do produto.", "t": "s1-pdp"}, {"q": "Por que se diz que o PDP está na interface entre a empresa e o mercado?", "a": "Porque cabe a ele identificar — e até antecipar — as necessidades do mercado e propor soluções (produtos e serviços) que as atendam. Daí sua importância estratégica.", "t": "s1-pdp"}, {"q": "Cite as principais características que diferenciam o PDP dos outros processos de negócio.", "a": "Elevado grau de incerteza e risco; decisões importantes tomadas no início, quando as incertezas são maiores; dificuldade de mudar as decisões iniciais; ciclo iterativo Projetar-Construir-Testar-Otimizar; alto volume de informações; informações vindas de muitas fontes e áreas; multiplicidade de requisitos de todas as fases do ciclo de vida.", "t": "s1-pdp"}, {"q": "Qual é o ciclo iterativo típico das atividades do PDP?", "a": "Projetar (gerar alternativas) → Construir → Testar → Otimizar. O que se projeta-constrói-testa-otimiza pode ser um conceito, uma especificação ou uma tolerância, do produto ou do processo.", "t": "s1-pdp"}, {"q": "[Q12] O que se pode afirmar sobre o impacto das decisões ao longo do PDP?", "a": "As decisões técnicas tomadas no INÍCIO do desenvolvimento comprometem cerca de 85% do custo final do produto (Rozenfeld) — Back et al. citam ~70%. Tudo o que se decide depois responde pelos 15% restantes. Ou seja: o custo do produto é definido muito antes de ser gasto.", "t": "s1-pdp"}, {"q": "Se as decisões iniciais definem o custo, qual é o paradoxo do PDP?", "a": "Exatamente quando se tomam as decisões mais determinantes do custo final, é quando se tem o MAIOR grau de incerteza — sobre o produto, suas especificações, o processo de fabricação e o sucesso no mercado. A incerteza só diminui conforme as definições vão sendo tomadas.", "t": "s1-pdp"}, {"q": "[Q11] O que se pode afirmar sobre os custos de mudança de projeto ao longo do ciclo?", "a": "O custo de modificar uma decisão anterior CRESCE ao longo do desenvolvimento, porque decisões já tomadas e ações já realizadas são invalidadas. Back et al.: a cada fase que avança, o custo da mudança pode chegar a um fator dez vezes maior que o da fase anterior.", "t": "s1-pdp"}, {"q": "Qual a relação entre o custo do projeto e o custo total do produto?", "a": "O custo da atividade de projeto é da ordem de apenas 5% do total, mas as decisões tomadas nessa fase afetam cerca de 70% do custo final do produto (Back et al.).", "t": "s1-pdp"}, {"q": "[Q9] Descreva os tipos de projetos de desenvolvimento de produtos pelo grau de mudança.", "a": "Radicais (breakthrough): modificações significativas no produto ou processo, com novas tecnologias e materiais, podendo criar nova categoria ou família — costumam exigir manufatura também inovadora. Plataforma / próxima geração: alterações significativas SEM novas tecnologias, formando um novo sistema de soluções ou a estrutura básica comum de uma família. Derivativos / incrementais: pequenas alterações sobre projetos existentes. Somam-se ainda os projetos de pesquisa avançada (antecedem o desenvolvimento comercial) e os de parceria/follow-source.", "t": "s1-pdp"}, {"q": "O que caracteriza um projeto plataforma?", "a": "Representa alterações significativas no produto e/ou processo sem introduzir novas tecnologias ou materiais, entregando um novo sistema de soluções ao cliente. Para funcionar como plataforma, deve sustentar toda uma geração de produtos e ter ligação com as gerações anterior e posterior.", "t": "s1-pdp"}, {"q": "Qual é o critério de classificação de projetos de desenvolvimento mais comum e útil?", "a": "O grau de mudanças que o projeto representa em relação a projetos anteriores. A classificação varia conforme o setor — a do setor automobilístico difere da do alimentício.", "t": "s1-pdp"}, {"q": "Por que o retrabalho no PDP é menos visível que na manufatura?", "a": "Porque na manufatura existe uma especificação e se controla o processo para atingi-la, tornando o retrabalho definido e quantificável. No PDP, o retrabalho aparece diluído na própria natureza iterativa do ciclo Projetar-Construir-Testar-Otimizar — é menos visível, mas não menos custoso.", "t": "s1-pdp"}, {"q": "Historicamente, do que se achava que dependia o sucesso no desenvolvimento de produtos?", "a": "Da genialidade dos profissionais e do volume de recursos financeiros alocados. Acreditava-se que a incerteza e a criatividade inviabilizariam disciplinar e gerenciar o processo. Casos bem-sucedidos mostraram o contrário: o desempenho depende também, e muito, do modelo e das práticas de gestão.", "t": "s1-pdp"}, {"q": "Qual é o papel típico do PDP no Brasil?", "a": "Concentra-se em grande parte na adaptação e melhoria de produtos existentes — adequação do projeto ao mercado local, aos fornecedores e aos processos disponíveis. Há exceções de competência local reconhecida, como a Embraer e o desenvolvimento de carros populares, ônibus, caminhões e compressores herméticos.", "t": "s1-pdp"}];
+const TAGS  = {"s1-produtos": "S1 · Produtos, PSS e valor", "s1-projeto": "S1 · Projeto e processo", "s1-pdp": "S1 · O PDP e seus custos", "eras": "S1 · Eras e panorama", "conceito": "S1 · Conceitos gerais", "sequencial": "S1 · Era Sequencial", "integrado": "S1 · Era Integrada", "novas": "S1 · Novas abordagens", "arranjos": "S2 · Arranjos organizacionais"};
+const SEMANA1 = ["s1-produtos", "s1-projeto", "s1-pdp", "eras", "conceito", "sequencial", "integrado", "novas"];
+
+// ---- estado tipo Anki: fila de aprendizagem dentro da sessao ----
+let fila = [], prontas = 0, virado = false, filtro = '__s1__', travadas = [], vistos = 0;
+
+const PASSOS = {1:3, 2:7, 3:11};   // em quantas posicoes o cartao reaparece
+const GRADUA = {1:0, 2:1, 3:1, 4:2}; // quanto avanca no "aprendizado" (precisa de 2)
+const TETO   = 6;                  // maximo de revisoes por cartao na sessao —
+                                   // sem isso, alternar "de novo"/"bom" prende o cartao pra sempre
+
+function montarFiltros(){
+  const d = document.getElementById('filtros');
+  const nS1 = TODOS.filter(c=>SEMANA1.includes(c.t)).length;
+  let h = '<button class="destaque on" onclick="setFiltro(\'__s1__\',this)">★ Cai no teste de hoje ('+nS1+')</button>';
+  h += '<button onclick="setFiltro(null,this)">Todas ('+TODOS.length+')</button>';
+  for(const [k,nome] of Object.entries(TAGS)){
+    const n = TODOS.filter(c=>c.t===k).length;
+    if(n) h += '<button onclick="setFiltro(\''+k+'\',this)">'+nome+' ('+n+')</button>';
+  }
+  d.innerHTML = h;
+}
+function setFiltro(t, bt){
+  filtro = t;
+  document.querySelectorAll('#filtros button').forEach(b=>b.classList.remove('on'));
+  bt.classList.add('on');
+  reiniciar();
+}
+function reiniciar(){
+  const base = filtro === '__s1__' ? TODOS.filter(c=>SEMANA1.includes(c.t))
+             : filtro ? TODOS.filter(c=>c.t===filtro) : TODOS;
+  fila = base.map(c=>({...c, nivel:0, novo:true}));
+  baralhar(fila);
+  prontas = 0; travadas = []; vistos = 0;
+  document.getElementById('fim').classList.add('hide');
+  document.getElementById('area').classList.remove('hide');
+  mostrar();
+}
+function soDificeis(){
+  if(!travadas.length){ alert('Nenhum cartão travou nesta rodada.'); return; }
+  fila = travadas.map(c=>({...c, nivel:0, novo:false}));
+  baralhar(fila);
+  prontas = 0; travadas = []; vistos = 0;
+  document.getElementById('fim').classList.add('hide');
+  document.getElementById('area').classList.remove('hide');
+  mostrar();
+}
+function baralhar(a){
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+}
+function embaralhar(){ baralhar(fila); mostrar(); }
+
+function mostrar(){
+  if(!fila.length) return terminar();
+  const c = fila[0];
+  virado = false;
+  document.getElementById('tag').textContent = TAGS[c.t] || c.t;
+  document.getElementById('q').textContent = c.q;
+  const a = document.getElementById('a');
+  a.textContent = c.a; a.classList.add('hide');
+  document.getElementById('dica').classList.remove('hide');
+  document.getElementById('avaliar').classList.add('hide');
+  document.getElementById('btMostrar').classList.remove('hide');
+  resetCard();
+  atualizarContadores();
+}
+function atualizarContadores(){
+  const novas = fila.filter(c=>c.novo).length;
+  const aprend = fila.length - novas;
+  const total = prontas + fila.length;
+  document.getElementById('cNovas').textContent = novas;
+  document.getElementById('cAprend').textContent = aprend;
+  document.getElementById('cPront').textContent = prontas;
+  document.getElementById('pbarra').style.width = (total ? prontas/total*100 : 0)+'%';
+  document.getElementById('fundoCard').style.visibility = fila.length>1 ? 'visible' : 'hidden';
+}
+function virar(){
+  if(virado || !fila.length) return;
+  virado = true;
+  document.getElementById('a').classList.remove('hide');
+  document.getElementById('dica').classList.add('hide');
+  document.getElementById('btMostrar').classList.add('hide');
+  document.getElementById('avaliar').classList.remove('hide');
+}
+function avaliar(nota){
+  if(!virado || !fila.length) return;
+  const c = fila.shift();
+  c.novo = false;
+  c.vezes = (c.vezes || 0) + 1;
+  vistos++;
+  if(nota === 1 && !travadas.some(t=>t.q===c.q)) travadas.push(c);
+  c.nivel = nota === 1 ? 0 : c.nivel + GRADUA[nota];
+  if(c.nivel >= 2 || c.vezes >= TETO){
+    prontas++;
+  } else {
+    const pos = Math.min(PASSOS[nota] || 5, fila.length);
+    fila.splice(pos, 0, c);
+  }
+  const dir = nota <= 2 ? -1 : 1;
+  animarSaida(dir, mostrar);
+}
+function terminar(){
+  document.getElementById('area').classList.add('hide');
+  document.getElementById('fim').classList.remove('hide');
+  document.getElementById('pbarra').style.width = '100%';
+  document.getElementById('resumo').textContent =
+    prontas + (prontas===1?' cartão dominado':' cartões dominados') + ' em ' + vistos + ' revisões. ' +
+    (travadas.length ? travadas.length + ' travaram pelo menos uma vez.' : 'Nenhum travou.');
+}
+
+// ---------------- arrastar (mouse + toque) ----------------
+const card = document.getElementById('card');
+const seloBom = document.getElementById('seloBom');
+const seloNovo = document.getElementById('seloNovo');
+let x0=0, y0=0, dx=0, arrastando=false, pid=null;
+const LIMITE = 95;
+
+function resetCard(){
+  card.classList.remove('solta','arrastando');
+  card.style.transform = ''; card.style.opacity = '';
+  seloBom.style.opacity = 0; seloNovo.style.opacity = 0;
+  dx = 0;
+}
+card.addEventListener('pointerdown', e=>{
+  if(!virado || !fila.length) return;
+  arrastando = true; pid = e.pointerId;
+  x0 = e.clientX; y0 = e.clientY;
+  card.setPointerCapture(pid);
+  card.classList.add('arrastando'); card.classList.remove('solta');
+});
+card.addEventListener('pointermove', e=>{
+  if(!arrastando || e.pointerId !== pid) return;
+  dx = e.clientX - x0;
+  const dy = (e.clientY - y0) * .25;
+  card.style.transform = 'translate('+dx+'px,'+dy+'px) rotate('+(dx/22)+'deg)';
+  const f = Math.min(Math.abs(dx)/LIMITE, 1);
+  seloBom.style.opacity  = dx > 0 ? f : 0;
+  seloNovo.style.opacity = dx < 0 ? f : 0;
+});
+function soltar(e){
+  if(!arrastando || (e && e.pointerId !== pid)) return;
+  arrastando = false;
+  card.classList.remove('arrastando'); card.classList.add('solta');
+  if(Math.abs(dx) >= LIMITE){ avaliar(dx > 0 ? 3 : 1); }
+  else { card.style.transform=''; seloBom.style.opacity=0; seloNovo.style.opacity=0; }
+}
+card.addEventListener('pointerup', soltar);
+card.addEventListener('pointercancel', soltar);
+
+function animarSaida(dir, depois){
+  card.classList.add('solta');
+  card.style.transform = 'translate('+(dir*window.innerWidth)+'px,40px) rotate('+(dir*22)+'deg)';
+  card.style.opacity = '0';
+  setTimeout(()=>{ depois(); }, 190);
+}
+
+// clique simples revela (sem conflitar com arrasto)
+card.addEventListener('click', e=>{ if(Math.abs(dx) < 6) virar(); });
+
+document.addEventListener('keydown', e=>{
+  if(e.code==='Space' || e.code==='Enter'){ e.preventDefault(); virar(); return; }
+  if(['1','2','3','4'].includes(e.key)) avaliar(Number(e.key));
+  if(e.key==='ArrowLeft')  avaliar(1);
+  if(e.key==='ArrowRight') avaliar(3);
+});
+
+montarFiltros();
+reiniciar();
+</script>
