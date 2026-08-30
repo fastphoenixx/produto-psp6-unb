@@ -210,6 +210,18 @@ Close a defensible problem context and prepare the five-minute August 31 present
 
 *[Codex — 2026-08-25]*
 
+#### Final banca revision after team review — 2026-08-30
+
+- Applied Larissa's review that the previous version did not sufficiently demonstrate why the topic is a relevant problem.
+- Removed the four-panel construction-site evidence slide from the five-minute deck.
+- Preserved the stronger process/boundary slide as the first content slide and inserted the evidence-based scale slide immediately after it.
+- Restored ANFACER's Brazilian sector data and the international 3–5% commercial purchasing buffer with an explicit warning that it is not a Brazilian breakage rate.
+- Strengthened the problem slide with Lucas's limited testimony and Rodrigo's distributor evidence while preserving the evidence limits.
+- Rewrote the complete 4min45s speaking script and divided it among Arthur, Larissa, Rodrigo, Pedro, and Igor.
+- Rendered and visually reviewed all six slides and the final six-page screenshot-based PDF.
+
+*[Codex — 2026-08-30]*
+
 ## Weekly update template
 
 Copy this section for each new week.

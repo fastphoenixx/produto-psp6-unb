@@ -141,13 +141,13 @@
 </div></div>
 <script>
 (function(){
-  var keep=['slide-abertura','slide-cadeia','slide-evidencias','slide-distribuicao','slide-patentes','slide-opportunity-statement'];
+  var keep=['slide-abertura','slide-cadeia','slide-estatisticas','slide-distribuicao','slide-patentes','slide-opportunity-statement'];
   document.querySelectorAll('.slide').forEach(function(slide){if(keep.indexOf(slide.dataset.odId)<0)slide.remove()});
 
   var cover=document.querySelector('[data-od-id="slide-abertura"]');
   cover.dataset.screenLabel='01 Abertura';
   cover.querySelector('.kicker').textContent='PSP6 · Entrega 1 · Banca';
-  cover.querySelector('.sub').textContent='Sustentação e delimitação do problema';
+  cover.querySelector('.sub').textContent='Por que a avaria na entrega é um problema de projeto';
   cover.querySelector('.question').textContent='Avarias no transporte entre distribuidor e obra';
   cover.querySelector('.meta').textContent='Equipe 2 · Engenharia de Produto + PSP6 · UnB · 31 ago. 2026';
 
@@ -158,25 +158,21 @@
   ['estoque do distribuidor →','separação do pedido →','produto embalado →','recebimento e conferência →','destino na obra'].forEach(function(label,i){chain.querySelectorAll('.flow-label')[i].textContent=label});
   chain.querySelector('.question-band').textContent='Recorte: danos que surgem ou chegam ocultos durante a entrega e só aparecem na descarga ou na conferência.';
 
-  var evidence=document.querySelector('[data-od-id="slide-evidencias"]');
-  evidence.dataset.screenLabel='03 Evidências e limites';
-  var cards=evidence.querySelectorAll('.e-zone');
-  var evidenceCopy=[
-    ['01 · Contexto de obra','Recebimento e estoque','Registros de campo contextualizam o recebimento, o armazenamento e a movimentação em uma obra residencial em acabamento.'],
-    ['02 · Distribuidor','Transporte apontado como dor','Na visita de Rodrigo, o distribuidor associou as avarias principalmente ao trecho entre o estoque da loja e a obra.'],
-    ['03 · Operário','Peças chegam trincadas','Lucas relatou peças já trincadas, quedas durante a descarga e transporte manual quando o carrinho não tem acesso.'],
-    ['04 · Limite da evidência','Ainda não quantificamos','A entrevista não comprova acidentes nem a taxa de quebra. Frequência, custo e causa dominante ainda precisam de medição.']
-  ];
-  cards.forEach(function(card,i){card.querySelector('.kicker').textContent=evidenceCopy[i][0];card.querySelector('h2').textContent=evidenceCopy[i][1];card.querySelector('p').textContent=evidenceCopy[i][2]});
+  var stats=document.querySelector('[data-od-id="slide-estatisticas"]');
+  chain.parentNode.insertBefore(chain,stats);
+  stats.dataset.screenLabel='03 Dimensão do problema';
+  stats.querySelector('.kicker').textContent='02 · Escala e benchmark';
+  stats.querySelector('h2').textContent='22 milhões de peças por ano circulam por uma cadeia de produtos frágeis';
+  stats.querySelector('.stats-foot p:first-child').textContent='A escala amplia a exposição logística. O mercado internacional já recomenda margem de compra para cobrir perdas, mas o Brasil ainda não possui taxa pública específica para o trecho distribuidor → obra.';
 
   var pain=document.querySelector('[data-od-id="slide-distribuicao"]');
-  pain.dataset.screenLabel='04 Problema delimitado';
+  pain.dataset.screenLabel='04 Evidência e problema';
   pain.querySelector('.kicker').textContent='03 · Problema delimitado';
-  pain.querySelector('h2').textContent='A avaria transfere custo e retrabalho para toda a entrega';
+  pain.querySelector('h2').textContent='A avaria transfere custo, prazo e retrabalho para toda a entrega';
   var painCards=pain.querySelectorAll('.distribution-card');
   var painCopy=[
-    ['Onde aparece','Descarga / conferência','A peça pode chegar trincada ou sofrer queda na descarga. O dano nem sempre é visível antes da abertura.'],
-    ['Quem responde','Distribuidor','Quando a avaria é identificada na entrega, o distribuidor relata assumir crédito, reposição e nova logística.'],
+    ['Evidência local','Chega trincada','Lucas relatou peças já trincadas e quedas na descarga. Ele não presenciou acidentes nem quantificou a frequência.'],
+    ['Quem responde','Distribuidor','Na visita de Rodrigo, o distribuidor relatou assumir crédito, reposição e uma nova entrega quando a avaria é identificada.'],
     ['Por que persiste','Proteção × custo','Proteções mais robustas existem, mas precisam caber no preço e na rotina de uma operação com muitos produtos.']
   ];
   painCards.forEach(function(card,i){card.querySelector('b').textContent=painCopy[i][0];card.querySelector('strong').textContent=painCopy[i][1];card.querySelector('p').textContent=painCopy[i][2]});
@@ -204,5 +200,5 @@
 </script>
 <nav class="deck-counter" role="navigation" aria-label="Navegação"><button type="button" id="deck-prev">‹</button><span><span id="deck-cur">01</span> / <span id="deck-total">10</span></span><button type="button" id="deck-next">›</button></nav><div class="deck-hint">← / → · espaço · R reinicia</div>
 <script>(function(){var stage=document.getElementById('deck-stage'),slides=[].slice.call(document.querySelectorAll('.slide')),prev=document.getElementById('deck-prev'),next=document.getElementById('deck-next'),cur=document.getElementById('deck-cur'),total=document.getElementById('deck-total'),STORE='deck:idx:'+(location.pathname||'/'),idx=0;function fit(){var sw=innerWidth,sh=innerHeight,pad=new URLSearchParams(location.search).has('render')?0:32,s=Math.min((sw-pad)/1920,(sh-pad)/1080);if(!isFinite(s)||s<=0)s=1;stage.style.transform='translate('+((sw-1920*s)/2)+'px,'+((sh-1080*s)/2)+'px) scale('+s+')'}function p(n){return(n<10?'0':'')+n}function paint(){slides.forEach(function(el,i){el.classList.toggle('active',i===idx)});cur.textContent=p(idx+1);total.textContent=p(slides.length);prev.toggleAttribute('disabled',idx<=0);next.toggleAttribute('disabled',idx>=slides.length-1)}function go(i){idx=Math.max(0,Math.min(slides.length-1,i));paint();try{localStorage.setItem(STORE,String(idx))}catch(_){}}function onKey(e){if(e.__odDeckKeyHandled)return;var t=e.target;if(t&&(t.tagName==='INPUT'||t.tagName==='TEXTAREA'||t.isContentEditable))return;if(e.metaKey||e.ctrlKey||e.altKey||e.shiftKey)return;if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.__odDeckKeyHandled=true;e.preventDefault();go(idx+1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.__odDeckKeyHandled=true;e.preventDefault();go(idx-1)}else if(e.key==='Home'||String(e.key).toLowerCase()==='r'){e.__odDeckKeyHandled=true;e.preventDefault();go(0)}else if(e.key==='End'){e.__odDeckKeyHandled=true;e.preventDefault();go(slides.length-1)}}window.addEventListener('keydown',onKey,true);document.addEventListener('keydown',onKey,true);prev.onclick=function(){go(idx-1)};next.onclick=function(){go(idx+1)};document.addEventListener('click',function(e){if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.altKey||e.shiftKey)return;var t=e.target;while(t&&t!==document.body){if(/^(A|BUTTON|INPUT|TEXTAREA|SELECT)$/.test(t.tagName)||t.isContentEditable)return;t=t.parentElement}focusDeck();go(e.clientX<innerWidth/2?idx-1:idx+1)},true);document.body.tabIndex=-1;document.body.style.outline='none';function focusDeck(){try{window.focus();document.body.focus({preventScroll:true})}catch(_){}}window.addEventListener('load',focusDeck);try{var saved=parseInt(localStorage.getItem(STORE)||'0',10);if(!isNaN(saved)&&saved>=0&&saved<slides.length)idx=saved;var requested=parseInt(new URLSearchParams(location.search).get('slide')||'',10);if(!isNaN(requested)&&requested>=1&&requested<=slides.length)idx=requested-1}catch(_){}window.addEventListener('resize',fit);fit();paint();focusDeck()})();</script>
-<!-- *[Codex — 2026-08-24]* -->
+<!-- *[Codex — 2026-08-30]* -->
 </body></html>
