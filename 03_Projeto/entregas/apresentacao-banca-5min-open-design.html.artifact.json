@@ -7,11 +7,11 @@
   "status": "complete",
   "exports": ["html", "pdf", "zip"],
   "createdAt": "2026-08-25T12:47:55.000Z",
-  "updatedAt": "2026-08-30T21:58:52.000Z",
+  "updatedAt": "2026-08-31T21:55:32.000Z",
   "metadata": {
     "inferred": false,
     "designSystemId": "user:unb",
     "slideCount": 6,
-    "author": "Codex — 2026-08-30"
+    "author": "Codex — 2026-08-31"
   }
 }

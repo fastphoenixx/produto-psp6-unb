@@ -165,6 +165,17 @@ Close a defensible problem context and prepare the five-minute August 31 present
 
 *[Codex — 2026-08-23]*
 
+## 2026-08-31 — Ajustes finais da apresentação para a banca
+
+- Corrigida a quebra da palavra “Problema” no slide final.
+- Substituídos os dados centrais do slide de dimensão por 18,9% de acidentes da construção associados a cortes, lacerações e feridas e pelo intervalo médio estimado de 51 segundos entre acidentes de trabalho no Brasil.
+- Incluída ressalva explícita de que esses indicadores contextualizam a exposição ocupacional e não comprovam causalidade com louças sanitárias.
+- Acrescentados ao slide de processo benchmarks internacionais de avaria e a ausência de uma taxa brasileira pública para o trecho distribuidor–obra.
+- Recolocadas as quatro imagens das patentes na metade inferior do penúltimo slide.
+- Roteiro oral atualizado para refletir os dados e seus limites.
+
+*[Codex — 2026-08-31]*
+
 *[Codex — 2026-08-24]*
 
 #### Week outcome

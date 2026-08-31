@@ -10,15 +10,15 @@ Boa noite. Nosso projeto investiga as avarias de louças sanitárias durante o t
 
 ### Slide 2 — processo e recorte | 0:25–1:00
 
-Mapeamos a entrega desde o estoque do distribuidor até o recebimento na obra: separação, transporte, descarga e conferência. A avaria pode surgir nesse percurso e permanecer oculta pela embalagem. Por isso, ela muitas vezes só é percebida quando a peça é descarregada ou aberta. Com as entrevistas e visitas, delimitamos o problema nesse trecho, sem incluir a movimentação posterior dentro da obra.
+Mapeamos a entrega desde o estoque do distribuidor até o recebimento na obra: separação, transporte, descarga e conferência. A avaria pode surgir nesse percurso e permanecer oculta pela embalagem. Os benchmarks encontrados variam de 1% a 3% para cargas bem embaladas e de 2% a 5% para materiais de construção; fornecedores de louça recomendam comprar de 3% a 5% a mais. Essas faixas são referências internacionais, pois não encontramos uma taxa brasileira pública para o trecho distribuidor–obra.
 
 ## Larissa — slide 3 | 1:00–1:45
 
 ### Slide 3 — dimensão do problema
 
-O Brasil produz aproximadamente 22 milhões de louças sanitárias por ano, em 26 unidades fabris distribuídas por oito estados. Isso mostra uma cadeia de grande escala, na qual produtos frágeis passam repetidamente por transporte, descarga e conferência.
+O Brasil produz aproximadamente 22 milhões de louças sanitárias por ano, o que mostra a escala de uma cadeia que transporta produtos frágeis. Nesse contexto, 18,9% dos acidentes da construção são cortes, lacerações e feridas. No país, o intervalo médio estimado entre acidentes de trabalho é de 51 segundos.
 
-Como referência comercial internacional, fornecedores recomendam uma margem adicional de compra entre 3% e 5% para cobrir perdas em produtos cerâmicos. Esse percentual não é uma taxa brasileira de quebra. Ele mostra que o mercado já reconhece a perda como risco operacional. No Brasil, ainda não encontramos uma taxa pública específica para o trecho entre distribuidor e obra.
+Esses dados não provam que as louças causaram esses acidentes; eles dimensionam a exposição dos trabalhadores. Somados ao buffer internacional de 3% a 5% para louças, justificam investigar a frequência real de quebras e o manuseio de peças danificadas na distribuidora.
 
 ## Rodrigo — slide 4 | 1:45–2:50
 
@@ -58,4 +58,4 @@ Essa formulação define o processo, o impacto e a principal restrição econôm
 
 ---
 
-*[Codex — 2026-08-30]*
+*[Codex — 2026-08-31]*
