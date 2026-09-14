@@ -1,0 +1,62 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{ANFACER}(2026)]{anfacer2026}
+{ANFACER}.
+\newblock Números do setor, 2026.
+\newblock Dados reproduzidos na apresentação do projeto, acesso indicado em
+  23 ago. 2026.
+
+\bibitem[Back et~al.(2008)Back, Ogliari, Dias, and Silva]{back2008}
+Nelson Back, André Ogliari, Acires Dias, and Jonny Carlos~da Silva.
+\newblock \emph{Projeto integrado de produtos: planejamento, concepção e
+  modelagem}.
+\newblock Manole, 2008.
+
+\bibitem[{Equipe 2}(2026)]{equipe2026}
+{Equipe 2}.
+\newblock Louças sanitárias em trânsito: levantamento das informações e
+  sustentação do problema.
+\newblock Apresentação da Semana 03, disciplina PSP6, Universidade de
+  Brasília, 2026.
+\newblock 24 ago. 2026.
+
+\bibitem[Fonseca(2000)]{fonseca2000}
+Antônio Jorge~Hernández Fonseca.
+\newblock \emph{Sistematização do processo de obtenção das especificações
+  de projeto de produtos industriais e sua implementação computacional}.
+\newblock Tese de doutorado em engenharia mecânica, Universidade Federal de
+  Santa Catarina, Florianópolis, 2000.
+
+\bibitem[Groff et~al.(2019)]{us2019}
+Groff et~al.
+\newblock {US10301097B2}: Shipping container for packaging fragile products,
+  2019.
+
+\bibitem[{Inventor não identificado no material-base}(2007)]{jp2007}
+{Inventor não identificado no material-base}.
+\newblock {JP2007186235A}: Sistema com amortecedores moldados e aberturas de
+  conferência, 2007.
+
+\bibitem[{Inventor não identificado no material-base}(2022)]{cn2022}
+{Inventor não identificado no material-base}.
+\newblock {CN114194553A}: Estrutura dobrável para proteção contra pressão,
+  vibração e queda, 2022.
+
+\bibitem[{Mance Corporation of Indiana}(2015)]{us2015}
+{Mance Corporation of Indiana}.
+\newblock {US20150014208A1}: Packaging system for toilet components, 2015.
+
+\bibitem[Rozenfeld et~al.(2006)Rozenfeld, Forcellini, Amaral, Toledo, Silva,
+  Alliprandini, and Scalice]{rozenfeld2006}
+Henrique Rozenfeld, Fernando~A. Forcellini, Daniel~C. Amaral, José C.~de
+  Toledo, Sérgio L.~da Silva, Dário~H. Alliprandini, and Régis~K. Scalice.
+\newblock \emph{Gestão de desenvolvimento de produtos: uma referência para a
+  melhoria do processo}.
+\newblock Saraiva, 2006.
+
+\end{thebibliography}

@@ -1,0 +1,71 @@
+\clearpage
+\section{PRÉ-DESENVOLVIMENTO}
+
+\subsection{Contextualização do Problema}
+
+Louças sanitárias percorrem uma cadeia composta por fabricação e distribuição, transporte externo, recebimento, movimentação interna e instalação. Como o momento em que o dano se torna visível pode não coincidir com sua origem, a equipe decompôs o fluxo em etapas com atores, operações e riscos distintos. O levantamento inicial combinou mapeamento do fluxo, observação em obra residencial, escuta de atores envolvidos e busca preliminar de anterioridade tecnológica.
+
+\begin{table}[H]
+\caption{Etapas da cadeia consideradas na definição do problema}
+\label{tab:cadeia}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{L{2.7cm}YYL{2.6cm}}
+\toprule
+\textbf{Etapa} & \textbf{Operação principal} & \textbf{Sinal observado} & \textbf{Questão de projeto} \\
+\midrule
+Fabricação e distribuição & Preparar, acondicionar, armazenar e expedir & O setor possui escala industrial e rede distribuída & Como embalagem e unitização afetam o dano latente? \\
+Transporte externo & Levar o produto do estoque à obra & O distribuidor associa a esse trecho a maior parte das avarias relatadas & Quais impactos, vibrações, tombamentos e manuseios ocorrem? \\
+Recebimento e abertura & Descarregar, conferir e abrir a embalagem & Há relatos de peças que chegam trincadas & Quando o dano fica visível e como conferir com segurança? \\
+Movimentação interna & Levar a louça até o ponto de instalação & Há transporte manual quando o carrinho não acessa o local & Quais restrições de acesso precisam ser consideradas? \\
+Instalação & Posicionar, fixar e testar & Avarias anteriores podem aparecer nessa etapa & Como evitar retrabalho e exposição a fragmentos? \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir do levantamento da Semana 03 \citep{equipe2026}.}
+\end{table}
+
+A visita à obra ofereceu o contexto de recebimento, estoque e movimentação das louças. O distribuidor visitado associou as principais avarias ao transporte entre seu estoque e a obra. Um trabalhador relatou peças que chegam trincadas, quedas durante a descarga e transporte manual quando o acesso impede o uso de carrinho. Esses achados sustentam o recorte inicial, mas ainda não medem frequência, severidade econômica ou contribuição relativa de cada evento logístico \citep{equipe2026}.
+
+A apresentação do projeto registra 22 milhões de peças produzidas por ano no Brasil, 26 unidades fabris de médio e grande porte, presença produtiva em oito estados e aproximadamente sete mil empregos diretos. Os números indicam uma cadeia industrial extensa, mas não fornecem uma taxa de quebra e não permitem estimar perdas sem dados adicionais \citep{equipe2026,anfacer2026}.
+
+\subsection{Contextualização das Dores}
+
+A quebra pode permanecer oculta até o recebimento ou a instalação. Quando isso ocorre, o distribuidor pode absorver reposição e nova logística; a obra enfrenta atraso e retrabalho; e os trabalhadores podem ficar expostos a quedas, esforço adicional e fragmentos cortantes. A formulação do problema separa três questões que deverão ser verificadas: onde o dano surge, quando ele é detectado e quem absorve suas consequências.
+
+\begin{quote}
+\itshape
+A quebra no transporte entre distribuidor e obra pode permanecer oculta até o recebimento ou a instalação. O evento gera reposição, nova entrega, atraso, desperdício e exposição do trabalhador a peças avariadas ou fragmentos cortantes.
+\end{quote}
+
+\subsection{Público Alvo}
+
+O público diretamente afetado inclui distribuidores de louças sanitárias, motoristas e ajudantes responsáveis pelo transporte e pela descarga, responsáveis pelo recebimento, trabalhadores da obra, instaladores, compradores e clientes finais. A definição de quem exerce o papel de comprador, usuário operacional, cliente intermediário e cliente externo ainda será validada no projeto informacional.
+
+\subsection{Legislação e Normas}
+
+\etapafutura{O levantamento das normas aplicáveis ao transporte, à embalagem, à movimentação, à segurança do trabalho e ao descarte será incorporado após a definição da fronteira técnica da solução.}
+
+\pendente{Identificar somente normas e requisitos legais diretamente aplicáveis ao recorte confirmado, registrando versão, item e implicação para o projeto.}
+
+\subsection{Soluções existentes no mercado}
+
+A busca inicial reuniu quatro documentos de patente voltados à proteção de louças ou itens frágeis em transporte. As propostas recorrem a encaixes de papelão, amortecedores moldados, estruturas dobráveis e estruturas corrugadas. O padrão recorrente combina amortecimento, imobilização, resistência e otimização de volume \citep{us2015,jp2007,cn2022,us2019}. O levantamento deverá ser complementado por soluções comercializadas e pela análise de reivindicações, famílias e situação legal das patentes antes de orientar uma concepção.
+
+\subsection{Proposta de Valor}
+
+Como oportunidade de projeto, a equipe formulou a seguinte pergunta:
+
+\begin{quote}
+\bfseries
+Como reduzir as avarias de louças sanitárias no transporte entre o distribuidor e a obra, diminuindo custos de reposição, atrasos e riscos aos trabalhadores, sem inviabilizar comercialmente o produto ou a operação?
+\end{quote}
+
+O enunciado não prescreve forma, material ou mecanismo. Ele admite intervenções no produto, na embalagem, na unitização, no equipamento de movimentação, no processo de conferência ou em uma combinação desses elementos.
+
+\subsection{Custo-Meta}
+
+\etapafutura{O custo-meta será definido depois da identificação do comprador, da estimativa das perdas atuais e da validação da disposição a pagar por uma solução.}
+
+\subsection{Encerramento da fase de Pré-Desenvolvimento}
+
+O pré-desenvolvimento delimitou um problema de cadeia, com fronteira inicial no transporte entre o distribuidor e a obra. A convergência de relatos orienta a investigação, mas não estabelece prevalência ou causalidade. Para avançar, a equipe deverá validar os atores, detalhar o ciclo de vida, registrar as necessidades e obter dados de avaria segmentados por tipo de louça, rota, transportador e etapa de manuseio.

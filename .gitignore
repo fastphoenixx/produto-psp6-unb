@@ -29,6 +29,14 @@ _inbox/
 .DS_Store
 Thumbs.db
 
+# Scratch/build output and dependencies (Eng Produto folder)
+Eng Produto/tmp/
+**/node_modules/
+
+# Textbooks too large for GitHub (exceed size limits, not for redistribution)
+Eng Produto/Engenharia de Produto - cópia/Curso/CANVAS/Business Model Generation_ A Handbook for Visionaries, Game Changers, and Challengers.pdf
+Eng Produto/Engenharia de Produto - cópia/Curso/Livros/Ulrich & Eppinger 6 ed.pdf
+
 # Temporary and generated system files
 *.tmp
 *.swp

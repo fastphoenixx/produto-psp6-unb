@@ -1,0 +1,30 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+% Estrutura principal do relatório.
+% Dados de identificação: dados-projeto.tex
+% Formatação: configuracao.tex
+% Conteúdo: pasta secoes/
+\input{configuracao}
+\input{dados-projeto}
+
+\begin{document}
+
+\input{secoes/00-elementos-pre-textuais}
+\input{secoes/01-introducao}
+\input{secoes/02-pre-desenvolvimento}
+\input{secoes/03-projeto-informacional}
+\input{secoes/04-projeto-conceitual}
+\input{secoes/05-consideracao-final}
+
+\clearpage
+\renewcommand{\refname}{REFERÊNCIAS BIBLIOGRÁFICAS}
+\addcontentsline{toc}{section}{REFERÊNCIAS BIBLIOGRÁFICAS}
+\begin{singlespace}
+\small
+\bibliographystyle{plainnat}
+\bibliography{referencias}
+\end{singlespace}
+
+\input{secoes/06-anexos}
+
+\end{document}

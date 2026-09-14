@@ -1,0 +1,239 @@
+\clearpage
+\section{PROJETO INFORMACIONAL}
+
+O projeto informacional transforma a oportunidade em informações de projeto: ciclo de vida delimitado, clientes identificados, necessidades rastreáveis, requisitos dos clientes e especificações mensuráveis. O conteúdo será atualizado à medida que a equipe validar as hipóteses atuais.
+
+\subsection{Ciclo de Vida do Produto}
+
+Neste relatório, o termo \textit{produto} designa a solução física que será concebida para reduzir avarias no fluxo entre o distribuidor e a obra. A louça sanitária é o objeto protegido ou movimentado e não o produto em desenvolvimento. Como a solução ainda não possui forma, arquitetura ou materiais definidos, o ciclo de vida foi descrito por transformações, movimentações e estados do futuro produto, sem antecipar uma concepção.
+
+A Aula 10 apresenta o ciclo de vida como a história do produto desde os primeiros esforços organizados para criá-lo até sua retirada e destinação. A estrutura de referência encadeia necessidade ou problema, planejamento estratégico, planejamento do produto, projeto, planejamento do processo, produção, lançamento, uso, retirada e fim de vida. O modelo em espiral complementa essa visão ao localizar os setores produtivos, de mercado e de consumo e, assim, os clientes internos, intermediários e externos \citep{rozenfeld2006,back2008,fonseca2000}.
+
+O projeto adota essa estrutura padrão em dois níveis. O \textbf{ciclo macro} acompanha o desenvolvimento e a vida comercial do produto. O \textbf{ciclo operacional} detalha o percurso físico de cada unidade e sustenta a identificação dos clientes. Nesse segundo nível, conforme o recorte definido pela equipe, o fluxo começa no fornecedor e termina no descarte da própria solução. Essa distinção mantém a metodologia da disciplina sem misturar as atividades de desenvolvimento do produto com as operações executadas em cada pedido.
+
+\begin{table}[H]
+\caption{Compatibilização entre o ciclo de vida padrão e o ciclo do projeto}
+\label{tab:ciclo-vida-macro}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.65cm}@{\hspace{0.4cm}}L{4.2cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Macroetapa} & \textbf{Estrutura de referência da aula} & \textbf{Aplicação no projeto} \\
+\midrule
+Pré-desenvolvimento & Necessidade ou problema; planejamento estratégico; estratégia da empresa; planejamento do produto & Parte da quebra de louças no fluxo entre distribuidor e obra. Delimita oportunidade, escopo, produção própria e estratégia ATO. \\
+Desenvolvimento & Projeto informacional; projeto conceitual; projeto detalhado; planejamento do processo & O projeto informacional define ciclo, clientes, necessidades e requisitos. As fases seguintes definirão concepção, arquitetura, materiais, dimensões, processo produtivo e validações. \\
+Produção e disponibilização & Fabricação; montagem e embalagem; armazenagem; lançamento; venda e compra; transporte & Abrange fornecedor, recebimento de insumos, produção própria, estoque intermediário, pedido, montagem final ATO, inspeção, embalagem e entrega direta ao distribuidor. \\
+Uso e suporte & Compra; uso; função; manutenção ou suporte enquanto o produto permanecer em operação & Compreende recebimento e manipulação no processo do distribuidor, transporte à obra, recebimento e movimentação interna. O suporte concentra-se em instruções, inspeção de integridade e tratamento de ocorrências; uma etapa autônoma de manutenção ainda não foi confirmada. \\
+Retirada e fim de vida & Retirada; desativação; reciclagem, reúso, remanufatura ou descarte & Após o uso, a obra separa o produto, o distribuidor realiza a coleta e o retorno, e os responsáveis segregam e encaminham o item ao descarte. Reciclagem permanece condicionada ao material e à infraestrutura disponíveis. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base em \citet{rozenfeld2006}, \citet{back2008} e no modelo adaptado de \citet{fonseca2000} apresentado na Aula 10.}
+\end{table}
+
+O ciclo operacional definido pela equipe compreende: fornecedor, recebimento dos insumos, produção própria, montagem final, entrega direta ao distribuidor, uso pelo distribuidor em seu processo produtivo, expedição e transporte até a obra, recebimento e movimentação pelo almoxarifado da obra, separação após o uso, coleta de retorno pelo distribuidor e descarte. A coleta de retorno foi tratada como logística reversa para destinação controlada; não se presumiu reúso ou remanufatura do produto.
+
+\noindent\textbf{Estratégia de produção.} A equipe adotou a estratégia \textit{Assemble to Order} (ATO) com produção própria. Materiais e componentes fornecidos externamente são recebidos e convertidos internamente em componentes ou subconjuntos padronizados, mantidos em estoque intermediário. O pedido do distribuidor define uma configuração previamente aprovada e dispara a montagem final, a inspeção, a embalagem e a expedição. Assim, mantém-se capacidade de resposta sem formar estoque elevado de produtos acabados \citep{rozenfeld2006}.
+
+O ATO é uma premissa de planejamento, não uma definição da solução. Ele preserva todas as macroetapas do ciclo de vida e altera especificamente o encadeamento entre produção, armazenagem, pedido e montagem: componentes e subconjuntos padronizados são produzidos antes do pedido, enquanto a configuração e a montagem final ocorrem depois de sua confirmação. O projeto ainda deverá validar quais variações das louças e das operações do distribuidor exigem configurações distintas, quais interfaces serão padronizadas, qual prazo de montagem é aceitável e quais testes serão necessários antes da entrega. A estratégia não determina antecipadamente se o produto será uma embalagem, um dispositivo de proteção, um sistema de unitização, um equipamento de movimentação ou uma combinação desses elementos.
+
+\begin{table}[H]
+\caption{Premissas iniciais da estratégia Assemble to Order}
+\label{tab:ato}
+\centering
+\small
+\begin{tabularx}{\textwidth}{L{4.1cm}Y}
+\toprule
+\textbf{Elemento} & \textbf{Definição adotada no projeto} \\
+\midrule
+Estoque anterior ao pedido & Componentes, materiais e subconjuntos padronizados \\
+Forma de produção & Produção própria de componentes ou subconjuntos e montagem final interna \\
+Gatilho da montagem final & Pedido confirmado pelo distribuidor com configuração compatível com as opções aprovadas \\
+Atividades posteriores ao pedido & Separação, configuração, montagem, inspeção, embalagem e expedição \\
+Estoque de produto acabado & Mínimo, restrito a demonstração, validação ou contingência justificada \\
+Decisões a validar no projeto & Modularidade, interfaces, variedade, tempo de montagem, capacidade, rastreabilidade e testes finais \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base em \citet{rozenfeld2006}.}
+\end{table}
+
+\footnotesize
+\begin{longtable}{@{}L{2.3cm}@{\hspace{0.55cm}}L{3.2cm}@{\hspace{0.55cm}}L{3.2cm}@{\hspace{0.55cm}}L{3.6cm}@{}}
+\caption{Ciclo de vida operacional da solução a ser desenvolvida}\label{tab:ciclo-vida}\\
+\toprule
+\textbf{Fase} & \textbf{Atividade ou estado do produto} & \textbf{Atores} & \textbf{Resultado da fase} \\
+\midrule
+\endfirsthead
+\caption[]{Ciclo de vida operacional -- continuação}\\
+\toprule
+\textbf{Fase} & \textbf{Atividade ou estado do produto} & \textbf{Atores} & \textbf{Resultado da fase} \\
+\midrule
+\endhead
+\multicolumn{4}{@{}l}{\textbf{Produção e disponibilização}} \\
+\addlinespace[2pt]
+Fornecimento & Fornecimento de matérias-primas, componentes e insumos padronizados & Fornecedor; compras e qualidade de fornecedores & Insumos disponíveis conforme pedido e critérios de recebimento \\
+Recebimento de insumos & Conferência, inspeção, identificação e armazenagem dos itens adquiridos & Recebimento, controle de qualidade e almoxarifado próprios & Itens aprovados, identificados e disponíveis para produção \\
+Produção própria & Transformação dos insumos em componentes ou subconjuntos do produto & Planejamento e controle da produção, operadores e qualidade & Componentes conformes e rastreáveis \\
+Estoque intermediário & Armazenagem dos itens padronizados antes da montagem por pedido & Almoxarifado e planejamento da produção & Componentes preservados e disponíveis para o ATO \\
+Pedido e configuração & Recebimento, análise e confirmação do pedido ATO do distribuidor & Comercial, atendimento, planejamento e comprador do distribuidor & Ordem de montagem correta e liberada \\
+Montagem final ATO & Separação, configuração e montagem após o pedido do distribuidor & Planejamento, separação, montadores e qualidade & Produto configurado, inspecionado e liberado \\
+Expedição ao distribuidor & Embalagem, identificação, carregamento e entrega direta & Expedição, logística e transportador & Produto entregue e conferido pelo distribuidor \\
+Recebimento no distribuidor & Descarga, conferência, armazenagem e disponibilização para o processo interno & Recebimento e almoxarifado do distribuidor & Produto disponível e identificado para uso \\
+\midrule
+\multicolumn{4}{@{}l}{\textbf{Uso e suporte}} \\
+\addlinespace[2pt]
+Uso na produção do distribuidor & Manipulação e emprego da solução na preparação das louças para envio & Planejamento, supervisão e operadores do distribuidor & Louça preparada e protegida para expedição \\
+Envio à obra & Movimentação, carregamento, transporte, descarga e demais operações logísticas & Expedição do distribuidor, motoristas, ajudantes e movimentadores & Conjunto entregue no ponto de recebimento da obra \\
+Recebimento e movimentação na obra & Conferência, armazenagem e deslocamento interno até o ponto de uso da louça & Almoxarife, auxiliares de almoxarifado e movimentadores da obra & Louça disponibilizada sem avaria e produto separado após o uso \\
+\midrule
+\multicolumn{4}{@{}l}{\textbf{Retirada e fim de vida}} \\
+\addlinespace[2pt]
+Coleta e retorno & Agrupamento, carregamento e transporte reverso do produto usado & Distribuidor, equipe de logística reversa, motorista e ajudantes & Produto retornado ao ponto de consolidação definido pelo distribuidor \\
+Descarte & Recebimento do retorno, segregação e encaminhamento para destinação final & Distribuidor, gestor de resíduos, transportador e destinador & Produto retirado de circulação e descartado de forma rastreável e segura \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe com base no modelo em espiral apresentado por \citet{fonseca2000}.}
+
+O descarte acima se refere exclusivamente ao produto desenvolvido. A louça sanitária segue o ciclo próprio do empreendimento. Como a equipe definiu que o produto será coletado pelo distribuidor e descartado, a desmontagem para reúso e a remanufatura não foram incluídas como fases obrigatórias. Reciclagem poderá ser uma forma de destinação, caso os materiais futuramente escolhidos e a infraestrutura disponível permitam esse encaminhamento.
+
+Após estabelecer o ciclo, o método da disciplina considera clientes todas as pessoas e instituições afetadas pelas decisões do produto. A classificação é feita pelo papel no ciclo, não apenas pelo vínculo empregatício: clientes internos participam da obtenção e agregação de valor; intermediários conectam a empresa produtora ao contexto de aplicação; e externos usam, movimentam, recebem ou destinam o produto \citep{fonseca2000}. Por isso, uma mesma organização pode conter papéis de tipos diferentes. No distribuidor, por exemplo, compras e recebimento representam o cliente intermediário, enquanto os operadores que manipulam diretamente o produto representam clientes externos diretos.
+
+\subsection{Identificação das Necessidades dos Clientes}
+
+Seguindo a prática do relatório-base, as necessidades foram organizadas por fase do ciclo de vida, tipo de cliente e ator. As declarações permanecem na linguagem do benefício, da dificuldade ou da condição esperada pelo cliente, sem definir material, geometria, mecanismo ou valor técnico. Isso evita transformar prematuramente necessidades em requisitos do produto.
+
+O fluxo e os atores das Tabelas~\ref{tab:necessidades-fornecimento} a~\ref{tab:necessidades-fim} foram definidos pela equipe. Como ainda não foram realizadas entrevistas específicas com todos os perfis, as necessidades constituem hipóteses fundamentadas nas atividades de cada fase. Elas orientam os roteiros de campo, mas não devem ser apresentadas como falas reais antes da validação. Na coleta futura, cada registro deverá manter a fala original, o contexto, o ator, a fase, a necessidade interpretada e a evidência correspondente \citep{fonseca2000}.
+
+\begin{table}[H]
+\caption{Clientes e necessidades: fornecimento e recebimento}
+\label{tab:necessidades-fornecimento}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.1cm}@{\hspace{0.4cm}}L{2.15cm}@{\hspace{0.4cm}}L{3.0cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Fase} & \textbf{Tipo} & \textbf{Cliente ou ator} & \textbf{Necessidades do cliente} \\
+\midrule
+Fornecimento & Interno & Fornecedor de materiais e componentes & Dispor de especificações e critérios de aceitação claros; receber previsões e pedidos com antecedência adequada; fornecer itens padronizados em lotes economicamente viáveis; ter tratamento ágil de dúvidas e não conformidades. \\
+Fornecimento e recebimento & Interno & Compras e qualidade de fornecedores & Contar com fornecimento constante; comparar itens e fornecedores de forma objetiva; rastrear origem e lote; receber materiais conformes no prazo e no volume programados. \\
+Recebimento de insumos & Interno & Recebimento e almoxarifado próprios & Conferir e identificar os itens rapidamente; armazenar sem danos e com baixo uso de espaço; localizar os insumos com facilidade; controlar saldo, validade quando aplicável e reposição. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe, com classificação baseada em \citet{fonseca2000}.}
+\end{table}
+
+\clearpage
+\begin{table}[H]
+\caption{Clientes e necessidades: produção própria e montagem ATO}
+\label{tab:necessidades-producao}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.1cm}@{\hspace{0.4cm}}L{2.15cm}@{\hspace{0.4cm}}L{3.0cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Fase} & \textbf{Tipo} & \textbf{Cliente ou ator} & \textbf{Necessidades do cliente} \\
+\midrule
+Produção própria & Interno & Planejamento, operadores e supervisão da produção & Produzir com processo repetível, seguro e economicamente viável; contar com componentes compatíveis e disponíveis; reduzir esperas, retrabalho e desperdício; atender ao volume planejado sem sobrecarga operacional. \\
+Estoque intermediário & Interno & Almoxarifado e planejamento da produção & Preservar e identificar os componentes produzidos; visualizar a disponibilidade por configuração; localizar e separar os itens com facilidade; repor estoques sem interromper a montagem ATO. \\
+Pedido e configuração & Interno & Comercial, atendimento e planejamento do pedido & Compreender a aplicação informada pelo distribuidor; selecionar apenas configurações aprovadas; comunicar preço e prazo com clareza; liberar o pedido sem ambiguidades; responder rapidamente a dúvidas e alterações. \\
+Montagem final ATO & Interno & Separadores e montadores & Identificar a configuração correta; separar os itens sem erro; realizar montagem rápida, intuitiva e ergonomicamente segura; evitar ajustes improvisados; reconhecer visualmente a conclusão correta da montagem. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe, com classificação baseada em \citet{fonseca2000}.}
+\end{table}
+
+\clearpage
+\begin{table}[H]
+\caption{Clientes e necessidades: controle e uso no distribuidor}
+\label{tab:necessidades-distribuicao}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.1cm}@{\hspace{0.4cm}}L{2.15cm}@{\hspace{0.4cm}}L{3.0cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Fase} & \textbf{Tipo} & \textbf{Cliente ou ator} & \textbf{Necessidades do cliente} \\
+\midrule
+Inspeção e liberação & Interno & Controle de qualidade & Dispor de critérios objetivos de aceitação; acessar os pontos de inspeção; testar o produto de forma simples e repetível; rastrear configuração, lote e resultado; bloquear unidades não conformes antes da expedição. \\
+Expedição & Interno & Almoxarifado, expedição e logística da empresa produtora & Identificar pedido e destino sem ambiguidade; movimentar, unitizar e carregar com segurança; aproveitar adequadamente o espaço de armazenagem e transporte; entregar no prazo sem danificar o produto. \\
+Compra e recebimento & Intermediário & Compras, planejamento, recebimento e almoxarifado do distribuidor & Obter benefício econômico pela redução de avarias e reposições; receber fornecimento previsível, completo e conforme; conferir e armazenar com facilidade; ocupar pouco espaço; disponibilizar o produto à produção sem interrupções. \\
+Uso na produção do distribuidor & Externo & Supervisores e operadores do distribuidor & Integrar o produto ao processo existente sem reduzir o ritmo de produção; aprender e usar com facilidade; manipular com segurança e ergonomia; atender às variações relevantes de louça; confirmar visualmente o uso correto; proteger a louça até a expedição. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe, com classificação baseada em \citet{fonseca2000}.}
+\end{table}
+
+\clearpage
+\begin{table}[H]
+\caption{Clientes e necessidades: logística até a obra}
+\label{tab:necessidades-logistica}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.1cm}@{\hspace{0.4cm}}L{2.15cm}@{\hspace{0.4cm}}L{3.0cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Fase} & \textbf{Tipo} & \textbf{Cliente ou ator} & \textbf{Necessidades do cliente} \\
+\midrule
+Expedição e envio à obra & Intermediário & Expedição e coordenação logística do distribuidor & Planejar carregamento e rota com previsibilidade; identificar conteúdo, destino e condição de retorno; compatibilizar o produto com armazenagem, veículo e carga; reduzir tempo de preparação e perdas na entrega. \\
+Envio à obra & Externo & Motoristas, ajudantes e movimentadores da equipe logística & Segurar, elevar, movimentar, fixar e descarregar com segurança; evitar esforço excessivo e posturas críticas; impedir deslocamento ou queda durante o transporte; reconhecer instruções de manuseio; executar a operação com agilidade. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe, com classificação baseada em \citet{fonseca2000}.}
+\end{table}
+
+\clearpage
+\begin{table}[H]
+\caption{Clientes e necessidades: obra, retorno e descarte}
+\label{tab:necessidades-fim}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.1cm}@{\hspace{0.4cm}}L{2.15cm}@{\hspace{0.4cm}}L{3.0cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Fase} & \textbf{Tipo} & \textbf{Cliente ou ator} & \textbf{Necessidades do cliente} \\
+\midrule
+Recebimento na obra & Externo & Almoxarife e auxiliares de almoxarifado da obra & Conferir rapidamente o recebimento; movimentar o conjunto por acessos reais da obra; armazenar de modo compacto, estável e sem obstruir passagens; retirar a louça sem provocar avarias; separar e identificar o produto após o uso. \\
+Uso indireto na obra & Externo & Gestão da obra e equipe que recebe ou instala a louça & Receber a louça íntegra e no prazo; evitar paralisações e reposições; manter o canteiro organizado e seguro; gerar pouco volume residual; compreender como disponibilizar o produto para a coleta de retorno. \\
+Coleta e retorno & Externo & Coordenação e equipe de logística reversa do distribuidor & Saber quando e onde coletar; identificar quantidade e condição dos itens; agrupar, empilhar e carregar com segurança; reduzir volume, tempo e custo da coleta; evitar mistura com resíduos da obra; rastrear o retorno. \\
+Descarte & Externo & Recebimento de retornos e gestão de resíduos do distribuidor & Receber e segregar o produto usado com segurança; identificar os materiais; reduzir espaço de armazenamento temporário; preparar a destinação sem operações complexas; comprovar o encaminhamento adotado. \\
+Descarte & Externo & Transportador de resíduos, reciclador quando aplicável e destinador final & Receber materiais identificados e segregados; movimentar e processar sem risco indevido; minimizar contaminação; cumprir critérios legais e operacionais de aceitação; manter rastreabilidade da destinação. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe, com classificação baseada em \citet{fonseca2000}.}
+\end{table}
+
+\notaquadro{As necessidades são preliminares e inferidas. A validação por observação e entrevista poderá confirmar, excluir, desdobrar ou acrescentar necessidades sem alterar a estrutura de rastreabilidade.}
+
+Com essa organização, o conjunto de clientes cobre fornecimento, produção própria, distribuição direta, uso industrial no distribuidor, logística até a obra, recebimento e movimentação interna, retorno e descarte. A próxima coleta deve priorizar os clientes que manipulam fisicamente o produto: operadores do distribuidor, motoristas, ajudantes, movimentadores, almoxarifes da obra e equipe de logística reversa. Compras, produção, qualidade e gestão de resíduos completam a visão econômica, produtiva e de fim de vida.
+
+\subsection{Requisitos dos Clientes}
+
+\etapafutura{As necessidades validadas serão agrupadas, depuradas e traduzidas em requisitos dos clientes sem antecipar características técnicas da solução.}
+
+\subsection{Importância dos Requisitos}
+
+\etapafutura{A importância será definida pela combinação dos métodos previstos abaixo, mantendo rastreabilidade até as necessidades originais.}
+
+\subsubsection{Diagrama de Kano}
+
+\subsubsection{Diagrama de Mudge}
+
+\subsubsection{Gráfico de Pareto}
+
+\subsubsection{Benchmarking Competitivo}
+
+\subsection{Comparativo entre os métodos utilizados}
+
+\subsection{Desdobramento da Função Qualidade}
+
+\subsubsection{Requisitos do produto}
+
+O conjunto mínimo de dados deverá registrar tipo de louça, massa, embalagem, rota, transportador, veículo, data, condição de acesso, ponto de detecção, modo de dano, decisão tomada e custo associado. A unidade de análise será a peça transportada, com agregações por entrega e rota. Essa estrutura permitirá calcular taxa de avaria sem misturar unidades expedidas, pedidos e ocorrências.
+
+\subsubsection{Matriz de Relacionamento}
+
+\subsubsection{Quantificação}
+
+\subsubsection{Matriz de Correlação}
+
+\subsubsection{Análise dos Resultados do QFD}
+
+\subsection{Especificações Meta}
+
+\subsection{Encerramento da Fase de Projeto Informacional}
+
+\etapafutura{O encerramento será redigido após a validação das necessidades, a priorização dos requisitos e a definição das especificações-meta.}
