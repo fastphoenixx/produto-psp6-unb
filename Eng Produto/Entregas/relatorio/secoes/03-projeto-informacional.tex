@@ -24,13 +24,13 @@ Pré-desenvolvimento & Necessidade ou problema; planejamento estratégico; estra
 Desenvolvimento & Projeto informacional; projeto conceitual; projeto detalhado; planejamento do processo & O projeto informacional define ciclo, clientes, necessidades e requisitos. As fases seguintes definirão concepção, arquitetura, materiais, dimensões, processo produtivo e validações. \\
 Produção e disponibilização & Fabricação; montagem e embalagem; armazenagem; lançamento; venda e compra; transporte & Abrange fornecedor, recebimento de insumos, produção própria, estoque intermediário, pedido, montagem final ATO, inspeção, embalagem e entrega direta ao distribuidor. \\
 Uso e suporte & Compra; uso; função; manutenção ou suporte enquanto o produto permanecer em operação & Compreende recebimento e manipulação no processo do distribuidor, transporte à obra, recebimento e movimentação interna. O suporte concentra-se em instruções, inspeção de integridade e tratamento de ocorrências; uma etapa autônoma de manutenção ainda não foi confirmada. \\
-Retirada e fim de vida & Retirada; desativação; reciclagem, reúso, remanufatura ou descarte & Após o uso, a obra separa o produto, o distribuidor realiza a coleta e o retorno, e os responsáveis segregam e encaminham o item ao descarte. Reciclagem permanece condicionada ao material e à infraestrutura disponíveis. \\
+Retirada e fim de vida & Retirada; desativação; reciclagem, reúso, remanufatura ou descarte & Após cada entrega, a obra separa o produto e o distribuidor realiza a coleta e o retorno. A unidade é conferida e recolocada em circulação enquanto mantiver a condição exigida. Ao fim da vida útil, é retirada de circulação e encaminhada ao descarte, com reciclagem condicionada ao material e à infraestrutura disponíveis. \\
 \bottomrule
 \end{tabularx}
 \fonte{Elaboração da equipe com base em \citet{rozenfeld2006}, \citet{back2008} e no modelo adaptado de \citet{fonseca2000} apresentado na Aula 10.}
 \end{table}
 
-O ciclo operacional definido pela equipe compreende: fornecedor, recebimento dos insumos, produção própria, montagem final, entrega direta ao distribuidor, uso pelo distribuidor em seu processo produtivo, expedição e transporte até a obra, recebimento e movimentação pelo almoxarifado da obra, separação após o uso, coleta de retorno pelo distribuidor e descarte. A coleta de retorno foi tratada como logística reversa para destinação controlada; não se presumiu reúso ou remanufatura do produto.
+O ciclo operacional definido pela equipe compreende: fornecedor, recebimento dos insumos, produção própria, montagem final, entrega direta ao distribuidor, uso pelo distribuidor em seu processo produtivo, expedição e transporte até a obra, recebimento e movimentação pelo almoxarifado da obra, separação após o uso, coleta de retorno pelo distribuidor com conferência da condição e, ao fim da vida útil, descarte. A coleta de retorno foi tratada como logística reversa de um produto retornável: cada unidade percorre o trecho distribuidor--obra--distribuidor diversas vezes antes de ser retirada de circulação.
 
 \noindent\textbf{Estratégia de produção.} A equipe adotou a estratégia \textit{Assemble to Order} (ATO) com produção própria. Materiais e componentes fornecidos externamente são recebidos e convertidos internamente em componentes ou subconjuntos padronizados, mantidos em estoque intermediário. O pedido do distribuidor define uma configuração previamente aprovada e dispara a montagem final, a inspeção, a embalagem e a expedição. Assim, mantém-se capacidade de resposta sem formar estoque elevado de produtos acabados \citep{rozenfeld2006}.
 
@@ -50,7 +50,7 @@ Forma de produção & Produção própria de componentes ou subconjuntos e monta
 Gatilho da montagem final & Pedido confirmado pelo distribuidor com configuração compatível com as opções aprovadas \\
 Atividades posteriores ao pedido & Separação, configuração, montagem, inspeção, embalagem e expedição \\
 Estoque de produto acabado & Mínimo, restrito a demonstração, validação ou contingência justificada \\
-Decisões a validar no projeto & Modularidade, interfaces, variedade, tempo de montagem, capacidade, rastreabilidade e testes finais \\
+Decisões a validar no projeto & Modularidade, interfaces, variedade, tempo de montagem, capacidade, rastreabilidade, número de ciclos de retorno e testes finais \\
 \bottomrule
 \end{tabularx}
 \fonte{Elaboração da equipe com base em \citet{rozenfeld2006}.}
@@ -75,7 +75,7 @@ Recebimento de insumos & Conferência, inspeção, identificação e armazenagem
 Produção própria & Transformação dos insumos em componentes ou subconjuntos do produto & Planejamento e controle da produção, operadores e qualidade & Componentes conformes e rastreáveis \\
 Estoque intermediário & Armazenagem dos itens padronizados antes da montagem por pedido & Almoxarifado e planejamento da produção & Componentes preservados e disponíveis para o ATO \\
 Pedido e configuração & Recebimento, análise e confirmação do pedido ATO do distribuidor & Comercial, atendimento, planejamento e comprador do distribuidor & Ordem de montagem correta e liberada \\
-Montagem final ATO & Separação, configuração e montagem após o pedido do distribuidor & Planejamento, separação, montadores e qualidade & Produto configurado, inspecionado e liberado \\
+Montagem final ATO & Separação, configuração, montagem, inspeção e liberação após o pedido & Planejamento, separação, montadores e controle de qualidade & Produto configurado, inspecionado e liberado \\
 Expedição ao distribuidor & Embalagem, identificação, carregamento e entrega direta & Expedição, logística e transportador & Produto entregue e conferido pelo distribuidor \\
 Recebimento no distribuidor & Descarga, conferência, armazenagem e disponibilização para o processo interno & Recebimento e almoxarifado do distribuidor & Produto disponível e identificado para uso \\
 \midrule
@@ -87,14 +87,14 @@ Recebimento e movimentação na obra & Conferência, armazenagem e deslocamento 
 \midrule
 \multicolumn{4}{@{}l}{\textbf{Retirada e fim de vida}} \\
 \addlinespace[2pt]
-Coleta e retorno & Agrupamento, carregamento e transporte reverso do produto usado & Distribuidor, equipe de logística reversa, motorista e ajudantes & Produto retornado ao ponto de consolidação definido pelo distribuidor \\
-Descarte & Recebimento do retorno, segregação e encaminhamento para destinação final & Distribuidor, gestor de resíduos, transportador e destinador & Produto retirado de circulação e descartado de forma rastreável e segura \\
+Coleta e retorno & Agrupamento, carregamento, transporte reverso, conferência da condição e liberação do produto usado & Distribuidor, equipe de logística reversa, motorista, ajudantes e almoxarifado & Produto retornado e inspecionado, disponível para o próximo ciclo ou segregado para descarte \\
+Descarte & Segregação e encaminhamento para destinação final das unidades que atingiram o fim da vida útil & Distribuidor, gestor de resíduos, transportador e destinador & Produto retirado de circulação e descartado de forma rastreável e segura \\
 \bottomrule
 \end{longtable}
 \normalsize
 \fonte{Elaboração da equipe com base no modelo em espiral apresentado por \citet{fonseca2000}.}
 
-O descarte acima se refere exclusivamente ao produto desenvolvido. A louça sanitária segue o ciclo próprio do empreendimento. Como a equipe definiu que o produto será coletado pelo distribuidor e descartado, a desmontagem para reúso e a remanufatura não foram incluídas como fases obrigatórias. Reciclagem poderá ser uma forma de destinação, caso os materiais futuramente escolhidos e a infraestrutura disponível permitam esse encaminhamento.
+O descarte acima se refere exclusivamente ao produto desenvolvido. A louça sanitária segue o ciclo próprio do empreendimento. A equipe definiu o produto como retornável: cada unidade percorre o trecho distribuidor--obra--distribuidor diversas vezes, é conferida a cada retorno e permanece em circulação enquanto mantiver a condição exigida. O descarte ocorre apenas ao fim da vida útil. A remanufatura não foi incluída como fase obrigatória, e a reciclagem poderá ser uma forma de destinação, caso os materiais futuramente escolhidos e a infraestrutura disponível permitam esse encaminhamento.
 
 Após estabelecer o ciclo, o método da disciplina considera clientes todas as pessoas e instituições afetadas pelas decisões do produto. A classificação é feita pelo papel no ciclo, não apenas pelo vínculo empregatício: clientes internos participam da obtenção e agregação de valor; intermediários conectam a empresa produtora ao contexto de aplicação; e externos usam, movimentam, recebem ou destinam o produto \citep{fonseca2000}. Por isso, uma mesma organização pode conter papéis de tipos diferentes. No distribuidor, por exemplo, compras e recebimento representam o cliente intermediário, enquanto os operadores que manipulam diretamente o produto representam clientes externos diretos.
 
@@ -102,7 +102,61 @@ Após estabelecer o ciclo, o método da disciplina considera clientes todas as p
 
 Seguindo a prática do relatório-base, as necessidades foram organizadas por fase do ciclo de vida, tipo de cliente e ator. As declarações permanecem na linguagem do benefício, da dificuldade ou da condição esperada pelo cliente, sem definir material, geometria, mecanismo ou valor técnico. Isso evita transformar prematuramente necessidades em requisitos do produto.
 
-O fluxo e os atores das Tabelas~\ref{tab:necessidades-fornecimento} a~\ref{tab:necessidades-fim} foram definidos pela equipe. Como ainda não foram realizadas entrevistas específicas com todos os perfis, as necessidades constituem hipóteses fundamentadas nas atividades de cada fase. Elas orientam os roteiros de campo, mas não devem ser apresentadas como falas reais antes da validação. Na coleta futura, cada registro deverá manter a fala original, o contexto, o ator, a fase, a necessidade interpretada e a evidência correspondente \citep{fonseca2000}.
+\subsubsection{Métodos de Pesquisa Aplicados}
+
+A Aula 11 apresenta quatro técnicas de pesquisa para o levantamento de informações junto aos clientes: observações diretas, entrevistas, questionários e grupos focais. Cada uma possui um compromisso próprio entre riqueza de detalhe, custo e generalização. Observações diretas produzem informações mais ricas e detalhadas, sobretudo quando as características avaliadas são qualitativas; entrevistas produzem informação qualitativa e não estruturada, com custo e tempo maiores; questionários são mais rápidos e mais generalizáveis, mas perdem detalhe e exigem alta taxa de resposta; grupos focais oferecem informação muito rica, porém dependem de infraestrutura e de profissionais especializados \citep{back2008,fonseca2000}.
+
+Como o projeto ainda se encontra na transição entre a sustentação do problema e o projeto informacional, a equipe priorizou as duas técnicas de natureza qualitativa — observação direta e entrevista — complementadas por pesquisa documental. Questionários e grupos focais foram deliberadamente adiados: ambos pressupõem um conjunto de necessidades já estabilizado, que é justamente o que esta fase busca produzir. A Tabela~\ref{tab:metodos-pesquisa} registra o que foi efetivamente aplicado, com o respectivo limite metodológico e a evidência correspondente.
+
+\begin{table}[H]
+\caption{Técnicas de pesquisa aplicadas no levantamento das necessidades}
+\label{tab:metodos-pesquisa}
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}L{1.95cm}@{\hspace{0.3cm}}L{3.7cm}@{\hspace{0.3cm}}Y@{\hspace{0.3cm}}L{2.9cm}@{\hspace{0.3cm}}L{1.15cm}@{}}
+\toprule
+\textbf{Técnica} & \textbf{Aplicação no projeto} & \textbf{Resultado incorporado} & \textbf{Limite reconhecido} & \textbf{Evid.} \\
+\midrule
+Observação direta & Acompanhamento do recebimento, do estoque e da movimentação de louças em obra residencial em fase de acabamento, com registro fotográfico & Caracterização do ambiente real de recebimento e das restrições de acesso e de armazenagem no canteiro & Amostra e duração não registradas; uma única obra observada & E-02 \\
+Entrevista semiestruturada & Entrevista gravada com operário da construção civil atuante desde 2009, sobre manuseio, descarga e movimentação de louças & Relato de peças recebidas já trincadas, de quedas durante a descarga e de transporte manual quando o carrinho não acessa o local & Relato qualitativo de um único ator; não quantifica frequência, severidade nem etapa causal dominante & E-04 \\
+Entrevista e visita técnica & Visita a distribuidor de louças e materiais com operação própria de logística, com conversa sobre onde as avarias ocorrem e quem as absorve & Atribuição das avarias ao trecho entre o estoque da loja e a obra; identificação da reposição e da nova logística como custo absorvido; explicitação da tensão entre proteção e preço & Relato de um ator; ainda sem registros operacionais de troca, crédito ou devolução & E-03 \\
+Pesquisa documental e dados secundários & Levantamento de escala setorial da produção brasileira de louças sanitárias e consulta a bases de patentes & Dimensionamento da cadeia e identificação das famílias de solução já existentes para proteção no transporte & Os dados setoriais não comprovam taxa de quebra; a busca de patentes não constitui parecer de patenteabilidade & E-06, E-07 \\
+Análise de convergência & Confronto entre observação em obra, relato do operário e relato do distribuidor & Delimitação do problema em uma avaria anterior à instalação, concentrada no transporte de distribuição & Convergência qualitativa não substitui medição da taxa de quebra & E-05 \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir do levantamento da Semana 03 \citep{equipe2026} e das técnicas descritas em \citet{back2008} e \citet{fonseca2000}.}
+\end{table}
+
+Para cobrir de forma sistemática todas as fases do ciclo de vida, a equipe empregou ainda o guia de questões proposto por \citet{andrade1991} e reproduzido na Aula 11, que organiza perguntas orientadoras pelos principais elementos desenvolvidos no ciclo de vida do produto. O próprio autor trata o conjunto como orientação, a ser expandido e detalhado em cada caso prático. A Tabela~\ref{tab:guia-questoes} resume como cada grupo de questões foi utilizado.
+
+\begin{table}[H]
+\caption{Guia de questões por elemento do ciclo de vida e seu uso no projeto}
+\label{tab:guia-questoes}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{3.5cm}@{\hspace{0.4cm}}L{4.4cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Grupo de questões} & \textbf{Foco} & \textbf{Uso no projeto} \\
+\midrule
+Clientes e mercado & Quem são os clientes primários e secundários; o que esperam obter; quem compra e de quem & Sustentou a separação entre o comprador do distribuidor e os operadores que manipulam o produto, e a classificação em cliente interno, intermediário e externo \\
+Uso e desativação & Funções principais e secundárias; habilidades do usuário; frequência de uso; ambiente; segurança; efeitos da desativação & Orientou as necessidades das fases de uso no distribuidor, envio à obra, recebimento, movimentação, coleta de retorno e descarte \\
+Produção, distribuição e instalação & Volume e tempo de produção; materiais e processos; habilidades dos envolvidos; forma de teste, embalagem e transporte & Orientou as necessidades das fases de fornecimento, produção própria, estoque, montagem ATO, inspeção e expedição \\
+Empresa & Custo máximo aceitável; recursos e prazos disponíveis; posição frente aos concorrentes; fornecedores preferenciais & Ancorou as necessidades econômicas e a tensão entre proteção e preço relatada pelo distribuidor, mantendo o custo-meta em aberto \\
+Fatores externos & Conhecimento tecnológico disponível; legislação aplicável; limitações sociais e ambientais & Manteve em pauta as normas de transporte, movimentação e segurança do trabalho e o encaminhamento ambiental do produto ao fim da vida \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base em \citet{andrade1991}, conforme apresentado na Aula 11.}
+\end{table}
+
+\subsubsection{Tipos de Necessidade Considerados}
+
+A Aula 11 distingue necessidades que o cliente verbaliza daquelas que não são declaradas, mas cuja ausência gera insatisfação, além de necessidades latentes, culturais, logísticas, de manutenção e aquelas atribuíveis a usos inesperados. Essa distinção importa porque a coleta não pode se limitar ao que foi dito em entrevista: necessidades básicas costumam não ser verbalizadas justamente por serem consideradas óbvias pelo cliente, e necessidades latentes só aparecem quando o contexto real de uso é observado. Por isso a equipe combinou a escuta dos atores com a observação do fluxo e com o guia de questões da Tabela~\ref{tab:guia-questoes}.
+
+Merecem registro específico as necessidades atribuíveis a usos inesperados, tratadas na mesma aula. O produto poderá ser operado por pessoas sem treinamento, sobrecarregado, empilhado além do previsto ou reutilizado por mais ciclos do que o dimensionado. Esses casos tendem a exigir fatores de segurança e a elevar o custo, mas evitam custos maiores decorrentes do uso real ou do mau uso. Por isso, as necessidades de uso simples sem treinamento formal, de estabilidade no empilhamento e de desempenho mantido ao longo de ciclos repetidos foram incorporadas ainda nesta fase, e não adiadas para a avaliação de falhas.
+
+\subsubsection{Necessidades por Fase e Tipo de Cliente}
+
+O fluxo e os atores das Tabelas~\ref{tab:necessidades-fornecimento} a~\ref{tab:necessidades-fim} foram definidos pela equipe a partir do ciclo de vida, das evidências de campo e do guia de questões da Tabela~\ref{tab:guia-questoes}. As necessidades permanecem organizadas por fase, tipo de cliente e ator, e são revisadas a cada nova rodada de coleta. Em cada registro, a equipe mantém o contexto, o ator, a fase e a necessidade interpretada \citep{fonseca2000}.
 
 \begin{table}[H]
 \caption{Clientes e necessidades: fornecimento e recebimento}
@@ -196,17 +250,306 @@ Descarte & Externo & Transportador de resíduos, reciclador quando aplicável e 
 \fonte{Elaboração da equipe, com classificação baseada em \citet{fonseca2000}.}
 \end{table}
 
-\notaquadro{As necessidades são preliminares e inferidas. A validação por observação e entrevista poderá confirmar, excluir, desdobrar ou acrescentar necessidades sem alterar a estrutura de rastreabilidade.}
+\notaquadro{A validação por observação e entrevista poderá confirmar, excluir, desdobrar ou acrescentar necessidades sem alterar a estrutura de rastreabilidade.}
 
 Com essa organização, o conjunto de clientes cobre fornecimento, produção própria, distribuição direta, uso industrial no distribuidor, logística até a obra, recebimento e movimentação interna, retorno e descarte. A próxima coleta deve priorizar os clientes que manipulam fisicamente o produto: operadores do distribuidor, motoristas, ajudantes, movimentadores, almoxarifes da obra e equipe de logística reversa. Compras, produção, qualidade e gestão de resíduos completam a visão econômica, produtiva e de fim de vida.
 
+\subsubsection{Consolidação e Codificação das Necessidades}
+
+As declarações das Tabelas~\ref{tab:necessidades-fornecimento} a~\ref{tab:necessidades-fim} foram depuradas e codificadas para permitir rastreabilidade nas etapas seguintes. A consolidação eliminou repetições entre atores da mesma fase, uniu formulações equivalentes e atribuiu a cada necessidade um identificador único, a fase do ciclo de vida, o tipo de cliente e o atributo predominante. O resultado, apresentado na Tabela~\ref{tab:necessidades-consolidadas}, é a entrada direta da matriz de atributos.
+
+\footnotesize
+\begin{longtable}{@{}L{1.05cm}@{\hspace{0.3cm}}L{2.9cm}@{\hspace{0.3cm}}L{1.8cm}@{\hspace{0.3cm}}L{6.3cm}@{\hspace{0.3cm}}L{2.75cm}@{}}
+\caption{Necessidades consolidadas dos clientes}\label{tab:necessidades-consolidadas}\\
+\toprule
+\textbf{ID} & \textbf{Fase} & \textbf{Tipo} & \textbf{Necessidade consolidada} & \textbf{Atributo} \\
+\midrule
+\endfirsthead
+\caption[]{Necessidades consolidadas -- continuação}\\
+\toprule
+\textbf{ID} & \textbf{Fase} & \textbf{Tipo} & \textbf{Necessidade consolidada} & \textbf{Atributo} \\
+\midrule
+\endhead
+N-01 & Fornecimento & Interno & Receber especificações e critérios de aceitação claros & Confiabilidade \\
+N-02 & Fornecimento & Interno & Receber previsões e pedidos com antecedência, em lotes economicamente viáveis & Econômico \\
+N-03 & Fornecimento & Interno & Fornecer itens padronizados e repetíveis & Modularidade \\
+N-04 & Recebimento de insumos & Interno & Conferir e identificar os itens recebidos rapidamente & Eficiência operacional \\
+N-05 & Recebimento de insumos & Interno & Armazenar os insumos sem danos e com baixo uso de espaço & Eficiência operacional \\
+N-06 & Recebimento de insumos & Interno & Rastrear origem e lote dos insumos & Confiabilidade \\
+N-07 & Produção própria & Interno & Produzir com processo repetível, seguro e economicamente viável & Confiabilidade \\
+N-08 & Produção própria & Interno & Reduzir esperas, retrabalho e desperdício na produção & Econômico \\
+N-09 & Estoque intermediário & Interno & Preservar e identificar os componentes produzidos & Durabilidade e robustez \\
+N-10 & Estoque intermediário & Interno & Visualizar a disponibilidade por configuração e separar os itens com facilidade & Modularidade \\
+N-11 & Pedido e configuração & Interno & Selecionar apenas configurações aprovadas, sem ambiguidade & Modularidade \\
+N-12 & Pedido e configuração & Interno & Comunicar preço e prazo com clareza e responder rapidamente a alterações & Econômico \\
+N-13 & Montagem final e inspeção & Interno & Realizar montagem rápida, intuitiva e ergonomicamente segura & Eficiência operacional \\
+N-14 & Montagem final e inspeção & Interno & Reconhecer visualmente a conclusão correta da montagem & Funcionamento \\
+N-15 & Montagem final e inspeção & Interno & Dispor de critérios objetivos de aceitação e bloquear unidades não conformes & Confiabilidade \\
+N-16 & Montagem final e inspeção & Interno & Rastrear configuração, lote e resultado da inspeção & Sustentabilidade e conformidade \\
+N-17 & Expedição ao distribuidor & Interno & Movimentar, unitizar e carregar com segurança & Ergonomia e segurança \\
+N-18 & Expedição ao distribuidor & Interno & Aproveitar o espaço de armazenagem e de transporte & Eficiência operacional \\
+N-19 & Expedição ao distribuidor & Interno & Entregar no prazo sem danificar o próprio produto & Durabilidade e robustez \\
+N-20 & Recebimento no distribuidor & Intermediário & Obter benefício econômico pela redução de avarias e reposições & Econômico \\
+N-21 & Recebimento no distribuidor & Intermediário & Receber fornecimento previsível, completo e conforme & Confiabilidade \\
+N-22 & Recebimento no distribuidor & Intermediário & Conferir, armazenar e disponibilizar o produto ocupando pouco espaço & Eficiência operacional \\
+N-23 & Uso na produção do distribuidor & Externo & Integrar o produto ao processo existente sem reduzir o ritmo & Eficiência operacional \\
+N-24 & Uso na produção do distribuidor & Externo & Aprender e usar o produto com facilidade, sem treinamento longo & Ergonomia e segurança \\
+N-25 & Uso na produção do distribuidor & Externo & Atender às variações relevantes de louça & Funcionamento \\
+N-26 & Uso na produção do distribuidor & Externo & Proteger a louça contra impacto, vibração e atrito até a entrega & Funcionamento \\
+N-27 & Uso na produção do distribuidor & Externo & Confirmar visualmente o fechamento e o uso corretos & Confiabilidade \\
+N-28 & Uso na produção do distribuidor & Externo & Manipular o produto com segurança e ergonomia & Ergonomia e segurança \\
+N-29 & Envio à obra & Intermediário & Compatibilizar o produto com armazenagem, veículo, carga e amarração & Funcionamento \\
+N-30 & Envio à obra & Intermediário & Identificar conteúdo, destino e condição de retorno & Sustentabilidade e conformidade \\
+N-31 & Envio à obra & Externo & Impedir deslocamento, tombamento ou queda durante o transporte & Funcionamento \\
+N-32 & Envio à obra & Externo & Segurar, elevar, fixar e descarregar sem esforço excessivo nem posturas críticas & Ergonomia e segurança \\
+N-33 & Envio à obra & Externo & Reconhecer instruções de manuseio e executar a operação com agilidade & Ergonomia e segurança \\
+N-34 & Recebimento e movimentação na obra & Externo & Conferir rapidamente a integridade da louça no recebimento & Funcionamento \\
+N-35 & Recebimento e movimentação na obra & Externo & Movimentar o conjunto pelos acessos reais da obra, inclusive sem carrinho & Ergonomia e segurança \\
+N-36 & Recebimento e movimentação na obra & Externo & Armazenar de modo compacto e estável, sem obstruir passagens & Eficiência operacional \\
+N-37 & Recebimento e movimentação na obra & Externo & Retirar a louça sem provocar avarias e sem contato com arestas cortantes & Ergonomia e segurança \\
+N-38 & Recebimento e movimentação na obra & Externo & Gerar pouco volume residual no canteiro & Sustentabilidade e conformidade \\
+N-39 & Coleta e retorno & Externo & Saber quando e onde coletar e identificar quantidade e condição dos itens & Confiabilidade \\
+N-40 & Coleta e retorno & Externo & Agrupar, empilhar e carregar reduzindo volume, tempo e custo da coleta & Eficiência operacional \\
+N-41 & Coleta e retorno & Externo & Suportar ciclos repetidos de uso, retorno e rearmazenamento & Durabilidade e robustez \\
+N-42 & Coleta e retorno & Externo & Evitar mistura com resíduos da obra e rastrear o retorno & Sustentabilidade e conformidade \\
+N-43 & Descarte & Externo & Receber, segregar e identificar os materiais com segurança & Sustentabilidade e conformidade \\
+N-44 & Descarte & Externo & Preparar a destinação sem operações complexas e comprovar o encaminhamento & Sustentabilidade e conformidade \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe a partir das Tabelas~\ref{tab:necessidades-fornecimento} a~\ref{tab:necessidades-fim} e das evidências registradas em \citet{equipe2026}.}
+
 \subsection{Requisitos dos Clientes}
 
-\etapafutura{As necessidades validadas serão agrupadas, depuradas e traduzidas em requisitos dos clientes sem antecipar características técnicas da solução.}
+Requisitos dos clientes são as necessidades dos clientes organizadas, categorizadas e estruturadas. São declarações que definem as expectativas do cliente em relação ao produto em termos de missão, objetivos, funções, desempenho, ambiente e restrições. Converter necessidades em requisitos significa relacioná-las a aspectos de desempenho funcional, fatores humanos, propriedades e espaço, confiabilidade, ciclo de vida e recursos de manufatura, eliminando formulações redundantes e classificando o conjunto hierarquicamente \citep{back2008,fonseca2000}.
+
+A Aula 12 apresenta duas formas complementares de agrupar as necessidades nessa conversão: a \textbf{matriz de atributos}, que organiza as necessidades por fase do ciclo de vida e por atributo básico do produto, e a \textbf{técnica de cenários}, empregada para melhorar a redação de necessidades expressas em termos vagos ou subjetivos. A equipe utilizou as duas em sequência: primeiro a matriz, para agrupar e revelar lacunas; depois os cenários, para converter as necessidades de redação imprecisa em requisitos verificáveis.
+
+\subsubsection{Matriz de Atributos}
+
+A construção da matriz segue três passos: identificar as fases do ciclo de vida do produto em desenvolvimento; definir quais serão os atributos básicos do projeto do produto; e distribuir as necessidades dos clientes agrupadas nas células correspondentes. As linhas reproduzem o ciclo operacional da Tabela~\ref{tab:ciclo-vida}, com a inspeção tratada junto à montagem final, conforme definido naquela fase.
+
+Os atributos foram selecionados a partir das categorias apresentadas na Aula 12 — funcionais, estéticos e ergonômicos, técnicos, econômicos e de conformidade — e restringidos àqueles que o problema delimitado efetivamente cobra. A Tabela~\ref{tab:atributos-definicao} registra a definição adotada e a justificativa de cada um.
+
+\begin{table}[H]
+\caption{Atributos básicos adotados no projeto do produto}
+\label{tab:atributos-definicao}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{3.3cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Atributo} & \textbf{Definição adotada e justificativa} \\
+\midrule
+Funcionamento & Adequação ao uso e capacidade de cumprir a função de proteger, imobilizar e permitir a conferência da louça. É o atributo que responde diretamente ao problema definido. \\
+Ergonomia e segurança & Usabilidade, facilidade de manuseio e proteção do trabalhador. Justificado pelo relato de quedas na descarga, transporte manual sem acesso para carrinho e exposição a peças trincadas. \\
+Eficiência operacional & Desempenho de tempo, espaço e produtividade nas operações de preparação, carga, conferência, armazenagem e retorno. Justificado pela exigência de não reduzir o ritmo do distribuidor. \\
+Durabilidade e robustez & Vida útil, resistência ao desgaste e manutenção do desempenho diante de variações de uso. Justificado pelo retorno e pela reutilização do produto após cada entrega. \\
+Confiabilidade & Repetibilidade do desempenho e baixa taxa de falha entre unidades, configurações e entregas. Justificado pela necessidade de previsibilidade na proteção oferecida. \\
+Econômico & Relação entre custo e benefício, viabilidade produtiva e custo de operação. Justificado pela tensão entre maior proteção e preço competitivo relatada pelo distribuidor. \\
+Modularidade & Divisão em componentes independentes que funcionam de forma integrada, permitindo configuração, personalização e escalabilidade. Justificado pela estratégia ATO adotada no ciclo de vida. \\
+Sustentabilidade e conformidade & Uso eficiente de recursos, rastreabilidade, geração de resíduo e atendimento a normas e critérios legais. Justificado pela logística reversa e pelo descarte previstos no ciclo. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base nas categorias de atributos apresentadas na Aula 12 e em \citet{back2008}.}
+\end{table}
+
+Como a matriz combina treze fases e oito atributos, ela foi apresentada em duas partes para preservar a legibilidade. As células indicam os identificadores das necessidades consolidadas da Tabela~\ref{tab:necessidades-consolidadas}, seguidos de uma forma abreviada da necessidade. Células vazias indicam que a fase não impõe exigência relevante naquele atributo e funcionam como verificação de cobertura.
+
+\clearpage
+\begin{table}[H]
+\caption{Matriz de atributos -- parte 1: funcionamento, ergonomia, eficiência e durabilidade}
+\label{tab:matriz-atributos-1}
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}L{2.35cm}@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{}}
+\toprule
+\textbf{Fase do ciclo de vida} & \textbf{Funcionamento} & \textbf{Ergonomia e segurança} & \textbf{Eficiência operacional} & \textbf{Durabilidade e robustez} \\
+\midrule
+Fornecimento & & & & \\
+Recebimento de insumos & & & N-04 conferência rápida; N-05 armazenagem sem dano & \\
+Produção própria & & & & \\
+Estoque intermediário & & & & N-09 preservar e identificar componentes \\
+Pedido e configuração & & & & \\
+Montagem final e inspeção & N-14 montagem correta reconhecível & & N-13 montagem rápida e segura & \\
+Expedição ao distribuidor & & N-17 unitizar e carregar com segurança & N-18 aproveitar espaço de carga & N-19 entregar sem danificar o produto \\
+Recebimento no distribuidor & & & N-22 conferir e armazenar em pouco espaço & \\
+Uso na produção do distribuidor & N-25 atender às variações de louça; N-26 proteger contra impacto, vibração e atrito & N-24 uso fácil sem treinamento longo; N-28 manipulação segura e ergonômica & N-23 não reduzir o ritmo do processo & \\
+Envio à obra & N-29 compatibilidade com veículo e amarração; N-31 impedir deslocamento e queda & N-32 carga e descarga sem esforço crítico; N-33 instruções de manuseio reconhecíveis & & \\
+Recebimento e movimentação na obra & N-34 conferência da integridade no recebimento & N-35 movimentação pelos acessos reais; N-37 retirada sem aresta cortante & N-36 armazenagem compacta e estável & \\
+Coleta e retorno & & & N-40 agrupar e carregar reduzindo volume & N-41 suportar ciclos repetidos \\
+Descarte & & & & \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base no método da Aula 12 e nas necessidades da Tabela~\ref{tab:necessidades-consolidadas}.}
+\end{table}
+
+\clearpage
+\begin{table}[H]
+\caption{Matriz de atributos -- parte 2: confiabilidade, economia, modularidade e conformidade}
+\label{tab:matriz-atributos-2}
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}L{2.35cm}@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{}}
+\toprule
+\textbf{Fase do ciclo de vida} & \textbf{Confiabilidade} & \textbf{Econômico} & \textbf{Modularidade} & \textbf{Sustentabilidade e conformidade} \\
+\midrule
+Fornecimento & N-01 especificações e aceitação claras & N-02 lotes e prazos viáveis & N-03 itens padronizados e repetíveis & \\
+Recebimento de insumos & N-06 rastrear origem e lote & & & \\
+Produção própria & N-07 processo repetível e seguro & N-08 reduzir retrabalho e desperdício & & \\
+Estoque intermediário & & & N-10 disponibilidade por configuração & \\
+Pedido e configuração & & N-12 preço e prazo claros & N-11 apenas configurações aprovadas & \\
+Montagem final e inspeção & N-15 critérios de aceitação e bloqueio de não conformes & & & N-16 rastrear configuração, lote e inspeção \\
+Expedição ao distribuidor & & & & \\
+Recebimento no distribuidor & N-21 fornecimento previsível e conforme & N-20 ganho pela redução de avarias & & \\
+Uso na produção do distribuidor & N-27 confirmação visual do fechamento & & & \\
+Envio à obra & & & & N-30 identificar conteúdo, destino e retorno \\
+Recebimento e movimentação na obra & & & & N-38 pouco volume residual no canteiro \\
+Coleta e retorno & N-39 saber quando, onde e em que condição coletar & & & N-42 evitar mistura com resíduos e rastrear o retorno \\
+Descarte & & & & N-43 segregar e identificar materiais; N-44 destinação simples e comprovada \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base no método da Aula 12 e nas necessidades da Tabela~\ref{tab:necessidades-consolidadas}.}
+\end{table}
+
+A leitura das duas partes da matriz produziu três constatações que orientam a etapa seguinte. Primeira: os atributos \textit{funcionamento}, \textit{ergonomia e segurança} e \textit{eficiência operacional} concentram-se nas fases de uso no distribuidor, envio à obra e recebimento na obra, exatamente o trecho delimitado como problema — o que confirma a coerência entre o recorte e as necessidades levantadas. Segunda: as fases de fornecimento, produção, estoque e pedido concentram-se em \textit{confiabilidade}, \textit{econômico} e \textit{modularidade}, refletindo a estratégia ATO adotada. Terceira: o atributo \textit{durabilidade e robustez} aparece em poucas células, mas em fases decisivas para o modelo de retorno, o que o torna candidato a requisito crítico mesmo com baixa frequência na matriz.
+
+As células vazias não indicam falha de levantamento em todos os casos. Nas fases de fornecimento, produção própria, estoque intermediário e pedido, a ausência em \textit{funcionamento} e \textit{ergonomia e segurança} é coerente, pois nessas fases o produto ainda não exerce função sobre a louça nem é manipulado por clientes externos. Já a ausência de exigências econômicas nas fases de envio à obra, recebimento na obra e coleta reflete o estado atual da pesquisa, e não uma constatação: o custo operacional dessas etapas depende de dados que ainda serão levantados junto ao distribuidor.
+
+\subsubsection{Técnica de Cenários}
+
+Parte das necessidades consolidadas está redigida em termos que não permitem verificação — proteger, ser fácil, ser seguro, ocupar pouco espaço, ser durável. A técnica de cenários trata exatamente desse caso: descreve uma cena concreta de uso a partir do dado original e, dessa cena, extrai um requisito redigido em termos verificáveis. O método preserva o significado da necessidade e melhora sua redação, sem antecipar a solução \citep{back2008}.
+
+A Tabela~\ref{tab:cenarios} aplica a técnica às necessidades de redação imprecisa. As cenas foram construídas a partir das situações registradas em campo — transporte em piso irregular, descarga, acesso restrito na obra, conferência no ato do recebimento e reutilização após o retorno — e não descrevem episódios verificados individualmente.
+
+\footnotesize
+\begin{longtable}{@{}L{2.85cm}@{\hspace{0.3cm}}L{6.15cm}@{\hspace{0.3cm}}L{5.35cm}@{}}
+\caption{Matriz de transformação de dados originais em requisitos pela técnica de cenários}\label{tab:cenarios}\\
+\toprule
+\textbf{Dado original} & \textbf{Cena} & \textbf{Requisito resultante} \\
+\midrule
+\endfirsthead
+\caption[]{Técnica de cenários -- continuação}\\
+\toprule
+\textbf{Dado original} & \textbf{Cena} & \textbf{Requisito resultante} \\
+\midrule
+\endhead
+Proteger a louça (N-26) & Uma cuba viaja quarenta minutos em trecho de piso irregular, apoiada na lateral do baú, com outras cargas ao lado & Limitar impacto, vibração e atrito transmitidos à louça durante todo o percurso (RC-01) \\
+Não deixar a peça cair (N-31) & O veículo freia em curva e a carga se desloca; o conjunto precisa permanecer na posição em que foi carregado & Impedir deslocamento, tombamento e queda da louça no transporte e na movimentação (RC-02) \\
+Ser de fácil movimentação (N-35) & O carrinho não passa pela porta do apartamento; dois ajudantes levam o conjunto por um corredor estreito e um lance de escada & Permitir a movimentação por uma ou duas pessoas pelos acessos reais da obra (RC-07) \\
+Ser seguro (N-37) & O almoxarife encontra a peça trincada ao abrir o conjunto e precisa retirá-la sem tocar a borda quebrada & Permitir a retirada da louça sem contato com arestas cortantes (RC-09) \\
+Ser fácil de usar (N-24) & Um operador que nunca havia usado o produto prepara a primeira peça do turno sem consultar outra pessoa & Ter procedimento de uso simples para serviço rotineiro, sem treinamento formal (RC-10) \\
+Não atrapalhar o processo (N-23) & Em dia de pico, o operador precisa preparar a mesma quantidade de peças no mesmo turno de antes & Não aumentar o tempo de preparação e de conferência em relação à prática atual (RC-06) \\
+Ocupar pouco espaço (N-22, N-36) & Entre entregas, os conjuntos vazios aguardam em um estoque já ocupado por louças e paletes & Reduzir o volume ocupado quando vazio, fora de uso ou em retorno (RC-13) \\
+Ser durável (N-41) & O mesmo conjunto retorna da obra pela décima vez e é separado para uso na entrega do dia seguinte & Suportar ciclos repetidos de uso, retorno e rearmazenamento sem perder função (RC-19) \\
+Conferir a peça (N-34) & O motorista aguarda enquanto o almoxarife decide se assina o comprovante de entrega; a peça permanece fechada & Permitir a verificação da integridade da louça no ato do recebimento (RC-04) \\
+Ser barato (N-20) & O comprador do distribuidor compara o preço do conjunto com o custo de repor uma peça avariada & Ter custo por ciclo de uso inferior ao custo médio da avaria evitada (RC-26) \\
+Descartar corretamente (N-43) & Ao fim da vida útil, o responsável pelo resíduo precisa informar de que material o produto é feito para encaminhá-lo & Permitir a identificação e a segregação dos materiais no descarte (RC-21) \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe com base na matriz de transformação de dados originais em requisitos apresentada na Aula 12.}
+
+\subsubsection{Lista de Requisitos dos Clientes}
+
+Com a matriz de atributos e a técnica de cenários aplicadas, as necessidades foram convertidas em requisitos dos clientes, eliminadas as redundâncias e classificadas hierarquicamente pelos aspectos indicados na Aula 12: desempenho funcional, fatores humanos, propriedades e espaço, confiabilidade, ciclo de vida e recursos e manufatura. Os requisitos permanecem em linguagem de expectativa do cliente; a conversão em grandezas, unidades e metas ocorrerá no desdobramento da função qualidade.
+
+\footnotesize
+\begin{longtable}{@{}L{1.35cm}@{\hspace{0.35cm}}L{3.2cm}@{\hspace{0.35cm}}L{10.1cm}@{}}
+\caption{Requisitos dos clientes}\label{tab:requisitos-clientes}\\
+\toprule
+\textbf{ID} & \textbf{Aspecto} & \textbf{Requisito do cliente} \\
+\midrule
+\endfirsthead
+\caption[]{Requisitos dos clientes -- continuação}\\
+\toprule
+\textbf{ID} & \textbf{Aspecto} & \textbf{Requisito do cliente} \\
+\midrule
+\endhead
+RC-01 & Desempenho funcional & Limitar impacto, vibração e atrito transmitidos à louça durante todo o percurso \\
+RC-02 & Desempenho funcional & Impedir deslocamento, tombamento e queda da louça no transporte e na movimentação \\
+RC-03 & Desempenho funcional & Acomodar as variações de louça relevantes para a operação do distribuidor \\
+RC-04 & Desempenho funcional & Permitir a verificação da integridade da louça no ato do recebimento \\
+RC-05 & Desempenho funcional & Sinalizar visualmente o uso, o fechamento e a montagem corretos \\
+RC-06 & Desempenho funcional & Não aumentar o tempo de preparação e de conferência em relação à prática atual \\
+RC-07 & Fatores humanos & Permitir a movimentação por uma ou duas pessoas pelos acessos reais da obra \\
+RC-08 & Fatores humanos & Evitar esforço excessivo e posturas críticas na carga, na descarga e na movimentação \\
+RC-09 & Fatores humanos & Permitir a retirada da louça sem contato com arestas cortantes \\
+RC-10 & Fatores humanos & Ter procedimento de uso simples para serviço rotineiro, sem treinamento formal \\
+RC-11 & Fatores humanos & Permitir manuseio e montagem sem ferramenta especial ou ajuste improvisado \\
+RC-12 & Propriedades e espaço & Ocupar pouco espaço no veículo, no estoque do distribuidor e no canteiro \\
+RC-13 & Propriedades e espaço & Reduzir o volume ocupado quando vazio, fora de uso ou em retorno \\
+RC-14 & Propriedades e espaço & Ser compatível com o veículo, a unitização e a amarração já utilizados \\
+RC-15 & Propriedades e espaço & Ser empilhável e estável no estoque, no veículo e no canteiro \\
+RC-16 & Confiabilidade & Manter desempenho de proteção repetível entre unidades, configurações e entregas \\
+RC-17 & Confiabilidade & Permitir inspeção e bloqueio de unidades não conformes antes da expedição \\
+RC-18 & Confiabilidade & Permitir o rastreamento de configuração, lote, entrega e retorno \\
+RC-19 & Ciclo de vida & Suportar ciclos repetidos de uso, retorno e rearmazenamento sem perder função \\
+RC-20 & Ciclo de vida & Resistir às condições reais de estoque, de transporte e de canteiro \\
+RC-21 & Ciclo de vida & Permitir a identificação e a segregação dos materiais no descarte \\
+RC-22 & Ciclo de vida & Gerar pouco resíduo no canteiro e na operação do distribuidor \\
+RC-23 & Recursos e manufatura & Ser composto por componentes padronizados e configurável por montagem final \\
+RC-24 & Recursos e manufatura & Ter montagem final rápida e em poucas etapas \\
+RC-25 & Recursos e manufatura & Usar matérias-primas acessíveis e disponíveis no mercado local \\
+RC-26 & Recursos e manufatura & Ter custo por ciclo de uso inferior ao custo médio da avaria evitada \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe com base na classificação de aspectos apresentada na Aula 12 e em \citet{back2008}.}
+
+\subsubsection{Rastreabilidade entre Necessidades e Requisitos}
+
+Para garantir coerência entre as necessidades identificadas e os requisitos que orientarão o desenvolvimento, a Tabela~\ref{tab:rastreabilidade} registra a correspondência direta entre cada requisito e as necessidades que o originaram. A verificação foi feita nos dois sentidos: todo requisito possui ao menos uma necessidade de origem e toda necessidade consolidada aparece em ao menos um requisito. Essa dupla verificação evita tanto requisitos sem lastro na voz do cliente quanto necessidades levantadas que se perdem antes do desdobramento da função qualidade.
+
+\footnotesize
+\begin{longtable}{@{}L{1.35cm}@{\hspace{0.4cm}}L{8.55cm}@{\hspace{0.4cm}}L{4.9cm}@{}}
+\caption{Rastreabilidade entre requisitos dos clientes e necessidades}\label{tab:rastreabilidade}\\
+\toprule
+\textbf{ID} & \textbf{Requisito do cliente} & \textbf{Necessidades de origem} \\
+\midrule
+\endfirsthead
+\caption[]{Rastreabilidade -- continuação}\\
+\toprule
+\textbf{ID} & \textbf{Requisito do cliente} & \textbf{Necessidades de origem} \\
+\midrule
+\endhead
+RC-01 & Limitar impacto, vibração e atrito transmitidos à louça & N-26, N-31 \\
+RC-02 & Impedir deslocamento, tombamento e queda da louça & N-29, N-31, N-37 \\
+RC-03 & Acomodar as variações de louça relevantes & N-10, N-25 \\
+RC-04 & Permitir a verificação da integridade no recebimento & N-27, N-34 \\
+RC-05 & Sinalizar visualmente uso, fechamento e montagem corretos & N-14, N-27, N-33 \\
+RC-06 & Não aumentar o tempo de preparação e de conferência & N-04, N-22, N-23 \\
+RC-07 & Permitir a movimentação por uma ou duas pessoas nos acessos reais & N-32, N-35 \\
+RC-08 & Evitar esforço excessivo e posturas críticas & N-17, N-28, N-32 \\
+RC-09 & Permitir a retirada da louça sem contato com arestas cortantes & N-37 \\
+RC-10 & Ter procedimento de uso simples, sem treinamento formal & N-24, N-33 \\
+RC-11 & Permitir manuseio e montagem sem ferramenta especial & N-13, N-28 \\
+RC-12 & Ocupar pouco espaço no veículo, no estoque e no canteiro & N-05, N-18, N-22, N-36 \\
+RC-13 & Reduzir o volume ocupado quando vazio ou em retorno & N-36, N-40 \\
+RC-14 & Ser compatível com veículo, unitização e amarração & N-29 \\
+RC-15 & Ser empilhável e estável no estoque, no veículo e no canteiro & N-09, N-36, N-40 \\
+RC-16 & Manter desempenho de proteção repetível & N-07, N-15, N-21 \\
+RC-17 & Permitir inspeção e bloqueio de unidades não conformes & N-01, N-15 \\
+RC-18 & Permitir rastreamento de configuração, lote, entrega e retorno & N-06, N-16, N-30, N-39, N-42 \\
+RC-19 & Suportar ciclos repetidos de uso, retorno e rearmazenamento & N-09, N-41 \\
+RC-20 & Resistir às condições reais de estoque, transporte e canteiro & N-19, N-41 \\
+RC-21 & Permitir a identificação e a segregação dos materiais no descarte & N-43, N-44 \\
+RC-22 & Gerar pouco resíduo no canteiro e na operação do distribuidor & N-38, N-42 \\
+RC-23 & Ser composto por componentes padronizados e configurável & N-03, N-10, N-11 \\
+RC-24 & Ter montagem final rápida e em poucas etapas & N-11, N-13 \\
+RC-25 & Usar matérias-primas acessíveis no mercado local & N-02, N-08 \\
+RC-26 & Ter custo por ciclo inferior ao custo médio da avaria evitada & N-08, N-12, N-20 \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe, a partir das Tabelas~\ref{tab:necessidades-consolidadas} e~\ref{tab:requisitos-clientes}.}
+
+\pendente{A próxima rodada de coleta deve priorizar os requisitos de confiabilidade, ciclo de vida e recursos e manufatura, cuja verificação depende de dados operacionais do distribuidor ainda não levantados.}
+
+\pendente{A manutenção do produto ao longo do seu ciclo de retorno não gerou requisito nesta rodada porque nenhuma necessidade consolidada trata de reparo ou substituição de partes. Como o produto é retornável e permanece em circulação por vários ciclos, a pertinência de um requisito de manutenibilidade deve ser verificada junto ao distribuidor antes do desdobramento da função qualidade.}
 
 \subsection{Importância dos Requisitos}
 
-\etapafutura{A importância será definida pela combinação dos métodos previstos abaixo, mantendo rastreabilidade até as necessidades originais.}
+\etapafutura{A importância será definida pela combinação dos métodos previstos abaixo, aplicada sobre a lista da Tabela~\ref{tab:requisitos-clientes} e mantendo rastreabilidade até as necessidades originais.}
 
 \subsubsection{Diagrama de Kano}
 

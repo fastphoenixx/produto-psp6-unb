@@ -1,9 +1,16 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andrade(1991)]{andrade1991}
+R.~S. Andrade.
+\newblock Preliminary evaluation of needs in the design process.
+\newblock In \emph{International Conference on Engineering Design (ICED 91)},
+  pages 717--720, Zurique, 1991.
+\newblock Conjunto de questões-guia reproduzido na Aula 11 da disciplina.
 
 \bibitem[{ANFACER}(2026)]{anfacer2026}
 {ANFACER}.

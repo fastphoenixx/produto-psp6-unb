@@ -233,6 +233,32 @@ Close a defensible problem context and prepare the five-minute August 31 present
 
 *[Codex — 2026-08-30]*
 
+## 2026-09-14 — Projeto informacional: necessidades fechadas e requisitos abertos
+
+#### What happened
+
+- Reviewed the base deliverables (`Entregas - Grupo 5.xlsx` and `Relatório Final Revisado - Grupo 5.docx`) to confirm the discipline's sequence: necessidades → matriz de atributos → requisitos dos clientes → rastreabilidade.
+- Confirmed the method directly in the course slides (Aula 11 and Aula 12), not only in the base report: research techniques, Andrade (1991) question guide, attribute taxonomy, and the *Dado original → Cena → Requisito* scenario matrix.
+- Closed the needs stage in the report: added the research-method subsection (observation, interview, documental research, convergence analysis) with limits and evidence IDs, the Andrade question guide, the need-type typology, and a consolidated coded list of 44 needs (N-01 to N-44).
+- Opened the requirements stage: attribute matrix (13 life-cycle phases × 8 attributes), scenario technique (11 scenes), 26 client requirements (RC-01 to RC-26) classified by the six aspects of Aula 12, and a bidirectional traceability table.
+- Brought the spreadsheet up to the report: filled `4.Ciclo de vida`, `5.Necessidades`, `6.Requisitos`; created `5.1 Matriz de atributos` and `5.2 Cenários`; pre-loaded `7.Priorização` with the 26 requirements.
+
+#### Decision: the product is returnable
+
+- The life cycle originally ran linearly (`Coleta e retorno → Descarte`), which conflicted with requirements written around repeated use. The team decided the product is **returnable**: each unit runs the distributor–site–distributor leg several times, is checked on each return and stays in circulation while it holds condition; disposal happens only at end of life.
+- `Coleta e retorno` now includes condition checking and release for the next cycle; `Descarte` covers only units that reached end of life. Report section 3.1 and spreadsheet tab `4.Ciclo de vida` were aligned.
+- Open consequences recorded as pendências: number of cycles each unit must withstand (P-12, feeds RC-19 and RC-26) and whether maintainability is a distributor requirement (P-11).
+
+#### Next actions
+
+| Priority | Action | Definition of done |
+|---|---|---|
+| 1 | Validate the consolidated needs with the distributor's operators, drivers, site storekeepers and reverse-logistics team | Needs reviewed against field data in `5.Necessidades` |
+| 2 | Apply Kano, Mudge, Pareto and benchmarking over RC-01 to RC-26 | `7.Priorização` filled with justification |
+| 3 | Obtain damage cost, replacement cost and cycle count (P-01, P-04, P-12) | Cost-meta, RC-19 and RC-26 become measurable |
+
+*[Claude — 2026-09-14]*
+
 ## Weekly update template
 
 Copy this section for each new week.
