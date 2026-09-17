@@ -12,12 +12,12 @@ especificações-meta, com verificação das premissas externas em fonte. Data: 
 | Necessidades | Coerente | 44 necessidades por fase e tipo de cliente |
 | Matriz de atributos e cenários | Coerente | 44 necessidades agrupadas em 23 requisitos |
 | Rastreabilidade | Fechada nos dois sentidos | 44 ligações, nenhum requisito sem origem |
-| Kano | Uma classificação a revisar (achado B) | 23: 8 básicos, 10 desempenho, 5 atrativos |
-| Mudge | Coerente, pendência de validação já declarada | 253 pares, 571 pontos, 4 empates |
-| Pareto | Coerente | 11 de 23 requisitos concentram 83,4% |
+| Kano | Achado B corrigido | 23: 9 básicos, 10 desempenho, 4 atrativos |
+| Mudge | Julgado par a par, com âncora de critérios | 253 pares, 567 pontos, 17 desvios registrados |
+| Pareto | Coerente | 11 de 23 requisitos concentram 82,7% |
 | Benchmarking | Coerente, avaliação da equipe a revalidar | 23 × 4 referências |
 | Requisitos de projeto | Coerente, 1 para 1 | 23 requisitos, cada um com parâmetro e unidade |
-| Matriz de relacionamento | Coerente | 10.996 pontos, diagonal completa, sem órfãos |
+| Matriz de relacionamento | Coerente | 10.954 pontos, diagonal completa, sem órfãos |
 | Correlação | Coerente | 253 pares preenchidos, 77 conflitos, 4 fortes |
 | Especificações-meta | Coerentes, com partida provisória (ver anexo) | 23 metas em valor absoluto, 12 delas sobre estimativa |
 
@@ -34,15 +34,15 @@ problema é que ficou para trás.
 **Ação:** reescrever a fronteira como *transporte, descarga e movimentação até o ponto de
 instalação*. Sem isso, um avaliador pode apontar requisito fora do escopo declarado.
 
-### B. "Ter identificação visível" está classificado como atrativo, e provavelmente é básico
+### B. "Ter identificação visível" estava classificado como atrativo — CORRIGIDO em 17/09
 
 No Kano, atrativo é o requisito que o cliente não verbaliza e não espera. A embalagem atual já
 traz modelo, lado correto e advertência de frágil impressos — tanto que recebeu nota 4 nesse
 requisito no benchmarking. Um requisito que o mercado já entrega e cuja ausência gera
 insatisfação é **básico**, não atrativo.
 
-**Ação:** reclassificar para básico. Impacto: nenhum na pontuação de Mudge; muda a leitura
-qualitativa e tira um item da análise de sensibilidade.
+**Ação:** reclassificado para básico em 17/09/2026. Impacto: nenhum na pontuação de Mudge; os
+atrativos caíram de cinco para quatro na análise de sensibilidade.
 
 ### C. A louça já excede o limite ergonômico antes de somar a embalagem
 
@@ -163,6 +163,36 @@ apoio no canteiro acontece depois desse trecho.
 - Casa da qualidade em 10.996 pontos. O parâmetro de compressão ficou em 7º e o de tombamento em
   8º, ambos acima da posição que o requisito fundido ocupava.
 - Corte de Pareto: 11 de 23 requisitos concentram 83,4% dos pontos.
+
+## 7. Correção do método do Mudge (17/09/2026)
+
+A professora confirmou que a avaliação do Mudge é par a par. A auditoria mostrou que a nossa
+grade **não era**: 253 de 253 células reproduziam exatamente o que a regra de critérios previa, e
+não havia uma única inversão em 1.771 triplas. Transitividade perfeita é assinatura de grade
+calculada, não julgada — numa comparação par a par real alguma inversão sempre aparece, porque
+cada par é pesado por si.
+
+A grade foi refeita. Os 253 pares foram julgados pela pergunta da Aula 12 — qual requisito é mais
+importante para o sucesso do produto e quanto mais importante — usando as notas C1, C2 e C3 como
+âncora comum, para que a comparação não virasse arbítrio. **Em 17 pares o julgamento se afastou da
+âncora**, e cada um está registrado na própria aba, com a razão. Exemplos:
+
+- **D × H** — entre servir a mais modelos de louça e não cortar quem abre a embalagem, a
+  integridade do trabalhador vence. Foi a única troca de vencedor, e é ela que produz a inversão.
+- **B × C** — imobilizar ataca a origem da avaria, conferir sem abrir trata a detecção depois do
+  fato; a distância é maior do que as somas sugerem.
+- **V × W** — a âncora dava empate; estabilidade evita tombamento sobre o trabalhador, e lesão não
+  se compensa com economia.
+- **R × S** — desmontar é condição para separar material e reciclar, o que tira a desmontagem do
+  zero absoluto.
+
+Resultado: 567 pontos, **uma inversão** (D vence G, G vence H, H vence D) e mudanças de posição no
+Pareto — pontos de pega e retirada segura passaram à frente de ajustável a diferentes louças.
+A casa da qualidade ficou em 10.954 pontos.
+
+A pendência de fundo continua a mesma e agora fica mais visível: a Aula 12 estabelece que quem
+compara é o cliente. O que existe é o primeiro passe da equipe, agora genuinamente par a par,
+ainda a revalidar com o distribuidor.
 
 ## 5. Fontes consultadas
 
