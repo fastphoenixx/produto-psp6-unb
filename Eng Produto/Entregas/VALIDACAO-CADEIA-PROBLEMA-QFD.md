@@ -10,16 +10,16 @@ especificações-meta, com verificação das premissas externas em fonte. Data: 
 | Problema e contexto | Coerente, com ressalva de fronteira (achado A) | 5 etapas de cadeia mapeadas |
 | Ciclo de vida | Coerente | 13 fases, com retorno explicitado |
 | Necessidades | Coerente | 44 necessidades por fase e tipo de cliente |
-| Matriz de atributos e cenários | Coerente | 44 necessidades agrupadas em 22 requisitos |
+| Matriz de atributos e cenários | Coerente | 44 necessidades agrupadas em 23 requisitos |
 | Rastreabilidade | Fechada nos dois sentidos | 44 ligações, nenhum requisito sem origem |
-| Kano | Uma classificação a revisar (achado B) | 22: 7 básicos, 10 desempenho, 5 atrativos |
-| Mudge | Coerente, pendência de validação já declarada | 231 pares, 535 pontos, 4 empates |
-| Pareto | Coerente | 10 de 22 requisitos concentram 81,1% |
-| Benchmarking | Coerente, avaliação da equipe a revalidar | 22 × 4 referências, índice 2,59 a 3,19 |
-| Requisitos de projeto | Coerente, 1 para 1 | 22 requisitos, cada um com parâmetro e unidade |
-| Matriz de relacionamento | Coerente | 8.612 pontos, diagonal completa, sem órfãos |
-| Correlação | Coerente | 38 pares, 1 conflito forte |
-| Especificações-meta | Coerentes, com partida provisória (ver anexo) | 22 metas em valor absoluto, 11 delas sobre estimativa |
+| Kano | Uma classificação a revisar (achado B) | 23: 8 básicos, 10 desempenho, 5 atrativos |
+| Mudge | Coerente, pendência de validação já declarada | 253 pares, 571 pontos, 4 empates |
+| Pareto | Coerente | 11 de 23 requisitos concentram 83,4% |
+| Benchmarking | Coerente, avaliação da equipe a revalidar | 23 × 4 referências |
+| Requisitos de projeto | Coerente, 1 para 1 | 23 requisitos, cada um com parâmetro e unidade |
+| Matriz de relacionamento | Coerente | 10.996 pontos, diagonal completa, sem órfãos |
+| Correlação | Coerente | 253 pares preenchidos, 77 conflitos, 4 fortes |
+| Especificações-meta | Coerentes, com partida provisória (ver anexo) | 23 metas em valor absoluto, 12 delas sobre estimativa |
 
 ## 2. Achados que exigem ação
 
@@ -103,7 +103,7 @@ marcada como etapa futura:
 
 ## 3. O que está sólido
 
-- **A lógica de agrupamento resiste à conferência.** 44 necessidades viram 22 requisitos por
+- **A lógica de agrupamento resiste à conferência.** 44 necessidades viram 23 requisitos por
   atributo, e a verificação nos dois sentidos fecha: nenhum requisito sem necessidade de origem,
   nenhuma necessidade perdida.
 - **O benchmarking confirma o recorte por caminho independente.** Os três requisitos em que
@@ -123,6 +123,46 @@ As 22 metas passaram a ter valor absoluto, mas 11 delas partem de estimativa da 
 medição (ver anexo). A mais sensível é a taxa de avaria de 2%, que sustenta sozinha o envelope
 econômico do projeto: é faixa de mercado para longa distância aplicada a um trecho curto. Enquanto
 o distribuidor não confirmar esse número, a viabilidade permanece plausível e não demonstrada.
+
+## 6. Correção após o retorno da professora (17/09/2026)
+
+O retorno apontou requisitos do cliente que eram dois requisitos em um, pediu que se evitasse o
+"e" e questionou se "ser durável" não seria "ser reutilizável". A revisão foi além dos itens
+citados e varreu os dois níveis, requisitos e necessidades.
+
+**Renomeados, sem mudança de estrutura:**
+
+| Antes | Agora | Razão |
+|---|---|---|
+| Ser durável | Ser reutilizável | As duas necessidades de origem falam de ciclos e o parâmetro já media ciclos de reuso. O nome é que estava errado. |
+| Amortecer impactos e vibrações | Amortecer impactos do transporte | Uma única necessidade de origem; o impacto tem evidência de campo e a vibração é inferência do trecho rodoviário, que segue verificada no parâmetro por transmissibilidade de 5 a 50 Hz. |
+| Ter bom custo-benefício | Ter baixo custo por ciclo de uso | Não foi apontado, mas é a mesma doença e resolve o achado F: o parâmetro só mede custo. |
+
+Quatro necessidades com dois conceitos também foram reescritas. Duas foram mantidas porque o
+"e" não separa requisitos: "evitar atrito entre a louça e o produto" e "portas e corredores".
+
+**Dividido, com efeito em toda a cadeia:** "Ser empilhável e estável" virou **Ser empilhável** e
+**Ser estável quando apoiado**. A decisão não foi de redação. Três necessidades alimentavam o
+requisito, e uma delas — N-35, "ser estável quando apoiado no canteiro", da fase de movimentação
+na obra — é só estabilidade, em outra fase do ciclo. Os dois lados também se medem diferente:
+compressão em kN e tombamento em graus. E a fusão escondia a dimensão de segurança do
+trabalhador, que no Mudge tinha ficado com C2 = 2 por estar ancorada em armazenagem.
+
+A divisão foi barata porque o Mudge é **derivado**, não julgado par a par: as notas C1, C2 e C3
+geram os pares por regra, e a regra reproduz a grade anterior sem divergência em 231 pares.
+Bastou pontuar os dois novos requisitos e regenerar. Nas notas de estabilidade, C1 ficou em 2 e
+não em 3 porque o critério C1 é definido como redução de quebra no trecho distribuidor–obra, e o
+apoio no canteiro acontece depois desse trecho.
+
+**Efeitos na cadeia:**
+
+- 23 requisitos, 253 pares no Mudge, 571 pontos. O crescimento de 535 para 571 é o artefato
+  esperado de dividir um requisito: a família ganha peso agregado.
+- Ser estável quando apoiado entrou em 10º com 25 pontos, exatamente o peso que o requisito
+  fundido tinha; ser empilhável ficou em 12º com 17.
+- Casa da qualidade em 10.996 pontos. O parâmetro de compressão ficou em 7º e o de tombamento em
+  8º, ambos acima da posição que o requisito fundido ocupava.
+- Corte de Pareto: 11 de 23 requisitos concentram 83,4% dos pontos.
 
 ## 5. Fontes consultadas
 
