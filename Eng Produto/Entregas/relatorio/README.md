@@ -26,13 +26,16 @@ As técnicas e entregas aparecem como subseções da fase correspondente. Não h
 
 | Etapa | Situação |
 |---|---|
-| Ciclo de vida do produto | Concluída — ciclo macro (Aula 10) e ciclo operacional sob estratégia ATO |
-| Identificação das necessidades | Concluída — métodos de pesquisa, guia de questões de Andrade (1991), tipos de necessidade e 44 necessidades consolidadas (N-01 a N-44) |
-| Requisitos dos clientes | Concluída — matriz de atributos (13 fases × 8 atributos), técnica de cenários (11 cenas) e 26 requisitos (RC-01 a RC-26) com rastreabilidade bidirecional |
-| Importância dos requisitos | A iniciar — Kano, Mudge, Pareto e benchmarking sobre a Tabela de requisitos |
-| QFD e especificações-meta | A iniciar |
+| Ciclo de vida do produto | Concluída — ciclo macro e ciclo operacional sob estratégia ATO (13 fases) |
+| Identificação das necessidades | Concluída — 44 necessidades (N-01 a N-44) |
+| Requisitos dos clientes | Concluída — 23 requisitos (A–W), matriz de atributos, cenários e rastreabilidade |
+| Importância dos requisitos | Concluída — Kano, Mudge (253 pares / 577 pts), Pareto (11 vitais) e benchmarking (R1–R4) |
+| QFD | Concluída — 23 RP, relacionamento, quantificação (12.223 pts) e correlação |
+| Especificações-meta | Concluída — 23 metas com linha de base da planilha |
+| Legislação e normas | Concluída no pré-desenvolvimento — NR-17, NR-11, NR-18, CONTRAN 945, PNRS, regras do DF e métodos de ensaio |
+| Custo-meta | Concluída no pré-desenvolvimento como teto provisório: até R$ 15/ciclo, frente a cerca de R$ 27,40 da situação atual |
 
-A planilha `Entregas/planilha/Engenharia_Produto_Loucas.xlsx` carrega os mesmos identificadores nas abas `4.Ciclo de vida`, `5.Necessidades`, `5.1 Matriz de atributos`, `5.2 Cenários`, `6.Requisitos` e `7.Priorização`. Relatório e planilha devem ser atualizados na mesma rodada; a planilha é gerada por `tmp/build_project_workbook.mjs`.
+Fonte dos números: `Entregas/planilha/Planilha_PSP6_Grupo2_Loucas.xlsx`. Relatório e planilha devem ser atualizados na mesma rodada.
 
 ## Compilação
 
