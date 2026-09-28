@@ -1,5 +1,7 @@
 # Private source material and incoming files
 _inbox/
+whatsapp/
+materiais-downloads/
 
 # Recordings, exported conversations and transcription workspaces
 *.m4a
@@ -41,4 +43,5 @@ Eng Produto/Engenharia de Produto - cópia/Curso/Livros/Ulrich & Eppinger 6 ed.p
 *.tmp
 *.swp
 *.bak
+**/.~lock.*#
 ~$*

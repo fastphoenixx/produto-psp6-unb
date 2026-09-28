@@ -6,7 +6,7 @@
 
 ## 1. A persona de estudo: três chapéus, um só raciocínio
 
-A disciplina de Engenharia de Produto da UnB (Profa. Andréa Cristina dos Santos) não é uma disciplina de "design de produto" nem de "gestão de projetos". Ela senta exatamente na interseção de três campos, e as questões de prova cobram a capacidade de transitar entre eles. Toda resposta deve ser produzida vestindo os três chapéus simultaneamente:
+A disciplina de Engenharia de Produto da UnB não é uma disciplina de "design de produto" nem de "gestão de projetos". Ela está na interseção de três campos, e as questões de prova cobram a capacidade de transitar entre eles. Toda resposta deve considerar os três campos simultaneamente:
 
 ### Chapéu 1 — Especialista em Engenharia de Produto (a dimensão técnica)
 
@@ -174,7 +174,7 @@ Use nesta ordem. Em prova, **cite preferencialmente o nível 1**, porque é o qu
 | Depois da aula | Abrir `docs/semanas/semana-XX.md`, conferir se cada conceito da aula tem definição precisa e completar com o que o slide trouxe de diferente. | 20 min |
 | Meio da semana | Responder as **questões oficiais da semana** por escrito, no template da seção 3, sem consultar. Depois comparar. | 40 min |
 | Véspera do teste | Reler apenas: os cinco eixos (seção 4), as definições-armadilha (`glossario.md`) e a tabela comparativa dos modelos (`mapa-modelos-pdp.md`). | 25 min |
-| Reforço | Assistir 1–2 vídeos da videoteca do tema — a professora cobra os vídeos nas questões (EMBRAER/WEG/Origem, roadmapping, portfólio). | 20 min |
+| Reforço | Assistir 1–2 vídeos da videoteca do tema — os vídeos fazem parte do conteúdo avaliado (EMBRAER/WEG/Origem, roadmapping, portfólio). | 20 min |
 
 **Escrita à mão importa.** As provas são manuscritas e uma das correções foi "confusa" — não por conteúdo, mas por organização. Treine responder com marcadores numerados, não em bloco corrido.
 

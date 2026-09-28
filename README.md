@@ -1,24 +1,21 @@
 # Produto e PSP6 — UnB 2026/2
 
-Repositório acadêmico de acompanhamento do projeto desenvolvido nas disciplinas Engenharia de Produto e Projeto de Sistemas de Produção 6 da Universidade de Brasília.
+Repositório acadêmico do projeto desenvolvido nas disciplinas Engenharia de Produto e Projeto de Sistemas de Produção 6 da Universidade de Brasília.
 
 ## Projeto
 
-O trabalho investiga avarias em louças sanitárias durante o transporte entre distribuidores e obras. O repositório acompanha a delimitação do problema, as evidências utilizadas, o feedback da professora, as decisões semanais, a pesquisa e as entregas.
+O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias durante o transporte, a descarga e a movimentação até o ponto de instalação. A fase atual é o projeto informacional: necessidades dos clientes, requisitos, Kano, Mudge, Pareto, benchmarking, QFD e especificações-meta.
 
-## Estrutura
+## Conteúdo público
 
-- `02_Aulas/estudo/`: materiais de estudo produzidos para a disciplina.
-- `03_Projeto/`: feedbacks, plano de ação, histórico semanal, pesquisa e documentos do projeto.
-- `03_Projeto/entregas/`: apresentações, relatórios e respectivos arquivos editáveis.
-- `DISCIPLINA.md`: consolidação do cronograma e das regras acadêmicas.
-- `MAPA.md`: mapa de navegação do projeto.
-- `PROFESSORA.md`: leitura consolidada das orientações da professora.
+- `02_Aulas/estudo/`: materiais autorais de estudo.
+- `Eng Produto/docs/`: sínteses metodológicas e referências.
+- `Eng Produto/Entregas/planilha/`: planilha operacional atual do projeto.
+- `Eng Produto/Entregas/relatorio/`: relatório e fontes editáveis.
+- `Eng Produto/Entregas/VALIDACAO-CADEIA-PROBLEMA-QFD.md`: auditoria metodológica da cadeia de requisitos.
+- `DISCIPLINA.md`: cronograma e regras acadêmicas relevantes.
+- `MAPA.md`: visão rápida do projeto e dos próximos passos.
 
 ## Privacidade e direitos autorais
 
-Gravações, conversas, entrevistas, arquivos recebidos, livros, materiais de terceiros e exemplos de turmas anteriores não fazem parte do repositório público. Esses itens permanecem apenas no acervo local e estão protegidos pelo `.gitignore`.
-
----
-
-*[Codex — 2026-08-25]*
+Conversas, entrevistas identificáveis, registros de campo, fotografias recebidas, dados pessoais, livros, materiais distribuídos em aula e exemplos de outras equipes não integram a versão pública. Esses itens permanecem somente no acervo privado local.

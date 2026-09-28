@@ -170,5 +170,3 @@ A entrega desta semana é **Local/Atividade · Usuários/Clientes**. Saiba respo
 - **Quem tem alta influência?** Empregador, SESMT e mestre de obras (gerenciar de perto).
 - **Qual o próximo passo?** Visita de campo → sustentação empírica do problema (é a entrega da Aula 03, 24/08).
 - **Por que não propomos solução?** Porque a fase de Descoberta é de compreensão do problema; solução é convergência, vem depois.
-
-*[Claude — 2026-08-17]*

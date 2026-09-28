@@ -1,6 +1,6 @@
 # Central de Engenharia de Produto — UnB (2026/2)
 
-Hub de estudo para a disciplina **Engenharia de Produto** (Profa. Andréa Cristina dos Santos, UnB), organizado a partir do cronograma oficial (`TOPICOS ESTUDO 2026_2.pdf`) e do resumo já produzido da Semana 1. Criado para dar suporte às avaliações semanais ("testinhos") com conteúdo-base completo, fontes confiáveis e um direcionamento claro de abordagem.
+Hub de estudo para a disciplina **Engenharia de Produto** da UnB, organizado a partir do cronograma oficial e dos resumos produzidos ao longo do semestre. Criado para apoiar as avaliações semanais com conteúdo-base, fontes confiáveis e um direcionamento claro de abordagem.
 
 ## Como usar esta central
 
@@ -38,7 +38,7 @@ docs/
 
 - `TOPICOS ESTUDO 2026_2.pdf` — cronograma oficial completo (fonte primária desta central).
 - `Resumo_Semana1_Engenharia_Produto.pdf` — resumo e correção de prova da Semana 1 (incorporado em `docs/semanas/semana-01.md`).
-- Fotos de provas antigas — usadas para calibrar o nível de precisão esperado nas respostas (a professora corrige respostas "corretas em essência" pedindo mais precisão terminológica).
+- Fotos de provas antigas — usadas para calibrar o nível de precisão terminológica esperado nas respostas.
 
 ## Observação sobre precisão terminológica
 

@@ -68,7 +68,7 @@ Caixa de ferramentas contemporânea. Páginas citadas no cronograma:
 - **OCDE/Eurostat. Manual de Oslo, 4ª ed. (2018)** — tipos de inovação e indicadores de medição. Disponível gratuitamente no site da OCDE (*Oslo Manual 2018: Guidelines for Collecting, Reporting and Using Data on Innovation*).
 - **PMI. Guia PMBOK** — definição de projeto; escopo do produto vs. escopo do projeto. A definição citada nos slides é a da edição de 2004.
 - **KOTLER, P. Introdução ao Marketing / Administração de Marketing** — ciclo de vida comercial do produto.
-- **Slides das Aulas 01 a 24 — Profa. Andréa Cristina dos Santos** e a **Biblioteca da disciplina no Teams** (pastas citadas: *Projeto Conceitual/Arquitetura do Produto*, *Projeto Conceitual/Profinit* (TRL), *Biblioteca/DfX*, *Biblioteca/TRIZ*). **Em caso de divergência entre esta central e o slide, o slide prevalece.**
+- **Slides oficiais das Aulas 01 a 24** e a **Biblioteca da disciplina no Teams** (pastas citadas: *Projeto Conceitual/Arquitetura do Produto*, *Projeto Conceitual/Profinit* (TRL), *Biblioteca/DfX*, *Biblioteca/TRIZ*). **Em caso de divergência entre esta central e o slide, o slide prevalece.**
 
 ### Referências citadas dentro dos slides (a serem invocadas nominalmente nas respostas)
 - **SLACK, N. (1998)** — conceito de valor.
