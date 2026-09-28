@@ -3,9 +3,9 @@
 % segue integralmente as etapas padronizadas do relatório-base da disciplina.
 
 \usepackage{fontspec}
-\setmainfont{Times New Roman}
-\setsansfont{Arial}
-\setmonofont{Menlo}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{Liberation Serif}}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{Liberation Sans}}
+\IfFontExistsTF{Menlo}{\setmonofont{Menlo}}{\setmonofont{Liberation Mono}}
 
 \usepackage[brazil]{babel}
 \usepackage{geometry}

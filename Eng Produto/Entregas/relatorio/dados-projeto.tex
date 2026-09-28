@@ -6,8 +6,10 @@
 \newcommand{\semestre}{2026/2}
 \newcommand{\docente}{Profa. Andréa Cristina dos Santos}
 \newcommand{\equipe}{Equipe 2}
-\newcommand{\autores}{A preencher: nomes completos e matrículas}
+\IfFileExists{../../../_inbox/privado/relatorio-autores.tex}{%
+  \input{../../../_inbox/privado/relatorio-autores.tex}%
+}{\newcommand{\autores}{Equipe 2}}
 \newcommand{\titulorelatorio}{Redução de avarias de louças sanitárias no transporte entre distribuidor e obra}
 \newcommand{\subtitulorelatorio}{Relatório de desenvolvimento de produto}
-\newcommand{\versaodocumento}{0.11}
-\newcommand{\statusprojeto}{Projeto informacional concluído: ciclo de vida, necessidades, requisitos, Kano, Mudge, Pareto, benchmarking, QFD e especificações-meta; projeto conceitual em aberto}
+\newcommand{\versaodocumento}{0.12}
+\newcommand{\statusprojeto}{Projeto informacional concluído; as subseções do projeto conceitual indicam as etapas previstas, ainda não desenvolvidas}

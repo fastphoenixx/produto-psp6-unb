@@ -24,6 +24,8 @@ As técnicas e entregas aparecem como subseções da fase correspondente. Não h
 
 ## Estado atual do Projeto Informacional
 
+O projeto informacional foi concluído para orientar a geração de concepções. A seção de projeto conceitual contém apenas as etapas previstas. As metas baseadas em estimativas ainda dependem de medição.
+
 | Etapa | Situação |
 |---|---|
 | Ciclo de vida do produto | Concluída — ciclo macro e ciclo operacional sob estratégia ATO (13 fases) |
@@ -48,6 +50,10 @@ xelatex main.tex
 xelatex main.tex
 ```
 
-O documento usa a classe `article` apenas como base técnica do LaTeX e uma configuração inspirada na ABNT: papel A4, margens 3 cm/2 cm, fonte Times New Roman 12, espaçamento 1,5, parágrafo de 1,25 cm, seções numeradas, citações autor-data, legendas e indicação de fonte. A classe não define a estrutura do conteúdo; as fases seguem o relatório-base.
+O documento usa a classe `article` apenas como base técnica do LaTeX e uma configuração inspirada na ABNT: papel A4, margens 3 cm/2 cm, fonte Times New Roman 12 (Liberation Serif quando Times New Roman não estiver instalada), espaçamento 1,5, parágrafo de 1,25 cm, seções numeradas, citações autor-data, legendas e indicação de fonte. A classe não define a estrutura do conteúdo; as fases seguem o relatório-base.
+
+Os nomes e as matrículas ficam no arquivo local ignorado `_inbox/privado/relatorio-autores.tex`. Sem esse arquivo, a capa exibe apenas “Equipe 2”. O PDF com a capa preenchida deve permanecer fora do repositório público.
 
 Os trechos destacados como “Ponto a validar” indicam informações que devem ser confirmadas com a equipe ou em campo antes de serem tratadas como requisito.
+
+---
