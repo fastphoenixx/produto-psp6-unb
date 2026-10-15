@@ -1,0 +1,116 @@
+\subsection{Matriz Indicadora de Módulos}
+\label{sec:mim}
+
+A MIM foi elaborada para a C1, referência de estudo já usada no Pugh das concepções. Isso permite avaliar portadores técnicos concretos sem selecionar a C1. A matriz reúne 12 direcionadores e 13 portadores, dos quais 12 integram a referência e um é OP-01, fora da base. As 156 relações são julgamentos de projeto desta revisão, com justificativa e origem registradas na planilha. Não são resultados de ensaio nem preferências medidas em clientes.
+
+A MIM indica motivos para modularizar e candidatos a agrupamento; interfaces e acoplamentos também precisam ser examinados \citep{erixon1998,blees2009}. A escala adotada é 0 (sem motivo identificado), 1 (fraco), 3 (médio), 5 (forte), conforme a legenda do material-base da disciplina \citep{basemim}. A literatura consultada apresenta forte como 9; a convenção da base foi mantida explicitamente, sem atribuir-lhe a escala clássica.
+
+\begin{table}[H]
+\centering\scriptsize\caption{Direcionadores e critérios de julgamento da MIM}\label{tab:mim-drivers}
+\begin{tabularx}{\textwidth}{L{0.8cm}L{4.5cm}Y}
+\toprule\textbf{ID}&\textbf{Direcionador}&\textbf{Critério}\\\midrule
+D01 & Carry-over & Reaproveitar o projeto em futuras gerações; não é reuso por ciclos. \\
+D02 & Evolução tecnológica & Isolar partes sujeitas a mudança de tecnologia. \\
+D03 & Alterações planejadas de projeto & Separar mudanças previstas no plano de produto. \\
+D04 & Especificação técnica & Acomodar diferenças de requisitos entre variantes. \\
+D05 & Estilo & Separar alterações de aparência ou identidade de marca. \\
+D06 & Unidade comum & Usar a mesma parte física nas variantes atuais. \\
+D07 & Processo e organização & Separar processos especializados ou unidades de trabalho. \\
+D08 & Testes em separado & Caracterizar o portador antes do ensaio integrado. \\
+D09 & Compra de produto pronto & Adquirir solução funcional pronta; matéria-prima não basta. \\
+D10 & Manutenção e mantenabilidade & Acessar, limpar e repor partes durante a vida. \\
+D11 & Atualização & Melhorar o produto em serviço, além de reparar desgaste. \\
+D12 & Reciclagem & Separar materiais e facilitar a destinação. \\
+\bottomrule\end{tabularx}
+\fonte{Critérios de modularização, sintetizados de \citet{erixon1998}, \citet{blees2009} e da base; aplicação própria.}
+\end{table}
+
+Carry-over trata de reaproveitar projeto entre gerações, não de usar a mesma unidade por vinte ciclos. Compra de produto pronto não equivale a comprar polímero ou painel transparente. D03 ficou zerado porque não há roteiro de alterações futuras; D05, porque estilo não integra o recorte. Zero explicita ausência de motivo de modularização e não dispensa função ou requisito.
+
+\begin{table}[H]
+\centering\scriptsize\caption{Portadores de função na referência C1}\label{tab:mim-portadores}
+\begin{tabularx}{\textwidth}{L{0.8cm}L{3.7cm}YL{2.5cm}}
+\toprule\textbf{ID}&\textbf{Função}&\textbf{Portador proposto}&\textbf{RP principais}\\\midrule
+S01 & Amortecer impacto & Calços de EPP com assento e retenção a definir & RP1, RP12, RP13, RP18 \\
+S02 & Imobilizar volume & Cintas com tensão limitada e pontos de apoio & RP2 \\
+S03 & Acomodar variação & Guias deslizantes com curso e trava definidos & RP7 \\
+S04 & Expor condição & Visor protegido e interface real com a caixa original & RP4, RP6 \\
+S05 & Prover pega & Cavas de pega no corpo estrutural & RP3, RP5 \\
+S06 & Portar volume & Interface estrutural para carrinho de obra & RP3, RP8, RP14 \\
+S07 & Reter fragmentos & Bandeja e barreira envolvente contínua & RP6 \\
+S08 & Resistir compressão & Colunas e caminhos de carga do corpo polimérico & RP11, RP13 \\
+S09 & Unir e liberar partes & Fechos sobre-centro com retenção secundária & RP17, RP20, RP22 \\
+S10 & Comunicar uso e exibir identidade & Marcação de uso e código gravado na estrutura permanente & RP10, RP16, RP21 \\
+S11 & Estabilizar conjunto & Geometria de base alargada sem rodízios livres & RP9 \\
+S12 & Limitar volume no retorno & Laterais recolhíveis mantendo a base comum & RP14, RP17 \\
+S13* & Registrar evento (OP-01) & Estudo de indicador comercial ou registrador & OP-01 \\
+\bottomrule\end{tabularx}
+\fonte{Função Global, morfológica e C1. S13* é opção de estudo, sem inclusão na referência.}
+\end{table}
+
+Manutenção, vida, reciclagem, troca e custo são critérios transversais (RP15, RP18, RP19, RP20 e RP23), examinados sobre os portadores. Não foram convertidos em peças fictícias. S10 reúne orientação e identidade (F10, F16 e F21). A inspeção S04 continua condicionada ao acesso real através da caixa, independente do registro de evento S13.
+
+\begin{table}[H]
+\centering\scriptsize\caption{MIM pontuada da referência C1}\label{tab:mim-pontos}
+\begingroup\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{L{3.8cm}*{13}{>{\centering\arraybackslash}X}}
+\toprule\textbf{Direcionador}&\textbf{S01}&\textbf{S02}&\textbf{S03}&\textbf{S04}&\textbf{S05}&\textbf{S06}&\textbf{S07}&\textbf{S08}&\textbf{S09}&\textbf{S10}&\textbf{S11}&\textbf{S12}&\textbf{S13*}\\\midrule
+Carry-over & 1 & 3 & 3 & 1 & 3 & 3 & 1 & 3 & 3 & 3 & 3 & 3 & 0 \\
+Evolução tecnológica & 1 & 0 & 1 & 3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 5 \\
+Alterações planejadas de projeto & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+Especificação técnica & 5 & 3 & 5 & 3 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 3 & 3 \\
+Estilo & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+Unidade comum & 3 & 5 & 3 & 1 & 5 & 5 & 3 & 5 & 5 & 5 & 5 & 3 & 1 \\
+Processo e organização & 5 & 1 & 3 & 3 & 1 & 1 & 3 & 3 & 1 & 1 & 1 & 3 & 1 \\
+Testes em separado & 5 & 3 & 3 & 5 & 1 & 3 & 5 & 3 & 3 & 3 & 3 & 3 & 5 \\
+Compra de produto pronto & 3 & 3 & 1 & 1 & 0 & 0 & 1 & 0 & 3 & 0 & 0 & 1 & 5 \\
+Manutenção e mantenabilidade & 5 & 5 & 3 & 3 & 1 & 1 & 5 & 1 & 3 & 1 & 1 & 3 & 3 \\
+Atualização & 3 & 1 & 3 & 3 & 0 & 1 & 1 & 1 & 1 & 0 & 1 & 1 & 5 \\
+Reciclagem & 5 & 3 & 3 & 3 & 1 & 1 & 5 & 3 & 3 & 0 & 1 & 3 & 3 \\
+\midrule\textbf{Soma bruta}&36 & 27 & 28 & 26 & 13 & 16 & 25 & 20 & 23 & 13 & 16 & 23 & 31\\
+\textbf{Posição na base}&1 & 3 & 2 & 4 & 11 & 9 & 5 & 8 & 6 & 11 & 9 & 6 & --\\
+\bottomrule\end{tabularx}\endgroup
+\fonte{Julgamentos de projeto propostos nesta revisão. S13* não participa da soma de linha, da ordenação nem da arquitetura da C1 base.}
+\end{table}
+
+Amortecimento (S01, 36) reúne motivos fortes em fabricação, teste, manutenção e separação material. Ajuste (S03, 28) e imobilização (S02, 27) concentram a variação dimensional e a reposição de desgaste. Inspeção (S04, 26) e retenção (S07, 25) precisam combinar acesso e fechamento. Esses resultados indicam regiões a discutir, não uma seleção das quatro maiores colunas nem importância funcional do cliente.
+
+A planilha calcula somas e posições com empates, inclui OP-01 apenas pelo controle explícito e impede uma soma válida com nota ausente ou fora de 0/1/3/5. O registro de julgamentos conserva a nota desta revisão e sinaliza quando a atual muda. Alterações exigem nova justificativa e reavaliação da arquitetura; não há agrupamento automático por pontuação.
+
+Uma análise de sensibilidade substituiu 5 por 9 apenas para comparar a convenção da base com a escala consultada. As posições mudam: por exemplo, retenção passa de 25 para 37, e imobilização de 27 para 35. Os motivos para separar amortecimento, ajuste/imobilização e barreira/inspeção permanecem identificáveis; o corpo comum continua sustentado por interfaces compartilhadas. Esse teste não prova robustez a qualquer julgamento. A ordenação não deve ser usada como corte arbitrário do número de módulos.
+
+\subsection{Arquitetura do Produto}
+\label{sec:arquitetura-mim}
+
+A análise de perfis e vínculos físicos indica quatro núcleos para a C1: MD1 estrutura; MD2 ajuste e imobilização; MD3 amortecimento; MD4 contenção e inspeção. MD6 é opção de registro de evento, fora da referência. Uso e identidade do antigo grupo MD5 foram integrados a MD1, pois cava de pega e gravação permanente pertencem ao corpo. A numeração de MD6 foi preservada para rastrear a opção anterior.
+
+\begin{table}[H]
+\centering\scriptsize\caption{Agrupamentos indicados pela MIM e pelas interfaces}\label{tab:mim-modulos}
+\begin{tabularx}{\textwidth}{L{0.8cm}L{3cm}L{3.1cm}Y}
+\toprule\textbf{ID}&\textbf{Núcleo}&\textbf{Portadores}&\textbf{Motivo e limite}\\\midrule
+MD1 & Estrutura, pega e circulação & S05, S06, S08, S09, S10, S11, S12 & Predominam unidade comum e carry-over. Pega, carga, apoio, recolhimento e identidade compartilham o corpo; separar cada função aumentaria interfaces estruturais. Fechos podem ser peças de reposição internas, sem se tornarem automaticamente módulos. \\
+MD2 & Ajuste e imobilização & S02, S03 & Especificação, manutenção e padronização aproximam cintas e guias. Ambas regulam o mesmo volume e precisam coordenar curso, tensão e apoio. \\
+MD3 & Amortecimento & S01 & Processo, teste em separado, manutenção e reciclagem são fortes. O calço tem material e vida próprios, sem exigir descarte do corpo. \\
+MD4 & Contenção e inspeção & S04, S07 & Teste, manutenção, processo e fim de vida indicam separação da estrutura. O agrupamento entre visor e barreira é condicional ao fechamento contínuo e ao acesso real à cerâmica; seus perfis não são idênticos. \\
+MD6* & Registro de evento opcional & S13 & Tecnologia, fornecedor, teste separado e atualização favorecem separação se OP-01 entrar no escopo. Alto escore não autoriza sua inclusão. \\
+\bottomrule\end{tabularx}
+\fonte{Análise própria dos perfis da MIM e dos portadores da C1; MD6* não incluído.}
+\end{table}
+
+As funções de pega, compressão, apoio, recolhimento e identidade permanecem ligadas ao corpo MD1. Fechos são partes locais de interface, sem serem contados automaticamente como módulos. S12 tem motivo de manutenção, mas separar o recolhimento como núcleo autônomo pode criar juntas no caminho de carga; a decisão permanece condicionada à estabilidade e à compressão. MD4 reúne perfis diferentes por exigir continuidade da barreira ao redor da região de inspeção. Essa integração só permanece se ambas as metas forem verificadas no mesmo conjunto.
+
+Não se somaram escores por módulo para comparar grupos de tamanhos diferentes. A MIM não prova quantidade de módulos substituíveis. Para RP20, a hipótese é demonstrar a troca independente de MD2, MD3 e MD4. MD1 preserva a referência estrutural e a identidade da unidade; não entra nessa contagem. MD6 opcional também não foi usado para atingir três módulos.
+
+\begin{table}[H]
+\centering\scriptsize\caption{Interfaces e verificação da troca independente}\label{tab:mim-interfaces}
+\begin{tabularx}{\textwidth}{L{1.1cm}L{3.7cm}YY}
+\toprule\textbf{ID}&\textbf{Interface a definir}&\textbf{Troca a executar}&\textbf{Verificação após reposição}\\\midrule
+I12&Base--ajuste: fixação, datum, curso e trava&Retirar/repor MD2 sem desmontar MD3/MD4&Amplitude sem troca no ajuste e deslocamento residual\\
+I13&Base/ajuste--calço: assento, contato e retenção&Retirar/repor MD3 mantendo os outros núcleos&Resposta do calço e aceleração, dispersão e vida do conjunto\\
+I14&Base/ajuste--barreira: fixação, vedação e acesso óptico&Retirar/repor MD4 preservando base, guias e calços&Área/defeitos verificáveis, retenção e retirada segura\\
+I16*&Base--OP-01: montagem, posição, energia/leitura&Somente após inclusão no escopo&Calibração, benefício, vida e custo; sem diagnóstico de trinca\\
+\bottomrule\end{tabularx}
+\fonte{Plano de verificação proposto; resultados ainda não disponíveis. I16* está fora da C1 base.}
+\end{table}
+
+Executar trocas em conjunto descarregado, registrando acesso, ações, tempo e partes retiradas. Ajustar a faixa de tamanho permanece na mesma configuração: não se confunde com remover módulo por manutenção. Após cada troca, repetir as verificações afetadas e preservar a identidade. C2 e C3 exigem reavaliação da MIM para seus próprios portadores, particularmente rolamento, sensores e identificação; esta arquitetura não foi transportada automaticamente para essas concepções.

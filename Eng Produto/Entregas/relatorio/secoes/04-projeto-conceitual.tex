@@ -1,42 +1,230 @@
 \clearpage
 \section{PROJETO CONCEITUAL}
 
-\etapafutura{As subseções abaixo apresentam somente as etapas previstas para o projeto conceitual. Seu desenvolvimento e seus resultados ainda serão registrados.}
+O projeto conceitual busca meios de realizar as funções necessárias ao atendimento das especificações-meta. A passagem é de requisito para função, de função para princípio e, depois, para uma concepção verificável. Presença de um componente ou pontuação de uma alternativa não equivalem a desempenho demonstrado \citep{back2008,rozenfeld2006}.
+
+Esta seção registra a revisão de 14 de outubro de 2026. Estão elaboradas as descrições funcionais, a triagem inicial e sua revisão, as contradições e as combinações morfológicas. A MIM foi pontuada para a referência de estudo C1, com justificativas e indicação de quatro núcleos. A arquitetura ainda precisa de dimensionamento, cotação, definição de interfaces, ensaios e seleção definitiva.
 
 \subsection{Modelagem Funcional}
 
+A função global é \textbf{resguardar a louça} no trecho distribuidor--transporte--descarga--movimentação na obra, preservando a condição de retorno do dispositivo. A louça é o objeto protegido; o produto em desenvolvimento é o sistema de proteção e movimentação. A fronteira muda entre alternativas, mas a finalidade permanece.
+
+\noindent\textbf{Situação atual, V0.} A louça chega acondicionada na embalagem do fabricante. Os relatos de peças trincadas e de dificuldade na descarga sustentam a investigação. Não foram medidos a aceleração transmitida, a taxa de quebra, a perda de rigidez da embalagem do fluxo estudado ou o instante de origem do dano. As referências de 60--90\,g e o cenário econômico são fonte, estimativa ou cálculo conforme sua origem; não são resultados de ensaio da equipe. A V0 organiza o que medir.
+
+Amortecer impacto, imobilizar, portar, expor condição, reter fragmentos e manter proteção descrevem efeitos requeridos. Uniformidade, umidade, ciclos e reciclabilidade qualificam os efeitos e o ciclo de vida. Custo é restrição de viabilidade. Não é necessário criar uma transformação física nova para cada requisito.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm,>=Stealth,
+ f/.style={draw=cinzamedio,rounded corners=2pt,align=center,text width=3cm,minimum height=0.9cm,font=\footnotesize,execute at begin node=\setstretch{1}},
+ d/.style={draw=linhacinza,align=left,text width=5.4cm,minimum height=1.1cm,font=\footnotesize,execute at begin node=\setstretch{1}},
+ a/.style={->,draw=cinzamedio}]
+\node[f,fill=cinzaclaro] (fg) at (1.6,-4) {\textbf{Resguardar louça}};
+\node[f] (im) at (5.7,0) {Imobilizar louça};
+\node[f] (am) at (5.7,-1.6) {Amortecer impacto};
+\node[f] (po) at (5.7,-3.2) {Portar louça};
+\node[f] (ex) at (5.7,-4.8) {Expor condição};
+\node[f] (re) at (5.7,-6.4) {Reter fragmento};
+\node[f] (ma) at (5.7,-8) {Manter proteção};
+\node[d] (imd) at (11.6,0) {Acomodar variação e preservar o posicionamento sob solicitações.};
+\node[d] (amd) at (11.6,-1.6) {Atenuar energia antes da cerâmica. Uniformidade e vida são atributos.};
+\node[d] (pod) at (11.6,-3.2) {Prover pega, estabilizar, compatibilizar carga e limitar volume.};
+\node[d] (exd) at (11.6,-4.8) {Prover acesso protegido à área crítica. Choque registrado não prova integridade.};
+\node[d] (red) at (11.6,-6.4) {Preservar barreira durante transporte, abertura e retirada.};
+\node[d] (mad) at (11.6,-8) {Unir/liberar partes, manter e substituir partes de desgaste.};
+\foreach \n/\nd in {im/imd,am/amd,po/pod,ex/exd,re/red,ma/mad}{
+ \draw[a] (fg.east) -- ++(0.3,0) |- (\n.west);
+ \draw[a] (\n.east) -- (\nd.west);
+}
+\node[font=\footnotesize] at (6.7,1) {\textbf{Por quê?} $\longleftarrow$ \hspace{1cm} $\longrightarrow$ \textbf{Como?}};
+\end{tikzpicture}
+\caption{Relações FAST da função global com seus meios funcionais}
+\label{fig:fast}
+\fonte{Elaboração da equipe a partir dos requisitos e da síntese funcional de \citet{back2008}.}
+\end{figure}
+
+As relações da Figura~\ref{fig:fast} indicam finalidade e meios, não sequência de tarefas. Indicar ação, comunicar uso e exibir identidade apoiam uso correto e retorno. Registrar evento de impacto é função complementar exploratória, OP-01, que não substitui expor condição nem integra automaticamente os 23 requisitos.
+
+\newcommand{\estruturaems}[3]{%
+\begin{tikzpicture}[x=1cm,y=1cm,>=Stealth,
+ b/.style={draw=cinzamedio,align=center,text width=2.55cm,minimum height=1.1cm,font=\footnotesize,execute at begin node=\setstretch{1}},
+ o/.style={draw=linhacinza,align=center,text width=2.9cm,minimum height=1.1cm,font=\footnotesize,execute at begin node=\setstretch{1}},
+ a/.style={->,draw=cinzamedio}]
+\node[b] (mi) at (1.3,0) {\textbf{M}\par #1};
+\node[b] (mp) at (5.1,0) {Acomodar e\par imobilizar};
+\node[b] (mt) at (8.9,0) {Portar e\par reter fragmentos};
+\node[o] (mo) at (12.9,0) {\textbf{M}\par #2};
+\draw[a] (mi)--(mp);\draw[a] (mp)--(mt);\draw[a] (mt)--(mo);
+\node[b] (ei) at (1.3,-2.1) {\textbf{E}\par Choque, vibração\par e compressão};
+\node[b] (ep) at (5.1,-2.1) {Amortecer e\par suportar carga};
+\node[o] (eo) at (8.9,-2.1) {\textbf{E}\par Atenuação pretendida\par a verificar};
+\draw[a] (ei)--(ep);\draw[a] (ep)--(eo);\draw[a,dashed] (ep)--(mp);
+\node[b] (eh) at (12.9,-2.1) {\textbf{E}\par Esforço humano\par de manuseio};
+\draw[a] (eh.north) -- ++(0,0.2) -| (mt.south);
+\node[b] (si) at (1.3,-4.2) {\textbf{S}\par Condição desconhecida,\par identidade e orientação};
+\node[b] (sp) at (5.1,-4.2) {Expor condição;\par comunicar uso;\par exibir identidade};
+\node[o] (so) at (8.9,-4.2) {\textbf{S}\par Condição acessível\par à inspeção};
+\node[o] (su) at (12.9,-4.2) {Usuário verifica\par a condição antes\par do aceite};
+\draw[a] (si)--(sp);\draw[a] (sp)--(so);\draw[a] (so)--(su);\draw[a,dashed] (mp)--(sp);
+\ifnum#3=1
+\node[b] (oi) at (1.3,-6.3) {\textbf{E}\par Evento no ponto\par do sensor};
+\node[b] (op) at (5.1,-6.3) {OP-01\par Registrar evento\par (opcional)};
+\node[o] (os) at (8.9,-6.3) {\textbf{S}\par Limiar excedido\par ou não excedido};
+\node[o] (ou) at (12.9,-6.3) {Apoio à triagem\par de inspeção;\par sem diagnóstico};
+\draw[a] (oi)--(op);\draw[a] (op)--(os);\draw[a] (os)--(ou);
+\fi
+\end{tikzpicture}}
+
 \subsubsection{Modelagem Funcional 1}
+
+A M1 coloca a fronteira na louça descoberta: a embalagem original é retirada no distribuidor. A proteção pode atuar diretamente sobre a peça. A fronteira pode favorecer a inspeção, mas introduz abertura com risco e tempo ainda não avaliados. A variedade de formas exige levantamento do mix. A área crítica só será considerada verificável quando a barreira do novo dispositivo efetivamente permitir inspeção.
+
+\begin{figure}[H]
+\centering\estruturaems{Louça fora da\par embalagem original}{Louça protegida e\par fragmentos contidos\par como objetivos}{0}
+\caption{Estrutura funcional M1: fronteira na peça descoberta}
+\fonte{Elaboração da equipe. E = energia; M = material; S = sinal. As saídas são pretendidas.}
+\end{figure}
 
 \subsubsection{Modelagem Funcional 2}
 
+A M2 atua sobre o volume na embalagem original. A energia atravessa dispositivo, caixa e acondicionamento interno antes da cerâmica; essa resposta precisa ser medida. Preservar o volume pode reduzir intervenção no distribuidor, mas não resolve inspeção: um visor externo só é útil quando houver interface de observação compatível na embalagem original. Contenção e acesso à área crítica devem ser atendidos simultaneamente.
+
+\begin{figure}[H]
+\centering\estruturaems{Louça no volume\par da embalagem original}{Volume protegido e\par retirada segura\par como objetivos}{0}
+\caption{Estrutura funcional M2: fronteira no volume embalado}
+\fonte{Elaboração da equipe. A conexão entre material e sinal exige interface de inspeção ainda em estudo.}
+\end{figure}
+
 \subsubsection{Modelagem Funcional 3}
+
+A M3 mantém a fronteira material e a cadeia de energia da M2. Acrescenta, opcionalmente, registro de evento em paralelo. OP-01 informa se um limiar foi excedido no seu ponto de montagem e pode apoiar triagem de inspeção. Não demonstra presença ou ausência de trinca. A fabricante do indicador também distingue evento e dano possível \citep{spotseeindicador}.
+
+\begin{figure}[H]
+\centering\estruturaems{Mesmo volume\par embalado da M2}{Mesmos objetivos\par materiais da M2}{1}
+\caption{Estrutura funcional M3: volume embalado e sinal de evento opcional}
+\fonte{Elaboração da equipe. OP-01 não substitui a cadeia de inspeção.}
+\end{figure}
+
+O registro de impacto foi adiado no informacional e permanece nesta revisão como opção experimental, sujeita a escopo, benefício, calibração e custo. O limite de aceleração na louça (RP1) não é automaticamente o limiar de sensor na estrutura: posição, duração e resposta dinâmica podem diferir. RP4 continua exigindo acesso à condição da cerâmica.
 
 \subsubsection{Seleção da Modelagem}
 
+A planilha mantém os julgamentos iniciais para rastrear a triagem. Os pesos são o grau de importância do cliente no Pareto, derivado do Mudge; não são a importância técnica dos RP no QFD. A escala é $-2$, $-1$, $0$, $+1$, $+2$. A recontagem das 253 comparações confirmou 577 pontos no Mudge. Aplicando os graus às notas originais, os totais são os da Tabela~\ref{tab:pugh-inicial}.
+
+\begin{table}[H]
+\centering\small\caption{Triagem inicial preservada como histórico}\label{tab:pugh-inicial}
+\begin{tabularx}{\textwidth}{L{2cm}L{2.5cm}Y}
+\toprule\textbf{Alternativa}&\textbf{Pontuação}&\textbf{Interpretação atual}\\\midrule
+M1&12&Julgamentos iniciais sujeitos a revisão e verificação\\
+M2&0&Referência; não é alternativa aprovada\\
+M3&40&Maior pontuação inicial; superioridade ainda não comprovada\\
+\bottomrule\end{tabularx}
+\fonte{Recontagem da aba Pugh. A observação anterior de 42 pontos foi corrigida.}
+\end{table}
+
+As notas atribuíram à M3 vantagens em amortecimento, imobilização, manutenção, estabilidade e custo que não decorrem da inclusão de sinal. Também favoreceram a conferência sem resolver a opacidade da caixa. A seleção foi reaberta. A comparação revisada acrescenta justificativa e evidência por critério. \textit{AV} significa ausência de base suficiente para uma nota; o total fica indisponível enquanto houver AV. Zeros revisados indicam apenas cobertura funcional comum e também deverão ser confrontados com desempenho.
+
+O Pugh orienta convergência; totais não são decisão absoluta. As alternativas devem ser comparadas no mesmo nível de descrição e com pesos acordados \citep{mitpugh2015}. Antes de selecionar, todas, inclusive a referência, precisam passar pelas restrições obrigatórias. Peso zero não elimina a meta de reciclabilidade nem condição de segurança.
+
 \subsection{Matriz TRIZ}
+
+Os quatro conflitos fortes do QFD foram preservados: proteção--ajuste; inspeção--retenção; movimentação--recondicionamento; ajuste--recondicionamento. A tabela explora princípios por analogia funcional com definições publicadas. Não se afirma consulta comprovada a cada célula da matriz clássica 39$\times$39 \citep{dtoceantriz,childstriz}.
+
+\begin{table}[H]
+\caption{Encaminhamento dos conflitos fortes}\centering\scriptsize
+\begin{tabularx}{\textwidth}{L{1.9cm}L{4.4cm}YY}
+\toprule\textbf{Par}&\textbf{Princípios explorados}&\textbf{Aplicação proposta}&\textbf{Verificação}\\\midrule
+RP1--RP7&Segmentação, dinamicidade, qualidade local&Ajuste separado da região amortecedora&Aceleração em toda a faixa\\
+RP4--RP6&Propriedades ópticas, membranas, intermediário&Barreira transparente e interface efetiva à louça&Inspeção e contenção na retirada\\
+RP3--RP15&Segmentação, extração, qualidade local&Desgaste removível e acesso à limpeza&Força e tempo no mesmo conjunto\\
+RP7--RP15&Dinamicidade, qualidade local, extração&Ajuste acessível e poucas regiões de sujeira&Amplitude e recondicionamento\\
+\bottomrule\end{tabularx}
+\fonte{QFD e definições de \citet{dtoceantriz} e \citet{childstriz}.}
+\end{table}
+
+Foram corrigidas associações anteriores: parâmetro 32 é facilidade de fabricação, enquanto 37 trata de detectar e medir; princípio 28 não significa qualquer engate rápido; princípio 39 é ambiente inerte, não vedação para fragmentos. Estabilidade da composição não foi equiparada sem justificativa ao ângulo de tombamento. Mapeamentos genéricos ainda incertos permanecem pendentes.
+
+As aplicações são propostas. O conflito só poderá ser considerado resolvido depois de verificar ambas as metas no mesmo conjunto. Para declarar consulta à matriz clássica, registrar versão, um par principal de parâmetros e o cruzamento consultado.
 
 \subsection{Matriz Morfológica}
 
+A morfológica organiza quatro possibilidades por função e três caminhos de combinação. P1--P4 identificam opções da própria linha, não princípios TRIZ. A revisão contempla estabilização, compactação no retorno e manutenção, além das restrições transversais de uniformidade, umidade, reciclabilidade, uso e custo.
+
+O ajuste por troca de insertos foi retirado das combinações propostas: RP7 exige amplitude sem troca durante ajuste. Isso não proíbe reposição de desgaste na manutenção. Visor, painel ou sistema óptico só atende RP4 se alcançar a área crítica através da embalagem. A opção de retirar a caixa pertence à M1 e não foi combinada como se preservasse M2/M3.
+
+\begin{table}[H]
+\caption{Direções derivadas da morfológica}\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{0.9cm}L{3.2cm}YY}
+\toprule\textbf{ID}&\textbf{Direção}&\textbf{Combinação proposta}&\textbf{Pendência principal}\\\midrule
+C1&Simplicidade e manutenção&Berço polimérico, EPP, cintas, guias ajustáveis e carrinho&Ajuste, vida do calço, inspeção e custo\\
+C2&Ajuste e estrutura&Estrutura telescópica, interface resiliente e rolamento removível&Massa, limpeza, inspeção e retorno\\
+C3&Mobilidade no canteiro&Painéis reguláveis, elastômeros, rodízios com freio e apoios&Desníveis, força, estabilidade e volume\\
+\bottomrule\end{tabularx}
+\fonte{Combinações preliminares da planilha; sinal de evento é opcional.}
+\end{table}
+
+EPP, PEAD, alumínio e elastômeros são propostas de material, não desempenho demonstrado nem materiais atribuídos à patente Rengo. A herança da anterioridade é de função ou princípio documentado. Material, geometria e ciclos precisam de fonte própria ou ensaio.
+
 \subsection{Revisão da Modelagem Funcional e Matriz Morfológica}
 
-\subsection{Matriz Indicadora de Módulos}
+A revisão alinhou fronteira e inspeção, preservou retirada segura e distinguiu objetivo de resultado. As condições decisivas são área crítica acessível; retenção no transporte e na abertura; ajuste na mesma configuração; força no meio escolhido; envelope externo; vida; e custo completo. A inclusão de sinal deve ser julgada como complemento.
 
-\subsection{Arquitetura do Produto}
+Reter 90\% da massa não autoriza declarar ausência de risco: fragmentos pequenos que escapem também precisam ser avaliados. Escolha de material não comprova 7,5\,kN, e duas camadas não garantem menor aceleração. São verificações a executar.
+
+\input{secoes/04a-mim}
 
 \subsubsection{Concepção 1}
 
+A C1 busca simplicidade e reposição de desgaste. Propõe suporte polimérico, EPP, cintas e guias reguláveis na mesma configuração, com interface para carrinho. A barreira é removível para manutenção. A versão base não inclui indicador. A inspeção depende do acondicionamento original.
+
 \subsubsection{Concepção 2}
+
+A C2 explora estrutura telescópica, interface resiliente, fechos indexados e rolamento removível. Limpeza, massa e retorno são riscos a verificar. Registrador eletrônico é opção separada e exige especificação de energia, memória, leitura e calibração. Não comprova integridade da louça.
 
 \subsubsection{Concepção 3}
 
+A C3 explora rodízios com freio, apoios de descanso, painéis reguláveis e barreira fechada. Escadas, desníveis e estabilidade com rodas precisam de avaliação. Indicador comercial pode ser estudado como complemento calibrado. Não se definiu arbitrariamente um lacre como sensor de 35\,g.
+
 \subsubsection{Concepção Final}
+
+Não há concepção final selecionada. A aba Pugh das Concepções foi preparada com C1 como referência e C2/C3 marcadas AV, pois faltam análises para justificar notas. A referência também deve atender às restrições. Dimensionar e comparar as propostas antes da seleção.
 
 \subsection{Análise Técnica}
 
+A análise técnica está planejada, sem resultados de ensaio. Deve avaliar transferência de choque/vibração, deslocamento, compressão, umidade, inspeção e retenção. No canteiro, separar empurrar/puxar, levantar/carregar em dupla e transpor desníveis. A referência de 150\,N do RP3 é de força de partida ao empurrar/puxar, não limite de massa ou de levantamento \citep{hsepushpull}.
+
+A configuração carregada desfavorável deve ser avaliada para tombamento. A força é medida no piso de uso. O envelope inclui rodas, pegas e apoios na configuração de transporte. Manter a caixa tende a ampliar a cubagem, que precisa ser confrontada com RP8 e RP14.
+
 \subsection{Análise de Valor}
+
+A análise de valor depende de funções e componentes definidos. Faltam custos de fabricação, aquisição, manutenção e retorno. As variantes devem demonstrar benefício da proteção e da inspeção frente aos custos e à complexidade. O registro opcional precisa de valor incremental; não é aprovado apenas por acrescentar informação.
 
 \subsection{FMEA}
 
+Falhas a investigar: deslocamento dentro da caixa; aceleração excessiva sem ativação do indicador; indicador ativado sem dano; inspeção obstruída; escape de fragmentos na abertura; fecho solto; tombamento/rolamento; perda de ajuste; e perda de identidade após troca. Esses itens orientam uma futura FMEA. Severidade, ocorrência, detecção e prioridade não foram pontuadas sem base.
+
 \subsection{Análise de Viabilidade}
 
+A unidade de comparação é uma entrega no fluxo estudado. O custo do dispositivo por ciclo é uma parcela. O custo total inclui caixa original mantida, retorno, manutenção, consumíveis e avarias residuais. O teto provisório de RP23 não autoriza omitir parcelas.
+
+\begin{table}[H]
+\caption{Cenário econômico exploratório, sem cotação das concepções}\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{6cm}L{3.2cm}Y}
+\toprule\textbf{Parcela/comparação}&\textbf{Valor}&\textbf{Natureza}\\\midrule
+Embalagem atual&R\$\,15/entrega&Hipótese de compra industrial\\
+Avaria e reentrega&$0{,}02\times(500+120)$&Hipóteses a confirmar\\
+Cenário atual&R\$\,27,40/entrega&Cálculo sobre as hipóteses\\
+Dispositivo de R\$\,300 em 20 ciclos&R\$\,15/ciclo&Não é cotação da M3\\
+Caixa mantida mais dispositivo&R\$\,30/entrega&Limite inferior sem retorno, manutenção, sinal ou avaria residual\\
+Margem adicional com caixa mantida&R\$\,12,40/entrega&Limite otimista com avaria residual zero\\
+\bottomrule\end{tabularx}
+\fonte{Premissas da planilha. Taxa de avaria, preços e vida não foram medidos pela equipe.}
+\end{table}
+
+O cenário impede atribuir vantagem econômica à M3 sem cálculo: manter a caixa e amortizar R\$\,300 em apenas 20 ciclos não demonstra viabilidade. Não decide contra o retornável, pois as premissas precisam de confirmação. A planilha mantém o custo completo indisponível enquanto faltarem retorno, manutenção, consumíveis e avaria residual; ausência de dado não foi substituída por zero.
+
 \subsection{Modelo de Negócio}
+
+ATO e produção própria permanecem premissas de planejamento. O modelo comercial precisa definir quem detém o dispositivo, como ocorre retorno, quem paga manutenção e como são tratadas perdas. Isso afeta custo e rastreio. Não se declarou demanda, preço de venda ou retorno financeiro validado.
+
+\noindent\textbf{Encaminhamento.} Fechar a interface de inspeção, confirmar mix e movimentação e medir a situação atual. Dimensionar e cotar as propostas, preparando modelos ou protótipos para as verificações críticas. Com os resultados das análises e dos ensaios necessários, confirmar ou revisar as metas, justificar as notas de Pugh e reavaliar os julgamentos e agrupamentos da MIM com interfaces definidas. Uma direção preliminar de estudo não equivale à seleção final: esta depende de evidência suficiente e das restrições atendidas. O detalhamento e os ensaios de confirmação do produto seguem essa decisão. Planilha e relatório devem ser atualizados na mesma rodada.

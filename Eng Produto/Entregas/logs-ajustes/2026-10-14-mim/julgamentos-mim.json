@@ -1,0 +1,704 @@
+{
+  "reference": "C1 — referência de estudo, sem seleção definitiva",
+  "scale": [
+    0,
+    1,
+    3,
+    5
+  ],
+  "optional_default": 0,
+  "drivers": [
+    {
+      "id": "D01",
+      "group": "Desenvolvimento",
+      "name": "Carry-over",
+      "meaning": "Reaproveitar o projeto em futuras gerações; não é reuso por ciclos."
+    },
+    {
+      "id": "D02",
+      "group": "Desenvolvimento",
+      "name": "Evolução tecnológica",
+      "meaning": "Isolar partes sujeitas a mudança de tecnologia."
+    },
+    {
+      "id": "D03",
+      "group": "Desenvolvimento",
+      "name": "Alterações planejadas de projeto",
+      "meaning": "Separar mudanças previstas no plano de produto."
+    },
+    {
+      "id": "D04",
+      "group": "Variação",
+      "name": "Especificação técnica",
+      "meaning": "Acomodar diferenças de requisitos entre variantes."
+    },
+    {
+      "id": "D05",
+      "group": "Variação",
+      "name": "Estilo",
+      "meaning": "Separar alterações de aparência ou identidade de marca."
+    },
+    {
+      "id": "D06",
+      "group": "Fabricação",
+      "name": "Unidade comum",
+      "meaning": "Usar a mesma parte física nas variantes atuais."
+    },
+    {
+      "id": "D07",
+      "group": "Fabricação",
+      "name": "Processo e organização",
+      "meaning": "Separar processos especializados ou unidades de trabalho."
+    },
+    {
+      "id": "D08",
+      "group": "Qualidade",
+      "name": "Testes em separado",
+      "meaning": "Caracterizar o portador antes do ensaio integrado."
+    },
+    {
+      "id": "D09",
+      "group": "Aquisição",
+      "name": "Compra de produto pronto",
+      "meaning": "Adquirir solução funcional pronta; matéria-prima não basta."
+    },
+    {
+      "id": "D10",
+      "group": "Após uso",
+      "name": "Manutenção e mantenabilidade",
+      "meaning": "Acessar, limpar e repor partes durante a vida."
+    },
+    {
+      "id": "D11",
+      "group": "Após uso",
+      "name": "Atualização",
+      "meaning": "Melhorar o produto em serviço, além de reparar desgaste."
+    },
+    {
+      "id": "D12",
+      "group": "Fim de vida",
+      "name": "Reciclagem",
+      "meaning": "Separar materiais e facilitar a destinação."
+    }
+  ],
+  "carriers": [
+    {
+      "id": "S01",
+      "function": "Amortecer impacto",
+      "fg": "F01, F12, F13, F18",
+      "morph_row": 4,
+      "principle": "P1",
+      "carrier": "Calços de EPP com assento e retenção a definir",
+      "rps": [
+        1,
+        12,
+        13,
+        18
+      ],
+      "module": "MD3",
+      "scores": [
+        1,
+        1,
+        0,
+        5,
+        0,
+        3,
+        5,
+        5,
+        3,
+        5,
+        3,
+        5
+      ],
+      "reasons": [
+        "A interface do calço pode ser preservada; a curva de proteção precisa ser revista para futuras cargas.",
+        "Mudanças de material resiliente são possíveis, mas não há transição tecnológica definida.",
+        "Não existe plano de gerações com alterações programadas para o calço.",
+        "Massa e fragilidade diferentes exigem calibrar o calço, separado do ajuste de tamanho.",
+        "A aparência do calço não é critério de diferenciação do produto.",
+        "Um formato de assento comum pode atender mais de uma configuração; material e resposta podem variar.",
+        "Moldagem e controle do material resiliente diferem da estrutura polimérica rígida.",
+        "A curva mecânica do calço pode ser caracterizada antes de medir a aceleração na louça montada.",
+        "Calços fabricados por fornecedor são possíveis; geometria e resposta ainda exigem especificação própria.",
+        "Desgaste do amortecedor deve permitir reposição sem descartar estrutura e barreira.",
+        "Um novo calço pode melhorar proteção depois de ensaio de compatibilidade; não é troca durante ajuste.",
+        "Remover o EPP da estrutura e da barreira facilita separar as frações materiais."
+      ]
+    },
+    {
+      "id": "S02",
+      "function": "Imobilizar volume",
+      "fg": "F02",
+      "morph_row": 5,
+      "principle": "P2",
+      "carrier": "Cintas com tensão limitada e pontos de apoio",
+      "rps": [
+        2
+      ],
+      "module": "MD2",
+      "scores": [
+        3,
+        0,
+        0,
+        3,
+        0,
+        5,
+        1,
+        3,
+        3,
+        5,
+        1,
+        3
+      ],
+      "reasons": [
+        "Cintas e interfaces simples podem ser mantidas em futuras gerações sem depender de novas tecnologias.",
+        "A cinta mecânica não tem mudança tecnológica prevista nesta proposta.",
+        "Não existe plano de produto com mudança programada para a cinta.",
+        "Posições de apoio e comprimentos dependem do envelope da caixa e do mix confirmado.",
+        "Cores ou moda não determinam a função de imobilizar.",
+        "Padronizar cintas e pontos de fixação reduz famílias de peças no ATO.",
+        "A montagem da cinta pode ser uma tarefa comum; não exige processo especializado definido.",
+        "Pode-se medir tensão e retenção local antes do ensaio de deslocamento do conjunto.",
+        "Cintas prontas são possíveis, mas tensão, apoio e compatibilidade precisam ser especificados.",
+        "Uma cinta desgastada precisa sair com o conjunto de ajuste sem substituir a estrutura.",
+        "Trocar o sistema por outro desempenho é possibilidade secundária, sem atualização prevista.",
+        "Separar cinta, ferragens e polímeros evita encaminhamento misturado."
+      ]
+    },
+    {
+      "id": "S03",
+      "function": "Acomodar variação",
+      "fg": "F07",
+      "morph_row": 6,
+      "principle": "P1",
+      "carrier": "Guias deslizantes com curso e trava definidos",
+      "rps": [
+        7
+      ],
+      "module": "MD2",
+      "scores": [
+        3,
+        1,
+        0,
+        5,
+        0,
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3
+      ],
+      "reasons": [
+        "Uma interface de guia padronizada pode ser mantida em outras gerações, sujeita ao envelope.",
+        "Materiais e mecanismos de trava podem evoluir; não há tecnologia de ajuste selecionada para atualização.",
+        "Não existe cronograma de futuras mudanças de guia no plano de produto.",
+        "A guia concentra a adaptação ao mix e precisa cumprir a amplitude sem trocar componentes.",
+        "A aparência da guia não é requisito de mercado neste recorte.",
+        "A interface com a base pode ser comum, mas o curso deve ser confrontado com o mix.",
+        "Guias e travas têm montagem e tolerâncias próprias, diferentes do calço e da barreira.",
+        "Curso e travamento podem ser avaliados antes do ciclo de distribuição integrado.",
+        "Peças de catálogo podem auxiliar; o conjunto funcional de ajuste ainda será projetado.",
+        "A guia precisa ser acessível para limpeza e reposição por desgaste fora da operação de ajuste.",
+        "Uma nova faixa de modelos pode requerer evolução do módulo após reavaliação do escopo.",
+        "Separar guias, travas e apoios favorece a destinação por material."
+      ]
+    },
+    {
+      "id": "S04",
+      "function": "Expor condição",
+      "fg": "F04",
+      "morph_row": 7,
+      "principle": "P1 condicional",
+      "carrier": "Visor protegido e interface real com a caixa original",
+      "rps": [
+        4,
+        6
+      ],
+      "module": "MD4",
+      "scores": [
+        1,
+        3,
+        0,
+        3,
+        0,
+        1,
+        3,
+        5,
+        1,
+        3,
+        3,
+        3
+      ],
+      "reasons": [
+        "A interface de inspeção ainda está indefinida, portanto seu reaproveitamento futuro é fraco.",
+        "Soluções ópticas podem mudar sem refazer todo o corpo de proteção.",
+        "Não há plano de produto com alterações de inspeção programadas.",
+        "A área crítica e o acesso variam com louça e acondicionamento; a janela é condicional.",
+        "Transparência é efeito funcional de inspeção, não atributo de moda.",
+        "Ainda não foi demonstrada uma janela comum para o mix de caixas.",
+        "Vedar e proteger a janela exige operação própria, a integrar à fabricação da barreira.",
+        "Pode-se testar área visível e defeitos conhecidos no painel antes do ensaio integrado de retenção.",
+        "Material transparente comprado não é solução funcional pronta de inspeção.",
+        "O painel precisa de limpeza e possibilidade de reposição sem perder contenção.",
+        "Uma interface óptica melhor pode atualizar a função; sua necessidade ainda será validada.",
+        "Painel e barreira precisam admitir separação de materiais no fim da vida."
+      ]
+    },
+    {
+      "id": "S05",
+      "function": "Prover pega",
+      "fg": "F05",
+      "morph_row": 9,
+      "principle": "P2",
+      "carrier": "Cavas de pega no corpo estrutural",
+      "rps": [
+        3,
+        5
+      ],
+      "module": "MD1",
+      "scores": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        5,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "reasons": [
+        "Uma geometria de pega validada pode permanecer em futuras versões do corpo.",
+        "Não se prevê mudança tecnológica para a cava de pega.",
+        "Não existe plano de alteração de pega para novas gerações.",
+        "O vão deve ser conferido para a população de uso; não se propõe uma família de cavas por modelo.",
+        "A cava é ergonômica, não um recurso de estilo.",
+        "A mesma pega é pretendida para as configurações da base comum.",
+        "A cava pode ser produzida junto com o corpo; não justifica processo apartado.",
+        "Verificação dimensional local é possível, mas o esforço de manuseio depende do conjunto.",
+        "A cava integrada não é um produto pronto adquirido separadamente.",
+        "Limpeza local é necessária; não existe peça de pega autônoma prevista nesta C1.",
+        "Não se prevê atualização da cava em produto já em serviço.",
+        "A integração ao mesmo material do corpo evita uma fração adicional; a separação própria é secundária."
+      ]
+    },
+    {
+      "id": "S06",
+      "function": "Portar volume",
+      "fg": "F03, F08",
+      "morph_row": 10,
+      "principle": "P1",
+      "carrier": "Interface estrutural para carrinho de obra",
+      "rps": [
+        3,
+        8,
+        14
+      ],
+      "module": "MD1",
+      "scores": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        5,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1
+      ],
+      "reasons": [
+        "Uma interface validada com o carrinho pode ser preservada em futuras gerações.",
+        "A interface mecânica da C1 não depende de tecnologia em rápida mudança.",
+        "Não há mudanças futuras de interface programadas em um plano de produto.",
+        "Compatibilidade dimensional deve ser medida; nesta referência a interface não varia por louça.",
+        "O contato com o carrinho não é recurso de moda ou marca.",
+        "Uma interface de suporte comum é pretendida para todas as configurações da C1.",
+        "A interface acompanha a fabricação da base, sem processo separado definido.",
+        "Encaixe e retenção no carrinho podem ser testados antes do percurso carregado.",
+        "A C1 usa interface com carrinho externo; não se pontua compra de kit de rodas da C2/C3.",
+        "Limpeza e verificação de desgaste são necessárias, sem um módulo de rolamento previsto na C1.",
+        "Adotar outro meio de movimentação exigiria reavaliação; não é atualização aprovada.",
+        "A interface integra o material da base; a separação autônoma pouco contribui."
+      ]
+    },
+    {
+      "id": "S07",
+      "function": "Reter fragmentos",
+      "fg": "F06",
+      "morph_row": 11,
+      "principle": "P1",
+      "carrier": "Bandeja e barreira envolvente contínua",
+      "rps": [
+        6
+      ],
+      "module": "MD4",
+      "scores": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        3,
+        3,
+        5,
+        1,
+        5,
+        1,
+        5
+      ],
+      "reasons": [
+        "A interface da barreira pode permanecer; formato e material dependem de retenção ainda não ensaiada.",
+        "Não se propõe transição tecnológica para a barreira de contenção.",
+        "Não existe mudança de barreira programada no plano de produto.",
+        "O envelope muda no ajuste, mas a barreira deve atender à faixa na mesma configuração.",
+        "A barreira não é um elemento de aparência comercial.",
+        "Uma barreira comum é desejada; ainda precisa acompanhar a faixa de ajuste sem abertura.",
+        "Preparação e vedação da barreira diferem dos processos da estrutura e do EPP.",
+        "Retenção e perfuração podem ser caracterizadas no subsistema, seguidas da retirada no conjunto.",
+        "Forro comprado não comprova o subsistema completo de contenção.",
+        "Barreira contaminada ou perfurada precisa de limpeza ou troca independente.",
+        "Melhor material pode ser adotado após revalidação, sem atualização já definida.",
+        "A separação da barreira da estrutura e dos calços é determinante para destinação por material."
+      ]
+    },
+    {
+      "id": "S08",
+      "function": "Resistir compressão",
+      "fg": "F11, F13",
+      "morph_row": 12,
+      "principle": "P1",
+      "carrier": "Colunas e caminhos de carga do corpo polimérico",
+      "rps": [
+        11,
+        13
+      ],
+      "module": "MD1",
+      "scores": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        5,
+        3,
+        3,
+        0,
+        1,
+        1,
+        3
+      ],
+      "reasons": [
+        "Um caminho estrutural dimensionado pode ser mantido em futuras gerações dentro do envelope validado.",
+        "Não há evolução tecnológica rápida prevista para o corpo estrutural.",
+        "Não existe mudança estrutural programada em plano de gerações.",
+        "A carga de serviço precisa ser confirmada; pretende-se dimensionar um corpo comum para a condição desfavorável.",
+        "A coluna estrutural não é um atributo de estilo.",
+        "A base e os caminhos de carga comuns reduzem variedade de peças no ATO.",
+        "Fabricação e controle da estrutura diferem dos processos de calços e barreira.",
+        "Rigidez local pode ser medida, mas compressão protetiva depende da estrutura e da louça montadas.",
+        "Comprar polímero não é comprar um subsistema pronto de compressão.",
+        "Inspecionar trincas e limpar o corpo são necessários; não se propõe trocar coluna isolada em serviço.",
+        "Outra carga de serviço exige nova validação, sem atualização aprovada do corpo em uso.",
+        "Separar a estrutura dos materiais resilientes e da barreira favorece reciclagem do corpo."
+      ]
+    },
+    {
+      "id": "S09",
+      "function": "Unir e liberar partes",
+      "fg": "F17, F20, F22",
+      "morph_row": 13,
+      "principle": "P1",
+      "carrier": "Fechos sobre-centro com retenção secundária",
+      "rps": [
+        17,
+        20,
+        22
+      ],
+      "module": "MD1",
+      "scores": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        5,
+        1,
+        3,
+        3,
+        3,
+        1,
+        3
+      ],
+      "reasons": [
+        "Uma interface de fecho padronizada pode permanecer em futuras versões.",
+        "Não se prevê evolução tecnológica rápida para o fecho mecânico.",
+        "Não há mudança de fecho programada em plano de produto.",
+        "Forças e folgas precisam ser verificadas, sem família de fechos por louça prevista.",
+        "O fecho comunica fechamento funcional; sua aparência não é estilo.",
+        "Fechos comuns reduzem famílias e erros de montagem nas configurações.",
+        "Montagem manual do fecho é comum e não exige uma unidade de fabricação independente definida.",
+        "Soltura, retenção e ciclos locais podem ser ensaiados antes do conjunto em transporte.",
+        "Fechos prontos são possíveis; aplicação, retenção secundária e interfaces exigem projeto.",
+        "Acesso ao fecho desgastado permite trocar uma peça sem substituir todos os núcleos.",
+        "Atualização do tipo de fecho é possibilidade secundária, sem mudança definida.",
+        "Ferragens e corpo polimérico precisam ser separáveis no fim da vida."
+      ]
+    },
+    {
+      "id": "S10",
+      "function": "Comunicar uso e exibir identidade",
+      "fg": "F10, F16, F21",
+      "morph_row": 14,
+      "principle": "P4 + orientação funcional",
+      "carrier": "Marcação de uso e código gravado na estrutura permanente",
+      "rps": [
+        10,
+        16,
+        21
+      ],
+      "module": "MD1",
+      "scores": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        5,
+        1,
+        3,
+        0,
+        1,
+        0,
+        0
+      ],
+      "reasons": [
+        "Um padrão de orientação e identificação pode permanecer; cada serial continua único.",
+        "A marcação gravada da C1 não depende de tecnologia rápida; RFID pertence a outra alternativa.",
+        "Não há mudanças de identidade visual programadas no plano de produto.",
+        "Valores de serial e modelo variam, mas isso não exige uma parte física ou interface diferente.",
+        "Advertência, orientação e serial são informação de uso, não diferenciação estética.",
+        "O mesmo suporte físico permanente pode receber os dados de cada unidade.",
+        "A gravação é operação local no corpo e não exige um módulo separado.",
+        "Leitura e presença da identidade podem ser verificadas localmente e após ciclos e umidade.",
+        "Não há tag ou leitor pronto adotado na C1; não se transfere a hipótese de RFID da C2.",
+        "Preservar e eventualmente recompor a mesma marcação é necessário; não se troca a identidade da unidade.",
+        "Não se propõe atualização por remoção da identidade permanente.",
+        "A gravação não acrescenta fração material a separar; isso não dispensa RP19 do conjunto."
+      ]
+    },
+    {
+      "id": "S11",
+      "function": "Estabilizar conjunto",
+      "fg": "F09",
+      "morph_row": 15,
+      "principle": "P1",
+      "carrier": "Geometria de base alargada sem rodízios livres",
+      "rps": [
+        9
+      ],
+      "module": "MD1",
+      "scores": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        5,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1
+      ],
+      "reasons": [
+        "Uma base estável validada pode permanecer em futuras gerações no envelope de carga.",
+        "A geometria da base não tem mudança tecnológica prevista.",
+        "Não existe alteração de apoio programada no plano de produto.",
+        "Centro de massa e apoio variam com carga; pretende-se uma base comum para o caso desfavorável.",
+        "A estabilidade não é dirigida por aparência ou moda.",
+        "O mesmo apoio é pretendido para as variantes dimensionais da C1.",
+        "O apoio integra o corpo, sem processo independente definido.",
+        "Ângulo e apoios podem ser caracterizados, mas a prova final exige o conjunto carregado.",
+        "A base alargada não é um kit de freios comprado; a C3 deve ser reavaliada separadamente.",
+        "Inspeção e limpeza são necessárias, sem módulo de apoio autônomo na C1.",
+        "Outra condição de carga exige reavaliação, não atualização já prevista.",
+        "O apoio integra o material do corpo; separá-lo como módulo pouco acrescenta à reciclagem."
+      ]
+    },
+    {
+      "id": "S12",
+      "function": "Limitar volume no retorno",
+      "fg": "F14, F17",
+      "morph_row": 16,
+      "principle": "P1",
+      "carrier": "Laterais recolhíveis mantendo a base comum",
+      "rps": [
+        14,
+        17
+      ],
+      "module": "MD1",
+      "scores": [
+        3,
+        0,
+        0,
+        3,
+        0,
+        3,
+        3,
+        3,
+        1,
+        3,
+        1,
+        3
+      ],
+      "reasons": [
+        "Uma interface de recolhimento pode permanecer em futuras gerações dentro do envelope.",
+        "Articulações mecânicas não têm mudança tecnológica prevista nesta C1.",
+        "Não há recolhimento de próxima geração programado no plano de produto.",
+        "Envelope carregado e vazio depende do mix e da logística de retorno.",
+        "A forma recolhida responde à logística, não à moda.",
+        "A base pode ser comum; os elementos laterais precisam atender ao envelope confirmado.",
+        "Articulações e retenção têm montagem própria, ligada à estrutura carregada.",
+        "Ações e volume recolhido podem ser medidos antes dos ensaios de uso integrado.",
+        "Ferragens de catálogo podem ajudar, mas não compõem sozinhas o subsistema de recolhimento.",
+        "Acesso às articulações permite limpeza e reposição de desgaste.",
+        "Outro modo de retorno é possibilidade secundária, sem atualização definida.",
+        "Desmontar articulações e laterais facilita separar materiais, sem decidir a arquitetura por isso."
+      ]
+    },
+    {
+      "id": "S13",
+      "function": "Registrar evento (OP-01)",
+      "fg": "OP-01",
+      "morph_row": 8,
+      "principle": "P1/P2 opcionais, fora da C1 base",
+      "carrier": "Estudo de indicador comercial ou registrador",
+      "rps": [],
+      "module": "MD6",
+      "optional": true,
+      "scores": [
+        0,
+        5,
+        0,
+        3,
+        0,
+        1,
+        1,
+        5,
+        5,
+        3,
+        5,
+        3
+      ],
+      "reasons": [
+        "Indicador mecânico e registrador eletrônico não têm plataforma definida que se possa transportar entre gerações.",
+        "O registro de evento pode mudar de indicador mecânico para eletrônica sem refazer a estrutura.",
+        "Não existe programa aprovado de mudanças futuras do registrador.",
+        "Massa, posição e duração do evento afetam limiar e escolha; calibração é própria do conjunto.",
+        "Um alerta de evento é informação funcional, não estética.",
+        "Pode haver interface de montagem comum, mas nenhuma unidade padrão foi definida.",
+        "Montagem é local; produção especializada fica com o fornecedor na opção comercial.",
+        "Limiar, memória e leitura podem ser calibrados separadamente antes da correlação com a louça.",
+        "Indicadores e registradores comerciais podem entregar o subsistema pronto, sujeitos à compatibilidade.",
+        "Leitura e reposição por evento ou manutenção devem ser acessíveis, com custo registrado.",
+        "Uma interface separada permite acrescentar ou evoluir o sinal somente após decisão de escopo.",
+        "Remover a opção eletrônica evita misturar sua destinação à estrutura e aos calços."
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "MD1",
+      "name": "Estrutura, pega e circulação",
+      "members": [
+        "S05",
+        "S06",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "reason": "Predominam unidade comum e carry-over. Pega, carga, apoio, recolhimento e identidade compartilham o corpo; separar cada função aumentaria interfaces estruturais. Fechos podem ser peças de reposição internas, sem se tornarem automaticamente módulos.",
+      "exchange": "Corpo de referência da unidade; não contado entre os três módulos cuja troca independente se pretende demonstrar.",
+      "interface": "Assentos de MD2/MD3, fixação e vedação de MD4, pega, caminho de carga e contato com carrinho.",
+      "test": "Compressão, estabilidade, pega, força, cubagem, retenção dos fechos, ações e identidade após ciclos."
+    },
+    {
+      "id": "MD2",
+      "name": "Ajuste e imobilização",
+      "members": [
+        "S02",
+        "S03"
+      ],
+      "reason": "Especificação, manutenção e padronização aproximam cintas e guias. Ambas regulam o mesmo volume e precisam coordenar curso, tensão e apoio.",
+      "exchange": "Hipótese de troca como conjunto de guia/cinta, fora do uso carregado; ajustar ≥150 mm na mesma configuração não troca o módulo.",
+      "interface": "Fixação à base, datum de posicionamento, curso e trava, contato com caixa e posição dos calços.",
+      "test": "Remover/repor MD2 mantendo MD1/MD3/MD4; repetir amplitude e deslocamento com configuração desfavorável."
+    },
+    {
+      "id": "MD3",
+      "name": "Amortecimento",
+      "members": [
+        "S01"
+      ],
+      "reason": "Processo, teste em separado, manutenção e reciclagem são fortes. O calço tem material e vida próprios, sem exigir descarte do corpo.",
+      "exchange": "Hipótese de troca por desgaste sem desmontar os outros núcleos; não serve para substituir componentes durante ajuste de tamanho.",
+      "interface": "Assento, retenção, área de contato e curva mecânica sob massa e envelope confirmados.",
+      "test": "Remover/repor MD3 sem perda de posicionamento; caracterizar calço e repetir pico, dispersão e vida no conjunto."
+    },
+    {
+      "id": "MD4",
+      "name": "Contenção e inspeção",
+      "members": [
+        "S04",
+        "S07"
+      ],
+      "reason": "Teste, manutenção, processo e fim de vida indicam separação da estrutura. O agrupamento entre visor e barreira é condicional ao fechamento contínuo e ao acesso real à cerâmica; seus perfis não são idênticos.",
+      "exchange": "Hipótese de troca do conjunto de barreira/painel sem retirar base, guias e calços. A interface de inspeção continua aberta.",
+      "interface": "Fixação à base, vedação nas regiões de ajuste e interface óptica com a embalagem original.",
+      "test": "Remover/repor MD4 mantendo demais núcleos; medir acesso/defeitos e retenção, incluindo abertura e retirada."
+    },
+    {
+      "id": "MD6",
+      "name": "Registro de evento opcional",
+      "members": [
+        "S13"
+      ],
+      "optional": true,
+      "reason": "Tecnologia, fornecedor, teste separado e atualização favorecem separação se OP-01 entrar no escopo. Alto escore não autoriza sua inclusão.",
+      "exchange": "Fora da C1 base e do argumento de atendimento a RP20; só será ativado após revisão de escopo e custo.",
+      "interface": "Ponto de montagem, acoplamento, orientação, alimentação/leitura se eletrônica e posição de calibração.",
+      "test": "Calibrar e conferir leitura/vida/custo. Evento registrado não comprova integridade da louça."
+    }
+  ],
+  "crosscutting_rps": [
+    15,
+    18,
+    19,
+    20,
+    23
+  ],
+  "sources": {
+    "base": {
+      "name": "Entregas - Grupo 5.xlsx",
+      "sheet": "MIM",
+      "git_blob": "b2607831074ddd6877ccfc591d30d7041d0b9e9c",
+      "scope": "Convenção 1/3/5 e direcionadores; notas próprias do nosso produto."
+    },
+    "literature": {
+      "citation": "Blees, Jonas e Krause (2009), Figura 1 e seção 2",
+      "url": "https://www.designsociety.org/download-publication/28652/perspective-based_development_of_modular_product_architectures",
+      "scope": "Conferência de método; escala clássica 1/3/9 explicitada."
+    }
+  }
+}

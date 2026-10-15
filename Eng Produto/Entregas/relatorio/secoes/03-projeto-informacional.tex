@@ -3,9 +3,33 @@
 
 O projeto informacional transforma a oportunidade em informações de projeto: ciclo de vida delimitado, clientes identificados, necessidades rastreáveis, requisitos dos clientes e especificações mensuráveis. A saída da fase são as especificações-meta, que orientam a geração de soluções e fornecem critério de decisão para as etapas seguintes do desenvolvimento \citep{rozenfeld2006,back2008}.
 
-A regra que governa toda a cadeia descrita a seguir é a rastreabilidade: nenhuma informação entra em uma etapa sem ter vindo da anterior. É isso que permite, ao final, apontar para qualquer peso da matriz de Mudge e recuperar a necessidade e a evidência de campo que o originaram.
+A rastreabilidade relaciona necessidades, requisitos, julgamentos de importância e metas com sua origem: campo, pesquisa documental ou interpretação da equipe. Os pesos do Mudge são julgamentos comparativos informados por essas fontes; não são medidas da frequência das avarias nem respostas de uma pesquisa representativa.
+
+\subsection{Revisão do Escopo do Produto}
+\label{sec:revisao-escopo}
+
+Após o encerramento do pré-desenvolvimento, a revisão do escopo retoma o problema, os atores, as restrições e as premissas do projeto à luz do levantamento e da devolutiva. Seu objetivo é definir o que a solução deverá atender e até onde poderá ser avaliada. Sua entrega é um recorte de projeto revisto, anterior à descrição do ciclo de vida \citep{rozenfeld2006,back2008}.
+
+O recorte mantido é uma solução física para proteger e movimentar louças sanitárias na preparação do envio no distribuidor, no transporte, na descarga e na movimentação na obra, com conferência e retirada segura. A fabricação e a instalação da louça fornecem interfaces e contexto de dano, mas o projeto não redesenha a cerâmica nem os procedimentos de instalação. Produção própria, estratégia ATO e retorno do dispositivo são premissas de planejamento a avaliar; não definem material, mecanismo ou concepção final.
+
+A base inicial compreende uma observação de obra residencial e duas entrevistas, com um operário e um distribuidor. O recorte é, portanto, uma hipótese para esse contexto de distribuição e uso. Não se declara atendimento universal a obras, modelos de louça ou operações logísticas. A abrangência pretendida deverá ser confrontada com outros atores, com o mix de modelos e com pisos, acessos e meios de movimentação distintos antes de escolher uma concepção.
+
+\begin{table}[H]
+\caption{Objetivos e entregas da revisão do escopo e da definição do ciclo de vida}
+\label{tab:escopo-ciclo}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{2.7cm}YY}
+\toprule\textbf{Atividade}&\textbf{Objetivo}&\textbf{Entrega no projeto}\\\midrule
+Revisão do escopo&Reavaliar problema, atores, fronteira de aplicação, restrições e premissas após o pré-desenvolvimento&Recorte revisto e limites de generalização; hipóteses a confirmar\\
+Definição do ciclo de vida&Descrever a trajetória da solução dentro do escopo revisto, incluindo obtenção, uso, suporte e fim de vida&Ciclo macro, 13 fases operacionais, atores e estados que orientam necessidades\\
+\bottomrule\end{tabularx}
+\fonte{Elaboração da equipe. Separação incorporada a partir de \citet{feedback2equipe2026}.}
+\end{table}
 
 \subsection{Ciclo de Vida do Produto}
+\label{sec:ciclo-vida}
+
+Com o recorte revisto, esta atividade descreve como o futuro produto será obtido, disponibilizado, utilizado, mantido, retornado e destinado. As etapas da cadeia da louça ajudam a localizar seu uso, mas não substituem o ciclo de vida da solução em desenvolvimento.
 
 Neste relatório, o termo \textit{produto} designa a solução física que será concebida para reduzir avarias no fluxo entre o distribuidor e a obra. A louça sanitária é o objeto protegido ou movimentado e não o produto em desenvolvimento. Como a solução ainda não possui forma, arquitetura ou materiais definidos, o ciclo de vida foi descrito por transformações, movimentações e estados do futuro produto, sem antecipar uma concepção.
 
@@ -74,9 +98,9 @@ Após estabelecer o ciclo, o método da disciplina considera clientes todas as p
 
 \subsubsection{Métodos de Pesquisa Aplicados}
 
-Quatro técnicas de pesquisa são usadas no levantamento de informações junto aos clientes: observações diretas, entrevistas, questionários e grupos focais. Observações diretas produzem informações mais ricas e detalhadas, sobretudo quando as características avaliadas são qualitativas; entrevistas produzem informação qualitativa e não estruturada, com custo e tempo maiores; questionários são mais rápidos e generalizáveis, mas perdem detalhe; grupos focais oferecem informação muito rica, porém dependem de infraestrutura e profissionais especializados \citep{back2008,fonseca2000}.
+Quatro técnicas de pesquisa podem apoiar o levantamento junto aos clientes: observações diretas, entrevistas, questionários e grupos focais. Observações e entrevistas detalham o contexto e a experiência dos atores. Questionários permitem reunir respostas comparáveis, mas sua generalização depende da amostragem e do instrumento. Grupos focais confrontam percepções em discussão mediada \citep{back2008,fonseca2000}.
 
-A equipe priorizou as duas técnicas qualitativas --- observação direta e entrevista --- complementadas por pesquisa documental. Questionários e grupos focais foram deliberadamente adiados: ambos pressupõem um conjunto de necessidades já estabilizado, que é justamente o que esta fase produz.
+A equipe aplicou observação direta e entrevistas, complementadas por pesquisa documental. Não aplicou questionário Kano funcional/disfuncional nem grupo focal nesta rodada. A classificação Kano é uma interpretação preliminar da equipe e deverá ser confrontada com clientes; a concordância entre os dois relatos não permite inferência estatística para o setor.
 
 \begin{table}[H]
 \caption{Técnicas de pesquisa aplicadas no levantamento das necessidades}
@@ -91,7 +115,7 @@ Observação direta & Acompanhamento do recebimento, do estoque e da movimentaç
 Entrevista semiestruturada & Entrevista gravada com operário da construção civil atuante desde 2009, sobre manuseio, descarga e movimentação de louças & Relato de peças recebidas já trincadas, de quedas durante a descarga e de transporte manual quando o carrinho não acessa o local & Relato qualitativo de um único ator; não quantifica frequência nem etapa causal dominante & E-04 \\
 Entrevista e visita técnica & Visita a distribuidor de louças e materiais com operação própria de logística & Atribuição das avarias ao trecho entre o estoque da loja e a obra; identificação da reposição como custo absorvido; explicitação da tensão entre proteção e preço & Relato de um ator; ainda sem registros operacionais de troca, crédito ou devolução & E-03 \\
 Pesquisa documental & Levantamento de escala setorial da produção brasileira de louças sanitárias e consulta a bases de patentes & Dimensionamento da cadeia e identificação das famílias de solução já existentes para proteção no transporte & Os dados setoriais não comprovam taxa de quebra; a busca não constitui parecer de patenteabilidade & E-06, E-07 \\
-Análise de convergência & Confronto entre observação em obra, relato do operário e relato do distribuidor & Delimitação do problema em uma avaria anterior à instalação, concentrada no transporte de distribuição & Convergência qualitativa não substitui medição da taxa de quebra & E-05 \\
+Análise de convergência & Confronto entre observação em obra, relato do operário e relato do distribuidor & Hipótese de investigação da avaria anterior à instalação, com foco no transporte de distribuição & Convergência qualitativa não mede taxa de quebra nem demonstra a etapa causal dominante & E-05 \\
 \bottomrule
 \end{tabularx}
 \fonte{Elaboração da equipe a partir do levantamento da Semana 03 \citep{equipe2026} e das técnicas descritas em \citet{back2008} e \citet{fonseca2000}.}
@@ -402,9 +426,9 @@ Os requisitos não pesam igual na satisfação do cliente, e não pesam igual pe
 
 \subsubsection{Diagrama de Kano}
 
-O diagrama de Kano distingue três classes \citep{back2008}. Requisitos \textbf{básicos} não são verbalizados --- o cliente os considera óbvios --- mas sua ausência gera insatisfação imediata. Requisitos de \textbf{desempenho} são verbalizados e, quanto melhor atendidos, maior a satisfação. Requisitos \textbf{atrativos} não são esperados e, por isso, surpreendem favoravelmente: são a origem da diferenciação.
+O diagrama de Kano distingue, na classificação adotada, três classes \citep{back2008}. Requisitos \textbf{básicos} são esperados e sua ausência gera insatisfação, mesmo quando não são espontaneamente verbalizados. Nos de \textbf{desempenho}, o atendimento crescente aumenta a satisfação. Os \textbf{atrativos} acrescentam um benefício que o cliente não espera; sua ausência não necessariamente gera insatisfação. Essas classes não estabelecem uma ordem automática de importância.
 
-A classificação orienta o tratamento posterior. O requisito básico é condição para o produto ser aceito. O de desempenho é aquele em que a melhoria aumenta a satisfação. O atrativo é o que o cliente não espera e que, se presente, diferencia a solução. A classificação adotada é a da aba Diagrama de Kano.
+A classificação orienta o tratamento posterior. As nove classificações básicas, nove de desempenho e cinco atrativas da aba Diagrama de Kano foram mantidas como hipóteses da equipe. Ainda não representam categorias confirmadas por uma amostra de clientes.
 
 
 \begin{table}[H]
@@ -507,7 +531,7 @@ S & Ter materiais recicláveis & 0 & 100,0\% & 0 & B & Atrativo \\
 
 As três primeiras posições são amortecer, imobilizar e movimentar, o que mantém a priorização alinhada ao problema delimitado. Em seguida aparecem dois requisitos ligados às evidências de campo: permitir conferência sem abrir responde à avaria que só se revela no recebimento, e ter retirada segura responde à exposição do trabalhador a peças trincadas. O requisito W, separado de K, entra na classe A. Estabilidade no canteiro e empilhamento no estoque não são o mesmo requisito.
 
-\noindent\textbf{Kano e Mudge lidos em conjunto.} O requisito atrativo tende a perder a comparação pareada, porque o cliente não o demanda. O caso extremo é S, materiais recicláveis, com pontuação zero. Isso não o exclui do projeto: apenas indica que ele não altera a quantificação do QFD. O requisito C, conferência sem abrir, é atrativo e ainda assim ficou entre os cinco primeiros, porque responde à avaria oculta registrada em campo.
+\noindent\textbf{Kano e Mudge lidos em conjunto.} A classe Kano não determina quem vence o par no Mudge. Nesta comparação, C é atrativo e ficou em quarto lugar, com 45 pontos; N é básico e ficou em vigésimo primeiro, com 2 pontos; S é atrativo e recebeu zero. Os resultados mostram julgamentos de importância diferentes, não uma regra de que atrativos perdem ou de que básicos sempre lideram. S não contribui diretamente ao peso do cliente no QFD, mas a meta de reciclabilidade permanece no projeto.
 
 \subsubsection{Benchmarking Competitivo}
 
@@ -537,8 +561,31 @@ O índice ponderado pelo Mudge, média das notas ponderada pela pontuação de c
 Em \textit{permitir conferência sem abrir} (C), nenhuma referência recebe nota superior a 2. As soluções observadas são opacas e fechadas. Em \textit{ter montagem em poucas etapas} (U), as quatro notas são 1. Em identificação, reciclabilidade e compactação, o papelão atual e a patente recebem notas altas. Uma solução nova que piore esses pontos para ganhar proteção recua em relação ao que o mercado já entrega.
 
 \subsection{Comparativo entre os métodos utilizados}
+\label{sec:comparativo-metodos}
 
-Os quatro instrumentos respondem a perguntas distintas. Kano indica o tipo de satisfação associado ao requisito. Mudge indica o peso relativo. Pareto indica quais requisitos concentram a pontuação. O benchmarking indica o que as referências já entregam e onde permanecem lacunas. A decisão que segue para o QFD usa os quatro resultados.
+O cruzamento Kano--Mudge evita interpretar a pontuação como autorização para eliminar um requisito. Kano descreve a resposta esperada de satisfação; Mudge expressa a importância relativa atribuída aos pares no recorte estudado. Pareto concentra a atenção nos pesos maiores, e benchmarking confronta o conjunto com as referências. Cada instrumento fornece uma informação distinta para a decisão.
+
+\begin{table}[H]
+\caption{Leitura cruzada dos resultados de Kano e Mudge}
+\label{tab:cruzamento-kano-mudge}
+\centering\scriptsize
+\begin{tabularx}{\textwidth}{L{3.8cm}L{1.8cm}L{1.9cm}Y}
+\toprule\textbf{Requisito}&\textbf{Kano}&\textbf{Mudge}&\textbf{Implicação para o projeto}\\\midrule
+A e B: amortecer e imobilizar&Básicos&78 e 77; 1º e 2º&Concentram proteção na geração e avaliação das soluções\\
+F: fácil movimentação&Desempenho&70; 3º&Proteção precisa funcionar com o esforço e o acesso do canteiro\\
+C: conferência sem abrir&Atrativo&45; 4º&Diferenciação com alta importância no recorte; exige acesso real à cerâmica\\
+K: empilhável&Básico&17; 12º&Fora dos onze vitais, mas compressão e empilhamento continuam exigidos\\
+N: identificação visível&Básico&2; 21º&Peso baixo não dispensa identificação e orientação de uso\\
+S: materiais recicláveis&Atrativo&0; 23º&Sem contribuição direta no QFD; a meta de fim de vida permanece\\
+\bottomrule\end{tabularx}
+\fonte{Abas Diagrama de Kano, Diagrama de Mudge e Diagrama de Pareto. Classes e comparações preliminares da equipe.}
+\end{table}
+
+A, B e F concentram 225 dos 577 pontos, ou 39,0\%, e justificam a ênfase inicial em proteção e movimentação. C mostra que um benefício classificado como atrativo pode receber importância elevada quando responde à avaria oculta. A prioridade não resolve seu princípio de solução: indicador de choque não inspeciona trinca. K e N mostram o caso inverso, em que a pontuação menor não remove uma condição de aceitação.
+
+O benchmarking amplia essa leitura: C recebeu no máximo nota 2 nas referências e, portanto, combina peso elevado com uma lacuna de conferência. Reciclabilidade e identificação já aparecem atendidas nas referências; melhorar proteção não justifica regredir nesses atributos. No QFD, a pontuação bruta do Mudge entra na quantificação; a classe Kano acompanha a interpretação, sem multiplicador ou alteração automática dos pesos. A morfológica e o Pugh devem preservar todos os requisitos e verificar as restrições, inclusive os de baixo peso.
+
+A classificação e os pares precisarão ser revistos se a ampliação do campo revelar outras expectativas ou conflitos. Essa revisão deve registrar o motivo da mudança e atualizar Pareto, QFD e critérios de seleção na mesma rodada. Os resultados atuais orientam o desenvolvimento no recorte, sem provar representatividade dos clientes ou desempenho da solução.
 
 
 \subsection{Desdobramento da Função Qualidade}
@@ -717,33 +764,33 @@ RP20 $\times$ RP21 & Trocar o módulo pode apagar o identificador da unidade & O
 \fonte{Elaboração da equipe a partir das justificativas registradas na aba Matriz de Correlação da planilha do grupo.}
 \end{table}
 
-\noindent Os demais conflitos simples seguem a mesma regra e estão comentados na planilha. A meta de maior importância técnica restringe o par, e a forma de conciliar os dois espera a matriz indicadora de módulos.
+\noindent Os demais conflitos simples seguem a mesma regra e estão comentados na planilha. A importância técnica orienta a atenção ao par, sem dispensar a outra meta. A modelagem funcional, a TRIZ e a morfológica exploram meios de conciliar as exigências; a MIM apoia o agrupamento em módulos e a discussão das interfaces. A solução do conflito exige verificação conjunta das metas.
 
 \subsubsection{Análise dos Resultados do QFD}
 
-O resultado orienta o projeto conceitual em três pontos. A maior importância técnica está na proteção e no manuseio, correspondentes a RP1, RP2, RP3 e RP5. A conferência sem abrir permanece como lacuna em relação às referências, condicionada à retenção de fragmentos, conforme a Tabela~\ref{tab:compensacao}. A reutilização, a manutenção, a identificação da unidade e o custo por ciclo se reforçam: o custo por ciclo só se calcula se a unidade puder ser identificada, mantida e reutilizada. As dualidades da correlação --- aceleração e faixa de ajuste, conferência e retenção, movimentação e recondicionamento --- já têm a restrição definida. O meio de supri-las é a matriz indicadora de módulos, na fase seguinte.
+O resultado orienta o projeto conceitual em três pontos. A maior importância técnica está na proteção e no manuseio, correspondentes a RP1, RP2, RP3 e RP5. A conferência sem abrir permanece como lacuna em relação às referências, condicionada à retenção de fragmentos, conforme a Tabela~\ref{tab:compensacao}. A reutilização, a manutenção, a identificação da unidade e o custo por ciclo se reforçam: registrar a identidade da unidade permite acompanhar vida, manutenção e retorno para calcular o custo real. As dualidades da correlação --- aceleração e faixa de ajuste, conferência e retenção, movimentação e recondicionamento --- orientam a geração dos princípios e a verificação das concepções. Agrupar funções na MIM não demonstra atendimento simultâneo às metas.
 
 
 \subsection{Especificações Meta}
 
-As especificações-meta traduzem cada requisito de projeto em valor, com o modo de medição e a partida conhecida da embalagem atual. Quando essa partida ainda é estimativa, a meta permanece provisória até o plano de coleta.
+As especificações-meta traduzem cada requisito de projeto em um valor de trabalho e um modo de medição. A origem da linha de base e a justificativa da meta são informações distintas: uma fonte publicada ou um cálculo de catálogo não valida o limite adotado na operação estudada. Nesta etapa, as 23 metas orientam o projeto conceitual, mas ainda precisam de confirmação ou revisão antes da seleção definitiva.
 
 
 \footnotesize
 \begin{longtable}{@{}L{1.0cm}@{\hspace{0.2cm}}L{5.5cm}@{\hspace{0.2cm}}L{4.2cm}@{\hspace{0.2cm}}L{2.4cm}@{}}
 \caption{Especificações-meta dos requisitos de projeto}\label{tab:especificacoes-meta}\\
 \toprule
-\textbf{RP} & \textbf{Meta} & \textbf{Linha de base (R1)} & \textbf{Origem} \\
+\textbf{RP} & \textbf{Meta de trabalho} & \textbf{Linha de base (R1)} & \textbf{Origem da base} \\
 \midrule
 \endfirsthead
 \caption[]{Especificações-meta -- continuação}\\
 \toprule
-\textbf{RP} & \textbf{Meta} & \textbf{Linha de base (R1)} & \textbf{Origem} \\
+\textbf{RP} & \textbf{Meta de trabalho} & \textbf{Linha de base (R1)} & \textbf{Origem da base} \\
 \midrule
 \endhead
 RP1 & $\leq 35$\,g de pico, e abaixo da embalagem atual no mesmo ensaio & 60 a 90\,g; fragilidade 40--60\,g & Fonte + estimativa \\
 RP2 & $\leq 6$\,mm de deslocamento residual & $\approx 25$\,mm de folga da caixa atual & Estimativa \\
-RP3 & $\leq 150$\,N de força de partida & 334\,N no levantamento; 17 a 33\,N com carrinho & Fonte + cálculo \\
+RP3 & $\leq 150$\,N de força de partida & 334\,N no levantamento; 17 a 33\,N com carrinho & Fonte + cálculo + estimativa \\
 RP4 & $\geq 60\%$ da área crítica verificável & $0\%$ (embalagem opaca e fechada) & Fonte \\
 RP5 & $\geq 2$ pontos de pega para mão enluvada & 0 (nenhuma pega definida) & Fonte \\
 RP6 & $\geq 90\%$ da massa de fragmentos retida & $\approx 0\%$ (fragmentos soltos) & Estimativa \\
@@ -755,23 +802,45 @@ RP11 & $\geq 7{,}5$\,kN de compressão sem perda de proteção & $\approx 5$\,kN
 RP12 & $\leq 10\%$ de coeficiente de variação do pico & $\approx 20\%$ estimados & Estimativa \\
 RP13 & $\leq 12{,}5\%$ de perda após 48\,h úmidas & $\approx 50\%$ de perda a 90\% de UR & Fonte \\
 RP14 & $\leq 0{,}107$\,m$^3$/peça (alvo $0{,}096$) & $0{,}107$\,m$^3$ por peça & Cálculo \\
-RP15 & $\leq 5$\,min por ciclo de recondicionamento & Não se aplica à embalagem descartável & Estimativa \\
+RP15 & $\leq 5$\,min por ciclo de recondicionamento & Não se aplica à embalagem descartável & Não aplicável \\
 RP16 & $\geq 5$\,m de distância de leitura & $\approx 5$\,m na impressão atual & Estimativa \\
 RP17 & $\leq 120$\,s de desmontagem completa & $\approx 60$\,s para abrir a caixa atual & Estimativa \\
 RP18 & $\geq 20$ ciclos até falha funcional & 1 viagem & Fonte \\
 RP19 & $\geq 95\%$ da massa com cadeia de reciclagem & $\approx 95\%$ (papelão, descontada a fita) & Estimativa \\
-RP20 & $\geq 3$ módulos substituíveis & Não se aplica à embalagem descartável & Estimativa \\
-RP21 & 1 identificador único por unidade & Impressão de modelo, sem identificador da unidade & Estimativa \\
+RP20 & $\geq 3$ módulos substituíveis & Não se aplica à embalagem descartável & Não aplicável \\
+RP21 & 1 identificador único por unidade & Impressão de modelo, sem identificador da unidade & Observação qualitativa \\
 RP22 & $\leq 6$ etapas de montagem e fechamento & $\approx 5$ etapas na caixa atual & Estimativa \\
-RP23 & $\leq$ R\$\,15/ciclo, abaixo do custo da avaria & R\$\,27,40 por peça & Cálculo sobre fontes \\
+RP23 & $\leq$ R\$\,15/ciclo do dispositivo; comparar a operação completa & R\$\,27,40 por entrega & Cálculo sobre hipóteses \\
 \bottomrule
 \end{longtable}
 \normalsize
-\fonte{Elaboração da equipe a partir da aba Especificação Meta. As metas são as da planilha. A linha de base foi associada ao requisito de mesma grandeza, porque na planilha essa coluna está deslocada em relação à linha da meta.}
+\fonte{Elaboração da equipe a partir da aba Especificação Meta. A revisão de 14 out.\ 2026 alinhou a linha de base da planilha pela identidade do RP, preservando a origem e a natureza dos valores.}
 
 \notaquadro{O requisito S tem pontuação zero no Mudge. A meta do RP19 foi mantida porque a embalagem atual já é, em grande parte, reciclável, e a solução nova não deve piorar essa condição.}
 
-\noindent\textbf{Plano de coleta.} Ainda dependem de medição o custo real da avaria, a massa e as dimensões dos modelos que representam a maior parte do volume, o tempo de conferência, a altura de manuseio, a força de partida no piso da obra, a carga de compressão e sua perda com umidade, e o comportamento dos fragmentos. Até essa coleta, as metas marcadas como estimativa orientam o projeto conceitual e não encerram a verificação numérica.
+\subsubsection{Plano de coleta e validação das metas}
+\label{sec:validacao-metas}
+
+O plano distingue medir a situação atual, justificar a meta e verificar a concepção. A aba Especificação Meta relaciona essas atividades aos 23 RP, com protocolo, frente responsável proposta, marco de revisão e evidência necessária para fechar cada pendência. Laboratório, acesso a registros e responsáveis ainda precisam ser confirmados. Nenhum resultado foi preenchido como se a coleta já tivesse ocorrido.
+
+\noindent\textbf{Ampliação do campo.} A proposta é visitar pelo menos dois outros distribuidores e duas outras obras com condições de acesso diferentes das iniciais, ouvindo expedição, motorista/ajudante e recebimento. Esse mínimo é uma amostragem intencional para confrontar o recorte, não uma amostra estatística do setor. As perguntas devem procurar também casos que contrariem a hipótese de dano no transporte. Para revisar Kano, aplicar pares de perguntas sobre presença e ausência do atributo e registrar perfil e respostas; revisar os pares de Mudge com as novas justificativas.
+
+\noindent\textbf{Frequência e consequência econômica.} Solicitar registros contínuos de entregas e avarias em uma janela com início e fim documentados; se indisponíveis, propor quatro semanas de acompanhamento prospectivo e ampliar o período se insuficiente. Usar peças avariadas divididas por peças entregues do mesmo modelo, período e operação. Separar troca, crédito, perda da peça, reentrega e retrabalho para evitar dupla contagem. Momento de detecção não será tratado como causa comprovada. A taxa observada valerá para essa operação e janela, com quantidade observada e limitações registradas.
+
+\begin{table}[H]
+\caption{Validações decisivas das metas estimadas destacadas no feedback}
+\label{tab:validacoes-decisivas}
+\centering\scriptsize
+\begin{tabularx}{\textwidth}{L{2.6cm}L{4.3cm}YY}
+\toprule\textbf{Meta provisória}&\textbf{O que levantar}&\textbf{Como confrontar}&\textbf{Decisão exigida}\\\midrule
+RP2: deslocamento $\leq6$\,mm&Posição inicial/final, contatos e dano sob choque e vibração&Mesmas peças/modelos, sequência, faces e condições para R1 e propostas; registrar cada repetição&Confirmar ou revisar 6\,mm pela relação entre deslocamento, contato e dano\\
+RP11: compressão $\geq7{,}5$\,kN&Massa, níveis e duração de empilhamento; carga efetiva e deformação&Definir carga de serviço e margem justificada; comprimir o conjunto seco e condicionado, avaliando proteção&Confirmar ou revisar 7,5\,kN; 150\% de 5\,kN estimados não demonstra demanda real\\
+RP15: recondicionamento $\leq5$\,min&Limpeza, inspeção, reposição, condições de liberação e custo de mão de obra&Cronometrar repetições em condições de retorno típicas e desfavoráveis, com critérios de liberação comuns&Confirmar ou revisar 5\,min sem omitir tarefas; incorporar ao custo por ciclo\\
+\bottomrule\end{tabularx}
+\fonte{Plano proposto pela equipe para tratar as fragilidades registradas em \citet{feedback2equipe2026}.}
+\end{table}
+
+Os demais ensaios devem definir, antes de começar, modelos e unidades, repetições, instrumentos, condições e critério de aceitação. Registrar resultados individuais e dispersão; uma única execução não prova uniformidade nem vida útil. A aprovação das metas ocorrerá com justificativa registrada e assinatura da revisão pela equipe, podendo alterar os números de trabalho. Se uma concepção não atender uma meta confirmada, rever a solução; não reduzir o limite apenas para aprová-la. A seleção final permanece condicionada ao fechamento das validações críticas de proteção, inspeção, manuseio, contenção e custo.
 
 
 \subsection{Encerramento da Fase de Projeto Informacional}

@@ -6,18 +6,18 @@ A equipe está desenvolvendo um sistema de proteção reutilizável para reduzir
 
 ## Fase atual
 
-O projeto está no **projeto informacional**. Nesta fase, o problema observado é convertido em requisitos mensuráveis antes de se escolher uma solução física.
+O projeto está no **projeto conceitual em elaboração**. O informacional fornece os 23 requisitos e as metas provisórias. Agora são comparadas estruturas funcionais e combinações de princípios, antes de dimensionar e selecionar uma concepção.
 
 Fluxo atual:
 
-1. necessidades dos clientes e etapas do ciclo de vida;
-2. requisitos dos clientes;
-3. classificação Kano;
-4. priorização par a par pelo método Mudge;
-5. corte de Pareto;
-6. benchmarking;
-7. requisitos de projeto mensuráveis;
-8. QFD e especificações-meta.
+1. requisitos e especificações-meta rastreáveis ao informacional;
+2. função global, FAST e conexões de energia, material e sinal;
+3. M1 (peça descoberta), M2 (volume embalado) e M3 (volume com registro de evento opcional);
+4. triagem inicial de Pugh preservada (12/0/40) e comparação revisada pendente de evidência;
+5. conflitos do QFD explorados por TRIZ e combinações morfológicas;
+6. MIM pontuada na referência C1 e arquitetura conceitual indicada por perfis e interfaces;
+7. três concepções preliminares, dimensionamento, custo e verificações;
+8. seleção apoiada nas metas, seguida de protótipo e ensaios.
 
 ## Fonte de verdade
 
@@ -32,7 +32,11 @@ Fluxo atual:
 - confirmar massa, dimensões e fragilidade das peças de referência;
 - fechar metas numéricas que ainda partem de estimativas;
 - manter planilha e relatório coerentes após cada alteração;
-- preparar a transição para o projeto conceitual, quando serão geradas e comparadas soluções.
+- fechar a interface real de inspeção da louça na embalagem original;
+- demonstrar ajuste sem troca, força, estabilidade, volume e retenção;
+- incluir caixa mantida, retorno, manutenção, consumíveis e avaria residual na comparação econômica;
+- justificar notas do Pugh, definir interfaces e testar os agrupamentos indicados pela MIM; reavaliar portadores ao avançar C2/C3;
+- tratar o módulo de evento como opção experimental, sem confundi-lo com diagnóstico de trinca.
 
 ## Próximos marcos
 

@@ -33,6 +33,7 @@ Thumbs.db
 
 # Scratch/build output and dependencies (Eng Produto folder)
 Eng Produto/tmp/
+**/.codex_spreadsheet_inspect/
 **/node_modules/
 
 # Textbooks too large for GitHub (exceed size limits, not for redistribution)

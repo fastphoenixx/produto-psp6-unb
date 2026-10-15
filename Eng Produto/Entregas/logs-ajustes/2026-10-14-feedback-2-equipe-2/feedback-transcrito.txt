@@ -1,0 +1,24 @@
+Feedback 2 Equipe 2
+
+Parabéns a equipe pelo desenvolvimento.
+
+PONTOS DE CORREÇÃO:
+Pré-desenvolvimento:
+Faltou fechar o pré-desenvolvimento com lições aprendidas e comentários da banca.
+
+Projeto Informacional:
+
+A equipe misturou as informações da revisão do escopo do produto com definição do ciclo de vida do produto. É importante deixar claro no relatório que são duas atividades separadas com objetivos e entregas diferentes.
+
+A revisão do escopo está associada a revisão de todo o projeto após o encerramento do pré-desenvolvimento. Com esta informação bem definida vamos para atividades de definição do ciclo de vida do produto.
+
+No item 3.5 sugiro a equipe melhorar a redação do item a análise ficou muito genérica. Pois a aplicação cruzada entre os diagramas de Kano e Mudge é o ponto mais alto do relatório, mas não foi bem descrito neste tópico.
+
+FRAGILIDADES E PONTOS DE ATENÇÃO
+
+O levantamento inicial sustentou-se por uma única observação de obra residencial e duas entrevistas (um operário e um distribuidor). A equipe é transparente ao admitir que estes dados não permitem calcular a verdadeira taxa de quebra no setor nem o peso econômico exato das avarias, o que fragiliza ligeiramente a universalidade da solução proposta. (A equipe tem que ter atenção a este ponto, pois pode gerar uma solução que não atende o problema).
+
+A esmagadora maioria das especificações-meta (como a carga de compressão mínima de 7,5 kN, o deslocamento residual ≤ 6 mm e o tempo de recondicionamento) assenta exclusivamente em estimativas da equipe. A viabilidade do projeto dependerá inteiramente da validação destes números no plano de recolha de dados.
+
+Cordialmente,
+Profa. Andréa Santos

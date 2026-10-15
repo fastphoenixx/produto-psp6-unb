@@ -4,7 +4,7 @@ Repositório acadêmico do projeto desenvolvido nas disciplinas Engenharia de Pr
 
 ## Projeto
 
-O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias durante o transporte, a descarga e a movimentação até o ponto de instalação. A fase atual é o projeto informacional: necessidades dos clientes, requisitos, Kano, Mudge, Pareto, benchmarking, QFD e especificações-meta.
+O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias durante o transporte, a descarga e a movimentação até o ponto de instalação. O projeto informacional consolidou necessidades, requisitos, Kano, Mudge, Pareto, benchmarking, QFD e metas provisórias. A fase atual é o projeto conceitual: funções, três fronteiras de modelagem, revisão de Pugh, TRIZ, morfológica e concepções. A MIM foi pontuada para a referência de estudo C1, com 156 julgamentos e quatro núcleos propostos. Interfaces, troca independente, seleção definitiva e desempenho dependem de análise técnica e ensaios.
 
 ## Conteúdo público
 
