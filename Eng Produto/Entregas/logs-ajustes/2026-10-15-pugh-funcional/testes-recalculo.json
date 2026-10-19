@@ -1,0 +1,1163 @@
+{
+  "data": "2026-10-15",
+  "notas": "Testes em cópias descartáveis. Entradas temporárias não foram salvas nas entregas. Comparação funcional não comprova desempenho; MIM herdada aguarda reavaliação sob M1.",
+  "artifact_tool": {
+    "baseline": {
+      "functional": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "historical": [
+        [
+          12,
+          0,
+          40
+        ]
+      ],
+      "originalReview": [
+        [
+          "Pendente: notas AV",
+          "Pendente: notas AV"
+        ]
+      ],
+      "status": [
+        [
+          "M1: direção condicionada"
+        ]
+      ],
+      "downstream": [
+        [
+          "Pendente: notas AV",
+          "Pendente: notas AV"
+        ]
+      ],
+      "mudge": [
+        [
+          577
+        ]
+      ],
+      "qfd": [
+        [
+          1255,
+          1041,
+          1008,
+          521,
+          902,
+          568,
+          624,
+          428,
+          528,
+          254,
+          644,
+          618,
+          553,
+          462,
+          441,
+          419,
+          205,
+          532,
+          181,
+          147,
+          128,
+          305,
+          459
+        ]
+      ],
+      "mim": [
+        [
+          36,
+          27,
+          28,
+          26,
+          13,
+          16,
+          25,
+          20,
+          23,
+          13,
+          16,
+          23,
+          31
+        ],
+        [
+          36,
+          27,
+          28,
+          26,
+          13,
+          16,
+          25,
+          20,
+          23,
+          13,
+          16,
+          23,
+          "Fora do estudo"
+        ],
+        [
+          1,
+          3,
+          2,
+          4,
+          11,
+          9,
+          5,
+          8,
+          6,
+          11,
+          9,
+          6,
+          "Fora do estudo"
+        ],
+        [
+          "MD3",
+          "MD2",
+          "MD2",
+          "MD4",
+          "MD1",
+          "MD1",
+          "MD4",
+          "MD1",
+          "MD1",
+          "MD1",
+          "MD1",
+          "MD1",
+          "Fora da base"
+        ]
+      ]
+    },
+    "tests": {
+      "negative": {
+        "counts": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "total": [
+          [
+            -2
+          ]
+        ],
+        "status": [
+          [
+            "Rever decisão"
+          ]
+        ]
+      },
+      "blank": {
+        "counts": [
+          [
+            "Rever notas"
+          ],
+          [
+            "Rever notas"
+          ],
+          [
+            "Rever notas"
+          ]
+        ],
+        "total": [
+          [
+            "Rever notas"
+          ]
+        ],
+        "status": [
+          [
+            "Rever notas funcionais"
+          ]
+        ]
+      },
+      "unknown": {
+        "counts": [
+          [
+            "Rever notas"
+          ],
+          [
+            "Rever notas"
+          ],
+          [
+            "Rever notas"
+          ]
+        ],
+        "total": [
+          [
+            "Rever notas"
+          ]
+        ],
+        "status": [
+          [
+            "Rever notas funcionais"
+          ]
+        ]
+      },
+      "invalid": {
+        "counts": [
+          [
+            "Rever notas"
+          ],
+          [
+            "Rever notas"
+          ],
+          [
+            "Rever notas"
+          ]
+        ],
+        "total": [
+          [
+            "Rever notas"
+          ]
+        ],
+        "status": [
+          [
+            "Rever notas funcionais"
+          ]
+        ]
+      }
+    },
+    "restored": {
+      "functional": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "historical": [
+        [
+          12,
+          0,
+          40
+        ]
+      ],
+      "originalReview": [
+        [
+          "Pendente: notas AV",
+          "Pendente: notas AV"
+        ]
+      ],
+      "status": [
+        [
+          "M1: direção condicionada"
+        ]
+      ],
+      "downstream": [
+        [
+          "Pendente: notas AV",
+          "Pendente: notas AV"
+        ]
+      ],
+      "mudge": [
+        [
+          577
+        ]
+      ],
+      "qfd": [
+        [
+          1255,
+          1041,
+          1008,
+          521,
+          902,
+          568,
+          624,
+          428,
+          528,
+          254,
+          644,
+          618,
+          553,
+          462,
+          441,
+          419,
+          205,
+          532,
+          181,
+          147,
+          128,
+          305,
+          459
+        ]
+      ],
+      "mim": [
+        [
+          36,
+          27,
+          28,
+          26,
+          13,
+          16,
+          25,
+          20,
+          23,
+          13,
+          16,
+          23,
+          31
+        ],
+        [
+          36,
+          27,
+          28,
+          26,
+          13,
+          16,
+          25,
+          20,
+          23,
+          13,
+          16,
+          23,
+          "Fora do estudo"
+        ],
+        [
+          1,
+          3,
+          2,
+          4,
+          11,
+          9,
+          5,
+          8,
+          6,
+          11,
+          9,
+          6,
+          "Fora do estudo"
+        ],
+        [
+          "MD3",
+          "MD2",
+          "MD2",
+          "MD4",
+          "MD1",
+          "MD1",
+          "MD4",
+          "MD1",
+          "MD1",
+          "MD1",
+          "MD1",
+          "MD1",
+          "Fora da base"
+        ]
+      ]
+    },
+    "costTests": {
+      "complete": [
+        [
+          18
+        ],
+        [
+          49.4
+        ]
+      ],
+      "missingPrep": [
+        [
+          18
+        ],
+        [
+          "Não calculável: completar custos M1"
+        ]
+      ],
+      "invalidLife": [
+        [
+          "Não calculável: completar custos M1"
+        ],
+        [
+          "Não calculável: completar custos M1"
+        ]
+      ],
+      "invalidResidual": [
+        [
+          18
+        ],
+        [
+          "Não calculável: completar custos M1"
+        ]
+      ]
+    },
+    "mimReview": [
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ],
+      [
+        "Reavaliar M1"
+      ]
+    ],
+    "mimTest": {
+      "total": [
+        [
+          "AV: 12 notas válidas"
+        ]
+      ],
+      "review": [
+        [
+          "Rever nota e M1"
+        ]
+      ]
+    },
+    "afterRestore": {
+      "baseline": {
+        "functional": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            5,
+            5
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "historical": [
+          [
+            12,
+            0,
+            40
+          ]
+        ],
+        "originalReview": [
+          [
+            "Pendente: notas AV",
+            "Pendente: notas AV"
+          ]
+        ],
+        "status": [
+          [
+            "M1: direção condicionada"
+          ]
+        ],
+        "downstream": [
+          [
+            "Pendente: notas AV",
+            "Pendente: notas AV"
+          ]
+        ],
+        "mudge": [
+          [
+            577
+          ]
+        ],
+        "qfd": [
+          [
+            1255,
+            1041,
+            1008,
+            521,
+            902,
+            568,
+            624,
+            428,
+            528,
+            254,
+            644,
+            618,
+            553,
+            462,
+            441,
+            419,
+            205,
+            532,
+            181,
+            147,
+            128,
+            305,
+            459
+          ]
+        ],
+        "mim": [
+          [
+            36,
+            27,
+            28,
+            26,
+            13,
+            16,
+            25,
+            20,
+            23,
+            13,
+            16,
+            23,
+            31
+          ],
+          [
+            36,
+            27,
+            28,
+            26,
+            13,
+            16,
+            25,
+            20,
+            23,
+            13,
+            16,
+            23,
+            "Fora do estudo"
+          ],
+          [
+            1,
+            3,
+            2,
+            4,
+            11,
+            9,
+            5,
+            8,
+            6,
+            11,
+            9,
+            6,
+            "Fora do estudo"
+          ],
+          [
+            "MD3",
+            "MD2",
+            "MD2",
+            "MD4",
+            "MD1",
+            "MD1",
+            "MD4",
+            "MD1",
+            "MD1",
+            "MD1",
+            "MD1",
+            "MD1",
+            "Fora da base"
+          ]
+        ]
+      },
+      "cost": [
+        [
+          "Não calculável: completar custos M1"
+        ],
+        [
+          "Não calculável: completar custos M1"
+        ]
+      ]
+    },
+    "errors": [
+      {
+        "kind": "notice",
+        "message": "Cell search matched 0 entries."
+      }
+    ]
+  },
+  "libreoffice": {
+    "casos": {
+      "baseline": {},
+      "nota-alterada": {
+        "Matriz Pugh das Modelagens": {
+          "E49": -1
+        },
+        "MIM": {
+          "D11": 2
+        }
+      },
+      "nota-ausente": {
+        "Matriz Pugh das Modelagens": {
+          "E49": null
+        }
+      },
+      "custo-completo": {
+        "Modelagens Alternativas": {
+          "C52": 300,
+          "C53": 20,
+          "C54": 2,
+          "C55": 1,
+          "C56": 0,
+          "C57": 3,
+          "C58": 1,
+          "C59": 15,
+          "C60": 0.02,
+          "C61": 500,
+          "C62": 120
+        }
+      },
+      "custo-ausente": {
+        "Modelagens Alternativas": {
+          "C52": 300,
+          "C53": 20,
+          "C54": 2,
+          "C55": 1,
+          "C56": 0,
+          "C57": null,
+          "C58": 1,
+          "C59": 15,
+          "C60": 0.02,
+          "C61": 500,
+          "C62": 120
+        }
+      }
+    },
+    "resultados": {
+      "baseline": {
+        "saldo": [
+          0,
+          0,
+          0
+        ],
+        "decisao": "M1: direção condicionada",
+        "custo_dispositivo_M1": "Não calculável: completar custos M1",
+        "custo_operacao_M1": "Não calculável: completar custos M1",
+        "mim_primeiro_escore_situacao": "Reavaliar M1"
+      },
+      "nota-alterada": {
+        "saldo": [
+          -2,
+          0,
+          0
+        ],
+        "decisao": "Rever decisão",
+        "custo_dispositivo_M1": "Não calculável: completar custos M1",
+        "custo_operacao_M1": "Não calculável: completar custos M1",
+        "mim_primeiro_escore_situacao": "Rever nota e M1"
+      },
+      "nota-ausente": {
+        "saldo": [
+          "Rever notas",
+          0,
+          0
+        ],
+        "decisao": "Rever notas funcionais",
+        "custo_dispositivo_M1": "Não calculável: completar custos M1",
+        "custo_operacao_M1": "Não calculável: completar custos M1",
+        "mim_primeiro_escore_situacao": "Reavaliar M1"
+      },
+      "custo-completo": {
+        "saldo": [
+          0,
+          0,
+          0
+        ],
+        "decisao": "M1: direção condicionada",
+        "custo_dispositivo_M1": 18,
+        "custo_operacao_M1": 49.4,
+        "mim_primeiro_escore_situacao": "Reavaliar M1"
+      },
+      "custo-ausente": {
+        "saldo": [
+          0,
+          0,
+          0
+        ],
+        "decisao": "M1: direção condicionada",
+        "custo_dispositivo_M1": 18,
+        "custo_operacao_M1": "Não calculável: completar custos M1",
+        "mim_primeiro_escore_situacao": "Reavaliar M1"
+      }
+    }
+  }
+}

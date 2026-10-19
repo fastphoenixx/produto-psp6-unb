@@ -4,7 +4,7 @@ Repositório acadêmico do projeto desenvolvido nas disciplinas Engenharia de Pr
 
 ## Projeto
 
-O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias durante o transporte, a descarga e a movimentação até o ponto de instalação. O projeto informacional consolidou necessidades, requisitos, Kano, Mudge, Pareto, benchmarking, QFD e metas provisórias. A fase atual é o projeto conceitual: funções, três fronteiras de modelagem, revisão de Pugh, TRIZ, morfológica e concepções. A MIM foi pontuada para a referência de estudo C1, com 156 julgamentos e quatro núcleos propostos. Interfaces, troca independente, seleção definitiva e desempenho dependem de análise técnica e ensaios.
+O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias durante o transporte, a descarga e a movimentação até o ponto de instalação. O informacional consolidou requisitos, prioridades, QFD e metas provisórias. No conceitual, 23 vínculos foram separados de 17 funções. A primeira Pugh resultou em empate qualitativo; a equipe priorizou M1, proteção direta da peça após desencaixotamento no distribuidor. Morfológica e C1/C2/C3 foram alinhadas a essa fronteira. Os 156 escores anteriores da MIM e os agrupamentos permanecem históricos, com reavaliação aberta para M1. Princípios, interfaces, custo e verificações vão sustentar a segunda seleção, que ainda não escolheu uma concepção final.
 
 ## Conteúdo público
 

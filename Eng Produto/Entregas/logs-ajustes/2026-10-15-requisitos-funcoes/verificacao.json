@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-15",
+  "status": "passou",
+  "scope": "Revisão documental e computacional de requisitos e funções; sem ensaios físicos",
+  "checks": [
+    "33 abas: nomes, ordem e espaços preservados",
+    "Visibilidade das abas preservada",
+    "444334 células externas ao escopo mantidas, com fórmulas e formatos",
+    "Integridade do pacote XLSX",
+    "Mesmas partes nativas do pacote",
+    "40 partes não alteradas idênticas",
+    "Estilos originais preservados antes dos novos estilos",
+    "17 funções únicas, com nomes e IDs distintos",
+    "IDs de atributos, duplicidades e custo fora do catálogo",
+    "23 vínculos V separados de IDs funcionais F",
+    "23 requisitos de projeto e suas fontes preservados",
+    "23 especificações-meta e protocolos preservados",
+    "Integridade dos vínculos: todo ID existe e toda função atende pelo menos um RP",
+    "RP12 qualifica a mesma função de RP1, sem duplicidade",
+    "RP13 qualifica a função estrutural de RP11 após umidade",
+    "RP15 desdobrado em acesso, liberação e união",
+    "RP20 ligado às interfaces e sem função F20 autônoma",
+    "RP23 mantido como restrição, sem nova função física",
+    "RP14 distingue envelope carregado de recolhimento vazio",
+    "Natureza do requisito e classe da função em campos distintos",
+    "Cabeçalho e identificadores de requisitos congelados",
+    "Três estruturas cobrem o catálogo, sem funções repetidas nos grupos",
+    "Custo permanece condição transversal nas três estruturas",
+    "FAST separa suporte de carga de amortecimento",
+    "FAST inclui suporte ao reuso e ao fim de vida",
+    "IDs da FAST pertencem ao catálogo",
+    "Princípios e combinações C1/C2/C3 preservados",
+    "IDs da morfológica pertencem ao catálogo",
+    "Morfológica explicita acesso e ação de recolhimento",
+    "Critérios de comunicação e volume carregado mantidos na morfológica",
+    "156 julgamentos da MIM preservados",
+    "Notas registradas e justificativas da MIM preservadas",
+    "Somas, posições e agrupamentos da MIM preservados",
+    "Recálculo confirma soma da base 266",
+    "OP-01 continua fora da base",
+    "Portadores e origem dos julgamentos usam IDs válidos; acesso e separação são transversais",
+    "Controles e cabeçalhos da MIM preservados",
+    "Recálculo preserva Mudge 577 e QFD 12.223",
+    "Triagem de Pugh e seleção pendente preservadas",
+    "Leitor de edição confirma propagação em 7 referências; duas abas com espaços conferidas em motor independente",
+    "Motor independente confirma 9 vínculos de nomes e 1 de meta, incluindo FAST e morfológica com nomes originais",
+    "Alterar meta na fonte atualiza o vínculo do requisito",
+    "Entradas temporárias de teste restauradas; arquivo salvo sem valores de teste",
+    "Nenhum erro Excel nos intervalos alterados",
+    "Relatório 0.16 recompilado com 57 páginas",
+    "Relatório contém método, catálogo e limites de validação",
+    "Os 17 IDs do catálogo aparecem no quadro do relatório",
+    "LaTeX sem margens excedidas ou referências pendentes",
+    "Capa sem duplicidade de autoria"
+  ],
+  "count": 49,
+  "requirements": 23,
+  "functions": 17,
+  "sheets": 33,
+  "mim": {
+    "judgements": 156,
+    "core_total": 266,
+    "scores_preserved": true,
+    "optional_default": 0
+  },
+  "limitations": [
+    "Metas provisórias; ensaios físicos não executados.",
+    "Seleção de modelagem e concepção permanece pendente.",
+    "Interfaces de inspeção e troca independente continuam em desenvolvimento."
+  ],
+  "engine_notes": "O leitor de edição manteve caches em duas abas com espaços nos nomes. A avaliação independente no LibreOffice, em cópia temporária sem caches de fórmulas, confirmou os 10 resultados de nomes/metas, com nomes originais e arquivo final preservados.",
+  "visual_qa": {
+    "workbook": [
+      "vínculos",
+      "catálogo",
+      "FAST",
+      "estruturas alternativas",
+      "morfológica",
+      "MIM"
+    ],
+    "pdf_pages": [
+      40,
+      41,
+      42,
+      43,
+      48,
+      49
+    ]
+  },
+  "pages": 57,
+  "native_parts_unchanged": 40,
+  "sha256": {
+    "planilha_antes": "8c02f26540d47644c25eac026742fed0c9cb95193a65413dc7e11917c3207253",
+    "planilha_atual": "b106eca4cde33e1afa88cc5812e7b97624a0640c3ec7adac67044aa263757fc1",
+    "pdf_atual": "891672705a246ea2d9a389abad3ce1a8c0bdfe77d1ea196be3759aea5e3ad379"
+  },
+  "files": {
+    "workbook": "Eng Produto/Entregas/planilha/Planilha_PSP6_Grupo2_Loucas.xlsx",
+    "pdf": "Eng Produto/Entregas/relatorio/Relatorio_Engenharia_Produto_Loucas.pdf"
+  },
+  "published": true
+}

@@ -95,6 +95,8 @@ Tipos de projeto de desenvolvimento (por grau de mudança em relação a projeto
 - **Componente**: a peça concreta especificada.
 - ❗ Escrever a função já com a solução embutida ("usar velcro") é o erro clássico da síntese funcional.
 
+Requisitos de qualidade, desempenho e condições ambientais podem qualificar funções já existentes ou exigir funções auxiliares. A especificação-meta continua sendo critério de avaliação. Custo e limites geométricos podem permanecer restrições. Não há obrigação de uma função independente por requisito: uniformidade pode qualificar amortecimento, enquanto manutenibilidade pode exigir acesso e liberação de partes. A classificação de uma função como técnica, semântica, sintática ou adicional não classifica o requisito como funcional ou não funcional.
+
 ---
 
 ## PARTE 2 — Glossário alfabético
@@ -178,6 +180,8 @@ Tipos de projeto de desenvolvimento (por grau de mudança em relação a projeto
 **PSS (Product-Service System)** — sistema em que valor é entregue pela combinação produto+serviço. Tipologia usual (Tukker): orientado ao **produto**, ao **uso** e ao **resultado**.
 
 **Pugh (matriz de seleção)** — cada conceito é comparado a um **datum** (referência) critério por critério com **+ / 0 / −**; somam-se os sinais. Serve para convergir e para **hibridizar** conceitos, não apenas para eleger um vencedor.
+
+No projeto, a primeira Pugh compara **estruturas funcionais** no mesmo nível de abstração. A revisão de 15/10/2026 usa cinco critérios qualitativos sem novos pesos: empate 0/0/0, com M1 priorizada pela equipe. Zero significa equivalência no aspecto descrito; dado ausente é AV. A segunda Pugh compara **concepções físicas C1/C2/C3 sob M1**, usando os critérios do cliente e seus pesos, com análises e evidência de desempenho apropriadas. A preferência funcional não aprova uma concepção nem dispensa as 23 metas.
 
 **QFD (Quality Function Deployment)** — desdobramento da voz do cliente em requisitos de projeto e, em cascata, em características de peças, processo e produção, através de matrizes encadeadas — a primeira é a **Casa da Qualidade**.
 

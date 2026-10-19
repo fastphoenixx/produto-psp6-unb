@@ -24,7 +24,7 @@ As técnicas e entregas aparecem como subseções da fase correspondente. Não h
 
 ## Estado atual do Projeto Informacional
 
-O projeto informacional foi elaborado para orientar as concepções, com metas de trabalho ainda dependentes de validação. A versão 0.15 mantém as correções do Feedback 2 e acrescenta a MIM pontuada na referência de estudo C1: 12 direcionadores, 13 portadores, 156 justificativas e indicação de quatro núcleos. O projeto conceitual continua em desenvolvimento, com interfaces, dimensionamento e ensaios pendentes.
+O projeto informacional foi elaborado para orientar as concepções, com metas de trabalho ainda dependentes de validação. A versão 0.17 mantém as correções do Feedback 2 e separa 23 vínculos de requisitos de 17 funções. A primeira Pugh foi delimitada ao nível funcional: empate qualitativo, com M1 priorizada pela equipe para proteção direta da peça. Morfológica e concepções foram alinhadas. Os 156 escores anteriores da MIM permanecem históricos, com reavaliação aberta sob M1. Interfaces, dimensionamento, custo e segunda seleção continuam em desenvolvimento.
 
 | Etapa | Situação |
 |---|---|
@@ -37,21 +37,21 @@ O projeto informacional foi elaborado para orientar as concepções, com metas d
 | Legislação e normas | Concluída no pré-desenvolvimento — NR-17, NR-11, NR-18, CONTRAN 945, PNRS, regras do DF e métodos de ensaio |
 | Custo-meta | Teto provisório do dispositivo: até R$ 15/ciclo; a operação completa inclui caixa mantida, retorno, manutenção, consumíveis e avaria residual |
 
-## Estado atual do Projeto Conceitual — revisão de 14/10/2026
+## Estado atual do Projeto Conceitual — revisão de 15/10/2026
 
 | Etapa | Situação |
 |---|---|
-| V0, função global e FAST | Elaboradas, distinguindo funções, atributos, estimativas e observação |
-| Modelagens M1/M2/M3 | Descritas e diagramadas; interface de inspeção ainda em estudo |
-| Pugh das modelagens | Triagem inicial 12/0/40 preservada como histórico; notas revisadas AV impedem seleção definitiva |
+| V0, função global e FAST | Elaboradas; 23 vínculos V separados de 17 funções F; uniformidade, umidade, vida, geometria e custo permanecem critérios |
+| Modelagens M1/M2/M3 | Descritas e diagramadas; M1 priorizada para proteção direta após preparo no distribuidor |
+| Pugh das modelagens | Histórico 12/0/40 preservado; comparação funcional com cinco critérios, saldo 0/0/0; preferência explícita por M1 |
 | TRIZ | Contradições e princípios explorados por analogia; números e conceitos corrigidos; consulta 39×39 não declarada como comprovada |
-| Morfológica | Combinações preliminares C1/C2/C3, sem troca de insertos durante ajuste |
-| MIM e arquitetura | MIM pontuada para C1, escala 0/1/3/5 da base; quatro núcleos propostos e OP-01 fora por padrão; interfaces e troca independente ainda não demonstradas |
-| Concepções e seleção | Três propostas descritas; Pugh preparado com notas AV, sem concepção final |
+| Morfológica | C1/C2/C3 sob M1: contato direto protegido e inspeção pela própria barreira; OP-01 fora das bases; sem troca de insertos durante ajuste |
+| MIM e arquitetura | Escores 0/1/3/5 e quatro núcleos anteriores preservados como histórico; reavaliar 156 relações e interfaces sob M1 antes de adotá-los |
+| Concepções e seleção | Três propostas sob M1; segunda Pugh com C1 datum e C2/C3 AV, sem concepção final |
 | Técnica, valor e FMEA | Verificações e falhas a investigar registradas; nenhum resultado de ensaio ou prioridade de risco inventado |
-| Viabilidade | Cenário condicional e entradas faltantes expostos; vantagem econômica não demonstrada |
+| Viabilidade | Quadro M1 inclui preparo e destino/custo atribuível da embalagem; cenário M2/M3 preservado separadamente; vantagem econômica não demonstrada |
 
-O registro de choque é OP-01, complemento opcional da M3. Ele não substitui a inspeção requerida pelo RP4. A M3 permanece candidata exploratória. A planilha mantém as 33 abas, seus nomes e visibilidades, bem como os objetos nativos das áreas não alteradas.
+O registro de choque é OP-01, complemento fora das configurações base. Ele não substitui RP4. M3 continua uma alternativa sobre volume embalado; acrescentar futuramente OP-01 à M1 não altera sua fronteira material direta. A planilha mantém as 33 abas, seus nomes e visibilidades, bem como os objetos nativos das áreas não alteradas.
 
 Fonte dos números: `Entregas/planilha/Planilha_PSP6_Grupo2_Loucas.xlsx`. Relatório e planilha devem ser atualizados na mesma rodada.
 
@@ -60,6 +60,10 @@ Fonte dos números: `Entregas/planilha/Planilha_PSP6_Grupo2_Loucas.xlsx`. Relat�
 O [registro do Feedback 2](../logs-ajustes/2026-10-14-feedback-2-equipe-2/registro-ajustes.md) preserva a imagem original, a transcrição e a correspondência entre cada ponto e os trechos corrigidos. A correção documental está separada das validações de campo ainda pendentes.
 
 O [registro de elaboração da MIM](../logs-ajustes/2026-10-14-mim/registro-ajustes.md) documenta as hipóteses, a convenção da base, os julgamentos, os agrupamentos e os testes desta etapa. A referência C1 não foi selecionada como vencedora; C2/C3 exigem seus próprios portadores e reavaliação.
+
+O [registro da revisão funcional](../logs-ajustes/2026-10-15-requisitos-funcoes/registro-ajustes.md) documenta a natureza dos requisitos, o catálogo de funções, a migração de IDs e a conferência de FAST, estruturas alternativas, morfológica e MIM. Os julgamentos da MIM e as metas foram preservados.
+
+O [registro da primeira Pugh e da prioridade M1](../logs-ajustes/2026-10-15-pugh-funcional/registro-ajustes.md) documenta os critérios, as justificativas, a escolha da equipe, o encaminhamento dos 23 requisitos e os efeitos sobre concepções, custo e reavaliação da MIM.
 
 ## Compilação
 

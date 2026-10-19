@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-15",
+  "datum": "M2",
+  "method": "Pugh qualitativo não ponderado",
+  "scale": [
+    -1,
+    0,
+    1
+  ],
+  "criteria": [
+    {
+      "id": "CF01",
+      "name": "Cobertura da proteção e movimentação",
+      "origin": "RP1/2/3/5/6/7/8/9/11",
+      "m1": 0,
+      "m3": 0,
+      "j1": "As estruturas 1 e 2 incluem amortecer, imobilizar, portar, prover pega, acomodar, compatibilizar, estabilizar, reter e suportar carga. O efeito requerido é comum; a fronteira de contato muda.",
+      "j3": "M3 repete a cadeia material e de energia de M2. Registro de evento não acrescenta amortecimento, imobilização, apoio ou retenção.",
+      "evidence": "Funções Parciais B5:G9 e B15:G19; Modelagens Alternativas C4:E6. Zero refere-se à cobertura, sem afirmar desempenho igual."
+    },
+    {
+      "id": "CF02",
+      "name": "Barreiras pré-existentes no caminho de inspeção",
+      "origin": "RC C / RP4",
+      "m1": 1,
+      "m3": 0,
+      "j1": "M1 remove a embalagem de origem no distribuidor. Elimina essa barreira do caminho até a superfície cerâmica; permanece a barreira do novo dispositivo. +1 indica facilidade potencial de acesso.",
+      "j3": "M3 mantém a mesma embalagem e o mesmo caminho de inspeção de M2. O sinal de evento não revela a superfície nem diagnostica trinca.",
+      "evidence": "Modelagens Alternativas C4:E6; Funções Parciais C8/C18/C28. Confirmar área crítica, visibilidade e contenção no novo conjunto fechado."
+    },
+    {
+      "id": "CF03",
+      "name": "Continuidade do acondicionamento no distribuidor",
+      "origin": "Critério de operação; escopo",
+      "m1": -1,
+      "m3": 0,
+      "j1": "M1 exige retirar a caixa e transferir a peça para a proteção direta. Acrescenta essa operação à preparação em relação a M2; −1 refere-se à intervenção necessária, sem estimar tempo ou dano.",
+      "j3": "M3 preserva o acondicionamento de origem como M2. A cadeia opcional de evento é analisada separadamente e não recebe benefício presumido.",
+      "evidence": "Fronteira definida em Modelagens Alternativas C4:C6. Tratar retirada, conferência inicial, transferência e destino da embalagem no plano de operação."
+    },
+    {
+      "id": "CF04",
+      "name": "Cobertura da informação obrigatória ao usuário",
+      "origin": "RP10/16/21",
+      "m1": 0,
+      "m3": 0,
+      "j1": "Todas as estruturas preveem comunicar uso e exibir a identidade única. Não há diferença de cobertura obrigatória identificada.",
+      "j3": "Orientação, fechamento e identidade continuam obrigatórios em M2/M3. OP-01 é complemento fora do escopo base; sua utilidade incremental ainda não foi demonstrada.",
+      "evidence": "Funções Parciais D10/D20/D29 e catálogo F16/F21. Legibilidade, erros e identidade após ciclos entram na segunda seleção."
+    },
+    {
+      "id": "CF05",
+      "name": "Cobertura do retorno, manutenção e fim de vida",
+      "origin": "RP14/15/17/18/19/20/22",
+      "m1": 0,
+      "m3": 0,
+      "j1": "Ambas incluem recolher, prover acesso, liberar/unir partes e separar materiais. A cobertura de suporte ao reuso é comum; tempo, vida e troca independente seguem como requisitos.",
+      "j3": "M3 conserva o suporte ao reuso de M2. A presença opcional de indicador não comprova vida, manutenção simples, modularidade ou reciclagem.",
+      "evidence": "Funções Parciais D9/D11/D19/D21/D30/D31; catálogo F14/F15/F17/F19/F22. Validar interfaces, ciclos e cadeia de reciclagem nas concepções."
+    }
+  ],
+  "ledger": [
+    {
+      "rc": "A",
+      "rp": 1,
+      "functions": [
+        "F01"
+      ],
+      "physicalCriterion": "Ensaio de aceleração",
+      "row": 76
+    },
+    {
+      "rc": "B",
+      "rp": 2,
+      "functions": [
+        "F02"
+      ],
+      "physicalCriterion": "Ensaio de deslocamento",
+      "row": 77
+    },
+    {
+      "rc": "F",
+      "rp": 3,
+      "functions": [
+        "F03",
+        "F05"
+      ],
+      "physicalCriterion": "Força e percurso real",
+      "row": 78
+    },
+    {
+      "rc": "C",
+      "rp": 4,
+      "functions": [
+        "F04"
+      ],
+      "physicalCriterion": "Área crítica e detecção",
+      "row": 79
+    },
+    {
+      "rc": "G",
+      "rp": 5,
+      "functions": [
+        "F05"
+      ],
+      "physicalCriterion": "Dimensões e uso enluvado",
+      "row": 80
+    },
+    {
+      "rc": "H",
+      "rp": 6,
+      "functions": [
+        "F06"
+      ],
+      "physicalCriterion": "Quebra controlada",
+      "row": 81
+    },
+    {
+      "rc": "D",
+      "rp": 7,
+      "functions": [
+        "F07"
+      ],
+      "physicalCriterion": "Mix dimensional",
+      "row": 82
+    },
+    {
+      "rc": "E",
+      "rp": 8,
+      "functions": [
+        "F08",
+        "F03"
+      ],
+      "physicalCriterion": "Arranjo real de carga",
+      "row": 83
+    },
+    {
+      "rc": "W",
+      "rp": 9,
+      "functions": [
+        "F09"
+      ],
+      "physicalCriterion": "Tombamento",
+      "row": 84
+    },
+    {
+      "rc": "V",
+      "rp": 23,
+      "functions": [],
+      "physicalCriterion": "Custeio completo",
+      "row": 85
+    },
+    {
+      "rc": "I",
+      "rp": 10,
+      "functions": [
+        "F16"
+      ],
+      "physicalCriterion": "Uso sem treinamento",
+      "row": 86
+    },
+    {
+      "rc": "K",
+      "rp": 11,
+      "functions": [
+        "F11"
+      ],
+      "physicalCriterion": "Compressão",
+      "row": 87
+    },
+    {
+      "rc": "L",
+      "rp": 12,
+      "functions": [
+        "F01"
+      ],
+      "physicalCriterion": "Repetição entre unidades",
+      "row": 88
+    },
+    {
+      "rc": "O",
+      "rp": 18,
+      "functions": [
+        "F01",
+        "F02",
+        "F11",
+        "F15",
+        "F17",
+        "F22"
+      ],
+      "physicalCriterion": "Ensaio cíclico",
+      "row": 89
+    },
+    {
+      "rc": "J",
+      "rp": 14,
+      "functions": [
+        "F03",
+        "F08",
+        "F14"
+      ],
+      "physicalCriterion": "Cubagem e retorno",
+      "row": 90
+    },
+    {
+      "rc": "P",
+      "rp": 13,
+      "functions": [
+        "F11"
+      ],
+      "physicalCriterion": "Condicionamento e compressão",
+      "row": 91
+    },
+    {
+      "rc": "M",
+      "rp": 16,
+      "functions": [
+        "F16"
+      ],
+      "physicalCriterion": "Legibilidade e fechamento",
+      "row": 92
+    },
+    {
+      "rc": "T",
+      "rp": 20,
+      "functions": [
+        "F15",
+        "F17",
+        "F22"
+      ],
+      "physicalCriterion": "Troca independente",
+      "row": 93
+    },
+    {
+      "rc": "U",
+      "rp": 22,
+      "functions": [
+        "F22"
+      ],
+      "physicalCriterion": "Contagem de ações",
+      "row": 94
+    },
+    {
+      "rc": "Q",
+      "rp": 15,
+      "functions": [
+        "F15",
+        "F17",
+        "F22"
+      ],
+      "physicalCriterion": "Cronometragem",
+      "row": 95
+    },
+    {
+      "rc": "N",
+      "rp": 21,
+      "functions": [
+        "F21"
+      ],
+      "physicalCriterion": "Legibilidade após ciclos",
+      "row": 96
+    },
+    {
+      "rc": "R",
+      "rp": 17,
+      "functions": [
+        "F17"
+      ],
+      "physicalCriterion": "Cronometragem",
+      "row": 97
+    },
+    {
+      "rc": "S",
+      "rp": 19,
+      "functions": [
+        "F17",
+        "F19"
+      ],
+      "physicalCriterion": "Composição e cadeia regional",
+      "row": 98
+    }
+  ],
+  "decision": {
+    "model": "M1",
+    "status": "Direção funcional condicionada",
+    "basis": "Preferência explícita da equipe após empate",
+    "userStatement": "Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça."
+  },
+  "mim": {
+    "status": "Escores herdados, reavaliação sob M1 pendente",
+    "unchangedScores": 156
+  }
+}

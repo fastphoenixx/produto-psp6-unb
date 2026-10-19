@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-19",
+  "request": "Manter tabelas e diagramas e reduzir as imagens",
+  "inputSha256": "64187bfefb459fea3308ac3e71a89356d24f795b8b96b7715abeb1764f6f7d31",
+  "outputSha256": "7ef9079b2e4e638286996dc02c1e09aa4e6f315b5f9d2b48ed91983ac41f9aac",
+  "oldWidthPx": 1600,
+  "newWidthPx": 1000,
+  "linearReductionPercent": 37.5,
+  "imageCount": 6,
+  "onlyChangedParts": [
+    "xl/drawings/diagramas_20261019_sheet17.xml",
+    "xl/drawings/diagramas_20261019_sheet20.xml",
+    "xl/drawings/diagramas_20261019_sheet21.xml",
+    "xl/drawings/diagramas_20261019_sheet18.xml"
+  ],
+  "all33WorksheetXmlsByteIdentical": true,
+  "allCellsStylesFormulasAndCachesPreserved": true,
+  "allOtherPackagePartsByteIdentical": true,
+  "imagesDoNotOverlap": true,
+  "anchors": [
+    {
+      "id": "global",
+      "sheet": "Função Global",
+      "start": "B64",
+      "widthPx": 1000.0,
+      "heightPx": 781.7708136482939
+    },
+    {
+      "id": "v0",
+      "sheet": "Modelagem V0",
+      "start": "B13",
+      "widthPx": 1000.0,
+      "heightPx": 795.833280839895
+    },
+    {
+      "id": "m1",
+      "sheet": "Modelagens Alternativas",
+      "start": "B72",
+      "widthPx": 1000.0,
+      "heightPx": 837.5000524934384
+    },
+    {
+      "id": "m2",
+      "sheet": "Modelagens Alternativas",
+      "start": "B116",
+      "widthPx": 1000.0,
+      "heightPx": 837.5000524934384
+    },
+    {
+      "id": "m3",
+      "sheet": "Modelagens Alternativas",
+      "start": "B160",
+      "widthPx": 1000.0,
+      "heightPx": 998.9583202099737
+    },
+    {
+      "id": "fast",
+      "sheet": " FAST ",
+      "start": "B23",
+      "widthPx": 1000.0,
+      "heightPx": 1016.6666666666666
+    }
+  ],
+  "visualReview": {
+    "reviewed": 6,
+    "result": "Tabelas e diagramas presentes. Seis imagens menores examinadas, sem corte ou sobreposição entre figuras."
+  }
+}

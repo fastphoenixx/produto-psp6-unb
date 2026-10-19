@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-15",
+  "scope": "Testes em memória/cópias temporárias; entradas de teste não publicadas",
+  "reader_results": {
+    "Função Global!G5": [
+      [
+        "Amortecer impacto — TESTE"
+      ]
+    ],
+    "Função Global!G16": [
+      [
+        "Amortecer impacto — TESTE"
+      ]
+    ],
+    " FAST !C6": [
+      [
+        "Amortecer impacto"
+      ]
+    ],
+    "Funções Parciais!D6": [
+      [
+        "Amortecer impacto — TESTE; Suportar carga"
+      ]
+    ],
+    "Funções Parciais!D16": [
+      [
+        "Amortecer impacto — TESTE; Suportar carga"
+      ]
+    ],
+    "Funções Parciais!D26": [
+      [
+        "Amortecer impacto — TESTE; Suportar carga"
+      ]
+    ],
+    "Matriz Morfologica !C4": [
+      [
+        "Amortecer impacto"
+      ]
+    ],
+    "MIM!D6": [
+      [
+        "Amortecer impacto — TESTE"
+      ]
+    ],
+    "MIM!C37": [
+      [
+        "Amortecer impacto — TESTE"
+      ]
+    ],
+    "metaLink": [
+      [
+        "TESTE de meta preservada"
+      ]
+    ]
+  },
+  "independent_engine": {
+    "engine": "LibreOfficeDev 26.8 (runtime disponibilizado)",
+    "source": "Cópia temporária do XLSX final, com duas entradas alteradas e caches de resultados removidos para forçar avaliação",
+    "sheet_names_preserved": true,
+    "results": {
+      "Função Global!G5": "Amortecer impacto — TESTE",
+      "Função Global!G16": "Amortecer impacto — TESTE",
+      " FAST !C6": "Amortecer impacto — TESTE",
+      "Funções Parciais!D6": "Amortecer impacto — TESTE; Suportar carga",
+      "Funções Parciais!D16": "Amortecer impacto — TESTE; Suportar carga",
+      "Funções Parciais!D26": "Amortecer impacto — TESTE; Suportar carga",
+      "Matriz Morfologica !C4": "Amortecer impacto — TESTE",
+      "MIM!D6": "Amortecer impacto — TESTE",
+      "MIM!C37": "Amortecer impacto — TESTE",
+      "Função Global!K16": "TESTE de meta preservada"
+    },
+    "all_updated": true,
+    "published_file_untouched": true
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-19",
+  "sourceSha256": "6dd9b784e605d13e5143da674097e61b1f0c0bf08c68702aa1c56c97eab2e154",
+  "outputSha256": "64187bfefb459fea3308ac3e71a89356d24f795b8b96b7715abeb1764f6f7d31",
+  "sheetCount": 33,
+  "imagesAdded": 6,
+  "targetSheets": [
+    "Função Global",
+    "Modelagem V0",
+    "Modelagens Alternativas",
+    " FAST "
+  ],
+  "originalPartsChanged": [
+    "xl/worksheets/sheet17.xml",
+    "xl/worksheets/sheet18.xml",
+    "xl/worksheets/sheet20.xml",
+    "xl/worksheets/sheet21.xml",
+    "[Content_Types].xml"
+  ],
+  "newParts": [
+    "xl/media/diagrama_20261019_global.png",
+    "xl/drawings/diagramas_20261019_sheet17.xml",
+    "xl/drawings/_rels/diagramas_20261019_sheet17.xml.rels",
+    "xl/worksheets/_rels/sheet17.xml.rels",
+    "xl/media/diagrama_20261019_v0.png",
+    "xl/drawings/diagramas_20261019_sheet20.xml",
+    "xl/drawings/_rels/diagramas_20261019_sheet20.xml.rels",
+    "xl/worksheets/_rels/sheet20.xml.rels",
+    "xl/media/diagrama_20261019_m1.png",
+    "xl/media/diagrama_20261019_m2.png",
+    "xl/media/diagrama_20261019_m3.png",
+    "xl/drawings/diagramas_20261019_sheet21.xml",
+    "xl/drawings/_rels/diagramas_20261019_sheet21.xml.rels",
+    "xl/worksheets/_rels/sheet21.xml.rels",
+    "xl/media/diagrama_20261019_fast.png",
+    "xl/drawings/diagramas_20261019_sheet18.xml",
+    "xl/drawings/_rels/diagramas_20261019_sheet18.xml.rels",
+    "xl/worksheets/_rels/sheet18.xml.rels"
+  ],
+  "allExistingWorksheetContentPreserved": true,
+  "allOtherOriginalPartsByteIdentical": true,
+  "imagePixelsPreserved": true,
+  "internalRelationshipsValid": true,
+  "imagesBelowExistingContent": true,
+  "imagesDoNotOverlap": true,
+  "images": [
+    {
+      "id": "global",
+      "sheet": "Função Global",
+      "nodeId": "3:21",
+      "sourceUrl": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=3-21",
+      "imagePart": "xl/media/diagrama_20261019_global.png",
+      "drawingPart": "xl/drawings/diagramas_20261019_sheet17.xml",
+      "imageSha256": "cbc5a397b23ab1518321f392dab6317d882ed52f86f63f24459649faaef1acbf",
+      "anchor": {
+        "row": 64,
+        "column": 2,
+        "widthPx": 1600,
+        "heightPx": 1250.8333333333333
+      },
+      "objectId": "1",
+      "objectName": "46850baa-b584-4013-9d50-f017777c40f5"
+    },
+    {
+      "id": "v0",
+      "sheet": "Modelagem V0",
+      "nodeId": "3:83",
+      "sourceUrl": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=3-83",
+      "imagePart": "xl/media/diagrama_20261019_v0.png",
+      "drawingPart": "xl/drawings/diagramas_20261019_sheet20.xml",
+      "imageSha256": "3099f0ddd021e41aa56547f7d3ae4a37d526f0ee8dfc7f170e677a5be34300a5",
+      "anchor": {
+        "row": 13,
+        "column": 2,
+        "widthPx": 1600,
+        "heightPx": 1273.3333333333333
+      },
+      "objectId": "1",
+      "objectName": "558aea27-efe7-46c0-88b0-99f15b08bd81"
+    },
+    {
+      "id": "m1",
+      "sheet": "Modelagens Alternativas",
+      "nodeId": "3:153",
+      "sourceUrl": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=3-153",
+      "imagePart": "xl/media/diagrama_20261019_m1.png",
+      "drawingPart": "xl/drawings/diagramas_20261019_sheet21.xml",
+      "imageSha256": "e1b4edf8605e2f00c494ee805745e7ca1ffce4da2724a88255bda2ed5f5a6aaf",
+      "anchor": {
+        "row": 72,
+        "column": 2,
+        "widthPx": 1600,
+        "heightPx": 1340
+      },
+      "objectId": "1",
+      "objectName": "999c1c25-df56-4ae7-b181-720a3a757e0e"
+    },
+    {
+      "id": "m2",
+      "sheet": "Modelagens Alternativas",
+      "nodeId": "3:245",
+      "sourceUrl": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=3-245",
+      "imagePart": "xl/media/diagrama_20261019_m2.png",
+      "drawingPart": "xl/drawings/diagramas_20261019_sheet21.xml",
+      "imageSha256": "38be20f302e92d01cbeba3e8bd59a3611abfd2ed203e314e09617eee1fd21f70",
+      "anchor": {
+        "row": 142,
+        "column": 2,
+        "widthPx": 1600,
+        "heightPx": 1340
+      },
+      "objectId": "2",
+      "objectName": "477fbbf0-67c4-4629-8f8f-ad3c6bf16288"
+    },
+    {
+      "id": "m3",
+      "sheet": "Modelagens Alternativas",
+      "nodeId": "3:335",
+      "sourceUrl": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=3-335",
+      "imagePart": "xl/media/diagrama_20261019_m3.png",
+      "drawingPart": "xl/drawings/diagramas_20261019_sheet21.xml",
+      "imageSha256": "7630b383a297cc3498e010ad8ecfffd86a54ce8649e92b3085545279ac18f4e1",
+      "anchor": {
+        "row": 212,
+        "column": 2,
+        "widthPx": 1600,
+        "heightPx": 1598.3333333333333
+      },
+      "objectId": "3",
+      "objectName": "236801ae-dc62-470a-b929-db55f1df536b"
+    },
+    {
+      "id": "fast",
+      "sheet": " FAST ",
+      "nodeId": "3:449",
+      "sourceUrl": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=3-449",
+      "imagePart": "xl/media/diagrama_20261019_fast.png",
+      "drawingPart": "xl/drawings/diagramas_20261019_sheet18.xml",
+      "imageSha256": "c55b27b3c73c8663155d64eb9ecbfed56493800ce290716e0dbde01248cd7287",
+      "anchor": {
+        "row": 23,
+        "column": 2,
+        "widthPx": 1600,
+        "heightPx": 1626.6666666666667
+      },
+      "objectId": "1",
+      "objectName": "27b6ba05-1951-42f7-8ebe-98a95cfc2224"
+    }
+  ],
+  "visualReview": {
+    "reviewed": 6,
+    "result": "Aprovado após inspeção visual das seis imagens inseridas. Legibilidade, proporção, posição e espaçamentos conferidos."
+  },
+  "scope": "Inserção de seis imagens dos diagramas já desenhados no Figma. Conteúdo, fórmulas, resultados salvos e formatação das 33 abas preservados."
+}

@@ -11,12 +11,12 @@ O projeto está no **projeto conceitual em elaboração**. O informacional forne
 Fluxo atual:
 
 1. requisitos e especificações-meta rastreáveis ao informacional;
-2. função global, FAST e conexões de energia, material e sinal;
+2. função global, catálogo de 17 funções e 23 vínculos de requisitos; FAST e conexões de energia, material e sinal, preservando atributos e restrições;
 3. M1 (peça descoberta), M2 (volume embalado) e M3 (volume com registro de evento opcional);
-4. triagem inicial de Pugh preservada (12/0/40) e comparação revisada pendente de evidência;
+4. primeira Pugh funcional: cinco critérios, empate qualitativo 0/0/0 e M1 priorizada pela equipe; histórico ponderado 12/0/40 preservado;
 5. conflitos do QFD explorados por TRIZ e combinações morfológicas;
-6. MIM pontuada na referência C1 e arquitetura conceitual indicada por perfis e interfaces;
-7. três concepções preliminares, dimensionamento, custo e verificações;
+6. MIM anterior da C1 preservada como histórico; reavaliar escores e agrupamentos após a mudança para M1;
+7. três concepções preliminares sob M1, contato direto, inspeção pela própria barreira, preparo, custo e verificações;
 8. seleção apoiada nas metas, seguida de protótipo e ensaios.
 
 ## Fonte de verdade
@@ -32,10 +32,11 @@ Fluxo atual:
 - confirmar massa, dimensões e fragilidade das peças de referência;
 - fechar metas numéricas que ainda partem de estimativas;
 - manter planilha e relatório coerentes após cada alteração;
-- fechar a interface real de inspeção da louça na embalagem original;
+- definir o preparo seguro no distribuidor e o destino/custo atribuível da embalagem retirada;
+- fechar a inspeção da peça descoberta através da própria barreira do dispositivo e definir pressão/área dos contatos diretos;
 - demonstrar ajuste sem troca, força, estabilidade, volume e retenção;
-- incluir caixa mantida, retorno, manutenção, consumíveis e avaria residual na comparação econômica;
-- justificar notas do Pugh, definir interfaces e testar os agrupamentos indicados pela MIM; reavaliar portadores ao avançar C2/C3;
+- comparar custos M1 com preparo, embalagem atribuível, destino, retorno, manutenção, consumíveis e avaria residual, na mesma fronteira contábil;
+- justificar notas da segunda Pugh e reavaliar os 156 julgamentos herdados da MIM antes de adotar seus agrupamentos sob M1; C2/C3 exigem análise própria;
 - tratar o módulo de evento como opção experimental, sem confundi-lo com diagnóstico de trinca.
 
 ## Próximos marcos

@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-15",
+  "passed": 59,
+  "checks": [
+    {
+      "verificacao": "Pacote mantém todas as partes nativas",
+      "aprovada": true
+    },
+    {
+      "verificacao": "39 partes fora da edição permanecem idênticas",
+      "aprovada": true
+    },
+    {
+      "verificacao": "33 abas: nomes, ordem e visibilidade preservados",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Valores e fórmulas fora dos intervalos autorizados preservados",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fonte preservada: Requisito de Projeto",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fonte preservada: Especificação Meta",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fonte preservada: Função Global",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fonte preservada:  FAST ",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fonte preservada: Diagrama de Mudge",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fonte preservada: Matriz de Relacionamento",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fonte preservada: QFD",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Pesos e notas da triagem ponderada inicial preservados",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Revisão anterior preserva 13 AV por alternativa",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Segunda Pugh preserva os 23 critérios, pesos e 46 AV",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Cinco critérios funcionais com datum M2 e escala explícita",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Notas M1 representam cobertura, acesso e operação adicional",
+      "aprovada": true
+    },
+    {
+      "verificacao": "M2 e M3 mantêm equivalências justificadas no aspecto descrito",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Cada comparação tem justificativa e base registradas",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Decisão de equipe registrada sem declarar vitória numérica",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Os 23 RC/RP permanecem encaminhados, sem duplicação",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Encaminhamento usa os vínculos válidos do catálogo",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Todas as linhas de encaminhamento preservam análise física e protocolo",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Morfológica assume fronteira M1 e grupos E1",
+      "aprovada": true
+    },
+    {
+      "verificacao": "OP-01 excluído das três concepções base",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Contatos diretos e inspeção pela própria barreira estão explícitos",
+      "aprovada": true
+    },
+    {
+      "verificacao": "C1/C2/C3 alinhadas à peça sem caixa e sem sinal na base",
+      "aprovada": true
+    },
+    {
+      "verificacao": "156 escores da MIM preservados como histórico",
+      "aprovada": true
+    },
+    {
+      "verificacao": "156 notas registradas da MIM preservadas",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Reavaliação M1 sinalizada nas 156 relações",
+      "aprovada": true
+    },
+    {
+      "verificacao": "MIM e arquitetura não são declaradas revalidadas para M1",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Custeio original de M2/M3 preservado",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Preparo, destinação e embalagem M1 permanecem entradas ausentes",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Recálculo: contagens e empate funcional 0/0/0",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Recálculo: direção condicionada M1 e triagem histórica 12/0/40",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Recálculo: Mudge 577 e QFD 12223 preservados",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Recálculo: soma histórica MIM 266, opcional fora",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Nota alterada recalcula saldo e solicita revisão da decisão",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Nota blank bloqueia total e decisão",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Nota unknown bloqueia total e decisão",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Nota invalid bloqueia total e decisão",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Exemplo independente de custo: dispositivo 18 e operação 49,40",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Preparo ausente bloqueia custo completo e preserva parcela calculável",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Vida zero bloqueia ambas as parcelas",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Taxa residual inválida bloqueia custo completo",
+      "aprovada": true
+    },
+    {
+      "verificacao": "MIM mantém alerta de fronteira e detecta alteração inválida",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Entradas temporárias restauradas no teste em memória",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Sem erros Excel no recálculo verificado",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice: empate 0/0/0 e decisão M1",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice: histórico 12/0/40, Mudge 577 e QFD 12223",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice: alteração de nota muda saldo e decisão",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice: nota ausente não vira zero",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice: MIM detecta escore inválido e revisão da fronteira",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice: custo independente é 18 e 49,40",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice: preparo ausente impede custo completo",
+      "aprovada": true
+    },
+    {
+      "verificacao": "LibreOffice preserva nomes com espaços e referências da morfológica",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Fórmulas e entradas validadas no motor nativo correspondem ao final",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Cálculos e registro da MIM testados no motor nativo correspondem ao final",
+      "aprovada": true
+    },
+    {
+      "verificacao": "PDF 0.17 inclui primeira Pugh, M1 e reavaliação da MIM",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Compilação sem erros, referências pendentes ou margens excedidas",
+      "aprovada": true
+    }
+  ],
+  "pdf_pages": 60,
+  "hashes": {
+    "planilha_antes": "b106eca4cde33e1afa88cc5812e7b97624a0640c3ec7adac67044aa263757fc1",
+    "planilha_atual": "6dd9b784e605d13e5143da674097e61b1f0c0bf08c68702aa1c56c97eab2e154",
+    "pdf_atual": "13f52bb893c37b836f5a185070cf36bfdd2fbaec4e76c6ca4f9a5e98e99621b5"
+  },
+  "engine_notes": "Artifact Tool e LibreOffice em cópias descartáveis com recálculo forçado. Nenhum resultado físico foi produzido. Escores MIM herdados não foram revalidados para M1.",
+  "revisao_visual": {
+    "planilha": [
+      "primeira Pugh: critérios, decisão e encaminhamento",
+      "segunda Pugh: orientações",
+      "funções parciais M1",
+      "morfológica M1",
+      "C1/C2/C3",
+      "MIM e arquitetura",
+      "custo M1 e registro de revisão"
+    ],
+    "pdf_paginas_fisicas": [
+      9,
+      46,
+      47,
+      50,
+      51,
+      55,
+      57
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # Validação da cadeia — da dor ao QFD
 
-> Registro histórico da revisão de setembro. Números e identificadores abaixo descrevem aquela versão. A fonte operacional atual é a planilha e o relatório 0.15, revisados em 14/10/2026: 577 pontos no Mudge, 12.223 no QFD e projeto conceitual em elaboração. O registro de impacto é opção experimental, não substituto da inspeção.
+> Registro histórico da revisão de setembro. Números e identificadores abaixo descrevem aquela versão. A fonte operacional atual é a planilha e o relatório 0.17, revisados em 15/10/2026: 577 pontos no Mudge, 12.223 no QFD e M1 priorizada como direção funcional após empate na primeira Pugh. Os escores anteriores da MIM aguardam reavaliação sob a nova fronteira. O registro de impacto é opção experimental, não substituto da inspeção.
 
 Revisão completa do encadeamento lógico do projeto, da formulação do problema até as
 especificações-meta, com verificação das premissas externas em fonte. Data: 15/09/2026.

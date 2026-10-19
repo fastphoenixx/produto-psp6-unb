@@ -1,0 +1,567 @@
+{
+  "date": "2026-10-15",
+  "functionCount": 17,
+  "requirements": 23,
+  "functions": [
+    {
+      "id": "F01",
+      "name": "Amortecer impacto",
+      "level": "Parcial",
+      "class": "Transformação",
+      "effect": "Atenuar choque e vibração antes da energia chegar à cerâmica.",
+      "limit": "Uniformidade e vida qualificam esta função; não são funções adicionais.",
+      "row": 39
+    },
+    {
+      "id": "F02",
+      "name": "Imobilizar louça",
+      "level": "Parcial",
+      "class": "Técnica",
+      "effect": "Conservar o posicionamento relativo da carga, na peça ou no volume conforme a fronteira.",
+      "limit": "A função permanece requerida em M1/M2/M3; comparar deslocamento efetivo.",
+      "row": 40
+    },
+    {
+      "id": "F03",
+      "name": "Portar louça",
+      "level": "Parcial",
+      "class": "Ergonômica",
+      "effect": "Transferir a carga entre posições com interfaces de movimentação adequadas.",
+      "limit": "Separar empurrar/puxar de levantar/carregar. Geometria e volume limitam a solução.",
+      "row": 41
+    },
+    {
+      "id": "F04",
+      "name": "Expor condição",
+      "level": "Parcial",
+      "class": "Interativa",
+      "effect": "Tornar a região crítica da cerâmica acessível à inspeção com o conjunto fechado.",
+      "limit": "O acondicionamento original não pode bloquear o acesso requerido.",
+      "row": 42
+    },
+    {
+      "id": "F05",
+      "name": "Prover pega",
+      "level": "Suporte",
+      "class": "Ergonômica",
+      "effect": "Disponibilizar interfaces para aplicação de força pela mão enluvada.",
+      "limit": "Quantidade, dimensões e acesso não demonstram ergonomia por si sós.",
+      "row": 43
+    },
+    {
+      "id": "F06",
+      "name": "Reter fragmentos",
+      "level": "Parcial",
+      "class": "Técnica",
+      "effect": "Conter fragmentos na quebra, inclusive durante abertura e retirada.",
+      "limit": "Massa retida não elimina a verificação de fragmentos pequenos e risco de corte.",
+      "row": 44
+    },
+    {
+      "id": "F07",
+      "name": "Acomodar variação",
+      "level": "Suporte",
+      "class": "Estrutural",
+      "effect": "Adaptar o posicionamento à faixa dimensional na mesma configuração.",
+      "limit": "Ajuste sem trocar partes; reposição por desgaste é manutenção.",
+      "row": 45
+    },
+    {
+      "id": "F08",
+      "name": "Compatibilizar carga",
+      "level": "Suporte",
+      "class": "Interativa",
+      "effect": "Disponibilizar geometria e interfaces compatíveis com palete e meio de transporte.",
+      "limit": "A ocupação e o envelope externo são critérios da interface, não novos blocos.",
+      "row": 46
+    },
+    {
+      "id": "F09",
+      "name": "Estabilizar conjunto",
+      "level": "Suporte",
+      "class": "Estrutural",
+      "effect": "Manter o conjunto carregado apoiado contra tombamento ou movimento indesejado.",
+      "limit": "Verificar a configuração desfavorável, piso, apoios e eventual rolamento.",
+      "row": 47
+    },
+    {
+      "id": "F11",
+      "name": "Suportar carga",
+      "level": "Suporte",
+      "class": "Estrutural",
+      "effect": "Transmitir as solicitações de compressão pelo caminho resistente do conjunto.",
+      "limit": "RP13 qualifica esta capacidade após umidade; não exige automaticamente bloquear água.",
+      "row": 48
+    },
+    {
+      "id": "F14",
+      "name": "Recolher partes",
+      "level": "Suporte derivado",
+      "class": "Sintática",
+      "effect": "Mudar a configuração vazia para reduzir o volume no retorno.",
+      "limit": "Não demonstra RP14 no estado carregado; também medir o envelope de transporte.",
+      "row": 49
+    },
+    {
+      "id": "F15",
+      "name": "Prover acesso",
+      "level": "Suporte derivado",
+      "class": "Interativa",
+      "effect": "Disponibilizar acesso às regiões de limpeza, inspeção e reposição durante manutenção.",
+      "limit": "A limpeza é operação humana; o produto viabiliza acesso e liberação.",
+      "row": 50
+    },
+    {
+      "id": "F16",
+      "name": "Comunicar uso",
+      "level": "Suporte",
+      "class": "Semântica",
+      "effect": "Comunicar orientação, ação, fechamento e advertências de uso.",
+      "limit": "Reúne a antiga Indicar ação; legibilidade e uso intuitivo permanecem critérios.",
+      "row": 51
+    },
+    {
+      "id": "F17",
+      "name": "Liberar partes",
+      "level": "Suporte",
+      "class": "Sintática",
+      "effect": "Desfazer uniões para abertura, retirada, manutenção e separação de partes.",
+      "limit": "Abertura segura e tempo são verificados; liberar não significa troca independente comprovada.",
+      "row": 52
+    },
+    {
+      "id": "F19",
+      "name": "Separar materiais",
+      "level": "Suporte derivado",
+      "class": "Adicional",
+      "effect": "Viabilizar a obtenção de frações materiais separáveis no fim de vida.",
+      "limit": "Separabilidade não garante cadeia regional de reciclagem nem o percentual de RP19.",
+      "row": 53
+    },
+    {
+      "id": "F21",
+      "name": "Exibir identidade",
+      "level": "Suporte",
+      "class": "Semântica",
+      "effect": "Exibir um identificador permanente e único da unidade.",
+      "limit": "Preservar a identidade na estrutura de referência após ciclos e troca de partes.",
+      "row": 54
+    },
+    {
+      "id": "F22",
+      "name": "Unir partes",
+      "level": "Suporte",
+      "class": "Sintática",
+      "effect": "Estabelecer as uniões que mantêm o conjunto montado e contido.",
+      "limit": "Ações, retenção, soltura acidental e repetição após manutenção precisam de verificação.",
+      "row": 55
+    }
+  ],
+  "bindings": [
+    {
+      "rp": 1,
+      "nature": "Desempenho funcional",
+      "functions": [
+        "F01"
+      ],
+      "treatment": "Requer função",
+      "rationale": "Atenuar energia na cerâmica; o pico é critério de desempenho.",
+      "row": 5
+    },
+    {
+      "rp": 2,
+      "nature": "Desempenho funcional",
+      "functions": [
+        "F02"
+      ],
+      "treatment": "Requer função",
+      "rationale": "Conservar posição relativa e verificar o deslocamento após o ciclo.",
+      "row": 6
+    },
+    {
+      "rp": 3,
+      "nature": "Ergonomia / desempenho",
+      "functions": [
+        "F03",
+        "F05"
+      ],
+      "treatment": "Qualifica funções",
+      "rationale": "Portar com pega e apoio; 150 N é força de partida ao empurrar/puxar, não limite de levantamento.",
+      "row": 7
+    },
+    {
+      "rp": 4,
+      "nature": "Inspeção / desempenho",
+      "functions": [
+        "F04"
+      ],
+      "treatment": "Requer função",
+      "rationale": "Expor a área crítica real da cerâmica; indicador de evento não substitui inspeção.",
+      "row": 8
+    },
+    {
+      "rp": 5,
+      "nature": "Interface ergonômica",
+      "functions": [
+        "F05"
+      ],
+      "treatment": "Qualifica interface",
+      "rationale": "Prover pontos para mão enluvada; confirmar vão, acesso e aplicação de força.",
+      "row": 9
+    },
+    {
+      "rp": 6,
+      "nature": "Segurança / desempenho",
+      "functions": [
+        "F06"
+      ],
+      "treatment": "Requer função",
+      "rationale": "Conter fragmentos em transporte, abertura e retirada segura.",
+      "row": 10
+    },
+    {
+      "rp": 7,
+      "nature": "Adaptabilidade",
+      "functions": [
+        "F07"
+      ],
+      "treatment": "Requer capacidade",
+      "rationale": "Acomodar a amplitude na mesma configuração; não trocar insertos durante ajuste.",
+      "row": 11
+    },
+    {
+      "rp": 8,
+      "nature": "Interface / geometria",
+      "functions": [
+        "F08",
+        "F03"
+      ],
+      "treatment": "Restringe interface",
+      "rationale": "Ocupar o palete e compatibilizar o conjunto com transporte e amarração.",
+      "row": 12
+    },
+    {
+      "rp": 9,
+      "nature": "Estabilidade / segurança",
+      "functions": [
+        "F09"
+      ],
+      "treatment": "Qualifica função",
+      "rationale": "Estabilizar o conjunto carregado e verificar o limite de tombamento.",
+      "row": 13
+    },
+    {
+      "rp": 10,
+      "nature": "Usabilidade",
+      "functions": [
+        "F16"
+      ],
+      "treatment": "Atributo de uso",
+      "rationale": "Orientação e indicação de ação integram Comunicar uso; não criar função duplicada.",
+      "row": 14
+    },
+    {
+      "rp": 11,
+      "nature": "Desempenho estrutural",
+      "functions": [
+        "F11"
+      ],
+      "treatment": "Qualifica função",
+      "rationale": "Suportar compressão pelo caminho de carga, preservando a louça.",
+      "row": 15
+    },
+    {
+      "rp": 12,
+      "nature": "Qualidade / uniformidade",
+      "functions": [
+        "F01"
+      ],
+      "treatment": "Atributo de função",
+      "rationale": "Uniformidade qualifica Amortecer impacto. Não constitui outra função independente.",
+      "row": 16
+    },
+    {
+      "rp": 13,
+      "nature": "Condição ambiental",
+      "functions": [
+        "F11"
+      ],
+      "treatment": "Atributo sob condição",
+      "rationale": "Manter capacidade de compressão após umidade. Derivar bloqueio de água apenas se o princípio escolhido exigir.",
+      "row": 17
+    },
+    {
+      "rp": 14,
+      "nature": "Restrição geométrica",
+      "functions": [
+        "F03",
+        "F08",
+        "F14"
+      ],
+      "treatment": "Restrição e suporte",
+      "rationale": "Limitar o envelope carregado pela geometria; recolher partes é ação auxiliar de retorno, não prova da meta carregada.",
+      "row": 18
+    },
+    {
+      "rp": 15,
+      "nature": "Manutenibilidade",
+      "functions": [
+        "F15",
+        "F17",
+        "F22"
+      ],
+      "treatment": "Desdobra suporte",
+      "rationale": "Prover acesso, liberar e reunir partes para limpeza, inspeção e reposição. O tempo do ciclo continua obrigatório.",
+      "row": 19
+    },
+    {
+      "rp": 16,
+      "nature": "Interface informacional",
+      "functions": [
+        "F16"
+      ],
+      "treatment": "Qualifica função",
+      "rationale": "Comunicar uso com orientação e fechamento legíveis; não confundir com registro de impacto.",
+      "row": 20
+    },
+    {
+      "rp": 17,
+      "nature": "Desmontabilidade",
+      "functions": [
+        "F17"
+      ],
+      "treatment": "Qualifica função",
+      "rationale": "Liberar partes com o tempo e as condições de ferramenta previstos.",
+      "row": 21
+    },
+    {
+      "rp": 18,
+      "nature": "Durabilidade",
+      "functions": [
+        "F01",
+        "F02",
+        "F11",
+        "F15",
+        "F17",
+        "F22"
+      ],
+      "treatment": "Atributo e suporte",
+      "rationale": "Preservar proteção ao longo dos ciclos e viabilizar manutenção. Vida útil não é outra transformação nem carry-over.",
+      "row": 22
+    },
+    {
+      "rp": 19,
+      "nature": "Sustentabilidade",
+      "functions": [
+        "F17",
+        "F19"
+      ],
+      "treatment": "Atributo e suporte",
+      "rationale": "Liberar partes e viabilizar separação material; composição e cadeia regional continuam critérios de RP19.",
+      "row": 23
+    },
+    {
+      "rp": 20,
+      "nature": "Restrição arquitetural",
+      "functions": [
+        "F15",
+        "F17",
+        "F22"
+      ],
+      "treatment": "Restringe arquitetura",
+      "rationale": "Acesso e uniões devem viabilizar troca independente. Contar três módulos requer demonstração física, não três funções.",
+      "row": 24
+    },
+    {
+      "rp": 21,
+      "nature": "Rastreabilidade",
+      "functions": [
+        "F21"
+      ],
+      "treatment": "Requer função",
+      "rationale": "Exibir identidade única da unidade, preservada na estrutura de referência após manutenção.",
+      "row": 25
+    },
+    {
+      "rp": 22,
+      "nature": "Montabilidade",
+      "functions": [
+        "F22"
+      ],
+      "treatment": "Qualifica função",
+      "rationale": "Unir as partes no limite de ações e sem perder retenção ou estabilidade.",
+      "row": 26
+    },
+    {
+      "rp": 23,
+      "nature": "Restrição econômica",
+      "functions": [],
+      "treatment": "Restrição transversal",
+      "rationale": "O teto por ciclo restringe soluções, materiais, manutenção e retorno; custo não é função física do produto.",
+      "row": 27
+    }
+  ],
+  "alias": {
+    "F10": [
+      "F16"
+    ],
+    "F12": [
+      "F01"
+    ],
+    "F13": [
+      "F11"
+    ],
+    "F18": [
+      "F01",
+      "F02",
+      "F11",
+      "F15",
+      "F17",
+      "F22"
+    ],
+    "F20": [
+      "F15",
+      "F17",
+      "F22"
+    ],
+    "F23": []
+  },
+  "carrierFunctions": [
+    {
+      "id": "S01",
+      "functions": [
+        "F01"
+      ],
+      "rps": [
+        1,
+        12,
+        13,
+        18
+      ]
+    },
+    {
+      "id": "S02",
+      "functions": [
+        "F02"
+      ],
+      "rps": [
+        2
+      ]
+    },
+    {
+      "id": "S03",
+      "functions": [
+        "F07"
+      ],
+      "rps": [
+        7
+      ]
+    },
+    {
+      "id": "S04",
+      "functions": [
+        "F04"
+      ],
+      "rps": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "S05",
+      "functions": [
+        "F05"
+      ],
+      "rps": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "S06",
+      "functions": [
+        "F03",
+        "F08"
+      ],
+      "rps": [
+        3,
+        8,
+        14
+      ]
+    },
+    {
+      "id": "S07",
+      "functions": [
+        "F06"
+      ],
+      "rps": [
+        6
+      ]
+    },
+    {
+      "id": "S08",
+      "functions": [
+        "F11"
+      ],
+      "rps": [
+        11,
+        13
+      ]
+    },
+    {
+      "id": "S09",
+      "functions": [
+        "F17",
+        "F22"
+      ],
+      "rps": [
+        17,
+        20,
+        22
+      ]
+    },
+    {
+      "id": "S10",
+      "functions": [
+        "F16",
+        "F21"
+      ],
+      "rps": [
+        10,
+        16,
+        21
+      ]
+    },
+    {
+      "id": "S11",
+      "functions": [
+        "F09"
+      ],
+      "rps": [
+        9
+      ]
+    },
+    {
+      "id": "S12",
+      "functions": [
+        "F14",
+        "F17"
+      ],
+      "rps": [
+        14,
+        17
+      ]
+    },
+    {
+      "id": "S13",
+      "functions": [],
+      "rps": []
+    }
+  ],
+  "optional": "OP-01 fora da base",
+  "sources": [
+    "Síntese funcional da disciplina",
+    "https://www.nasa.gov/reference/4-2-technical-requirements-definition/",
+    "https://www.nasa.gov/reference/4-3-logical-decomposition/"
+  ]
+}
