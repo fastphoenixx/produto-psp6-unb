@@ -1,0 +1,137 @@
+{
+  "sourceSha256": "14baa758e74625c2fbd6fe7c86448f0ebd59bca90bab7f200cef0c37ce667414",
+  "cells": {
+    "Especificação Meta": {
+      "B57": {
+        "value": "Concluído com registro exige protocolo, dados individuais, resultado, limitação e justificativa de confirmar ou revisar a meta. Registrar a evidência no arquivo de coleta e atualizar a meta com a equipe. A seleção permanece pendente enquanto houver validação crítica aberta.",
+        "formula": null,
+        "type": "str"
+      },
+      "B61": {
+        "value": "Origem da linha de base: fonte publicada/observação, cálculo ou estimativa. Nenhuma dessas etiquetas confirma a meta do novo produto. As 23 metas são de trabalho; registrar confirmação ou revisão por RP, antes de encerrar a seleção.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Concepções": {
+      "B2": {
+        "value": "Concepções — propostas físicas sob proteção direta; seleção funcional em aberto",
+        "formula": null,
+        "type": "str"
+      },
+      "B9": {
+        "value": "C1/C2/C3 são combinações físicas anteriores sob proteção direta. A primeira Pugh ampla ainda não seleciona MF-A/MF-B/MF-C. Rever e identificar a aderência funcional de cada combinação antes da segunda seleção. Os dois trios não são equivalentes.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Matriz Morfologica ": {
+      "B20": {
+        "value": "A Pugh usa princípios desta matriz como hipóteses auxiliares H1–H5 para comparar MF-A/MF-B/MF-C. A seleção funcional permanece aberta. C1/C2/C3 continuam combinações físicas a revisar; nenhuma foi escolhida. P1–P4 são opções da própria linha.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Revisão": {},
+    "Modelagens Alternativas": {
+      "G5": {
+        "value": "Hipóteses de ajuste e acesso favoráveis à MF-B estão na Pugh. A seleção continua aberta; confirmar carga, compressão, estabilidade, volume, vida e custo.",
+        "formula": null,
+        "type": "str"
+      },
+      "B68": {
+        "value": "Seleção em aberto. Avaliação conceitual sob hipóteses comuns; completar massa, interfaces, envelope, vida e custo antes de escolher. Proteção direta preservada.",
+        "formula": "'Matriz Pugh das Modelagens'!E30&\". Avaliação conceitual sob hipóteses comuns; completar massa, interfaces, envelope, vida e custo antes de escolher. Proteção direta preservada.\"",
+        "type": "str"
+      }
+    },
+    "MIM": {
+      "B3": {
+        "value": "Portadores da C1 anterior sob proteção direta; 156 escores históricos preservados. A primeira seleção funcional está em aberto. Rever posição do amortecimento, massa sustentada, interfaces e agrupamentos conforme a estrutura estudada antes de adotar a arquitetura.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Arquitetura Modular": {
+      "B3": {
+        "value": "Arquitetura herdada da C1 anterior, ainda sem aprovação. A primeira seleção funcional está em aberto. Rever amortecimento, caminho resistente, massa, ajuste e interfaces conforme a estrutura estudada. Não comprova RP20 nem seleciona C1.",
+        "formula": null,
+        "type": "str"
+      },
+      "B31": {
+        "value": "Proteção direta mantida. Comparar as posições de F01 em MF-A/MF-B/MF-C e seus efeitos em massa/carga sustentada e I12/I13/I14. Preservar inspeção fechada, contenção e contato seguro. Os escores da MIM seguem históricos.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Matriz Pugh das Concepções": {
+      "B31": {
+        "value": "C1 é datum da segunda Pugh anterior. A primeira seleção funcional permanece em aberto. Revisar a estrutura de C1/C2/C3 e confirmar a referência antes de pontuar. C2/C3 seguem AV; cobertura funcional não aprova uma concepção.",
+        "formula": null,
+        "type": "str"
+      },
+      "B35": {
+        "value": "Usar os 23 RP avaliados na primeira Pugh, linhas 48–70, e os critérios/pesos desta segunda matriz. Retomar a seleção funcional quando houver base comparativa; revisar C1/C2/C3 e datum. Identificar estimativas e análises; confirmar limites conforme o plano de validação.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Matriz Pugh das Modelagens": {
+      "E30": {
+        "value": "Seleção em aberto",
+        "formula": "IF(OR(SUM(E77:G77)>0,E75<>ROWS(E48:E70)),\"Rever notas\",IF(SUM(F76:G76)>0,\"Seleção em aberto\",IF(COUNT(E79:G79)<>3,\"Rever notas\",IF(COUNTIF(E79:G79,MAX(E79:G79))>1,\"Empate funcional\",IF(F79=MAX(E79:G79),\"MF-B preliminar\",IF(G79=MAX(E79:G79),\"MF-C preliminar\",\"MF-A preliminar\"))))))",
+        "type": "str"
+      },
+      "G30": {
+        "value": "Comparação atual nas linhas 44–101. Os saldos parciais não selecionam uma estrutura; proteção direta continua como fronteira comum.",
+        "formula": null,
+        "type": "str"
+      },
+      "B37": {
+        "value": "Histórico: escala de cinco níveis e pesos do Pareto/Mudge. A Pugh atual usa 23 critérios, hipóteses H1–H5 e −1/0/+1/AV, sem novos pesos. O saldo parcial não encerra a seleção enquanto houver AV.",
+        "formula": null,
+        "type": "str"
+      },
+      "F47": {
+        "value": "MF-B",
+        "formula": null,
+        "type": "str"
+      },
+      "F80": {
+        "value": "Avaliação pendente",
+        "formula": "IF(F77>0,\"Rever notas\",IF(F76>0,\"Avaliação pendente\",\"Comparação completa\"))",
+        "type": "str"
+      },
+      "B82": {
+        "value": "Seleção em aberto: existem avaliações AV. Os saldos parciais não sustentam classificação nem empate final.",
+        "formula": "IF(E30=\"Seleção em aberto\",\"Seleção em aberto: existem avaliações AV. Os saldos parciais não sustentam classificação nem empate final.\",IF(E30=\"Rever notas\",\"Revisar entradas inválidas, vazias ou o datum antes de interpretar a comparação.\",E30&\": conclusão qualitativa a discutir com as justificativas e restrições do projeto.\"))",
+        "type": "str"
+      },
+      "B86": {
+        "value": "MF-B: potencial favorável em conciliar ajuste e amortecimento (RP7/H3) e em acessar/repor o cartucho preservando a regulagem (RP15/H4). São efeitos distintos e condicionais. Proteção, deslocamento e uniformidade continuam sem nota de superioridade.",
+        "formula": null,
+        "type": "str"
+      },
+      "B96": {
+        "value": "A segunda Pugh conserva os pesos e critérios anteriores, condicionada à revisão de C1/C2/C3 e do datum. MIM e arquitetura mantêm julgamentos históricos. As análises que faltam na primeira seleção não são descartadas nem automaticamente adiadas como se a escolha estivesse fechada.",
+        "formula": null,
+        "type": "str"
+      },
+      "B99": {
+        "value": "Back, seção 7.3.4, admite imaginar/simular princípios para comparar estruturas abstratas. Nesta rodada, H1–H5 explicitam essa base. A pontuação parcial depende dessas hipóteses; a seleção permanece em aberto com nove critérios AV por alternativa.",
+        "formula": null,
+        "type": "str"
+      },
+      "B112": {
+        "value": "Conclusão da avaliação: MF-B é promissora para aprofundar ajuste e acesso; MF-A permanece referência viável; MF-C precisa demonstrar benefício dos dois níveis e um acesso adequado. Os nove AV impedem tratar o saldo parcial como classificação final.",
+        "formula": null,
+        "type": "str"
+      },
+      "B123": {
+        "value": "RP7/RP8/RP14 revistos como metas preliminares pelo mix; QFD, funções e notas preservados. As nove AV continuam: falta demonstrar proteção, geometria/carga, dispersão, vida e custo de cada estrutura. MF-B segue com parcial +2, sem seleção definitiva.",
+        "formula": null,
+        "type": "str"
+      }
+    }
+  }
+}

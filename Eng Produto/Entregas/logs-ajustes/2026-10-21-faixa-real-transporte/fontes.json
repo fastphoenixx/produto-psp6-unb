@@ -1,0 +1,117 @@
+{
+  "accessed": "2026-10-21",
+  "sources": [
+    {
+      "id": "S1",
+      "description": "Celite Basic Q5; dimensões e tolerância; massa ausente.",
+      "url": "https://www.celite.com.br/celite-services/productSheet30/BR/pt/CE1730490027300/"
+    },
+    {
+      "id": "S2",
+      "description": "Celite Design D5; dimensões, massa e tolerância.",
+      "url": "https://www.celite.com.br/celite-services/productSheet30/BR/pt/CE1380850077300/"
+    },
+    {
+      "id": "S3",
+      "description": "Deca Liquid cerâmica; AxLxC 140×500×350 mm; peso líquido 9,746 kg.",
+      "url": "https://produtos.deca.com.br/Deca/L.13050.LQ.17/fichaTecnica/ficha_tecnica_1716218459516_L.13050.LQ.17.pdf"
+    },
+    {
+      "id": "S4",
+      "description": "Celite Like; dimensões, Peso KG e tolerância.",
+      "url": "https://www.celite.com.br/celite-services/productSheet30/BR/pt/CE1643550010300/"
+    },
+    {
+      "id": "S5",
+      "description": "Celite Elite; dimensões, Peso KG e venda separada da caixa.",
+      "url": "https://www.celite.com.br/produtos/bacia-caixa-elite-CE743530"
+    },
+    {
+      "id": "S6",
+      "description": "Deca LK P.23.17; dimensões e peso líquido.",
+      "url": "https://produtos.deca.com.br/Deca/P.23.17/fichaTecnica/ficha_tecnica_1712151210924_P.23.17.pdf"
+    },
+    {
+      "id": "S7",
+      "description": "Deca Flex KP.381.BR.17; kit completo; dimensões e peso líquido.",
+      "url": "https://produtos.deca.com.br/Deca/KP.381.BR.17/fichaTecnica/ficha_tecnica_1774613828085_KP.381.BR.17.pdf"
+    },
+    {
+      "id": "S8",
+      "description": "Renault Master 2026, p. 13; somente Furgão L1H1.",
+      "url": "https://cdn.group.renault.com/ren/br/renault-new-cars/editorial/2026/catalogo/jul/afRMA001626A_Master_minibus2026_Catalogo_v3.pdf.asset.pdf/7169a69774.pdf"
+    }
+  ],
+  "catalogModels": [
+    [
+      "Celite Basic Q5 1730490027300",
+      "Cuba",
+      350,
+      350,
+      135,
+      null,
+      "S1",
+      "Massa não informada na ficha consultada; pesar."
+    ],
+    [
+      "Celite Design D5 1380850077300",
+      "Cuba",
+      450,
+      400,
+      95,
+      9.5,
+      "S2",
+      "A/B normalizados a partir de 400 × 450 mm."
+    ],
+    [
+      "Deca Liquid L.13050.LQ.17",
+      "Cuba",
+      500,
+      350,
+      140,
+      9.746,
+      "S3",
+      "Peso líquido; modelo cerâmico, sem confundir com cuba inox LI."
+    ],
+    [
+      "Celite Like 1643550010300",
+      "Bacia",
+      610,
+      360,
+      370,
+      18,
+      "S4",
+      "Corpo da bacia; peso declarado como Peso KG."
+    ],
+    [
+      "Celite Elite 1743530010300",
+      "Bacia",
+      565,
+      360,
+      400,
+      27,
+      "S5",
+      "Caixa, assento e instalação vendidos separadamente."
+    ],
+    [
+      "Deca LK P.23.17",
+      "Bacia",
+      515,
+      355,
+      400,
+      32.341,
+      "S6",
+      "Peso líquido; AxLxC da fonte = 400 × 355 × 515 mm."
+    ],
+    [
+      "Deca Flex KP.381.BR.17",
+      "Kit montado",
+      600,
+      360,
+      760,
+      39.449,
+      "S7",
+      "Fora do recorte compacto: a caixa aumenta a altura. Não representa o corpo isolado."
+    ]
+  ]
+}

@@ -1,0 +1,1341 @@
+{
+  "sourceSha256": "2499059271505816447896b362577ba25df4d8d95d7655eb63b355a6a347004d",
+  "sheet": "Matriz Pugh das Modelagens",
+  "cells": {
+    "E30": {
+      "value": "Seleção em aberto",
+      "formula": "IF(OR(SUM(E77:G77)>0,E75<>ROWS(E48:E70)),\"Rever notas\",IF(SUM(F76:G76)>0,\"Seleção em aberto\",IF(COUNT(E79:G79)<>3,\"Rever notas\",IF(COUNTIF(E79:G79,MAX(E79:G79))>1,\"Empate funcional\",IF(F79=MAX(E79:G79),\"MF-B preliminar\",IF(G79=MAX(E79:G79),\"MF-C preliminar\",\"MF-A preliminar\"))))))",
+      "type": "str"
+    },
+    "G30": {
+      "value": "Comparação atual nas linhas 44–101. Os saldos parciais não selecionam uma estrutura; proteção direta continua como fronteira comum.",
+      "formula": null,
+      "type": "str"
+    },
+    "B37": {
+      "value": "Histórico: escala de cinco níveis e pesos do Pareto/Mudge. Comparação atual: 23 critérios vinculados às metas e às 17 funções, com −1/0/+1/AV e sem novos pesos. O resultado completo depende das avaliações pendentes.",
+      "formula": null,
+      "type": "str"
+    },
+    "B44": {
+      "value": "Primeira Pugh — avaliação ampla das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "B45": {
+      "value": "MF-A é a referência. +1 = melhor potencial justificado; 0 = mesma organização no aspecto descrito; −1 = pior potencial justificado; AV = comparação ainda sem base. Escala qualitativa sem pesos novos.",
+      "formula": null,
+      "type": "str"
+    },
+    "B46": {
+      "value": "Os 23 requisitos e as 17 funções entram na análise. Zero compara a organização declarada e não comprova a meta. Os limites continuam provisórios; o saldo completo só aparece quando todas as avaliações forem válidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "B47": {
+      "value": "RP",
+      "formula": null,
+      "type": "str"
+    },
+    "C47": {
+      "value": "Critério do produto",
+      "formula": null,
+      "type": "str"
+    },
+    "D47": {
+      "value": "Funções vinculadas",
+      "formula": null,
+      "type": "str"
+    },
+    "E47": {
+      "value": "MF-A\nreferência",
+      "formula": null,
+      "type": "str"
+    },
+    "F47": {
+      "value": "MF-B",
+      "formula": null,
+      "type": "str"
+    },
+    "G47": {
+      "value": "MF-C",
+      "formula": null,
+      "type": "str"
+    },
+    "H47": {
+      "value": "MF-B em relação à MF-A",
+      "formula": null,
+      "type": "str"
+    },
+    "J47": {
+      "value": "MF-C em relação à MF-A",
+      "formula": null,
+      "type": "str"
+    },
+    "K47": {
+      "value": "Meta e análise necessária",
+      "formula": null,
+      "type": "str"
+    },
+    "B48": {
+      "value": "RP1",
+      "formula": null,
+      "type": "str"
+    },
+    "C48": {
+      "value": "Amortecer impactos do transporte",
+      "formula": "'Função Global'!C5",
+      "type": "str"
+    },
+    "D48": {
+      "value": "F01",
+      "formula": null,
+      "type": "str"
+    },
+    "E48": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F48": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G48": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H48": {
+      "value": "F01 antecede o portador. A massa amortecida e a transmissão de energia mudam; a posição, sozinha, não demonstra vantagem sobre MF-A.",
+      "formula": null,
+      "type": "str"
+    },
+    "J48": {
+      "value": "Dois estágios podem repartir a atenuação ou interagir. Sem resposta dinâmica definida, não cabe bônus nem penalidade automática.",
+      "formula": null,
+      "type": "str"
+    },
+    "K48": {
+      "value": "≤ 35 g de pico transmitido à louça, e sempre abaixo do resultado da embalagem atual no mesmo ensaio\nComparar caminho de energia, massa e resposta prevista; confirmar pico em queda equivalente.",
+      "formula": "'Função Global'!K5&CHAR(10)&\"Comparar caminho de energia, massa e resposta prevista; confirmar pico em queda equivalente.\"",
+      "type": "str"
+    },
+    "B49": {
+      "value": "RP2",
+      "formula": null,
+      "type": "str"
+    },
+    "C49": {
+      "value": "Imobilizar a louça",
+      "formula": "'Função Global'!C6",
+      "type": "str"
+    },
+    "D49": {
+      "value": "F02",
+      "formula": null,
+      "type": "str"
+    },
+    "E49": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F49": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G49": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H49": {
+      "value": "F02 atua após o portador amortecido. Folgas, contato e movimento relativo ainda precisam ser comparados com a interface da MF-A.",
+      "formula": null,
+      "type": "str"
+    },
+    "J49": {
+      "value": "F01b permanece junto à peça. O efeito combinado com F02 e com o estágio externo não está definido.",
+      "formula": null,
+      "type": "str"
+    },
+    "K49": {
+      "value": "≤ 6 mm de deslocamento residual após o ciclo de distribuição\nComparar contatos e folgas no mesmo mix; verificar deslocamento após o ciclo.",
+      "formula": "'Função Global'!K6&CHAR(10)&\"Comparar contatos e folgas no mesmo mix; verificar deslocamento após o ciclo.\"",
+      "type": "str"
+    },
+    "B50": {
+      "value": "RP3",
+      "formula": null,
+      "type": "str"
+    },
+    "C50": {
+      "value": "Ser de fácil movimentação",
+      "formula": "'Função Global'!C7",
+      "type": "str"
+    },
+    "D50": {
+      "value": "F03, F05",
+      "formula": null,
+      "type": "str"
+    },
+    "E50": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F50": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G50": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H50": {
+      "value": "F03/F05 são mantidas. A posição de F01 altera a massa sustentada; não permite estimar força de partida ou esforço de manuseio.",
+      "formula": null,
+      "type": "str"
+    },
+    "J50": {
+      "value": "O portador fica entre estágios. Sem massa, apoios e meio de movimentação definidos, não há diferença de esforço demonstrada.",
+      "formula": null,
+      "type": "str"
+    },
+    "K50": {
+      "value": "≤ 150 N de força de partida com o conjunto carregado, em piso de canteiro\nAnalisar massa, pega, apoio e percurso. A força de partida não é limite de levantamento.",
+      "formula": "'Função Global'!K7&CHAR(10)&\"Analisar massa, pega, apoio e percurso. A força de partida não é limite de levantamento.\"",
+      "type": "str"
+    },
+    "B51": {
+      "value": "RP4",
+      "formula": null,
+      "type": "str"
+    },
+    "C51": {
+      "value": "Permitir conferência sem abrir",
+      "formula": "'Função Global'!C8",
+      "type": "str"
+    },
+    "D51": {
+      "value": "F04",
+      "formula": null,
+      "type": "str"
+    },
+    "E51": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F51": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G51": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H51": {
+      "value": "Mesma organização declarada: F04 permite observar a peça com F06 mantendo a barreira fechada. Nenhuma rota de inspeção alternativa foi proposta.",
+      "formula": null,
+      "type": "str"
+    },
+    "J51": {
+      "value": "Mantém F04/F06 no mesmo grupo de inspeção e contenção. Não foi descrita vantagem nem obstrução adicional nesse grupo.",
+      "formula": null,
+      "type": "str"
+    },
+    "K51": {
+      "value": "≥ 60% da área crítica verificável com o conjunto fechado\nEquivalência da organização de inspeção. Confirmar área crítica visível e detecção com o conjunto fechado.",
+      "formula": "'Função Global'!K8&CHAR(10)&\"Equivalência da organização de inspeção. Confirmar área crítica visível e detecção com o conjunto fechado.\"",
+      "type": "str"
+    },
+    "B52": {
+      "value": "RP5",
+      "formula": null,
+      "type": "str"
+    },
+    "C52": {
+      "value": "Ter pontos de pega definidos",
+      "formula": "'Função Global'!C9",
+      "type": "str"
+    },
+    "D52": {
+      "value": "F05",
+      "formula": null,
+      "type": "str"
+    },
+    "E52": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F52": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G52": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H52": {
+      "value": "F05 integra o grupo de suporte e transporte, como em MF-A. Não foi proposta mudança funcional da pega.",
+      "formula": null,
+      "type": "str"
+    },
+    "J52": {
+      "value": "F05 permanece no grupo do portador. A modelagem não propõe outra forma de prover pega.",
+      "formula": null,
+      "type": "str"
+    },
+    "K52": {
+      "value": "≥ 2 pontos de pega com vão livre compatível com mão enluvada\nEquivalência da função de pega. Dimensionar vão, acesso, resistência e posição para mão enluvada.",
+      "formula": "'Função Global'!K9&CHAR(10)&\"Equivalência da função de pega. Dimensionar vão, acesso, resistência e posição para mão enluvada.\"",
+      "type": "str"
+    },
+    "B53": {
+      "value": "RP6",
+      "formula": null,
+      "type": "str"
+    },
+    "C53": {
+      "value": "Ter retirada segura da louça",
+      "formula": "'Função Global'!C10",
+      "type": "str"
+    },
+    "D53": {
+      "value": "F06",
+      "formula": null,
+      "type": "str"
+    },
+    "E53": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F53": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G53": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H53": {
+      "value": "F06 preserva a barreira durante transporte, abertura e retirada, como em MF-A. A organização de contenção é comum.",
+      "formula": null,
+      "type": "str"
+    },
+    "J53": {
+      "value": "Mesma organização declarada de F06 e de abertura segura. Dois estágios não substituem nem ampliam automaticamente a barreira.",
+      "formula": null,
+      "type": "str"
+    },
+    "K53": {
+      "value": "≥ 90% da massa de fragmentos retida no interior\nEquivalência da organização de contenção. Verificar retenção em massa e risco dos fragmentos pequenos.",
+      "formula": "'Função Global'!K10&CHAR(10)&\"Equivalência da organização de contenção. Verificar retenção em massa e risco dos fragmentos pequenos.\"",
+      "type": "str"
+    },
+    "B54": {
+      "value": "RP7",
+      "formula": null,
+      "type": "str"
+    },
+    "C54": {
+      "value": "Ser ajustável a diferentes louças",
+      "formula": "'Função Global'!C11",
+      "type": "str"
+    },
+    "D54": {
+      "value": "F07",
+      "formula": null,
+      "type": "str"
+    },
+    "E54": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F54": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G54": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H54": {
+      "value": "Separar F01 do contato ajustável é uma hipótese favorável. Não demonstra maior faixa de ajuste nem preservação de F02 em todo o mix.",
+      "formula": null,
+      "type": "str"
+    },
+    "J54": {
+      "value": "F01b continua junto ao ajuste e F01a atua no exterior. A influência dos dois níveis na faixa útil ainda precisa ser analisada.",
+      "formula": null,
+      "type": "str"
+    },
+    "K54": {
+      "value": "≥ 150 mm de amplitude na dimensão governante, sem troca de componentes\nComparar curso, contatos e travamento no mesmo mix, sem troca de componentes. Não pontuar a separação duas vezes.",
+      "formula": "'Função Global'!K11&CHAR(10)&\"Comparar curso, contatos e travamento no mesmo mix, sem troca de componentes. Não pontuar a separação duas vezes.\"",
+      "type": "str"
+    },
+    "B55": {
+      "value": "RP8",
+      "formula": null,
+      "type": "str"
+    },
+    "C55": {
+      "value": "Ser compatível com o veículo",
+      "formula": "'Função Global'!C12",
+      "type": "str"
+    },
+    "D55": {
+      "value": "F08, F03",
+      "formula": null,
+      "type": "str"
+    },
+    "E55": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F55": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G55": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H55": {
+      "value": "F08/F03 são mantidas. A disposição externa do amortecimento ainda não possui envelope nem interface de amarração definidos.",
+      "formula": null,
+      "type": "str"
+    },
+    "J55": {
+      "value": "A distribuição de dois estágios não informa a base ocupada nem o aproveitamento do palete.",
+      "formula": null,
+      "type": "str"
+    },
+    "K55": {
+      "value": "≥ 90% de aproveitamento da área do palete PBR 1200 × 1000 mm\nDefinir envelope e apoios; comparar arranjo no PBR e amarração.",
+      "formula": "'Função Global'!K12&CHAR(10)&\"Definir envelope e apoios; comparar arranjo no PBR e amarração.\"",
+      "type": "str"
+    },
+    "B56": {
+      "value": "RP9",
+      "formula": null,
+      "type": "str"
+    },
+    "C56": {
+      "value": "Ser estável quando apoiado",
+      "formula": "'Função Global'!C13",
+      "type": "str"
+    },
+    "D56": {
+      "value": "F09",
+      "formula": null,
+      "type": "str"
+    },
+    "E56": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F56": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G56": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H56": {
+      "value": "F09 é mantida, mas o portador após F01 pode alterar o apoio carregado. Centro de massa e rigidez de apoio não foram definidos.",
+      "formula": null,
+      "type": "str"
+    },
+    "J56": {
+      "value": "F09 atua com o portador entre estágios. A estabilidade depende da base, das massas e da deformação sob carga.",
+      "formula": null,
+      "type": "str"
+    },
+    "K56": {
+      "value": "≥ 40° de ângulo de tombamento com o conjunto carregado\nComparar apoio e centro de massa no ajuste desfavorável; verificar tombamento carregado.",
+      "formula": "'Função Global'!K13&CHAR(10)&\"Comparar apoio e centro de massa no ajuste desfavorável; verificar tombamento carregado.\"",
+      "type": "str"
+    },
+    "B57": {
+      "value": "RP10",
+      "formula": null,
+      "type": "str"
+    },
+    "C57": {
+      "value": "Ser de uso intuitivo",
+      "formula": "'Função Global'!C14",
+      "type": "str"
+    },
+    "D57": {
+      "value": "F16",
+      "formula": null,
+      "type": "str"
+    },
+    "E57": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F57": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G57": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H57": {
+      "value": "F16 comunica orientação e estado de uso, como em MF-A. A estrutura não introduz outra função de comando ou orientação.",
+      "formula": null,
+      "type": "str"
+    },
+    "J57": {
+      "value": "Mantém o mesmo grupo informacional F16. Não foi definida uma sequência de uso diferente.",
+      "formula": null,
+      "type": "str"
+    },
+    "K57": {
+      "value": "≤ 7 etapas até o primeiro uso correto, sem consultar instrução\nEquivalência da organização de orientação. Validar primeiro uso, ações e erros com operador sem treinamento.",
+      "formula": "'Função Global'!K14&CHAR(10)&\"Equivalência da organização de orientação. Validar primeiro uso, ações e erros com operador sem treinamento.\"",
+      "type": "str"
+    },
+    "B58": {
+      "value": "RP11",
+      "formula": null,
+      "type": "str"
+    },
+    "C58": {
+      "value": "Ser empilhável",
+      "formula": "'Função Global'!C15",
+      "type": "str"
+    },
+    "D58": {
+      "value": "F11",
+      "formula": null,
+      "type": "str"
+    },
+    "E58": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F58": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G58": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H58": {
+      "value": "F01 antes de F11 exige explicitar como a compressão atravessa ou contorna o amortecedor. Não há caminho dimensionado para comparar.",
+      "formula": null,
+      "type": "str"
+    },
+    "J58": {
+      "value": "Os dois estágios exigem explicitar o caminho resistente e evitar concentração na cerâmica. Não se presume menor capacidade.",
+      "formula": null,
+      "type": "str"
+    },
+    "K58": {
+      "value": "≥ 7,5 kN de carga de compressão sem perda de proteção\nRepresentar transmissão de esforços e verificar compressão sem perda de proteção.",
+      "formula": "'Função Global'!K15&CHAR(10)&\"Representar transmissão de esforços e verificar compressão sem perda de proteção.\"",
+      "type": "str"
+    },
+    "B59": {
+      "value": "RP12",
+      "formula": null,
+      "type": "str"
+    },
+    "C59": {
+      "value": "Ter desempenho uniforme",
+      "formula": "'Função Global'!C16",
+      "type": "str"
+    },
+    "D59": {
+      "value": "F01",
+      "formula": null,
+      "type": "str"
+    },
+    "E59": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F59": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G59": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H59": {
+      "value": "A separação entre amortecimento e ajuste não demonstra repetibilidade entre unidades. Faltam tolerâncias e resposta por configuração.",
+      "formula": null,
+      "type": "str"
+    },
+    "J59": {
+      "value": "Dois estágios exigem compatibilizar respostas, mas podem ter benefícios. A uniformidade depende das tolerâncias e dos contatos.",
+      "formula": null,
+      "type": "str"
+    },
+    "K59": {
+      "value": "≤ 10% de coeficiente de variação do pico de aceleração\nAnalisar sensibilidade ao mix e às tolerâncias; comparar repetibilidade do pico entre unidades.",
+      "formula": "'Função Global'!K16&CHAR(10)&\"Analisar sensibilidade ao mix e às tolerâncias; comparar repetibilidade do pico entre unidades.\"",
+      "type": "str"
+    },
+    "B60": {
+      "value": "RP13",
+      "formula": null,
+      "type": "str"
+    },
+    "C60": {
+      "value": "Ser resistente a intempéries",
+      "formula": "'Função Global'!C17",
+      "type": "str"
+    },
+    "D60": {
+      "value": "F11",
+      "formula": null,
+      "type": "str"
+    },
+    "E60": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F60": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G60": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H60": {
+      "value": "F11 permanece exigida sob umidade. Materiais e juntas do caminho resistente ainda não foram escolhidos.",
+      "formula": null,
+      "type": "str"
+    },
+    "J60": {
+      "value": "Dois estágios não implicam melhor nem pior resistência à umidade. A composição e o caminho resistente estão em definição.",
+      "formula": null,
+      "type": "str"
+    },
+    "K60": {
+      "value": "≤ 12,5% de perda da carga de compressão após 48 h em câmara úmida\nComparar materiais e interfaces; confirmar compressão após condicionamento úmido.",
+      "formula": "'Função Global'!K17&CHAR(10)&\"Comparar materiais e interfaces; confirmar compressão após condicionamento úmido.\"",
+      "type": "str"
+    },
+    "B61": {
+      "value": "RP14",
+      "formula": null,
+      "type": "str"
+    },
+    "C61": {
+      "value": "Ser compacto",
+      "formula": "'Função Global'!C18",
+      "type": "str"
+    },
+    "D61": {
+      "value": "F03, F08, F14",
+      "formula": null,
+      "type": "str"
+    },
+    "E61": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F61": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G61": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H61": {
+      "value": "F03/F08 limitam o envelope carregado; F14 apoia o retorno vazio. A posição de F01 não fornece dimensões para comparar volume.",
+      "formula": null,
+      "type": "str"
+    },
+    "J61": {
+      "value": "Dois estágios podem ocupar regiões distintas. Não há dimensões carregadas nem recolhimento definidos para comparar.",
+      "formula": null,
+      "type": "str"
+    },
+    "K61": {
+      "value": "≤ 0,107 m³ por peça acondicionada, com alvo de 0,096 m³\nComparar cubagem carregada. Recolher partes no retorno não comprova a meta do conjunto carregado.",
+      "formula": "'Função Global'!K18&CHAR(10)&\"Comparar cubagem carregada. Recolher partes no retorno não comprova a meta do conjunto carregado.\"",
+      "type": "str"
+    },
+    "B62": {
+      "value": "RP15",
+      "formula": null,
+      "type": "str"
+    },
+    "C62": {
+      "value": "Ter manutenção simples",
+      "formula": "'Função Global'!C19",
+      "type": "str"
+    },
+    "D62": {
+      "value": "F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "E62": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F62": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G62": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H62": {
+      "value": "F15/F17/F22 são comuns, mas o acesso ao amortecedor e a reposição dependem das interfaces ainda não definidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "J62": {
+      "value": "Os dois níveis precisam ter acesso e reposição analisados. Contar estágios não demonstra maior tempo de manutenção.",
+      "formula": null,
+      "type": "str"
+    },
+    "K62": {
+      "value": "≤ 5 min por ciclo de limpeza, inspeção e reposição\nDefinir acesso, limpeza, inspeção e troca; comparar o ciclo completo de recondicionamento.",
+      "formula": "'Função Global'!K19&CHAR(10)&\"Definir acesso, limpeza, inspeção e troca; comparar o ciclo completo de recondicionamento.\"",
+      "type": "str"
+    },
+    "B63": {
+      "value": "RP16",
+      "formula": null,
+      "type": "str"
+    },
+    "C63": {
+      "value": "Ter indicação visual de uso",
+      "formula": "'Função Global'!C20",
+      "type": "str"
+    },
+    "D63": {
+      "value": "F16",
+      "formula": null,
+      "type": "str"
+    },
+    "E63": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F63": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G63": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H63": {
+      "value": "F16 comunica uso no mesmo grupo de MF-A. Nenhuma organização alternativa de sinais foi proposta.",
+      "formula": null,
+      "type": "str"
+    },
+    "J63": {
+      "value": "Mesma organização de F16. A distribuição do amortecimento não define outra comunicação visual.",
+      "formula": null,
+      "type": "str"
+    },
+    "K63": {
+      "value": "≥ 5 m de distância de leitura do modelo, do lado correto e da advertência\nEquivalência da função de comunicação. Definir símbolos, localização e legibilidade à distância.",
+      "formula": "'Função Global'!K20&CHAR(10)&\"Equivalência da função de comunicação. Definir símbolos, localização e legibilidade à distância.\"",
+      "type": "str"
+    },
+    "B64": {
+      "value": "RP17",
+      "formula": null,
+      "type": "str"
+    },
+    "C64": {
+      "value": "Ser de fácil desmontagem",
+      "formula": "'Função Global'!C21",
+      "type": "str"
+    },
+    "D64": {
+      "value": "F17",
+      "formula": null,
+      "type": "str"
+    },
+    "E64": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F64": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G64": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H64": {
+      "value": "F17 permite liberar partes no grupo de retorno e manutenção, como em MF-A. Não há sequência alternativa de liberação descrita.",
+      "formula": null,
+      "type": "str"
+    },
+    "J64": {
+      "value": "F17 mantém a mesma finalidade de liberar partes. A quantidade de fechos não decorre do número de estágios.",
+      "formula": null,
+      "type": "str"
+    },
+    "K64": {
+      "value": "≤ 120 s de desmontagem completa, sem ferramenta dedicada\nEquivalência da organização de liberação. Definir fechos e verificar desmontagem sem ferramenta dedicada.",
+      "formula": "'Função Global'!K21&CHAR(10)&\"Equivalência da organização de liberação. Definir fechos e verificar desmontagem sem ferramenta dedicada.\"",
+      "type": "str"
+    },
+    "B65": {
+      "value": "RP18",
+      "formula": null,
+      "type": "str"
+    },
+    "C65": {
+      "value": "Ser reutilizável",
+      "formula": "'Função Global'!C22",
+      "type": "str"
+    },
+    "D65": {
+      "value": "F01, F02, F11, F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "E65": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F65": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G65": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H65": {
+      "value": "F01/F02/F11 e o suporte de manutenção devem preservar desempenho em ciclos. A posição do amortecedor não demonstra maior vida.",
+      "formula": null,
+      "type": "str"
+    },
+    "J65": {
+      "value": "Dois estágios não implicam desgaste maior nem menor por si. Materiais, esforços e reposição precisam ser comparados.",
+      "formula": null,
+      "type": "str"
+    },
+    "K65": {
+      "value": "≥ 20 ciclos de reuso até a falha funcional\nAnalisar desgaste e falhas críticas; executar ciclos com retorno, recondicionamento e leitura da identidade.",
+      "formula": "'Função Global'!K22&CHAR(10)&\"Analisar desgaste e falhas críticas; executar ciclos com retorno, recondicionamento e leitura da identidade.\"",
+      "type": "str"
+    },
+    "B66": {
+      "value": "RP19",
+      "formula": null,
+      "type": "str"
+    },
+    "C66": {
+      "value": "Ter materiais recicláveis",
+      "formula": "'Função Global'!C23",
+      "type": "str"
+    },
+    "D66": {
+      "value": "F17, F19",
+      "formula": null,
+      "type": "str"
+    },
+    "E66": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F66": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G66": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H66": {
+      "value": "F17/F19 permitem liberar e separar materiais. Sem composição e cadeia regional definidas, não se compara a fração reciclável.",
+      "formula": null,
+      "type": "str"
+    },
+    "J66": {
+      "value": "Mesmo suporte F17/F19. Dois estágios não determinam quantidade de materiais nem reciclabilidade.",
+      "formula": null,
+      "type": "str"
+    },
+    "K66": {
+      "value": "≥ 95% da massa em materiais com cadeia de reciclagem estabelecida\nDefinir composição e separabilidade; confrontar com a cadeia regional.",
+      "formula": "'Função Global'!K23&CHAR(10)&\"Definir composição e separabilidade; confrontar com a cadeia regional.\"",
+      "type": "str"
+    },
+    "B67": {
+      "value": "RP20",
+      "formula": null,
+      "type": "str"
+    },
+    "C67": {
+      "value": "Ter peças modulares",
+      "formula": "'Função Global'!C24",
+      "type": "str"
+    },
+    "D67": {
+      "value": "F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "E67": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F67": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G67": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H67": {
+      "value": "F15/F17/F22 dão suporte à troca, mas ainda não há interfaces que comprovem módulos substituíveis de forma independente.",
+      "formula": null,
+      "type": "str"
+    },
+    "J67": {
+      "value": "Dois estágios de F01 não equivalem a dois módulos. Os agrupamentos e as interfaces precisam ser definidos.",
+      "formula": null,
+      "type": "str"
+    },
+    "K67": {
+      "value": "≥ 3 módulos substituíveis de forma independente\nReavaliar MIM e interfaces; demonstrar troca independente. Não contar funções como módulos.",
+      "formula": "'Função Global'!K24&CHAR(10)&\"Reavaliar MIM e interfaces; demonstrar troca independente. Não contar funções como módulos.\"",
+      "type": "str"
+    },
+    "B68": {
+      "value": "RP21",
+      "formula": null,
+      "type": "str"
+    },
+    "C68": {
+      "value": "Ter identificação visível",
+      "formula": "'Função Global'!C25",
+      "type": "str"
+    },
+    "D68": {
+      "value": "F21",
+      "formula": null,
+      "type": "str"
+    },
+    "E68": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F68": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G68": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H68": {
+      "value": "F21 exibe a identidade da unidade no mesmo grupo informacional da referência. Não foi proposta outra lógica de identificação.",
+      "formula": null,
+      "type": "str"
+    },
+    "J68": {
+      "value": "Mantém F21 e a identidade da unidade. Os dois estágios não substituem a identificação permanente.",
+      "formula": null,
+      "type": "str"
+    },
+    "K68": {
+      "value": "1 identificador único por unidade, legível após o ensaio cíclico e o condicionamento úmido\nEquivalência da organização de identidade. Confirmar unicidade, localização e legibilidade após uso e umidade.",
+      "formula": "'Função Global'!K25&CHAR(10)&\"Equivalência da organização de identidade. Confirmar unicidade, localização e legibilidade após uso e umidade.\"",
+      "type": "str"
+    },
+    "B69": {
+      "value": "RP22",
+      "formula": null,
+      "type": "str"
+    },
+    "C69": {
+      "value": "Ter montagem em poucas etapas",
+      "formula": "'Função Global'!C26",
+      "type": "str"
+    },
+    "D69": {
+      "value": "F22",
+      "formula": null,
+      "type": "str"
+    },
+    "E69": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F69": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G69": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H69": {
+      "value": "F22 reúne as partes no grupo de suporte, como em MF-A. A modelagem não estabelece outra sequência de fechamento.",
+      "formula": null,
+      "type": "str"
+    },
+    "J69": {
+      "value": "F22 é comum ao trio. Dois estágios não determinam o número de ações ou de fechos.",
+      "formula": null,
+      "type": "str"
+    },
+    "K69": {
+      "value": "≤ 6 etapas de montagem e fechamento\nEquivalência da organização de união. Definir fechos e verificar ações, retenção e estabilidade.",
+      "formula": "'Função Global'!K26&CHAR(10)&\"Equivalência da organização de união. Definir fechos e verificar ações, retenção e estabilidade.\"",
+      "type": "str"
+    },
+    "B70": {
+      "value": "RP23",
+      "formula": null,
+      "type": "str"
+    },
+    "C70": {
+      "value": "Ter baixo custo por ciclo de uso",
+      "formula": "'Função Global'!C27",
+      "type": "str"
+    },
+    "D70": {
+      "value": "Restrição transversal",
+      "formula": null,
+      "type": "str"
+    },
+    "E70": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F70": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "G70": {
+      "value": "AV",
+      "formula": null,
+      "type": "str"
+    },
+    "H70": {
+      "value": "A separação funcional não demonstra economia. Faltam aquisição, vida, manutenção, retorno, preparo e avaria residual comparáveis.",
+      "formula": null,
+      "type": "str"
+    },
+    "J70": {
+      "value": "Dois estágios não demonstram custo maior. Faltam soluções, quantidades, vida e custos na mesma fronteira.",
+      "formula": null,
+      "type": "str"
+    },
+    "K70": {
+      "value": "≤ R$ 15 por ciclo de uso, com teto econômico no custo médio da avaria evitada\nUsar custo por ciclo e custo operacional completo, incluindo embalagem retirada e avarias.",
+      "formula": "'Função Global'!K27&CHAR(10)&\"Usar custo por ciclo e custo operacional completo, incluindo embalagem retirada e avarias.\"",
+      "type": "str"
+    },
+    "B72": {
+      "value": "Síntese da comparação funcional",
+      "formula": null,
+      "type": "str"
+    },
+    "C73": {
+      "value": "Vantagens (+1)",
+      "formula": null,
+      "type": "str"
+    },
+    "E73": {
+      "value": 0,
+      "formula": "COUNTIF(E48:E70,1)",
+      "type": "n"
+    },
+    "F73": {
+      "value": 0,
+      "formula": "COUNTIF(F48:F70,1)",
+      "type": "n"
+    },
+    "G73": {
+      "value": 0,
+      "formula": "COUNTIF(G48:G70,1)",
+      "type": "n"
+    },
+    "C74": {
+      "value": "Desvantagens (−1)",
+      "formula": null,
+      "type": "str"
+    },
+    "E74": {
+      "value": 0,
+      "formula": "COUNTIF(E48:E70,-1)",
+      "type": "n"
+    },
+    "F74": {
+      "value": 0,
+      "formula": "COUNTIF(F48:F70,-1)",
+      "type": "n"
+    },
+    "G74": {
+      "value": 0,
+      "formula": "COUNTIF(G48:G70,-1)",
+      "type": "n"
+    },
+    "C75": {
+      "value": "Equivalências descritas (0)",
+      "formula": null,
+      "type": "str"
+    },
+    "E75": {
+      "value": 23,
+      "formula": "COUNTIF(E48:E70,0)",
+      "type": "n"
+    },
+    "F75": {
+      "value": 8,
+      "formula": "COUNTIF(F48:F70,0)",
+      "type": "n"
+    },
+    "G75": {
+      "value": 8,
+      "formula": "COUNTIF(G48:G70,0)",
+      "type": "n"
+    },
+    "C76": {
+      "value": "Avaliações pendentes (AV)",
+      "formula": null,
+      "type": "str"
+    },
+    "E76": {
+      "value": 0,
+      "formula": "COUNTIF(E48:E70,\"AV\")",
+      "type": "n"
+    },
+    "F76": {
+      "value": 15,
+      "formula": "COUNTIF(F48:F70,\"AV\")",
+      "type": "n"
+    },
+    "G76": {
+      "value": 15,
+      "formula": "COUNTIF(G48:G70,\"AV\")",
+      "type": "n"
+    },
+    "C77": {
+      "value": "Notas inválidas ou em branco",
+      "formula": null,
+      "type": "str"
+    },
+    "E77": {
+      "value": 0,
+      "formula": "MAX(ROWS(E48:E70)-COUNT(E48:E70)-E76,ROWS(E48:E70)-SUM(E73:E76))",
+      "type": "n"
+    },
+    "F77": {
+      "value": 0,
+      "formula": "MAX(ROWS(F48:F70)-COUNT(F48:F70)-F76,ROWS(F48:F70)-SUM(F73:F76))",
+      "type": "n"
+    },
+    "G77": {
+      "value": 0,
+      "formula": "MAX(ROWS(G48:G70)-COUNT(G48:G70)-G76,ROWS(G48:G70)-SUM(G73:G76))",
+      "type": "n"
+    },
+    "C78": {
+      "value": "Saldo parcial dos itens avaliados",
+      "formula": null,
+      "type": "str"
+    },
+    "E78": {
+      "value": 0,
+      "formula": "IF(E77>0,\"Rever notas\",SUM(E48:E70))",
+      "type": "n"
+    },
+    "F78": {
+      "value": 0,
+      "formula": "IF(F77>0,\"Rever notas\",SUM(F48:F70))",
+      "type": "n"
+    },
+    "G78": {
+      "value": 0,
+      "formula": "IF(G77>0,\"Rever notas\",SUM(G48:G70))",
+      "type": "n"
+    },
+    "C79": {
+      "value": "Saldo completo",
+      "formula": null,
+      "type": "str"
+    },
+    "E79": {
+      "value": 0,
+      "formula": "IF(OR(E77>0,E75<>ROWS(E48:E70)),\"Rever notas\",IF(E76>0,\"Pendente\",SUM(E48:E70)))",
+      "type": "n"
+    },
+    "F79": {
+      "value": "Pendente",
+      "formula": "IF(F77>0,\"Rever notas\",IF(F76>0,\"Pendente\",SUM(F48:F70)))",
+      "type": "str"
+    },
+    "G79": {
+      "value": "Pendente",
+      "formula": "IF(G77>0,\"Rever notas\",IF(G76>0,\"Pendente\",SUM(G48:G70)))",
+      "type": "str"
+    },
+    "C80": {
+      "value": "Situação da avaliação",
+      "formula": null,
+      "type": "str"
+    },
+    "E80": {
+      "value": "Referência",
+      "formula": "IF(E75=ROWS(E48:E70),\"Referência\",\"Rever datum\")",
+      "type": "str"
+    },
+    "F80": {
+      "value": "Avaliação pendente",
+      "formula": "IF(F77>0,\"Rever notas\",IF(F76>0,\"Avaliação pendente\",\"Comparação completa\"))",
+      "type": "str"
+    },
+    "G80": {
+      "value": "Avaliação pendente",
+      "formula": "IF(G77>0,\"Rever notas\",IF(G76>0,\"Avaliação pendente\",\"Comparação completa\"))",
+      "type": "str"
+    },
+    "B82": {
+      "value": "Seleção em aberto: existem avaliações AV. Os saldos parciais não sustentam classificação nem empate final.",
+      "formula": "IF(E30=\"Seleção em aberto\",\"Seleção em aberto: existem avaliações AV. Os saldos parciais não sustentam classificação nem empate final.\",IF(E30=\"Rever notas\",\"Revisar entradas inválidas, vazias ou o datum antes de interpretar a comparação.\",E30&\": conclusão qualitativa a discutir com as justificativas e restrições do projeto.\"))",
+      "type": "str"
+    },
+    "B84": {
+      "value": "Interpretação das estruturas e condições de avanço",
+      "formula": null,
+      "type": "str"
+    },
+    "B85": {
+      "value": "MF-A é referência por representar o amortecimento junto à peça já estudado. Os 23 zeros do datum não significam metas atendidas. As equivalências das outras colunas valem apenas para a organização descrita.",
+      "formula": null,
+      "type": "str"
+    },
+    "B86": {
+      "value": "MF-B mantém a hipótese de separar o amortecimento do contato ajustável. O antigo +1 não foi transferido para ajuste, proteção ou uniformidade: falta comparar o potencial no mix e no caminho de carga.",
+      "formula": null,
+      "type": "str"
+    },
+    "B87": {
+      "value": "MF-C mantém a hipótese de repartir a atenuação em dois níveis. Retirou-se o −1 automático: a interação pode exigir compatibilização e também produzir benefício. Comparar os princípios antes de julgar.",
+      "formula": null,
+      "type": "str"
+    },
+    "B89": {
+      "value": "Cobertura: RP1–RP23 estão nas linhas 48–70. Os vínculos incluem as 17 funções do catálogo. Custo, volume, vida, umidade e modularidade continuam atributos ou restrições, sem criar funções artificiais.",
+      "formula": null,
+      "type": "str"
+    },
+    "B90": {
+      "value": "Próximo passo: explicitar princípios e interfaces das estruturas ainda viáveis, com estimativas ou análises identificadas. Retomar a primeira seleção quando houver base comparativa. Confirmar fisicamente os limites conforme o plano de validação.",
+      "formula": null,
+      "type": "str"
+    },
+    "B92": {
+      "value": "Base: Aula 4, Seleção da Modelagem Funcional, slide 18; Aula 19, slides 6–7. Back et al. (2008), seção 7.3.4, p. 322–323, e seção 9.2, p. 369–372. MIT, O. de Weck (2015), sessão 5, p. 9: critérios ligados aos requisitos e comparação no mesmo nível de abstração.",
+      "formula": null,
+      "type": "str"
+    },
+    "B94": {
+      "value": "A proteção direta após preparo no distribuidor permanece. M1/M2/M3 são fronteiras históricas; MF-A/MF-B/MF-C são estruturas funcionais; C1/C2/C3 são combinações físicas posteriores. Nenhuma concepção foi selecionada nesta revisão.",
+      "formula": null,
+      "type": "str"
+    },
+    "B96": {
+      "value": "A segunda Pugh conserva os pesos e critérios anteriores, condicionada à revisão de C1/C2/C3 e do datum. MIM e arquitetura mantêm julgamentos históricos. As análises que faltam na primeira seleção não são descartadas nem automaticamente adiadas como se a escolha estivesse fechada.",
+      "formula": null,
+      "type": "str"
+    },
+    "B99": {
+      "value": "As notas registram a análise das descrições atuais. Uma estimativa de engenharia pode fundamentar +1/−1 se identificar hipótese, comparação equivalente e limite. Falta de ensaio, sozinha, não impede comparação conceitual; ausência de fundamento exige AV.",
+      "formula": null,
+      "type": "str"
+    },
+    "B101": {
+      "value": "OP-01 continua fora da base. Comparar proteção, inspeção e contenção em conjunto, além de ajuste/recondicionamento e movimentação/recondicionamento, preservando os conflitos identificados no QFD.",
+      "formula": null,
+      "type": "str"
+    }
+  }
+}

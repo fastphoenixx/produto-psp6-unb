@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-21",
+  "sourceSha256": "a73c4cef4bf5a29c0d9ece0bf840013760c4900a258b645747f82652e47d1069",
+  "candidateSha256": "14baa758e74625c2fbd6fe7c86448f0ebd59bca90bab7f200cef0c37ce667414",
+  "sheetCount": 33,
+  "changedParts": [
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet3.xml",
+    "xl/worksheets/sheet16.xml",
+    "xl/worksheets/sheet17.xml",
+    "xl/worksheets/sheet21.xml",
+    "xl/worksheets/sheet22.xml",
+    "xl/worksheets/sheet23.xml",
+    "xl/worksheets/sheet27.xml",
+    "xl/styles.xml"
+  ],
+  "styleComponentsAdded": {
+    "fonts": 6,
+    "fills": 2,
+    "borders": 0,
+    "cellStyleXfs": 0,
+    "cellXfs": 30
+  },
+  "sheetEdits": [
+    {
+      "sheet": "Dados ",
+      "authorizedCells": 1040,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Especificação Meta",
+      "authorizedCells": 24,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Função Global",
+      "authorizedCells": 3,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Matriz Pugh das Modelagens",
+      "authorizedCells": 18,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Modelagens Alternativas",
+      "authorizedCells": 3,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Matriz Morfologica ",
+      "authorizedCells": 1,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Arquitetura Modular",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Revisão",
+      "authorizedCells": 12,
+      "unrelatedCellsPreserved": true
+    }
+  ],
+  "unrelatedWorksheetXmlByteIdentical": true,
+  "requirementsAndQfdWeightsPreserved": true,
+  "targetsRevised": [
+    "RP7",
+    "RP8",
+    "RP14"
+  ],
+  "seventeenFunctionCatalogAnd23LinksPreserved": true,
+  "mimNumericJudgmentsAndFormulasPreserved": true,
+  "pughTotals": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "pughDirection": "Seleção em aberto",
+  "pughValidationsScopedToCurrentScores": true,
+  "images": [],
+  "imageCountPreserved": 6,
+  "nativeCellsAndImagesCoexist": true,
+  "packageRelationshipsValid": true,
+  "finalSha256": "14baa758e74625c2fbd6fe7c86448f0ebd59bca90bab7f200cef0c37ce667414",
+  "catalogReferences": 7,
+  "missingMassPreserved": true,
+  "baseCalculations": {
+    "E54": 48,
+    "E90": 0.08976,
+    "E91": 0.156672,
+    "E92": 0.816,
+    "E93": 6,
+    "E94": 1110,
+    "E95": 323,
+    "E96": 0.94176,
+    "E97": 0.47088,
+    "E98": 646,
+    "E99": 206,
+    "E100": 380,
+    "E101": 517,
+    "E102": 300,
+    "E103": 140,
+    "E104": 0.16416
+  },
+  "palletGeometryIndependentCheck": true,
+  "criteria": 23,
+  "catalogFunctionsRepresented": 17,
+  "pendingPerAlternative": 9,
+  "partialScore": [
+    0,
+    2,
+    -1
+  ],
+  "scoresUnchanged": true,
+  "selectionStatus": "Seleção em aberto",
+  "formulaTests": [
+    {
+      "label": "volume cuba",
+      "actual": 0.08976,
+      "expected": 0.08976
+    },
+    {
+      "label": "volume bacia",
+      "actual": 0.156672,
+      "expected": 0.156672
+    },
+    {
+      "label": "occupation",
+      "actual": 0.816,
+      "expected": 0.816
+    },
+    {
+      "label": "one level height",
+      "actual": 630,
+      "expected": 630
+    },
+    {
+      "label": "one level mass",
+      "actual": 179,
+      "expected": 179
+    },
+    {
+      "label": "one level base reaction",
+      "actual": 0.47088,
+      "expected": 0.47088
+    },
+    {
+      "label": "three levels height",
+      "actual": 1590,
+      "expected": 1590
+    },
+    {
+      "label": "three levels base reaction",
+      "actual": 1.4126400000000001,
+      "expected": 1.41264
+    },
+    {
+      "label": "mass drives base reaction",
+      "actual": 1.0398600000000002,
+      "expected": 1.03986
+    },
+    {
+      "label": "footprint driver",
+      "actual": 0.84,
+      "expected": 0.84
+    },
+    {
+      "label": "700 mm layout fits",
+      "actual": "Cabe",
+      "expected": "Cabe"
+    },
+    {
+      "label": "oversize layout detected",
+      "actual": "Rever",
+      "expected": "Rever"
+    },
+    {
+      "label": "blank mass blocks volume",
+      "actual": "Pendente",
+      "expected": "Pendente"
+    },
+    {
+      "label": "blank mass blocks load",
+      "actual": "Pendente",
+      "expected": "Pendente"
+    },
+    {
+      "label": "zero mass detected",
+      "actual": "Rever",
+      "expected": "Rever"
+    },
+    {
+      "label": "text mass detected",
+      "actual": "Rever",
+      "expected": "Rever"
+    },
+    {
+      "label": "fractional levels detected",
+      "actual": "Rever",
+      "expected": "Rever"
+    },
+    {
+      "label": "original mass restored",
+      "actual": 323,
+      "expected": 323
+    },
+    {
+      "label": "original geometry restored",
+      "actual": "Cabe",
+      "expected": "Cabe"
+    }
+  ],
+  "formulaTestEnvironment": "Artifact Tool, isolated same-formula sheet without trailing space",
+  "nativeRecalculation": {
+    "engine": "LibreOffice Calc headless, dedicated temporary profile with OOXMLRecalcMode=0 (always hard recalculate on load)",
+    "sheetCount": 33,
+    "baseCalculations": {
+      "E54": 48,
+      "E90": 0.08976,
+      "E91": 0.156672,
+      "E92": 0.816,
+      "E93": 6,
+      "E94": 1110,
+      "E95": 323,
+      "E96": 0.94176,
+      "E97": 0.47088,
+      "E98": 646,
+      "E99": 206,
+      "E100": 380,
+      "E101": 517,
+      "E102": 300,
+      "E103": 140,
+      "E104": 0.16416
+    },
+    "targetAndPughLinksRecalculated": true,
+    "formulaErrors": [],
+    "deliveryReplacedByNativeExport": false,
+    "fullWorkbookInputVariationCases": [
+      {
+        "case": "nivel-unico",
+        "actual": {
+          "E63": 1.0,
+          "E94": 630.0,
+          "E95": 179.0,
+          "E96": 0.47088,
+          "E130": "Preenchidas"
+        },
+        "formulaErrors": [],
+        "decisionStillOpen": true
+      },
+      {
+        "case": "massa-ausente",
+        "actual": {
+          "E54": "Pendente",
+          "E90": "Pendente",
+          "E95": "Pendente",
+          "E96": "Pendente",
+          "E105": "Pendente",
+          "E130": "Rever"
+        },
+        "formulaErrors": [],
+        "decisionStillOpen": true
+      },
+      {
+        "case": "base-larga",
+        "actual": {
+          "E60": 710.0,
+          "E92": 0.852,
+          "E105": "Rever",
+          "E130": "Preenchidas"
+        },
+        "formulaErrors": [],
+        "decisionStillOpen": true
+      }
+    ]
+  },
+  "formulaErrorCells": [],
+  "nativeExcelUiTested": false,
+  "physicalTestsPerformed": false,
+  "imagesAndChartUnchanged": true,
+  "reportAndFigmaUpdated": false,
+  "visualReview": "passed"
+}

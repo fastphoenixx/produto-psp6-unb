@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-21",
+  "sourceSha256": "14baa758e74625c2fbd6fe7c86448f0ebd59bca90bab7f200cef0c37ce667414",
+  "candidateSha256": "915e69258ed1d3c6d719b5eb5ad3c26a84c917a6923d28d2ccab2e6c791efc5f",
+  "sheetCount": 33,
+  "changedParts": [
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet16.xml",
+    "xl/worksheets/sheet21.xml",
+    "xl/worksheets/sheet22.xml",
+    "xl/worksheets/sheet23.xml",
+    "xl/worksheets/sheet26.xml",
+    "xl/worksheets/sheet27.xml",
+    "xl/worksheets/sheet28.xml",
+    "xl/worksheets/sheet30.xml",
+    "xl/styles.xml"
+  ],
+  "styleComponentsAdded": {
+    "fonts": 0,
+    "fills": 0,
+    "borders": 0,
+    "cellStyleXfs": 0,
+    "cellXfs": 10
+  },
+  "sheetEdits": [
+    {
+      "sheet": "Matriz Pugh das Modelagens",
+      "authorizedCells": 91,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Modelagens Alternativas",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Matriz Morfologica ",
+      "authorizedCells": 1,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "MIM",
+      "authorizedCells": 14,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Arquitetura Modular",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Concepções",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Matriz Pugh das Concepções",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Especificação Meta",
+      "authorizedCells": 20,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Revisão",
+      "authorizedCells": 12,
+      "unrelatedCellsPreserved": true
+    }
+  ],
+  "unrelatedWorksheetXmlByteIdentical": true,
+  "requirementsQfdWeightsAndTargetsPreserved": true,
+  "seventeenFunctionCatalogAnd23LinksPreserved": true,
+  "mimNumericJudgmentsAndFormulasPreserved": true,
+  "pughTotals": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "pughDirection": "MF-B selecionada para desenvolvimento",
+  "pughValidationsScopedToCurrentScores": true,
+  "images": [],
+  "imageCountPreserved": 6,
+  "nativeCellsAndImagesCoexist": true,
+  "packageRelationshipsValid": true,
+  "finalSha256": "915e69258ed1d3c6d719b5eb5ad3c26a84c917a6923d28d2ccab2e6c791efc5f",
+  "selectedFunctionalModel": "MF-B",
+  "selectionPurpose": "Desenvolvimento da estrutura funcional e composição de princípios na matriz morfológica",
+  "partialScore": [
+    0,
+    2,
+    -1
+  ],
+  "pendingPerAlternative": [
+    0,
+    9,
+    9
+  ],
+  "scoresUnchanged": true,
+  "completeScore": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "tests": [
+    {
+      "label": "selection recorded",
+      "actual": "MF-B selecionada para desenvolvimento",
+      "expected": "MF-B selecionada para desenvolvimento"
+    },
+    {
+      "label": "scores unchanged",
+      "actual": [
+        0,
+        2,
+        -1
+      ],
+      "expected": [
+        0,
+        2,
+        -1
+      ]
+    },
+    {
+      "label": "unknowns retained",
+      "actual": [
+        0,
+        9,
+        9
+      ],
+      "expected": [
+        0,
+        9,
+        9
+      ]
+    },
+    {
+      "label": "complete totals still pending",
+      "actual": [
+        0,
+        "Pendente",
+        "Pendente"
+      ],
+      "expected": [
+        0,
+        "Pendente",
+        "Pendente"
+      ]
+    },
+    {
+      "label": "withdraw adjustment advantage",
+      "actual": "Reavaliar seleção MF-B",
+      "expected": "Reavaliar seleção MF-B"
+    },
+    {
+      "label": "withdraw maintenance basis",
+      "actual": "Reavaliar seleção MF-B",
+      "expected": "Reavaliar seleção MF-B"
+    },
+    {
+      "label": "unknown count responds",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "label": "missing decision detected",
+      "actual": "Seleção não registrada",
+      "expected": "Seleção não registrada"
+    },
+    {
+      "label": "invalid score detected",
+      "actual": "Rever notas",
+      "expected": "Rever notas"
+    },
+    {
+      "label": "blank score detected",
+      "actual": "Rever notas",
+      "expected": "Rever notas"
+    },
+    {
+      "label": "datum change detected",
+      "actual": "Rever notas",
+      "expected": "Rever notas"
+    },
+    {
+      "label": "tie requires review",
+      "actual": "Reavaliar seleção MF-B",
+      "expected": "Reavaliar seleção MF-B"
+    },
+    {
+      "label": "different leading alternative requires review",
+      "actual": "Reavaliar seleção MF-B",
+      "expected": "Reavaliar seleção MF-B"
+    },
+    {
+      "label": "record restored",
+      "actual": "MF-B selecionada para desenvolvimento",
+      "expected": "MF-B selecionada para desenvolvimento"
+    },
+    {
+      "label": "scores restored",
+      "actual": [
+        0,
+        2,
+        -1
+      ],
+      "expected": [
+        0,
+        2,
+        -1
+      ]
+    }
+  ],
+  "formulaErrors": [],
+  "physicalValidationPerformed": false,
+  "secondPughAndMimNumericJudgmentsUnchanged": true,
+  "reportAndFigmaUpdated": false,
+  "visualReview": "passed"
+}

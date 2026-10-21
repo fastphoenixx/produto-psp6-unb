@@ -1,0 +1,274 @@
+{
+  "sourceSha256": "a73c4cef4bf5a29c0d9ece0bf840013760c4900a258b645747f82652e47d1069",
+  "cells": {
+    "Arquitetura Modular": {
+      "F7": {
+        "value": "Hipótese de troca como conjunto de guia/cinta, fora do uso carregado; ajustar ≥150 mm na mesma configuração não troca o módulo.",
+        "formula": null,
+        "type": "str"
+      },
+      "G19": {
+        "value": "RP2/RP7; curso ≥150 mm sem trocar partes no ajuste",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Matriz Pugh das Modelagens": {
+      "K54": {
+        "value": "≥ 150 mm de amplitude na dimensão governante, sem troca de componentes\nH3: verificar independência geométrica, curso e contato no mix. Não transferir o +1 para RP1/RP2/RP12.",
+        "formula": "'Função Global'!K11&CHAR(10)&\"H3: verificar independência geométrica, curso e contato no mix. Não transferir o +1 para RP1/RP2/RP12.\"",
+        "type": "str"
+      },
+      "H55": {
+        "value": "F08/F03 são mantidas. A disposição externa do amortecimento ainda não possui envelope nem interface de amarração definidos.",
+        "formula": null,
+        "type": "str"
+      },
+      "J55": {
+        "value": "A distribuição de dois estágios não informa a base ocupada nem o aproveitamento do palete.",
+        "formula": null,
+        "type": "str"
+      },
+      "K55": {
+        "value": "≥ 90% de aproveitamento da área do palete PBR 1200 × 1000 mm\nDefinir envelope e apoios; comparar arranjo no PBR e amarração.",
+        "formula": "'Função Global'!K12&CHAR(10)&\"Definir envelope e apoios; comparar arranjo no PBR e amarração.\"",
+        "type": "str"
+      },
+      "H58": {
+        "value": "F01 antes de F11 exige explicitar como a compressão atravessa ou contorna o amortecedor. Não há caminho dimensionado para comparar.",
+        "formula": null,
+        "type": "str"
+      },
+      "J58": {
+        "value": "Os dois estágios exigem explicitar o caminho resistente e evitar concentração na cerâmica. Não se presume menor capacidade.",
+        "formula": null,
+        "type": "str"
+      },
+      "K58": {
+        "value": "≥ 7,5 kN de carga de compressão sem perda de proteção\nRepresentar transmissão de esforços e verificar compressão sem perda de proteção.",
+        "formula": "'Função Global'!K15&CHAR(10)&\"Representar transmissão de esforços e verificar compressão sem perda de proteção.\"",
+        "type": "str"
+      },
+      "K59": {
+        "value": "≤ 10% de coeficiente de variação do pico de aceleração\nAnalisar sensibilidade ao mix e às tolerâncias; comparar repetibilidade do pico entre unidades.",
+        "formula": "'Função Global'!K16&CHAR(10)&\"Analisar sensibilidade ao mix e às tolerâncias; comparar repetibilidade do pico entre unidades.\"",
+        "type": "str"
+      },
+      "H61": {
+        "value": "F03/F08 limitam o envelope carregado; F14 apoia o retorno vazio. A posição de F01 não fornece dimensões para comparar volume.",
+        "formula": null,
+        "type": "str"
+      },
+      "J61": {
+        "value": "Dois estágios podem ocupar regiões distintas. Não há dimensões carregadas nem recolhimento definidos para comparar.",
+        "formula": null,
+        "type": "str"
+      },
+      "K61": {
+        "value": "≤ 0,107 m³ por peça acondicionada, com alvo de 0,096 m³\nComparar cubagem carregada. Recolher partes no retorno não comprova a meta do conjunto carregado.",
+        "formula": "'Função Global'!K18&CHAR(10)&\"Comparar cubagem carregada. Recolher partes no retorno não comprova a meta do conjunto carregado.\"",
+        "type": "str"
+      },
+      "B105": {
+        "value": "H1 — Estudar louças sanitárias de porte médio, incluindo cubas e bacias/vasos, conforme orientação da equipe. Comparar cada peça e configuração nas mesmas condições do fluxo distribuidor–obra. A faixa dimensional e de massa ainda precisa ser delimitada por família.",
+        "formula": null,
+        "type": "str"
+      },
+      "B118": {
+        "value": "Recorte do mix e do transporte — orientação da equipe",
+        "formula": null,
+        "type": "str"
+      },
+      "B119": {
+        "value": "Mix de estudo: peças de porte médio, com cubas e bacias/vasos como famílias iniciais. A denominação qualitativa orienta a amostragem; a aceitação de cada modelo depende de geometria, apoios protegidos, massa e ajuste na mesma configuração.",
+        "formula": null,
+        "type": "str"
+      },
+      "B120": {
+        "value": "Representantes por família: levantar dimensões, massa, superfície/posição de apoio e área crítica de inspeção. A referência de bacia usada até agora não deve representar automaticamente uma cuba. Confirmar a faixa do RP7 para o mix selecionado.",
+        "formula": null,
+        "type": "str"
+      },
+      "B121": {
+        "value": "Transporte: compatibilizar o conjunto carregado com a base útil do veículo e com o método de envio. Verificar paletização, amarração, acessos e envelope completo. O palete PBR 1200 × 1000 mm permanece referência provisória, sujeito ao método de envio efetivo.",
+        "formula": null,
+        "type": "str"
+      },
+      "B122": {
+        "value": "Empilhamento: definir arranjo, número de níveis, duração e caminho de carga após selecionar veículo/método e representantes do mix. Caber na base ou no volume disponível não estabelece, por si só, uma quantidade segura de níveis.",
+        "formula": null,
+        "type": "str"
+      },
+      "B123": {
+        "value": "Efeito nesta revisão: escopo qualitativo incorporado. As metas de ajuste, paletização e compressão permanecem provisórias. Notas e hipóteses comparativas são mantidas; continuam nove AV por alternativa até haver definições e análises suficientes.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Modelagens Alternativas": {
+      "B14": {
+        "value": "Mix de estudo: cubas e bacias/vasos de porte médio, com faixa e apoios a delimitar por família. Proteção direta mantida como fronteira comum. M1/M2/M3 são fronteiras históricas; MF-A/MF-B/MF-C são estruturas funcionais; C1/C2/C3 são combinações físicas a revisar.",
+        "formula": null,
+        "type": "str"
+      },
+      "C43": {
+        "value": "RP7: ≥150 mm sem troca",
+        "formula": null,
+        "type": "str"
+      },
+      "C45": {
+        "value": "RP14: ≤0,107 m³/peça",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Revisão": {},
+    "Especificação Meta": {
+      "E12": {
+        "value": "≥ 150 mm de amplitude na dimensão governante, sem troca de componentes",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "F12": {
+        "value": "Levantamento do mix por volume e verificação da maior e da menor peça aceitas",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "G12": {
+        "value": "Um dispositivo retornável só se paga se atender à maior parte do mix. A amplitude necessária depende da pendência P-03.",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "K12": {
+        "value": "Bacias de mercado entre cerca de 600 e 750 mm de comprimento; amplitude a confirmar com o mix do distribuidor",
+        "formula": null,
+        "type": "str"
+      },
+      "E13": {
+        "value": "≥ 90% de aproveitamento da área do palete PBR 1200 × 1000 mm",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "F13": {
+        "value": "Área da base multiplicada pelos conjuntos por camada, dividida pela área do palete",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "G13": {
+        "value": "Perder aproveitamento de palete anula o ganho de proteção no custo do frete. O PBR é o padrão da ABNT NBR 8252.",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "K13": {
+        "value": "Base de 650 × 400 mm no palete PBR 1200 × 1000 mm (ABNT NBR 8252): cabem 3 por camada. Base de 600 × 500 mm permite 4 por camada e ocupa a área inteira",
+        "formula": null,
+        "type": "str"
+      },
+      "F16": {
+        "value": "Compressão vertical em prensa até a deformação que comprometa a proteção",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "G16": {
+        "value": "Meta provisória de 7,5 kN: 150% da referência estimada de 5 kN. Essa razão não demonstra a carga de serviço; confirmar empilhamento, duração, margem e proteção no ensaio.",
+        "formula": null,
+        "type": "str"
+      },
+      "F17": {
+        "value": "Repetição do ensaio de queda em amostra de unidades diferentes",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "E19": {
+        "value": "≤ 0,107 m³ por peça acondicionada, com alvo de 0,096 m³",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "F19": {
+        "value": "Volume do envoltório externo dividido pelo número de peças",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "G19": {
+        "value": "Aumentar o volume por peça reduz peças por viagem e transfere o custo da proteção para o frete.",
+        "formula": null,
+        "type": "inlineStr"
+      },
+      "K19": {
+        "value": "Volume do envoltório de 650 × 400 × 410 mm calculado sobre as dimensões de catálogo da peça",
+        "formula": null,
+        "type": "str"
+      },
+      "D37": {
+        "value": "Catálogos confirmados por balança e trena; volume vendido por modelo",
+        "formula": null,
+        "type": "str"
+      },
+      "J37": {
+        "value": "Não iniciado",
+        "formula": null,
+        "type": "str"
+      },
+      "K37": {
+        "value": "Declarar faixa e modelos cobertos; justificar amplitude e condições carregadas desfavoráveis.",
+        "formula": null,
+        "type": "str"
+      },
+      "D40": {
+        "value": "Repetir queda em unidades distintas; registrar cada pico e dispersão",
+        "formula": null,
+        "type": "str"
+      },
+      "K44": {
+        "value": "Confrontar ≥90% do PBR e ≤0,107 m³/peça; incluir rodas, pegas, apoios e caixa mantida.",
+        "formula": null,
+        "type": "str"
+      },
+      "D47": {
+        "value": "Medir massa/níveis/duração; justificar margem e testar carga vertical",
+        "formula": null,
+        "type": "str"
+      },
+      "J47": {
+        "value": "Não iniciado",
+        "formula": null,
+        "type": "str"
+      },
+      "K47": {
+        "value": "Confirmar ou revisar 7,5 kN com demanda real e proteção preservada; não validar apenas 150% de 5 kN estimados.",
+        "formula": null,
+        "type": "str"
+      },
+      "K53": {
+        "value": "Confrontar 150 mm e ≥3 módulos; ajuste e reposição por desgaste são verificações distintas.",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Função Global": {
+      "K11": {
+        "value": "≥ 150 mm de amplitude na dimensão governante, sem troca de componentes",
+        "formula": "'Especificação Meta'!E12",
+        "type": "str"
+      },
+      "K12": {
+        "value": "≥ 90% de aproveitamento da área do palete PBR 1200 × 1000 mm",
+        "formula": "'Especificação Meta'!E13",
+        "type": "str"
+      },
+      "K18": {
+        "value": "≤ 0,107 m³ por peça acondicionada, com alvo de 0,096 m³",
+        "formula": "'Especificação Meta'!E19",
+        "type": "str"
+      }
+    },
+    "Matriz Morfologica ": {
+      "K6": {
+        "value": "RP7: ≥150 mm sem troca; reposição por desgaste é outra operação",
+        "formula": null,
+        "type": "str"
+      }
+    },
+    "Dados ": {}
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-21",
+  "sourceSha256": "2499059271505816447896b362577ba25df4d8d95d7655eb63b355a6a347004d",
+  "candidateSha256": "5ca6938c3acacd27d4220abd20840c089a5ad5dcef6975767d86eaf47b0d8d0b",
+  "sheetCount": 33,
+  "changedParts": [
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet21.xml",
+    "xl/worksheets/sheet22.xml",
+    "xl/worksheets/sheet23.xml",
+    "xl/styles.xml"
+  ],
+  "styleComponentsAdded": {
+    "fonts": 0,
+    "fills": 0,
+    "borders": 0,
+    "cellStyleXfs": 0,
+    "cellXfs": 1
+  },
+  "sheetEdits": [
+    {
+      "sheet": "Matriz Pugh das Modelagens",
+      "authorizedCells": 191,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Modelagens Alternativas",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Matriz Morfologica ",
+      "authorizedCells": 1,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Revisão",
+      "authorizedCells": 12,
+      "unrelatedCellsPreserved": true
+    }
+  ],
+  "unrelatedWorksheetXmlByteIdentical": true,
+  "requirementsQfdWeightsAndTargetsPreserved": true,
+  "seventeenFunctionCatalogAnd23LinksPreserved": true,
+  "mimNumericJudgmentsAndFormulasPreserved": true,
+  "pughTotals": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "pughDirection": "Seleção em aberto",
+  "pughValidationsScopedToCurrentScores": true,
+  "images": [],
+  "imageCountPreserved": 6,
+  "nativeCellsAndImagesCoexist": true,
+  "packageRelationshipsValid": true,
+  "finalSha256": "5ca6938c3acacd27d4220abd20840c089a5ad5dcef6975767d86eaf47b0d8d0b",
+  "criteria": 23,
+  "catalogFunctionsRepresented": 17,
+  "equivalencesPerAlternative": [
+    12,
+    13
+  ],
+  "pendingPerAlternative": 9,
+  "completeScore": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "partialScore": [
+    0,
+    2,
+    -1
+  ],
+  "assumptions": "H1-H5",
+  "newlyAssessedRPs": [
+    3,
+    7,
+    13,
+    15,
+    19,
+    20
+  ],
+  "remainingRPs": [
+    1,
+    2,
+    8,
+    9,
+    11,
+    12,
+    14,
+    18,
+    23
+  ],
+  "selectionStatus": "Seleção em aberto",
+  "formulaTests": [
+    {
+      "name": "vantagens e desvantagens",
+      "actual": [
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "equivalências e pendências",
+      "actual": [
+        [
+          23,
+          12,
+          13
+        ],
+        [
+          0,
+          9,
+          9
+        ]
+      ],
+      "expected": [
+        [
+          23,
+          12,
+          13
+        ],
+        [
+          0,
+          9,
+          9
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "saldo parcial correto",
+      "actual": [
+        0,
+        2,
+        -1
+      ],
+      "expected": [
+        0,
+        2,
+        -1
+      ],
+      "pass": true
+    },
+    {
+      "name": "AV mantém saldo completo pendente",
+      "actual": [
+        0,
+        "Pendente",
+        "Pendente"
+      ],
+      "expected": [
+        0,
+        "Pendente",
+        "Pendente"
+      ],
+      "pass": true
+    },
+    {
+      "name": "nenhuma seleção automática por saldo parcial",
+      "actual": "Seleção em aberto",
+      "expected": "Seleção em aberto",
+      "pass": true
+    },
+    {
+      "name": "sensibilidade H3",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "sensibilidade H4",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "sensibilidade H5",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "retirada da hipótese aumenta pendência",
+      "actual": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "name": "nota inválida bloqueia saldo",
+      "actual": "Rever notas",
+      "expected": "Rever notas",
+      "pass": true
+    },
+    {
+      "name": "nota inválida bloqueia resultado",
+      "actual": "Rever notas",
+      "expected": "Rever notas",
+      "pass": true
+    },
+    {
+      "name": "nota vazia não é zero",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "restauração após testes",
+      "actual": [
+        0,
+        2,
+        -1
+      ],
+      "expected": [
+        0,
+        2,
+        -1
+      ],
+      "pass": true
+    },
+    {
+      "name": "resultado restaurado",
+      "actual": "Seleção em aberto",
+      "expected": "Seleção em aberto",
+      "pass": true
+    }
+  ],
+  "formulaErrorCells": [],
+  "nativeExcelUiTested": false,
+  "physicalTestsPerformed": false,
+  "imagesAndChartUnchanged": true,
+  "functionGlobalFastPartialModelsUnchanged": true,
+  "reportAndFigmaPughUpdated": false,
+  "visualReview": "passed"
+}

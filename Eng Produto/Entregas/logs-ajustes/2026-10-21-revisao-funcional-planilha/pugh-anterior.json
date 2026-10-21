@@ -1,0 +1,858 @@
+{
+  "date": "2026-10-15",
+  "sourceSha256": "7ef9079b2e4e638286996dc02c1e09aa4e6f315b5f9d2b48ed91983ac41f9aac",
+  "sheet": "Matriz Pugh das Modelagens",
+  "range": "B44:K69",
+  "cells": {
+    "B44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "C44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "D44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "E44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "F44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "G44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "H44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "I44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "J44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "K44": {
+      "value": "Primeira seleção — comparação qualitativa das estruturas funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "B45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "C45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "D45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "E45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "F45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "G45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "H45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "I45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "J45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "K45": {
+      "value": "Datum M2. Escala: +1 = vantagem funcional identificável; 0 = mesma cobertura/aspecto descrito; −1 = desvantagem identificável; AV = comparação sem base. Sem pesos adicionais. As notas não representam atendimento às metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "B46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "C46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "D46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "E46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "F46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "G46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "H46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "I46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "J46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "K46": {
+      "value": "Decisão de planejamento da equipe: priorizar M1, com proteção direta da peça após desencaixotamento no distribuidor. A preferência não altera as notas nem transforma empate em vitória numérica.",
+      "formula": null,
+      "type": "str"
+    },
+    "B47": {
+      "value": "ID",
+      "formula": null,
+      "type": "str"
+    },
+    "C47": {
+      "value": "Critério funcional",
+      "formula": null,
+      "type": "str"
+    },
+    "D47": {
+      "value": "Origem",
+      "formula": null,
+      "type": "str"
+    },
+    "E47": {
+      "value": "M1",
+      "formula": null,
+      "type": "str"
+    },
+    "F47": {
+      "value": "M2 datum",
+      "formula": null,
+      "type": "str"
+    },
+    "G47": {
+      "value": "M3",
+      "formula": null,
+      "type": "str"
+    },
+    "H47": {
+      "value": "Justificativa M1 × M2",
+      "formula": null,
+      "type": "str"
+    },
+    "I47": {
+      "value": "Justificativa M1 × M2",
+      "formula": null,
+      "type": "str"
+    },
+    "J47": {
+      "value": "Justificativa M3 × M2",
+      "formula": null,
+      "type": "str"
+    },
+    "K47": {
+      "value": "Base e confirmação posterior",
+      "formula": null,
+      "type": "str"
+    },
+    "B48": {
+      "value": "CF01",
+      "formula": null,
+      "type": "str"
+    },
+    "C48": {
+      "value": "Cobertura da proteção e movimentação",
+      "formula": null,
+      "type": "str"
+    },
+    "D48": {
+      "value": "RP1, RP2\nRP3, RP5\nRP6, RP7\nRP8, RP9\nRP11",
+      "formula": null,
+      "type": "str"
+    },
+    "E48": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F48": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G48": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H48": {
+      "value": "As estruturas 1 e 2 incluem amortecer, imobilizar, portar, prover pega, acomodar, compatibilizar, estabilizar, reter e suportar carga. O efeito requerido é comum; a fronteira de contato muda.",
+      "formula": null,
+      "type": "str"
+    },
+    "I48": {
+      "value": "As estruturas 1 e 2 incluem amortecer, imobilizar, portar, prover pega, acomodar, compatibilizar, estabilizar, reter e suportar carga. O efeito requerido é comum; a fronteira de contato muda.",
+      "formula": null,
+      "type": "str"
+    },
+    "J48": {
+      "value": "M3 repete a cadeia material e de energia de M2. Registro de evento não acrescenta amortecimento, imobilização, apoio ou retenção.",
+      "formula": null,
+      "type": "str"
+    },
+    "K48": {
+      "value": "Funções Parciais B5:G9 e B15:G19; Modelagens Alternativas C4:E6. Zero refere-se à cobertura, sem afirmar desempenho igual.",
+      "formula": null,
+      "type": "str"
+    },
+    "B49": {
+      "value": "CF02",
+      "formula": null,
+      "type": "str"
+    },
+    "C49": {
+      "value": "Barreiras pré-existentes no caminho de inspeção",
+      "formula": null,
+      "type": "str"
+    },
+    "D49": {
+      "value": "RC C\nRP4",
+      "formula": null,
+      "type": "str"
+    },
+    "E49": {
+      "value": 1,
+      "formula": null,
+      "type": "n"
+    },
+    "F49": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G49": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H49": {
+      "value": "M1 remove a embalagem de origem no distribuidor. Elimina essa barreira do caminho até a superfície cerâmica; permanece a barreira do novo dispositivo. +1 indica facilidade potencial de acesso.",
+      "formula": null,
+      "type": "str"
+    },
+    "I49": {
+      "value": "M1 remove a embalagem de origem no distribuidor. Elimina essa barreira do caminho até a superfície cerâmica; permanece a barreira do novo dispositivo. +1 indica facilidade potencial de acesso.",
+      "formula": null,
+      "type": "str"
+    },
+    "J49": {
+      "value": "M3 mantém a mesma embalagem e o mesmo caminho de inspeção de M2. O sinal de evento não revela a superfície nem diagnostica trinca.",
+      "formula": null,
+      "type": "str"
+    },
+    "K49": {
+      "value": "Modelagens Alternativas C4:E6; Funções Parciais C8/C18/C28. Confirmar área crítica, visibilidade e contenção no novo conjunto fechado.",
+      "formula": null,
+      "type": "str"
+    },
+    "B50": {
+      "value": "CF03",
+      "formula": null,
+      "type": "str"
+    },
+    "C50": {
+      "value": "Continuidade do acondicionamento no distribuidor",
+      "formula": null,
+      "type": "str"
+    },
+    "D50": {
+      "value": "Critério de operação; escopo",
+      "formula": null,
+      "type": "str"
+    },
+    "E50": {
+      "value": -1,
+      "formula": null,
+      "type": "n"
+    },
+    "F50": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G50": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H50": {
+      "value": "M1 exige retirar a caixa e transferir a peça para a proteção direta. Acrescenta essa operação à preparação em relação a M2; −1 refere-se à intervenção necessária, sem estimar tempo ou dano.",
+      "formula": null,
+      "type": "str"
+    },
+    "I50": {
+      "value": "M1 exige retirar a caixa e transferir a peça para a proteção direta. Acrescenta essa operação à preparação em relação a M2; −1 refere-se à intervenção necessária, sem estimar tempo ou dano.",
+      "formula": null,
+      "type": "str"
+    },
+    "J50": {
+      "value": "M3 preserva o acondicionamento de origem como M2. A cadeia opcional de evento é analisada separadamente e não recebe benefício presumido.",
+      "formula": null,
+      "type": "str"
+    },
+    "K50": {
+      "value": "Fronteira definida em Modelagens Alternativas C4:C6. Tratar retirada, conferência inicial, transferência e destino da embalagem no plano de operação.",
+      "formula": null,
+      "type": "str"
+    },
+    "B51": {
+      "value": "CF04",
+      "formula": null,
+      "type": "str"
+    },
+    "C51": {
+      "value": "Cobertura da informação obrigatória ao usuário",
+      "formula": null,
+      "type": "str"
+    },
+    "D51": {
+      "value": "RP10\nRP16\nRP21",
+      "formula": null,
+      "type": "str"
+    },
+    "E51": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F51": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G51": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H51": {
+      "value": "Todas as estruturas preveem comunicar uso e exibir a identidade única. Não há diferença de cobertura obrigatória identificada.",
+      "formula": null,
+      "type": "str"
+    },
+    "I51": {
+      "value": "Todas as estruturas preveem comunicar uso e exibir a identidade única. Não há diferença de cobertura obrigatória identificada.",
+      "formula": null,
+      "type": "str"
+    },
+    "J51": {
+      "value": "Orientação, fechamento e identidade continuam obrigatórios em M2/M3. OP-01 é complemento fora do escopo base; sua utilidade incremental ainda não foi demonstrada.",
+      "formula": null,
+      "type": "str"
+    },
+    "K51": {
+      "value": "Funções Parciais D10/D20/D29 e catálogo F16/F21. Legibilidade, erros e identidade após ciclos entram na segunda seleção.",
+      "formula": null,
+      "type": "str"
+    },
+    "B52": {
+      "value": "CF05",
+      "formula": null,
+      "type": "str"
+    },
+    "C52": {
+      "value": "Cobertura do retorno, manutenção e fim de vida",
+      "formula": null,
+      "type": "str"
+    },
+    "D52": {
+      "value": "RP14\nRP15\nRP17\nRP18\nRP19\nRP20\nRP22",
+      "formula": null,
+      "type": "str"
+    },
+    "E52": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F52": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G52": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H52": {
+      "value": "Ambas incluem recolher, prover acesso, liberar/unir partes e separar materiais. A cobertura de suporte ao reuso é comum; tempo, vida e troca independente seguem como requisitos.",
+      "formula": null,
+      "type": "str"
+    },
+    "I52": {
+      "value": "Ambas incluem recolher, prover acesso, liberar/unir partes e separar materiais. A cobertura de suporte ao reuso é comum; tempo, vida e troca independente seguem como requisitos.",
+      "formula": null,
+      "type": "str"
+    },
+    "J52": {
+      "value": "M3 conserva o suporte ao reuso de M2. A presença opcional de indicador não comprova vida, manutenção simples, modularidade ou reciclagem.",
+      "formula": null,
+      "type": "str"
+    },
+    "K52": {
+      "value": "Funções Parciais D9/D11/D19/D21/D30/D31; catálogo F14/F15/F17/F19/F22. Validar interfaces, ciclos e cadeia de reciclagem nas concepções.",
+      "formula": null,
+      "type": "str"
+    },
+    "C54": {
+      "value": "Vantagens (+1)",
+      "formula": null,
+      "type": "str"
+    },
+    "D54": {
+      "value": "Vantagens (+1)",
+      "formula": null,
+      "type": "str"
+    },
+    "E54": {
+      "value": 1,
+      "formula": "IF(AND(COUNT(E48:E52)=ROWS(E48:E52),COUNTIF(E48:E52,-1)+COUNTIF(E48:E52,0)+COUNTIF(E48:E52,1)=ROWS(E48:E52)),COUNTIF(E48:E52,1),\"Rever notas\")",
+      "type": "n"
+    },
+    "F54": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(F48:F52)=ROWS(F48:F52),COUNTIF(F48:F52,-1)+COUNTIF(F48:F52,0)+COUNTIF(F48:F52,1)=ROWS(F48:F52)),COUNTIF(F48:F52,1),\"Rever notas\")",
+      "type": "n"
+    },
+    "G54": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(G48:G52)=ROWS(G48:G52),COUNTIF(G48:G52,-1)+COUNTIF(G48:G52,0)+COUNTIF(G48:G52,1)=ROWS(G48:G52)),COUNTIF(G48:G52,1),\"Rever notas\")",
+      "type": "n"
+    },
+    "C55": {
+      "value": "Desvantagens (−1)",
+      "formula": null,
+      "type": "str"
+    },
+    "D55": {
+      "value": "Desvantagens (−1)",
+      "formula": null,
+      "type": "str"
+    },
+    "E55": {
+      "value": 1,
+      "formula": "IF(AND(COUNT(E48:E52)=ROWS(E48:E52),COUNTIF(E48:E52,-1)+COUNTIF(E48:E52,0)+COUNTIF(E48:E52,1)=ROWS(E48:E52)),COUNTIF(E48:E52,-1),\"Rever notas\")",
+      "type": "n"
+    },
+    "F55": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(F48:F52)=ROWS(F48:F52),COUNTIF(F48:F52,-1)+COUNTIF(F48:F52,0)+COUNTIF(F48:F52,1)=ROWS(F48:F52)),COUNTIF(F48:F52,-1),\"Rever notas\")",
+      "type": "n"
+    },
+    "G55": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(G48:G52)=ROWS(G48:G52),COUNTIF(G48:G52,-1)+COUNTIF(G48:G52,0)+COUNTIF(G48:G52,1)=ROWS(G48:G52)),COUNTIF(G48:G52,-1),\"Rever notas\")",
+      "type": "n"
+    },
+    "C56": {
+      "value": "Equivalências no aspecto (0)",
+      "formula": null,
+      "type": "str"
+    },
+    "D56": {
+      "value": "Equivalências no aspecto (0)",
+      "formula": null,
+      "type": "str"
+    },
+    "E56": {
+      "value": 3,
+      "formula": "IF(AND(COUNT(E48:E52)=ROWS(E48:E52),COUNTIF(E48:E52,-1)+COUNTIF(E48:E52,0)+COUNTIF(E48:E52,1)=ROWS(E48:E52)),COUNTIF(E48:E52,0),\"Rever notas\")",
+      "type": "n"
+    },
+    "F56": {
+      "value": 5,
+      "formula": "IF(AND(COUNT(F48:F52)=ROWS(F48:F52),COUNTIF(F48:F52,-1)+COUNTIF(F48:F52,0)+COUNTIF(F48:F52,1)=ROWS(F48:F52)),COUNTIF(F48:F52,0),\"Rever notas\")",
+      "type": "n"
+    },
+    "G56": {
+      "value": 5,
+      "formula": "IF(AND(COUNT(G48:G52)=ROWS(G48:G52),COUNTIF(G48:G52,-1)+COUNTIF(G48:G52,0)+COUNTIF(G48:G52,1)=ROWS(G48:G52)),COUNTIF(G48:G52,0),\"Rever notas\")",
+      "type": "n"
+    },
+    "C57": {
+      "value": "Saldo qualitativo",
+      "formula": null,
+      "type": "str"
+    },
+    "D57": {
+      "value": "Saldo qualitativo",
+      "formula": null,
+      "type": "str"
+    },
+    "E57": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(E48:E52)=ROWS(E48:E52),COUNTIF(E48:E52,-1)+COUNTIF(E48:E52,0)+COUNTIF(E48:E52,1)=ROWS(E48:E52)),SUM(E48:E52),\"Rever notas\")",
+      "type": "n"
+    },
+    "F57": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(F48:F52)=ROWS(F48:F52),COUNTIF(F48:F52,-1)+COUNTIF(F48:F52,0)+COUNTIF(F48:F52,1)=ROWS(F48:F52)),SUM(F48:F52),\"Rever notas\")",
+      "type": "n"
+    },
+    "G57": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(G48:G52)=ROWS(G48:G52),COUNTIF(G48:G52,-1)+COUNTIF(G48:G52,0)+COUNTIF(G48:G52,1)=ROWS(G48:G52)),SUM(G48:G52),\"Rever notas\")",
+      "type": "n"
+    },
+    "B59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "C59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "D59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "E59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "F59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "G59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "H59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "I59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "J59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "K59": {
+      "value": "Resultado: M1 tem uma vantagem, uma desvantagem e três equivalências; M2 e M3 têm cinco equivalências. Saldo 0/0/0: empate qualitativo, não igualdade de desempenho. Com os critérios descritos, a matriz não produz uma vencedora isolada.",
+      "formula": null,
+      "type": "str"
+    },
+    "B61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "C61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "D61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "E61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "F61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "G61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "H61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "I61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "J61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "K61": {
+      "value": "Escolha da equipe em 15/10/2026: “Priorizar M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça.” Acesso mais direto é a oportunidade; desencaixotar e transferir com segurança são a contrapartida. M2 permanece alternativa de contingência; M3/OP-01 ficam fora da base.",
+      "formula": null,
+      "type": "str"
+    },
+    "B63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "C63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "D63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "E63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "F63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "G63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "H63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "I63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "J63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "K63": {
+      "value": "Condições de avanço da M1: definir conferência e transferência no distribuidor, superfícies/pressões de contato, contenção no conjunto fechado e na retirada, identidade e destino da embalagem. A seleção funcional é de direção; aprovação da concepção depende de análises comparáveis e restrições atendidas.",
+      "formula": null,
+      "type": "str"
+    },
+    "B65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "C65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "D65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "E65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "F65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "G65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "H65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "I65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "J65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "K65": {
+      "value": "Sensibilidade da decisão: se a equipe privilegiar a continuidade do acondicionamento, M2 pode ser preferível; privilegiar acesso direto sustenta estudar M1. Nenhum peso novo foi atribuído para fabricar um resultado. Reabrir a escolha se a proteção direta não resolver as condições críticas.",
+      "formula": null,
+      "type": "str"
+    },
+    "B67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "C67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "D67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "E67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "F67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "G67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "H67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "I67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "J67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "K67": {
+      "value": "Referência: MIT OCW, Fundamentals of Systems Engineering, sessão 5 (2015), p. 8–9 e 19: https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dac225aff5a84125fd1bf9364d748221_MIT16_842F15_Ses_5_Design.pdf",
+      "formula": null,
+      "type": "str"
+    },
+    "B69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "C69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "D69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "E69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "F69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "G69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "H69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "I69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "J69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    },
+    "K69": {
+      "value": "OP-01 não é critério de benefício aprovado. Se a equipe o incorporar à M1, revisar escopo, benefício, leitura, calibração e custo; isso não transforma a fronteira material escolhida na M3, que foi definida sobre o volume embalado.",
+      "formula": null,
+      "type": "str"
+    }
+  }
+}

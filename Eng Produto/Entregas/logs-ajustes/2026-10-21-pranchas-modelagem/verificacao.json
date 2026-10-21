@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-21",
+  "scope": "Revisão EMS e redução de texto das sete pranchas: classificação por Material, Energia e Sinal conforme Aula 16; sem alterar as funções ou a seleção da planilha.",
+  "figma_file_key": "hF2hV3uNVjhzfP6jEfPY7F",
+  "figma_page_id": "0:1",
+  "original_frame_ids_preserved": [
+    "3:2",
+    "3:21",
+    "3:83",
+    "3:153",
+    "3:245",
+    "3:335",
+    "3:449"
+  ],
+  "new_nodes_created": 538,
+  "pages": [
+    {
+      "page": 1,
+      "title": "Função global",
+      "figma_node_id": "11:2",
+      "figma_url": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-2",
+      "source_sha256": "ab57322751d002c74b108734d12154190b3cd60cceca308bca52e6a06069b5a2",
+      "function_ids": []
+    },
+    {
+      "page": 2,
+      "title": "V0 - Situação atual",
+      "figma_node_id": "11:53",
+      "figma_url": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-53",
+      "source_sha256": "2469d10c1ae11d5ec775a66d7a2f37c3c2673cd8f170b65f09bef144aea0e3f9",
+      "function_ids": []
+    },
+    {
+      "page": 3,
+      "title": "M1 - Proteção direta da peça",
+      "figma_node_id": "11:122",
+      "figma_url": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-122",
+      "source_sha256": "219a6e66e98d60e1da69d0834cd19e10db7ce4eb2dfcaa3f27114e487b6ded1d",
+      "function_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F11",
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F19",
+        "F21",
+        "F22"
+      ]
+    },
+    {
+      "page": 4,
+      "title": "M2 - Volume embalado",
+      "figma_node_id": "11:199",
+      "figma_url": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-199",
+      "source_sha256": "40997a88fe049782232727f4353d75525c5a01273f0871d0f598f3db49237245",
+      "function_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F11",
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F19",
+        "F21",
+        "F22"
+      ]
+    },
+    {
+      "page": 5,
+      "title": "M3 - Volume e sinal opcional",
+      "figma_node_id": "11:276",
+      "figma_url": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-276",
+      "source_sha256": "b8f0b3776138634361cbb03c8be250eab89a1f90337e8434af909b6ccef56025",
+      "function_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F11",
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F19",
+        "F21",
+        "F22"
+      ]
+    },
+    {
+      "page": 6,
+      "title": "FAST - Finalidade e meios",
+      "figma_node_id": "11:358",
+      "figma_url": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-358",
+      "source_sha256": "b1b54c6b374f8449425ce80445390e136a97decc2e9e646aba5109d09ba69d51",
+      "function_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F11",
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F19",
+        "F21",
+        "F22"
+      ]
+    },
+    {
+      "page": 7,
+      "title": "Primeira Pugh - Seleção funcional",
+      "figma_node_id": "11:441",
+      "figma_url": "https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-441",
+      "source_sha256": "00d028a7b81dc7d72527d10f47db9f504d499d8a5df4680f71654b2879dcfb05",
+      "function_ids": []
+    }
+  ],
+  "checks": [
+    {
+      "page": 1,
+      "text_characters_preserved_ignoring_extraction_whitespace": true,
+      "a4_landscape": true,
+      "text_characters": 708
+    },
+    {
+      "page": 2,
+      "text_characters_preserved_ignoring_extraction_whitespace": true,
+      "a4_landscape": true,
+      "text_characters": 717
+    },
+    {
+      "page": 3,
+      "text_characters_preserved_ignoring_extraction_whitespace": true,
+      "a4_landscape": true,
+      "text_characters": 1173
+    },
+    {
+      "page": 4,
+      "text_characters_preserved_ignoring_extraction_whitespace": true,
+      "a4_landscape": true,
+      "text_characters": 1125
+    },
+    {
+      "page": 5,
+      "text_characters_preserved_ignoring_extraction_whitespace": true,
+      "a4_landscape": true,
+      "text_characters": 1275
+    },
+    {
+      "page": 6,
+      "text_characters_preserved_ignoring_extraction_whitespace": true,
+      "a4_landscape": true,
+      "text_characters": 805
+    },
+    {
+      "page": 7,
+      "text_characters_preserved_ignoring_extraction_whitespace": true,
+      "a4_landscape": true,
+      "text_characters": 674
+    }
+  ],
+  "workbook_unchanged": true,
+  "workbook_sha256": "7ef9079b2e4e638286996dc02c1e09aa4e6f315b5f9d2b48ed91983ac41f9aac",
+  "output": "Eng Produto/Entregas/modelagem-funcional/Modelagem_Funcional_Selecao_Equipe2.pdf",
+  "output_sha256": "6a5eb119b30847a7afbefbd497e679deb264066b37b709c59999f7b6ec5c1cbc",
+  "output_bytes": 2555677,
+  "visual_review": {
+    "status": "passed",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "method": "PDF simplificado renderizado com Poppler e inspeção das sete páginas; screenshot da M1 atualizada no Figma.",
+    "overlapping_text": false,
+    "clipped_text": false
+  },
+  "limits": [
+    "Saídas das alternativas são pretendidas; não há resultados de ensaio.",
+    "Blocos são agrupamentos de leitura, não módulos nem sequência de operações.",
+    "M1 é prioridade de planejamento após empate 0/0/0; M2 é datum.",
+    "OP-01 permanece opcional, fora das 17 funções da base; não diagnostica trinca."
+  ],
+  "figma_final_checks": {
+    "frames": [
+      {
+        "id": "11:2",
+        "visibleCharacters": 643,
+        "genericInputOutputLabels": false,
+        "typeLabels": {
+          "Material": 2,
+          "Energia": 2,
+          "Sinal": 2
+        },
+        "flowStylesValid": true,
+        "minimumLabelGap": 37
+      },
+      {
+        "id": "11:53",
+        "visibleCharacters": 654,
+        "genericInputOutputLabels": false,
+        "typeLabels": {
+          "Material": 2,
+          "Energia": 2,
+          "Sinal": 2
+        },
+        "flowStylesValid": true,
+        "minimumLabelGap": 15
+      },
+      {
+        "id": "11:122",
+        "visibleCharacters": 1045,
+        "genericInputOutputLabels": false,
+        "typeLabels": {
+          "Material": 2,
+          "Energia": 2,
+          "Sinal": 2
+        },
+        "flowStylesValid": true,
+        "minimumLabelGap": 29,
+        "catalog": [
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "F05",
+          "F06",
+          "F07",
+          "F08",
+          "F09",
+          "F11",
+          "F14",
+          "F15",
+          "F16",
+          "F17",
+          "F19",
+          "F21",
+          "F22"
+        ],
+        "all17Functions": true
+      },
+      {
+        "id": "11:199",
+        "visibleCharacters": 1007,
+        "genericInputOutputLabels": false,
+        "typeLabels": {
+          "Material": 2,
+          "Energia": 2,
+          "Sinal": 2
+        },
+        "flowStylesValid": true,
+        "minimumLabelGap": 29,
+        "catalog": [
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "F05",
+          "F06",
+          "F07",
+          "F08",
+          "F09",
+          "F11",
+          "F14",
+          "F15",
+          "F16",
+          "F17",
+          "F19",
+          "F21",
+          "F22"
+        ],
+        "all17Functions": true
+      },
+      {
+        "id": "11:276",
+        "visibleCharacters": 1116,
+        "genericInputOutputLabels": false,
+        "typeLabels": {
+          "Material": 2,
+          "Energia": 2,
+          "Sinal": 2
+        },
+        "flowStylesValid": true,
+        "minimumLabelGap": 29,
+        "catalog": [
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "F05",
+          "F06",
+          "F07",
+          "F08",
+          "F09",
+          "F11",
+          "F14",
+          "F15",
+          "F16",
+          "F17",
+          "F19",
+          "F21",
+          "F22"
+        ],
+        "all17Functions": true
+      },
+      {
+        "id": "11:358",
+        "visibleCharacters": 694,
+        "genericInputOutputLabels": false,
+        "catalog": [
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "F05",
+          "F06",
+          "F07",
+          "F08",
+          "F09",
+          "F11",
+          "F14",
+          "F15",
+          "F16",
+          "F17",
+          "F19",
+          "F21",
+          "F22"
+        ],
+        "all17Functions": true
+      },
+      {
+        "id": "11:441",
+        "visibleCharacters": 599,
+        "genericInputOutputLabels": false,
+        "scores": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "+1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "pughScoresUnchanged": true
+      }
+    ],
+    "allChecksPass": true
+  },
+  "visible_text_characters_before": 12878,
+  "visible_text_characters_after": 5758,
+  "visible_text_reduction_percent": 55.3,
+  "minimum_external_label_gap_alternatives_source_px": 29,
+  "generic_input_output_labels_removed": true,
+  "native_pdf_no_rasterized_page_images": true,
+  "course_reference": {
+    "Aula 16 - Modelagem Funcional": [
+      22,
+      24,
+      25
+    ],
+    "Aula 17 - Exemplo de alternativas de estrutura funcional": [
+      3,
+      13,
+      16
+    ],
+    "git_ref": "3c205c3^",
+    "retrieval": "Consulta temporária; arquivos privados não adicionados às entregas."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-21",
+  "sourceSha256": "5ca6938c3acacd27d4220abd20840c089a5ad5dcef6975767d86eaf47b0d8d0b",
+  "candidateSha256": "a73c4cef4bf5a29c0d9ece0bf840013760c4900a258b645747f82652e47d1069",
+  "sheetCount": 33,
+  "changedParts": [
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet21.xml",
+    "xl/worksheets/sheet22.xml"
+  ],
+  "styleComponentsAdded": {
+    "fonts": 0,
+    "fills": 0,
+    "borders": 0,
+    "cellStyleXfs": 0,
+    "cellXfs": 0
+  },
+  "sheetEdits": [
+    {
+      "sheet": "Matriz Pugh das Modelagens",
+      "authorizedCells": 61,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Modelagens Alternativas",
+      "authorizedCells": 1,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Revisão",
+      "authorizedCells": 12,
+      "unrelatedCellsPreserved": true
+    }
+  ],
+  "unrelatedWorksheetXmlByteIdentical": true,
+  "requirementsQfdWeightsAndTargetsPreserved": true,
+  "seventeenFunctionCatalogAnd23LinksPreserved": true,
+  "mimNumericJudgmentsAndFormulasPreserved": true,
+  "pughTotals": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "pughDirection": "Seleção em aberto",
+  "pughValidationsScopedToCurrentScores": true,
+  "images": [],
+  "imageCountPreserved": 6,
+  "nativeCellsAndImagesCoexist": true,
+  "packageRelationshipsValid": true,
+  "finalSha256": "a73c4cef4bf5a29c0d9ece0bf840013760c4900a258b645747f82652e47d1069",
+  "criteria": 23,
+  "catalogFunctionsRepresented": 17,
+  "equivalencesPerAlternative": [
+    12,
+    13
+  ],
+  "pendingPerAlternative": 9,
+  "completeScore": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "partialScore": [
+    0,
+    2,
+    -1
+  ],
+  "assumptions": "H1-H5 with clarified qualitative scope",
+  "scoresUnchanged": true,
+  "selectionStatus": "Seleção em aberto",
+  "formulaTests": [],
+  "formulaErrorCells": [],
+  "nativeExcelUiTested": false,
+  "physicalTestsPerformed": false,
+  "imagesAndChartUnchanged": true,
+  "functionGlobalFastPartialModelsUnchanged": true,
+  "reportAndFigmaPughUpdated": false,
+  "visualReview": "passed"
+}

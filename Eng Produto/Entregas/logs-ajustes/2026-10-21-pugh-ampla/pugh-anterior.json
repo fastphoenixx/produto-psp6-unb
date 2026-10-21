@@ -1,0 +1,1541 @@
+{
+  "sourceSha256": "71646ffc65fa0adeed0062df384d982564b5f683835c12e4fe54395ec4f02a95",
+  "sheet": "Matriz Pugh das Modelagens",
+  "cells": {
+    "E30": {
+      "value": "MF-B: indicação preliminar",
+      "formula": "IF(COUNT(E57:G57)<>3,\"Rever notas funcionais\",IF(COUNTIF(E57:G57,MAX(E57:G57))>1,\"Empate: discutir critérios\",IF(F57=MAX(E57:G57),\"MF-B: indicação preliminar\",IF(E57=MAX(E57:G57),\"MF-A: indicação preliminar\",\"MF-C: indicação preliminar\"))))",
+      "type": "str"
+    },
+    "G30": {
+      "value": "Proteção direta preservada. O encaminhamento atual usa MF-A/MF-B/MF-C; não seleciona C1/C2/C3 nem comprova metas.",
+      "formula": null,
+      "type": "str"
+    },
+    "B37": {
+      "value": "Histórico: escala de cinco níveis e pesos do Pareto/Mudge. Nova Pugh funcional: −1/0/+1, sem pesos novos, em dois critérios de organização ligados aos RP. A cobertura obrigatória e o desempenho físico são verificados separadamente, sem gerar zeros artificiais.",
+      "formula": null,
+      "type": "str"
+    },
+    "B44": {
+      "value": "Primeira Pugh revisada — MF-A/MF-B/MF-C sob proteção direta",
+      "formula": null,
+      "type": "str"
+    },
+    "B45": {
+      "value": "Datum MF-A. +1 = organização favorável no aspecto; 0 = mesma condição descrita; −1 = acoplamento funcional adicional. Notas conceituais, sem pesos novos. Sem base para comparar: AV, nunca zero automático.",
+      "formula": null,
+      "type": "str"
+    },
+    "B46": {
+      "value": "Critérios extraídos das relações F01/F07 e do desdobramento de F01. Não pontuar quantidade de componentes, aceleração, custo ou manutenção sem definição e análise da solução.",
+      "formula": null,
+      "type": "str"
+    },
+    "B47": {
+      "value": "ID",
+      "formula": null,
+      "type": "str"
+    },
+    "C47": {
+      "value": "Critério de organização",
+      "formula": null,
+      "type": "str"
+    },
+    "D47": {
+      "value": "Origem",
+      "formula": null,
+      "type": "str"
+    },
+    "E47": {
+      "value": "MF-A datum",
+      "formula": null,
+      "type": "str"
+    },
+    "F47": {
+      "value": "MF-B",
+      "formula": null,
+      "type": "str"
+    },
+    "G47": {
+      "value": "MF-C",
+      "formula": null,
+      "type": "str"
+    },
+    "H47": {
+      "value": "Justificativa MF-B × MF-A",
+      "formula": null,
+      "type": "str"
+    },
+    "J47": {
+      "value": "Justificativa MF-C × MF-A",
+      "formula": null,
+      "type": "str"
+    },
+    "K47": {
+      "value": "Confirmação e revisão",
+      "formula": null,
+      "type": "str"
+    },
+    "B48": {
+      "value": "CF01",
+      "formula": null,
+      "type": "str"
+    },
+    "C48": {
+      "value": "Separar o estágio de amortecimento do contato diretamente ajustável à peça",
+      "formula": null,
+      "type": "str"
+    },
+    "D48": {
+      "value": "F01/F07; RP7/RP12",
+      "formula": null,
+      "type": "str"
+    },
+    "E48": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F48": {
+      "value": 1,
+      "formula": null,
+      "type": "n"
+    },
+    "G48": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "H48": {
+      "value": "MF-B coloca F01 antes do conjunto portador; o contato ajustável não é o estágio amortecedor proposto. +1 descreve essa separação funcional, sem comprovar melhor pico ou uniformidade.",
+      "formula": null,
+      "type": "str"
+    },
+    "J48": {
+      "value": "MF-C conserva F01b junto ao contato ajustável, como MF-A. O estágio externo não elimina essa dependência; 0 apenas nesse aspecto.",
+      "formula": null,
+      "type": "str"
+    },
+    "K48": {
+      "value": "Funções Parciais: A.2/A.3, B.1/B.3, C.3/C.4. Revisar se o ajuste alterar a resposta de MF-B ou se MF-A desacoplar as interfaces.",
+      "formula": null,
+      "type": "str"
+    },
+    "B49": {
+      "value": "CF02",
+      "formula": null,
+      "type": "str"
+    },
+    "C49": {
+      "value": "Evitar a interação entre dois estágios de amortecimento",
+      "formula": null,
+      "type": "str"
+    },
+    "D49": {
+      "value": "F01;\nRP12;\nRP18",
+      "formula": null,
+      "type": "str"
+    },
+    "E49": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "F49": {
+      "value": 0,
+      "formula": null,
+      "type": "n"
+    },
+    "G49": {
+      "value": -1,
+      "formula": null,
+      "type": "n"
+    },
+    "H49": {
+      "value": "MF-A e MF-B propõem um único estágio de F01. Não há diferença no número de estágios a compatibilizar; 0 sem inferir desempenho igual.",
+      "formula": null,
+      "type": "str"
+    },
+    "J49": {
+      "value": "MF-C encadeia F01a e F01b; suas respostas precisam ser compatibilizadas. −1 representa esse acoplamento adicional, sem presumir mais peças, maior custo ou pior manutenção.",
+      "formula": null,
+      "type": "str"
+    },
+    "K49": {
+      "value": "Funções Parciais C.1/C.3. Se o benefício dos dois níveis justificar o acoplamento, reabrir a escolha; dois estágios não são vantagem física comprovada.",
+      "formula": null,
+      "type": "str"
+    },
+    "B50": {
+      "value": "Cobertura obrigatória comum, sem pontuar: 17 funções base, inspeção fechada e contenção na retirada, movimentação, informação, manutenção, retorno e fim de vida. Conferir Funções Parciais e os 23 vínculos na Função Global.",
+      "formula": null,
+      "type": "str"
+    },
+    "B51": {
+      "value": "Desempenho a verificar: RP1/RP2/RP11/RP12/RP13 e os demais limites não foram julgados como iguais nem melhores por posição ou quantidade de estágios. Analisar princípios e interfaces; ensaiar quando a afirmação depender de desempenho físico.",
+      "formula": null,
+      "type": "str"
+    },
+    "B52": {
+      "value": "Leitura da comparação: CF01 trata da interface de ajuste; CF02 trata da interação entre estágios. São aspectos distintos. Distribuir a atenuação em dois níveis é hipótese da MF-C, sem bônus automático apenas por acrescentar um estágio.",
+      "formula": null,
+      "type": "str"
+    },
+    "C54": {
+      "value": "Vantagens (+1)",
+      "formula": null,
+      "type": "str"
+    },
+    "E54": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(E48:E49)=ROWS(E48:E49),COUNTIF(E48:E49,-1)+COUNTIF(E48:E49,0)+COUNTIF(E48:E49,1)=ROWS(E48:E49)),COUNTIF(E48:E49,1),\"Rever notas\")",
+      "type": "n"
+    },
+    "F54": {
+      "value": 1,
+      "formula": "IF(AND(COUNT(F48:F49)=ROWS(F48:F49),COUNTIF(F48:F49,-1)+COUNTIF(F48:F49,0)+COUNTIF(F48:F49,1)=ROWS(F48:F49)),COUNTIF(F48:F49,1),\"Rever notas\")",
+      "type": "n"
+    },
+    "G54": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(G48:G49)=ROWS(G48:G49),COUNTIF(G48:G49,-1)+COUNTIF(G48:G49,0)+COUNTIF(G48:G49,1)=ROWS(G48:G49)),COUNTIF(G48:G49,1),\"Rever notas\")",
+      "type": "n"
+    },
+    "C55": {
+      "value": "Desvantagens (−1)",
+      "formula": null,
+      "type": "str"
+    },
+    "E55": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(E48:E49)=ROWS(E48:E49),COUNTIF(E48:E49,-1)+COUNTIF(E48:E49,0)+COUNTIF(E48:E49,1)=ROWS(E48:E49)),COUNTIF(E48:E49,-1),\"Rever notas\")",
+      "type": "n"
+    },
+    "F55": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(F48:F49)=ROWS(F48:F49),COUNTIF(F48:F49,-1)+COUNTIF(F48:F49,0)+COUNTIF(F48:F49,1)=ROWS(F48:F49)),COUNTIF(F48:F49,-1),\"Rever notas\")",
+      "type": "n"
+    },
+    "G55": {
+      "value": 1,
+      "formula": "IF(AND(COUNT(G48:G49)=ROWS(G48:G49),COUNTIF(G48:G49,-1)+COUNTIF(G48:G49,0)+COUNTIF(G48:G49,1)=ROWS(G48:G49)),COUNTIF(G48:G49,-1),\"Rever notas\")",
+      "type": "n"
+    },
+    "C56": {
+      "value": "Mesma condição descrita (0)",
+      "formula": null,
+      "type": "str"
+    },
+    "E56": {
+      "value": 2,
+      "formula": "IF(AND(COUNT(E48:E49)=ROWS(E48:E49),COUNTIF(E48:E49,-1)+COUNTIF(E48:E49,0)+COUNTIF(E48:E49,1)=ROWS(E48:E49)),COUNTIF(E48:E49,0),\"Rever notas\")",
+      "type": "n"
+    },
+    "F56": {
+      "value": 1,
+      "formula": "IF(AND(COUNT(F48:F49)=ROWS(F48:F49),COUNTIF(F48:F49,-1)+COUNTIF(F48:F49,0)+COUNTIF(F48:F49,1)=ROWS(F48:F49)),COUNTIF(F48:F49,0),\"Rever notas\")",
+      "type": "n"
+    },
+    "G56": {
+      "value": 1,
+      "formula": "IF(AND(COUNT(G48:G49)=ROWS(G48:G49),COUNTIF(G48:G49,-1)+COUNTIF(G48:G49,0)+COUNTIF(G48:G49,1)=ROWS(G48:G49)),COUNTIF(G48:G49,0),\"Rever notas\")",
+      "type": "n"
+    },
+    "C57": {
+      "value": "Saldo funcional preliminar",
+      "formula": null,
+      "type": "str"
+    },
+    "E57": {
+      "value": 0,
+      "formula": "IF(AND(COUNT(E48:E49)=ROWS(E48:E49),COUNTIF(E48:E49,-1)+COUNTIF(E48:E49,0)+COUNTIF(E48:E49,1)=ROWS(E48:E49)),SUM(E48:E49),\"Rever notas\")",
+      "type": "n"
+    },
+    "F57": {
+      "value": 1,
+      "formula": "IF(AND(COUNT(F48:F49)=ROWS(F48:F49),COUNTIF(F48:F49,-1)+COUNTIF(F48:F49,0)+COUNTIF(F48:F49,1)=ROWS(F48:F49)),SUM(F48:F49),\"Rever notas\")",
+      "type": "n"
+    },
+    "G57": {
+      "value": -1,
+      "formula": "IF(AND(COUNT(G48:G49)=ROWS(G48:G49),COUNTIF(G48:G49,-1)+COUNTIF(G48:G49,0)+COUNTIF(G48:G49,1)=ROWS(G48:G49)),SUM(G48:G49),\"Rever notas\")",
+      "type": "n"
+    },
+    "B59": {
+      "value": "Saldos funcionais: MF-A=0; MF-B=1; MF-C=-1. A indicação é conceitual e depende das duas justificativas registradas; não mede atendimento às metas.",
+      "formula": "IF(AND(ISNUMBER(E57),ISNUMBER(F57),ISNUMBER(G57)),\"Saldos funcionais: MF-A=\"&E57&\"; MF-B=\"&F57&\"; MF-C=\"&G57&\". A indicação é conceitual e depende das duas justificativas registradas; não mede atendimento às metas.\",\"Resultado indisponível: revisar notas, valores AV ou entradas fora da escala.\")",
+      "type": "str"
+    },
+    "B61": {
+      "value": "Encaminhamento preliminar: estudar MF-B pelo desacoplamento proposto entre amortecimento e contato ajustável, sem introduzir dois estágios. A preferência de 15/10 por peça descoberta permanece. Este julgamento não é uma nova resposta da equipe nem aprovação física.",
+      "formula": null,
+      "type": "str"
+    },
+    "B63": {
+      "value": "Condições de avanço: compatibilizar o estágio externo com massa, compressão, estabilidade, movimento residual, inspeção e contenção. Rever os princípios de C1/C2/C3 e as interfaces da MIM antes de atribuir uma concepção à MF-B; não transferir resultados pelo nome.",
+      "formula": null,
+      "type": "str"
+    },
+    "B65": {
+      "value": "Sensibilidade: se CF01 de MF-B passar de +1 para 0, MF-A e MF-B empatam. Sem diferença em CF02, MF-C volta a 0. Reabrir a seleção se os princípios não preservarem a separação funcional ou se o benefício demonstrado de dois estágios justificar outra direção.",
+      "formula": null,
+      "type": "str"
+    },
+    "B67": {
+      "value": "Base: Aula 16 (especificações → funções → estruturas alternativas → seleção), Aula 17 (estrutura funcional → princípios → morfológica). Julgamentos de engenharia explícitos e revisáveis; protocolo de comparação Pugh já referenciado no histórico.",
+      "formula": null,
+      "type": "str"
+    },
+    "B69": {
+      "value": "OP-01 permanece fora das três bases. M1/M2/M3 são fronteiras históricas; MF-A/MF-B/MF-C são estruturas do novo trio; C1/C2/C3 são combinações físicas posteriores. Não intercambiar os três conjuntos de identificadores.",
+      "formula": null,
+      "type": "str"
+    },
+    "B74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "C74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "D74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "E74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "F74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "G74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "H74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "I74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "J74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "K74": {
+      "value": "Encaminhamento dos 23 requisitos — confirmação física na segunda Pugh",
+      "formula": null,
+      "type": "str"
+    },
+    "B75": {
+      "value": "RC",
+      "formula": null,
+      "type": "str"
+    },
+    "C75": {
+      "value": "Critério do cliente",
+      "formula": null,
+      "type": "str"
+    },
+    "D75": {
+      "value": "RP",
+      "formula": null,
+      "type": "str"
+    },
+    "E75": {
+      "value": "Vínculos funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "F75": {
+      "value": "Vínculos funcionais",
+      "formula": null,
+      "type": "str"
+    },
+    "G75": {
+      "value": "Etapa de confirmação",
+      "formula": null,
+      "type": "str"
+    },
+    "H75": {
+      "value": "Tratamento na primeira seleção",
+      "formula": null,
+      "type": "str"
+    },
+    "I75": {
+      "value": "Tratamento na primeira seleção",
+      "formula": null,
+      "type": "str"
+    },
+    "J75": {
+      "value": "Por que a nota física depende da concepção",
+      "formula": null,
+      "type": "str"
+    },
+    "K75": {
+      "value": "Análise ou verificação requerida",
+      "formula": null,
+      "type": "str"
+    },
+    "B76": {
+      "value": "A",
+      "formula": null,
+      "type": "str"
+    },
+    "C76": {
+      "value": "Amortecer impactos do transporte",
+      "formula": "C4",
+      "type": "str"
+    },
+    "D76": {
+      "value": "RP1",
+      "formula": null,
+      "type": "str"
+    },
+    "E76": {
+      "value": "F01",
+      "formula": null,
+      "type": "str"
+    },
+    "F76": {
+      "value": "F01",
+      "formula": null,
+      "type": "str"
+    },
+    "G76": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H76": {
+      "value": "Cobertura funcional considerada; desempenho funcional preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I76": {
+      "value": "Cobertura funcional considerada; desempenho funcional preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J76": {
+      "value": "Curva e espessura do elemento resiliente, massa, apoios e transferência de energia na peça direta.",
+      "formula": null,
+      "type": "str"
+    },
+    "K76": {
+      "value": "Ensaio de aceleração",
+      "formula": "K4",
+      "type": "str"
+    },
+    "B77": {
+      "value": "B",
+      "formula": null,
+      "type": "str"
+    },
+    "C77": {
+      "value": "Imobilizar a louça",
+      "formula": "C5",
+      "type": "str"
+    },
+    "D77": {
+      "value": "RP2",
+      "formula": null,
+      "type": "str"
+    },
+    "E77": {
+      "value": "F02",
+      "formula": null,
+      "type": "str"
+    },
+    "F77": {
+      "value": "F02",
+      "formula": null,
+      "type": "str"
+    },
+    "G77": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H77": {
+      "value": "Cobertura funcional considerada; desempenho funcional preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I77": {
+      "value": "Cobertura funcional considerada; desempenho funcional preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J77": {
+      "value": "Contato, tensão e folgas do conjunto escolhido determinam o deslocamento da cerâmica.",
+      "formula": null,
+      "type": "str"
+    },
+    "K77": {
+      "value": "Ensaio de deslocamento",
+      "formula": "K5",
+      "type": "str"
+    },
+    "B78": {
+      "value": "F",
+      "formula": null,
+      "type": "str"
+    },
+    "C78": {
+      "value": "Ser de fácil movimentação",
+      "formula": "C6",
+      "type": "str"
+    },
+    "D78": {
+      "value": "RP3",
+      "formula": null,
+      "type": "str"
+    },
+    "E78": {
+      "value": "F03, F05",
+      "formula": null,
+      "type": "str"
+    },
+    "F78": {
+      "value": "F03, F05",
+      "formula": null,
+      "type": "str"
+    },
+    "G78": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H78": {
+      "value": "Cobertura funcional considerada; ergonomia / desempenho preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I78": {
+      "value": "Cobertura funcional considerada; ergonomia / desempenho preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J78": {
+      "value": "Meio auxiliar, massa total, piso e percurso determinam força; levantar é análise própria.",
+      "formula": null,
+      "type": "str"
+    },
+    "K78": {
+      "value": "Força e percurso real",
+      "formula": "K6",
+      "type": "str"
+    },
+    "B79": {
+      "value": "C",
+      "formula": null,
+      "type": "str"
+    },
+    "C79": {
+      "value": "Permitir conferência sem abrir",
+      "formula": "C7",
+      "type": "str"
+    },
+    "D79": {
+      "value": "RP4",
+      "formula": null,
+      "type": "str"
+    },
+    "E79": {
+      "value": "F04",
+      "formula": null,
+      "type": "str"
+    },
+    "F79": {
+      "value": "F04",
+      "formula": null,
+      "type": "str"
+    },
+    "G79": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H79": {
+      "value": "F04/F06 comuns ao trio; a nova Pugh não pontua visibilidade ou detecção como desempenho demonstrado.",
+      "formula": null,
+      "type": "str"
+    },
+    "J79": {
+      "value": "Geometria da barreira, apoios e iluminação determinam área visível e detecção com o dispositivo fechado.",
+      "formula": null,
+      "type": "str"
+    },
+    "K79": {
+      "value": "Área crítica e detecção",
+      "formula": "K7",
+      "type": "str"
+    },
+    "B80": {
+      "value": "G",
+      "formula": null,
+      "type": "str"
+    },
+    "C80": {
+      "value": "Ter pontos de pega definidos",
+      "formula": "C8",
+      "type": "str"
+    },
+    "D80": {
+      "value": "RP5",
+      "formula": null,
+      "type": "str"
+    },
+    "E80": {
+      "value": "F05",
+      "formula": null,
+      "type": "str"
+    },
+    "F80": {
+      "value": "F05",
+      "formula": null,
+      "type": "str"
+    },
+    "G80": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H80": {
+      "value": "Cobertura funcional considerada; interface ergonômica preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I80": {
+      "value": "Cobertura funcional considerada; interface ergonômica preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J80": {
+      "value": "Vão, posição, rigidez e acesso da pega determinam uso com mão enluvada.",
+      "formula": null,
+      "type": "str"
+    },
+    "K80": {
+      "value": "Dimensões e uso enluvado",
+      "formula": "K8",
+      "type": "str"
+    },
+    "B81": {
+      "value": "H",
+      "formula": null,
+      "type": "str"
+    },
+    "C81": {
+      "value": "Ter retirada segura da louça",
+      "formula": "C9",
+      "type": "str"
+    },
+    "D81": {
+      "value": "RP6",
+      "formula": null,
+      "type": "str"
+    },
+    "E81": {
+      "value": "F06",
+      "formula": null,
+      "type": "str"
+    },
+    "F81": {
+      "value": "F06",
+      "formula": null,
+      "type": "str"
+    },
+    "G81": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H81": {
+      "value": "Cobertura funcional considerada; segurança / desempenho preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I81": {
+      "value": "Cobertura funcional considerada; segurança / desempenho preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J81": {
+      "value": "Material, continuidade e abertura da barreira determinam retenção e exposição a fragmentos.",
+      "formula": null,
+      "type": "str"
+    },
+    "K81": {
+      "value": "Quebra controlada",
+      "formula": "K9",
+      "type": "str"
+    },
+    "B82": {
+      "value": "D",
+      "formula": null,
+      "type": "str"
+    },
+    "C82": {
+      "value": "Ser ajustável a diferentes louças",
+      "formula": "C10",
+      "type": "str"
+    },
+    "D82": {
+      "value": "RP7",
+      "formula": null,
+      "type": "str"
+    },
+    "E82": {
+      "value": "F07",
+      "formula": null,
+      "type": "str"
+    },
+    "F82": {
+      "value": "F07",
+      "formula": null,
+      "type": "str"
+    },
+    "G82": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H82": {
+      "value": "Cobertura funcional considerada; adaptabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I82": {
+      "value": "Cobertura funcional considerada; adaptabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J82": {
+      "value": "Curso, travas e geometrias do mix devem demonstrar amplitude na mesma configuração.",
+      "formula": null,
+      "type": "str"
+    },
+    "K82": {
+      "value": "Mix dimensional",
+      "formula": "K10",
+      "type": "str"
+    },
+    "B83": {
+      "value": "E",
+      "formula": null,
+      "type": "str"
+    },
+    "C83": {
+      "value": "Ser compatível com o veículo",
+      "formula": "C11",
+      "type": "str"
+    },
+    "D83": {
+      "value": "RP8",
+      "formula": null,
+      "type": "str"
+    },
+    "E83": {
+      "value": "F08, F03",
+      "formula": null,
+      "type": "str"
+    },
+    "F83": {
+      "value": "F08, F03",
+      "formula": null,
+      "type": "str"
+    },
+    "G83": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H83": {
+      "value": "Cobertura funcional considerada; interface / geometria preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I83": {
+      "value": "Cobertura funcional considerada; interface / geometria preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J83": {
+      "value": "Envelope, palete, amarração e apoios precisam ser comparados para cada concepção da estrutura encaminhada.",
+      "formula": null,
+      "type": "str"
+    },
+    "K83": {
+      "value": "Arranjo real de carga",
+      "formula": "K11",
+      "type": "str"
+    },
+    "B84": {
+      "value": "W",
+      "formula": null,
+      "type": "str"
+    },
+    "C84": {
+      "value": "Ser estável quando apoiado",
+      "formula": "C12",
+      "type": "str"
+    },
+    "D84": {
+      "value": "RP9",
+      "formula": null,
+      "type": "str"
+    },
+    "E84": {
+      "value": "F09",
+      "formula": null,
+      "type": "str"
+    },
+    "F84": {
+      "value": "F09",
+      "formula": null,
+      "type": "str"
+    },
+    "G84": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H84": {
+      "value": "Cobertura funcional considerada; estabilidade / segurança preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I84": {
+      "value": "Cobertura funcional considerada; estabilidade / segurança preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J84": {
+      "value": "Centro de massa, base, apoios e freios determinam estabilidade carregada.",
+      "formula": null,
+      "type": "str"
+    },
+    "K84": {
+      "value": "Tombamento",
+      "formula": "K12",
+      "type": "str"
+    },
+    "B85": {
+      "value": "V",
+      "formula": null,
+      "type": "str"
+    },
+    "C85": {
+      "value": "Ter baixo custo por ciclo de uso",
+      "formula": "C13",
+      "type": "str"
+    },
+    "D85": {
+      "value": "RP23",
+      "formula": null,
+      "type": "str"
+    },
+    "E85": {
+      "value": "Restrição econômica",
+      "formula": null,
+      "type": "str"
+    },
+    "F85": {
+      "value": "Restrição econômica",
+      "formula": null,
+      "type": "str"
+    },
+    "G85": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H85": {
+      "value": "Restrição de viabilidade; sem vantagem de custo presumida.",
+      "formula": null,
+      "type": "str"
+    },
+    "I85": {
+      "value": "Restrição de viabilidade; sem vantagem de custo presumida.",
+      "formula": null,
+      "type": "str"
+    },
+    "J85": {
+      "value": "Aquisição/vida, retorno, manutenção, consumíveis, preparo, embalagem e avaria devem usar fronteira comum.",
+      "formula": null,
+      "type": "str"
+    },
+    "K85": {
+      "value": "Custeio completo",
+      "formula": "K13",
+      "type": "str"
+    },
+    "B86": {
+      "value": "I",
+      "formula": null,
+      "type": "str"
+    },
+    "C86": {
+      "value": "Ser de uso intuitivo",
+      "formula": "C14",
+      "type": "str"
+    },
+    "D86": {
+      "value": "RP10",
+      "formula": null,
+      "type": "str"
+    },
+    "E86": {
+      "value": "F16",
+      "formula": null,
+      "type": "str"
+    },
+    "F86": {
+      "value": "F16",
+      "formula": null,
+      "type": "str"
+    },
+    "G86": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H86": {
+      "value": "F16 comum ao trio; ações e erros dependem de ajustes, uniões e comunicação definidos na concepção.",
+      "formula": null,
+      "type": "str"
+    },
+    "J86": {
+      "value": "Sequência real e comunicação de uso determinam erros e facilidade de operação; não apenas remover a caixa.",
+      "formula": null,
+      "type": "str"
+    },
+    "K86": {
+      "value": "Uso sem treinamento",
+      "formula": "K14",
+      "type": "str"
+    },
+    "B87": {
+      "value": "K",
+      "formula": null,
+      "type": "str"
+    },
+    "C87": {
+      "value": "Ser empilhável",
+      "formula": "C15",
+      "type": "str"
+    },
+    "D87": {
+      "value": "RP11",
+      "formula": null,
+      "type": "str"
+    },
+    "E87": {
+      "value": "F11",
+      "formula": null,
+      "type": "str"
+    },
+    "F87": {
+      "value": "F11",
+      "formula": null,
+      "type": "str"
+    },
+    "G87": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H87": {
+      "value": "Cobertura funcional considerada; desempenho estrutural preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I87": {
+      "value": "Cobertura funcional considerada; desempenho estrutural preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J87": {
+      "value": "Caminho estrutural e dimensões precisam transmitir compressão sem concentrar carga na cerâmica.",
+      "formula": null,
+      "type": "str"
+    },
+    "K87": {
+      "value": "Compressão",
+      "formula": "K15",
+      "type": "str"
+    },
+    "B88": {
+      "value": "L",
+      "formula": null,
+      "type": "str"
+    },
+    "C88": {
+      "value": "Ter desempenho uniforme",
+      "formula": "C16",
+      "type": "str"
+    },
+    "D88": {
+      "value": "RP12",
+      "formula": null,
+      "type": "str"
+    },
+    "E88": {
+      "value": "F01",
+      "formula": null,
+      "type": "str"
+    },
+    "F88": {
+      "value": "F01",
+      "formula": null,
+      "type": "str"
+    },
+    "G88": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H88": {
+      "value": "Cobertura funcional considerada; qualidade / uniformidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I88": {
+      "value": "Cobertura funcional considerada; qualidade / uniformidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J88": {
+      "value": "Tolerâncias, contato e repetibilidade do amortecedor determinam uniformidade entre unidades.",
+      "formula": null,
+      "type": "str"
+    },
+    "K88": {
+      "value": "Repetição entre unidades",
+      "formula": "K16",
+      "type": "str"
+    },
+    "B89": {
+      "value": "O",
+      "formula": null,
+      "type": "str"
+    },
+    "C89": {
+      "value": "Ser reutilizável",
+      "formula": "C17",
+      "type": "str"
+    },
+    "D89": {
+      "value": "RP18",
+      "formula": null,
+      "type": "str"
+    },
+    "E89": {
+      "value": "F01, F02, F11, F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "F89": {
+      "value": "F01, F02, F11, F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "G89": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H89": {
+      "value": "Cobertura funcional considerada; durabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I89": {
+      "value": "Cobertura funcional considerada; durabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J89": {
+      "value": "Desgaste, resposta do amortecedor e contatos diretos precisam manter as funções nos ciclos.",
+      "formula": null,
+      "type": "str"
+    },
+    "K89": {
+      "value": "Ensaio cíclico",
+      "formula": "K17",
+      "type": "str"
+    },
+    "B90": {
+      "value": "J",
+      "formula": null,
+      "type": "str"
+    },
+    "C90": {
+      "value": "Ser compacto",
+      "formula": "C18",
+      "type": "str"
+    },
+    "D90": {
+      "value": "RP14",
+      "formula": null,
+      "type": "str"
+    },
+    "E90": {
+      "value": "F03, F08, F14",
+      "formula": null,
+      "type": "str"
+    },
+    "F90": {
+      "value": "F03, F08, F14",
+      "formula": null,
+      "type": "str"
+    },
+    "G90": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H90": {
+      "value": "Cobertura funcional considerada; restrição geométrica preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I90": {
+      "value": "Cobertura funcional considerada; restrição geométrica preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J90": {
+      "value": "Dimensões carregadas e interfaces externas determinam cubagem; recolher vazio não demonstra a meta.",
+      "formula": null,
+      "type": "str"
+    },
+    "K90": {
+      "value": "Cubagem e retorno",
+      "formula": "K18",
+      "type": "str"
+    },
+    "B91": {
+      "value": "P",
+      "formula": null,
+      "type": "str"
+    },
+    "C91": {
+      "value": "Ser resistente a intempéries",
+      "formula": "C19",
+      "type": "str"
+    },
+    "D91": {
+      "value": "RP13",
+      "formula": null,
+      "type": "str"
+    },
+    "E91": {
+      "value": "F11",
+      "formula": null,
+      "type": "str"
+    },
+    "F91": {
+      "value": "F11",
+      "formula": null,
+      "type": "str"
+    },
+    "G91": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H91": {
+      "value": "Cobertura funcional considerada; condição ambiental preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I91": {
+      "value": "Cobertura funcional considerada; condição ambiental preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J91": {
+      "value": "Materiais, juntas e condicionamento determinam a capacidade de compressão após umidade.",
+      "formula": null,
+      "type": "str"
+    },
+    "K91": {
+      "value": "Condicionamento e compressão",
+      "formula": "K19",
+      "type": "str"
+    },
+    "B92": {
+      "value": "M",
+      "formula": null,
+      "type": "str"
+    },
+    "C92": {
+      "value": "Ter indicação visual de uso",
+      "formula": "C20",
+      "type": "str"
+    },
+    "D92": {
+      "value": "RP16",
+      "formula": null,
+      "type": "str"
+    },
+    "E92": {
+      "value": "F16",
+      "formula": null,
+      "type": "str"
+    },
+    "F92": {
+      "value": "F16",
+      "formula": null,
+      "type": "str"
+    },
+    "G92": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H92": {
+      "value": "Cobertura funcional considerada; interface informacional preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I92": {
+      "value": "Cobertura funcional considerada; interface informacional preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J92": {
+      "value": "Símbolos, orientação e indicação do fechamento precisam ser legíveis no uso real.",
+      "formula": null,
+      "type": "str"
+    },
+    "K92": {
+      "value": "Legibilidade e fechamento",
+      "formula": "K20",
+      "type": "str"
+    },
+    "B93": {
+      "value": "T",
+      "formula": null,
+      "type": "str"
+    },
+    "C93": {
+      "value": "Ter peças modulares",
+      "formula": "C21",
+      "type": "str"
+    },
+    "D93": {
+      "value": "RP20",
+      "formula": null,
+      "type": "str"
+    },
+    "E93": {
+      "value": "F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "F93": {
+      "value": "F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "G93": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H93": {
+      "value": "Cobertura funcional considerada; restrição arquitetural preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I93": {
+      "value": "Cobertura funcional considerada; restrição arquitetural preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J93": {
+      "value": "Interfaces definidas precisam permitir troca independente dos módulos propostos.",
+      "formula": null,
+      "type": "str"
+    },
+    "K93": {
+      "value": "Troca independente",
+      "formula": "K21",
+      "type": "str"
+    },
+    "B94": {
+      "value": "U",
+      "formula": null,
+      "type": "str"
+    },
+    "C94": {
+      "value": "Ter montagem em poucas etapas",
+      "formula": "C22",
+      "type": "str"
+    },
+    "D94": {
+      "value": "RP22",
+      "formula": null,
+      "type": "str"
+    },
+    "E94": {
+      "value": "F22",
+      "formula": null,
+      "type": "str"
+    },
+    "F94": {
+      "value": "F22",
+      "formula": null,
+      "type": "str"
+    },
+    "G94": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H94": {
+      "value": "Cobertura funcional considerada; montabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I94": {
+      "value": "Cobertura funcional considerada; montabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J94": {
+      "value": "Fechos, encaixes e número de operações determinam ações e retenção na montagem.",
+      "formula": null,
+      "type": "str"
+    },
+    "K94": {
+      "value": "Contagem de ações",
+      "formula": "K22",
+      "type": "str"
+    },
+    "B95": {
+      "value": "Q",
+      "formula": null,
+      "type": "str"
+    },
+    "C95": {
+      "value": "Ter manutenção simples",
+      "formula": "C23",
+      "type": "str"
+    },
+    "D95": {
+      "value": "RP15",
+      "formula": null,
+      "type": "str"
+    },
+    "E95": {
+      "value": "F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "F95": {
+      "value": "F15, F17, F22",
+      "formula": null,
+      "type": "str"
+    },
+    "G95": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H95": {
+      "value": "Cobertura funcional considerada; manutenibilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I95": {
+      "value": "Cobertura funcional considerada; manutenibilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J95": {
+      "value": "Acesso, sujeira, remoção de desgaste e remontagem determinam o recondicionamento.",
+      "formula": null,
+      "type": "str"
+    },
+    "K95": {
+      "value": "Cronometragem",
+      "formula": "K23",
+      "type": "str"
+    },
+    "B96": {
+      "value": "N",
+      "formula": null,
+      "type": "str"
+    },
+    "C96": {
+      "value": "Ter identificação visível",
+      "formula": "C24",
+      "type": "str"
+    },
+    "D96": {
+      "value": "RP21",
+      "formula": null,
+      "type": "str"
+    },
+    "E96": {
+      "value": "F21",
+      "formula": null,
+      "type": "str"
+    },
+    "F96": {
+      "value": "F21",
+      "formula": null,
+      "type": "str"
+    },
+    "G96": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H96": {
+      "value": "Cobertura funcional considerada; rastreabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I96": {
+      "value": "Cobertura funcional considerada; rastreabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J96": {
+      "value": "Marcação permanente deve preservar a identidade única após uso, limpeza e troca de partes.",
+      "formula": null,
+      "type": "str"
+    },
+    "K96": {
+      "value": "Legibilidade após ciclos",
+      "formula": "K24",
+      "type": "str"
+    },
+    "B97": {
+      "value": "R",
+      "formula": null,
+      "type": "str"
+    },
+    "C97": {
+      "value": "Ser de fácil desmontagem",
+      "formula": "C25",
+      "type": "str"
+    },
+    "D97": {
+      "value": "RP17",
+      "formula": null,
+      "type": "str"
+    },
+    "E97": {
+      "value": "F17",
+      "formula": null,
+      "type": "str"
+    },
+    "F97": {
+      "value": "F17",
+      "formula": null,
+      "type": "str"
+    },
+    "G97": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H97": {
+      "value": "Cobertura funcional considerada; desmontabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I97": {
+      "value": "Cobertura funcional considerada; desmontabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J97": {
+      "value": "Fechos e acesso determinam o tempo de liberar as partes.",
+      "formula": null,
+      "type": "str"
+    },
+    "K97": {
+      "value": "Cronometragem",
+      "formula": "K25",
+      "type": "str"
+    },
+    "B98": {
+      "value": "S",
+      "formula": null,
+      "type": "str"
+    },
+    "C98": {
+      "value": "Ter materiais recicláveis",
+      "formula": "C26",
+      "type": "str"
+    },
+    "D98": {
+      "value": "RP19",
+      "formula": null,
+      "type": "str"
+    },
+    "E98": {
+      "value": "F17, F19",
+      "formula": null,
+      "type": "str"
+    },
+    "F98": {
+      "value": "F17, F19",
+      "formula": null,
+      "type": "str"
+    },
+    "G98": {
+      "value": "2ª Pugh: C1/C2/C3",
+      "formula": null,
+      "type": "str"
+    },
+    "H98": {
+      "value": "Cobertura funcional considerada; sustentabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "I98": {
+      "value": "Cobertura funcional considerada; sustentabilidade preservado como critério.",
+      "formula": null,
+      "type": "str"
+    },
+    "J98": {
+      "value": "Materiais, separabilidade e cadeia regional precisam sustentar a fração reciclável.",
+      "formula": null,
+      "type": "str"
+    },
+    "K98": {
+      "value": "Composição e cadeia regional",
+      "formula": "K26",
+      "type": "str"
+    },
+    "B101": {
+      "value": "As 23 especificações e os pesos do cliente continuam preservados. Primeira Pugh: organização MF-A/MF-B/MF-C. Segunda Pugh: combinações físicas C1/C2/C3, após revisar sua aderência à estrutura funcional. Notas de desempenho exigem base comparável, sem substituir ausência por zero.",
+      "formula": null,
+      "type": "str"
+    }
+  }
+}

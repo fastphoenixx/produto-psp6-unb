@@ -1,0 +1,475 @@
+{
+  "date": "2026-10-21",
+  "sourceSha256": "71646ffc65fa0adeed0062df384d982564b5f683835c12e4fe54395ec4f02a95",
+  "candidateSha256": "2499059271505816447896b362577ba25df4d8d95d7655eb63b355a6a347004d",
+  "sheetCount": 33,
+  "changedParts": [
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet21.xml",
+    "xl/worksheets/sheet22.xml",
+    "xl/worksheets/sheet23.xml",
+    "xl/worksheets/sheet26.xml",
+    "xl/worksheets/sheet27.xml",
+    "xl/worksheets/sheet28.xml",
+    "xl/worksheets/sheet30.xml",
+    "xl/styles.xml"
+  ],
+  "styleComponentsAdded": {
+    "fonts": 3,
+    "fills": 0,
+    "borders": 0,
+    "cellStyleXfs": 0,
+    "cellXfs": 32
+  },
+  "sheetEdits": [
+    {
+      "sheet": "Matriz Pugh das Modelagens",
+      "authorizedCells": 583,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Modelagens Alternativas",
+      "authorizedCells": 1,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Matriz Morfologica ",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "MIM",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Arquitetura Modular",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Concepções",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Matriz Pugh das Concepções",
+      "authorizedCells": 2,
+      "unrelatedCellsPreserved": true
+    },
+    {
+      "sheet": "Revisão",
+      "authorizedCells": 12,
+      "unrelatedCellsPreserved": true
+    }
+  ],
+  "unrelatedWorksheetXmlByteIdentical": true,
+  "requirementsQfdWeightsAndTargetsPreserved": true,
+  "seventeenFunctionCatalogAnd23LinksPreserved": true,
+  "mimNumericJudgmentsAndFormulasPreserved": true,
+  "pughTotals": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "pughDirection": "Seleção em aberto",
+  "pughValidationsScopedToCurrentScores": true,
+  "images": [],
+  "imageCountPreserved": 6,
+  "nativeCellsAndImagesCoexist": true,
+  "packageRelationshipsValid": true,
+  "finalSha256": "2499059271505816447896b362577ba25df4d8d95d7655eb63b355a6a347004d",
+  "criteria": 23,
+  "catalogFunctionsRepresented": 17,
+  "equivalencesPerAlternative": 8,
+  "pendingPerAlternative": 15,
+  "completeScore": [
+    0,
+    "Pendente",
+    "Pendente"
+  ],
+  "selectionStatus": "Seleção em aberto",
+  "formulaTests": [
+    {
+      "name": "abrangência inicial: 8 equivalências e 15 AV por alternativa",
+      "actual": [
+        [
+          8,
+          8
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "expected": [
+        [
+          8,
+          8
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "resultado inicial em aberto",
+      "actual": "Seleção em aberto",
+      "expected": "Seleção em aberto",
+      "pass": true
+    },
+    {
+      "name": "AV impede saldo completo",
+      "actual": [
+        0,
+        "Pendente",
+        "Pendente"
+      ],
+      "expected": [
+        0,
+        "Pendente",
+        "Pendente"
+      ],
+      "pass": true
+    },
+    {
+      "name": "saldo parcial não substitui conclusão",
+      "actual": [
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "vantagem isolada não encerra seleção com AV",
+      "actual": "Seleção em aberto",
+      "expected": "Seleção em aberto",
+      "pass": true
+    },
+    {
+      "name": "parcial atualiza",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "nota vazia é inválida",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "vazio bloqueia saldo",
+      "actual": "Rever notas",
+      "expected": "Rever notas",
+      "pass": true
+    },
+    {
+      "name": "vazio bloqueia seleção",
+      "actual": "Rever notas",
+      "expected": "Rever notas",
+      "pass": true
+    },
+    {
+      "name": "nota fora da escala é inválida",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "texto fora da escala é inválido",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "comparação completa sem diferenças registra empate",
+      "actual": "Empate funcional",
+      "expected": "Empate funcional",
+      "pass": true
+    },
+    {
+      "name": "comparação completa permite indicação MF-B",
+      "actual": "MF-B preliminar",
+      "expected": "MF-B preliminar",
+      "pass": true
+    },
+    {
+      "name": "novo saldo completo permite indicação MF-C",
+      "actual": "MF-C preliminar",
+      "expected": "MF-C preliminar",
+      "pass": true
+    },
+    {
+      "name": "referência pode ter maior saldo",
+      "actual": "MF-A preliminar",
+      "expected": "MF-A preliminar",
+      "pass": true
+    },
+    {
+      "name": "datum fora de zero bloqueia comparação",
+      "actual": "Rever notas",
+      "expected": "Rever notas",
+      "pass": true
+    },
+    {
+      "name": "notas restauradas",
+      "actual": [
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          "AV",
+          "AV"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "resultado restaurado",
+      "actual": "Seleção em aberto",
+      "expected": "Seleção em aberto",
+      "pass": true
+    }
+  ],
+  "formulaErrorCells": [],
+  "nativeExcelUiTested": false,
+  "physicalTestsPerformed": false,
+  "imagesAndChartUnchanged": true,
+  "functionGlobalFastPartialModelsUnchanged": true,
+  "reportAndFigmaPughUpdated": false,
+  "visualReview": "passed"
+}
