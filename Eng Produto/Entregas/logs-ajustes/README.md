@@ -4,6 +4,10 @@ Cada registro reúne o feedback recebido, a correção aplicada, o trecho da ent
 
 As conferências e os hashes descrevem a versão salva naquela rodada. As entregas podem receber revisões posteriores, registradas em outra entrada.
 
+- [Redação executiva e fundamentação técnica em 26 de outubro de 2026](2026-10-26-redacao-executiva/registro-ajustes.md): análise para apresentação, dados externos atribuídos, cálculos e critérios de aceitação; preservação das metas, notas e seleção M1.
+
+- [Relatório integrado à entrega funcional em 26 de outubro de 2026](2026-10-26-relatorio-integrado/registro-ajustes.md): textos, seis diagramas vetoriais no visual acadêmico, metas atuais, Pugh dos 23 requisitos e seleção M1; PDF compilado e conferido.
+
 - [Apresentação adotada como base em 26 de outubro de 2026](2026-10-26-base-apresentacao/registro-ajustes.md): função global Proteger louça, sete parciais, 21 elementares e sete complementares; M1/M2/M3, Pugh ponderada +7/0/−4 e seleção M1. Planilha e Figma alinhados, vínculos posteriores revistos e escores físicos preservados.
 
 - [Feedback 2 da Equipe 2 registrado em 14 de outubro de 2026](2026-10-14-feedback-2-equipe-2/registro-ajustes.md): fechamento do pré-desenvolvimento, revisão do escopo, ciclo de vida, Kano–Mudge e validação das metas.

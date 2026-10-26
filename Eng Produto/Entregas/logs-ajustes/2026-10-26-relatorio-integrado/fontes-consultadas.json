@@ -1,0 +1,25 @@
+[
+  {
+    "file": "base-grupo5.docx",
+    "gitCommit": "cc16e18",
+    "path": "Eng Produto/Entregas/Exemplos de entregas - base/Relatório Final Revisado - Grupo 5.docx",
+    "sha256": "d68d54d4005c3580292335eb8423c5a471a20ca3affd5da232cb275ee187dd0f"
+  },
+  {
+    "file": "aula16.pptx",
+    "gitCommit": "cc16e18",
+    "path": "Eng Produto/Engenharia de Produto - cópia/Slides do Conteúdo/Aula 16_Projeto Conceitual_ Modelagem Funcional.pptx",
+    "sha256": "22b0cb4bc8b9de3533f9c9cc043c6cb9a15ecbc869a7e190008a42681d5f7ce2"
+  },
+  {
+    "file": "aula4-selecao.pptx",
+    "gitCommit": "cc16e18",
+    "path": "Eng Produto/Engenharia de Produto - cópia/Slides do Conteúdo/Aula 4 - Projeto Conceitual_ Seleção_Modelagem Funcional.pptx",
+    "sha256": "d17c3cba96b64064e4d8aaf541e0f4c29ea8ded3a594984d5106dc98a1a72957"
+  },
+  {
+    "file": "apresentacao-adotada",
+    "url": "https://docs.google.com/presentation/d/1PIiw4DZbp-6MtumhLrUObnUPZhm7Tn64/edit",
+    "sha256": "3b01a6858fdf41237cbc007bef701be82660b16a49d670b636012454bd799259"
+  }
+]

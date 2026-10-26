@@ -26,6 +26,10 @@ Retirar a vantagem de imobilização reduz M1 para +2; retirar também a de insp
 
 Nas etapas posteriores, os vínculos e encaminhamentos foram ajustados para M1. Princípios, concepções, portadores, agrupamentos e escores anteriores continuam estudos a revisar e completar para as 21 elementares e sete complementares antes da segunda Pugh. As metas e os valores numéricos da MIM e da segunda Pugh foram preservados.
 
+## Relatório integrado
+
+O [relatório acadêmico atualizado](../relatorio/Relatorio_Engenharia_Produto_Loucas.pdf), versão 0.19 de 26/10, incorpora textos e seis diagramas vetoriais no formato do relatório, as 23 metas vigentes e a primeira Pugh +7/0/−4. A consolidação vai até a seleção funcional M1; as etapas físicas posteriores continuam estudos a revisar. Ver o [registro da integração](../logs-ajustes/2026-10-26-relatorio-integrado/registro-ajustes.md).
+
 ## Histórico
 
 MF-A/MF-B/MF-C e a escolha MF-B de 25/10 foram substituídos nesta entrega. As pranchas anteriores estão na página **Histórico até 25-10-2026** do Figma. O [relatório complementar de 25/10](../relatorio-modelagem-funcional/README.md) e o PDF anterior desta pasta permanecem históricos e não reproduzem a primeira Pugh vigente.

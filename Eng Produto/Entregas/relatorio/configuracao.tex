@@ -3,9 +3,13 @@
 % segue integralmente as etapas padronizadas do relatório-base da disciplina.
 
 \usepackage{fontspec}
-\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{Liberation Serif}}
-\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{Liberation Sans}}
-\IfFontExistsTF{Menlo}{\setmonofont{Menlo}}{\setmonofont{Liberation Mono}}
+\IfFileExists{fontes/TimesNewRoman.ttf}{%
+  \setmainfont[Path=fontes/,UprightFont=TimesNewRoman.ttf,BoldFont=TimesNewRoman-Bold.ttf,ItalicFont=TimesNewRoman-Italic.ttf,BoldItalicFont=TimesNewRoman-BoldItalic.ttf]{TimesNewRoman}%
+}{\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}}
+\IfFileExists{fontes/Arial.ttf}{%
+  \setsansfont[Path=fontes/,UprightFont=Arial.ttf,BoldFont=Arial-Bold.ttf,ItalicFont=Arial-Italic.ttf,BoldItalicFont=Arial-BoldItalic.ttf]{Arial}%
+}{\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{TeX Gyre Heros}}}
+\IfFileExists{fontes/lmmono10-regular.otf}{\setmonofont[Path=fontes/]{lmmono10-regular.otf}}{\setmonofont{Latin Modern Mono}}
 
 \usepackage[brazil]{babel}
 \usepackage{geometry}
@@ -15,6 +19,8 @@
 \onehalfspacing
 
 \usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage[table]{xcolor}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning,calc}
 \usepackage{booktabs}
@@ -24,7 +30,6 @@
 \usepackage{ragged2e}
 \usepackage{caption}
 \usepackage{float}
-\usepackage[table]{xcolor}
 \usepackage{fancyhdr}
 \usepackage{etoolbox}
 \usepackage[authoryear,round]{natbib}
@@ -72,6 +77,11 @@
 \newcommand{\notaquadro}[1]{\par\vspace{2pt}\noindent{\footnotesize Nota: #1}}
 \newcommand{\pendente}[1]{\par\noindent{\small\textbf{Ponto a validar:} \textit{#1}}\par}
 \newcommand{\etapafutura}[1]{\par\noindent{\small\textit{#1}}\par}
+
+% Importa linhas sem inserir comandos de arquivo dentro do alinhamento da tabela.
+\makeatletter
+\newcommand{\linhasquadro}[1]{\@@input #1 }
+\makeatother
 
 \AtBeginEnvironment{itemize}{\setlength{\itemsep}{0.2em}\setlength{\topsep}{0.4em}}
 \AtBeginEnvironment{enumerate}{\setlength{\itemsep}{0.2em}\setlength{\topsep}{0.4em}}

@@ -1,7 +1,7 @@
 \subsection{Matriz Indicadora de Módulos}
 \label{sec:mim}
 
-A MIM foi elaborada para a C1 antes da prioridade dada à fronteira M1. A matriz reúne 12 direcionadores e 13 portadores, com OP-01 fora da base. Os 156 escores e suas somas são preservados como histórico de julgamentos de projeto, sem selecionar C1. A descrição dos portadores foi adaptada para a peça descoberta, mas isso não revalida os escores. A mudança exige reavaliar os motivos de modularização, as interfaces e os agrupamentos antes de adotá-los para M1. A planilha sinaliza essa pendência em todas as relações do registro.
+O estudo exploratório de modularização utiliza C1 como configuração de referência e relaciona 12 direcionadores a 13 portadores. OP-01 é uma opção separada, fora da configuração base. Os 156 escores descrevem motivos de separação na configuração de referência; não constituem seleção de C1 nem homologação de sua arquitetura. Sua interpretação considera o contato direto com a cerâmica, o acesso visual e a continuidade da barreira da M1.
 
 A MIM indica motivos para modularizar e candidatos a agrupamento; interfaces e acoplamentos também precisam ser examinados \citep{erixon1998,blees2009}. A escala adotada é 0 (sem motivo identificado), 1 (fraco), 3 (médio), 5 (forte), conforme a legenda do material-base da disciplina \citep{basemim}. A literatura consultada apresenta forte como 9; a convenção da base foi mantida explicitamente, sem atribuir-lhe a escala clássica.
 
@@ -28,10 +28,10 @@ D12 & Reciclagem & Separar materiais e facilitar a destinação. \\
 Carry-over trata de reaproveitar projeto entre gerações, não de usar a mesma unidade por vinte ciclos. Compra de produto pronto não equivale a comprar polímero ou painel transparente. D03 ficou zerado porque não há roteiro de alterações futuras; D05, porque estilo não integra o recorte. Zero explicita ausência de motivo de modularização e não dispensa função ou requisito.
 
 \begin{table}[H]
-\centering\scriptsize\caption{Portadores propostos para C1 sob M1, com julgamentos a reavaliar}\label{tab:mim-portadores}
+\centering\scriptsize\caption{Portadores da configuração exploratória C1}\label{tab:mim-portadores}
 \begin{tabularx}{\textwidth}{L{0.8cm}L{3.7cm}YL{2.5cm}}
 \toprule\textbf{ID}&\textbf{Função}&\textbf{Portador proposto}&\textbf{RP principais}\\\midrule
-S01 & Amortecer impacto & Calços de EPP com assento e retenção a definir & RP1, RP12, RP13, RP18 \\
+S01 & Amortecer impacto & Calços de EPP com assento e retenção próprios & RP1, RP12, RP13, RP18 \\
 S02 & Imobilizar louça & Cintas com tensão limitada e apoios protegidos na cerâmica & RP2 \\
 S03 & Acomodar variação & Guias deslizantes com curso e trava definidos & RP7 \\
 S04 & Expor condição & Visor na barreira do próprio dispositivo, sobre peça descoberta & RP4, RP6 \\
@@ -48,10 +48,10 @@ S13* & Registrar evento (OP-01) & Estudo de indicador comercial ou registrador &
 \fonte{Função Global, morfológica e C1. S13* é opção de estudo, sem inclusão na referência.}
 \end{table}
 
-Manutenção, vida, reciclagem, troca e custo são critérios transversais (RP15, RP18, RP19, RP20 e RP23), examinados sobre os portadores. O catálogo distingue 17 funções: F15 viabiliza acesso e F19 separação material; esses suportes são distribuídos nas interfaces. S10 reúne uso e identidade (F16 e F21). Uniformidade qualifica F01 e umidade qualifica F11. S12 recolhe partes no vazio, sem comprovar RP14 no estado carregado. Sob M1, S04 deve permitir acesso real através da própria barreira, com a peça descoberta e sem depender de S13. Apoios e cintas exigem avaliação de pressão sobre a cerâmica. Os escores herdados não demonstram que essas novas interfaces estão resolvidas.
+Manutenção, vida, reciclagem, troca e custo são critérios transversais (RP15, RP18, RP19, RP20 e RP23), examinados sobre os portadores. O catálogo atual da M1 distingue 21 elementares e sete complementares. C03/C04 viabilizam acesso e reposição; C07 apoia a separação material. Essas capacidades se distribuem nas interfaces e compõem o critério de cobertura funcional dos portadores. S10 reúne Indicar fechamento (E17) e Exibir identidade (E18). Uniformidade qualifica E04/E05 e umidade qualifica E06. S12 apoia o recolhimento no vazio, sem comprovar RP14 no estado carregado. Sob M1, S04 deve permitir acesso real através da própria barreira, com a peça descoberta e sem depender de S13. Apoios e cintas exigem avaliação de pressão sobre a cerâmica. A adequação de cada interface depende dos requisitos físicos, além de sua pontuação na MIM.
 
 \begin{table}[H]
-\centering\scriptsize\caption{Escores históricos da MIM da C1, sujeitos a reavaliação sob M1}\label{tab:mim-pontos}
+\centering\scriptsize\caption{Escores de referência da MIM para a configuração C1}\label{tab:mim-pontos}
 \begingroup\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.25}
 \begin{tabularx}{\textwidth}{L{3.8cm}*{13}{>{\centering\arraybackslash}X}}
 \toprule\textbf{Direcionador}&\textbf{S01}&\textbf{S02}&\textbf{S03}&\textbf{S04}&\textbf{S05}&\textbf{S06}&\textbf{S07}&\textbf{S08}&\textbf{S09}&\textbf{S10}&\textbf{S11}&\textbf{S12}&\textbf{S13*}\\\midrule
@@ -70,26 +70,26 @@ Reciclagem & 5 & 3 & 3 & 3 & 1 & 1 & 5 & 3 & 3 & 0 & 1 & 3 & 3 \\
 \midrule\textbf{Soma bruta}&36 & 27 & 28 & 26 & 13 & 16 & 25 & 20 & 23 & 13 & 16 & 23 & 31\\
 \textbf{Posição na base}&1 & 3 & 2 & 4 & 11 & 9 & 5 & 8 & 6 & 11 & 9 & 6 & --\\
 \bottomrule\end{tabularx}\endgroup
-\fonte{Julgamentos anteriores à mudança para M1, preservados para rastreio. S13* não participa da base. As notas ainda não foram revalidadas para proteção direta.}
+\fonte{Estudo exploratório da configuração C1, escala 0/1/3/5. S13* é opção externa à base. Os escores são julgamentos de modularização e não resultados experimentais.}
 \end{table}
 
-Na avaliação histórica, amortecimento (S01, 36) reuniu motivos fortes em fabricação, teste, manutenção e separação material. Ajuste (S03, 28) e imobilização (S02, 27) concentraram variação dimensional e reposição de desgaste. Inspeção (S04, 26) e retenção (S07, 25) exigiram combinar acesso e fechamento. Esses resultados orientam a reavaliação dos perfis sob M1; não são uma seleção das quatro maiores colunas nem importância funcional do cliente.
+No perfil de referência, amortecimento (S01, 36) reuniu motivos fortes em fabricação, teste, manutenção e separação material. Ajuste (S03, 28) e imobilização (S02, 27) concentraram variação dimensional e reposição de desgaste. Inspeção (S04, 26) e retenção (S07, 25) exigiram combinar acesso e fechamento. As somas indicam concentração de motivos, enquanto o agrupamento considera também interfaces, materiais e compartilhamento de estrutura. Não se usa a posição da coluna como corte para escolher os módulos.
 
-A planilha calcula somas e posições com empates, inclui OP-01 apenas pelo controle explícito e impede uma soma válida com nota ausente ou fora de 0/1/3/5. O registro conserva a nota histórica e sinaliza a reavaliação da fronteira M1; se a nota mudar, sinaliza também a revisão do julgamento. As somas continuam calculáveis como histórico, sem autorizar a transferência para a nova arquitetura. Não há agrupamento automático por pontuação.
+A escala representa ausência, relação fraca, média e forte entre portador e direcionador. Somar pontuações auxilia a leitura dos perfis; funções, interfaces e requisitos de reposição determinam a interpretação física.
 
 Uma análise de sensibilidade substituiu 5 por 9 apenas para comparar a convenção da base com a escala consultada. As posições mudam: por exemplo, retenção passa de 25 para 37, e imobilização de 27 para 35. Os motivos para separar amortecimento, ajuste/imobilização e barreira/inspeção permanecem identificáveis; o corpo comum continua sustentado por interfaces compartilhadas. Esse teste não prova robustez a qualquer julgamento. A ordenação não deve ser usada como corte arbitrário do número de módulos.
 
 \subsection{Arquitetura do Produto}
 \label{sec:arquitetura-mim}
 
-A análise anterior de perfis e vínculos físicos indicou quatro núcleos para C1: MD1 estrutura; MD2 ajuste e imobilização; MD3 amortecimento; MD4 contenção e inspeção. Eles permanecem hipóteses a reavaliar sob M1. MD6 é opção de evento, fora da referência. Uso e identidade do antigo MD5 foram integrados a MD1, pois cava e gravação pertencem ao corpo. A numeração de MD6 foi preservada para rastrear a opção anterior.
+A arquitetura exploratória da C1 organiza quatro núcleos: MD1 estrutura; MD2 ajuste e imobilização; MD3 amortecimento; MD4 contenção e inspeção. Pega, orientação e identidade integram o corpo estrutural por compartilharem suas interfaces. MD6 identifica a opção de monitoramento, externa à M1 base. Esses núcleos são uma hipótese de organização física, distinta da seleção funcional.
 
 \begin{table}[H]
-\centering\scriptsize\caption{Agrupamentos herdados a reavaliar para a proteção direta}\label{tab:mim-modulos}
+\centering\scriptsize\caption{Núcleos exploratórios da arquitetura C1}\label{tab:mim-modulos}
 \begin{tabularx}{\textwidth}{L{0.8cm}L{3cm}L{3.1cm}Y}
 \toprule\textbf{ID}&\textbf{Núcleo}&\textbf{Portadores}&\textbf{Motivo e limite}\\\midrule
 MD1 & Estrutura, pega e circulação & S05, S06, S08, S09, S10, S11, S12 & Predominam unidade comum e carry-over. Pega, carga, apoio, recolhimento e identidade compartilham o corpo; separar cada função aumentaria interfaces estruturais. Fechos podem ser peças de reposição internas, sem se tornarem automaticamente módulos. \\
-MD2 & Ajuste e imobilização & S02, S03 & Cintas e guias atuam sobre a peça descoberta; coordenar curso, tensão, área de apoio e pressão na cerâmica. Reavaliar os motivos de agrupamento herdados. \\
+MD2 & Ajuste e imobilização & S02, S03 & Cintas e guias atuam sobre a peça descoberta; coordenar curso, tensão, área de apoio e pressão na cerâmica. O compartilhamento da interface coordena regulagem e imobilização. \\
 MD3 & Amortecimento & S01 & Processo, teste em separado, manutenção e reciclagem são fortes. O calço tem material e vida próprios, sem exigir descarte do corpo. \\
 MD4 & Contenção e inspeção & S04, S07 & Teste, manutenção, processo e fim de vida indicam separação da estrutura. O agrupamento entre visor e barreira é condicional ao fechamento contínuo e ao acesso real à cerâmica; seus perfis não são idênticos. \\
 MD6* & Registro de evento opcional & S13 & Tecnologia, fornecedor, teste separado e atualização favorecem separação se OP-01 entrar no escopo. Alto escore não autoriza sua inclusão. \\
@@ -104,13 +104,13 @@ Não se somaram escores por módulo para comparar grupos de tamanhos diferentes.
 \begin{table}[H]
 \centering\scriptsize\caption{Interfaces e verificação da troca independente}\label{tab:mim-interfaces}
 \begin{tabularx}{\textwidth}{L{1.1cm}L{3.7cm}YY}
-\toprule\textbf{ID}&\textbf{Interface a definir}&\textbf{Troca a executar}&\textbf{Verificação após reposição}\\\midrule
+\toprule\textbf{ID}&\textbf{Interface}&\textbf{Substituição independente}&\textbf{Critério após reposição}\\\midrule
 I12&Base--ajuste: fixação, datum, curso e trava&Retirar/repor MD2 sem desmontar MD3/MD4&Amplitude sem troca no ajuste e deslocamento residual\\
 I13&Base/ajuste--calço: assento, contato e retenção&Retirar/repor MD3 mantendo os outros núcleos&Resposta do calço e aceleração, dispersão e vida do conjunto\\
 I14&Base/ajuste--barreira: fixação, vedação e acesso óptico&Retirar/repor MD4 preservando base, guias e calços&Área/defeitos verificáveis, retenção e retirada segura\\
 I16*&Base--OP-01: montagem, posição, energia/leitura&Somente após inclusão no escopo&Calibração, benefício, vida e custo; sem diagnóstico de trinca\\
 \bottomrule\end{tabularx}
-\fonte{Plano de verificação proposto; resultados ainda não disponíveis. I16* está fora da C1 base.}
+\fonte{Critérios de interface e de substituição para a configuração C1. I16* é opção externa à base.}
 \end{table}
 
-Executar trocas em conjunto descarregado, registrando acesso, ações, tempo e partes retiradas. Ajustar a faixa de tamanho permanece na mesma configuração: não se confunde com remover módulo por manutenção. Após cada troca, repetir as verificações afetadas e preservar a identidade. C2 e C3 exigem reavaliação da MIM para seus próprios portadores, particularmente rolamento, sensores e identificação; esta arquitetura não foi transportada automaticamente para essas concepções.
+A substituição independente considera o conjunto descarregado, o acesso, as ações, o tempo e as partes removidas. Ajuste dimensional e manutenção são operações distintas: regular a faixa preserva a configuração, enquanto substituir desgaste exige manter desempenho e identidade. A organização física de C2 e C3 depende de seus próprios portadores, sobretudo nas interfaces de rolamento e dos painéis; os agrupamentos da C1 não são atribuídos automaticamente às demais concepções.

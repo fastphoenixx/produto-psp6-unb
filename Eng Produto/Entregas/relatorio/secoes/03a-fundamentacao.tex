@@ -1,0 +1,48 @@
+\subsubsection{Base documental e resultados da análise}
+\label{sec:validacao-metas}
+
+A fundamentação combina fichas técnicas de fabricantes, orientações de ergonomia, especificação do palete e pesquisa experimental publicada. Esses dados caracterizam o contexto de aplicação e permitem calcular envelopes, cursos e capacidade operacional. O desempenho requerido do dispositivo é expresso pelos critérios de aceitação; resultados de outros produtos são utilizados dentro das condições descritas por suas fontes.
+
+\begin{table}[H]
+\caption{Dados publicados e implicações para o dispositivo}
+\label{tab:base-documental}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{2.6cm}L{5.2cm}Y}
+\toprule\textbf{Fonte}&\textbf{Dado ou resultado publicado}&\textbf{Implicação de projeto}\\\midrule
+Celite, cuba D5&450\,$\times$\,400\,$\times$\,95\,mm; massa de 9,5\,kg; tolerância dimensional aproximada de 10\,mm&Regular apoios para diferenças de geometria e incorporar reserva dimensional.\\
+Deca, bacia LK P.23.17&515\,$\times$\,355\,$\times$\,400\,mm, em A/B/H; massa líquida de 32,341\,kg&Considerar um corpo cerâmico pesado e irregular, com transmissão de carga e pega pelo dispositivo.\\
+HSE, movimentação&Referências de 150\,N para mulheres e 200\,N para homens na partida/parada; 70\,N e 100\,N para manter movimento&Adotar 150\,N no RP3 como referência de partida e avaliar piso, rodas, postura e percurso.\\
+ABRAS, PBR I&Dimensões nominais de 1\,200\,$\times$\,1\,000\,mm; área de 1,20\,m$^2$&Dimensionar a base para o arranjo de carga, além de conferir amarração e passagens.\\
+Brown, estudo de papelão&3\,000 caixas, sete condições entre 30\% e 90\% de umidade relativa; redução da compressão com aumento da umidade&Reduzir a dependência do papelão no caminho resistente e considerar condicionamento úmido.\\
+ASTM D3332 e ISO 12048&Caracterização da fragilidade por choque e ensaios de compressão/empilhamento do conjunto completo&Relacionar a resposta da cerâmica à proteção e avaliar o conjunto carregado, em vez de inferir desempenho apenas pelo material.\\
+\bottomrule\end{tabularx}
+\fonte{\citet{celited5}, \citet{decalk}, \citet{hsepushpull}, \citet{abraspbr}, \citet{brown2019}, \citet{astmd3332} e \citet{iso12048}. Dimensões A/B/H normalizadas para o sistema de eixos do projeto.}
+\end{table}
+
+A reserva de $\pm10$\,mm é uma decisão de engenharia apoiada na advertência dimensional da ficha Celite, aplicada ao envelope de estudo. O fabricante informa uma tolerância aproximada de 10\,mm, sem estabelecer nessa ficha uma tolerância bilateral universal para todo o mix. A reserva adotada amplia a faixa de ajuste sem atribuir a todos os fabricantes uma mesma especificação.
+
+O estudo de \citet{brown2019} identifica relação entre umidade e resistência à compressão do papelão nas condições investigadas. A referência sustenta a importância do RP13 e o potencial da M1 de reduzir a dependência da embalagem interna. O valor de 50\% usado no cenário comparativo é uma referência de projeto; o estudo consultado não estabelece essa perda como constante para qualquer caixa ou operação.
+
+A referência ergonômica de 150\,N é uma orientação para avaliação de esforço, e não um limite de massa ou uma autorização de levantamento individual. A NR-17 exige considerar carga, frequência, pega e distância. Para a configuração de 48\,kg, a análise privilegia apoio e meio auxiliar de movimentação compatível com o acesso da obra \citep{hsepushpull,nr17oficial}.
+
+\subsubsection{Fundamentação dos limites e critérios de aceitação}
+
+As especificações distinguem valores de catálogo, resultados de cálculo e limites escolhidos para o produto. A Tabela~\ref{tab:fundamentacao-limites} explicita os critérios mais sensíveis à proteção, à segurança e à operação.
+
+\begin{table}[H]
+\caption{Fundamentação dos limites críticos do projeto}
+\label{tab:fundamentacao-limites}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{2.4cm}YL{5.2cm}}
+\toprule\textbf{Critério}&\textbf{Fundamentação e resultado analítico}&\textbf{Condição de aceitação}\\\midrule
+RP1: pico $\leq35$\,g&Limite de projeto para a proteção dinâmica. A ASTM D3332 trata a fragilidade como propriedade do produto e de sua resposta ao choque; não fornece um valor universal de 35\,g para louças.&Pico medido na cerâmica dentro do limite e inferior ao da embalagem de referência no mesmo ensaio, sem dano.\\
+RP2: deslocamento $\leq6$\,mm&Limite de interface adotado para controlar movimento relativo e contatos. Folga de embalagem e deslocamento residual são grandezas distintas.&Posição inicial/final comparável, após a mesma sequência de distribuição; ausência de contato danoso e manutenção do travamento.\\
+RP4/RP6: inspeção e contenção&Metas de 60\% da área crítica verificável e 90\% da massa de fragmentos retida expressam o compromisso entre conferência e barreira.&Inspeção da cerâmica com contenção fechada; avaliação de escape de fragmentos e abertura segura.\\
+RP11: compressão $\geq7{,}5$\,kN&Um conjunto de 48\,kg aplica cerca de 0,471\,kN. O critério de 7,5\,kN equivale a 15,9 vezes essa ação estática; é uma exigência de robustez adotada, não a carga calculada para dois níveis.&Carga aplicada ao conjunto completo sem perda de proteção; capacidade e duração de empilhamento tratadas conjuntamente.\\
+RP15: ciclo $\leq5$\,min&Corresponde a capacidade nominal de 12 unidades por hora de trabalho, sem perdas e esperas. Esse resultado relaciona manutenção ao dimensionamento da operação.&Tempo total inclui limpeza, inspeção e reposição necessárias à liberação; tempo e mão de obra entram no custo por ciclo.\\
+RP18/RP23: vida e custo&Uma aquisição de R\$\,300 dividida por 20 ciclos resulta em R\$\,15/ciclo apenas de aquisição, consumindo o teto do dispositivo.&O custo completo incorpora manutenção, retorno, consumíveis e perdas; a combinação de preço e vida deve reservar margem para essas parcelas.\\
+\bottomrule\end{tabularx}
+\fonte{Análise de engenharia sobre as especificações-meta; métodos de referência em \citet{astmd3332} e \citet{iso12048}. Os resultados de cálculo não representam ensaios do dispositivo.}
+\end{table}
+
+A aceitação técnica considera as metas simultaneamente: pressão de contato compatível com imobilização, acesso visual compatível com retenção, ajuste compatível com amortecimento e manutenção compatível com custo. A comprovação de uma propriedade do material ou o atendimento isolado de uma meta não substitui a avaliação integrada do conjunto. Os critérios se aplicam às mesmas famílias, carga, configuração e condições de uso.

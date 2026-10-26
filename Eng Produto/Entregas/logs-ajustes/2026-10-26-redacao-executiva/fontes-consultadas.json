@@ -1,0 +1,60 @@
+{
+  "acesso": "2026-10-26",
+  "fontes": [
+    {
+      "id": "celited5",
+      "url": "https://www.celite.com.br/celite-services/productSheet30/BR/pt/CE1380850077300/",
+      "uso": "Dimensões, massa e advertência de tolerância. Reserva bilateral é decisão de projeto."
+    },
+    {
+      "id": "decalk",
+      "url": "https://produtos.deca.com.br/Deca/P.23.17/fichaTecnica/ficha_tecnica_1712151210924_P.23.17.pdf",
+      "uso": "Dimensões e massa da bacia individual."
+    },
+    {
+      "id": "hsepushpull",
+      "url": "https://www.hse.gov.uk/msd/pushpull/assessment.htm",
+      "uso": "Referências de força de partida e sustentação; sem tratá-las como limite de massa."
+    },
+    {
+      "id": "abraspbr",
+      "url": "https://static.abras.com.br/pdf/especificacao_tecnica_rev2017.pdf",
+      "uso": "Dimensões nominais do PBR."
+    },
+    {
+      "id": "brown2019",
+      "url": "https://open.clemson.edu/all_theses/3225/",
+      "uso": "Resumo institucional da pesquisa experimental de umidade e compressão. Sem atribuir ao artigo perda universal de 50%."
+    },
+    {
+      "id": "astmd3332",
+      "url": "https://store.astm.org/d3332-99r23.html",
+      "uso": "Escopo público de caracterização de fragilidade, sem acesso ao texto integral pago."
+    },
+    {
+      "id": "iso12048",
+      "url": "https://www.iso.org/standard/20810.html",
+      "uso": "Escopo público do método de compressão/empilhamento, sem limiar universal de 7,5 kN."
+    },
+    {
+      "id": "nr17oficial",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf",
+      "uso": "Condições de levantamento e impulsão/tração."
+    },
+    {
+      "id": "nr11oficial",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-11-atualizada-2016.pdf",
+      "uso": "Correção de 11.2 para 11.3 em armazenagem e identificação da cláusula 11.1.3.2."
+    },
+    {
+      "id": "nr18oficial",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-18-atualizada-2026.pdf",
+      "uso": "PGR e condições de transporte em acessos/escadas, 18.4 e 18.8."
+    },
+    {
+      "id": "contran945",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao9452022.pdf",
+      "uso": "Requisitos de amarração de carga."
+    }
+  ]
+}

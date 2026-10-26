@@ -1,0 +1,26 @@
+{
+  "ocupacao_percentual": 81.6,
+  "volume_cuba": 0.08976000000000002,
+  "volume_bacia": 0.156672,
+  "curso_A_mm": 300,
+  "curso_B_necessario_mm": 140,
+  "curso_B_adotado_mm": 150,
+  "arranjo_T_mm": [
+    970,
+    1170
+  ],
+  "peso_48kg_kN": 0.47088,
+  "razao_compressao": 15.927624872579,
+  "capacidade_nominal_h": 12.0,
+  "aquisicao_ciclo": 15.0,
+  "avaria_2pp_evitada": 12.4,
+  "economia_por_pp": 6.2,
+  "reducao_equilibrio_pp": 2.4193548387096775,
+  "custo_cenario": {
+    "0.5": 18.1,
+    "1": 21.2,
+    "2": 27.4,
+    "3": 33.6,
+    "5": 46.0
+  }
+}

@@ -1,136 +1,112 @@
 \clearpage
 \section{PROJETO CONCEITUAL}
 
-O projeto conceitual busca meios de realizar as funções necessárias ao atendimento das especificações-meta. A passagem é de requisito para função, de função para princípio e, depois, para uma concepção verificável. Presença de um componente ou pontuação de uma alternativa não equivalem a desempenho demonstrado \citep{back2008,rozenfeld2006}.
+O projeto conceitual busca meios de realizar as funções necessárias ao atendimento das especificações-meta. A passagem é de requisito para função, de função para princípio e, depois, para uma concepção verificável. A modelagem representa o que o produto deve fazer antes de fixar materiais, dimensões ou componentes \citep{back2008,rozenfeld2006}.
 
-Esta seção incorpora a revisão de 15 de outubro de 2026: 23 vínculos de requisitos foram separados de um catálogo de 17 funções, com atributos e restrições preservados. A primeira Pugh foi adequada ao nível funcional e resultou em empate qualitativo. A equipe priorizou M1, proteção direta da peça após desencaixotamento no distribuidor. As combinações morfológicas e as três concepções foram alinhadas a essa fronteira. Os escores anteriores da MIM permanecem históricos e exigem reavaliação sob M1; dimensionamento, interfaces, custo e seleção da concepção continuam em desenvolvimento.
+A análise funcional compreende sete parciais, 21 elementares da M1 e sete complementares de retorno, manutenção e fim de vida. O FAST relaciona finalidade e meios, enquanto três estruturas explicitam alternativas para a proteção e a conferência. A matriz de Pugh seleciona M1, proteção direta da peça após preparo no distribuidor, com total ponderado +7. Os estudos de princípios e arquitetura exploram maneiras de realizar essa fronteira funcional \citep{equipeconceitual2026,planilhapsp62026}.
 
 \subsection{Modelagem Funcional}
 
-A função global é \textbf{resguardar a louça} no trecho distribuidor--transporte--descarga--movimentação na obra, preservando a condição de retorno do dispositivo. A louça é o objeto protegido; o produto em desenvolvimento é o sistema de proteção e movimentação. A fronteira muda entre alternativas, mas a finalidade permanece.
+O fluxo de aplicação compreende as etapas de distribuidor, transporte, descarga e movimentação na obra. A louça é o material protegido; o produto em desenvolvimento é o dispositivo retornável. A delimitação de porte médio considera cubas e corpos individuais de bacias, uma peça por unidade. Kits montados e monoblocos não foram incluídos automaticamente nessa faixa.
 
-\noindent\textbf{Situação atual, V0.} A louça chega acondicionada na embalagem do fabricante. Os relatos de peças trincadas e de dificuldade na descarga sustentam a investigação. Não foram medidos a aceleração transmitida, a taxa de quebra, a perda de rigidez da embalagem do fluxo estudado ou o instante de origem do dano. As referências de 60--90\,g e o cenário econômico são fonte, estimativa ou cálculo conforme sua origem; não são resultados de ensaio da equipe. A V0 organiza o que medir.
+A situação atual, V0, é a louça acondicionada na embalagem do fabricante. A observação de uma obra residencial e as duas entrevistas sustentam a investigação da proteção e da conferência, mas não quantificam a taxa de quebra nem demonstram em que operação o dano ocorreu. Na modelagem, o papelão opaco é uma barreira ao caminho visual até a cerâmica. A solução precisa tratar a condição da peça e a segurança da retirada, além de transportar o volume.
 
-Amortecer impacto, imobilizar, portar, expor condição e reter fragmentos descrevem efeitos requeridos. Acesso, liberação, união e separação material apoiam manutenção e fim de vida. Uniformidade, umidade, ciclos e reciclabilidade qualificam os efeitos e o ciclo de vida. Custo é restrição de viabilidade. Não é necessário criar uma função independente para cada requisito.
+O procedimento segue a atividade de modelar funcionalmente o produto: analisar as especificações-meta; identificar funções; estabelecer a função global e os fluxos; desenvolver estruturas alternativas; e selecionar uma estrutura para a geração de princípios. Funções usam verbo no infinitivo e substantivo. Qualidades e limites são associados aos efeitos e às interfaces que precisam satisfazê-los \citep{aulasmodelagem}.
+
+\subsubsection{Função global e fluxos de material, energia e sinal}
+
+A função global foi expressa como \textbf{Proteger louça}. O fluxo material principal é a peça que precisa atravessar a operação preservando sua integridade. Se ocorrer quebra, os fragmentos devem permanecer contidos. Choques, vibração, compressão e manuseio constituem solicitações mecânicas; parte da energia é dissipada e parte pode ser transmitida à peça. Os sinais abrangem a condição observável, o fechamento e a identidade da unidade.
+
+\begin{figure}[H]
+\centering\input{figuras/funcao-global}
+\caption{Função global do dispositivo e fluxos de material, energia e sinal}
+\label{fig:funcao-global}
+\fonte{Elaboração própria.}
+\end{figure}
+
+O trabalho mecânico do operador ajusta, trava, movimenta e abre o conjunto. A informação de condição pode ser visual e passiva; a presença de sinal no diagrama não exige eletrônica. Os estados de saída da Figura~\ref{fig:funcao-global} são efeitos pretendidos. Sua representação não comprova proteção, retenção ou inspeção na área crítica.
 
 \input{secoes/04b-requisitos-funcoes}
 
+\subsubsection{Aplicação do método FAST}
+
+O FAST relaciona a finalidade aos meios de realizá-la. A leitura \textit{como?} parte de Proteger louça para as parciais e suas elementares; a leitura \textit{por quê?} retorna à finalidade. Reduzir avarias e evitar cortes são finalidades superiores que orientam a modelagem. O dispositivo oferece as capacidades físicas para contribuir com esses resultados, sem controlar todas as causas do processo \citep{back2008,aulasmodelagem}.
+
+Na parcial Imobilizar louça, por exemplo, a restrição depende de travar os apoios e distribuir a pressão sem permitir movimento danoso. Em Informar condição, expor a superfície, indicar fechamento e exibir identidade atendem necessidades informacionais distintas. As três elementares de cada linha estão no mesmo nível de desdobramento; não representam três níveis sucessivos ou uma sequência cronológica de operações.
+
+\begin{landscape}
 \begin{figure}[H]
-\centering
-\begin{tikzpicture}[x=1cm,y=1cm,>=Stealth,
- f/.style={draw=cinzamedio,rounded corners=2pt,align=center,text width=3cm,minimum height=0.9cm,font=\footnotesize,execute at begin node=\setstretch{1}},
- d/.style={draw=linhacinza,align=left,text width=5.4cm,minimum height=1.1cm,font=\footnotesize,execute at begin node=\setstretch{1}},
- a/.style={->,draw=cinzamedio}]
-\node[f,fill=cinzaclaro] (fg) at (1.6,-4.8) {\textbf{Resguardar louça}};
-\node[f] (im) at (5.7,0) {Imobilizar louça};
-\node[f] (am) at (5.7,-1.6) {Amortecer impacto};
-\node[f] (sc) at (5.7,-3.2) {Suportar carga};
-\node[f] (po) at (5.7,-4.8) {Portar louça};
-\node[f] (ex) at (5.7,-6.4) {Expor condição};
-\node[f] (re) at (5.7,-8) {Reter fragmentos};
-\node[f] (ma) at (5.7,-9.6) {Prover acesso};
-\node[d] (imd) at (11.6,0) {Acomodar variação e preservar o posicionamento sob solicitações.};
-\node[d] (amd) at (11.6,-1.6) {Atenuar choque e vibração. Uniformidade e vida qualificam o efeito.};
-\node[d] (scd) at (11.6,-3.2) {Transmitir compressão pelo caminho resistente. RP13 qualifica após umidade.};
-\node[d] (pod) at (11.6,-4.8) {Prover pega, estabilizar e compatibilizar carga. Recolher partes no retorno vazio.};
-\node[d] (exd) at (11.6,-6.4) {Prover acesso protegido à área crítica. Choque registrado não prova integridade.};
-\node[d] (red) at (11.6,-8) {Preservar barreira durante transporte, abertura e retirada.};
-\node[d] (mad) at (11.6,-9.6) {Liberar partes para acessar limpeza e reposição; reunir após a operação.};
-\foreach \n/\nd in {im/imd,am/amd,sc/scd,po/pod,ex/exd,re/red,ma/mad}{
- \draw[a] (fg.east) -- ++(0.3,0) |- (\n.west);
- \draw[a] (\n.east) -- (\nd.west);
-}
-\node[font=\footnotesize] at (6.7,1) {\textbf{Por quê?} $\longleftarrow$ \hspace{1cm} $\longrightarrow$ \textbf{Como?}};
-\end{tikzpicture}
-\caption{Relações FAST da função global com seus meios funcionais}
+\centering\input{figuras/fast-atual}
+\caption{FAST da M1: função global, sete parciais e 21 elementares}
 \label{fig:fast}
-\fonte{Elaboração da equipe a partir dos requisitos e da síntese funcional de \citet{back2008}.}
+\fonte{Elaboração própria com base na modelagem funcional do dispositivo.}
+\notaquadro{As complementares da Figura~\ref{fig:ciclo-vida-funcional} apoiam as três estruturas. As conexões do FAST representam finalidade e meios.}
 \end{figure}
+\end{landscape}
 
-As relações da Figura~\ref{fig:fast} indicam finalidade e meios, não sequência de tarefas. Comunicar uso inclui indicar a ação; exibir identidade apoia o controle da unidade. As funções de suporte à manutenção e ao fim de vida estão discriminadas no catálogo da Tabela~\ref{tab:catalogo-funcoes}. Registrar evento de impacto é função complementar exploratória, OP-01, que não substitui expor condição nem integra automaticamente os 23 requisitos.
+\subsubsection{Referências para os efeitos funcionais}
 
-\newcommand{\estruturaems}[3]{%
-\begin{tikzpicture}[x=1cm,y=1cm,>=Stealth,
- b/.style={draw=cinzamedio,align=center,text width=2.55cm,minimum height=1.1cm,font=\footnotesize,execute at begin node=\setstretch{1}},
- o/.style={draw=linhacinza,align=center,text width=2.9cm,minimum height=1.1cm,font=\footnotesize,execute at begin node=\setstretch{1}},
- a/.style={->,draw=cinzamedio}]
-\node[b] (mi) at (1.3,0) {\textbf{M}\par #1};
-\node[b] (mp) at (5.1,0) {Acomodar e\par imobilizar};
-\node[b] (mt) at (8.9,0) {Portar e\par reter fragmentos};
-\node[o] (mo) at (12.9,0) {\textbf{M}\par #2};
-\draw[a] (mi)--(mp);\draw[a] (mp)--(mt);\draw[a] (mt)--(mo);
-\node[b] (ei) at (1.3,-2.1) {\textbf{E}\par Choque, vibração\par e compressão};
-\node[b] (ep) at (5.1,-2.1) {Amortecer e\par suportar carga};
-\node[o] (eo) at (8.9,-2.1) {\textbf{E}\par Atenuação pretendida\par a verificar};
-\draw[a] (ei)--(ep);\draw[a] (ep)--(eo);\draw[a,dashed] (ep)--(mp);
-\node[b] (eh) at (12.9,-2.1) {\textbf{E}\par Esforço humano\par de manuseio};
-\draw[a] (eh.north) -- ++(0,0.2) -| (mt.south);
-\node[b] (si) at (1.3,-4.2) {\textbf{S}\par Condição desconhecida,\par identidade e orientação};
-\node[b] (sp) at (5.1,-4.2) {Expor condição;\par comunicar uso;\par exibir identidade};
-\node[o] (so) at (8.9,-4.2) {\textbf{S}\par Condição acessível\par à inspeção};
-\node[o] (su) at (12.9,-4.2) {Usuário verifica\par a condição antes\par do aceite};
-\draw[a] (si)--(sp);\draw[a] (sp)--(so);\draw[a] (so)--(su);\draw[a,dashed] (mp)--(sp);
-\ifnum#3=1
-\node[b] (oi) at (1.3,-6.3) {\textbf{E}\par Evento no ponto\par do sensor};
-\node[b] (op) at (5.1,-6.3) {OP-01\par Registrar evento\par (opcional)};
-\node[o] (os) at (8.9,-6.3) {\textbf{S}\par Limiar excedido\par ou não excedido};
-\node[o] (ou) at (12.9,-6.3) {Apoio à triagem\par de inspeção;\par sem diagnóstico};
-\draw[a] (oi)--(op);\draw[a] (op)--(os);\draw[a] (os)--(ou);
-\fi
-\end{tikzpicture}}
+O estudo documental de embalagens e dispositivos existentes orientou a identificação de apoios, encaixes, amortecimento, caminho resistente e acesso. As referências International Paper, Delta/Masco e Rengo oferecem analogias para posicionamento e transmissão de esforços. As aberturas das referências Kohler/Vavra ajudam a discutir acesso visual, mas não demonstram inspeção da área crítica do mix considerado com a contenção fechada. Os dossiês de anterioridade registram documentos e limites dessas analogias \citep{equipeanterioridade2026}.
 
-\subsubsection{Modelagem Funcional 1}
+Contenção de fragmentos, ajuste ao mix, estabilidade, comunicação, identidade e reposição derivam das necessidades e dos requisitos de projeto. A anterioridade fornece referências de princípios; sua combinação é julgada pela adequação ao problema, às interfaces e às metas. A pesquisa documental sustenta a comparação tecnológica, sem constituir avaliação de patenteabilidade.
 
-A M1 coloca a fronteira na louça descoberta: a embalagem original é retirada no distribuidor. A proteção pode atuar diretamente sobre a peça. A fronteira pode favorecer a inspeção, mas introduz abertura com risco e tempo ainda não avaliados. A variedade de formas exige levantamento do mix. A área crítica só será considerada verificável quando a barreira do novo dispositivo efetivamente permitir inspeção.
+\subsubsection{Modelagem Funcional 1: proteção direta da peça descoberta}
 
+Na M1, a embalagem original é retirada no distribuidor e a proteção atua diretamente sobre a louça. Acomodar louça organiza recebimento, ajuste e posicionamento; Imobilizar louça fixa os apoios e restringe o movimento. Atenuar esforços trata de impacto, vibração e compressão. A contenção e a abertura devem permitir retirar a peça sem perder a proteção contra fragmentos.
+
+Essa fronteira retira o papelão opaco do caminho de observação e pode reduzir o envelope. Em contrapartida, exige preparo e transferência no distribuidor, regulagem para geometrias irregulares, controle da pressão nos contatos e manutenção das regiões de apoio. A estrutura da Figura~\ref{fig:modelagem-m1} preserva inspeção pela própria barreira do dispositivo; essa capacidade precisa ser demonstrada na área crítica.
+
+\subsubsection{Modelagem Funcional 2: proteção do volume embalado}
+
+Na M2, a embalagem original permanece e o dispositivo atua sobre o volume. As funções equivalentes passam a Receber volume, Posicionar volume, Envolver volume e Remover volume. A manutenção da caixa reduz a intervenção inicial, mas conserva sua folga interna e sua interferência no caminho de observação, conforme a hipótese usada na comparação.
+
+A parcial Informar condição acrescenta A01, Abrir acesso, antes de Expor superfície. Isso torna explícita uma dificuldade da alternativa: o acesso através do papelão precisa ser compatibilizado com o requisito de conferir com o conjunto fechado. Um visor apenas externo não resolve a interferência da embalagem interna. A Figura~\ref{fig:modelagem-m2} mostra esse desdobramento adicional.
+
+\subsubsection{Modelagem Funcional 3: volume embalado com monitoramento}
+
+A M3 conserva a cadeia material e as funções da M2, mostradas na Figura~\ref{fig:modelagem-m3}, e acrescenta Monitorar impacto em paralelo. O ramo desdobra-se em Detectar aceleração, Comparar limiar, Registrar evento e Exibir alerta. Ele converte uma solicitação mecânica em informação sobre a ocorrência de um evento.
+
+O alerta não demonstra presença ou ausência de trinca, não torna a cerâmica visível e não substitui a contenção. O limiar no ponto de montagem também não é automaticamente o limite de aceleração na peça. A especificação do monitoramento abrange tecnologia, posição, calibração, reposição ou rearme, vida e custo. O registro de impacto é a opção OP-01 da equipe, associada à M3 nesta comparação e fora das 21 elementares da M1 selecionada.
+
+\begin{landscape}
 \begin{figure}[H]
-\centering\estruturaems{Louça fora da\par embalagem original}{Louça protegida e\par fragmentos contidos\par como objetivos}{0}
-\caption{Estrutura funcional M1: fronteira na peça descoberta}
-\fonte{Elaboração da equipe. E = energia; M = material; S = sinal. As saídas são pretendidas.}
+\centering\input{figuras/modelagem-m1}
+\caption{Modelagem M1: proteção direta da louça descoberta}
+\label{fig:modelagem-m1}
+\fonte{Elaboração da equipe, conforme o catálogo e a estrutura funcional vigentes.}
+\notaquadro{As parciais organizam os fluxos; os blocos inferiores mostram suas elementares. As sete complementares são comuns às três modelagens.}
 \end{figure}
+\end{landscape}
 
-\subsubsection{Modelagem Funcional 2}
-
-A M2 atua sobre o volume na embalagem original. A energia atravessa dispositivo, caixa e acondicionamento interno antes da cerâmica; essa resposta precisa ser medida. Preservar o volume pode reduzir intervenção no distribuidor, mas não resolve inspeção: um visor externo só é útil quando houver interface de observação compatível na embalagem original. Contenção e acesso à área crítica devem ser atendidos simultaneamente.
-
+\begin{landscape}
 \begin{figure}[H]
-\centering\estruturaems{Louça no volume\par da embalagem original}{Volume protegido e\par retirada segura\par como objetivos}{0}
-\caption{Estrutura funcional M2: fronteira no volume embalado}
-\fonte{Elaboração da equipe. A conexão entre material e sinal exige interface de inspeção ainda em estudo.}
+\centering\input{figuras/modelagem-m2}
+\caption{Modelagem M2: proteção do volume na embalagem original}
+\label{fig:modelagem-m2}
+\fonte{Elaboração da equipe, conforme o catálogo e a estrutura funcional vigentes.}
+\notaquadro{A01, Abrir acesso, é adicional de M2/M3. O acesso pela embalagem interna deve preservar a condição de inspeção com o conjunto fechado.}
 \end{figure}
+\end{landscape}
 
-\subsubsection{Modelagem Funcional 3}
-
-A M3 mantém a fronteira material e a cadeia de energia da M2. Acrescenta, opcionalmente, registro de evento em paralelo. OP-01 informa se um limiar foi excedido no seu ponto de montagem e pode apoiar triagem de inspeção. Não demonstra presença ou ausência de trinca. A fabricante do indicador também distingue evento e dano possível \citep{spotseeindicador}.
-
+\begin{landscape}
 \begin{figure}[H]
-\centering\estruturaems{Mesmo volume\par embalado da M2}{Mesmos objetivos\par materiais da M2}{1}
-\caption{Estrutura funcional M3: volume embalado e sinal de evento opcional}
-\fonte{Elaboração da equipe. OP-01 não substitui a cadeia de inspeção.}
+\centering\input{figuras/modelagem-m3}
+\caption{Modelagem M3: cadeia principal da M2 com ramo de monitoramento}
+\label{fig:modelagem-m3}
+\fonte{Elaboração da equipe, conforme o catálogo e a estrutura funcional vigentes.}
+\notaquadro{Monitorar impacto opera em paralelo à cadeia material da M2. O alerta de evento não substitui Expor superfície nem comprova integridade.}
 \end{figure}
+\end{landscape}
 
-O registro de impacto foi adiado no informacional e permanece nesta revisão como opção experimental, sujeita a escopo, benefício, calibração e custo. O limite de aceleração na louça (RP1) não é automaticamente o limiar de sensor na estrutura: posição, duração e resposta dinâmica podem diferir. RP4 continua exigindo acesso à condição da cerâmica.
+
 
 \subsubsection{Seleção da Modelagem}
-
-A planilha mantém os julgamentos iniciais para rastrear a triagem. Os pesos são o grau de importância do cliente no Pareto, derivado do Mudge; não são a importância técnica dos RP no QFD. A escala é $-2$, $-1$, $0$, $+1$, $+2$. A recontagem das 253 comparações confirmou 577 pontos no Mudge. Aplicando os graus às notas originais, os totais são os da Tabela~\ref{tab:pugh-inicial}.
-
-\begin{table}[H]
-\centering\small\caption{Triagem inicial preservada como histórico}\label{tab:pugh-inicial}
-\begin{tabularx}{\textwidth}{L{2cm}L{2.5cm}Y}
-\toprule\textbf{Alternativa}&\textbf{Pontuação}&\textbf{Interpretação atual}\\\midrule
-M1&12&Julgamentos iniciais sujeitos a revisão e verificação\\
-M2&0&Referência; não é alternativa aprovada\\
-M3&40&Maior pontuação inicial; superioridade ainda não comprovada\\
-\bottomrule\end{tabularx}
-\fonte{Recontagem da aba Pugh. A observação anterior de 42 pontos foi corrigida.}
-\end{table}
-
-As notas iniciais atribuíram à M3 vantagens de proteção, manutenção, estabilidade e custo que não decorrem da inclusão de sinal. A revisão anterior, também preservada, misturava cobertura funcional com desempenho e deixou 13 critérios AV para cada alternativa. Essa revisão não foi completada com notas de desempenho estimadas sem base: a comparação atual foi explicitamente delimitada ao nível funcional.
 
 \input{secoes/04c-selecao-funcional}
 
 \subsection{Matriz TRIZ}
+
+Os estudos de solução exploram combinações físicas para a M1. A comparação funcional e a escolha de concepção são decisões distintas: a primeira estabelece a fronteira do produto; a segunda depende de princípios, interfaces, custo e desempenho. As configurações C1/C2/C3 e a modularização da C1 têm caráter exploratório.
 
 Os quatro conflitos fortes do QFD foram preservados: proteção--ajuste; inspeção--retenção; movimentação--recondicionamento; ajuste--recondicionamento. A tabela explora princípios por analogia funcional com definições publicadas. Não se afirma consulta comprovada a cada célula da matriz clássica 39$\times$39 \citep{dtoceantriz,childstriz}.
 
@@ -146,20 +122,20 @@ RP7--RP15&Dinamicidade, qualidade local, extração&Ajuste acessível e poucas r
 \fonte{QFD e definições de \citet{dtoceantriz} e \citet{childstriz}.}
 \end{table}
 
-Foram corrigidas associações anteriores: parâmetro 32 é facilidade de fabricação, enquanto 37 trata de detectar e medir; princípio 28 não significa qualquer engate rápido; princípio 39 é ambiente inerte, não vedação para fragmentos. Estabilidade da composição não foi equiparada sem justificativa ao ângulo de tombamento. Mapeamentos genéricos ainda incertos permanecem pendentes.
+A aplicação da TRIZ adota analogias entre o efeito do conflito e o princípio inventivo. Segmentação e dinamicidade orientam regulagem e reposição; qualidade local concentra proteção nos contatos; propriedades ópticas e membranas orientam a relação entre acesso visual e contenção. A adequação é avaliada pelos dois requisitos em conflito, sem atribuir a um princípio o atendimento automático das metas.
 
-As aplicações são propostas. O conflito só poderá ser considerado resolvido depois de verificar ambas as metas no mesmo conjunto. Para declarar consulta à matriz clássica, registrar versão, um par principal de parâmetros e o cruzamento consultado.
+O critério de resolução do conflito é o atendimento simultâneo às duas metas no mesmo conjunto. Os princípios da tabela são referências de ideação; a seleção física considera geometria, interfaces e resposta do sistema.
 
 \subsection{Matriz Morfológica}
 
-A morfológica organiza quatro possibilidades por função ou conjunto de funções compatíveis e três caminhos de combinação. A coluna de IDs liga cada linha ao catálogo. P1--P4 identificam opções da própria linha, não princípios TRIZ. A revisão contempla estabilização, recolhimento no retorno e acesso para manutenção. Uniformidade qualifica F01; umidade qualifica F11; vida, reciclabilidade, geometria, troca independente e custo permanecem critérios. Comunicação de uso e identidade são verificadas em conjunto, sem presumir que serial ou RFID orientem o operador.
+A matriz morfológica organiza possibilidades de princípios e três caminhos de combinação sob proteção direta. Sua avaliação considera a cobertura das 21 elementares e das sete complementares, além das restrições transversais. Os rótulos de opção identificam princípios de solução e são distintos dos IDs das funções parciais. Uniformidade qualifica Absorver impacto e Isolar vibração; umidade qualifica Desviar compressão; vida, reciclabilidade, geometria, troca independente e custo permanecem critérios.
 
-O ajuste por troca de insertos foi retirado das combinações propostas: RP7 exige amplitude sem troca durante ajuste. Isso não proíbe reposição de desgaste na manutenção. Após a escolha funcional de M1, C1/C2/C3 passaram a atuar sobre a peça descoberta. Cintas, guias e batentes exigem apoios protegidos, controle de tensão e área de contato, evitando concentração de carga na cerâmica. Visor, painel ou sistema óptico integra a barreira do novo dispositivo e deve alcançar a área crítica sem abrir o conjunto. A retirada da embalagem original no distribuidor não dispensa contenção nem comprova a área inspecionável.
+O RP7 exige amplitude de ajuste na mesma configuração, sem troca de componentes. A reposição de partes desgastadas pertence à manutenção e não substitui a regulagem. C1/C2/C3 exploram a peça descoberta e representam três rotas de solução para o mesmo catálogo funcional. Cintas, guias e batentes exigem apoios protegidos, controle de tensão e área de contato, evitando concentração de carga na cerâmica. Visor, painel ou sistema óptico integra a barreira do novo dispositivo e deve alcançar a área crítica sem abrir o conjunto. A retirada da embalagem original no distribuidor não dispensa contenção nem comprova a área inspecionável.
 
 \begin{table}[H]
 \caption{Direções derivadas da morfológica}\centering\footnotesize
 \begin{tabularx}{\textwidth}{L{0.9cm}L{3.2cm}YY}
-\toprule\textbf{ID}&\textbf{Direção}&\textbf{Combinação proposta}&\textbf{Pendência principal}\\\midrule
+\toprule\textbf{ID}&\textbf{Direção}&\textbf{Combinação proposta}&\textbf{Condição decisiva}\\\midrule
 C1&Simplicidade e manutenção&Berço, EPP, cintas sobre apoios protegidos, guias e carrinho&Contato direto, tensão, visor e preparo\\
 C2&Ajuste e estrutura&Estrutura telescópica, interface resiliente, painel transparente e rolamento removível&Contato direto, massa, limpeza e retorno\\
 C3&Mobilidade no canteiro&Painéis reguláveis com regiões transparentes, elastômeros, rodízios com freio e apoios&Contato direto, desníveis, estabilidade e volume\\
@@ -167,13 +143,13 @@ C3&Mobilidade no canteiro&Painéis reguláveis com regiões transparentes, elast
 \fonte{Combinações preliminares sob M1. OP-01 fica fora das três configurações base.}
 \end{table}
 
-EPP, PEAD, alumínio e elastômeros são propostas de material, não desempenho demonstrado nem materiais atribuídos à patente Rengo. A herança da anterioridade é de função ou princípio documentado. Material, geometria e ciclos precisam de fonte própria ou ensaio.
+EPP, PEAD, alumínio e elastômeros são alternativas de material associadas aos efeitos pretendidos. A relação entre material, geometria e ciclos determina sua adequação; a referência tecnológica é de função ou princípio, sem transferir resultados de um produto comercial para outra configuração.
 
-\subsection{Revisão da Modelagem Funcional e Matriz Morfológica}
+\subsection{Coerência entre Funções e Princípios de Solução}
 
-A revisão alinhou fronteira e inspeção, preservou retirada segura e distinguiu objetivo de resultado. Sob M1, as condições decisivas são preparo e transferência seguros no distribuidor; contato direto sem dano; área crítica acessível; retenção no transporte e na abertura; ajuste na mesma configuração; força; envelope externo; vida; e custo completo. A inclusão de sinal deve ser julgada como complemento, sem alterar automaticamente a fronteira material escolhida.
+A fronteira M1 organiza os princípios de solução em torno do contato direto com a cerâmica, preservando inspeção e retirada segura. Sob M1, as condições decisivas são preparo e transferência seguros no distribuidor; contato direto sem dano; área crítica acessível; retenção no transporte e na abertura; ajuste na mesma configuração; força; envelope externo; vida; e custo completo. A inclusão de sinal deve ser julgada como complemento, sem alterar automaticamente a fronteira material escolhida.
 
-Reter 90\% da massa não autoriza declarar ausência de risco: fragmentos pequenos que escapem também precisam ser avaliados. Escolha de material não comprova 7,5\,kN, e duas camadas não garantem menor aceleração. São verificações a executar.
+O critério de retenção em massa é complementado pela análise do escape de fragmentos pequenos e da segurança de abertura. Compressão e atenuação dinâmica são propriedades do conjunto: material e número de camadas, isoladamente, não determinam seus resultados.
 
 \input{secoes/04a-mim}
 
@@ -189,46 +165,50 @@ A C2 explora estrutura telescópica, interface resiliente em contato com a peça
 
 A C3 explora rodízios com freio, apoios de descanso, painéis reguláveis com regiões transparentes e barreira fechada em torno da peça descoberta. Contato com a cerâmica, área crítica, escadas, desníveis e estabilidade com rodas precisam de avaliação. Indicador comercial fica fora da base e pode ser estudado como complemento calibrado.
 
-\subsubsection{Concepção Final}
+\subsubsection{Critérios para a Escolha da Concepção}
 
-Não há concepção final selecionada. A primeira seleção priorizou a fronteira M1; a segunda Pugh compara C1/C2/C3 dentro dessa fronteira. C1 é datum, sem aprovação automática, e C2/C3 permanecem AV. Cada nota precisa de comparação na mesma carga, percurso e condições, com resultado ou estimativa identificada, justificativa da intensidade e limite ainda a confirmar. Dimensionar e analisar as propostas; executar ensaios quando a afirmação depender de desempenho físico. Todas as restrições continuam aplicáveis.
+M1 é a modelagem funcional selecionada. C1/C2/C3 representam configurações físicas dentro dessa fronteira, sem preferência quantitativa concluída entre elas. A referência comparativa da segunda Pugh é C1. A escolha de concepção considera a mesma carga, percurso, área crítica, retenção, força e fronteira de custo, com distinção entre cálculo, estimativa e ensaio. O conjunto de requisitos permanece aplicável às três configurações.
 
 \subsection{Análise Técnica}
 
-A análise técnica está planejada, sem resultados de ensaio. Deve avaliar transferência de choque/vibração, deslocamento, compressão, umidade, inspeção e retenção. No canteiro, separar empurrar/puxar, levantar/carregar em dupla e transpor desníveis. A referência de 150\,N do RP3 é de força de partida ao empurrar/puxar, não limite de massa ou de levantamento \citep{hsepushpull}.
+A análise técnica considera transferência de choque/vibração, deslocamento, compressão, umidade, inspeção e retenção. Os resultados dimensionais e de carga estão apresentados na fundamentação das metas. No canteiro, empurrar/puxar, levantar e transpor desníveis têm critérios distintos. A referência de 150\,N do RP3 corresponde à força de partida ao empurrar/puxar \citep{hsepushpull}.
 
-A configuração carregada desfavorável deve ser avaliada para tombamento. A força é medida no piso de uso. O envelope inclui rodas, pegas e apoios na configuração de transporte. Sob M1, definir os assentos diretamente na cerâmica, limitar pressão e tensão e verificar que o caminho de compressão não concentra carga na louça. O preparo no distribuidor inclui retirar a embalagem, conferir a condição inicial, transferir a peça com segurança, identificar a unidade e encaminhar o material retirado. A embalagem de origem deixa de integrar o trecho carregado após esse preparo; o envelope do novo dispositivo continua sujeito a RP8 e RP14.
+A condição crítica de estabilidade é o conjunto carregado mais desfavorável, com o centro de massa e a base de apoio correspondentes. A força de partida se refere ao piso de uso; o envelope inclui rodas, pegas e apoios. Na M1, os assentos em contato com a cerâmica devem distribuir pressão e tensão, enquanto o caminho de compressão desvia carga da peça. O preparo no distribuidor inclui retirar a embalagem, conferir a condição inicial, transferir a peça com segurança, identificar a unidade e encaminhar o material retirado. A embalagem de origem deixa de integrar o trecho carregado após esse preparo; o envelope do novo dispositivo continua sujeito a RP8 e RP14.
 
 \subsection{Análise de Valor}
 
-A análise de valor depende de funções e componentes definidos. Faltam custos de fabricação, aquisição, manutenção e retorno. As variantes devem demonstrar benefício da proteção e da inspeção frente aos custos e à complexidade. O registro opcional precisa de valor incremental; não é aprovado apenas por acrescentar informação.
+A análise de valor relaciona a contribuição de cada portador às funções de proteção, inspeção, movimentação e reuso. O custo relevante abrange aquisição, manutenção, retorno e consumíveis. A preferência por simplicidade reduz interfaces e tarefas que não acrescentem benefício proporcional. O monitoramento é uma opção separada da M1 base e sua inclusão depende do valor incremental de informação frente a custo, manutenção e interpretação do alerta.
 
 \subsection{FMEA}
 
-Falhas a investigar: deslocamento dentro da caixa; aceleração excessiva sem ativação do indicador; indicador ativado sem dano; inspeção obstruída; escape de fragmentos na abertura; fecho solto; tombamento/rolamento; perda de ajuste; e perda de identidade após troca. Esses itens orientam uma futura FMEA. Severidade, ocorrência, detecção e prioridade não foram pontuadas sem base.
+Os modos de falha relevantes para M1 são: movimento relativo da louça; pressão danosa nos contatos; aceleração excessiva transmitida à peça; inspeção obstruída; escape de fragmentos na abertura; fecho solto; tombamento ou rolamento; perda de ajuste; e perda de identidade após troca. Ativação sem dano e dano sem ativação são modos adicionais de monitoramento na M3, caso essa alternativa seja retomada. Esses modos organizam os critérios de segurança e confiabilidade. A priorização de risco requer severidade, exposição e capacidade de detecção coerentes com a configuração física; o catálogo de falhas não representa uma classificação quantitativa de risco.
 
 \subsection{Análise de Viabilidade}
 
-A unidade de comparação é uma entrega no fluxo estudado. O custo do dispositivo por ciclo é uma parcela. Na direção M1, acrescentam-se preparo no distribuidor e destino da embalagem retirada, além de retorno, manutenção, consumíveis e avarias residuais. O custo atribuível da embalagem de origem deve usar a mesma fronteira contábil da situação atual: retirar a caixa não demonstra deixar de pagá-la. Evitar dupla contagem entre aquisição, manuseio e destinação. O teto provisório de RP23 não autoriza omitir parcelas.
+A unidade de comparação é uma entrega no fluxo estudado. O custo do dispositivo por ciclo é uma parcela. Na direção M1, acrescentam-se preparo no distribuidor e destino da embalagem retirada, além de retorno, manutenção, consumíveis e avarias residuais. O custo atribuível da embalagem de origem deve usar a mesma fronteira contábil da situação atual: retirar a caixa não demonstra deixar de pagá-la. A fronteira contábil separa aquisição, manuseio e destinação para evitar dupla contagem e preservar o teto do RP23.
+
+A análise por cenários considera custo de reposição de R\$\,500 e reentrega de R\$\,120 por ocorrência. São parâmetros econômicos de comparação, sem atribuição de uma taxa de avaria medida ao distribuidor. Com R\$\,15 de embalagem, o custo de referência por entrega é $C_0=15+620p_0$, em que $p_0$ é a probabilidade de avaria. A Tabela~\ref{tab:sensibilidade-custo} apresenta os resultados.
 
 \begin{table}[H]
-\caption{Cenário econômico histórico com caixa mantida, sem cotação das concepções}\centering\footnotesize
-\begin{tabularx}{\textwidth}{L{6cm}L{3.2cm}Y}
-\toprule\textbf{Parcela/comparação}&\textbf{Valor}&\textbf{Natureza}\\\midrule
-Embalagem atual&R\$\,15/entrega&Hipótese de compra industrial\\
-Avaria e reentrega&$0{,}02\times(500+120)$&Hipóteses a confirmar\\
-Cenário atual&R\$\,27,40/entrega&Cálculo sobre as hipóteses\\
-Dispositivo de R\$\,300 em 20 ciclos&R\$\,15/ciclo&Não é cotação da M3\\
-Caixa mantida mais dispositivo&R\$\,30/entrega&Limite inferior sem retorno, manutenção, sinal ou avaria residual\\
-Margem adicional com caixa mantida&R\$\,12,40/entrega&Limite otimista com avaria residual zero\\
+\caption{Sensibilidade do custo de referência à taxa de avaria}
+\label{tab:sensibilidade-custo}\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{3.4cm}YY}
+\toprule\textbf{Taxa de cenário}&\textbf{Avaria e reentrega (R\$/entrega)}&\textbf{Total com embalagem (R\$/entrega)}\\\midrule
+0,5\%&3,10&18,10\\
+1,0\%&6,20&21,20\\
+2,0\%&12,40&27,40\\
+3,0\%&18,60&33,60\\
+5,0\%&31,00&46,00\\
 \bottomrule\end{tabularx}
-\fonte{Premissas da planilha. Taxa de avaria, preços e vida não foram medidos pela equipe.}
+\fonte{Cálculo de cenário: embalagem de R\$\,15 e perda de R\$\,620 por ocorrência. Não representa frequência observada ou cotação de uma concepção.}
 \end{table}
 
-Esse cenário continua útil para M2/M3 e não foi reapresentado como custo de M1. Para a proteção direta, a planilha acrescenta um quadro próprio, com preparo, destinação e custo atribuível da embalagem. O cálculo completo depende dessas entradas e dos custos de retorno, manutenção, consumíveis e avaria residual. Aquisição de R\$\,300 e vida de vinte ciclos permanecem hipóteses de cenário; não são cotação nem vida medida. O resultado fica indisponível enquanto faltarem entradas. A escolha funcional não demonstra vantagem econômica.
+Cada ponto percentual de avaria evitada equivale a R\$\,6,20 por entrega nesses parâmetros. Se o dispositivo custar R\$\,15 por ciclo e o custo atribuível da embalagem permanecer igual, a redução necessária é de pelo menos $100\times15/620=2{,}42$ pontos percentuais, antes de preparo e demais acréscimos. No cenário de 2\%, eliminar todas as avarias evitaria R\$\,12,40, valor R\$\,2,60 inferior a esse custo do dispositivo. O benefício pode incluir prazo e segurança, mas a justificativa financeira não deve contabilizá-los como receita sem critério de valoração.
+
+Uma aquisição de R\$\,300 em vinte ciclos consome integralmente R\$\,15/ciclo apenas em amortização. Para respeitar o teto com manutenção, retorno e consumíveis, o preço de aquisição, a vida ou a estrutura de custos precisam oferecer margem adicional. No caso M1, a comparação é expressa por $\Delta C=C_{\mathrm{disp}}+C_{\mathrm{prep}}+C_{\mathrm{emb,1}}-C_{\mathrm{emb,0}}+620(p_1-p_0)$. O dispositivo é economicamente favorável quando $\Delta C<0$, sob as mesmas parcelas e unidade de entrega.
 
 \subsection{Modelo de Negócio}
 
-ATO e produção própria permanecem premissas de planejamento. O modelo comercial precisa definir quem detém o dispositivo, como ocorre retorno, quem paga manutenção e como são tratadas perdas. Isso afeta custo e rastreio. Não se declarou demanda, preço de venda ou retorno financeiro validado.
+O modelo de referência combina produção própria e montagem sob pedido, com componentes padronizados e configuração compatível com o mix contratado. A condição retornável associa a venda ou disponibilização do dispositivo à identificação da unidade, à conservação e ao retorno entre entregas. Propriedade, responsabilidade por perdas e remuneração do serviço de manutenção compõem o contrato comercial e afetam o custo por ciclo.
 
-\noindent\textbf{Encaminhamento.} Desenvolver a proteção direta da M1 e o preparo no distribuidor. Confirmar mix, contatos, inspeção, contenção e movimentação; medir a situação atual e obter custos comparáveis. Avançar os princípios e interfaces de C1/C2/C3, reavaliando os escores herdados da MIM. Com análises e ensaios necessários, justificar as notas da segunda Pugh e selecionar uma concepção que respeite as restrições. Reabrir a fronteira funcional se M1 se mostrar inviável. O detalhamento e os ensaios de confirmação seguem essa seleção. Planilha e relatório devem ser atualizados na mesma rodada.
+\noindent\textbf{Recomendação.} A solução funcional recomendada é a proteção direta da M1. Sua proposta de valor reúne imobilização, conferência e retirada segura em um conjunto retornável. Os critérios decisivos de adoção são contato sem dano, área crítica visível, contenção contínua, esforço compatível com o canteiro e custo completo inferior ao benefício econômico e operacional contratado.

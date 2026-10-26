@@ -1,0 +1,140 @@
+{
+  "data": "2026-10-26",
+  "paginas": 68,
+  "sha256_pdf": "a893ee4ad5337f7a65c9837461ae6aa40d07b5d49f951364f8b3bbbd644a4984",
+  "planilha_sha256": "3a618bb43b0cf4052c76fda4d5e92f2cc14fc5d0670fb742db5a475025a1b83a",
+  "figuras": {
+    "global": {
+      "pagina_pdf": 42,
+      "pagina_impressa": "39"
+    },
+    "ciclo": {
+      "pagina_pdf": 45,
+      "pagina_impressa": "42"
+    },
+    "fast": {
+      "pagina_pdf": 47,
+      "pagina_impressa": "44"
+    },
+    "m1": {
+      "pagina_pdf": 50,
+      "pagina_impressa": "47"
+    },
+    "m2": {
+      "pagina_pdf": 51,
+      "pagina_impressa": "48"
+    },
+    "m3": {
+      "pagina_pdf": 52,
+      "pagina_impressa": "49"
+    }
+  },
+  "pugh": {
+    "pagina_pdf": 54,
+    "criterios": 23,
+    "notas": 69,
+    "totais": [
+      7,
+      0,
+      -4
+    ],
+    "contagem_M1": [
+      5,
+      4,
+      14
+    ],
+    "contagem_M3": [
+      1,
+      5,
+      17
+    ]
+  },
+  "checagens": {
+    "catalogo_33_funcoes": true,
+    "7_parciais": true,
+    "global_sem_imagem_raster": true,
+    "ciclo_7_complementares": true,
+    "ciclo_sem_imagem_raster": true,
+    "fast_21_elementares": true,
+    "fast_sem_imagem_raster": true,
+    "m1_21_elementares": true,
+    "m1_sem_imagem_raster": true,
+    "m2_21_elementares": true,
+    "m2_A01": true,
+    "m2_sem_imagem_raster": true,
+    "m3_21_elementares": true,
+    "m3_A01": true,
+    "m3_ramo_paralelo": true,
+    "m3_sem_imagem_raster": true,
+    "pugh_69_notas_e_23_pesos": true,
+    "pugh_totais": true,
+    "pugh_contagens": true,
+    "sensibilidade": true,
+    "23_metas_iguais_planilha": true,
+    "texto_dentro_das_paginas": true,
+    "sem_notas_historicas_ativas": true,
+    "sem_concepcao_final_aprovada": true,
+    "limite_ate_primeira_pugh": true,
+    "sem_avisos_compilacao": true,
+    "planilha_inalterada": true
+  },
+  "falhas": [],
+  "revisao_visual": {
+    "paginas_pdf_inspecionadas": [
+      1,
+      2,
+      3,
+      4,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "diagramas_vetoriais": 6,
+    "paginas_paisagem": [
+      47,
+      50,
+      51,
+      52
+    ],
+    "resultado": "Figuras e quadros legíveis, sem corte ou sobreposição; sumário, referências, legendas e paginação conferidos."
+  },
+  "compilacao": {
+    "xelatex_bibtex": "sucesso",
+    "editor_codex": "sucesso",
+    "avisos_referencias_fontes_estouro": "nenhum na compilação final"
+  },
+  "arquivos_pdf": [
+    "Eng Produto/Entregas/relatorio/Relatorio_Engenharia_Produto_Loucas.pdf",
+    "Eng Produto/Entregas/relatorio/main.pdf"
+  ]
+}

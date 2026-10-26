@@ -1,0 +1,17 @@
+\begin{tikzpicture}[x=.995mm,y=1mm]
+\input{figuras/estilos-funcionais}
+\node[fp,text width=32mm,minimum height=67mm,font=\normalsize] (fg) at (80,-27) {\textbf{Proteger louça}};
+\node[porta,anchor=south west,text width=58mm] at (0,1) {\textbf{Material:} louça a proteger};
+\node[porta,anchor=south west,text width=58mm] at (0,-17) {\textbf{Energia:} choque, vibração e compressão};
+\node[porta,anchor=south west,text width=58mm] at (0,-35) {\textbf{Energia:} trabalho mecânico do operador};
+\node[porta,anchor=south west,text width=58mm] at (0,-53) {\textbf{Sinal:} condição da louça a revelar};
+\draw[material] (0,0)--(62,0);\draw[energia] (0,-18)--(62,-18);\draw[energia] (0,-36)--(62,-36);\draw[sinal] (0,-54)--(62,-54);
+\node[porta,anchor=south west,text width=58.5mm] at (101,1) {\textbf{Material:} louça íntegra};
+\node[porta,anchor=south west,text width=58.5mm] at (101,-17) {\textbf{Material:} fragmentos retidos, se houver quebra};
+\node[porta,anchor=south west,text width=58.5mm] at (101,-35) {\textbf{Energia:} energia dissipada e parcela transmitida};
+\node[porta,anchor=south west,text width=58.5mm] at (101,-53) {\textbf{Sinal:} condição, fechamento e identidade};
+\draw[material] (98,0)--(160,0);\draw[material] (98,-18)--(160,-18);\draw[energia] (98,-36)--(160,-36);\draw[sinal] (98,-54)--(160,-54);
+\draw[material] (0,-73)--(14,-73);\node[legenda] at (17,-73) {Material};
+\draw[energia] (55,-73)--(69,-73);\node[legenda] at (72,-73) {Energia};
+\draw[sinal] (110,-73)--(124,-73);\node[legenda] at (127,-73) {Sinal};
+\end{tikzpicture}

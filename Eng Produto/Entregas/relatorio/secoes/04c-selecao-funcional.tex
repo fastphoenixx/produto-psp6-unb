@@ -1,30 +1,52 @@
-O Pugh compara alternativas a um datum, no mesmo nível de abstração, e orienta a discussão sem transformar o total em decisão absoluta \citep{mitpugh2015}. Nesta primeira seleção, a equipe avalia diferenças entre estruturas funcionais. A confirmação de aceleração, força, volume, vida e custo pertence à comparação das concepções, conforme as soluções e análises disponíveis. Os 23 requisitos, suas metas e seus protocolos permanecem obrigatórios.
+A seleção usa a matriz de Pugh para comparar estruturas no mesmo nível de abstração. As notas expressam julgamentos relativos à referência, apoiados nas diferenças de fronteira e nas hipóteses de solução disponíveis. A pontuação orienta o desenvolvimento; a comprovação de desempenho depende das soluções físicas e de suas verificações \citep{back2008,mitpugh2015}.
 
-A comparação atual usa M2 como datum e a escala qualitativa $-1$, $0$, $+1$, sem ponderação adicional. $+1$ indica vantagem funcional identificável; $-1$, desvantagem identificável; $0$, a mesma cobertura ou o mesmo aspecto descrito. Ausência de base recebe AV, sem ser convertida em zero. Os pesos derivados do Mudge/Pareto e a escala de cinco níveis permanecem no histórico e na segunda matriz. Não foram inventados pesos para os novos critérios funcionais, nem usados pontos do QFD como se fossem preferências adicionais.
+M2 é a referência, ou \textit{datum}, e a escala de comparação é $-1$, 0 e $+1$. A nota positiva indica vantagem prevista frente à referência; a negativa, desvantagem; zero registra equivalência adotada ou ausência de vantagem comparativa demonstrada. Os pesos são os graus de importância do cliente, de 0 a 5, derivados do Mudge/Pareto. Eles não são os pontos de importância técnica dos RP no QFD. A comparação contempla os 23 requisitos, inclusive os que restringem funções e soluções, conforme a Tabela~\ref{tab:pugh-funcional}.
 
 \begin{table}[H]
+\caption{Primeira Pugh: comparação ponderada das modelagens funcionais}
+\label{tab:pugh-funcional}
 \centering\footnotesize
-\caption{Primeira Pugh no nível das estruturas funcionais}\label{tab:pugh-funcional}
-\begin{tabularx}{\textwidth}{L{0.9cm}Y*{3}{>{\centering\arraybackslash}p{1.05cm}}}
-\toprule\textbf{ID}&\textbf{Aspecto comparado}&\textbf{M1}&\textbf{M2}&\textbf{M3}\\\midrule
-CF01&Cobertura de proteção, retenção e movimentação&0&0&0\\
-CF02&Barreiras pré-existentes no caminho de inspeção&+1&0&0\\
-CF03&Continuidade do acondicionamento no distribuidor&$-1$&0&0\\
-CF04&Cobertura da informação obrigatória ao usuário&0&0&0\\
-CF05&Cobertura de retorno, manutenção e fim de vida&0&0&0\\\midrule
-&Vantagens / desvantagens / equivalências&1/1/3&0/0/5&0/0/5\\
-&\textbf{Saldo qualitativo}&\textbf{0}&\textbf{0}&\textbf{0}\\
-\bottomrule
-\end{tabularx}
-\fonte{Julgamentos da equipe a partir das fronteiras, dos fluxos e do catálogo funcional. A planilha registra justificativa e origem por alternativa.}
+\begin{tabularx}{\textwidth}{@{}L{0.55cm}L{0.85cm}YL{0.75cm}*{3}{>{\centering\arraybackslash}p{0.65cm}}@{}}
+\toprule\textbf{RC}&\textbf{RP}&\textbf{Requisito do cliente}&\textbf{Peso}&\textbf{M1}&\textbf{M2}&\textbf{M3}\\\midrule
+\linhasquadro{quadros/pugh-modelagens-atuais}
+\midrule
+\multicolumn{4}{l}{\textbf{Total ponderado}}&\textbf{+7}&\textbf{0}&\textbf{$-4$}\\
+\bottomrule\end{tabularx}
+\fonte{Avaliação funcional dos 23 requisitos; pesos derivados do Mudge/Pareto.}
+\notaquadro{M2 é a referência. Zero não comprova cumprimento das metas. RP19 continua obrigatório mesmo com peso zero no Pareto.}
 \end{table}
 
-CF01, CF04 e CF05 receberam zero porque as três estruturas incluem os mesmos efeitos obrigatórios de proteção, informação e suporte ao reuso. Esses zeros não afirmam igualdade de desempenho físico. OP-01 não melhora automaticamente esses efeitos e continua fora da configuração base.
+O total ponderado de cada modelagem é dado por $S_j=\sum_{i=1}^{23}w_i n_{ij}$, em que $w_i$ é o grau de importância do requisito e $n_{ij}$ é a nota relativa à M2. M1 apresenta cinco vantagens, quatro desvantagens e quatorze zeros; M3 apresenta uma vantagem, cinco desvantagens e dezessete zeros. Os 23 zeros da M2 decorrem de sua condição de referência e não de desempenho aprovado.
 
-Em CF02, M1 elimina a embalagem de origem do caminho de observação da cerâmica após o preparo no distribuidor. A barreira do novo dispositivo permanece. A nota $+1$ registra uma facilidade potencial de acesso, sem demonstrar a área crítica exigida por RP4. M2 e M3 mantêm a mesma barreira de origem; registrar choque não a torna transparente. Em CF03, retirar a caixa e transferir a peça acrescenta uma operação em M1. A nota $-1$ representa essa intervenção necessária, sem atribuir tempo ou taxa de avaria ainda não medidos.
+\noindent\textbf{Fundamentação das diferenças.} As notas da Tabela~\ref{tab:fundamentacao-pugh} relacionam cada diferença à fronteira material e às capacidades funcionais. Elas descrevem potenciais e contrapartidas a verificar no mesmo mix, percurso e condições. A retirada da caixa muda a interface e o preparo; a inclusão de monitoramento muda a informação e as tarefas de verificação. Nenhuma dessas mudanças demonstra sozinha melhor proteção física.
 
-\noindent\textbf{Decisão de planejamento.} Em 15 de outubro de 2026, a equipe priorizou M1: retirar a embalagem original no distribuidor e desenvolver proteção direta da peça. A comparação termina em empate, e a preferência explícita orienta estudar o acesso mais direto, assumindo a contrapartida do preparo. M1 não foi declarada vencedora numérica. M2 permanece alternativa de contingência; M3 não é adotada na base.
+\begin{table}[H]
+\caption{Fundamentação das notas diferentes de zero}
+\label{tab:fundamentacao-pugh}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{1.5cm}*{2}{>{\centering\arraybackslash}p{0.7cm}}Y}
+\toprule\textbf{RC / RP}&\textbf{M1}&\textbf{M3}&\textbf{Diferença e condição da avaliação}\\\midrule
+B / RP2&+1&0&Na M1 a restrição age diretamente na peça; M2/M3 mantêm a folga interna da caixa. O julgamento depende de contatos que limitem pressão e deslocamento sem danificar a peça.\\
+C / RP4&+1&0&M1 retira o papelão opaco do caminho visual. A barreira do dispositivo permanece e deve permitir conferir a área crítica com o conjunto fechado.\\
+H / RP6&+1&+1&M1 reduz a necessidade de abrir a caixa com estilete na obra; M3 acrescenta aviso prévio de evento. São hipóteses de retirada; o alerta não comprova retenção nem abertura segura.\\
+D / RP7&$-1$&0&M1 exige regular apoios para geometrias irregulares de cubas e bacias. M2/M3 atuam sobre o volume externo da caixa. Comparar a mesma faixa de peças.\\
+V / RP23&0&$-1$&M3 acrescenta aquisição e reposição/rearme do monitoramento. M1 recebe equivalência comparativa de custo; o critério econômico inclui preparo, retorno e vida de serviço.\\
+I / RP10&$-1$&$-1$&M1 acrescenta desembalagem e transferência no preparo; M3 exige interpretar o alerta. Confirmar ações sob uma fronteira operacional comum.\\
+J / RP14&+1&0&Eliminar a caixa interna pode reduzir o envelope. Medir o conjunto carregado por família; não presumir economia de frete.\\
+P / RP13&+1&0&M1 reduz a dependência do papelão interno. A vantagem decorre dessa fronteira; resistência úmida é critério do conjunto.\\
+O / RP18&0&$-1$&A nota da M3 considera reposição de indicador. Uma tecnologia reutilizável pode alterar o julgamento; a vida do conjunto precisa de ensaio.\\
+U / RP22&$-1$&$-1$&M1 exige regulagem dos apoios à peça; M3 acrescenta instalação/rearme do monitoramento. Confirmar a contagem de ações.\\
+Q / RP15&$-1$&$-1$&M1 exige cuidado com limpeza e desgaste dos contatos; M3 acrescenta verificação e manutenção do monitoramento conforme a tecnologia.\\
+\bottomrule\end{tabularx}
+\fonte{Análise comparativa das interfaces e dos efeitos das três modelagens.}
+\end{table}
 
-A escolha encerra a definição da direção funcional para prosseguir, condicionada à viabilidade da proteção direta. O preparo deve incluir retirada controlada, conferência inicial, transferência segura, identidade da unidade e destino da embalagem. Definir pressão e área de contato, inspeção com o dispositivo fechado e contenção na abertura. Se essas condições não puderem ser resolvidas, reabrir a fronteira funcional.
+A comparação adota folga interna de aproximadamente 20\,mm por face como premissa geométrica da embalagem. Essa grandeza é distinta do deslocamento residual do RP2. O efeito da umidade sobre o papelão tem suporte na pesquisa de \citet{brown2019}, sem que um fator único de perda seja transferido a todas as caixas. As metas da Tabela~\ref{tab:especificacoes-meta} permanecem os critérios de aceitação do produto.
 
-A planilha conserva os 23 critérios do cliente e explicita seu encaminhamento à segunda Pugh, onde serão comparadas C1/C2/C3 sob M1. A direção funcional apoia-se na descrição comparativa; os protocolos permanecem como base para analisar e confirmar o desempenho das soluções físicas. A introdução posterior de OP-01 na M1 exigiria revisão de escopo e benefício, mantendo a fronteira direta da peça; isso não corresponde à M3, definida sobre o volume embalado.
+Os zeros em proteção, movimentação, pega, compatibilidade com o veículo, estabilidade, empilhamento e uniformidade registram que esta comparação não estabeleceu uma diferença que justificasse outra nota. Orientação visual, desmontagem, separação, modularidade e identidade também permanecem capacidades exigidas das três estruturas. O custo da M1 recebeu zero sem cotação comparável, não porque se tenha demonstrado custo igual. A equivalência é de comparação funcional, sem substituir a comprovação das respectivas metas.
+
+\noindent\textbf{Seleção e sensibilidade.} A alternativa selecionada é \textbf{M1, proteção direta da peça}. Seu total ponderado é +7, frente a 0 da M2 e $-4$ da M3. A escolha concentra a geração de princípios na proteção direta da peça e assume a necessidade de resolver preparo, contato com a cerâmica, inspeção, contenção e manutenção. M2 permanece contingência, sujeita às mesmas metas.
+
+Retirar a vantagem de M1 em imobilização reduz o total para +2; retirar também a vantagem em inspeção reduz para $-1$. A preferência, portanto, depende das premissas desses critérios. O resultado não encerra a confirmação das metas. A preferência tem como condição a preservação dos benefícios de imobilização e inspeção no mesmo conjunto.
+
+A geração de princípios considera as 21 elementares e as sete complementares, tratando os conflitos do QFD. As configurações C1/C2/C3 são examinadas sob esses mesmos efeitos e restrições. Selecionar M1 define a fronteira funcional; não determina a posição do amortecimento, os materiais, os módulos finais ou uma concepção física aprovada.

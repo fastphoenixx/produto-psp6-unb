@@ -1,0 +1,40 @@
+{
+  "data": "2026-10-26",
+  "checagens": {
+    "mim_156_escores_inalterados": true,
+    "sem_linguagem_de_log_no_corpo": true
+  },
+  "termos_auditados": [
+    "revisão de 26",
+    "revisão de 26/10",
+    "nesta revisão",
+    "nesta rodada",
+    "nesta entrega",
+    "Esta versão",
+    "foram corrigidas",
+    "sincroniz",
+    "Figma",
+    "plano de coleta",
+    "Feedback 2",
+    "Comentários da banca",
+    "ainda não",
+    "a executar"
+  ],
+  "metas_qualificadas_como_criterios": [
+    "RP1",
+    "RP2",
+    "RP4",
+    "RP6",
+    "RP11",
+    "RP15",
+    "RP18",
+    "RP23"
+  ],
+  "bases_qualificadas": [
+    "RP1: faixa estimada, sem fragilidade cerâmica universal",
+    "RP3: peso de kit não é força de partida",
+    "RP6: caracterização qualitativa sem percentual medido",
+    "RP13: perda de 50% como cenário, sem atribuição ao estudo Brown"
+  ],
+  "natureza_resultados": "Dados publicados e cálculos; sem atribuição de ensaio do dispositivo."
+}
