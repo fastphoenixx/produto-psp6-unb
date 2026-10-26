@@ -1,0 +1,100 @@
+{
+  "sourceSha256": "ad7d44d83b817ee00eca5de90e56ce8a2fdb738405671ef84c43f8b12927f699",
+  "candidateSha256": "85ba52bad402eb1cf371e5bbcf17167edcb7c09345edce378260a56f5dc919f5",
+  "sheetCount": 33,
+  "changedParts": [
+    "xl/worksheets/sheet17.xml",
+    "xl/worksheets/sheet18.xml",
+    "xl/worksheets/sheet19.xml",
+    "xl/worksheets/sheet21.xml",
+    "xl/media/diagrama_20261019_m1.png",
+    "xl/media/diagrama_20261019_m2.png",
+    "xl/media/diagrama_20261019_m3.png",
+    "xl/media/diagrama_20261019_fast.png"
+  ],
+  "changedCellCounts": {
+    "Função Global": 23,
+    " FAST ": 13,
+    "Funções Parciais": 17,
+    "Modelagens Alternativas": 7
+  },
+  "formulasPreserved": true,
+  "pughWorksheetByteIdentical": true,
+  "qfdWeightsTargetsAndMimPreserved": true,
+  "seventeenFunctionNamesPreserved": true,
+  "sixImagesPreserved": true,
+  "updatedImages": [
+    "xl/media/diagrama_20261019_m1.png",
+    "xl/media/diagrama_20261019_m2.png",
+    "xl/media/diagrama_20261019_m3.png",
+    "xl/media/diagrama_20261019_fast.png"
+  ],
+  "drawingAnchorsPreserved": true,
+  "nativeChartPreserved": true,
+  "relationshipsValid": true,
+  "partialScores": [
+    0,
+    2,
+    -1
+  ],
+  "pendingCounts": [
+    0,
+    9,
+    9
+  ],
+  "selectedFunctionalModel": "MF-B",
+  "physicalValidationPerformed": false,
+  "date": "2026-10-25",
+  "changedTextCells": 60,
+  "nativeRecalculation": {
+    "engine": "LibreOffice Calc; disposable copy; mandatory OOXML recalculation",
+    "sheetCount": 33,
+    "errors": [],
+    "all60AuthoredTextsChecked": true,
+    "all69ScoresPreserved": true,
+    "all23MetaLinksChecked": true,
+    "selectedFunctionalModel": "MF-B",
+    "partialScores": [
+      0,
+      2,
+      -1
+    ],
+    "pendingCounts": [
+      0,
+      9,
+      9
+    ],
+    "completeScores": [
+      0,
+      "Pendente",
+      "Pendente"
+    ],
+    "nativeExportUsedForDelivery": false
+  },
+  "figma": {
+    "fileKey": "hF2hV3uNVjhzfP6jEfPY7F",
+    "frames": [
+      "27:2",
+      "27:103",
+      "27:204",
+      "49:2"
+    ],
+    "allFunctionAndMeansLabelsVerbNoun": true,
+    "functionNamesAndIdsPreserved": true,
+    "noClippedFunctionText": true,
+    "visualReview": "passed",
+    "nodeDetails": "figma-verificacao.json"
+  },
+  "referencesMappedToAll17Ids": true,
+  "newPhysicalOrPatentResearchPerformed": false,
+  "pdf": {
+    "sha256": "9e49e0bac750790a64df659582980d9a36bafeb1bcd5bdc6646864e15effb6d7",
+    "pageCount": 10,
+    "pughScoresVerifiedFromRenderedPdf": 69,
+    "currentDiagramsMatched": true,
+    "noOverflowOrMissingGlyphs": true,
+    "visualReview": "all ten pages inspected",
+    "desktopCompiler": "success on final source"
+  },
+  "generalReportUpdated": false
+}

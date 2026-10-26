@@ -1,0 +1,401 @@
+{
+  "checks": [
+    {
+      "id": "44:2",
+      "name": "ATUAL 26-10 | 01 — Função global",
+      "functionNames": [
+        "Função FG / Proteger louça"
+      ],
+      "formulaLabels": [],
+      "overflow": []
+    },
+    {
+      "id": "49:2",
+      "name": "ATUAL 26-10 | 02 — FAST da M1",
+      "functionNames": [
+        "Função FG / Proteger louça",
+        "Função P1 / Imobilizar louça",
+        "Função E01 / Travar apoios",
+        "Função E02 / Distribuir pressão",
+        "Função E03 / Restringir movimento",
+        "Função P2 / Atenuar esforços",
+        "Função E04 / Absorver impacto",
+        "Função E05 / Isolar vibração",
+        "Função E06 / Desviar compressão",
+        "Função P3 / Conter fragmentos",
+        "Função E07 / Envolver louça",
+        "Função E08 / Reter fragmentos",
+        "Função E09 / Vedar juntas",
+        "Função P4 / Acomodar louça",
+        "Função E10 / Receber louça",
+        "Função E11 / Ajustar apoios",
+        "Função E12 / Posicionar louça",
+        "Função P5 / Movimentar conjunto",
+        "Função E13 / Receber força",
+        "Função E14 / Transmitir força",
+        "Função E15 / Estabilizar conjunto",
+        "Função P6 / Informar condição",
+        "Função E16 / Expor superfície",
+        "Função E17 / Indicar fechamento",
+        "Função E18 / Exibir identidade",
+        "Função P7 / Liberar louça",
+        "Função E19 / Destravar apoios",
+        "Função E20 / Abrir barreira",
+        "Função E21 / Remover louça"
+      ],
+      "formulaLabels": [],
+      "overflow": []
+    },
+    {
+      "id": "27:2",
+      "name": "ATUAL 26-10 | 03 — M1 · Proteção direta da peça descoberta",
+      "functionNames": [
+        "Função P4 / Acomodar louça",
+        "Função E10 / Receber louça",
+        "Função E11 / Ajustar apoios",
+        "Função E12 / Posicionar louça",
+        "Função P1 / Imobilizar louça",
+        "Função E01 / Travar apoios",
+        "Função E02 / Distribuir pressão",
+        "Função E03 / Restringir movimento",
+        "Função P2 / Atenuar esforços",
+        "Função E04 / Absorver impacto",
+        "Função E05 / Isolar vibração",
+        "Função E06 / Desviar compressão",
+        "Função P3 / Conter fragmentos",
+        "Função E07 / Envolver louça",
+        "Função E08 / Reter fragmentos",
+        "Função E09 / Vedar juntas",
+        "Função P5 / Movimentar conjunto",
+        "Função E13 / Receber força",
+        "Função E14 / Transmitir força",
+        "Função E15 / Estabilizar conjunto",
+        "Função P6 / Informar condição",
+        "Função E16 / Expor superfície",
+        "Função E17 / Indicar fechamento",
+        "Função E18 / Exibir identidade",
+        "Função P7 / Liberar louça",
+        "Função E19 / Destravar apoios",
+        "Função E20 / Abrir barreira",
+        "Função E21 / Remover louça"
+      ],
+      "formulaLabels": [],
+      "overflow": []
+    },
+    {
+      "id": "27:103",
+      "name": "ATUAL 26-10 | 03 — M2 · Proteção do volume embalado",
+      "functionNames": [
+        "Função P4 / Acomodar volume",
+        "Função E10 / Receber volume",
+        "Função E11 / Ajustar apoios",
+        "Função E12 / Posicionar volume",
+        "Função P1 / Imobilizar volume",
+        "Função E01 / Travar apoios",
+        "Função E02 / Distribuir pressão",
+        "Função E03 / Restringir movimento",
+        "Função P2 / Atenuar esforços",
+        "Função E04 / Absorver impacto",
+        "Função E05 / Isolar vibração",
+        "Função E06 / Desviar compressão",
+        "Função P3 / Conter fragmentos",
+        "Função E07 / Envolver volume",
+        "Função E08 / Reter fragmentos",
+        "Função E09 / Vedar juntas",
+        "Função P5 / Movimentar conjunto",
+        "Função E13 / Receber força",
+        "Função E14 / Transmitir força",
+        "Função E15 / Estabilizar conjunto",
+        "Função P6 / Informar condição",
+        "Função A01 / Abrir acesso",
+        "Função E16 / Expor superfície",
+        "Função E17 / Indicar fechamento",
+        "Função E18 / Exibir identidade",
+        "Função P7 / Liberar volume",
+        "Função E19 / Destravar apoios",
+        "Função E20 / Abrir barreira",
+        "Função E21 / Remover volume"
+      ],
+      "formulaLabels": [],
+      "overflow": []
+    },
+    {
+      "id": "27:204",
+      "name": "ATUAL 26-10 | 03 — M3 · Volume embalado com monitoramento",
+      "functionNames": [
+        "Função P4 / Acomodar volume",
+        "Função E10 / Receber volume",
+        "Função E11 / Ajustar apoios",
+        "Função E12 / Posicionar volume",
+        "Função P1 / Imobilizar volume",
+        "Função E01 / Travar apoios",
+        "Função E02 / Distribuir pressão",
+        "Função E03 / Restringir movimento",
+        "Função P2 / Atenuar esforços",
+        "Função E04 / Absorver impacto",
+        "Função E05 / Isolar vibração",
+        "Função E06 / Desviar compressão",
+        "Função P3 / Conter fragmentos",
+        "Função E07 / Envolver volume",
+        "Função E08 / Reter fragmentos",
+        "Função E09 / Vedar juntas",
+        "Função P5 / Movimentar conjunto",
+        "Função E13 / Receber força",
+        "Função E14 / Transmitir força",
+        "Função E15 / Estabilizar conjunto",
+        "Função P6 / Informar condição",
+        "Função A01 / Abrir acesso",
+        "Função E16 / Expor superfície",
+        "Função E17 / Indicar fechamento",
+        "Função E18 / Exibir identidade",
+        "Função P7 / Liberar volume",
+        "Função E19 / Destravar apoios",
+        "Função E20 / Abrir barreira",
+        "Função E21 / Remover volume",
+        "Função O01 / Detectar aceleração",
+        "Função O02 / Comparar limiar",
+        "Função O03 / Registrar evento",
+        "Função O04 / Exibir alerta"
+      ],
+      "formulaLabels": [],
+      "overflow": []
+    },
+    {
+      "id": "11:441",
+      "name": "ATUAL 26-10 | 06 — Pugh ponderada",
+      "functionNames": [],
+      "formulaLabels": [],
+      "overflow": []
+    }
+  ],
+  "pughRows": [
+    [
+      "A",
+      "Amortecer impactos do transporte",
+      "5",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "B",
+      "Imobilizar a louça",
+      "5",
+      "+1",
+      "0",
+      "0"
+    ],
+    [
+      "F",
+      "Ser de fácil movimentação",
+      "4",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "C",
+      "Permitir conferência sem abrir",
+      "3",
+      "+1",
+      "0",
+      "0"
+    ],
+    [
+      "G",
+      "Ter pontos de pega definidos",
+      "2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "H",
+      "Ter retirada segura da louça",
+      "2",
+      "+1",
+      "0",
+      "+1"
+    ],
+    [
+      "D",
+      "Ser ajustável a diferentes louças",
+      "2",
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "E",
+      "Ser compatível com o veículo",
+      "2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "W",
+      "Ser estável quando apoiado",
+      "2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "V",
+      "Ter baixo custo por ciclo de uso",
+      "2",
+      "0",
+      "0",
+      "-1"
+    ],
+    [
+      "I",
+      "Ser de uso intuitivo",
+      "1",
+      "-1",
+      "0",
+      "-1"
+    ],
+    [
+      "K",
+      "Ser empilhável",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L",
+      "Ter desempenho uniforme",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "O",
+      "Ser reutilizável",
+      "1",
+      "0",
+      "0",
+      "-1"
+    ],
+    [
+      "J",
+      "Ser compacto",
+      "1",
+      "+1",
+      "0",
+      "0"
+    ],
+    [
+      "P",
+      "Ser resistente a intempéries",
+      "1",
+      "+1",
+      "0",
+      "0"
+    ],
+    [
+      "M",
+      "Ter indicação visual de uso",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "T",
+      "Ter peças modulares",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "U",
+      "Ter montagem em poucas etapas",
+      "1",
+      "-1",
+      "0",
+      "-1"
+    ],
+    [
+      "Q",
+      "Ter manutenção simples",
+      "1",
+      "-1",
+      "0",
+      "-1"
+    ],
+    [
+      "N",
+      "Ter identificação visível",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "R",
+      "Ser de fácil desmontagem",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "S",
+      "Ter materiais recicláveis",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    {
+      "id": "109:2",
+      "name": "Histórico até 25-10-2026"
+    }
+  ],
+  "currentRoots": [
+    {
+      "id": "3:2",
+      "name": "ATUAL 26-10 | 00 — Guia atual"
+    },
+    {
+      "id": "11:441",
+      "name": "ATUAL 26-10 | 06 — Pugh ponderada"
+    },
+    {
+      "id": "27:2",
+      "name": "ATUAL 26-10 | 03 — M1 · Proteção direta da peça descoberta"
+    },
+    {
+      "id": "27:103",
+      "name": "ATUAL 26-10 | 03 — M2 · Proteção do volume embalado"
+    },
+    {
+      "id": "27:204",
+      "name": "ATUAL 26-10 | 03 — M3 · Volume embalado com monitoramento"
+    },
+    {
+      "id": "44:2",
+      "name": "ATUAL 26-10 | 01 — Função global"
+    },
+    {
+      "id": "49:2",
+      "name": "ATUAL 26-10 | 02 — FAST da M1"
+    },
+    {
+      "id": "109:1920",
+      "name": "ATUAL 26-10 | 07 — Ciclo de vida"
+    }
+  ]
+}

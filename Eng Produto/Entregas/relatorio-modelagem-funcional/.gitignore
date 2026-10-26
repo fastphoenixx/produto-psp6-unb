@@ -1,0 +1,8 @@
+# Fontes instaladas no computador, usadas apenas na compilação local.
+fontes/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+main.pdf

@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-26",
+  "sourceUrl": "https://docs.google.com/presentation/d/1PIiw4DZbp-6MtumhLrUObnUPZhm7Tn64/edit",
+  "sourcePresentationSha256": "3b01a6858fdf41237cbc007bef701be82660b16a49d670b636012454bd799259",
+  "sourceWorkbookSha256": "85ba52bad402eb1cf371e5bbcf17167edcb7c09345edce378260a56f5dc919f5",
+  "outputWorkbookSha256": "3a618bb43b0cf4052c76fda4d5e92f2cc14fc5d0670fb742db5a475025a1b83a",
+  "sheetCount": 33,
+  "changedWorksheets": [
+    "Função Global",
+    " FAST ",
+    "Funções Parciais",
+    "Modelagens Alternativas",
+    "Matriz Pugh das Modelagens",
+    "Matriz Morfologica ",
+    "MIM",
+    "Dados ",
+    "Especificação Meta",
+    "Arquitetura Modular",
+    "Concepções",
+    "Matriz Pugh das Concepções",
+    "Modelagem V0",
+    "Revisão"
+  ],
+  "globalFunction": "Proteger louça",
+  "partialFunctions": 7,
+  "elementaryFunctionsM1": 21,
+  "lifecycleComplementaryFunctions": 7,
+  "additionalMonitoringFunctionsM3": 4,
+  "additionalInspectionAccessM2M3": 1,
+  "criteria": 23,
+  "scoresCompared": 69,
+  "weightedScores": [
+    7,
+    0,
+    -4
+  ],
+  "selectedModel": "M1",
+  "datum": "M2",
+  "originalQfdMudgeParetoPreserved": true,
+  "all23TargetsPreserved": true,
+  "historicalMimAndConceptScoresPreserved": true,
+  "embeddedImages": 6,
+  "updatedImageCount": 5,
+  "maxImageDisplayWidthPx": 1000,
+  "nativeChartsPreserved": true,
+  "nativeRecalculationErrors": [],
+  "figmaHistoryPageId": "109:2",
+  "figmaSourceChecksPassed": true,
+  "sensitivityAndInvalidInputTests": [
+    {
+      "case": "base",
+      "total": [
+        7,
+        0,
+        -4
+      ],
+      "decision": "M1 selecionada para desenvolvimento"
+    },
+    {
+      "case": "sem vantagem imobilizar",
+      "total": [
+        2,
+        0,
+        -4
+      ],
+      "decision": "M1 selecionada para desenvolvimento"
+    },
+    {
+      "case": "sem vantagens imobilizar e inspecionar",
+      "total": [
+        -1,
+        0,
+        -4
+      ],
+      "decision": "Rever seleção M1"
+    },
+    {
+      "case": "nota vazia",
+      "total": [
+        "Rever notas e pesos",
+        0,
+        -4
+      ],
+      "decision": "Rever notas e pesos"
+    },
+    {
+      "case": "nota inválida",
+      "total": [
+        "Rever notas e pesos",
+        0,
+        -4
+      ],
+      "decision": "Rever notas e pesos"
+    },
+    {
+      "case": "restaurado",
+      "total": [
+        7,
+        0,
+        -4
+      ],
+      "decision": "M1 selecionada para desenvolvimento"
+    }
+  ],
+  "physicalTestsPerformed": false,
+  "scope": "Alinhamento da base funcional até a primeira Pugh; vínculos e encaminhamentos posteriores revistos, sem selecionar concepção física."
+}

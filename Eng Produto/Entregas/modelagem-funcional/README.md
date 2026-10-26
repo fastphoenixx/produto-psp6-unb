@@ -1,35 +1,33 @@
-# Modelagem funcional e seleção da alternativa
+# Modelagem funcional vigente
 
-**Versão anterior ao trio MF-A/MF-B/MF-C.** O PDF desta pasta registra M1/M2/M3 e o empate da comparação anterior. A planilha foi revista posteriormente em 21/10/2026 para o novo trio de amortecimento e recebeu uma [avaliação conceitual dos 23 RP, com seleção em aberto](../logs-ajustes/2026-10-21-pugh-avaliacao/registro-ajustes.md). Este PDF não contém o resultado da nova primeira Pugh.
+Em 26/10/2026 a equipe adotou a [apresentação Modelagem Funcional — PSP6](https://docs.google.com/presentation/d/1PIiw4DZbp-6MtumhLrUObnUPZhm7Tn64/edit) como referência. A [planilha](../planilha/Planilha_PSP6_Grupo2_Loucas.xlsx) e os diagramas do Figma seguem essa entrega.
 
-Apresentação complementar de 21 de outubro de 2026, organizada no formato do exemplo recebido do Grupo 9. A revisão mantém os diagramas e as funções, identifica os fluxos por Material, Energia e Sinal e reduz os textos de apoio. O conteúdo técnico pertence ao projeto de proteção e movimentação de louças sanitárias da Equipe 2.
+A função global é **Proteger louça**. A M1 contém sete parciais e 21 elementares. Sete funções complementares comuns sustentam o ciclo de vida. Os oito RP não funcionais são parâmetros/restrições; as 23 metas e o mix de cubas e corpos individuais de bacias foram preservados.
 
-O [PDF para revisão](Modelagem_Funcional_Selecao_Equipe2.pdf) reúne sete páginas em A4 paisagem. Os textos e diagramas permanecem editáveis no arquivo UNB do Figma.
+| Prancha atual | Conteúdo |
+|---|---|
+| [Função global](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=44-2) | Material, energia e sinal |
+| [FAST](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=49-2) | Sete parciais e 21 elementares da M1 |
+| [M1](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=27-2) | Proteção direta da peça descoberta |
+| [M2](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=27-103) | Proteção do volume embalado |
+| [M3](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=27-204) | Volume embalado com monitoramento de impacto |
+| [Primeira Pugh](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-441) | 23 critérios e totais ponderados +7/0/−4 |
+| [Ciclo de vida](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=109-1920) | Retorno, manutenção e fim de vida |
 
-| Página | Conteúdo | Fonte editável |
-| --- | --- | --- |
-| 1 | Função global e fronteira do produto | [Função global](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-2) |
-| 2 | V0: situação atual e limites da observação | [V0](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-53) |
-| 3 | M1: proteção direta da peça descoberta | [M1](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-122) |
-| 4 | M2: proteção do volume embalado | [M2](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-199) |
-| 5 | M3: volume embalado e registro de evento opcional | [M3](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-276) |
-| 6 | FAST: finalidade, meios e suporte ao ciclo de vida | [FAST](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-358) |
-| 7 | Primeira Pugh: critérios, empate e direção M1 | [Primeira Pugh](https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=11-441) |
+P1–P7 identificam parciais; E01–E21, elementares da M1; C01–C07, complementares; O01–O04, monitoramento exclusivo da M3; A01, acesso adicional de M2/M3. São IDs de rastreabilidade, sem criar requisitos. Nas versões sobre o volume, os IDs dos efeitos equivalentes são mantidos e os nomes explicitam o material.
 
-## Como ler as pranchas
+Material usa linha contínua escura; energia, linha laranja; sinal, linha azul tracejada. O FAST relaciona finalidade e meios. As elementares da mesma parcial estão no mesmo nível de desdobramento. O produto oferece capacidades físicas; o operador executa as operações.
 
-- **Material:** louça, seu acondicionamento quando mantido e eventuais fragmentos. Traço contínuo.
-- **Energia:** energia mecânica do transporte e manuseio, transmitida à carga e dissipada no conjunto. Traço contínuo mais espesso.
-- **Sinal:** comandos de uso do operador e informações visuais de condição da peça, orientação e identificação. Traço-ponto. Esses sinais não pressupõem eletrônica.
-- Os nomes aparecem por extenso junto às setas. O sentido da seta indica a direção do fluxo, sem substituir sua classificação por material, energia ou sinal.
-- As setas finas entre blocos expressam relações funcionais e não uma sequência temporal de tarefas. Os blocos agrupam funções para leitura e não definem componentes ou módulos.
-- A expressão "funções vinculadas" preserva os IDs e as funções parciais ou de suporte do catálogo. O formato do exemplo não foi usado para reclassificar todas como funções elementares ou criar novas funções.
-- As três modelagens e a FAST contemplam as 17 funções da base. As funções de suporte ao uso, retorno, manutenção e fim de vida aparecem separadas, preservando o foco no produto.
-- M1 continua a direção priorizada pela equipe após empate 0/0/0. M2 é o datum da primeira Pugh. OP-01 permanece opcional e não substitui a inspeção da cerâmica.
-- As saídas das alternativas são pretendidas. Não representam resultados de ensaio nem aprovação das concepções físicas posteriores.
+## Seleção e continuidade
 
-As pranchas anteriores do Figma e os quadros e imagens existentes na planilha foram preservados. Esta apresentação não altera requisitos, metas, funções, notas ou decisões registradas. As verificações desta rodada estão no [registro de ajustes](../logs-ajustes/2026-10-21-pranchas-modelagem/registro-ajustes.md).
+**M1 selecionada para desenvolvimento**, com M2 como datum: M1 +7, M2 0, M3 −4. Os pesos leem o grau de importância do Mudge/Pareto. As 69 notas reproduzem a apresentação com suas premissas identificadas. Zero não comprova atendimento da meta; alerta de impacto não comprova integridade nem segurança da retirada.
 
-## Conteúdo da disciplina consultado
+Retirar a vantagem de imobilização reduz M1 para +2; retirar também a de inspeção reduz para −1. Confirmar RP2, RP4, RP6, preparo e custo completo. Nenhuma concepção física foi selecionada pela primeira Pugh.
 
-A revisão usa a Aula 16, *Projeto Conceitual: Modelagem Funcional*, da Profa. Andréa Santos. O slide 22 orienta identificar os fluxos e seus estados a partir das especificações-meta; os slides 24 e 25 mostram a função global, os fluxos de energia, material e sinal e seu desdobramento. A Aula 17 mantém a passagem da função total às funções de menor nível e aos princípios de solução. Os materiais foram consultados no histórico do repositório, sem reincluir os arquivos privados nas entregas públicas.
+Nas etapas posteriores, os vínculos e encaminhamentos foram ajustados para M1. Princípios, concepções, portadores, agrupamentos e escores anteriores continuam estudos a revisar e completar para as 21 elementares e sete complementares antes da segunda Pugh. As metas e os valores numéricos da MIM e da segunda Pugh foram preservados.
+
+## Histórico
+
+MF-A/MF-B/MF-C e a escolha MF-B de 25/10 foram substituídos nesta entrega. As pranchas anteriores estão na página **Histórico até 25-10-2026** do Figma. O [relatório complementar de 25/10](../relatorio-modelagem-funcional/README.md) e o PDF anterior desta pasta permanecem históricos e não reproduzem a primeira Pugh vigente.
+
+Ver o [registro de alinhamento](../logs-ajustes/2026-10-26-base-apresentacao/registro-ajustes.md), as conferências e a [ligação das referências ao catálogo](Referencias_Funcoes_Atuais.md).

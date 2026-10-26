@@ -4,6 +4,8 @@ Cada registro reúne o feedback recebido, a correção aplicada, o trecho da ent
 
 As conferências e os hashes descrevem a versão salva naquela rodada. As entregas podem receber revisões posteriores, registradas em outra entrada.
 
+- [Apresentação adotada como base em 26 de outubro de 2026](2026-10-26-base-apresentacao/registro-ajustes.md): função global Proteger louça, sete parciais, 21 elementares e sete complementares; M1/M2/M3, Pugh ponderada +7/0/−4 e seleção M1. Planilha e Figma alinhados, vínculos posteriores revistos e escores físicos preservados.
+
 - [Feedback 2 da Equipe 2 registrado em 14 de outubro de 2026](2026-10-14-feedback-2-equipe-2/registro-ajustes.md): fechamento do pré-desenvolvimento, revisão do escopo, ciclo de vida, Kano–Mudge e validação das metas.
 - [MIM elaborada em 14 de outubro de 2026](2026-10-14-mim/registro-ajustes.md): 12 direcionadores, referência C1, julgamentos, candidatos de módulos, interfaces e testes.
 - [Requisitos e funções revistos em 15 de outubro de 2026](2026-10-15-requisitos-funcoes/registro-ajustes.md): natureza dos requisitos, catálogo de 17 funções, migração de vínculos e alinhamento das etapas posteriores.
@@ -17,3 +19,5 @@ As conferências e os hashes descrevem a versão salva naquela rodada. As entreg
 - [Referências físicas e transporte em 21 de outubro de 2026](2026-10-21-faixa-real-transporte/registro-ajustes.md): catálogos, faixas de cubas/bacias individuais, carga, envelope e dois níveis de estudo; revisão preliminar de RP7/RP8/RP14 e conferência das dependências, preservando a seleção em aberto na Pugh.
 - [Seleção funcional MF-B em 21 de outubro de 2026](2026-10-21-selecao-mf-b/registro-ajustes.md): escolha para desenvolvimento pelo potencial de ajuste e manutenção, com notas e nove AV preservados, condições de revisão e encaminhamentos posteriores atualizados.
 - [Limpeza da primeira Pugh em 21 de outubro de 2026](2026-10-21-limpeza-pugh/registro-ajustes.md): histórico retirado da aba, matriz atual e síntese compactadas, notas e escolha MF-B preservadas, com vínculos e controles conferidos.
+- [Relatório da entrega funcional em 25 de outubro de 2026](2026-10-25-relatorio-modelagem/registro-ajustes.md): função global, requisitos e funções, FAST, trio MF-A/MF-B/MF-C, Pugh dos 23 RP e motivos da escolha MF-B, com nove AV preservados e conferência do PDF.
+- [Refinamento funcional em 25 de outubro de 2026](2026-10-25-refino-funcional/registro-ajustes.md): um verbo + substantivo por bloco, fluxos internos M/E/S, efeitos físicos e referências ligados aos 17 IDs; Figma, planilha e relatório complementar sincronizados, com notas/metas e escolha MF-B preservadas.

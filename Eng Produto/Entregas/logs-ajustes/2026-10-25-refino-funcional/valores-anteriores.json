@@ -1,0 +1,362 @@
+[
+  {
+    "sheet": "Função Global",
+    "cell": "F40",
+    "value": "Restringir o movimento relativo da louça descoberta, sem concentrar esforços que danifiquem a cerâmica.",
+    "before": "Conservar o posicionamento relativo da carga, na peça ou no volume conforme a fronteira."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "F42",
+    "value": "Tornar a superfície crítica visualmente acessível por um caminho de observação com a contenção fechada. O sinal é a condição real da cerâmica.",
+    "before": "Tornar a região crítica da cerâmica acessível à inspeção com o conjunto fechado."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "F45",
+    "value": "Adaptar a geometria de acomodação e a posição/configuração dos contatos à faixa dimensional da louça, sem troca de componentes no ajuste.",
+    "before": "Adaptar o posicionamento à faixa dimensional na mesma configuração."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "F46",
+    "value": "Disponibilizar superfícies, posições e interfaces físicas de apoio e amarração compatíveis com palete e veículo. Envelope e ocupação limitam a solução.",
+    "before": "Disponibilizar geometria e interfaces compatíveis com palete e meio de transporte."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "F50",
+    "value": "Disponibilizar acesso físico às regiões de limpeza, inspeção e reposição. O operador realiza a manutenção; o produto oferece acesso e liberação.",
+    "before": "Disponibilizar acesso às regiões de limpeza, inspeção e reposição durante manutenção."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I39",
+    "value": "Uniformidade e vida qualificam F01. ER01 (IP US10301097) / ER04 (Rengo JP2007186235): analogias documentais de amortecimento; não comprovam pico nem reuso.",
+    "before": "Uniformidade e vida qualificam esta função; não são funções adicionais."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I40",
+    "value": "MF-A/B/C preservam esta função. ER01/ER02 (Delta US9221577): encaixes e calços; verificar pressão, folgas e deslocamento no mix de proteção direta.",
+    "before": "A função permanece requerida em M1/M2/M3; comparar deslocamento efetivo."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I41",
+    "value": "ER02/ER05 (TOTO): pega e auxílio à movimentação. Separar empurrar/puxar de levantar/carregar; não transferir força ou envelope da referência.",
+    "before": "Separar empurrar/puxar de levantar/carregar. Geometria e volume limitam a solução."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I42",
+    "value": "ER03 (Kohler/Vavra US4574998 / US5183155): analogia de observação. Confirmar 60% da área crítica com contenção fechada; indicador de choque não substitui inspeção.",
+    "before": "O acondicionamento original não pode bloquear o acesso requerido."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I43",
+    "value": "ER02: alça 35 como interface de força. Vão, acesso e quantidade de pegas não demonstram ergonomia ou levantamento individual seguro.",
+    "before": "Quantidade, dimensões e acesso não demonstram ergonomia por si sós."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I44",
+    "value": "Derivada de RP6. A revisão documental não demonstrou retenção de cacos no nosso recorte; verificar massa retida, pequenos fragmentos e abertura/retirada.",
+    "before": "Massa retida não elimina a verificação de fragmentos pequenos e risco de corte."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I45",
+    "value": "Derivada de RP7; ER01 é analogia geométrica, sem comprovar ajuste. Modificar a interface física sem trocar componentes; reposição por desgaste é manutenção.",
+    "before": "Ajuste sem trocar partes; reposição por desgaste é manutenção."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I46",
+    "value": "ER02: organização geométrica. Ocupação, envelope e amarração são critérios da interface PBR/veículo, sem criar outro bloco funcional.",
+    "before": "A ocupação e o envelope externo são critérios da interface, não novos blocos."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I47",
+    "value": "Derivada de RP9. Verificar apoios, centro de massa, piso e configuração desfavorável; referência de embalagem não comprova ângulo de tombamento.",
+    "before": "Verificar a configuração desfavorável, piso, apoios e eventual rolamento."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I48",
+    "value": "ER01/ER04: caminhos estruturais. RP13 qualifica F11 após umidade; verificar compressão/fluência sem criar caminho rígido que anule F01.",
+    "before": "RP13 qualifica esta capacidade após umidade; não exige automaticamente bloquear água."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I49",
+    "value": "Derivada do retorno vazio (RP14). Reconfigurar partes não demonstra o envelope carregado nem vida de reuso; medir os dois estados.",
+    "before": "Não demonstra RP14 no estado carregado; também medir o envelope de transporte."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I50",
+    "value": "RP15/RP18/RP20; ER04 como analogia de acesso após abertura. A liberação e o acesso viabilizam a manutenção, sem atribuir a limpeza ao produto.",
+    "before": "A limpeza é operação humana; o produto viabiliza acesso e liberação."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I51",
+    "value": "Derivada de RP10/RP16. Sinais de ação, orientação, fechamento e advertência; legibilidade e compreensão continuam critérios. Não pressupõe eletrônica.",
+    "before": "Reúne a antiga Indicar ação; legibilidade e uso intuitivo permanecem critérios."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I52",
+    "value": "ER04: capô e liberação como analogias. Verificar tempo, abertura segura, repetição e retirada; não presumir troca independente comprovada.",
+    "before": "Abertura segura e tempo são verificados; liberar não significa troca independente comprovada."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I53",
+    "value": "Derivada de RP19. Separação após liberação não comprova cadeia regional nem 95% em massa; confirmar composição, contaminação e destino.",
+    "before": "Separabilidade não garante cadeia regional de reciclagem nem o percentual de RP19."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I54",
+    "value": "Derivada de RP21. Identificador permanente e único da unidade, preservado na estrutura após ciclos e manutenção; modelo/lote não bastam.",
+    "before": "Preservar a identidade na estrutura de referência após ciclos e troca de partes."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "I55",
+    "value": "ER02/ER04: abas, encaixes e fechos. Confirmar retenção, ações de montagem, soltura acidental e repetição após manutenção.",
+    "before": "Ações, retenção, soltura acidental e repetição após manutenção precisam de verificação."
+  },
+  {
+    "sheet": "Função Global",
+    "cell": "B60",
+    "value": "Refino de 25/10/2026: 17 IDs e 23 RP preservados. Blocos: verbo + substantivo; posição e condições fora do nome. ER01-ER05 e derivações dos requisitos: Referencias_Funcoes_Atuais.md. Fronteira e função global mantidas.",
+    "before": "Diagrama global revisado: peça descoberta, comum a MF-A/MF-B/MF-C. Catálogo de 17 funções e vínculos V01–V23 preservados. Figma: https://www.figma.com/design/hF2hV3uNVjhzfP6jEfPY7F/UNB?node-id=44-2"
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E4",
+    "value": "Imobilizar louça; Amortecer impacto; Suportar carga; Portar louça; Expor condição; Reter fragmentos. As demais capacidades apoiam uso e ciclo de vida.",
+    "before": "Imobilizar; amortecer; suportar e portar; expor condição; reter fragmentos. As capacidades de acesso, união, retorno e separação apoiam o ciclo de vida."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E5",
+    "value": "Estabelecer apoios; Restringir movimento; Acomodar variação (F07).",
+    "before": "Estabelecer contatos de apoio; restringir movimento relativo; acomodar a variação dimensional (F07)."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E6",
+    "value": "Receber solicitações; Dissipar energia; Limitar transmissão.",
+    "before": "Receber solicitações; absorver e dissipar energia; limitar sua transmissão à cerâmica."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E7",
+    "value": "Prover pega (F05); Compatibilizar carga (F08); Estabilizar conjunto (F09).",
+    "before": "Prover pega (F05); compatibilizar carga (F08); estabilizar conjunto (F09)."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E8",
+    "value": "Expor superfície; Transmitir informação.",
+    "before": "Disponibilizar caminho de observação até a área crítica; preservar a contenção durante a conferência."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "G8",
+    "value": "Exposição visual da superfície crítica, sem abrir a contenção. RP4/RP6 permanecem obrigatórios; OP-01 não substitui a condição real da cerâmica.",
+    "before": "RP4 e RP6 devem ser atendidos juntos, com o conjunto fechado. Não basta enxergar uma parte sem relação com a área crítica."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E9",
+    "value": "Interceptar fragmentos; Restringir passagem; Preservar barreira.",
+    "before": "Interceptar fragmentos; restringir sua passagem; preservar a barreira durante abertura e retirada."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E10",
+    "value": "Destravar uniões; Expor regiões; Restabelecer uniões; Separar frações.",
+    "before": "Liberar uniões; expor regiões de limpeza e reposição; restabelecer uniões; separar frações materiais no fim de vida."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E11",
+    "value": "Apresentar orientação; Indicar fechamento; Exibir identificação.",
+    "before": "Apresentar orientação e estado de fechamento; exibir identificação permanente e única."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E12",
+    "value": "Destravar uniões; Reposicionar partes.",
+    "before": "Reconfigurar as partes vazias após liberar as uniões necessárias, preservando a possibilidade de remontagem."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "E13",
+    "value": "Receber carga; Distribuir esforços; Transferir carga.",
+    "before": "Receber carga; distribuir esforços pelo caminho resistente; transferir carga aos apoios."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "B15",
+    "value": "FAST: COMO? detalha meios; POR QUÊ? retorna à finalidade. Um verbo + substantivo por bloco. Meios sem ID desdobram efeitos, sem novos requisitos ou módulos. Posição do amortecimento e fluxos M/E/S são explicitados nas modelagens, sem cronologia de tarefas.",
+    "before": "Leitura FAST: COMO? conduz aos meios; POR QUÊ? retorna à finalidade. As relações não representam uma sequência de tarefas. A posição de F01 no fluxo de energia diferencia MF-A/MF-B/MF-C, sem mudar a função global."
+  },
+  {
+    "sheet": " FAST ",
+    "cell": "B19",
+    "value": "Requisitos → catálogo funcional → FAST → MF-A/MF-B/MF-C → primeira Pugh. Metas e conflitos do QFD permanecem. ER01-ER05 e funções derivadas: Referencias_Funcoes_Atuais.md. Morfológica compõe princípios; MIM e arquitetura serão revistas antes da segunda Pugh.",
+    "before": "Requisitos → catálogo funcional → FAST → MF-A/MF-B/MF-C → primeira Pugh. As metas, restrições e conflitos do QFD continuam obrigatórios. A morfológica escolhe princípios para a estrutura encaminhada; a MIM avalia portadores e interfaces depois dessa composição."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C5",
+    "value": "Sustentação e movimentação: F11 Suportar carga; F03 Portar louça. Conduzir esforços pelo portador; as interfaces de pega, transporte e apoio são funções separadas.",
+    "before": "Suportar e portar. Receber e conduzir esforços pelo conjunto portador; portar e apoiar a carga com interfaces compatíveis."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C6",
+    "value": "F01 Amortecer impacto. Posição: interface da louça, após o portador no caminho dinâmico proposto. Verificar a interação entre ajuste e amortecimento.",
+    "before": "Amortecer na interface. Atenuar choque e vibração junto aos apoios da louça, após o caminho portador. Verificar interação entre ajuste e resposta amortecedora."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C7",
+    "value": "F07 Acomodar variação; F02 Imobilizar louça. Adaptar fisicamente os contatos à faixa e restringir movimento relativo, sem troca de partes no ajuste.",
+    "before": "Acomodar e imobilizar. Adaptar contatos à peça e restringir seu movimento na interface protegida."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C8",
+    "value": "Inspeção, contenção e informação: F04 Expor condição; F06 Reter fragmentos; F16 Comunicar uso; F21 Exibir identidade. Funções separadas; observação com barreira fechada.",
+    "before": "Expor condição e conter. Disponibilizar observação da área crítica mantendo a barreira fechada; conter fragmentos também na abertura e retirada."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C9",
+    "value": "Ciclo de vida: F14 Recolher partes; F15 Prover acesso; F17 Liberar partes; F22 Unir partes; F19 Separar materiais. O produto viabiliza acesso/reconfiguração; o operador mantém e limpa.",
+    "before": "Suportar retorno e manutenção. O produto disponibiliza acesso, uniões liberáveis, recolhimento vazio e separação material. O operador executa limpeza, inspeção e reposição."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C15",
+    "value": "F01 Amortecer impacto. Posição: antes do portador no caminho dinâmico proposto. Considerar também a massa do portador e a carga sustentada.",
+    "before": "Amortecer o conjunto. Atenuar choque e vibração antes do conjunto portador; a massa e a carga sustentada condicionam a resposta a verificar."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C16",
+    "value": "Sustentação e movimentação: F11 Suportar carga; F03 Portar louça. Transmitir esforços após o estágio amortecedor, preservando as interfaces físicas comuns.",
+    "before": "Suportar e portar. Suportar e portar a carga após o estágio de amortecimento, preservando pega, estabilidade e interfaces de transporte."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C17",
+    "value": "F07 Acomodar variação; F02 Imobilizar louça. Contatos ajustáveis posicionam e restringem a peça; no arranjo H3, o cartucho externo tem geometria independente.",
+    "before": "Acomodar e imobilizar. Acomodar e imobilizar a peça no conjunto protegido. O contato ajustável não é o estágio de amortecimento proposto."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C18",
+    "value": "Inspeção, contenção e informação: F04 Expor condição; F06 Reter fragmentos; F16 Comunicar uso; F21 Exibir identidade. Funções separadas; barreira fechada e retirada segura.",
+    "before": "Expor condição e conter. Disponibilizar observação da área crítica mantendo a barreira fechada; conter fragmentos também na abertura e retirada."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C19",
+    "value": "Ciclo de vida: F14 Recolher partes; F15 Prover acesso; F17 Liberar partes; F22 Unir partes; F19 Separar materiais. A reposição externa sem perder regulagem é hipótese H4.",
+    "before": "Suportar retorno e manutenção. O produto disponibiliza acesso, uniões liberáveis, recolhimento vazio e separação material. O operador executa limpeza, inspeção e reposição."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C25",
+    "value": "F01a Amortecer impacto. Posição: antes do portador. Primeiro desdobramento de F01, sem novo ID-base, componente ou módulo obrigatório.",
+    "before": "Amortecer no exterior. Primeiro estágio de F01: atenuar a solicitação externa antes do conjunto portador."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C26",
+    "value": "Sustentação e movimentação: F11 Suportar carga; F03 Portar louça. Caminho resistente entre os dois estágios; interfaces de pega, apoio e transporte comuns.",
+    "before": "Suportar e portar. Conduzir esforços e portar a carga entre os dois estágios de amortecimento."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C27",
+    "value": "F01b Amortecer impacto. Posição: interface da louça. Segundo desdobramento de F01; compatibilizar respostas dos dois estágios sem pressupor maior proteção.",
+    "before": "Amortecer na interface. Segundo estágio de F01: atenuar solicitações residuais junto à peça. Compatibilizar a resposta dos dois estágios."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C28",
+    "value": "F07 Acomodar variação; F02 Imobilizar louça. Adaptar contatos e restringir movimento relativo em toda a faixa; verificar pressão e deslocamento.",
+    "before": "Acomodar e imobilizar. Acomodar e imobilizar a louça na interface protegida, verificando movimento residual e contato em toda a faixa."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C29",
+    "value": "Inspeção, contenção e informação: F04 Expor condição; F06 Reter fragmentos; F16 Comunicar uso; F21 Exibir identidade. Funções separadas e obrigatórias no trio.",
+    "before": "Expor condição e conter. Disponibilizar observação da área crítica mantendo a barreira fechada; conter fragmentos também na abertura e retirada."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "C30",
+    "value": "Ciclo de vida: F14 Recolher partes; F15 Prover acesso; F17 Liberar partes; F22 Unir partes; F19 Separar materiais. A intervenção adicional da MF-C depende de H5.",
+    "before": "Suportar retorno e manutenção. Disponibilizar acesso, união/liberação, retorno vazio e separação material, considerando os dois níveis de amortecimento."
+  },
+  {
+    "sheet": "Funções Parciais",
+    "cell": "B35",
+    "value": "Os títulos de grupos não são novas funções. Cada bloco usa um verbo + substantivo; ID, posição e condições ficam separados. M/E/S explicitam os fluxos, sem cronologia de tarefas. F01a/F01b desdobram F01. Catálogo, fronteira e metas mantidos.",
+    "before": "MF-A/MF-B/MF-C são organizações funcionais da mesma fronteira de proteção direta. F01a/F01b são dois estágios de F01, sem novos IDs-base. Todos os grupos são capacidades do produto, sem definir componentes, materiais ou módulos exclusivos."
+  },
+  {
+    "sheet": "Modelagens Alternativas",
+    "cell": "D4",
+    "value": "E dinâmico (hipótese): F11 Suportar carga → F01 Amortecer impacto → F02 Imobilizar louça. Amortecimento na interface.",
+    "before": "F11 → F01 → F02. O amortecimento atua junto à interface da peça."
+  },
+  {
+    "sheet": "Modelagens Alternativas",
+    "cell": "D5",
+    "value": "E dinâmico (hipótese): F01 Amortecer impacto → F11 Suportar carga → F02 Imobilizar louça. Amortecimento antes do portador.",
+    "before": "F01 → F11 → F02. Amortecer antes do conjunto portador."
+  },
+  {
+    "sheet": "Modelagens Alternativas",
+    "cell": "D6",
+    "value": "E dinâmico (hipótese): F01a Amortecer impacto → F11 Suportar carga → F01b Amortecer impacto → F02 Imobilizar louça. Desdobramentos de F01.",
+    "before": "F01a → F11 → F01b → F02. F01a/F01b são desdobramentos de F01."
+  },
+  {
+    "sheet": "Modelagens Alternativas",
+    "cell": "D10",
+    "value": "F07 Acomodar variação; F02 Imobilizar louça; F03 Portar louça; F06 Reter fragmentos.",
+    "before": "F07/F02: acomodar e imobilizar; F03: portar; F06: reter fragmentos."
+  },
+  {
+    "sheet": "Modelagens Alternativas",
+    "cell": "D11",
+    "value": "F01 Amortecer impacto; F11 Suportar carga; F02 Imobilizar louça. F03/F05/F09 apoiam movimentação, aplicação de força e estabilidade.",
+    "before": "F01/F11/F03: amortecer, suportar e portar; posições distintas em MF-A/B/C."
+  },
+  {
+    "sheet": "Modelagens Alternativas",
+    "cell": "D12",
+    "value": "F04 Expor condição; F16 Comunicar uso; F21 Exibir identidade.",
+    "before": "F04/F16/F21: expor condição, comunicar uso e exibir identidade."
+  },
+  {
+    "sheet": "Modelagens Alternativas",
+    "cell": "G11",
+    "value": "E tracejado: caminho dinâmico proposto e dissipação. O caminho de compressão deverá preservar F01. M contínuo e S traço-ponto não representam tarefas cronológicas.",
+    "before": "Instrumentar peça; verificar amortecimento e sustentação no mesmo conjunto."
+  }
+]

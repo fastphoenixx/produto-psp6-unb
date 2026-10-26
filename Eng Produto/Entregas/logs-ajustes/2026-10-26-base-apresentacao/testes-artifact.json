@@ -1,0 +1,56 @@
+[
+  {
+    "case": "base",
+    "total": [
+      7,
+      0,
+      -4
+    ],
+    "decision": "M1 selecionada para desenvolvimento"
+  },
+  {
+    "case": "sem vantagem imobilizar",
+    "total": [
+      2,
+      0,
+      -4
+    ],
+    "decision": "M1 selecionada para desenvolvimento"
+  },
+  {
+    "case": "sem vantagens imobilizar e inspecionar",
+    "total": [
+      -1,
+      0,
+      -4
+    ],
+    "decision": "Rever seleção M1"
+  },
+  {
+    "case": "nota vazia",
+    "total": [
+      "Rever notas e pesos",
+      0,
+      -4
+    ],
+    "decision": "Rever notas e pesos"
+  },
+  {
+    "case": "nota inválida",
+    "total": [
+      "Rever notas e pesos",
+      0,
+      -4
+    ],
+    "decision": "Rever notas e pesos"
+  },
+  {
+    "case": "restaurado",
+    "total": [
+      7,
+      0,
+      -4
+    ],
+    "decision": "M1 selecionada para desenvolvimento"
+  }
+]

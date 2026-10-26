@@ -1,0 +1,174 @@
+\noindent{\LARGE\bfseries Modelagem funcional e seleção da alternativa}\par
+\vspace{4pt}
+\noindent Universidade de Brasília -- Engenharia de Produto -- PSP6 -- Equipe 2\par
+\noindent\textit{Proteção e movimentação de louças sanitárias no trecho distribuidor--obra}\par
+\noindent\small Documento de 25 de outubro de 2026. Seleção registrada em 21/10; funções e diagramas refinados em 25/10/2026.\normalsize
+\vspace{8pt}
+
+Esta entrega apresenta a função global, o FAST, três estruturas funcionais e a primeira matriz de Pugh. Explica como os requisitos e as especificações-meta orientaram as funções e a escolha de uma estrutura para desenvolver na morfológica. A equipe selecionou \textbf{MF-B, com amortecimento antes do conjunto portador}, mantendo os pontos ainda dependentes de dimensionamento e validação.
+
+O produto em estudo é um dispositivo retornável de proteção direta de uma louça por unidade, após preparo no distribuidor. O recorte inclui cubas e corpos individuais de bacias de porte médio. A função global é \textbf{resguardar louça} durante transporte, manuseio, conferência e retirada. A proteção deve permitir observar a cerâmica com o conjunto fechado e conter eventuais fragmentos, sem impedir o uso, a manutenção e o retorno do dispositivo.
+
+\figuraentrega{global.png}{0.96}{Função global e fluxos de material, energia e sinal.}
+\fonte{Equipe 2, diagrama atual incorporado à aba Função Global da planilha.}
+
+\noindent\small A louça é o material protegido. Choques, vibração, compressão e manuseio constituem solicitações mecânicas. Os sinais abrangem comandos do operador e informação de condição, orientação e identidade; não pressupõem eletrônica. As saídas representam efeitos pretendidos, sujeitos à validação.\normalsize
+
+\pagina{DOS REQUISITOS ÀS FUNÇÕES}
+
+O projeto informacional reuniu necessidades, requisitos dos clientes, Kano, Mudge, Pareto e QFD. A modelagem parte dos 23 requisitos de projeto e de suas metas de trabalho. Esses instrumentos orientam o que precisa ser protegido, observado, movimentado e mantido ao longo do uso. A quantidade de funções resulta da análise dos efeitos necessários: um requisito pode depender de várias funções, e uma função pode responder a vários requisitos.
+
+\begin{table}[H]
+\caption{Organização do catálogo de 17 funções utilizado nas três alternativas}
+\centering\small
+\begin{tabularx}{\textwidth}{L{3.8cm}YL{3.8cm}}
+\toprule\textbf{Grupo funcional}&\textbf{Funções do produto}&\textbf{Requisitos}\\\midrule
+Proteção da cerâmica&F01 Amortecer impacto; F02 Imobilizar louça; F06 Reter fragmentos&RP1, RP2, RP6, RP12 e RP18\\
+Ajuste ao mix&F07 Acomodar variação&RP7\\
+Suporte e movimentação&F03 Portar louça; F05 Prover pega; F08 Compatibilizar carga; F09 Estabilizar conjunto; F11 Suportar carga&RP3, RP5, RP8, RP9, RP11, RP13, RP14 e RP18\\
+Conferência&F04 Expor condição&RP4\\
+Uso e identificação&F16 Comunicar uso; F21 Exibir identidade&RP10, RP16 e RP21\\
+Retorno e manutenção&F14 Recolher partes; F15 Prover acesso; F17 Liberar partes; F22 Unir partes&RP14, RP15, RP17, RP18, RP20 e RP22\\
+Fim de vida&F19 Separar materiais, com liberação por F17&RP19\\\bottomrule
+\end{tabularx}
+\fonte{Síntese do catálogo e dos vínculos das abas Função Global, FAST e Funções Parciais.}
+\end{table}
+
+Os requisitos de qualidade e as restrições continuam aplicáveis às funções. RP12, por exemplo, exige uniformidade do amortecimento de F01; RP13 qualifica a capacidade de F11 após umidade; RP18 estabelece vida funcional. Manutenção e fim de vida exigem acesso, liberação, união e separação. Volume, força, geometria e custo limitam as soluções. Assim, não se cria uma função autônoma para cada atributo.
+
+As metas mantêm a análise específica ao projeto. Entre elas estão pico transmitido à louça de até 35\,g, sempre inferior ao da embalagem atual no mesmo ensaio; deslocamento residual de até 6\,mm; conferência de pelo menos 60\% da área crítica com o conjunto fechado; e ajuste de pelo menos 300\,mm no eixo A e 150\,mm no eixo B, sem troca de componentes. São \textbf{metas de trabalho}, cuja presença no modelo não demonstra atendimento.
+
+\pagina{REFERÊNCIAS QUE ORIENTARAM AS FUNÇÕES}
+
+A base de anterioridade foi relacionada ao catálogo vigente para distinguir os princípios observados das capacidades derivadas dos requisitos da equipe. A consulta foi documental: desenhos, descrições e referências comerciais. Não houve desmontagem física nesta revisão. As soluções de embalagem de ida não comprovam o comportamento do dispositivo retornável proposto.
+
+\begin{table}[H]
+\caption{Aplicação das referências às funções atuais}
+\centering\small
+\begin{tabularx}{\textwidth}{L{4.0cm}YL{7.2cm}}
+\toprule\textbf{Funções}&\textbf{Origem utilizada}&\textbf{O que permanece a desenvolver}\\\midrule
+F01, F02 e F11&ER01/ER02/ER04: células, encaixes, apoios e caminhos resistentes.&Dimensionar amortecimento e contato, preservar compressão e confirmar vida no mix atual. A posição dos estágios é proposta da equipe.\\
+F03, F05 e F08&ER02/ER05: alça, auxílio à movimentação e organização geométrica.&Definir pega e interfaces para palete/veículo. As referências não comprovam força, ergonomia ou o envelope do nosso conjunto.\\
+F04&ER03: abertura e caminho de observação.&Observar a área crítica com a contenção fechada. Abertura de referência e indicador de choque não comprovam esse resultado.\\
+F15, F17 e F22&ER04 e necessidades de manutenção; ER02 como analogia de união por abas/encaixes.&Viabilizar acesso, liberação e remontagem seguros, preservando regulagem. Confirmar tempo e repetição.\\
+F06, F07, F09, F14, F16, F19 e F21&Derivações de segurança, mix, apoio, retorno, uso, fim de vida e identidade. ER01 oferece apenas analogia geométrica para F07.&Projetar contenção, ajuste sem troca, estabilidade, recolhimento, sinais, separabilidade e identidade. Essas capacidades não foram dadas como demonstradas pelas referências.\\\bottomrule
+\end{tabularx}
+\fonte{Dossiês documentais da Equipe 2 e ligação aos 17 IDs em Referências e catálogo funcional atual, revisão de 25/10/2026.}
+\end{table}
+
+\begin{singlespace}\small\noindent
+\textbf{ER01:} International Paper, \href{https://patents.google.com/patent/US10301097B2/en}{US10301097B2}. \textbf{ER02:} Delta/Masco, \href{https://patents.google.com/patent/US9221577B2/en}{US9221577B2}. \textbf{ER03:} Kohler/Vavra, \href{https://patents.google.com/patent/US4574998A/en}{US4574998A} e \href{https://patents.google.com/patent/US5183155A/en}{US5183155A}. \textbf{ER04:} Rengo, \href{https://patents.google.com/patent/JP2007186235A/en}{JP2007186235A} e \href{https://patents.google.com/patent/JPH08119254A/en}{JPH08119254A}. \textbf{ER05:} embalagens e gabaritos TOTO, fontes corporativas registradas na seção 3.10 do dossiê de engenharia reversa.\par
+\end{singlespace}
+
+F07 descreve a adaptação física da configuração e dos contatos à faixa de louças. F08 descreve a geometria e as interfaces de apoio e amarração compatíveis com o transporte. Elas não representam gestão de estoque ou planejamento de entregas. As analogias não comprovam ineditismo; orientam a criação e a verificação dos princípios.
+
+\pagina{APLICAÇÃO DO FAST}
+
+O FAST relaciona finalidade e meios: \textbf{como?} detalha capacidades; \textbf{por quê?} retorna a resguardar louça. As ligações são funcionais e não representam tarefas cronológicas.
+
+\figuraentrega{fast.png}{1.0}{Finalidade, meios e funções de suporte ao ciclo de vida.}
+\fonte{Equipe 2, diagrama atual da aba FAST.}
+
+Cada bloco usa verbo + substantivo. Meios sem ID não ampliam as 17 funções. Expor superfície significa torná-la visível com a barreira fechada. As operações são humanas; o produto oferece capacidades e sinais.
+
+\pagina{MF-A: AMORTECIMENTO NA INTERFACE DA LOUÇA}
+
+\figuraentrega{m1.png}{1.0}{MF-A: caminho dinâmico F11--F01--F02 e funções comuns.}
+\fonte{Equipe 2, estrutura MF-A da aba Modelagens Alternativas.}
+
+Na MF-A, os esforços passam pelo conjunto portador e o amortecimento atua junto aos apoios da cerâmica. A organização de referência é \textbf{F11 -- F01 -- F02} no caminho mecânico relevante. O contato protegido também precisa acomodar a variação dimensional por F07. Essa estrutura foi adotada como \textit{datum} por representar a organização de interface já estudada na proteção direta.
+
+Seu ponto de atenção é a relação entre ajuste, pressão de contato e resposta do amortecimento. Na hipótese de comparação, o cartucho interno acompanha o contato regulável. A solução precisa demonstrar proteção e imobilização em toda a faixa do mix. MF-A permanece uma reserva viável; ser referência na Pugh não comprova que ela atenda às metas.
+
+\pagina{MF-B: AMORTECIMENTO ANTES DO PORTADOR}
+
+\figuraentrega{m2.png}{1.0}{MF-B: caminho dinâmico F01--F11--F02 e funções comuns.}
+\fonte{Equipe 2, estrutura MF-B da aba Modelagens Alternativas.}
+
+Na MF-B, F01 atua antes do conjunto portador, formando a organização \textbf{F01 -- F11 -- F02}. O contato que acomoda e imobiliza a louça fica no conjunto protegido. Essa separação permite estudar um cartucho externo cuja geometria seja independente da regulagem dos contatos e cuja reposição preserve essa regulagem. Esses são os potenciais que fundamentam a escolha para desenvolvimento.
+
+As vantagens dependem de interfaces viáveis e ainda precisam ser demonstradas. O dimensionamento do estágio externo deverá considerar também a massa do portador. O caminho resistente da compressão não pode anular o amortecimento. A estrutura mantém inspeção fechada, contenção de fragmentos e as demais funções; sua posição no diagrama não demonstra, por si só, menor aceleração transmitida.
+
+\pagina{MF-C: AMORTECIMENTO EM DOIS ESTÁGIOS}
+
+\figuraentrega{m3.png}{1.0}{MF-C: caminho dinâmico F01a--F11--F01b--F02 e funções comuns.}
+\fonte{Equipe 2, estrutura MF-C da aba Modelagens Alternativas.}
+
+Na MF-C, a atenuação é distribuída entre um estágio externo e outro junto à peça: \textbf{F01a -- F11 -- F01b -- F02}. F01a e F01b desdobram F01 e não ampliam o catálogo de 17 funções. O interesse da alternativa é investigar se a combinação dos dois estágios pode melhorar a proteção nas solicitações do transporte.
+
+Esse benefício ainda depende da resposta conjunta dos estágios, das cargas e dos deslocamentos. Na hipótese usada para a Pugh, a manutenção conserva o acesso interno da MF-A e acrescenta uma região externa a verificar. Isso explica a desvantagem prevista em RP15. A nota deverá mudar se o detalhamento permitir acesso conjunto ou uma intervenção equivalente. Não se presumiu maior custo ou pior proteção apenas pelo número de estágios.
+
+\pagina{PRIMEIRA MATRIZ DE PUGH}
+
+A comparação usa os \textbf{23 requisitos} e seus vínculos funcionais, com MF-A como \textit{datum}. Escala sem pesos adicionais: $+1$ vantagem, $0$ equivalência, $-1$ desvantagem e \textbf{AV} base insuficiente. O saldo soma os julgamentos disponíveis; as prioridades e os conflitos do QFD continuam orientando o projeto.
+
+\begin{table}[H]
+\caption{Comparação das estruturas funcionais em relação à MF-A}
+\centering
+\begin{singlespace}\fontsize{10.5}{12.2}\selectfont
+\renewcommand{\arraystretch}{1.0}
+\begin{tabularx}{\textwidth}{L{0.95cm}YL{4.8cm}*{3}{>{\centering\arraybackslash}p{1.6cm}}}
+\toprule\textbf{RP}&\textbf{Critério do produto}&\textbf{Funções / restrição}&\textbf{MF-A}&\textbf{MF-B}&\textbf{MF-C}\\\midrule
+\linhaspugh
+\midrule
+&Vantagens / desvantagens / equivalências / AV&&0/0/23/0&2/0/12/9&0/1/13/9\\
+&\textbf{Saldo parcial}&&\textbf{0}&\textbf{+2}&\textbf{$-1$}\\
+\bottomrule
+\end{tabularx}
+\end{singlespace}
+\fonte{Planilha, aba Matriz Pugh das Modelagens. Zeros não comprovam metas; os saldos completos de MF-B/MF-C permanecem pendentes.}
+\end{table}
+
+\pagina{FUNDAMENTAÇÃO DAS NOTAS}
+
+Back et al. (2008, seção 7.3.4, p. 322--323) admitem imaginar princípios de solução para comparar estruturas abstratas. Apoios/cartuchos resilientes, contatos reguláveis, portador, carrinho, barreira e uniões liberáveis formam a base auxiliar já explorada na morfológica. As hipóteses a seguir não selecionam concepções ou módulos finais.
+
+\begin{table}[H]
+\caption{Base comum e diferenças que sustentam os julgamentos}
+\centering\small
+\begin{tabularx}{\textwidth}{L{1.7cm}YL{7.2cm}}
+\toprule\textbf{Hipótese}&\textbf{Conteúdo da comparação}&\textbf{Consequência na Pugh}\\\midrule
+H1 / H2&Mesma peça e condições de comparação; mesmas famílias de materiais, meio auxiliar, barreira, acesso e estratégia de união/separação.&Sustentam equivalências funcionais onde a organização é comum. Não demonstram igual desempenho medido.\\
+H3&Cartucho interno de MF-A/MF-C acompanha o contato ajustável; cartucho externo de MF-B pode manter geometria independente.&RP7: MF-B $+1$; MF-C $0$. Não se replica essa vantagem em proteção, imobilização ou uniformidade.\\
+H4&Acesso e reposição do cartucho externo de MF-B preservam a regulagem do contato.&RP15: MF-B $+1$, condicionado à viabilidade da interface.\\
+H5&MF-C mantém o acesso interno da MF-A e prevê verificação própria da região externa.&RP15: MF-C $-1$ para a intervenção prevista. Rever se o acesso puder ser conjunto.\\\bottomrule
+\end{tabularx}
+\fonte{Hipóteses e justificativas da avaliação conceitual registrada na planilha e nos logs de ajustes.}
+\end{table}
+
+Os zeros da MF-A decorrem de sua condição de referência. As \textbf{12 equivalências da MF-B} e as \textbf{13 da MF-C} decorrem da cobertura comum e das condições auxiliares descritas. A mesma organização de pega e carrinho não demonstra a força exigida por RP3. A mesma barreira não demonstra RP4 ou RP6. A estratégia material e de união não comprova resistência à umidade, reciclagem ou troca independente de módulos.
+
+Os \textbf{nove AV em cada alternativa comparada} foram mantidos porque faltam bases físicas ou econômicas: RP1/RP2/RP12 exigem resposta dinâmica, contatos e repetibilidade; RP8/RP9/RP14 dependem de envelope, amarração, apoios e centro de massa; RP11 exige caminho resistente, compressão e fluência; RP18 exige vida em ciclos; RP23 exige custeio completo. AV não foi convertido em zero para fechar a avaliação.
+
+\noindent\textbf{Sensibilidade.} Retirar a vantagem de RP7 reduz MF-B para $+1$; retirar também a de RP15 leva a zero. Rever a intervenção adicional de MF-C pode levar seu parcial a zero. Se a base de um julgamento deixar de existir, pode ser necessário usar AV. Os critérios pendentes podem modificar a preferência atual.
+
+\pagina{DECISÃO E CONTINUIDADE DO PROJETO}
+
+\noindent\textbf{A equipe selecionou MF-B para desenvolvimento em 21 de outubro de 2026.} A escolha se apoia em dois potenciais distintos: separar a regulagem dos contatos da geometria do cartucho amortecedor e permitir reposição externa preservando essa regulagem. Seu saldo parcial é $+2$, frente a $0$ da referência MF-A e $-1$ da MF-C. A avaliação completa permanece pendente. MF-A é mantida como reserva.
+
+A escolha anterior de estudar proteção direta estabeleceu a fronteira comum. Nesta entrega, MF-A/MF-B/MF-C representam organizações funcionais dentro dessa fronteira. Já C1/C2/C3 identificam combinações físicas posteriores. Selecionar MF-B encaminha a geração de princípios e concepções; ainda não seleciona uma dessas concepções nem aprova seu desempenho.
+
+\begin{table}[H]
+\caption{O que a escolha encaminha e o que precisa ser verificado}
+\centering\small
+\begin{tabularx}{\textwidth}{L{4.0cm}Y}
+\toprule\textbf{Encaminhamento}&\textbf{Aplicação ao projeto}\\\midrule
+Compor princípios na morfológica&Desenvolver a organização MF-B, detalhando estágio externo, contato protegido regulável, caminho resistente, inspeção e contenção. Preservar os 23 requisitos.\\
+Confrontar o mix e as metas&Usar as faixas de cubas/bacias individuais registradas em Dados. A base de 680 $\times$ 480\,mm e o arranjo preliminar de 81,6\% do PBR são orçamentos de estudo. Dois níveis por 24\,h constituem condição de análise, sem aprovação do empilhamento.\\
+Rever portadores e interfaces&Reexaminar concepções, MIM e arquitetura à luz dos princípios de MF-B. Não tratar os agrupamentos e escores anteriores como validação da nova estrutura.\\
+Realizar a segunda seleção&Comparar concepções físicas com massas, dimensões, interfaces, resposta, vida e custo. Rever MF-B se H3/H4 falharem, se uma restrição crítica não for atendida ou se outra estrutura se mostrar preferível.\\\bottomrule
+\end{tabularx}
+\fonte{Encaminhamentos atuais das abas Modelagens Alternativas, Morfológica, MIM, Arquitetura Modular e segunda Pugh.}
+\end{table}
+
+A base de campo continua limitada a uma observação de obra residencial e duas entrevistas. Os catálogos apoiam a definição do mix e das dimensões, mas não substituem coleta representativa nem ensaios. A verificação documental da planilha confirmou notas, vínculos, fórmulas e preservação dos objetos; proteção, estabilidade, compressão, vida e viabilidade econômica ainda precisam ser demonstradas.
+
+\vspace{4pt}
+\noindent\textbf{Referências utilizadas}\par
+\begin{singlespace}\footnotesize\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}
+BACK, N.; OGLIARI, A.; DIAS, A.; SILVA, J. C. \textit{Projeto integrado de produtos: planejamento, concepção e modelagem}. Barueri: Manole, 2008. Seção 7.3.4, p. 322--323.
+
+SANTOS, A. C. \textit{Aulas 16 e 17: Projeto Conceitual}. Material da disciplina Engenharia de Produto, Universidade de Brasília. Função global, fluxos, desdobramento e seleção.
+
+EQUIPE 2. \textit{Planilha PSP6: Louças sanitárias}. Revisões de 21 e 25 out. 2026. \textit{Referências e catálogo funcional atual}. 25 out. 2026. Dossiês documentais de anterioridade e engenharia reversa de 21 set. 2026.
+\end{singlespace}

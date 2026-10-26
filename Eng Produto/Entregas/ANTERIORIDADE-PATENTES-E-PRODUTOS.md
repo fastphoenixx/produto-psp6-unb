@@ -1,5 +1,7 @@
 # Anterioridade — patentes e produtos já existentes
 
+> **Ligação à modelagem atual:** a [matriz de referências e funções de 25/10/2026](modelagem-funcional/Referencias_Funcoes_Atuais.md) identifica os princípios utilizados, os 17 IDs atuais e os limites de cada analogia. Os dados abaixo pertencem à consulta documental de 21/09; não constituem nova verificação de situação jurídica ou prova de desempenho do dispositivo.
+
 **Equipe 2 — Engenharia de Produto / PSP6 · 2026/2**  
 **Uso:** dossiê da seção *Soluções existentes / busca de patentes* do pré-desenvolvimento.  
 **Conferido em:** 21/09/2026. Cada número, titular, data e frase técnica abaixo foi aberto em fonte pública no mesmo dia.  

@@ -1,0 +1,280 @@
+{
+  "date": "2026-10-25",
+  "pageCount": 9,
+  "orientation": "A4 landscape",
+  "sourceWorkbookSha256": "ad7d44d83b817ee00eca5de90e56ce8a2fdb738405671ef84c43f8b12927f699",
+  "pdfSha256": "1019b26b24d87aea1a9ad7adbeffba412214f0aea4c3bf7533718487dd79d2fb",
+  "pughCriteria": 23,
+  "scoresComparedWithRenderedPdf": 69,
+  "matrix": [
+    {
+      "rp": "RP1",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP2",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP3",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP4",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP5",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP6",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP7",
+      "scores": [
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP8",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP9",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP10",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP11",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP12",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP13",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP14",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP15",
+      "scores": [
+        "0",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "rp": "RP16",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP17",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP18",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    },
+    {
+      "rp": "RP19",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP20",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP21",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP22",
+      "scores": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rp": "RP23",
+      "scores": [
+        "0",
+        "AV",
+        "AV"
+      ]
+    }
+  ],
+  "canonicalFunctionsPresent": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F11",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F19",
+    "F21",
+    "F22"
+  ],
+  "partialScores": [
+    0,
+    2,
+    -1
+  ],
+  "pendingCounts": [
+    0,
+    9,
+    9
+  ],
+  "selectedFunctionalModel": "MF-B",
+  "selectionIsTechnicalApproval": false,
+  "physicalTestsPerformedThisRound": false,
+  "originalWorkbookUnchanged": true,
+  "generalReportUnchanged": true,
+  "noOverflowOrMissingGlyphWarnings": true,
+  "pageBounds": [
+    {
+      "page": 1,
+      "charCount": 1334,
+      "contentWithinPage": true
+    },
+    {
+      "page": 2,
+      "charCount": 1838,
+      "contentWithinPage": true
+    },
+    {
+      "page": 3,
+      "charCount": 627,
+      "contentWithinPage": true
+    },
+    {
+      "page": 4,
+      "charCount": 795,
+      "contentWithinPage": true
+    },
+    {
+      "page": 5,
+      "charCount": 846,
+      "contentWithinPage": true
+    },
+    {
+      "page": 6,
+      "charCount": 793,
+      "contentWithinPage": true
+    },
+    {
+      "page": 7,
+      "charCount": 1408,
+      "contentWithinPage": true
+    },
+    {
+      "page": 8,
+      "charCount": 2121,
+      "contentWithinPage": true
+    },
+    {
+      "page": 9,
+      "charCount": 2550,
+      "contentWithinPage": true
+    }
+  ],
+  "visualReview": "all nine pages inspected",
+  "nativeCompiler": "XeLaTeX",
+  "desktopCompiler": "success on final source"
+}

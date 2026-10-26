@@ -1,5 +1,7 @@
 # Engenharia reversa da anterioridade
 
+> **Aplicação atualizada em 25/10/2026:** a [ligação das referências aos 17 IDs vigentes](modelagem-funcional/Referencias_Funcoes_Atuais.md) registra o uso atual deste estudo. O texto abaixo é o levantamento de 21/09. Seus 22 RC, o kit de cerca de 34 kg e as fronteiras candidatas da seção 7 são históricos; não substituem os 23 RP, o mix da aba Dados nem a seleção MF-B.
+
 **Equipe 2 — Engenharia de Produto / PSP6 · 2026/2**  
 **Uso:** insumo da *modelagem funcional*, da *matriz morfológica* e da *análise de valor* (projeto conceitual ainda vazio no `.tex`).  
 **Par do dossiê de busca:** [ANTERIORIDADE-PATENTES-E-PRODUTOS.md](ANTERIORIDADE-PATENTES-E-PRODUTOS.md) — aquele arquivo diz *o que existe*. Este diz *como funciona, em que princípio, com que peças e o que dá para herdar*.  
