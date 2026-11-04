@@ -1,0 +1,10 @@
+# Arquivos tipográficos locais e intermediários de compilação.
+fontes/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+main.pdf

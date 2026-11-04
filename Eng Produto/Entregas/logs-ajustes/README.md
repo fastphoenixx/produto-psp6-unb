@@ -4,6 +4,10 @@ Cada registro reúne o feedback recebido, a correção aplicada, o trecho da ent
 
 As conferências e os hashes descrevem a versão salva naquela rodada. As entregas podem receber revisões posteriores, registradas em outra entrada.
 
+- [Imagens da matriz morfológica em 4 de novembro de 2026](2026-11-04-imagens-morfologica/registro-ajustes.md): 112 opções ilustradas com 72 referências de fabricantes, fontes e alcance por opção, preservação dos princípios, escolhas e metas, conferência visual e recálculo nativo.
+
+- [Princípios de solução em 4 de novembro de 2026](2026-11-04-principios-solucao/registro-ajustes.md): morfológica das 21 elementares e sete complementares da M1, 112 opções, três combinações exploratórias, dez casos TRIZ ligados ao QFD e às metas, síntese dependente e testes de recálculo.
+
 - [Redação executiva e fundamentação técnica em 26 de outubro de 2026](2026-10-26-redacao-executiva/registro-ajustes.md): análise para apresentação, dados externos atribuídos, cálculos e critérios de aceitação; preservação das metas, notas e seleção M1.
 
 - [Relatório integrado à entrega funcional em 26 de outubro de 2026](2026-10-26-relatorio-integrado/registro-ajustes.md): textos, seis diagramas vetoriais no visual acadêmico, metas atuais, Pugh dos 23 requisitos e seleção M1; PDF compilado e conferido.

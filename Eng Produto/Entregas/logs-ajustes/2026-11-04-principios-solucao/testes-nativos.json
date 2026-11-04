@@ -1,0 +1,26 @@
+{
+  "base": {
+    "resultado": "E03: Cintas de baixa extensão com tensão limitada pelos batentes. E04: Cartuchos de espuma celular reutilizável trabalhando em compressão. E14: Acoplamento estrutural e trava positiva para carrinho externo. E16: Visores flexíveis transparentes e tensionados no envoltório. E08: Bandeja com borda elevada e bolso interno resistente à perfuração.",
+    "propagou_concepcoes": true,
+    "erros": [],
+    "passou": true
+  },
+  "opcao": {
+    "resultado": "E03: Braços opostos com batentes acolchoados e curso limitado. E04: Cartuchos de espuma celular reutilizável trabalhando em compressão. E14: Acoplamento estrutural e trava positiva para carrinho externo. E16: Visores flexíveis transparentes e tensionados no envoltório. E08: Bandeja com borda elevada e bolso interno resistente à perfuração.",
+    "propagou_concepcoes": true,
+    "erros": [],
+    "passou": true
+  },
+  "vazio": {
+    "resultado": "Preencher as 28 opções com inteiros de 1 a 4",
+    "propagou_concepcoes": true,
+    "erros": [],
+    "passou": true
+  },
+  "invalido": {
+    "resultado": "Preencher as 28 opções com inteiros de 1 a 4",
+    "propagou_concepcoes": true,
+    "erros": [],
+    "passou": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "old_parts_changed": [
+    "xl/worksheets/sheet23.xml",
+    "xl/styles.xml",
+    "[Content_Types].xml"
+  ],
+  "old_parts_unchanged": 66,
+  "new_image_parts": 112,
+  "new_drawing": "xl/drawings/morfologica-referencias-20261104.xml",
+  "other_32_sheets_byte_identical": true,
+  "output_sha256": "03550d5689ac987b0024e3a03a6e3270ec7c933902dcf8158db1af798f591301",
+  "hyperlink_caches_calculated_in": "LibreOfficeDev 26.8",
+  "hyperlink_caches_updated": 184
+}

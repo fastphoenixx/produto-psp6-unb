@@ -1,0 +1,30 @@
+{
+  "workbook_sha256": "3a618bb43b0cf4052c76fda4d5e92f2cc14fc5d0670fb742db5a475025a1b83a",
+  "sources": [
+    {
+      "git": "cc16e18",
+      "path": "Eng Produto/Engenharia de Produto - cópia/Slides do Conteúdo/Aula 15 - Projeto Conceitual.pptx",
+      "sha256": "ca98bd91293e4d8e65792ffd9c784201c222b5262021da9ce010153bfaaf5e33",
+      "slides": 58
+    },
+    {
+      "git": "cc16e18",
+      "path": "Eng Produto/Engenharia de Produto - cópia/Slides do Conteúdo/Aula 17 Projeto Conceitual_Exemplo modelagem_MatrizMorfológica_TRIZ.pptx",
+      "sha256": "0f165ca2bdc98b3553dfd4d640c5debc28db2ecd9e7092c4bd5c64432ed6a2b0",
+      "slides": 51
+    },
+    {
+      "git": "cc16e18",
+      "path": "Eng Produto/Engenharia de Produto - cópia/Slides do Conteúdo/Aula 18_Projeto Conceitual_ Engenharia reversa e TRIZ.pptx",
+      "sha256": "cdb0e6fdf58df669229b4a91d3b8b7a2555a60672c7bede52de5533df789c200",
+      "slides": 47
+    }
+  ],
+  "fonte_externa": {
+    "url": "https://dtoceanplus.gitlab.io/documentation/si/docs/explanation/si-triz.html",
+    "figura": "15, matriz clássica 39×39 Oxford Creativity",
+    "imagem_sha256": "a9ff9f0cb27b80338c1614c5eb18aa207535fa9e49a7bb5e3c2d31c3be0c115e",
+    "consulta": "2026-11-04",
+    "tabelas": "6 e 7; seção TRIZ Separation Principles"
+  }
+}

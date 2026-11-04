@@ -1,0 +1,753 @@
+{
+  "rows": [
+    [
+      "E01",
+      39,
+      [
+        "Pino cativo em furos indexados do carro de apoio.",
+        "Came sobre-centro com batente de curso e trava secundária.",
+        "Cunha de quarto de volta bloqueando o apoio na guia.",
+        "Fuso autotravante com bloqueio positivo secundário."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP2/RP7/RP18. Travar após regular, sem apertar diretamente a cerâmica.",
+      "T07; T09"
+    ],
+    [
+      "E02",
+      40,
+      [
+        "Sapatas largas com revestimento celular removível.",
+        "Sapatas côncavas flutuantes com camada resiliente contínua.",
+        "Faixas largas sobre selas conformáveis, sem contato de ferragens.",
+        "Bolsas pneumáticas multicâmara com limite de pressão."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP2/RP18. Área de contato e pré-carga precisam evitar dano e marcas no esmalte.",
+      "T01"
+    ],
+    [
+      "E03",
+      41,
+      [
+        "Cintas de baixa extensão com tensão limitada pelos batentes.",
+        "Braços opostos com batentes acolchoados e curso limitado.",
+        "Painéis reguláveis com batentes protegidos e faixa de retenção.",
+        "Berço de três apoios com retenção superior limitada."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP2. Deslocamento residual ≤6 mm após o ciclo, mantendo contatos sem dano.",
+      "T01; T07"
+    ],
+    [
+      "E04",
+      42,
+      [
+        "Cartuchos de espuma celular reutilizável trabalhando em compressão.",
+        "Células de elastômero dissipando energia por histerese.",
+        "Lâminas flexíveis com amortecedor e limitador de fim de curso.",
+        "Câmaras de ar reutilizáveis com alívio de pressão."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP1/RP12/RP18. Dimensionar curso e resposta por massa. Evitar batida de fim de curso.",
+      "T01"
+    ],
+    [
+      "E05",
+      43,
+      [
+        "Camada resiliente entre o berço e a base estrutural.",
+        "Isoladores de elastômero solicitados em cisalhamento.",
+        "Suspensão por tirantes flexíveis com amortecimento e batentes.",
+        "Isoladores de cabo metálico com apoio protegido."
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      "RP1/RP12/RP18. Ajustar rigidez, massa e amortecimento. Evitar ressonância e pontes rígidas.",
+      "T01; T07"
+    ],
+    [
+      "E06",
+      44,
+      [
+        "Colunas periféricas e travessa conduzindo carga entre bases.",
+        "Pórticos telescópicos com batentes resistentes fora da peça.",
+        "Quadros laterais articulados com travamento estrutural.",
+        "Arcos externos removíveis com conexões de carga positivas."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP11/RP13. ≥7,5 kN sem transferir compressão à louça. Verificar após umidade.",
+      "T06; T09"
+    ],
+    [
+      "E07",
+      45,
+      [
+        "Envoltório flexível contínuo fixado à bandeja, com zonas transparentes.",
+        "Painéis transparentes contínuos em quadro periférico.",
+        "Painéis rebatíveis com inserções transparentes e saia interna.",
+        "Capota transparente removível, afastada da cerâmica."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP6/RP4. Fechar o contorno e manter acesso visual à peça descoberta.",
+      "T02; T05; T08"
+    ],
+    [
+      "E08",
+      46,
+      [
+        "Bandeja com borda elevada e bolso interno resistente à perfuração.",
+        "Cuba coletora rígida com forro substituível.",
+        "Bolsa coletora contínua retida na base e nos painéis.",
+        "Dupla barreira transparente com camada interna substituível."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP6. Reter ≥90% da massa e avaliar fuga de fragmentos pequenos, abertura e retirada.",
+      "T05; T08"
+    ],
+    [
+      "E09",
+      47,
+      [
+        "Saias flexíveis sobrepostas com retenção nas extremidades.",
+        "Junta macho-fêmea com vedante removível protegido.",
+        "Juntas em labirinto com forro interno contínuo.",
+        "Perfil de fechamento contínuo com cobertura interna da junta."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP6/RP15. Evitar frestas nas regulagens extremas. A vedação deve ser acessível à limpeza.",
+      "T05; T08"
+    ],
+    [
+      "E10",
+      48,
+      [
+        "Berço aberto superiormente, apoiado sobre bandeja coletora.",
+        "Bandeja de carga frontal guiada e travável.",
+        "Lateral rebatível que libera acesso à base de apoio.",
+        "Cobertura separável assentada sobre base portadora."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP7/RP6. Acesso para uma peça por unidade, com apoio e retenção durante o carregamento.",
+      "T05; T06"
+    ],
+    [
+      "E11",
+      49,
+      [
+        "Carros cativos em guias ortogonais, com regulagem nos dois eixos.",
+        "Braços telescópicos independentes nos eixos A e B.",
+        "Braços articulados com rasgos de regulagem e trava.",
+        "Fusos sincronizados movimentando pares de apoios opostos."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP7. Cursos ≥300 mm em A e ≥150 mm em B com os mesmos componentes.",
+      "T01; T04"
+    ],
+    [
+      "E12",
+      50,
+      [
+        "Três apoios largos e referências mecânicas de posicionamento.",
+        "Berço em V com apoios protegidos em zonas resistentes da peça.",
+        "Selas articuladas que se acomodam à geometria cerâmica.",
+        "Apoios autocentrantes com movimento limitado e contato distribuído."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP2/RP7. Fixar orientação sem apoiar em bordas frágeis. Verificar cada família e extremo.",
+      "T01; T07"
+    ],
+    [
+      "E13",
+      51,
+      [
+        "Duas alças rígidas externas ligadas à base resistente.",
+        "Cavas de pega na estrutura, com bordas arredondadas.",
+        "Duas alças retráteis com trava na posição de uso.",
+        "Manoplas em tirantes externos ancorados na base."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP3/RP5. ≥2 pegas para mão enluvada. Pega não autoriza levantamento manual de 48 kg.",
+      "T03"
+    ],
+    [
+      "E14",
+      52,
+      [
+        "Acoplamento estrutural e trava positiva para carrinho externo.",
+        "Bogies de rolamento removíveis e traváveis na base.",
+        "Base com rodízios integrados, freios e pontos de apoio.",
+        "Canais estruturais para garfos de equipamento compatível."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP3/RP8. Partida ≤150 N no piso definido. Conexão transmite força sem tocar a cerâmica.",
+      "T03; T06"
+    ],
+    [
+      "E15",
+      53,
+      [
+        "Base larga com apoios perimétricos e centro de massa baixo.",
+        "Sapatas retráteis travadas, descarregando o conjunto do rolamento.",
+        "Rodízios com freios e apoios de descanso niveláveis.",
+        "Estabilizadores giratórios recolhidos no transporte e travados no apoio."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP9. ≥40° carregado no pior eixo e regulagem. Freio sozinho não comprova estabilidade.",
+      "T06; T09"
+    ],
+    [
+      "E16",
+      54,
+      [
+        "Visores flexíveis transparentes e tensionados no envoltório.",
+        "Painéis transparentes protegidos por rebaixo do quadro.",
+        "Inserções transparentes distribuídas nos painéis rebatíveis.",
+        "Portas ópticas seladas com espelhos internos para regiões ocultas."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP4/RP6. Ver ≥60% da área crítica com barreira fechada, apoios e louça montados.",
+      "T02"
+    ],
+    [
+      "E17",
+      55,
+      [
+        "Bandeira mecânica com palavra e símbolo acionada pelo fecho.",
+        "Testemunho visível de alinhamento do pino de travamento.",
+        "Indicador mecânico ligado aos fechos críticos por intertravamento.",
+        "Trava com encaixe tátil e marca visual de posição final."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP10/RP16/RP22. Informar fechamento real e orientação. Não depender apenas de cor ou som.",
+      "T07"
+    ],
+    [
+      "E18",
+      56,
+      [
+        "Serial e código bidimensional gravados na base permanente.",
+        "Plaqueta serial protegida e fixada à base permanente.",
+        "Serial moldado e gravação complementar na estrutura permanente.",
+        "Tag RFID protegida e serial visível na base permanente."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP21/RP16. Um ID único por unidade após ciclos e umidade. ID não substitui advertências.",
+      "T10"
+    ],
+    [
+      "E19",
+      57,
+      [
+        "Pino cativo com liberação em dois estágios após alívio da tensão.",
+        "Came com posição intermediária que mantém o apoio capturado.",
+        "Cunha liberável por quarto de volta com retenção do carro.",
+        "Recuo guiado do fuso, mantendo o apoio preso à estrutura."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP6/RP17. Liberar pré-carga sem movimento brusco da peça nem acesso aos cacos.",
+      "T05; T09"
+    ],
+    [
+      "E20",
+      58,
+      [
+        "Abas superiores rebatíveis mantendo a bandeja coletora instalada.",
+        "Porta articulada acima da cuba coletora retida.",
+        "Painéis bipartidos abertos para fora com bolsa coletora retida.",
+        "Cobertura elevada por guias, mantendo a bandeja na base."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP6/RP17. Abrir em sequência controlada sem retirar antes a contenção inferior.",
+      "T05; T06"
+    ],
+    [
+      "E21",
+      59,
+      [
+        "Berço extraível por interface externa, com bandeja coletora retida.",
+        "Base deslizante guiada para transferência lateral apoiada.",
+        "Plataforma frontal rebatível com apoio para transferência assistida.",
+        "Base portadora separável com interface para auxílio de elevação."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP6/RP3. Prever auxílio compatível com a massa e percurso. Avaliar retirada com peça quebrada.",
+      "T03; T05"
+    ],
+    [
+      "C01",
+      60,
+      [
+        "Paredes dobráveis com dobradiças e fechos cativos.",
+        "Quadros telescópicos recolhidos sobre a base.",
+        "Painéis articulados rebatidos e retidos sobre a base.",
+        "Partes planificáveis por encaixes cativos de desmontagem."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP14/RP17. Recolhimento trata do vazio. Medir o volume carregado separadamente.",
+      "T06"
+    ],
+    [
+      "C02",
+      61,
+      [
+        "Encaixes macho-fêmea nos cantos da base e das colunas.",
+        "Cones de centragem com batentes estruturais de apoio.",
+        "Trilhos periféricos com ressaltos e alojamentos correspondentes.",
+        "Bolsões na base para pés de outra unidade, com apoio estrutural."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP11/RP14/RP8. Alinhar unidades e transferir carga pelo quadro, sem apoio na louça.",
+      "T06; T09"
+    ],
+    [
+      "C03",
+      62,
+      [
+        "Aberturas de serviço e superfícies laváveis expostas ao rebater as paredes.",
+        "Tampas cativas que expõem guias e conexões para limpeza.",
+        "Forro removível expondo juntas e zonas de desgaste.",
+        "Portas de serviço fechadas durante o uso e abertas no recondicionamento."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP15/RP18/RP20. Acesso para limpeza, inspeção e reposição no ciclo de ≤5 min.",
+      "T03; T04; T05"
+    ],
+    [
+      "C04",
+      63,
+      [
+        "Cartuchos identificados, presos por pinos externos independentes.",
+        "Sapatas e amortecedores em gavetas indexadas de reposição.",
+        "Bolsa, apoios e conjunto de rodas removíveis por interfaces próprias.",
+        "Conexões aparafusadas padronizadas e acessíveis por módulo."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP20/RP18. Demonstrar ≥3 módulos trocáveis isoladamente. Ajuste por SKU não exige troca.",
+      "T07; T08; T10"
+    ],
+    [
+      "C05",
+      64,
+      [
+        "Fechos sobre-centro com retenção secundária na estrutura.",
+        "Baionetas com indexação e bloqueio positivo.",
+        "Pinos cativos e dobradiças com travas estruturais.",
+        "Encaixes de cauda de andorinha com lingueta de retenção."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP20/RP22/RP18. ≤6 ações de montagem e fechamento. Verificar retenção em ciclos.",
+      "T07; T09"
+    ],
+    [
+      "C06",
+      65,
+      [
+        "Alavancas manuais com destravamento protegido.",
+        "Giro e extração guiada de baioneta sem soltar peças pequenas.",
+        "Retração de pinos cativos com duas posições de segurança.",
+        "Linguetas acessíveis que liberam encaixes em sequência definida."
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      "RP17/RP19. Desmontagem completa ≤120 s sem ferramenta dedicada.",
+      "T06; T09"
+    ],
+    [
+      "C07",
+      66,
+      [
+        "Fixações reversíveis e marcação dos materiais em cada parte.",
+        "Carcaças de um polímero com ferragens removíveis.",
+        "Barreira em camadas separáveis por fixação mecânica periférica.",
+        "Capas poliméricas extraíveis de quadro metálico desmontável."
+      ],
+      [
+        1,
+        4,
+        3
+      ],
+      "RP19/RP23. ≥95% da massa com cadeia regional de reciclagem, sem união inseparável.",
+      "PI1/PI2 por analogia"
+    ]
+  ],
+  "cases": [
+    [
+      "T01",
+      1,
+      7,
+      "Reduzir o pico com apoios rígidos ou conformados limita a faixa de ajuste. A proteção deve permanecer nos extremos do mix.",
+      30,
+      35,
+      [
+        35,
+        11,
+        22,
+        31
+      ],
+      "35 Alteração de propriedades e 31 Materiais porosos. Variar rigidez e geometria celular. PI15 é complemento por analogia.",
+      "Separar a guia de regulagem da célula amortecedora. Ajustar contatos sem eliminar curso de absorção.",
+      "E04.1–4; E05.1–2; E11.1–3",
+      "RP1/RP7/RP12/RP18. Queda e vibração por família nos extremos, mesmo SKU e regulagem para medir CV.",
+      "I3"
+    ],
+    [
+      "T02",
+      4,
+      6,
+      "Abrir regiões para inspeção facilita a observação, mas cria caminhos de fuga de fragmentos.",
+      37,
+      31,
+      [
+        2,
+        21
+      ],
+      "2 Extração: retirar a obstrução opaca da zona de leitura. 32 Alteração óptica é complemento por analogia. PI21 não foi adotado.",
+      "Repor a zona opaca por visor transparente contínuo e protegido, com junta retida. Manter bandeja e barreira fechadas.",
+      "E07.1–4; E09.1–4; E16.1–3",
+      "RP4/RP6. Mapear ≥60% de área crítica acessível e testar retenção e perfuração no mesmo conjunto fechado.",
+      "H6"
+    ],
+    [
+      "T03",
+      3,
+      15,
+      "Rodamento reduz força de partida, mas eixos, rodas e encaixes podem aumentar o tempo de limpeza e reposição.",
+      10,
+      25,
+      [
+        10,
+        37,
+        36
+      ],
+      "10 Ação prévia: interface de mobilidade previamente configurada. 1 Segmentação é complemento por analogia. PI37/36 não foram adotados.",
+      "Usar acoplamento externo acessível. Rodamento sai para serviço sem desmontar apoios, barreira e identidade.",
+      "E14.1–3; E21.2–4; C03.1–4",
+      "RP3/RP15/RP23. Medir partida no piso e recondicionamento completo, incluindo o rolamento e seu custo.",
+      "Q5"
+    ],
+    [
+      "T04",
+      7,
+      15,
+      "Mais articulações para ampliar a faixa criam pontos de retenção de sujeira e elevam o tempo de recondicionamento.",
+      35,
+      25,
+      [
+        35,
+        28
+      ],
+      "35 Alteração de propriedades: elementos flexíveis de proteção e contato. 15 Dinamicidade e 3 Qualidade local são complementos por analogia.",
+      "Guias externas com proteção flexível removível e superfícies acessíveis. O mesmo apoio percorre a faixa sem peças por SKU.",
+      "E11.1–4; C03.1–4",
+      "RP7/RP15/RP18. Verificar cursos 300/150 mm e tempo ≤5 min na regulagem mais difícil de limpar.",
+      "Q9"
+    ],
+    [
+      "T05",
+      6,
+      15,
+      "Uma barreira integral retém os cacos, mas dificulta o acesso para limpar e repor as partes desgastadas.",
+      31,
+      34,
+      [],
+      "Sem indicação no cruzamento. 2 Extração e 34 Descarte e recuperação de partes foram explorados diretamente na lista dos 40 princípios.",
+      "Forro removível dentro da bandeja permanente. Abertura em etapas preserva a contenção antes da retirada e na limpeza.",
+      "E08.1–4; E19.1–4; E20.1–4; C03.1–4",
+      "RP6/RP15/RP17. Reter ≥90% da massa, avaliar fragmentos pequenos, abertura e retirada, e medir o ciclo completo.",
+      "Q8"
+    ],
+    [
+      "T06",
+      9,
+      17,
+      "Apoios largos e travados estabilizam o carregado. Para desmontar e retornar, esses apoios devem se recolher.",
+      null,
+      null,
+      [],
+      "Separação no tempo: configuração resistente em uso e configuração recolhida no retorno. A trava deve impedir recolhimento sob carga.",
+      "Sapatas e paredes recolhíveis apenas após descarregar. Encaixes positivos mantêm a base resistente durante transporte e apoio.",
+      "E15.1–4; C01.1–4; C02.1–4; C06.1–4",
+      "RP9/RP17/RP14. Medir ≥40° carregado e ≤120 s de desmontagem. Medir retorno vazio e carregado separadamente.",
+      "S11"
+    ],
+    [
+      "T07",
+      20,
+      12,
+      "Trocar módulos com facilidade introduz folgas e variação de montagem que podem elevar a dispersão da proteção.",
+      34,
+      27,
+      [
+        11,
+        10,
+        1,
+        16
+      ],
+      "1 Segmentação e 10 Ação prévia: interfaces independentes, indexadas e configuradas por batentes. PI11/16 não foram adotados.",
+      "Reposição externa por conexão codificada. Batentes e testemunhos restringem montagem e pré-carga incorretas.",
+      "E01.1–4; E12.1–4; E17.1–4; C04.1–4; C05.1–4",
+      "RP20/RP12/RP18. Trocar ≥3 módulos isoladamente e repetir impactos antes/depois da remontagem para CV ≤10%.",
+      "V14"
+    ],
+    [
+      "T08",
+      6,
+      20,
+      "Vedação permanente retém fragmentos, mas dificulta substituir partes independentes. Juntas removíveis podem abrir frestas.",
+      31,
+      34,
+      [],
+      "Sem indicação no cruzamento. 1 Segmentação e 30 Membranas flexíveis são complementos por analogia com as definições dos princípios.",
+      "Sobrepor a barreira às juntas estruturais. O forro fecha o caminho dos cacos e pode ser trocado por fixação periférica própria.",
+      "E07.1–4; E09.1–4; C04.1–4",
+      "RP6/RP20/RP15. Repetir quebra controlada após troca de módulo e regulagem. Verificar limpeza e remontagem.",
+      "V8"
+    ],
+    [
+      "T09",
+      9,
+      20,
+      "Juntas independentes facilitam reposição, mas folgas podem alterar rigidez e posição dos apoios, reduzindo estabilidade.",
+      null,
+      null,
+      [],
+      "Separação no espaço: caminho de carga e apoio na base comum, com partes de desgaste substituíveis fora das uniões críticas.",
+      "Encaixes estruturais com travamento positivo e batentes de apoio. Trocar contato e barreira sem liberar a base resistente.",
+      "E01.1–4; E06.1–4; E15.1–4; C04.1–4; C05.1–4",
+      "RP9/RP20/RP11. Ensaiar estabilidade após trocas e desgaste. A integridade da junta não equivale a ângulo de tombamento.",
+      "V11"
+    ],
+    [
+      "T10",
+      20,
+      21,
+      "Substituir a parte que carrega a identificação pode apagar o vínculo com o histórico da unidade retornável.",
+      34,
+      24,
+      [],
+      "Sem indicação no cruzamento. 2 Extração e 1 Segmentação: separar o portador permanente da identidade das partes de desgaste.",
+      "Identificação única na base comum permanente. Reposição de apoios, amortecedores ou barreira preserva o mesmo serial.",
+      "E18.1–4; C04.1–4",
+      "RP21/RP18/RP13. Confirmar 1 ID legível após trocas, ciclos e umidade. Produto exibe o ID, sem gerir inventário.",
+      "W22"
+    ]
+  ],
+  "combos": [
+    [
+      "C1",
+      "Berço com amortecimento celular, cintas limitadas, guias ortogonais e carrinho externo. Envoltório com visores, bandeja retida e colunas periféricas.",
+      "Conferir tensão e área de contato, partida no carrinho, transparência após desgaste e recolhimento das paredes entre as colunas."
+    ],
+    [
+      "C2",
+      "Quadro telescópico, sapatas flutuantes, elastômeros e rolamento removível. Painéis transparentes, cuba coletora e conexões indexadas.",
+      "Conferir limpeza dos telescópios, massa, volume carregado, bypass da carga e alinhamento após reposição."
+    ],
+    [
+      "C3",
+      "Painéis articulados, apoios conformáveis e mobilidade integrada. Bolsa coletora, visores distribuídos e juntas em labirinto.",
+      "Conferir freios e apoios no piso, ângulo de tombamento, transferência assistida e separação das camadas ao fim de vida."
+    ]
+  ],
+  "gates": [
+    [
+      "E04, E05",
+      "Ensaiar a resposta dinâmica. Material e formato não comprovam pico de aceleração."
+    ],
+    [
+      "E01–E03, E12",
+      "A retenção não pode concentrar força danosa nem gerar contato rígido durante a queda."
+    ],
+    [
+      "E13, E14, E21",
+      "Meta de empurrar/puxar. Avaliar levantamento, desníveis e escadas separadamente."
+    ],
+    [
+      "E07, E09, E16",
+      "Medir a área com apoios, visor, juntas e louça na configuração fechada real."
+    ],
+    [
+      "E13",
+      "Conferir vão livre e acesso de mão enluvada com o conjunto carregado."
+    ],
+    [
+      "E07–E09, E19–E21",
+      "Manter retenção na abertura e retirada. Avaliar também o risco dos fragmentos pequenos."
+    ],
+    [
+      "E10–E12",
+      "Cobrir o mix com os mesmos componentes de ajuste. Reposição por desgaste é outra atividade."
+    ],
+    [
+      "Restrição geométrica",
+      "Conferir arranjo no PBR, portas, massa e amarração do veículo. O arranjo preliminar de três bases ocupa 81,6%."
+    ],
+    [
+      "E15, E06, C05",
+      "Ensaiar no pior eixo e regulagem, incluindo desgaste e reposição. Não inferir de freio ou rigidez isolados."
+    ],
+    [
+      "E17; interação",
+      "Contar ações no primeiro uso com usuário novo, incluindo regulagem e liberação."
+    ],
+    [
+      "E06, C02, C05",
+      "Conduzir a carga fora da cerâmica. Dois níveis por 24 h são condição de estudo, sem capacidade aprovada."
+    ],
+    [
+      "E04, E05, C04",
+      "Medir dispersão com mesmo SKU, massa, regulagem e condições. Repetir após troca de partes."
+    ],
+    [
+      "E06; materiais e juntas",
+      "Comparar compressão seca e após 48 h de condicionamento. Resistência à água isolada não comprova a meta."
+    ],
+    [
+      "Restrição carregada; C01/C02 no vazio",
+      "Base preliminar de 680×480 mm e alturas 275/480 mm. Contar visores, alças e rodas salientes. Recolhimento só reduz o vazio."
+    ],
+    [
+      "C03, C04, E08, E09",
+      "Cronometrar limpeza, inspeção e reposição, com sujeira e desgaste representativos."
+    ],
+    [
+      "E17, E18; sinalização",
+      "Adicionar modelo, lado correto e advertência à distância de leitura. QR/RFID não substituem leitura humana."
+    ],
+    [
+      "C06, E19, E20",
+      "Contar a desmontagem completa, separada da abertura para retirar a louça."
+    ],
+    [
+      "Todas as funções críticas",
+      "Ensaiar ciclos completos de carga, transporte, retorno e recondicionamento. Definir falha funcional."
+    ],
+    [
+      "C06, C07; materiais",
+      "Calcular por massa e confirmar cadeia regional. União reversível não prova reciclabilidade."
+    ],
+    [
+      "C04, C05",
+      "Definir interfaces de ≥3 módulos com troca independente. Funções e códigos não são módulos físicos."
+    ],
+    [
+      "E18",
+      "Preservar identidade na base permanente após qualquer reposição e após ciclos/umidade."
+    ],
+    [
+      "C05, E01, E07, E17",
+      "Contar todas as ações para expedição. Unir funções num único fecho não elimina ações sem demonstração."
+    ],
+    [
+      "Restrição econômica transversal",
+      "Incluir aquisição/vida real, preparo no distribuidor, limpeza, reposição, retorno e consumíveis. Comparar avaria residual e frete pelo mesmo SKU."
+    ]
+  ]
+}

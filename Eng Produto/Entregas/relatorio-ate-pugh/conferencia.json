@@ -1,0 +1,47 @@
+{
+  "data": "2026-10-26",
+  "escopo": "Até a primeira Pugh, encerrando na escolha fundamentada da M1. Sem seções de conclusão, bibliografia, anexos ou etapas posteriores.",
+  "paginas_pdf": 57,
+  "pagina_pugh_pdf": 55,
+  "ultima_pagina_impressa": "54",
+  "sha256_pdf": "b561e0047dd33211b5f83d3f25b139e17164366f0bd5e24d74fdb0a21001efac",
+  "sha256_pdf_completo": "336c6f4af887fb85eed51e51dd8d41c4511daa729e5b0ca98d8e9155533a1297",
+  "sha256_planilha": "3a618bb43b0cf4052c76fda4d5e92f2cc14fc5d0670fb742db5a475025a1b83a",
+  "pugh_totais": [
+    7,
+    0,
+    -4
+  ],
+  "figuras_paginas_pdf": {
+    "global": 43,
+    "ciclo": 46,
+    "fast": 48,
+    "m1": 51,
+    "m2": 52,
+    "m3": 53
+  },
+  "checagens": {
+    "relatorio_completo_e_planilha_preservados": true,
+    "arquivos_compartilhados_preservados": true,
+    "informacional_preservado": true,
+    "sem_secoes_posteriores": true,
+    "termina_na_escolha_M1": true,
+    "motivos_da_escolha": true,
+    "sensibilidade": true,
+    "sumario_termina_na_selecao": true,
+    "23_pesos_e_69_notas_preservados": true,
+    "totais_preservados": true,
+    "catalogo_33_funcoes": true,
+    "23_metas_preservadas": true,
+    "texto_dentro_das_paginas": true,
+    "seis_figuras_vetoriais_e_ids": true,
+    "compilacao_sem_avisos": true
+  },
+  "falhas": [],
+  "revisao_visual": {
+    "resultado": "Sumário, quadros, diagramas e fechamento na seleção conferidos; sem corte ou sobreposição nas páginas revisadas.",
+    "pagina_final": "Seleção fundamentada da M1, após justificativas e sensibilidade.",
+    "compilacao_editor_codex": "sucesso",
+    "compilacao_xelatex_bibtex": "sucesso"
+  }
+}

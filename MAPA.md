@@ -6,15 +6,15 @@ A equipe está desenvolvendo um sistema de proteção reutilizável para reduzir
 
 ## Fase atual
 
-O projeto está no **projeto conceitual em elaboração**. O informacional fornece os 23 requisitos e as metas provisórias. Agora são comparadas estruturas funcionais e combinações de princípios, antes de dimensionar e selecionar uma concepção.
+O projeto está no **projeto conceitual em elaboração**. O informacional fornece os 23 requisitos e as metas provisórias. A primeira Pugh selecionou a estrutura funcional M1. Agora são gerados e combinados princípios físicos para essa estrutura, antes de dimensionar e selecionar uma concepção.
 
 Fluxo atual:
 
 1. requisitos e especificações-meta rastreáveis ao informacional;
-2. função global, catálogo de 17 funções e 23 vínculos de requisitos; FAST e conexões de energia, material e sinal, preservando atributos e restrições;
+2. função global Proteger louça, sete parciais, 21 elementares da M1 e sete complementares; FAST e fluxos de energia, material e sinal, preservando atributos e restrições;
 3. M1 (peça descoberta), M2 (volume embalado) e M3 (volume com registro de evento opcional);
-4. primeira Pugh funcional: cinco critérios, empate qualitativo 0/0/0 e M1 priorizada pela equipe; histórico ponderado 12/0/40 preservado;
-5. conflitos do QFD explorados por TRIZ e combinações morfológicas;
+4. primeira Pugh funcional com os 23 critérios da apresentação adotada: M1 selecionada, M2 datum, totais ponderados +7/0/−4;
+5. morfológica com quatro opções para cada uma das 28 funções, três combinações exploratórias e dez conflitos do QFD tratados por TRIZ, vinculados às funções e às 23 metas;
 6. MIM anterior da C1 preservada como histórico; reavaliar escores e agrupamentos após a mudança para M1;
 7. três concepções preliminares sob M1, contato direto, inspeção pela própria barreira, preparo, custo e verificações;
 8. seleção apoiada nas metas, seguida de protótipo e ensaios.
@@ -44,4 +44,7 @@ Fluxo atual:
 - **21/09/2026:** especificações-meta;
 - **28/09/2026:** relatório consolidado da segunda entrega;
 - **26/10/2026:** modelagem funcional;
+- **09/11/2026:** princípios de solução;
+- **16/11/2026:** módulos do produto;
+- **23/11/2026:** concepção;
 - **02/12/2026:** apresentação final.

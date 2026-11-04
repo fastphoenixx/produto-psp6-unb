@@ -1,0 +1,105 @@
+\clearpage
+\section{PROJETO CONCEITUAL}
+
+O projeto conceitual busca meios de realizar as funções necessárias ao atendimento das especificações-meta. A passagem é de requisito para função, de função para princípio e, depois, para uma concepção verificável. A modelagem representa o que o produto deve fazer antes de fixar materiais, dimensões ou componentes \citep{back2008,rozenfeld2006}.
+
+A análise funcional compreende sete parciais, 21 elementares da M1 e sete complementares de retorno, manutenção e fim de vida. O FAST relaciona finalidade e meios, enquanto três estruturas explicitam alternativas para a proteção e a conferência. A matriz de Pugh seleciona M1, proteção direta da peça após preparo no distribuidor, com total ponderado +7. A decisão compara as capacidades, as interfaces e as contrapartidas das três modelagens \citep{equipeconceitual2026,planilhapsp62026}.
+
+\subsection{Modelagem Funcional}
+
+O fluxo de aplicação compreende as etapas de distribuidor, transporte, descarga e movimentação na obra. A louça é o material protegido; o produto em desenvolvimento é o dispositivo retornável. A delimitação de porte médio considera cubas e corpos individuais de bacias, uma peça por unidade. Kits montados e monoblocos não foram incluídos automaticamente nessa faixa.
+
+A situação atual, V0, é a louça acondicionada na embalagem do fabricante. A observação de uma obra residencial e as duas entrevistas sustentam a investigação da proteção e da conferência, mas não quantificam a taxa de quebra nem demonstram em que operação o dano ocorreu. Na modelagem, o papelão opaco é uma barreira ao caminho visual até a cerâmica. A solução precisa tratar a condição da peça e a segurança da retirada, além de transportar o volume.
+
+O procedimento segue a atividade de modelar funcionalmente o produto: analisar as especificações-meta; identificar funções; estabelecer a função global e os fluxos; desenvolver estruturas alternativas; e selecionar uma estrutura para a geração de princípios. Funções usam verbo no infinitivo e substantivo. Qualidades e limites são associados aos efeitos e às interfaces que precisam satisfazê-los \citep{aulasmodelagem}.
+
+\subsubsection{Função global e fluxos de material, energia e sinal}
+
+A função global foi expressa como \textbf{Proteger louça}. O fluxo material principal é a peça que precisa atravessar a operação preservando sua integridade. Se ocorrer quebra, os fragmentos devem permanecer contidos. Choques, vibração, compressão e manuseio constituem solicitações mecânicas; parte da energia é dissipada e parte pode ser transmitida à peça. Os sinais abrangem a condição observável, o fechamento e a identidade da unidade.
+
+\begin{figure}[H]
+\centering\input{figuras/funcao-global}
+\caption{Função global do dispositivo e fluxos de material, energia e sinal}
+\label{fig:funcao-global}
+\fonte{Elaboração própria.}
+\end{figure}
+
+O trabalho mecânico do operador ajusta, trava, movimenta e abre o conjunto. A informação de condição pode ser visual e passiva; a presença de sinal no diagrama não exige eletrônica. Os estados de saída da Figura~\ref{fig:funcao-global} são efeitos pretendidos. Sua representação não comprova proteção, retenção ou inspeção na área crítica.
+
+\input{secoes/04b-requisitos-funcoes}
+
+\subsubsection{Aplicação do método FAST}
+
+O FAST relaciona a finalidade aos meios de realizá-la. A leitura \textit{como?} parte de Proteger louça para as parciais e suas elementares; a leitura \textit{por quê?} retorna à finalidade. Reduzir avarias e evitar cortes são finalidades superiores que orientam a modelagem. O dispositivo oferece as capacidades físicas para contribuir com esses resultados, sem controlar todas as causas do processo \citep{back2008,aulasmodelagem}.
+
+Na parcial Imobilizar louça, por exemplo, a restrição depende de travar os apoios e distribuir a pressão sem permitir movimento danoso. Em Informar condição, expor a superfície, indicar fechamento e exibir identidade atendem necessidades informacionais distintas. As três elementares de cada linha estão no mesmo nível de desdobramento; não representam três níveis sucessivos ou uma sequência cronológica de operações.
+
+\begin{landscape}
+\begin{figure}[H]
+\centering\input{figuras/fast-atual}
+\caption{FAST da M1: função global, sete parciais e 21 elementares}
+\label{fig:fast}
+\fonte{Elaboração própria com base na modelagem funcional do dispositivo.}
+\notaquadro{As complementares da Figura~\ref{fig:ciclo-vida-funcional} apoiam as três estruturas. As conexões do FAST representam finalidade e meios.}
+\end{figure}
+\end{landscape}
+
+\subsubsection{Referências para os efeitos funcionais}
+
+O estudo documental de embalagens e dispositivos existentes orientou a identificação de apoios, encaixes, amortecimento, caminho resistente e acesso. As referências International Paper, Delta/Masco e Rengo oferecem analogias para posicionamento e transmissão de esforços. As aberturas das referências Kohler/Vavra ajudam a discutir acesso visual, mas não demonstram inspeção da área crítica do mix considerado com a contenção fechada. Os dossiês de anterioridade registram documentos e limites dessas analogias \citep{equipeanterioridade2026}.
+
+Contenção de fragmentos, ajuste ao mix, estabilidade, comunicação, identidade e reposição derivam das necessidades e dos requisitos de projeto. A anterioridade fornece referências de princípios; sua combinação é julgada pela adequação ao problema, às interfaces e às metas. A pesquisa documental sustenta a comparação tecnológica, sem constituir avaliação de patenteabilidade.
+
+\subsubsection{Modelagem Funcional 1: proteção direta da peça descoberta}
+
+Na M1, a embalagem original é retirada no distribuidor e a proteção atua diretamente sobre a louça. Acomodar louça organiza recebimento, ajuste e posicionamento; Imobilizar louça fixa os apoios e restringe o movimento. Atenuar esforços trata de impacto, vibração e compressão. A contenção e a abertura devem permitir retirar a peça sem perder a proteção contra fragmentos.
+
+Essa fronteira retira o papelão opaco do caminho de observação e pode reduzir o envelope. Em contrapartida, exige preparo e transferência no distribuidor, regulagem para geometrias irregulares, controle da pressão nos contatos e manutenção das regiões de apoio. A estrutura da Figura~\ref{fig:modelagem-m1} preserva inspeção pela própria barreira do dispositivo; essa capacidade precisa ser demonstrada na área crítica.
+
+\subsubsection{Modelagem Funcional 2: proteção do volume embalado}
+
+Na M2, a embalagem original permanece e o dispositivo atua sobre o volume. As funções equivalentes passam a Receber volume, Posicionar volume, Envolver volume e Remover volume. A manutenção da caixa reduz a intervenção inicial, mas conserva sua folga interna e sua interferência no caminho de observação, conforme a hipótese usada na comparação.
+
+A parcial Informar condição acrescenta A01, Abrir acesso, antes de Expor superfície. Isso torna explícita uma dificuldade da alternativa: o acesso através do papelão precisa ser compatibilizado com o requisito de conferir com o conjunto fechado. Um visor apenas externo não resolve a interferência da embalagem interna. A Figura~\ref{fig:modelagem-m2} mostra esse desdobramento adicional.
+
+\subsubsection{Modelagem Funcional 3: volume embalado com monitoramento}
+
+A M3 conserva a cadeia material e as funções da M2, mostradas na Figura~\ref{fig:modelagem-m3}, e acrescenta Monitorar impacto em paralelo. O ramo desdobra-se em Detectar aceleração, Comparar limiar, Registrar evento e Exibir alerta. Ele converte uma solicitação mecânica em informação sobre a ocorrência de um evento.
+
+O alerta não demonstra presença ou ausência de trinca, não torna a cerâmica visível e não substitui a contenção. O limiar no ponto de montagem também não é automaticamente o limite de aceleração na peça. A especificação do monitoramento abrange tecnologia, posição, calibração, reposição ou rearme, vida e custo. O registro de impacto é a opção OP-01 da equipe, associada à M3 nesta comparação e fora das 21 elementares da M1 selecionada.
+
+\begin{landscape}
+\begin{figure}[H]
+\centering\input{figuras/modelagem-m1}
+\caption{Modelagem M1: proteção direta da louça descoberta}
+\label{fig:modelagem-m1}
+\fonte{Elaboração da equipe, conforme o catálogo e a estrutura funcional vigentes.}
+\notaquadro{As parciais organizam os fluxos; os blocos inferiores mostram suas elementares. As sete complementares são comuns às três modelagens.}
+\end{figure}
+\end{landscape}
+
+\begin{landscape}
+\begin{figure}[H]
+\centering\input{figuras/modelagem-m2}
+\caption{Modelagem M2: proteção do volume na embalagem original}
+\label{fig:modelagem-m2}
+\fonte{Elaboração da equipe, conforme o catálogo e a estrutura funcional vigentes.}
+\notaquadro{A01, Abrir acesso, é adicional de M2/M3. O acesso pela embalagem interna deve preservar a condição de inspeção com o conjunto fechado.}
+\end{figure}
+\end{landscape}
+
+\begin{landscape}
+\begin{figure}[H]
+\centering\input{figuras/modelagem-m3}
+\caption{Modelagem M3: cadeia principal da M2 com ramo de monitoramento}
+\label{fig:modelagem-m3}
+\fonte{Elaboração da equipe, conforme o catálogo e a estrutura funcional vigentes.}
+\notaquadro{Monitorar impacto opera em paralelo à cadeia material da M2. O alerta de evento não substitui Expor superfície nem comprova integridade.}
+\end{figure}
+\end{landscape}
+
+
+
+\subsubsection{Seleção da Modelagem}
+
+\input{secoes/04c-selecao-funcional}

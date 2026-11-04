@@ -1,0 +1,104 @@
+\clearpage
+\section{PRÉ-DESENVOLVIMENTO}
+
+\subsection{Contextualização do Problema}
+
+Louças sanitárias percorrem uma cadeia composta por fabricação e distribuição, transporte externo, recebimento, movimentação interna e instalação. Como o momento em que o dano se torna visível pode não coincidir com sua origem, a equipe decompôs o fluxo em etapas com atores, operações e riscos distintos. O levantamento inicial combinou mapeamento do fluxo, observação em obra residencial, escuta de atores envolvidos e busca preliminar de anterioridade tecnológica.
+
+\begin{table}[H]
+\caption{Etapas da cadeia consideradas na definição do problema}
+\label{tab:cadeia}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{L{2.7cm}YYL{2.6cm}}
+\toprule
+\textbf{Etapa} & \textbf{Operação principal} & \textbf{Sinal observado} & \textbf{Questão de projeto} \\
+\midrule
+Fabricação e distribuição & Preparar, acondicionar, armazenar e expedir & O setor possui escala industrial e rede distribuída & Como embalagem e unitização afetam o dano latente? \\
+Transporte externo & Levar o produto do estoque à obra & O distribuidor associa a esse trecho a maior parte das avarias relatadas & Quais impactos, vibrações, tombamentos e manuseios ocorrem? \\
+Recebimento e abertura & Descarregar, conferir e abrir a embalagem & Há relatos de peças que chegam trincadas & Quando o dano fica visível e como conferir com segurança? \\
+Movimentação interna & Levar a louça até o ponto de instalação & Há transporte manual quando o carrinho não acessa o local & Quais restrições de acesso precisam ser consideradas? \\
+Instalação & Posicionar, fixar e testar & Avarias anteriores podem aparecer nessa etapa & Como evitar retrabalho e exposição a fragmentos? \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir do levantamento da Semana 03 \citep{equipe2026}.}
+\end{table}
+
+A visita à obra ofereceu o contexto de recebimento, estoque e movimentação das louças. O distribuidor visitado associou as principais avarias ao transporte entre seu estoque e a obra. Um trabalhador relatou peças que chegam trincadas, quedas durante a descarga e transporte manual quando o acesso impede o uso de carrinho. Esses achados caracterizam o recorte e as condições de uso; a análise econômica utiliza cenários, sem atribuir aos relatos uma taxa de avaria \citep{equipe2026}.
+
+A distribuição conecta estoques, transportadores e canteiros com condições distintas de acesso e manuseio. O potencial de adoção é analisado por entrega e por ciclo do dispositivo, evitando extrapolar perdas nacionais a partir de relatos locais.
+
+\subsection{Contextualização das Dores}
+
+A quebra pode permanecer oculta até o recebimento ou a instalação. Quando isso ocorre, o distribuidor pode absorver reposição e nova logística; a obra enfrenta atraso e retrabalho; e os trabalhadores podem ficar expostos a quedas, esforço adicional e fragmentos cortantes. A formulação do problema distingue origem do dano, momento de detecção e responsabilidade econômica por suas consequências.
+
+\begin{quote}
+\itshape
+A quebra no transporte entre distribuidor e obra pode permanecer oculta até o recebimento ou a instalação. O evento gera reposição, nova entrega, atraso, desperdício e exposição do trabalhador a peças avariadas ou fragmentos cortantes.
+\end{quote}
+
+\subsection{Público Alvo}
+
+O público diretamente afetado inclui distribuidores de louças sanitárias, motoristas e ajudantes responsáveis pelo transporte e pela descarga, responsáveis pelo recebimento, trabalhadores da obra, instaladores, compradores e clientes finais. A classificação por papel no ciclo --- interno, intermediário e externo --- está no projeto informacional.
+
+\subsection{Legislação e Normas}
+
+O uso previsto ocorre no transporte de carga, na descarga, no canteiro e no retorno, no Distrito Federal. O quadro normativo distingue obrigação legal, norma técnica de interface e método de ensaio. As disposições orientam segurança, manuseio, carga, amarração e destinação, com aplicação conforme a configuração e o contexto de uso. A identificação de requisitos normativos não constitui certificação do dispositivo.
+
+\begin{table}[H]
+\caption{Obrigações legais diretamente aplicáveis ao recorte}
+\label{tab:normas-legais}
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}L{3.3cm}@{\hspace{0.25cm}}L{3.4cm}@{\hspace{0.25cm}}Y@{}}
+\toprule
+\textbf{Instrumento} & \textbf{Disposição aplicável} & \textbf{Implicação no produto} \\
+\midrule
+NR-17 (Portaria MTP 423/2021) & 17.5.1 a 17.5.4: transporte manual, pega, alcance e meios facilitadores & Considerar massa, pega, alcance, frequência e distância. A configuração de 48\,kg privilegia meio auxiliar e apoios; a força de partida é tratada separadamente do levantamento \\
+NR-11 (texto consolidado de 2016) & 11.1.3.2: carga máxima visível; 11.1.4: proteção das mãos em carros; 11.3: armazenamento de materiais & Empilhamento e estabilidade no palete e no canteiro; carga máxima marcada se a concepção for carro ou berço \\
+NR-18 (texto consolidado de 2026) & 18.4: PGR; 18.8.4--18.8.5: cargas nos acessos e meio adequado para materiais em escadas & Porta, corredor, apoio estável e retirada sem fragmento são requisitos porque o uso é canteiro \\
+Resolução CONTRAN 945/2022 & Requisitos de segurança para acondicionamento e amarração da carga & Compatibilidade com o veículo inclui interface de amarração; corda não substitui ancoragem \\
+Lei 12.305/2010 (PNRS) e CONAMA 307/2002 & Arts.\ 9º e 33; classes A e B de resíduo da construção & Retorno e, no fim da vida, material identificável e desmontável. Caco (classe A) e carcaça (classe B) não se misturam \\
+Lei distrital 4.704/2011 e Decreto 44.607/2023 & PGRCC e logística reversa de embalagens no DF & Quebra sem segregação e sem controle de transporte de resíduo é irregularidade da obra. Identificação de materiais e responsabilidade pelo retorno e destinação \\
+CDC, arts.\ 12--14 & Defeito de projeto ou de informação & Aresta cortante, tombamento e falta de advertência de frágil são risco de informação e de segurança \\
+\bottomrule
+\end{tabularx}
+\fonte{Síntese dos instrumentos legais aplicáveis; referências de segurança em \citet{nr17oficial}, \citet{nr11oficial}, \citet{nr18oficial} e amarração em \citet{contran945}.}
+\end{table}
+
+A lei restringe o que o produto pode impor ao trabalhador e ao resíduo. O método de ensaio é outra camada: ASTM D5276 e D4169 (queda e ciclo de distribuição), ASTM D999 (vibração), ISO 12048 (compressão), ISO 11228-1 e 11228-2 (levantar, empurrar e puxar) e ISO 780 (símbolos de manuseio) servem para provar a especificação-meta. Não homologam o dispositivo.
+
+A interface com o que o produto protege ou apoia vem da ABNT NBR 16727 e 16728 (louça sanitária; a família histórica NBR 15097 ainda circula no mercado) e da ABNT NBR 8252 (palete; o PBR de mercado é $1\,200 \times 1\,000$\,mm). As normas caracterizam interfaces e requisitos dos produtos; o envelope de aplicação é delimitado pelas dimensões dos modelos e pela configuração do dispositivo.
+
+A NR-17 relaciona a avaliação ao trabalho real e não estabelece um limite universal de 15 ou 25\,kg. A massa máxima de aplicação é de 40\,kg de louça e 8\,kg de dispositivo; pega, apoio e movimentação precisam ser compatíveis com esse conjunto e com o acesso da obra \citep{nr17oficial,nr18oficial}. O retorno e a destinação integram a responsabilidade de operação do sistema retornável.
+
+\subsection{Soluções existentes no mercado}
+
+A busca inicial reuniu quatro documentos de patente voltados à proteção de louças ou itens frágeis em transporte. As propostas recorrem a encaixes de papelão, amortecedores moldados, estruturas dobráveis e estruturas corrugadas. O padrão recorrente combina amortecimento, imobilização, resistência e otimização de volume \citep{us2015,jp2007,cn2022,us2019}. Os documentos caracterizam princípios de proteção e posicionamento; a análise de solução é técnica e não constitui parecer sobre liberdade de operação ou patenteabilidade.
+
+\subsection{Proposta de Valor}
+
+A oportunidade é sintetizada pela seguinte questão de projeto:
+
+\begin{quote}
+\bfseries
+Como reduzir as avarias de louças sanitárias no transporte entre o distribuidor e a obra, diminuindo custos de reposição, atrasos e riscos aos trabalhadores, sem inviabilizar comercialmente o produto ou a operação?
+\end{quote}
+
+O enunciado não prescreve forma, material ou mecanismo. Ele admite intervenções no produto, na embalagem, na unitização, no equipamento de movimentação, no processo de conferência ou em uma combinação desses elementos.
+
+\subsection{Custo-Meta}
+
+O custo-meta desta fase é um teto para orientar o projeto. Não é preço de venda nem lista de materiais. A unidade adotada é o ciclo de uso, da ida à obra ao retorno, porque a solução foi tratada como retornável. O distribuidor é quem absorve a reposição e, por isso, é o ator diante do qual o teto precisa fazer sentido.
+
+A estimativa de partida indica R\$\,27,40 por entrega: R\$\,15 de embalagem e $0{,}02\times(500+120)$ de avaria e reentrega. A taxa de 2\% é parâmetro de cenário, e não estimativa estatística obtida no distribuidor. A meta de trabalho do dispositivo é até R\$\,15/ciclo. R\$\,300 de aquisição em 20 ciclos ilustram apenas a parcela de aquisição de R\$\,15/ciclo; não constituem orçamento ou prova de viabilidade.
+
+O custo por ciclo do dispositivo reúne aquisição rateada pela vida útil e os custos de manutenção, retorno e consumíveis por ciclo. A comparação da operação inclui também a avaria residual e o custo atribuível da embalagem de origem, na mesma fronteira contábil dos cenários. Se houver retirada no distribuidor, incluir preparo e destinação; retirar a embalagem do trecho carregado não elimina automaticamente seu custo. A operação completa deve custar menos que o cenário atual comparável. Os R\$\,15 permanecem como teto provisório do dispositivo; isoladamente, não garantem viabilidade. Preço de venda, margem e tributos pertencem à estrutura comercial; os valores apresentados são parâmetros de custo, não uma proposta de preço.
+
+\subsection{Encerramento da fase de Pré-Desenvolvimento}
+
+O pré-desenvolvimento delimitou um problema de cadeia, com fronteira no transporte entre o distribuidor e a obra. Dessa fase saíram o conjunto de normas que restringe manuseio, amarração e resíduo, e um custo-meta provisório de R\$\,15 por ciclo, diante dos R\$\,27,40 estimados da situação atual. A convergência de relatos orienta a investigação, mas não mede prevalência. O projeto informacional, na seção seguinte, converte esse recorte em necessidades, requisitos e especificações.
+
+\noindent\textbf{Lições aprendidas.} A etapa em que a trinca é percebida não prova a etapa em que ela surgiu; proteger e conferir são necessidades complementares. A louça é o objeto protegido, enquanto o produto do projeto é a solução física de proteção e movimentação. O retorno introduz trabalho, manutenção e custo: adotar uma solução retornável exige avaliar a operação inteira, além da resistência da embalagem. A observação de uma obra e as entrevistas com um operário e um distribuidor foram suficientes para formular uma hipótese de investigação, mas não para generalizar a taxa de avaria ou a viabilidade para todo o setor.
+
+\noindent\textbf{Síntese da avaliação técnica.} O escopo e o ciclo de vida têm objetivos distintos: o primeiro delimita a aplicação e o segundo organiza obtenção, uso, retorno e fim de vida. A análise conjunta de Kano e Mudge preserva requisitos essenciais mesmo quando seu peso relativo é baixo. A base documental e os critérios de aceitação complementam o levantamento qualitativo, mantendo separadas evidência de campo, resultado de cálculo e desempenho requerido.

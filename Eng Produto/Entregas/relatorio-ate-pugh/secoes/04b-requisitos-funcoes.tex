@@ -1,0 +1,77 @@
+\subsubsection{Relação entre requisitos, funções e restrições}
+\label{sec:requisitos-funcoes}
+
+A análise das especificações-meta distingue o efeito que o produto precisa realizar, o desempenho exigido e as condições de uso. As funções são escritas por verbo no infinitivo e substantivo. A redação sintetiza uma ação do sistema técnico sobre material, energia ou sinal; a meta determina em que condição essa ação deverá ser verificada \citep{back2008,aulasmodelagem}.
+
+Dos 23 RP, quinze orientam a identificação de funções e oito foram tratados como parâmetros ou restrições: RP8, RP10, RP12, RP13, RP14, RP18, RP20 e RP23. Essa classificação não elimina requisitos nem impede desdobrar capacidades auxiliares. A facilidade de uso, por exemplo, qualifica a interação e orienta Indicar fechamento; a modularidade restringe as interfaces e exige viabilizar a reposição. Uma função pode atender vários requisitos e um requisito pode depender de várias funções.
+
+\begin{table}[H]
+\caption{Tratamento dos requisitos não funcionais na modelagem}
+\label{tab:requisito-funcao}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{1.0cm}L{3.0cm}Y}
+\toprule\textbf{RP}&\textbf{Atributo ou restrição}&\textbf{Aplicação às funções e à solução}\\\midrule
+RP8&Compatibilidade com o veículo&Limita envelope, apoio e amarração no palete e no veículo. Não cria um bloco de planejamento de entregas.\\
+RP10&Uso intuitivo&Qualifica a interface de uso; E17, Indicar fechamento, contribui para orientar a ação.\\
+RP12&Uniformidade&Qualifica a resposta de E04/E05; comparar o pico entre unidades nas mesmas condições.\\
+RP13&Resistência à umidade&Qualifica a capacidade do caminho resistente de E06 após condicionamento.\\
+RP14&Volume externo&Restringe o conjunto carregado por família. C01, Recolher estrutura, trata do estado vazio no retorno.\\
+RP18&Vida em ciclos&Qualifica a permanência das capacidades de proteção, apoio, acesso e união ao longo do reuso.\\
+RP20&Modularidade&Restringe arquitetura e interfaces. C04/C05 viabilizam reposição e união; comprovar a troca independente.\\
+RP23&Custo por ciclo&Restringe todas as funções e soluções. Comparar os custos na mesma fronteira operacional.\\
+\bottomrule\end{tabularx}
+\fonte{Análise dos 23 requisitos de projeto e seus efeitos funcionais.}
+\end{table}
+
+Os limites preservam a especificidade do produto. E04, Absorver impacto, deverá contribuir para manter o pico na cerâmica em até 35\,g e abaixo da embalagem atual no mesmo ensaio. E03, Restringir movimento, está associado ao deslocamento residual de até 6\,mm. E16, Expor superfície, deverá permitir conferir pelo menos 60\% da área crítica com a contenção fechada. E11, Ajustar apoios, está vinculado aos cursos de 300\,mm em A e 150\,mm em B, sem troca de componentes. A presença dessas funções no desenho não demonstra atendimento das metas.
+
+\subsubsection{Funções parciais e elementares}
+
+A função global foi desdobrada em sete parciais. Imobilizar louça, Atenuar esforços e Conter fragmentos representam as capacidades básicas de proteção; Acomodar louça, Movimentar conjunto, Informar condição e Liberar louça organizam a interação com a peça e com o usuário. Cada parcial foi detalhada em três elementares na M1, conforme a Tabela~\ref{tab:catalogo-funcoes}.
+
+\begin{table}[H]
+\caption{Funções parciais e 21 elementares da M1}
+\label{tab:catalogo-funcoes}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{0.7cm}L{3.0cm}L{2.0cm}Y}
+\toprule\textbf{ID}&\textbf{Função parcial}&\textbf{Classe}&\textbf{Funções elementares}\\\midrule
+\linhasquadro{quadros/parciais-elementares}
+\bottomrule\end{tabularx}
+\fonte{Elaboração própria: catálogo funcional da M1.}
+\end{table}
+
+Travar apoios fixa a regulagem; Distribuir pressão evita concentrar a carga de contato; Restringir movimento conserva a posição relativa da louça. Esses efeitos precisam ser compatíveis: aumentar a restrição sem controlar a pressão pode danificar a cerâmica. Absorver impacto e Isolar vibração tratam das solicitações dinâmicas; Desviar compressão exige um caminho resistente que preserve a peça e não anule a proteção dinâmica.
+
+Expor superfície significa disponibilizar um caminho visual até a região crítica da própria cerâmica, com a contenção fechada. Indicar fechamento comunica o estado e a orientação de uso. Exibir identidade apresenta o identificador único do dispositivo. As três funções tratam de sinais diferentes. Um número de série não orienta, por si só, a montagem; um aviso de choque não torna a trinca visível.
+
+As funções técnicas atuam na sustentação, na restrição do movimento, na transmissão de esforços e na contenção. As funções de transformação tratam da resposta ao impacto e à vibração. As interativas abrangem interfaces ergonômicas, leitura do uso e comunicação: Receber força disponibiliza a pega; Abrir barreira e Destravar apoios viabilizam acesso; Indicar fechamento e Exibir identidade comunicam estado e significado. Essa classificação caracteriza os efeitos e as interfaces, sem substituir a distinção entre função e requisito de qualidade \citep{aulasmodelagem}.
+
+A equipe também relacionou as funções a percepções pretendidas: confiança na proteção, segurança na abertura e autonomia de uso. Essas percepções deverão ser confrontadas com usuários. Elas não comprovam aceleração, retenção ou usabilidade e não foram usadas como funções técnicas adicionais para aumentar a pontuação.
+
+Os IDs P1--P7 e E01--E21 identificam os mesmos efeitos nos diferentes níveis de representação. Nas estruturas sobre o volume embalado, os nomes Receber volume, Posicionar volume, Envolver volume e Remover volume explicitam a mudança de material, mantendo o ID do efeito equivalente. Os IDs não representam peças nem módulos definidos.
+
+\subsubsection{Funções complementares do ciclo de vida}
+
+O caráter retornável exige capacidades além da proteção da louça durante uma entrega. Sete complementares sustentam retorno, manutenção e fim de vida. Elas são comuns às três alternativas e permanecem necessárias após a seleção funcional.
+
+\begin{table}[H]
+\caption{Funções complementares comuns às modelagens}
+\label{tab:complementares}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{0.8cm}L{3.2cm}YL{2.0cm}}
+\toprule\textbf{ID}&\textbf{Função}&\textbf{Efeito ou capacidade}&\textbf{RP}\\\midrule
+\linhasquadro{quadros/funcoes-complementares}
+\bottomrule\end{tabularx}
+\fonte{Catálogo funcional e vínculos com o ciclo de vida do dispositivo retornável.}
+\end{table}
+
+\begin{figure}[H]
+\centering\input{figuras/ciclo-vida-funcional}
+\caption{Organização das capacidades de retorno, manutenção e fim de vida}
+\label{fig:ciclo-vida-funcional}
+\fonte{Elaboração própria a partir das funções complementares do ciclo de vida.}
+\end{figure}
+
+O operador limpa, inspeciona, ajusta e troca partes. O produto viabiliza essas operações por acessos, interfaces e uniões liberáveis. Substituir módulos expressa essa capacidade de reposição; sua realização depende de demonstrar interfaces e troca independente. A modelagem não atribui ao dispositivo a gestão de estoque, de rotas ou de entregas.
+
+Recolher estrutura atua sobre o conjunto vazio; não comprova o volume carregado do RP14. Encaixar unidades apoia o arranjo entre dispositivos, mas não demonstra compressão nem estabilidade. Separar materiais viabiliza frações ao fim de vida, sem comprovar automaticamente a fração reciclável ou a cadeia regional.

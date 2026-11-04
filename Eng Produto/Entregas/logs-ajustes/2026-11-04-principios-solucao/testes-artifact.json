@@ -1,0 +1,38 @@
+[
+  {
+    "label": "troca de opção",
+    "value": 2,
+    "summary": "E03: Cintas de baixa extensão com tensão limitada pelos batentes. E04: Cartuchos de espuma celular reutilizável trabalhando em compressão. E14: Acoplamento estrutural e trava positiva para carrinho externo. E16: Visores flexíveis transparentes e tensionados no envoltório. E08: Bandeja com borda elevada e bolso interno resistente à perfuração.",
+    "dependent": "E03: Cintas de baixa extensão com tensão limitada pelos batentes. E04: Cartuchos de espuma celular reutilizável trabalhando em compressão. E14: Acoplamento estrutural e trava positiva para carrinho externo. E16: Visores flexíveis transparentes e tensionados no envoltório. E08: Bandeja com borda elevada e bolso interno resistente à perfuração."
+  },
+  {
+    "label": "vazio",
+    "value": null,
+    "summary": "Preencher as 28 opções com inteiros de 1 a 4",
+    "dependent": "Preencher as 28 opções com inteiros de 1 a 4"
+  },
+  {
+    "label": "zero",
+    "value": 0,
+    "summary": "Preencher as 28 opções com inteiros de 1 a 4",
+    "dependent": "Preencher as 28 opções com inteiros de 1 a 4"
+  },
+  {
+    "label": "fora da faixa",
+    "value": 5,
+    "summary": "Preencher as 28 opções com inteiros de 1 a 4",
+    "dependent": "Preencher as 28 opções com inteiros de 1 a 4"
+  },
+  {
+    "label": "não inteiro",
+    "value": 2.5,
+    "summary": "Preencher as 28 opções com inteiros de 1 a 4",
+    "dependent": "Preencher as 28 opções com inteiros de 1 a 4"
+  },
+  {
+    "label": "troca da retenção",
+    "value": 2,
+    "summary": "E03: Braços opostos com batentes acolchoados e curso limitado. E04: Cartuchos de espuma celular reutilizável trabalhando em compressão. E14: Acoplamento estrutural e trava positiva para carrinho externo. E16: Visores flexíveis transparentes e tensionados no envoltório. E08: Bandeja com borda elevada e bolso interno resistente à perfuração.",
+    "dependent": "E03: Braços opostos com batentes acolchoados e curso limitado. E04: Cartuchos de espuma celular reutilizável trabalhando em compressão. E14: Acoplamento estrutural e trava positiva para carrinho externo. E16: Visores flexíveis transparentes e tensionados no envoltório. E08: Bandeja com borda elevada e bolso interno resistente à perfuração."
+  }
+]

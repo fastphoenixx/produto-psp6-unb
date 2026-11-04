@@ -1,0 +1,21 @@
+{
+  "partes_alteradas": [
+    "xl/worksheets/sheet23.xml",
+    "xl/worksheets/sheet24.xml",
+    "xl/worksheets/sheet28.xml",
+    "xl/styles.xml"
+  ],
+  "partes_inalteradas": 65,
+  "celulas_concepcoes": [
+    "B2",
+    "D4",
+    "F4",
+    "D5",
+    "F5",
+    "D6",
+    "F6",
+    "B9",
+    "B14"
+  ],
+  "nomes_e_ordem_das_abas_preservados": true
+}

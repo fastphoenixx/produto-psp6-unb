@@ -1,0 +1,2793 @@
+{
+  "consulta": "2026-11-04",
+  "referencias": {
+    "airbag": {
+      "title": "Bolsas pneumáticas industriais",
+      "page_url": "https://pronal-liftingbag.com/",
+      "manufacturer": "Pronal",
+      "image_url": "https://pronal-liftingbag.com/wp-content/uploads/2014/09/Photo31.jpg",
+      "image_alt": "Industrial bags",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        255,
+        300
+      ],
+      "image_sha256": "7bfc9744bd11a8471374b62224b40b06b20a448e89dfc3d526e83f74e6bebd58",
+      "sha256": "d35a9df05433e8911564421dbe0c0b260d7b2d5ec32d43596dc08b5d9e72765e",
+      "size": [
+        255,
+        300
+      ],
+      "consulta": "2026-11-04"
+    },
+    "airdamp": {
+      "title": "Bolsa pneumática em aplicação de amortecimento",
+      "page_url": "https://pronal-liftingbag.com/",
+      "manufacturer": "Pronal",
+      "image_url": "https://pronal-liftingbag.com/wp-content/uploads/2014/08/DAMP.png",
+      "image_alt": "TO DAMP",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        1900,
+        600
+      ],
+      "image_sha256": "c8ae71b1a90556ee40dbb9372c17cc3268fa0ac10963670d17812e4915ecd338",
+      "sha256": "bb52de73635fef6b72ddda3fd4de6725e2d725a6bd8a82d9c411c222d156dd8d",
+      "size": [
+        650,
+        205
+      ],
+      "consulta": "2026-11-04"
+    },
+    "airpress": {
+      "title": "Bolsa pneumática em aplicação de prensagem",
+      "page_url": "https://pronal-liftingbag.com/",
+      "manufacturer": "Pronal",
+      "image_url": "https://pronal-liftingbag.com/wp-content/uploads/2015/03/PRESS2.jpg",
+      "image_alt": "TO PRESS",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        1900,
+        600
+      ],
+      "image_sha256": "8ac3a8a45a958b268c037542bd9acdadb6ce88effd011ac4411dd8cf1116db9c",
+      "sha256": "3c4687c0d0cbc5beed0934476737a43f20f421728bc724733b0e844d5df35e59",
+      "size": [
+        650,
+        205
+      ],
+      "consulta": "2026-11-04"
+    },
+    "arm": {
+      "title": "GN 820.3 Stainless Steel Horizontal Acting Toggle Clamps, with Safety Hook, with Horizontal Mounting Base",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-820.3-Stainless-Steel-Horizontal-Acting-Toggle-Clamps-with-Safety-Hook-with-Horizontal-Mounting-Base",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/c39830beb5bd0bd5d521421a0f7152df/GN-820.3-Stainless-Steel-Horizontal-Acting-Toggle-Clamps-with-Safety-Hook-with-Horizontal-Mounting-Base-NI-MLC-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "6d44d7ae7e25e495e248477183f8431ec4fbe52230c499dcebe01dd3d8b499e4",
+      "sha256": "98faafe2507ac8fdfaf58f00cfe9cc5872f2f788c0c773d3e3d8ee0ed9d62f75",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "arrow": {
+      "title": "GN 711.1 — seta indicadora",
+      "manufacturer": "JW Winco / Ganter",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-711.1-Plastic-or-Stainless-Steel-Indicator-Arrows-with-Self-Adhesive-Backing-for-Rulers",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/48165833a597978b878e9693fc82d51f/GN-711.1-Plastic-or-Stainless-Steel-Indicator-Arrows-with-Self-Adhesive-Backing-for-Rulers-Plastic-thumbnail.jpg?scalingname=normen",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "76d4c7a1f69c41fc3deeb37532c68c118ff7f051e3476310e616d54d95b9b0fe",
+      "sha256": "813b3c031b1f03167840341288e12851be6b2e635f38aff7ee9ab1ddf04b3f58",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "bagbox": {
+      "title": "Standard Inliner — bolsa interna substituível",
+      "manufacturer": "AUER Packaging",
+      "page_url": "https://www.auer-packaging.com/de/Standard-Inliner.html",
+      "image_url": "https://www.auer-packaging.com/images/categories/banner/Standard-Inliner-AUER--71.jpg",
+      "original_size": [
+        4000,
+        1508
+      ],
+      "image_sha256": "990f7dcc555292b562274c0da626bf61c742fc0202a179b20def89d611870e13",
+      "sha256": "2c6de1dc01d917b0282139aa897f660a24b4382f11a16593f674ba16ffeefe18",
+      "size": [
+        650,
+        245
+      ],
+      "consulta": "2026-11-04"
+    },
+    "bayonet": {
+      "manufacturer": "Southco",
+      "title": "D8 DZUS PANEX — fixador de quarto de volta",
+      "page_url": "https://media.southco.com/media/static/Literature/D8.en.pdf",
+      "image_url": "https://media.southco.com/media/static/Literature/D8.en.pdf",
+      "pdf_sha256": "650436be1fb8ed4bb081ce3edf0cc60f7ebb24c2821307bc63e66df6abf0edc4",
+      "sha256": "f79c6495aec5eec8620f3302491715530bd294963c8bf593b83f7bb6627356dd",
+      "size": [
+        290,
+        160
+      ],
+      "pdf_page": 7,
+      "crop_pixels": [
+        280,
+        690,
+        570,
+        850
+      ],
+      "render_size": [
+        928,
+        1200
+      ],
+      "status": "excerpt_published_manufacturer_figure",
+      "consulta": "2026-11-04"
+    },
+    "cam": {
+      "title": "GN 927.5 Stainless Steel Clamping Levers with Eccentrical Cam, Tapped Type, with Plastic Contact Plate",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-927.5-Stainless-Steel-Clamping-Levers-with-Eccentrical-Cam-with-Plastic-Contact-Plate-Tapped-Type",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/055ab55de1b64896ac603f8298dd8575/GN-927.5-Stainless-Steel-Clamping-Levers-with-Eccentrical-Cam-with-Plastic-Contact-Plate-Tapped-Type-Plastic-contact-plate-with-setting-nut-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "e6377607776c6094122c9813b7716cf9a5be91c16656bfc79f6887d51c9fcfd7",
+      "sha256": "548fb7e7663974ddc5b33d7f3674ccf5c2e9521957e0dba1e670b16c28b1fabb",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "captive": {
+      "title": "GN 912.2 Stainless Steel Socket Cap Screws, with Recessed Stud for Loss Protection",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-912.2-Stainless-Steel-Socket-Cap-Screws-with-Recessed-Stud-for-Loss-Protection",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/b93937811521982560ba4683aba59c26/GN-912.2-Stainless-Steel-Socket-Cap-Screws-with-Recessed-Stud-for-Loss-Protection-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "ccabfbcf78da15608f0963c272005851ed01400dd79226e34e08f501b0ebd3e9",
+      "sha256": "c232d50787a2fb222ddfe2127bc893bba822720c840997a511a5eac0e88fa1b4",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "caster": {
+      "title": "EN 22872 — rodízio com bloqueio",
+      "manufacturer": "JW Winco / Ganter",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/EN-22872-Steel-Stainless-Steel-Medium-Duty-Casters-Rubber-Wheel-Tread-Polypropylene-Wheel-Core-Light-Version",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/2a3e5a42fa0d3591f2cc6883ea62f8e3/EN-22872-Steel-Stainless-Steel-Medium-Duty-Casters-Rubber-Wheel-Tread-Polypropylene-Wheel-Core-Light-Version-L-ST-LF-G-thumbnail.jpg?scalingname=normen",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "3368a2bb88c42291addf35257161332ffb8fbabdcf2979e41b732ed510e30bd2",
+      "sha256": "d7b719f0cf97d004c30dc4edb6a6444d32375b3be76f82362fa7f0875e455fa1",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "chain": {
+      "title": "GN 111.2 Stainless Steel AISI 304 Retaining Cables, with Mounting Tabs or Loops",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-111.2-Stainless-Steel-Retaining-cables-with-tabs-or-loops",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/57364d666ebc88318544a49cb11ac42b/GN-111.2-Stainless-Steel-Retaining-cables-with-tabs-or-loops-With-2-mounting-tabs-BL-Plain-finish-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "cbf3f4cc3008e093b9548903ededd9ac9f8afe39ccd28fd6887c83b27720c7dc",
+      "sha256": "71b24f3771b5e37edd150a8ecfc691d7b97c513e7c74e615dbdaf6d1b6389abd",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "clearcurtain": {
+      "manufacturer": "AmCraft",
+      "title": "Catálogo de cortinas industriais transparentes",
+      "page_url": "https://media.amcraftindustrialcurtainwall.com/wp-content/uploads/2017/06/AmCraft-Manufacturing-Industrial-Curtain-Catalogue.pdf",
+      "image_url": "https://media.amcraftindustrialcurtainwall.com/wp-content/uploads/2017/06/AmCraft-Manufacturing-Industrial-Curtain-Catalogue.pdf",
+      "pdf_sha256": "fe19d9f8cd0f2470c8dbcdf742af40ddc5a8eafc2f1e45504a09ad576ec9ad7c",
+      "sha256": "86670fa5d56d54a06e1f2b3c069c1b61a18d6c61b159fe0ba8b08ead5b7e5006",
+      "size": [
+        234,
+        184
+      ],
+      "pdf_page": 5,
+      "crop_pixels": [
+        150,
+        297,
+        384,
+        481
+      ],
+      "render_size": [
+        928,
+        1200
+      ],
+      "status": "excerpt_published_manufacturer_figure",
+      "consulta": "2026-11-04"
+    },
+    "clearinsert": {
+      "title": "Inserto transparente removível para caixas",
+      "page_url": "https://www.auer-packaging.com/en/Accessories-Other.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Acrylic-glass-insertable-viewing-panels-SLK-ES-AUER--229.jpg",
+      "image_alt": "Acrylic glass insertable viewing panels SLK ES Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        300,
+        249
+      ],
+      "image_sha256": "5de413875a36be360618eedf6046d38a7602946a854c5172a930306b355bfa12",
+      "sha256": "e658e6490a633501e07da9ecc9ce41aa39459732a52b6e5a27bd70ab911c8d75",
+      "size": [
+        300,
+        249
+      ],
+      "consulta": "2026-11-04"
+    },
+    "cone": {
+      "title": "GN 412.5 Stainless Steel Locating Bushings with Tapered Flange, for Indexing Plungers / Cam Action Indexing Plungers",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-412.5-Stainless-Steel-Locating-Bushings-with-Cone-for-Indexing-Plungers",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/9a5cfb1cc6ca4a8ddc9fc0f95d176cf7/GN-412.5-Stainless-Steel-Locating-Bushings-with-Cone-for-Indexing-Plungers-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "5007d8bab35076181ef25c3ac2c99b7621869e506a001e35f37f146d17b125de",
+      "sha256": "7fdc2cf95082b2342c5473c003501e5df385e455d9b26853314499376523715e",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "connector": {
+      "title": "GN 273 Stainless Steel Swivel Clamp Connectors",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-273-Stainless-Steel-Swivel-Clamp-Connectors-Round-Bore-Type",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/e5b153dbc96ba2749889e011d0864f61/GN-273-Stainless-Steel-Swivel-Clamp-Connectors-Round-Bore-Type-Stainless-steel-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "21671d5a1884cffe0d2867207a2c46dc0c3bc5f0a46de99d34b0429a21cac581",
+      "sha256": "a32a44b6e2d3382ca71c804015d6162d2e1ada71c5ae3fe57b677369cdbcae31",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "coupleddolly": {
+      "title": "Carrinho com sistema de acoplamento",
+      "page_url": "https://www.auer-packaging.com/en/Transport-trolleys.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Compact-transport-trolley-with-coupling-system-AUER--934.jpg",
+      "image_alt": "Compact transport trolley with coupling system Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        300,
+        301
+      ],
+      "image_sha256": "8ccadc73207544d8cabf8077e7ebe2adb9d5609bb970b7be8ed90b079f5205ea",
+      "sha256": "7d61b4c1f3bc616aa6106d88ebf52250637bd85fbfa149138472d472302349d6",
+      "size": [
+        300,
+        301
+      ],
+      "consulta": "2026-11-04"
+    },
+    "cover": {
+      "title": "Tampa separável para caixa Euro",
+      "page_url": "https://www.auer-packaging.com/en/Euro-containers.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Place-on-lids-for-Euro-containers-AUER--63.jpg",
+      "image_alt": "Place-on lids for Euro containers Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        300,
+        300
+      ],
+      "image_sha256": "a8c2ae977436f8f1e18ef876f48506af88ebc671a2c061e582e42ea7b8332ac9",
+      "sha256": "34d95ab856d3859b06032e06d3f0dd4682ae31f8df8d0e19dd140066c3535aae",
+      "size": [
+        300,
+        300
+      ],
+      "consulta": "2026-11-04"
+    },
+    "damper": {
+      "title": "Amortecedores hidráulicos miniatura",
+      "page_url": "https://www.acecontrols.com/us/products/automation-control.html",
+      "manufacturer": "ACE Controls",
+      "image_url": "https://www.acecontrols.com/media/ace_pim/images/resized/600/SHOCK-ABSOBERS_MINIATURE-SHOCK-ABSORBERS_SE_GROUP-01B-ACE-PRODUCTS_RGB-M.jpg",
+      "image_alt": "Miniature Shock Absorbers",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        600,
+        390
+      ],
+      "image_sha256": "c55f2522c5eb675d078369096403d5d5f572e6953e0399fd69b8c6691ff18f59",
+      "sha256": "e501da0634ac3e6b1f11076eaee1d91ca2ede0afdb71af61b4f81155b34b3d6d",
+      "size": [
+        600,
+        390
+      ],
+      "consulta": "2026-11-04"
+    },
+    "datamatrix": {
+      "title": "Marcação direta a laser — serial e código Data Matrix",
+      "manufacturer": "Trotec Laser",
+      "page_url": "https://www.troteclaser.com/en-us/resources/blog/laser-marking-with-datamatrix-traceability-directly-on-the-component",
+      "image_url": "https://backend.troteclaser.com/static/images/knowledge/blog/2025-11-DPM/_DSC1570__1_.png",
+      "original_size": [
+        4912,
+        3930
+      ],
+      "image_sha256": "c6a2d53da080aefd9ed973809fee1c0db23e89775dc61f925b9c2c2453a1af8f",
+      "sha256": "976fdc8cf0fb6b5855282c0656d9d23e6d1894ccadef902c0764cab45d8144f5",
+      "size": [
+        600,
+        480
+      ],
+      "consulta": "2026-11-04"
+    },
+    "dovetail": {
+      "title": "21030 — guia de cauda de andorinha",
+      "manufacturer": "norelem",
+      "page_url": "https://www.norelem.de/en/Product-overview/Systems-and-components-for-machine-and-plant-construction/21000/Carriage-guides/c/21468",
+      "image_url": "https://www.norelemusa.com/medias/Grid-Default-21030.png?context=bWFzdGVyfHJvb3R8MTcwNzF8aW1hZ2UvcG5nfGFHTmlMMmhqTmk4NE9ETTBPVGN6TnpZeE5UWTJMMGR5YVdSZlJHVm1ZWFZzZEY4eU1UQXpNQzV3Ym1jfDVmZDZmNDcxOTk5NjA4MWI3YjM1YWUxNmZmYzBkZTJkZThkNmZmMTBhNzUzNjdlN2NlNTMxZjY5NjlkNTgyMTM",
+      "original_size": [
+        300,
+        187
+      ],
+      "image_sha256": "ca511e4bf7f63e57622a0051619df3409f4c5e83998e588f464ba8d1a799985b",
+      "sha256": "9366cf80c8e0045e3543339d5996d7ac5277018022b4b972aeb1c2e61d423cb0",
+      "size": [
+        300,
+        187
+      ],
+      "page_url_secondary": "https://www.norelemusa.com/en-us/Product-Overview/Systems-and-components-for-machine-and-plant-construction/21000/Carriage-guides/Dovetail-slides-with-micrometer-spindle-and-location-holes/Dovetail-slide-with-micrometer-spindle-aluminum-black-anodized/p/21010-030045",
+      "consulta": "2026-11-04"
+    },
+    "eurobox": {
+      "title": "Caixa Euro de paredes fechadas",
+      "page_url": "https://www.auer-packaging.com/en/Euro-containers.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Euro-containers-solid-AUER--50.jpg",
+      "image_alt": "Euro containers solid Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        300,
+        229
+      ],
+      "image_sha256": "b1a7c9daae4577b3fa66ee2a92a2908deba1280ac9fd7c712478e2a0a1bc06c8",
+      "sha256": "c6d96160605335180382155f4c594efce1db1c21a161231b97bcf8bb9e496875",
+      "size": [
+        300,
+        229
+      ],
+      "consulta": "2026-11-04"
+    },
+    "flapseal": {
+      "title": "Perfil com aba de vedação",
+      "page_url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products",
+      "manufacturer": "Trim-Lok",
+      "image_url": "https://www.trimlok.com/secure/content/imagescategories/Flap-Seal-Product-Category-500x300.png",
+      "image_alt": null,
+      "status": "public_manufacturer_image",
+      "original_size": [
+        500,
+        300
+      ],
+      "image_sha256": "6ac2398de13d276e3d134335f9ca7338110aab6bcc6e7426771e56fcd9257f8d",
+      "sha256": "581a44c454bc8e79517b9215ece65ab5396e9280d33baa3be3908c867ea8f0cb",
+      "size": [
+        500,
+        300
+      ],
+      "consulta": "2026-11-04"
+    },
+    "flexspring": {
+      "title": "Mola linear ondulada em lâmina metálica",
+      "page_url": "https://www.smalley.com/wave-springs/linear-springs",
+      "manufacturer": "Smalley",
+      "image_url": "https://www.smalley.com/sites/default/files/styles/responsive_350w/public/2026-10/Linear%20Spring_2.webp?itok=t5IBM87u",
+      "image_alt": "Linear Springs",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        350,
+        202
+      ],
+      "image_sha256": "f6582d970afe0e4624e43d039848d544344d9fbcca26eadb3c0b85b98429cef6",
+      "sha256": "775aeb786419b3e1f7034d0283e53e738ddca78cc97288d717f4ef3e99d88e35",
+      "size": [
+        350,
+        202
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foam_molded": {
+      "title": "EPP moldado — proteção e alojamento de componentes",
+      "page_url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/",
+      "manufacturer": "Storopack",
+      "image_url": "https://www.storopack.de/fileadmin/_processed_/2/c/csm_PP_Automotive_Application_DSC01611_frei_1280x580px_f7f4408030.png",
+      "original_size": [
+        800,
+        363
+      ],
+      "image_sha256": "bccba303af679499e0756765b97a2b0797dff0a0ae5a7361a9275a65ea32ce67",
+      "sha256": "2308f890b4e7394607000c7a741503c409d13c5aa278aafdceea9cdf5126ad0a",
+      "size": [
+        650,
+        295
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foamcradle": {
+      "title": "Acondicionamento conformado em EPP para metais sanitários",
+      "page_url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/",
+      "manufacturer": "Storopack",
+      "image_url": "https://www.storopack.de/fileadmin/_processed_/c/1/csm_PP_Construction_Application_EPP-Verpackung_WasserhN__hne_1280x580px_a23100fb99.png",
+      "image_alt": "",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        800,
+        363
+      ],
+      "image_sha256": "b2f7268e16260d3cb35d6f4a1856c4741b29a2a3fda70dfd2e586cb7ac56941d",
+      "sha256": "f943c4061e3f4fa1014ee06154e302afadd7930539a72f9012bc1f4f26c4fd0f",
+      "size": [
+        650,
+        295
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foldbig": {
+      "title": "Contentor palete rebatível com portas de acesso",
+      "page_url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Collapsible-big-boxes-with-4-opening-flaps-AUER--69.jpg",
+      "image_alt": "Collapsible big boxes with 4 opening flaps Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        300,
+        299
+      ],
+      "image_sha256": "372905df4e12ff06e7e6a1e586d34da4659ea96d3f840ee7943a8b4b8cf739d0",
+      "sha256": "7b29c2d7126b7132d1e346a111491efecbced8813696ab54f387a31a8fce4f94",
+      "size": [
+        300,
+        299
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foldbox": {
+      "title": "Caixas dobráveis",
+      "page_url": "https://www.auer-packaging.com/en/Foldable-boxes.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/banner/Foldable-boxes-AUER--292.jpg",
+      "image_alt": "AUER Packaging Foldable boxes Title image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        882,
+        309
+      ],
+      "image_sha256": "d598272dc2ec14d33824416c9e47b9cdf0804e39ec740c0ee7e4b04f672df68c",
+      "sha256": "4d3d1d3ac5762598760beb5862ebf4dbb52a1c524e18ad2aa4ccaceb14735df0",
+      "size": [
+        650,
+        228
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foldhandle": {
+      "title": "GN 425.5 Stainless Steel Folding Handles",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-425.5-Stainless-Steel-Folding-handles",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/226a5c2b16953470238a47f8fde35d3e/GN-425.5-Stainless-Steel-Folding-handles-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "cf3c922933c1477568530b0d023ebb636d660edbd54bc071fe76d863858f3524",
+      "sha256": "2b84d3910129bd1ea09c72ca3f98f3b96187b4d563f7d83f2430c001661f553a",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foldsolid": {
+      "title": "Contentor palete com paredes fechadas e rebatíveis",
+      "page_url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Collapsible-big-boxes-solid-AUER--67.jpg",
+      "image_alt": "Collapsible big boxes solid Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        800,
+        796
+      ],
+      "image_sha256": "16cc3097f3925d9082221f2839493ea8e5c4ee274b449a9b4925b1940573d489",
+      "sha256": "bcc996e698e39559498dd0a3a17d2a30206051158d7a5452d5eec6ed1858e729",
+      "size": [
+        482,
+        480
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foldwood": {
+      "title": "Colar de palete com dobradiças para recolhimento",
+      "page_url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars",
+      "manufacturer": "KIGA",
+      "image_url": "https://kiga-gmbh.de/fileadmin/user_upload/Infothek/Lexikon/Aufsatzrahmen/4-oder-6-scharniere.png",
+      "image_alt": "[Translate to Englisch:] Scharnieren zum platzsparenden Einlagern und Transportieren",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        405,
+        250
+      ],
+      "image_sha256": "565b4f4e90d1e23cea520466554a6d9a8b6711b4619002ff6cd2f43aa15c0f7f",
+      "sha256": "583f241ec4f9386c5c840db72b3f1dcb305a3a7a225e0f107a36289b6256e60e",
+      "size": [
+        405,
+        250
+      ],
+      "consulta": "2026-11-04"
+    },
+    "foot": {
+      "title": "GN 44 Stainless Steel AISI 316L Leveling Feet, Threaded Stud Type",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-44-Stainless-Steel-AISI-316-L-Leveling-Feet-Threaded-Stud-or-Tapped-Plain-finish-or-with-Rubber-Cap-or-Rubber-Pad",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/754fa522b02761fd78b0d132dc9d3c82/GN-44-Stainless-Steel-AISI-316-L-Leveling-Feet-Threaded-Stud-or-Tapped-Plain-finish-or-with-Rubber-Cap-or-Rubber-Pad-S-D0-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "199bbe16f8550911e49729f8ec8180caa575b7a9c54e6df90677f6910c982316",
+      "sha256": "ef2ea0a991e3ddc8df14c079584c7b703b782b559777e27d6bce4a6ada999b46",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "gasket": {
+      "title": "Junta de travamento para painéis",
+      "page_url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products",
+      "manufacturer": "Trim-Lok",
+      "image_url": "https://www.trimlok.com/secure/content/imagescategories/One-Piece-Locking-Gasket-Product-Category-500x300.png",
+      "image_alt": null,
+      "status": "public_manufacturer_image",
+      "original_size": [
+        500,
+        300
+      ],
+      "image_sha256": "fd2beeaa7ea5bef0b3e972b14ca8be787418532608b925c2f4150fa6f7c7b3b9",
+      "sha256": "5dac7071840152dd14e80224b589c507205199d7b5023b7ee50afa8a8367f0a6",
+      "size": [
+        500,
+        300
+      ],
+      "consulta": "2026-11-04"
+    },
+    "handle": {
+      "title": "GN 425 Round Stainless Steel Cabinet U-Handles, with Tapped Holes",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-425-Round-Stainless-Steel-Cabinet-U-Handles-with-Tapped-Holes",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/7e0c329c618f5e133c8d9886edcbfa8d/GN-425-Round-Stainless-Steel-Cabinet-U-Handles-with-Tapped-Holes-GS-Matte-shot-blasted-finish-Stainless-steel-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "dc6eb574e415cc26f5ee60a6bba3cfb567481c3d7239e811e6146b54a5e30b75",
+      "sha256": "2004885d33aad6c37d0c43125c87ac21ee148db1d96f43a04570a1f87494faba",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "hinge": {
+      "title": "GN 237 Stainless Steel Hinges, with Countersunk Bores or Threaded Studs",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-237-Stainless-Steel-Hinges-Countersunk-Thru-Holes-or-Threaded-Stud-Type",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/266226e6d8849dd9d683d390c835ba78/GN-237-Stainless-Steel-Hinges-Countersunk-Thru-Holes-or-Threaded-Stud-Type-2x2-bores-for-countersunk-screws-Stainless-steel-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "6a6a1aaa2ab59bcfd84824429e85d62fcf9ec0f9a257899e4b18c67ad5120bdc",
+      "sha256": "5f23202445b993f665b827745ff04b998073ec3ed98d7f214786805a6e98c300",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "hingedlid": {
+      "title": "Caixa com tampa articulada",
+      "page_url": "https://www.auer-packaging.com/en/Euro-containers.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Euro-containers-with-hinge-lid-AUER--51.jpg",
+      "image_alt": "Euro containers with hinge lid Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        300,
+        240
+      ],
+      "image_sha256": "461cd59bd64762ecea1b0748242d78eab8b26ffcad7bb4f0a37628bc18dac016",
+      "sha256": "de15ac7513c86387481f31b0c948a1c9ce776596a4a3c656195a5a7b3b47f949",
+      "size": [
+        300,
+        240
+      ],
+      "consulta": "2026-11-04"
+    },
+    "indexpin": {
+      "title": "GN 417 — mecanismo de pino indexador com puxador",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-417-Stainless-Steel-Indexing-Plunger-Latch-Mechanisms-Lock-Out-and-Non-Lock-Out-with-Knob",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/4c8b75f0682b2bcaf13f5d03d35db0ea/GN-417-Stainless-Steel-Indexing-Plunger-Latch-Mechanisms-Non-Lock-Out-with-Pull-Ring-with-Wire-Loop-Stainless-steel-precision-casting-With-pull-ring-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "10142fe8febcbe91809e1aaba0b44245dfba124abb594804a23b5323211587a5",
+      "sha256": "e04ccd296ae4066560b6e81cc6d37bc3cbdfe90a025cea748b70b6d69eb42b8a",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "indicator": {
+      "manufacturer": "Southco",
+      "title": "E3 — desenho de fecho com indicação de estado",
+      "page_url": "https://media.southco.com/media/static/JDrawing/J-E3-A12-21.pdf",
+      "image_url": "https://media.southco.com/media/static/JDrawing/J-E3-A12-21.pdf",
+      "pdf_sha256": "3bb84c8747c846124d0128c94a6584616e8f81feeb15e3d179f314866d3e811e",
+      "sha256": "de28d23b2ff551de8f707a442f990c1d9f4cf432ea119003969a4a431004c362",
+      "size": [
+        570,
+        240
+      ],
+      "pdf_page": 2,
+      "crop_pixels": [
+        150,
+        100,
+        720,
+        340
+      ],
+      "render_size": [
+        1200,
+        849
+      ],
+      "status": "excerpt_published_manufacturer_figure",
+      "consulta": "2026-11-04"
+    },
+    "joint": {
+      "title": "GN 281 Stainless Steel Swivel Clamp Connector Joints",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-281-Stainless-Steel-Swivel-Clamp-Connector-Joints",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/9278f7bbdd1ffac945322e6cca795013/GN-281-Stainless-Steel-Swivel-Clamp-Connector-Joints-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "7959c692ad0ec2eea0f0d1f497e3b876dd695450e33544a12fd3a8e6658302e5",
+      "sha256": "7e1440a4302aa5fd07003eccd26b54ff35939e97d66faf5d43051b29aa3ba67d",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "leadscrew": {
+      "title": "Fusos e porcas de regulagem",
+      "page_url": "https://www.igus.eu/drive-technology/xy-table/tbi-xy",
+      "manufacturer": "igus",
+      "image_url": "https://igus.widen.net/content/tyz4eobxl6/webp/drylin-spindelmaterial.jpeg?keep=c&crop=yes&u=ynfd0c&w=240&h=160",
+      "image_alt": "Three threaded rods made of gewindematerial for drylin.",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        240,
+        160
+      ],
+      "image_sha256": "3e822a867d43fbaba8a937c6f569b0fbb038fef4c0ec38992261d2e7253a0dcb",
+      "sha256": "2d8a6c7717e9c930d0606c4ae4ed7354f4de32441e79d1aff592cec2f072a434",
+      "size": [
+        240,
+        160
+      ],
+      "consulta": "2026-11-04"
+    },
+    "lifthinge": {
+      "title": "GN 337 Stainless Steel Lift-Off Hinges, with Countersunk Bores",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-337-Stainless-Steel-Lift-Off-Hinges-With-Countersunk-Thru-Holes",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/0ae72a7545878a905b89364c8902a0f5/GN-337-Stainless-Steel-Lift-Off-Hinges-With-Countersunk-Thru-Holes-Stainless-steel-Fixed-bearing-pin-right-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "14bd3e92095b40818721b6e959ffa749fd247d7fb88b088327b12733b52bc835",
+      "sha256": "4aa88d35f6c58851f88fd1502b87ce1c04112262fd7a5d7843d91e5a48c62898",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "liftingeye": {
+      "title": "GN 581.5 Stainless Steel Safety Swivel Lifting Eye Bolts",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-581.5-Stainless-Steel-Safety-Swivel-Lifting-Eye-Bolts",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/6bbd75b79563a4f31eacf625c39b5fcc/GN-581.5-Stainless-Steel-Safety-Swivel-Lifting-Eye-Bolts-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "dc94775eb673782389741d416d41fda0e5e03af57253710acf5081db54938460",
+      "sha256": "daf095e811f4b00cd11b6ef0d892e389266c1199edb0d93d33e99af832092242",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "marking": {
+      "manufacturer": "DME",
+      "title": "Insertos de marcação para moldes",
+      "page_url": "https://www.dme.net/wp-content/uploads/TechnicalGuides/Mold-Inserts-Brochure.pdf",
+      "image_url": "https://www.dme.net/wp-content/uploads/TechnicalGuides/Mold-Inserts-Brochure.pdf",
+      "pdf_sha256": "6644e6e921ce99b33c4bc8d1fb9ec36cda3e34eb6e2939435b0538a773f23fa2",
+      "sha256": "e90d0f091c19e5bc5eeadb064a704030e328acf223ac747265ef5cae7e74c3ee",
+      "size": [
+        225,
+        190
+      ],
+      "pdf_page": 10,
+      "crop_pixels": [
+        475,
+        150,
+        700,
+        340
+      ],
+      "render_size": [
+        928,
+        1200
+      ],
+      "status": "excerpt_published_manufacturer_figure",
+      "consulta": "2026-11-04"
+    },
+    "metalid": {
+      "title": "Metalphoto — plaqueta rígida de identificação",
+      "page_url": "https://camcode.com/metalphoto-anodized-aluminum/",
+      "manufacturer": "Camcode",
+      "image_url": "https://camcode.com/wp-content/uploads/2021/09/metalphoto-rigid-featured-4-439x277.jpg",
+      "image_alt": "Camcode barcode label on a dark device reading City of Cleveland with barcode and Cartegraph and Trimble logos",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        439,
+        277
+      ],
+      "image_sha256": "a26b4214c10852373588a0cd46f5a0c6f0693fc516871d50e0b9feec3579b631",
+      "sha256": "6857ee15fe9051c8feb678cb40856e79b6f9e2dde4ba2bba46c7075f0e898b03",
+      "size": [
+        439,
+        277
+      ],
+      "consulta": "2026-11-04"
+    },
+    "mirror": {
+      "title": "Espelho de inspeção articulado A-2",
+      "page_url": "https://ullmandevices.com/collections/inspection-mirrors",
+      "manufacturer": "Ullman Devices",
+      "image_url": "https://ullmandevices.com/cdn/shop/files/A-2_main.png?v=1736537771&width=533",
+      "original_size": [
+        533,
+        533
+      ],
+      "image_sha256": "51f860e2596a65ff31ffe4004d8bd07bd5b8a3a352a0e464439c6694660aa998",
+      "sha256": "8d86a7b3109b862f9c24ba2b1a1ccf0e7a3ced5230542da0bb75e65cefc53528",
+      "size": [
+        480,
+        480
+      ],
+      "consulta": "2026-11-04"
+    },
+    "pin": {
+      "title": "GN 113.3 Stainless Steel AISI 303 Ball Lock Pins, with Finger Recess",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/c5c1c4dfdf70af91f3ccfab4c757c470/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "cb2d629fb0c7ad33a0542181129d6701805f99d691d1bf92d3d3b8f7eb8e37ee",
+      "sha256": "e8bf0e025d2ddedb09218d9ecc40f263ae6a6f6a2c90705b24e21a76433b58e7",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "quarter": {
+      "title": "GN 115 Stainless Steel Cam Latches, with Stainless Steel Operating Elements",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-115-Stainless-Steel-Cam-Latches-with-Stainless-Steel-Operating-Elements",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/1c84a71d2893d0ff647a9e3384b25af2/GN-115-Stainless-Steel-Cam-Latches-with-Operating-Elements-With-hollow-knurled-knob-GN-7336-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "05cc813786361171fe8e96a1e9b05fd65d6fe586d5a03a02bab4615c94cc3ae7",
+      "sha256": "5bc04a57914d6d20313b4246209cb6b63112d918e27932fb7fb9673124471a0a",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "recesshandle": {
+      "manufacturer": "JW Winco / Ganter",
+      "title": "GN 7330 — alça embutida",
+      "page_url": "https://live-catalog.jwwinco.com/pdf/winco/US/7330.pdf",
+      "image_url": "https://live-catalog.jwwinco.com/pdf/winco/US/7330.pdf",
+      "pdf_sha256": "7bb5f4e5888b2a853c40954a2eb8e94cf49c76b2cbd554689d67cd7bfba6732d",
+      "sha256": "fa4f65d870cfc57fec0a6705917145703c1ea4fab20a81206c0872db74d6939c",
+      "size": [
+        165,
+        105
+      ],
+      "pdf_page": 1,
+      "crop_pixels": [
+        625,
+        155,
+        790,
+        260
+      ],
+      "render_size": [
+        848,
+        1200
+      ],
+      "status": "excerpt_published_manufacturer_figure",
+      "consulta": "2026-11-04"
+    },
+    "rfid": {
+      "title": "Transponder RFID TT HL2",
+      "page_url": "https://www.auer-packaging.com/de/RFID/RFID-TT-HL2.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/products/800/RFID-AUER--rfid_tt_hl2_01.jpg",
+      "image_alt": "AUER Packaging RFID RFID TT HL2",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        800,
+        567
+      ],
+      "image_sha256": "07d277f8ae26b7c24585c01c35781ed3bcdd10917ac0002a906311c3e22232cb",
+      "sha256": "a412458bc1d16dec8ac27f4c8420cb877d36dd6dcdc4faa301d09aaf4d2ba9ec",
+      "size": [
+        650,
+        461
+      ],
+      "consulta": "2026-11-04"
+    },
+    "rubbermount": {
+      "title": "GN 454 Rubber Vibration / Shock Absorption Mounts, with Stainless Steel Retaining Washer",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-454-Vibration-Shock-Absorption-Mounts-with-Stainless-Steel-Retaining-Washer",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/7f4e33eee8abdbf9f2047da0a25fdc5c/GN-454-Vibration-Shock-Absorption-Mounts-with-Stainless-Steel-Retaining-Washer-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "29e317a576f37dbfe00a00c0de60c9b6d7c05b1abe288577d1233ad4ea039160",
+      "sha256": "63691290c0c34f6d572706efbe428b239b43fadf3313557de715da86509a1d1c",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "screwcap": {
+      "title": "Perfil com tampa de acesso à fixação",
+      "page_url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products",
+      "manufacturer": "Trim-Lok",
+      "image_url": "https://www.trimlok.com/secure/content/imagescategories/Screw-Cap-Plastic-Profiles-Product-Category-500x300.png",
+      "image_alt": null,
+      "status": "public_manufacturer_image",
+      "original_size": [
+        500,
+        300
+      ],
+      "image_sha256": "2a5c820b4ea78878b83511615d812b60c7b970a9473962c932a9bbc68b6dc560",
+      "sha256": "f13bead53d10d44a91e9a978c47fc190d317361abfda77f47053c2eb24592a6d",
+      "size": [
+        500,
+        300
+      ],
+      "consulta": "2026-11-04"
+    },
+    "slab": {
+      "title": "SLAB — placas de amortecimento viscoelástico",
+      "page_url": "https://www.acecontrols.com/us/products/automation-control.html",
+      "manufacturer": "ACE Controls",
+      "image_url": "https://www.acecontrols.com/media/ace_pim/images/resized/600/DAMPING-PADS_SLAB-SL030-SL300_SE_GROUP-01B-ACE-PRODUCTS_RGB-M.jpg",
+      "image_alt": "Damping Pads",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        600,
+        390
+      ],
+      "image_sha256": "b0244cb87a9e4814de92adc953e70cdc0a3f2e6f29c199c58b72bb45a787c7d4",
+      "sha256": "2f0196bce4f4d65fc8b043927dea71a1da841be8b2e1ef566570b950f279e3c3",
+      "size": [
+        600,
+        390
+      ],
+      "consulta": "2026-11-04"
+    },
+    "slide": {
+      "title": "GN 1450 Stainless Steel Telescopic Slides, with Full Extension, Load Capacity up to 108 lbf",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-1450-Stainless-Steel-Telescopic-Slides-with-Full-Extension-Load-Capacity-up-to-108-lbf",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/18b848f8fafa958555d91519bc2dd65a/GN-1450-Stainless-Steel-Telescopic-Slides-with-Full-Extension-Load-Capacity-up-to-108-lbf-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "0805b8b23be0a3465c3c8135607e950cdb2063ef3efe2c49ec3586eff06c1e54",
+      "sha256": "a6432a8e17690ee9b7f905336e13c4ca5e98179c014b0a29cde08aaac60b91f3",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "snap": {
+      "title": "GN 449.5 Stainless Steel Snap Latches, with Gripping Tray, with and without Lock",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-449.5-Stainless-Steel-Snap-Latches-with-Gripping-Tray-with-and-without-Lock",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/1d3ca0e76f95a8bb9579d8c60448f5af/GN-449.5-Stainless-Steel-Snap-Latches-with-Gripping-Tray-with-and-without-Lock-With-lock-same-lock-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "d801d2305a81b6dbc5433b74a32a16bc2674d232a64d255a6acc6a241882c7c1",
+      "sha256": "dda1468b482450284729f5a5e7feb610446d80d5bc4a0c73572e864fe446300c",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "softpad": {
+      "title": "GN 631.2 NBR Thrust Pads,for Standard Parts with Ball Thrust Point",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-631.2-NBR-Thrust-Pads-for-Standard-Parts-with-Ball-Thrust-Point",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/5583ed62f27474741a3033c13b35aab8/GN-631.2-NBR-Thrust-Pads-for-Standard-Parts-with-Ball-Thrust-Point-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "36acc410fee5c50f9e782202fc975ebef5c99590ae180cfc8de339a69844cc15",
+      "sha256": "a0cbcf756aea3262cf36152c8490c94b462b1023c0d8fd342036056d9132f314",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "spindle": {
+      "title": "GN 292 Steel / Stainless Steel Linear Actuators, with Right and Left Hand Thread",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-292-Steel-Linear-Actuators-With-Left-and-Right-Hand-Thread",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/8a84bf3ca032d8ef957272171584917a/GN-292-Steel-Linear-Actuators-With-Left-and-Right-Hand-Thread-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "75bd0fc24a1307eebb2160845e6e6e9ed807652e4a548b8b0de10e7aad5ae17b",
+      "sha256": "25f83f9ae53f136bf0e16e2fec5df3f4418ba5c96bbb0d31c26d81561b8d2389",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "stackcorner": {
+      "title": "Empilhamento com cantos e tampa de apoio",
+      "page_url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars",
+      "manufacturer": "KIGA",
+      "image_url": "https://kiga-gmbh.de/fileadmin/user_upload/Infothek/Lexikon/Aufsatzrahmen/auflast-600_kg.png",
+      "image_alt": "[Translate to Englisch:] Stapelbar mit einer Auflast von 600 kg durch Deckel oder Stapelecken",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        405,
+        250
+      ],
+      "image_sha256": "aa4f82e16560afae4db83531f096ea8b3411d685b5ed13c482704688d2cfb72c",
+      "sha256": "388a2d0d23e7f51080e29a1466d151b53eb956a3bd8e632a4f00479960c0c7b6",
+      "size": [
+        405,
+        250
+      ],
+      "consulta": "2026-11-04"
+    },
+    "stackframe": {
+      "title": "Quadro metálico de sobreposição para paletes",
+      "page_url": "https://slt-bauer.de/en/products/palettenaufsatz",
+      "manufacturer": "SLT Bauer",
+      "image_url": "https://slt-bauer.de/cdn/shop/files/palettenaufsatz.00.webp?v=1782219127&width=1946",
+      "image_alt": "Palettenaufsatz aus Stahlrohr für Holzpalette – stapelbar, EPAL-kompatibel, lackiert",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "image_sha256": "cef129ce82d0340a68c534d873ed01d1d6798d8c78f6d29f01d33ff9fc224de5",
+      "sha256": "f877ddbcafa0c77022fc94fd27eeadd1d3db909486afbf94685b115cb0b97aff",
+      "size": [
+        480,
+        480
+      ],
+      "consulta": "2026-11-04"
+    },
+    "stackframe2": {
+      "title": "Detalhe de quadro de sobreposição para paletes",
+      "page_url": "https://slt-bauer.de/en/products/palettenaufsatz",
+      "manufacturer": "SLT Bauer",
+      "image_url": "https://slt-bauer.de/cdn/shop/files/palettenaufsatz.02.webp?v=1782219127&width=1946",
+      "image_alt": "Palettenaufsatz aus Stahlrohr für Holzpalette – stapelbar, EPAL-kompatibel, lackiert",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "image_sha256": "49059106c6201864ae2633241aaacd30f465baf88324e4126c4dbed2dbdb3b26",
+      "sha256": "f044f87361a9783985a91f0c4609752d0087fec499c4847a2394fce482009b53",
+      "size": [
+        480,
+        480
+      ],
+      "consulta": "2026-11-04"
+    },
+    "strap": {
+      "title": "Cinta de retenção com fivela de came",
+      "page_url": "https://ancracargo.com/utility-tie-downs/cam-buckle-strap-packs/",
+      "manufacturer": "Ancra Cargo",
+      "image_url": "https://cdn11.bigcommerce.com/s-66eb985ze3/images/stencil/357x476/products/1328/1137/ed32a2ff-3f2a-44ff-8f82-fbb87e2d5f08__40598.1677076184.jpg?c=1",
+      "image_alt": "1” x 13’ Red Utility Strap",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        357,
+        167
+      ],
+      "image_sha256": "6f70fc36e70e5b518706af202ca739332593242ba42b3d68972dab021d0f3142",
+      "sha256": "7bf62370002458affaee890abdd975de82bc6611bb2b301e0544c8122ac72ca3",
+      "size": [
+        357,
+        167
+      ],
+      "consulta": "2026-11-04"
+    },
+    "swivelpad": {
+      "title": "GN 903 Stainless Steel Toggle Clamp Spindle Assemblies with Swivel Thrust Pad",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-903-Stainless-steel-Toggle-Clamp-Spindle-Assemblies-with-Swivel-Thrust-Pad",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/ccbb036a533e8ee36c417aeda0042dc6/GN-903-Stainless-steel-Toggle-Clamp-Spindle-Assemblies-with-Swivel-Thrust-Pad-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "afd21b8f871026bab69e16e69dbafbc7d471c81e8765f0daeaab6bde59b54fdb",
+      "sha256": "25e08a2539d06f91a5a591a90f310393964f0e2d7ef23f7a9c641990998e24a0",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "telescopic": {
+      "title": "GN 2940 — atuador telescópico",
+      "manufacturer": "JW Winco / Ganter",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/ef35f31a5633d8ded13be0c379dab445/GN-2940-Steel-Stainless-Steel-Telescopic-Linear-Actuators-Configurable-thumbnail.jpg?scalingname=normen",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "11818ab3386f2c7bd05dd8eb00568139862d0ff5da356361a356f0f63df0886e",
+      "sha256": "7b7302a028ed20bc879c77c4667f56a2b7884a3a17866a21093b3ffdbfb48b42",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "toggle": {
+      "title": "GN 761.1 Steel / Stainless Steel Toggle Latches, with Safety Mechanism",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-761.1-Steel-Stainless-Steel-Toggle-Latches-with-Safety-Mechanism",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/f2dd3a3b5ae86774d302f92d9ff5419f/GN-761.1-Steel-Stainless-Steel-Toggle-Latches-with-Safety-Mechanism-Oval-head-latch-bolt-with-catch-Steel-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "3e5321bfaaef538df4c4a2b100d0cafdd465a4f61fd588591b520463c93088dd",
+      "sha256": "2a5f8f3ce9175169fcbd24a85d9aac6f8e52a4d88278477b0bcb19a737ced51d",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "tray_square": {
+      "title": "Ultra-Utility Tray 1035 — bandeja de contenção",
+      "page_url": "https://spillcontainment.com/products/ultra-utility-tray/",
+      "manufacturer": "UltraTech",
+      "image_url": "https://cdn-bgdgd.nitrocdn.com/vNFyenbvwPanfMpHobsTslphxnvBMghl/assets/images/optimized/rev-0aeaa74/spillcontainment.com/wp-content/uploads/elementor/thumbs/1035_36x36-Utility-Tray_NB-scaled-ptbgwuu4fiphvlm6ljgzk4tflzwo0povvpwcmbatu0.jpg",
+      "original_size": [
+        500,
+        500
+      ],
+      "image_sha256": "6d2921f5594fb6b90be4858c9432d5ad69a8906a7fd26337076a66610af7394c",
+      "sha256": "b88053338a8bf34326a6a5144539b0ff09329085126f8131a47f90caabea0b7b",
+      "size": [
+        480,
+        480
+      ],
+      "consulta": "2026-11-04"
+    },
+    "trimseal": {
+      "title": "Perfil de vedação com fixação à borda",
+      "page_url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products",
+      "manufacturer": "Trim-Lok",
+      "image_url": "https://www.trimlok.com/secure/content/imagescategories/Trim-Seal-Product-Category-500x300.png",
+      "image_alt": null,
+      "status": "public_manufacturer_image",
+      "original_size": [
+        500,
+        300
+      ],
+      "image_sha256": "fc0cfdacdb8be3a28b30547ec9a96e923fc90c8c9adb8137acf1ea3950239ec8",
+      "sha256": "122436e0b29600c8025976f03acdf6c92cd3b97e560d2dd4040a0855a23f1369",
+      "size": [
+        500,
+        300
+      ],
+      "consulta": "2026-11-04"
+    },
+    "tubus": {
+      "title": "TUBUS — amortecedores de perfil elastomérico",
+      "page_url": "https://www.acecontrols.com/us/products/automation-control.html",
+      "manufacturer": "ACE Controls",
+      "image_url": "https://www.acecontrols.com/media/ace_pim/images/resized/600/PROFILE-DAMPERS_TUBUS_SE_GROUP-01B-ACE-PRODUCTS_RGB-M.jpg",
+      "image_alt": "Profile Dampers",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        600,
+        390
+      ],
+      "image_sha256": "5f35cf1b8a1c8dbca15a25e452a07af3d4b181775c70a1a3e81705319e313464",
+      "sha256": "04ef3bbeade21f45486d58b3c30e7d885e51c68b0da00ef57cbe3579170f301b",
+      "size": [
+        600,
+        390
+      ],
+      "consulta": "2026-11-04"
+    },
+    "vcradle": {
+      "title": "Portador especial com apoios para peças cilíndricas",
+      "page_url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars",
+      "manufacturer": "KIGA",
+      "image_url": "https://kiga-gmbh.de/fileadmin/_processed_/f/b/csm_KIGA_Sonderl%C3%B6sungen_c328fc70bb.jpg",
+      "image_alt": "KIGA Multipalette mit Keilen, Pins und Prismen",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        176,
+        115
+      ],
+      "image_sha256": "09823d7e454f450866f0bfeb0841749db1f365b849f0a160476d3e6eef134eae",
+      "sha256": "980b87dca5a3deb2d02844d9307ba2e907f656ae990e915d2a4427717b958f92",
+      "size": [
+        176,
+        115
+      ],
+      "consulta": "2026-11-04"
+    },
+    "vibfoot": {
+      "title": "GN 439.5 Stainless Steel Vibration Damping Leveling Feet, Threaded Stud Type, with Rubber Pad",
+      "page_url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-439.5-Stainless-Steel-Vibration-Damping-Leveling-Mounts-Threaded-Stud-Type",
+      "manufacturer": "JW Winco / Ganter",
+      "image_url": "https://live-catalog-cdn.jwwinco.com/catalog-images/winco/4ae8c4d3bf204ac3d65906fc3c4c3672/GN-439.5-Stainless-Steel-Vibration-Damping-Leveling-Mounts-Threaded-Stud-Type-thumbnail.jpg?scalingname=normen",
+      "status": "source_catalog",
+      "original_size": [
+        275,
+        275
+      ],
+      "image_sha256": "10b4814810d62f281b87a46013396460787eb7d0cfeed00b0683809588eb216f",
+      "sha256": "b611f7307c1324c55bb6d50a444851e1b628d8d765230516be4ffab132d32e6a",
+      "size": [
+        275,
+        275
+      ],
+      "consulta": "2026-11-04"
+    },
+    "wedge": {
+      "manufacturer": "JW Winco / Ganter",
+      "title": "GN 920.1 — grampo de cunha",
+      "page_url": "https://live-catalog.jwwinco.com/pdf/winco/US/920_1.pdf",
+      "image_url": "https://live-catalog.jwwinco.com/pdf/winco/US/920_1.pdf",
+      "pdf_sha256": "8cad7d1f3263bf6529ca78594605cc13f014f2b58fef5f52dc256809f6d756db",
+      "sha256": "3bd857570c2bf1233de27c7646f11a1aa0f9a1310912b8a915004e47f76c942d",
+      "size": [
+        155,
+        155
+      ],
+      "pdf_page": 1,
+      "crop_pixels": [
+        390,
+        150,
+        545,
+        305
+      ],
+      "render_size": [
+        848,
+        1200
+      ],
+      "status": "excerpt_published_manufacturer_figure",
+      "consulta": "2026-11-04"
+    },
+    "wheelbase": {
+      "title": "Base de rolamento para caixas de ferramentas",
+      "page_url": "https://www.auer-packaging.com/en/Transport-trolleys.html",
+      "manufacturer": "AUER Packaging",
+      "image_url": "https://www.auer-packaging.com/images/categories/overview/Tool-box-transport-trolleys-AUER--491.jpg",
+      "image_alt": "Tool box transport trolleys Category image",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        300,
+        300
+      ],
+      "image_sha256": "cd1b386e0e6db104ef03fdbd7972852612b049eb0988174813a51e56cf04de5f",
+      "sha256": "23df513b34dc12428b8f77c751bdf73a5c64b64c5cd673406f5cb865178959e2",
+      "size": [
+        300,
+        300
+      ],
+      "consulta": "2026-11-04"
+    },
+    "wire": {
+      "title": "WR — isoladores de cabo metálico",
+      "page_url": "https://www.vibroabsorber.com/products/wire-rope-vibration-isolators/wr-wire-rope-vibration-isolators",
+      "manufacturer": "EKD / Vibroabsorber",
+      "image_url": "https://www.vibroabsorber.com/_next/image?url=%2Fproducts%2Fcatalog%2Fwr.webp%3Fv%3D0403a8bbd645&w=3840&q=75",
+      "image_alt": "WR Wire-Rope Isolators",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        899,
+        545
+      ],
+      "image_sha256": "92bb0531a3becd428361b065351e83d85bd9a2906fd67c81ff43a3f9372f9b6a",
+      "sha256": "39586e8cdbb95fb5c715ef6612db5bb91a051af24ed6dc22e1adfb77f772dc54",
+      "size": [
+        650,
+        340
+      ],
+      "before_crop_sha256": "bdfb6e4b71ef2de25b419829626eb8a24024a8cd535e2923deb3a523543b209c",
+      "display_crop_pixels": [
+        0,
+        0,
+        650,
+        340
+      ],
+      "consulta": "2026-11-04"
+    },
+    "xy": {
+      "title": "drylin — mesa de regulagem em dois eixos",
+      "page_url": "https://www.igus.eu/drive-technology/xy-table/tbi-xy",
+      "manufacturer": "igus",
+      "image_url": "https://igus.widen.net/content/xbzqkuocwt/webp/kreuztisch-sht-xy-08-awm.jpeg?keep=c&crop=false&u=ynfd0c&color=ffffff&w=450&h=253",
+      "image_alt": "Kreuztisch SHT-XY-08-AWM with two axes and spindle drive for precise positioning.",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        450,
+        253
+      ],
+      "image_sha256": "fe800f6009ac090f606c20276dc2dfbacf33c03e3f523e0996db68dba9f6f830",
+      "sha256": "4d2242d034a4f12ba8c7155161def0a54726efb78a3823ff742512e7cb4c15ba",
+      "size": [
+        450,
+        253
+      ],
+      "consulta": "2026-11-04"
+    },
+    "zipprofile": {
+      "title": "Z-Track PVC — perfil de fechamento por encaixe",
+      "page_url": "https://www.zippertubing.com/collections/closures",
+      "manufacturer": "Zippertubing",
+      "image_url": "https://www.zippertubing.com/cdn/shop/products/LNH6S8s0_600x.jpg?v=1654625664",
+      "image_alt": "Z-Track (PVC) Black",
+      "status": "public_manufacturer_image",
+      "original_size": [
+        600,
+        600
+      ],
+      "image_sha256": "7b2338f50940a019a7f2f0b2d659324a05c140bfb8493cc4afd7f09a5f2e6867",
+      "sha256": "a116ef21a147bb0c684ea84ce9a79034776b354f57abcdeb297d812f9044f50f",
+      "size": [
+        480,
+        480
+      ],
+      "consulta": "2026-11-04"
+    }
+  },
+  "opcoes": [
+    {
+      "id": "E01.1",
+      "function": "E01",
+      "row": 6,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "pin"
+      ],
+      "scope": "Pino de engate; indexação do carro e retenção cativa são adaptações do conjunto.",
+      "sha256": "3770efcd27ee5ac9cb86f6957c3369cb4f206273c374ad5911a4f92d62c5b6a8"
+    },
+    {
+      "id": "E01.2",
+      "function": "E01",
+      "row": 6,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "cam",
+        "toggle"
+      ],
+      "scope": "Acionamento por came e retenção secundária; batente de curso a dimensionar.",
+      "sha256": "a5c4a775a0d24c12c5d23cc01975ca0f06b123bfe05a46e3d9c6c5194fff3331"
+    },
+    {
+      "id": "E01.3",
+      "function": "E01",
+      "row": 6,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "wedge",
+        "quarter"
+      ],
+      "scope": "Cunha e acionamento de quarto de volta, mostrados separadamente; combinação proposta.",
+      "sha256": "d21032e53e5c9966dc6e7a568f5958c92adf74c00d240b44c737c87acac4505a"
+    },
+    {
+      "id": "E01.4",
+      "function": "E01",
+      "row": 6,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "leadscrew",
+        "indexpin"
+      ],
+      "scope": "Fuso e bloqueio positivo separados; autotravamento depende de geometria e atrito.",
+      "sha256": "328680d1e20caa5b45b0857323e5e345e4d9aa7258ba2b3eec1d0c1fc492fc83"
+    },
+    {
+      "id": "E02.1",
+      "function": "E02",
+      "row": 7,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "foam_molded"
+      ],
+      "scope": "Proteção celular moldada; geometria e área das sapatas serão próprias para a louça.",
+      "sha256": "f9b770d692b2f8ed64c5bbb2921844c9cef542f15ebdc12ba8ef2027cfc632ef"
+    },
+    {
+      "id": "E02.2",
+      "function": "E02",
+      "row": 7,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "swivelpad",
+        "slab"
+      ],
+      "scope": "Contato articulado e camada resiliente; concavidade da sapata é proposta do projeto.",
+      "sha256": "5bada791a5ca9ecd5f7f7cf4996f3e2e8163ae24e9341761008a4286010b1491"
+    },
+    {
+      "id": "E02.3",
+      "function": "E02",
+      "row": 7,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "strap",
+        "foamcradle"
+      ],
+      "scope": "Faixa e alojamento conformado, separados; sela larga e ausência de metal no esmalte são condições do projeto.",
+      "sha256": "6f23d8b993d88491478cebd5e0b30310eb664ab80dea20b34f0e487a3775e07c"
+    },
+    {
+      "id": "E02.4",
+      "function": "E02",
+      "row": 7,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "airpress",
+        "airbag"
+      ],
+      "scope": "Bolsas pneumáticas industriais; multicâmaras, pressão de contato e limitador exigem adaptação.",
+      "sha256": "77ba3cd53df123bbdb2697718d50bd539b45d887a4c1ab3ea2dfb792c3dcc0c6"
+    },
+    {
+      "id": "E03.1",
+      "function": "E03",
+      "row": 8,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "strap"
+      ],
+      "scope": "Retenção por cinta; baixa extensão e limite de tensão precisam de especificação e batentes.",
+      "sha256": "e887e3d0ea182a801e2c1b4eedd28409a2bd9e50b653236800a032a949071997"
+    },
+    {
+      "id": "E03.2",
+      "function": "E03",
+      "row": 8,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "arm",
+        "softpad"
+      ],
+      "scope": "Braço de fixação e sapata resiliente separados; oposição e curso limitado são propostos.",
+      "sha256": "d0a77107e02b152ba7def60cb64d645e5eb7f4e35b26264934b52e1f740f0027"
+    },
+    {
+      "id": "E03.3",
+      "function": "E03",
+      "row": 8,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldbig",
+        "strap"
+      ],
+      "scope": "Painel de contenção e faixa separados; regulagem e batentes acolchoados ainda serão integrados.",
+      "sha256": "c72ca4a4f9148029d78277149ed60e4fe945c56252549768e1f4f6d1acffddb0"
+    },
+    {
+      "id": "E03.4",
+      "function": "E03",
+      "row": 8,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "foamcradle",
+        "strap"
+      ],
+      "scope": "Alojamento conformado e retenção por cinta; três contatos e limite superior são adaptações.",
+      "sha256": "e95c60eb6df30f9634055b719b4c2ad3ea6bbb537e5a943bed6d17b1e2669cbd"
+    },
+    {
+      "id": "E04.1",
+      "function": "E04",
+      "row": 9,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "foam_molded"
+      ],
+      "scope": "Espuma celular moldada; cartucho removível, curso e vida em compressão serão dimensionados.",
+      "sha256": "820cb072e895ceb01ceb52b558200236228d3101e1bc2b8d0b71ce127b45904e"
+    },
+    {
+      "id": "E04.2",
+      "function": "E04",
+      "row": 9,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "tubus"
+      ],
+      "scope": "Perfil elastomérico para absorção; célula e rigidez devem ser compatibilizadas com a massa.",
+      "sha256": "a32fcc06b0dcd5c906f3eb14461ed3db2a3bf4a40d127f94d619a8bea91db316"
+    },
+    {
+      "id": "E04.3",
+      "function": "E04",
+      "row": 9,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "flexspring",
+        "damper"
+      ],
+      "scope": "Lâmina elástica e amortecedor, separados; combinação com batente de fim de curso é proposta.",
+      "sha256": "3eb52049bb9127506cb1e5ca6a7f174a2395a2de35d950dee67f548a5daa813d"
+    },
+    {
+      "id": "E04.4",
+      "function": "E04",
+      "row": 9,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "airdamp",
+        "airbag"
+      ],
+      "scope": "Amortecimento pneumático em aplicação análoga; câmara e válvula de alívio não estão validadas para louças.",
+      "sha256": "6c87c5d95a316b8ce07fb93cacd3d1b20b6234121c8e42bd31acf00b8ee42bdf"
+    },
+    {
+      "id": "E05.1",
+      "function": "E05",
+      "row": 10,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "slab"
+      ],
+      "scope": "Camada viscoelástica de isolamento; fixação entre berço e base deve evitar ponte rígida.",
+      "sha256": "247751bfcb4a8c51c39a62ddc8c24a81dcb9bbd81ac0d2aee960628255b93481"
+    },
+    {
+      "id": "E05.2",
+      "function": "E05",
+      "row": 10,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "rubbermount"
+      ],
+      "scope": "Isolador de elastômero; orientar o componente para cisalhamento e conferir rigidez e frequência.",
+      "sha256": "879609a5c6df71fa8a29a68946eec2383cb55a91f35ed460590618827800cfc0"
+    },
+    {
+      "id": "E05.3",
+      "function": "E05",
+      "row": 10,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "strap",
+        "damper"
+      ],
+      "scope": "Tirante flexível e amortecedor separados; suspensão, batentes e pré-carga são proposta do projeto.",
+      "sha256": "e62ce6539b75ab23c0a22ffef3a830a427ca6217837d369403fc20541642b3d5"
+    },
+    {
+      "id": "E05.4",
+      "function": "E05",
+      "row": 10,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "wire"
+      ],
+      "scope": "Isoladores reais de cabo metálico; seleção depende de massa, curso e direção de solicitação.",
+      "sha256": "442fcf39177966d0384b4047df54affb64e9197e55ffa520497bc8ec12a786fe"
+    },
+    {
+      "id": "E06.1",
+      "function": "E06",
+      "row": 11,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "stackframe"
+      ],
+      "scope": "Quadro externo com colunas e travessas; caminho da compressão proposto fora da cerâmica.",
+      "sha256": "d6822a61f55d04a14e8c89caf12be058a8c487ce0daea02930960e59eb18b738"
+    },
+    {
+      "id": "E06.2",
+      "function": "E06",
+      "row": 11,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "telescopic",
+        "stackframe"
+      ],
+      "scope": "Atuador telescópico e quadro separados; pórtico e batentes estruturais serão integrados.",
+      "sha256": "d2a23b1b9df72aedb2b14290a75967c4035a6be1a296871e34e73b8e1b66e4ad"
+    },
+    {
+      "id": "E06.3",
+      "function": "E06",
+      "row": 11,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldwood",
+        "toggle"
+      ],
+      "scope": "Paredes articuladas e trava separadas; quadro resistente precisa de dimensionamento próprio.",
+      "sha256": "0449e2a6c8f04fc90bb166eee3da1251133e7497c39f55ed7d631b05965cc233"
+    },
+    {
+      "id": "E06.4",
+      "function": "E06",
+      "row": 11,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "stackframe2",
+        "connector"
+      ],
+      "scope": "Armação externa removível e conector; geometria em arco e conexão positiva são adaptações.",
+      "sha256": "bcf88b41f9cd80c658b01fa5770596226cb40f86ee74dd2af74fe829628762b8"
+    },
+    {
+      "id": "E07.1",
+      "function": "E07",
+      "row": 12,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "clearcurtain",
+        "tray_square"
+      ],
+      "scope": "Cortina com faixa transparente e bandeja, em aplicações distintas; envoltório contínuo é proposto.",
+      "sha256": "982c4d952a5b33c650fd1223d1986891b73daf4d00e7981ce1c978ffcb5b2038"
+    },
+    {
+      "id": "E07.2",
+      "function": "E07",
+      "row": 12,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "clearinsert",
+        "gasket"
+      ],
+      "scope": "Painel transparente e junta separados; quadro fechado e resistência a cacos exigem adaptação.",
+      "sha256": "6776fb5e5474b3601f2390b875ab8b3066b5951ae5157f296237789d6cad70ef"
+    },
+    {
+      "id": "E07.3",
+      "function": "E07",
+      "row": 12,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldbig",
+        "clearinsert"
+      ],
+      "scope": "Painel rebatível e inserto transparente separados; saia interna será integrada.",
+      "sha256": "a22e25ae5dbed6d800a3e2a37c26d8b529f3c4abdeeff9f83545a216354c3e9c"
+    },
+    {
+      "id": "E07.4",
+      "function": "E07",
+      "row": 12,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "clearcurtain",
+        "cover"
+      ],
+      "scope": "Barreira transparente e cobertura separável por analogia; capota afastada da peça é proposta.",
+      "sha256": "085ccc0c9ebaea314b2b802c251060fe35639682a6af626492aae2858e5a4a83"
+    },
+    {
+      "id": "E08.1",
+      "function": "E08",
+      "row": 13,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "tray_square",
+        "bagbox"
+      ],
+      "scope": "Bandeja e inliner para líquidos separados; bolso aberto, captura e resistência à perfuração são adaptações.",
+      "sha256": "ef9b55ccb054a50770df15d3e0ca4f9e4c0ddfc17470af5f4650a6d4aece3f33"
+    },
+    {
+      "id": "E08.2",
+      "function": "E08",
+      "row": 13,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "eurobox",
+        "bagbox"
+      ],
+      "scope": "Recipiente rígido e inliner para líquidos separados; forro aberto substituível para cacos é proposto.",
+      "sha256": "538891ad767f5d950473c22ec74857f4f401b9c6deea0ade4fda264b5222cccb"
+    },
+    {
+      "id": "E08.3",
+      "function": "E08",
+      "row": 13,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "bagbox"
+      ],
+      "scope": "Membrana contínua real, usada em líquidos; forma aberta, retenção periférica e resistência a cacos serão adaptadas.",
+      "sha256": "27ce5ade0dd6295ec3032e0a4fdcdc0c8f06033454fe3b765edaba54559bcee6"
+    },
+    {
+      "id": "E08.4",
+      "function": "E08",
+      "row": 13,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "clearcurtain",
+        "clearinsert"
+      ],
+      "scope": "Duas referências de barreira transparente; dupla camada separável é combinação proposta.",
+      "sha256": "9649eab54acfd437f515200eb5b4c87d5472e9b3db800b0d54d84edf94a6c1b2"
+    },
+    {
+      "id": "E09.1",
+      "function": "E09",
+      "row": 14,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "flapseal"
+      ],
+      "scope": "Perfil flexível com aba; sobreposição e retenção das extremidades serão adaptadas.",
+      "sha256": "0f97e0e3452b516fed582c922a7c48134032738bd54d508357bfa8d09d48652a"
+    },
+    {
+      "id": "E09.2",
+      "function": "E09",
+      "row": 14,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "gasket"
+      ],
+      "scope": "Junta removível de travamento de painel; encaixe e proteção do vedante devem ser definidos.",
+      "sha256": "7a1afca385de0e94287e93c7cfb141bc0acb4653339e89a4b99e86dd2f4cac2c"
+    },
+    {
+      "id": "E09.3",
+      "function": "E09",
+      "row": 14,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "trimseal",
+        "bagbox"
+      ],
+      "scope": "Vedante e forro separados; seção em labirinto é proposta e não está representada como peça pronta.",
+      "sha256": "dbf006b52c86df781b472b4dc23783ca90e0a0173179c2a1ac142ece7170accc"
+    },
+    {
+      "id": "E09.4",
+      "function": "E09",
+      "row": 14,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "zipprofile"
+      ],
+      "scope": "Perfil real de fechamento contínuo; cobertura interna da junta é complemento do projeto.",
+      "sha256": "70ce9bf6960244a4932be925f2ad9649b252e211ae9c9556510f2d591fee765e"
+    },
+    {
+      "id": "E10.1",
+      "function": "E10",
+      "row": 15,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "foamcradle",
+        "tray_square"
+      ],
+      "scope": "Berço conformado e bandeja separados; abertura superior e geometria para louça são propostas.",
+      "sha256": "e24c99c018c6e84ab2a3899b729389e9639c250986106f996eec31a7726b1ca2"
+    },
+    {
+      "id": "E10.2",
+      "function": "E10",
+      "row": 15,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "slide",
+        "tray_square"
+      ],
+      "scope": "Guia extraível e bandeja separadas; interface frontal e trava ainda serão integradas.",
+      "sha256": "61f75aaa9d189c59b5df90771ddff335e39baa4650aafcafc60aa8abfbb1238c"
+    },
+    {
+      "id": "E10.3",
+      "function": "E10",
+      "row": 15,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldbig"
+      ],
+      "scope": "Porta lateral rebatível de contentor; acesso e apoio da louça precisam de adaptação.",
+      "sha256": "66b0684c321f7f973c7f1be79a40b9ed89616abde1ae393f6f6a44b978df7c9a"
+    },
+    {
+      "id": "E10.4",
+      "function": "E10",
+      "row": 15,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "cover",
+        "eurobox"
+      ],
+      "scope": "Tampa separável e base portadora por analogia; apoio e fechamento são próprios do produto.",
+      "sha256": "dec8ebabf5d662ad0ffacdb2d6e196f23f6f93cd8aa25d8327977b0928f1cb06"
+    },
+    {
+      "id": "E11.1",
+      "function": "E11",
+      "row": 16,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "xy"
+      ],
+      "scope": "Regulagem ortogonal real em dois eixos; cursos e carros cativos serão dimensionados.",
+      "sha256": "49b621c1498511cbcf7b3df0a63faf81469a517c75478643c81b747f00f49298"
+    },
+    {
+      "id": "E11.2",
+      "function": "E11",
+      "row": 16,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "telescopic"
+      ],
+      "scope": "Mecanismo telescópico real; braços independentes em A e B constituem arranjo proposto.",
+      "sha256": "f4a55096fa0db3ceb8231eb8cef9e5dd526e2da067d5a7dd015b1b30cab53c36"
+    },
+    {
+      "id": "E11.3",
+      "function": "E11",
+      "row": 16,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "joint",
+        "cam"
+      ],
+      "scope": "Articulação e trava por came separadas; rasgos e alcance do braço são adaptações.",
+      "sha256": "16e6f34ae671bf18de536c9c738dc6d578eeaa412cc03fe5b793390945a2e16c"
+    },
+    {
+      "id": "E11.4",
+      "function": "E11",
+      "row": 16,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "spindle"
+      ],
+      "scope": "Atuador com roscas opostas; sincronismo dos pares de apoios será integrado ao conjunto.",
+      "sha256": "056041dc648e9c6df4bd466cec2badc02d7d756a5a1a4c62940d54f165b49f61"
+    },
+    {
+      "id": "E12.1",
+      "function": "E12",
+      "row": 17,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "foamcradle",
+        "indexpin"
+      ],
+      "scope": "Apoio conformado e referência indexada separados; três contatos em zonas resistentes são próprios da louça.",
+      "sha256": "99a3612e99f1d67046b0759f249bbdc8046929b0050ea1847d19af4d4119670c"
+    },
+    {
+      "id": "E12.2",
+      "function": "E12",
+      "row": 17,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "vcradle"
+      ],
+      "scope": "Berço industrial com referências em V; revestimento e zonas de contato precisam ser adaptados à cerâmica.",
+      "sha256": "841fed2e8244a5df5f61dd830e6cdc0d1681dddff1ce3dfca2cfe3fec0e13cfd"
+    },
+    {
+      "id": "E12.3",
+      "function": "E12",
+      "row": 17,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "swivelpad",
+        "foamcradle"
+      ],
+      "scope": "Contato articulado e berço conformado separados; sela cerâmica é proposta.",
+      "sha256": "21917260b8e19a273afaf51b9744a34f43a67b037df7f611a78425b4e58d5462"
+    },
+    {
+      "id": "E12.4",
+      "function": "E12",
+      "row": 17,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "spindle",
+        "softpad"
+      ],
+      "scope": "Movimento simétrico e sapata separados; autocentragem e distribuição de contato são propostas.",
+      "sha256": "d8187e07375b8169dd352122b1ef9eeec91c992283391700dfcdc600dbe36687"
+    },
+    {
+      "id": "E13.1",
+      "function": "E13",
+      "row": 18,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "handle"
+      ],
+      "scope": "Alças rígidas reais; ancoragem à base e dimensões para luvas serão definidas.",
+      "sha256": "974faec4f6e40d9af9fd4e6977784efed8ba30bf625be52dc52d697af65f387c"
+    },
+    {
+      "id": "E13.2",
+      "function": "E13",
+      "row": 18,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "recesshandle"
+      ],
+      "scope": "Pega embutida real; adaptação à estrutura não comprova capacidade de levantamento.",
+      "sha256": "f276f988aa45927b484f7c454946e4b8c1771cbc92318f1ccc75f673042f75f3"
+    },
+    {
+      "id": "E13.3",
+      "function": "E13",
+      "row": 18,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldhandle"
+      ],
+      "scope": "Alça rebatível real; travamento na posição de uso é condição adicional do projeto.",
+      "sha256": "5c09fc336e37832a4e18950fa85bb6fe3e1d6c0008f3e94bd84152e0145d9e35"
+    },
+    {
+      "id": "E13.4",
+      "function": "E13",
+      "row": 18,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "strap",
+        "handle"
+      ],
+      "scope": "Tirante e manopla rígida separados; ancoragem externa é combinação proposta.",
+      "sha256": "5d931072f6ca816d8f319fca3e61a2d99a410a0202775281635ca94d39734915"
+    },
+    {
+      "id": "E14.1",
+      "function": "E14",
+      "row": 19,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "coupleddolly"
+      ],
+      "scope": "Carrinho com acoplamento real; interface estrutural positiva da embalagem será própria.",
+      "sha256": "94f9736d8e8d8971fb8acbb1b49ee79b32267212151d980f9f4e605bf6845369"
+    },
+    {
+      "id": "E14.2",
+      "function": "E14",
+      "row": 19,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "wheelbase",
+        "pin"
+      ],
+      "scope": "Base de rolamento e pino separados; bogies removíveis são adaptação do projeto.",
+      "sha256": "222acc06bc573c09e393e3e0c16692282cdf25ef64743696d25d64d5bb35ee07"
+    },
+    {
+      "id": "E14.3",
+      "function": "E14",
+      "row": 19,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "caster",
+        "foot"
+      ],
+      "scope": "Rodízio com freio e pé de apoio separados; base integrada precisa ser dimensionada.",
+      "sha256": "1ba184a0bc365ff7c2dbea37cb78154e7852f39a0c87e454bfc3e52eb619f795"
+    },
+    {
+      "id": "E14.4",
+      "function": "E14",
+      "row": 19,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "stackframe"
+      ],
+      "scope": "Base de carga com acesso para garfos; canais estruturais para o nosso produto serão dimensionados.",
+      "sha256": "4d2b0ed52da8057c8dbec148a21bfb596ba0929012f833614cc60c01f74c9721"
+    },
+    {
+      "id": "E15.1",
+      "function": "E15",
+      "row": 20,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "vcradle",
+        "foot"
+      ],
+      "scope": "Base larga e pés separados; posição do centro de massa e estabilidade exigem verificação.",
+      "sha256": "1037714b3fa6ae783d6cc944f3420db60aa3d1dd0aebc4e0ae7b4d788c736835"
+    },
+    {
+      "id": "E15.2",
+      "function": "E15",
+      "row": 20,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "telescopic",
+        "foot"
+      ],
+      "scope": "Extensão telescópica e sapata separadas; recolhimento e descarga das rodas são propostos.",
+      "sha256": "a503e9a29812ed8136da8f69a970bfb39f764b2b703fdbc65264e65d3e9b7dd4"
+    },
+    {
+      "id": "E15.3",
+      "function": "E15",
+      "row": 20,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "caster",
+        "vibfoot"
+      ],
+      "scope": "Rodízio com freio e apoio de descanso separados; condição de repouso deve ser definida.",
+      "sha256": "a1e72fa160ab6853f046773f530b39a19b2df8095a952dca8fed03ba9719e0ee"
+    },
+    {
+      "id": "E15.4",
+      "function": "E15",
+      "row": 20,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "joint",
+        "foot"
+      ],
+      "scope": "Articulação e sapata separadas; estabilizador giratório e trava são combinação proposta.",
+      "sha256": "a3e629c5c29c295d1d200f037d9af22f5688b414e90087b709a73c8e82d10095"
+    },
+    {
+      "id": "E16.1",
+      "function": "E16",
+      "row": 21,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "clearcurtain"
+      ],
+      "scope": "Faixa flexível transparente em cortina industrial; tensão e fixação do visor serão próprias.",
+      "sha256": "6cc0d66ccc196bdf1643977d9a49e9e29a2d7195ee4d014b0deff75e0963ea5a"
+    },
+    {
+      "id": "E16.2",
+      "function": "E16",
+      "row": 21,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "clearinsert",
+        "gasket"
+      ],
+      "scope": "Painel e junta separados; rebaixo de proteção e área crítica visível precisam de definição.",
+      "sha256": "007fcc2c3e9388de0f5872e605c4c4ccdb0560f14b5349342d05a52cd4be1b6c"
+    },
+    {
+      "id": "E16.3",
+      "function": "E16",
+      "row": 21,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "clearinsert",
+        "foldbig"
+      ],
+      "scope": "Inserto transparente e painel rebatível separados; distribuição de visores é própria do projeto.",
+      "sha256": "42a04caebbe71031f5f60ecab80dec43d57acf8b910f7e1f8b1f036748aa520e"
+    },
+    {
+      "id": "E16.4",
+      "function": "E16",
+      "row": 21,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "mirror",
+        "gasket"
+      ],
+      "scope": "Espelho articulado e vedante separados; portas ópticas seladas e campo visual ainda serão projetados.",
+      "sha256": "5fa5e7842995ac88df24aa31d8f79da28419a3f56ef6680dc7d41e6f16afd317"
+    },
+    {
+      "id": "E17.1",
+      "function": "E17",
+      "row": 22,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "indicator"
+      ],
+      "scope": "Fecho com bandeira móvel de indicação, desenho oficial p. 2; palavra e símbolo são acréscimos propostos.",
+      "sha256": "f7d179987656fc64607f034c867c060a4b98d94675be96c60f61296d589a5769"
+    },
+    {
+      "id": "E17.2",
+      "function": "E17",
+      "row": 22,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "indexpin",
+        "arrow"
+      ],
+      "scope": "Pino indexador e seta separados; alinhamento testemunha do fechamento será definido.",
+      "sha256": "8c92be0116ea3079291e8266b68234a256ab8ba525a83f76e1db3015415e4d8a"
+    },
+    {
+      "id": "E17.3",
+      "function": "E17",
+      "row": 22,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "indicator",
+        "chain"
+      ],
+      "scope": "Indicador mecânico e ligação flexível separados; intertravamento entre fechos é proposta, não demonstrada pela imagem.",
+      "sha256": "fe8819cc5b096fbe25211cd8971caa62c19e80849db31b7fd5665887b1359197"
+    },
+    {
+      "id": "E17.4",
+      "function": "E17",
+      "row": 22,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "snap",
+        "arrow"
+      ],
+      "scope": "Trava de encaixe e referência visual separados; verificação tátil e posição final dependem do arranjo.",
+      "sha256": "49d6a6e8f3e0266aa9858fb7d841f6b30706b7f1086043d4747d383de988e2df"
+    },
+    {
+      "id": "E18.1",
+      "function": "E18",
+      "row": 23,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "datamatrix"
+      ],
+      "scope": "Serial e Data Matrix gravados a laser em metal; implantação na base permanente e durabilidade serão verificadas.",
+      "sha256": "5c9d696b3cdb67ef45fadab23831e1b10e540c2e2d2f7e95f4d715bcd08d1c09"
+    },
+    {
+      "id": "E18.2",
+      "function": "E18",
+      "row": 23,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "metalid"
+      ],
+      "scope": "Plaqueta rígida real de identificação; fixação protegida e serial único pertencem ao projeto.",
+      "sha256": "f92f4d261550da7c3f87d9ef0405887847b3c0dc82d59d26c4d03d9a3a5f3a23"
+    },
+    {
+      "id": "E18.3",
+      "function": "E18",
+      "row": 23,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "marking",
+        "datamatrix"
+      ],
+      "scope": "Inserto de marcação moldada e gravação separados; serial individual não é obtido só pelo código de resina.",
+      "sha256": "bb7d53061db06f92aac66b28a6f2c8eced5de0efa84da7853ea2d9ff93bc765d"
+    },
+    {
+      "id": "E18.4",
+      "function": "E18",
+      "row": 23,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "rfid",
+        "metalid"
+      ],
+      "scope": "Contentor com transponder e identificação visível separados; alojamento na base será definido.",
+      "sha256": "0f3db8b82683f8ac6fbd90bb1620b99b3b0a7301a90e98f85994e8d3b951c80f"
+    },
+    {
+      "id": "E19.1",
+      "function": "E19",
+      "row": 24,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "pin",
+        "chain"
+      ],
+      "scope": "Pino de engate e retenção flexível separados; dois estágios após alívio da pré-carga são adaptação.",
+      "sha256": "5b0d8bdc3cee036b270476670441911b7cdda9f35e561d2e5007c22a3cf6ddf4"
+    },
+    {
+      "id": "E19.2",
+      "function": "E19",
+      "row": 24,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "cam"
+      ],
+      "scope": "Came real; posição intermediária com apoio capturado deve ser desenvolvida.",
+      "sha256": "b5de5ebbd19e1a39e9fdb9d60359ce760751eb15b4bdb4234b04ac8a46e13702"
+    },
+    {
+      "id": "E19.3",
+      "function": "E19",
+      "row": 24,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "wedge",
+        "quarter"
+      ],
+      "scope": "Cunha e quarto de volta separados; liberação e retenção do carro constituem combinação proposta.",
+      "sha256": "5093540953309272187ccce9f0bca049f581e6e59d0203528228343592b10c45"
+    },
+    {
+      "id": "E19.4",
+      "function": "E19",
+      "row": 24,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "leadscrew",
+        "slide"
+      ],
+      "scope": "Fuso e guia separados; recuo seguro com apoio retido será integrado.",
+      "sha256": "170e0644006b45930edda6a057f1f4c363e570d87a8cab15cad2870d33eb064a"
+    },
+    {
+      "id": "E20.1",
+      "function": "E20",
+      "row": 25,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "hingedlid",
+        "tray_square"
+      ],
+      "scope": "Tampa articulada e bandeja separadas; retenção inferior durante abertura será definida.",
+      "sha256": "71f9397029c530b54f15f589c19f34d2814908305c6affd84803d454b62fceb1"
+    },
+    {
+      "id": "E20.2",
+      "function": "E20",
+      "row": 25,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "foldbig",
+        "tray_square"
+      ],
+      "scope": "Porta rebatível e cuba de contenção separadas; posição e retenção serão adaptadas.",
+      "sha256": "e6d884dbce06bd398e93aa4eef882f052ae4e4b6d708d9b3401c4b77464ecfbb"
+    },
+    {
+      "id": "E20.3",
+      "function": "E20",
+      "row": 25,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldbox",
+        "bagbox"
+      ],
+      "scope": "Painéis rebatíveis e bolsa separados; abertura bipartida para fora é arranjo proposto.",
+      "sha256": "f65e10015719b138c5e08ceb5947804198b6e07ee05c015b8a76ff6e914e8a05"
+    },
+    {
+      "id": "E20.4",
+      "function": "E20",
+      "row": 25,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "cover",
+        "slide"
+      ],
+      "scope": "Cobertura e guia separadas; orientação vertical e retenção da bandeja são propostas.",
+      "sha256": "8bc9f6f9ce660d8273fd792e4aa63f1ed7f97c4b172b5a614fda510e83e92ec7"
+    },
+    {
+      "id": "E21.1",
+      "function": "E21",
+      "row": 26,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "foamcradle",
+        "handle"
+      ],
+      "scope": "Berço e interface de pega separados; extração mantendo a bandeja exige projeto próprio.",
+      "sha256": "77ab3f51af59727502e6be2d3cde3cf1ee8d1920d8735aebebc912c5945c8cdd"
+    },
+    {
+      "id": "E21.2",
+      "function": "E21",
+      "row": 26,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "slide"
+      ],
+      "scope": "Guia extraível real; plataforma apoiada e transferência lateral serão integradas.",
+      "sha256": "b14ac197cd6c7652e1a180f9c1f0ca7254b8d1e73bcfc35eaa028f9ac449907f"
+    },
+    {
+      "id": "E21.3",
+      "function": "E21",
+      "row": 26,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldbig",
+        "hinge"
+      ],
+      "scope": "Porta/plataforma rebatível e dobradiça separados; apoio para transferência assistida é proposto.",
+      "sha256": "7a3b6e8221ea8fb854ecdcc43885cafc604f4695cb102222bb909db9be97f414"
+    },
+    {
+      "id": "E21.4",
+      "function": "E21",
+      "row": 26,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "stackframe",
+        "liftingeye"
+      ],
+      "scope": "Base de carga e olhal separados; interface e equipamento auxiliar devem ser compatíveis.",
+      "sha256": "4c536bb70e7d4dcf40691c2b919dc0f451c8f0595e4fab15c80855deb62ca4d8"
+    },
+    {
+      "id": "C01.1",
+      "function": "C01",
+      "row": 27,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "foldbox"
+      ],
+      "scope": "Caixa real em posições aberta e recolhida; fechos cativos são condição do nosso produto.",
+      "sha256": "4ac4084a0e0a20ba062bf21067e859044679807f44e3ab1767bc62f9313cff73"
+    },
+    {
+      "id": "C01.2",
+      "function": "C01",
+      "row": 27,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "telescopic",
+        "stackframe"
+      ],
+      "scope": "Telescopia e quadro separados; recolhimento do quadro sobre a base é proposto.",
+      "sha256": "99016d5fe8bc88ca6cd1f24029e0a19ee9771801c79f08374347c6141c8e9ee1"
+    },
+    {
+      "id": "C01.3",
+      "function": "C01",
+      "row": 27,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "foldsolid",
+        "foldbox"
+      ],
+      "scope": "Paredes rebatíveis reais; retenção de painéis sobre a base será adaptada.",
+      "sha256": "939ca942bb29e690783f33f4154726d7a56d219c384d69a20f19e29fe7efe97e"
+    },
+    {
+      "id": "C01.4",
+      "function": "C01",
+      "row": 27,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "lifthinge",
+        "pin"
+      ],
+      "scope": "Dobradiça separável e pino separados; planificação com peças cativas é proposta.",
+      "sha256": "aafe34bc65bdbc46f5a1f954e8506f2ff070ab7cd75a84c9138f7dc58d866f36"
+    },
+    {
+      "id": "C02.1",
+      "function": "C02",
+      "row": 28,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "stackframe",
+        "stackcorner"
+      ],
+      "scope": "Empilhamento pelos cantos em aplicações reais; encaixe e caminho de carga serão próprios.",
+      "sha256": "8fb5b55895c9645af28a15a290973747dcb56ee058504f318adb2e5b28786d19"
+    },
+    {
+      "id": "C02.2",
+      "function": "C02",
+      "row": 28,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "cone",
+        "stackcorner"
+      ],
+      "scope": "Bucha de centragem e apoio de empilhamento separados; cone estrutural é proposto, não a bucha comercial.",
+      "sha256": "f2fb9ba063cf7baf4d932583fedeb7eadfcd3405d20333c3509c3d8f10b0a6f2"
+    },
+    {
+      "id": "C02.3",
+      "function": "C02",
+      "row": 28,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "eurobox",
+        "cover"
+      ],
+      "scope": "Bordas e encaixe periférico por analogia; trilhos e apoios estruturais serão dimensionados.",
+      "sha256": "377df13ae89f8e027b909ac904ba92913b825da618f7b1817ff26c3e9f1aec44"
+    },
+    {
+      "id": "C02.4",
+      "function": "C02",
+      "row": 28,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "stackcorner"
+      ],
+      "scope": "Geometria de pés e alojamentos de empilhamento em contentor; adaptação à nossa base é necessária.",
+      "sha256": "4f8424c1db7b7c74f8bee172b4238cc5edae388e8979e813e71731ab2327467a"
+    },
+    {
+      "id": "C03.1",
+      "function": "C03",
+      "row": 29,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "foldbox"
+      ],
+      "scope": "Paredes recolhíveis expõem superfícies; acessibilidade e tempo de limpeza serão verificados.",
+      "sha256": "4e9d7281df0e19c9fa0fa3a4bf82b95637edb5afc2792fe38fa585f0db2b7ad7"
+    },
+    {
+      "id": "C03.2",
+      "function": "C03",
+      "row": 29,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "screwcap"
+      ],
+      "scope": "Perfil com tampa de acesso às fixações; retenção cativa e acesso às guias serão próprios.",
+      "sha256": "e1b74fbc8615879e3451a57c083b902e036386a730b7e408be3e46f0dee58cd0"
+    },
+    {
+      "id": "C03.3",
+      "function": "C03",
+      "row": 29,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "bagbox"
+      ],
+      "scope": "Bolsa/forro interno de contentor; remoção para inspeção das juntas é adaptação proposta.",
+      "sha256": "5ccce8083fc06de7cebed0f1cfae33cd4fb1d9e089d90eb5fd734a72b9c1e370"
+    },
+    {
+      "id": "C03.4",
+      "function": "C03",
+      "row": 29,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "foldbig"
+      ],
+      "scope": "Portas de acesso reais; vedação em uso e acesso de serviço exigem adaptação.",
+      "sha256": "18b004c138e29c31a5c6e7a8de41c48b5bb7e33c7c99a8c2965391d490296ee7"
+    },
+    {
+      "id": "C04.1",
+      "function": "C04",
+      "row": 30,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "pin",
+        "foam_molded"
+      ],
+      "scope": "Pino e elemento celular separados; cartucho identificado de reposição será integrado.",
+      "sha256": "517ea0e80a26794cdf6a530ea4d968e3c6802aa2493778d5469758037f7cbbbf"
+    },
+    {
+      "id": "C04.2",
+      "function": "C04",
+      "row": 30,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "slide",
+        "softpad"
+      ],
+      "scope": "Guia e sapata separadas; gaveta indexada de reposição é proposta do projeto.",
+      "sha256": "a385ff81c2281c8659ef14ddb9f3cbe5d3de7aedb7e46e4e2247bce138f59508"
+    },
+    {
+      "id": "C04.3",
+      "function": "C04",
+      "row": 30,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "bagbox",
+        "wheelbase"
+      ],
+      "scope": "Bolsa e base de rodas separados; interfaces independentes para três módulos serão próprias.",
+      "sha256": "580be1ee30301e1d64335aefefd8e56f4ea663cb2db086dcaa7f40afdd1d956a"
+    },
+    {
+      "id": "C04.4",
+      "function": "C04",
+      "row": 30,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "captive",
+        "connector"
+      ],
+      "scope": "Parafuso cativo e conexão estrutural separados; padronização por módulo deve ser definida.",
+      "sha256": "a42ce106dcf2c9b21a9f8b3a3caa159155a28a56de0dec632a2bad765e02615d"
+    },
+    {
+      "id": "C05.1",
+      "function": "C05",
+      "row": 31,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "toggle"
+      ],
+      "scope": "Fecho sobre-centro real com retenção de segurança; integração à estrutura será dimensionada.",
+      "sha256": "a2c595b09660ff6b7958513a3703cbbad94d93a6fbed2aa551ec5744138c8f8c"
+    },
+    {
+      "id": "C05.2",
+      "function": "C05",
+      "row": 31,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "bayonet"
+      ],
+      "scope": "Fixador real de quarto de volta, catálogo D8 p. 7; indexação e bloqueio positivo devem ser especificados.",
+      "sha256": "3ca8e9e9af17e76115830d6847474e4c32d64d53e61ae68bff54a9b130aa97bd"
+    },
+    {
+      "id": "C05.3",
+      "function": "C05",
+      "row": 31,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "pin",
+        "hinge"
+      ],
+      "scope": "Pino de engate e dobradiça separados; retenção cativa e travas estruturais serão integradas.",
+      "sha256": "b3c1bcef61b6188839e939c70da7a07e043c50c366f57fcf9925d950a6e3a4d7"
+    },
+    {
+      "id": "C05.4",
+      "function": "C05",
+      "row": 31,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "dovetail",
+        "snap"
+      ],
+      "scope": "Guia de cauda de andorinha e lingueta/trava separadas; encaixe combinado é proposto.",
+      "sha256": "0fe599e133b6bd4b41f2aae20490e8a3933f51d3ae8767dc81226df46a517a87"
+    },
+    {
+      "id": "C06.1",
+      "function": "C06",
+      "row": 32,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "toggle"
+      ],
+      "scope": "Alavanca de fecho com segurança; acesso protegido será adaptado ao produto.",
+      "sha256": "f13010756b90c8932885c0c5a24ba42e5bd880afafe290573ac45501652f3df6"
+    },
+    {
+      "id": "C06.2",
+      "function": "C06",
+      "row": 32,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "bayonet"
+      ],
+      "scope": "Fixador manual de quarto de volta; captura das peças e sequência de extração serão definidas.",
+      "sha256": "790e4106bf9c8693a9740857ec2a6345d721d6021ecae31f29597915dafe39da"
+    },
+    {
+      "id": "C06.3",
+      "function": "C06",
+      "row": 32,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "indexpin",
+        "chain"
+      ],
+      "scope": "Pino indexador e retenção separados; duas posições de segurança são adaptação.",
+      "sha256": "cc0d614f74fdae2219042da557472f0dcd06ba52ae3133658511352fa847724b"
+    },
+    {
+      "id": "C06.4",
+      "function": "C06",
+      "row": 32,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "snap"
+      ],
+      "scope": "Trava de lingueta real; acessibilidade e ordem de liberação serão definidas.",
+      "sha256": "62f8e47cf545bbdb259af8f5de03749b1f1b9d295f8f44a5b5b04ed4cf731923"
+    },
+    {
+      "id": "C07.1",
+      "function": "C07",
+      "row": 33,
+      "col": 3,
+      "option": 1,
+      "assets": [
+        "captive",
+        "marking"
+      ],
+      "scope": "Fixação reversível e marcação de resina separadas; identificação e desmontagem devem ser definidas por material.",
+      "sha256": "576e50c73dda75a5ef5f32d939d98ab471b17f1f7d08e7f2671c7765081c89a7"
+    },
+    {
+      "id": "C07.2",
+      "function": "C07",
+      "row": 33,
+      "col": 4,
+      "option": 2,
+      "assets": [
+        "eurobox",
+        "captive"
+      ],
+      "scope": "Carcaça polimérica e ferragem removível separadas; monomaterial e separação precisam ser especificados.",
+      "sha256": "1995c812c55c78650ab469149b2b1a2e2ab57efcec7203dad215ee00a136ba78"
+    },
+    {
+      "id": "C07.3",
+      "function": "C07",
+      "row": 33,
+      "col": 5,
+      "option": 3,
+      "assets": [
+        "gasket",
+        "zipprofile"
+      ],
+      "scope": "Perfis reais de retenção e fechamento; camadas separáveis e fixação periférica são combinação proposta.",
+      "sha256": "e77aa4bfd25ad96459e87e8611bc4b338828feaf4305825b4efe3103723106d0"
+    },
+    {
+      "id": "C07.4",
+      "function": "C07",
+      "row": 33,
+      "col": 6,
+      "option": 4,
+      "assets": [
+        "stackframe",
+        "clearcurtain"
+      ],
+      "scope": "Quadro metálico e barreira polimérica separados; capas extraíveis e separação serão projetadas.",
+      "sha256": "4d9cd3c8971f53583609a4ef07bc9cf6a6637728ac912d584f68ca7fb967bdb2"
+    }
+  ]
+}

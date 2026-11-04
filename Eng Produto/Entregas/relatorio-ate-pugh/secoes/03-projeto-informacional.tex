@@ -1,0 +1,825 @@
+\clearpage
+\section{PROJETO INFORMACIONAL}
+
+O projeto informacional transforma a oportunidade em informações de projeto: ciclo de vida delimitado, clientes identificados, necessidades rastreáveis, requisitos dos clientes e especificações mensuráveis. A saída da fase são as especificações-meta, que orientam a geração de soluções e fornecem critério de decisão para as etapas seguintes do desenvolvimento \citep{rozenfeld2006,back2008}.
+
+A rastreabilidade relaciona necessidades, requisitos, julgamentos de importância e metas com sua origem: campo, pesquisa documental ou interpretação da equipe. Os pesos do Mudge são julgamentos comparativos informados por essas fontes; não são medidas da frequência das avarias nem respostas de uma pesquisa representativa.
+
+\subsection{Revisão do Escopo do Produto}
+\label{sec:revisao-escopo}
+
+A revisão do escopo delimita problema, atores, restrições e condições de aplicação. Define o que a solução precisa atender e os limites da análise, enquanto o ciclo de vida descreve a trajetória do dispositivo dentro desse recorte \citep{rozenfeld2006,back2008}.
+
+O recorte mantido é uma solução física para proteger e movimentar louças sanitárias na preparação do envio no distribuidor, no transporte, na descarga e na movimentação na obra, com conferência e retirada segura. A fabricação e a instalação da louça fornecem interfaces e contexto de dano, mas o projeto não redesenha a cerâmica nem os procedimentos de instalação. Produção própria, estratégia ATO e retorno do dispositivo são premissas de negócio; não definem material, mecanismo ou concepção final.
+
+A base inicial compreende uma observação de obra residencial e duas entrevistas, com um operário e um distribuidor. Esse levantamento caracteriza o contexto de distribuição e uso, sem estimar a prevalência setorial das avarias. O envelope de aplicação é definido pelo mix de modelos, pela carga e pelas condições de piso, acesso e movimentação consideradas na análise.
+
+\begin{table}[H]
+\caption{Objetivos e entregas da revisão do escopo e da definição do ciclo de vida}
+\label{tab:escopo-ciclo}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{2.7cm}YY}
+\toprule\textbf{Atividade}&\textbf{Objetivo}&\textbf{Entrega no projeto}\\\midrule
+Revisão do escopo&Reavaliar problema, atores, fronteira de aplicação, restrições e premissas após o pré-desenvolvimento&Fronteira de aplicação, premissas e limites de generalização\\
+Definição do ciclo de vida&Descrever a trajetória da solução dentro do escopo revisto, incluindo obtenção, uso, suporte e fim de vida&Ciclo macro, 13 fases operacionais, atores e estados que orientam necessidades\\
+\bottomrule\end{tabularx}
+\fonte{Elaboração própria com base em \citet{rozenfeld2006} e \citet{back2008}.}
+\end{table}
+
+\subsection{Ciclo de Vida do Produto}
+\label{sec:ciclo-vida}
+
+O ciclo de vida descreve obtenção, disponibilização, uso, manutenção, retorno e destinação do dispositivo. As etapas da cadeia da louça ajudam a localizar seu uso, mas não substituem o ciclo de vida da solução em desenvolvimento.
+
+Neste relatório, o termo \textit{produto} designa a solução física que será concebida para reduzir avarias no fluxo entre o distribuidor e a obra. A louça sanitária é o objeto protegido ou movimentado e não o produto em desenvolvimento. A descrição por transformações, movimentações e estados preserva sua aplicação às diferentes concepções físicas.
+
+O ciclo de vida do produto compreende a história do produto desde os primeiros esforços organizados para criá-lo até sua retirada e destinação. O modelo em espiral complementa essa visão ao localizar os setores produtivos, de mercado e de consumo e, assim, os clientes internos, intermediários e externos \citep{rozenfeld2006,back2008,fonseca2000}. Os atributos relacionados às diferentes fases do ciclo auxiliam na definição das características físicas, de forma, de materiais, de uso e de fabricação do produto. O ciclo estabelece, assim, a relação entre características do produto e necessidades de cada ator.
+
+O projeto adota a estrutura padrão em dois níveis. O \textbf{ciclo macro} acompanha o desenvolvimento e a vida comercial do produto. O \textbf{ciclo operacional} detalha o percurso físico de cada unidade e sustenta a identificação dos clientes.
+
+\begin{table}[H]
+\caption{Compatibilização entre o ciclo de vida padrão e o ciclo do projeto}
+\label{tab:ciclo-vida-macro}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.65cm}@{\hspace{0.4cm}}L{4.2cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Macroetapa} & \textbf{Ciclo de referência} & \textbf{Aplicação no projeto} \\
+\midrule
+Pré-desenvolvimento & Necessidade ou problema; planejamento estratégico; estratégia da empresa; planejamento do produto & Parte da quebra de louças no fluxo entre distribuidor e obra. Delimita oportunidade, escopo, produção própria e estratégia ATO. \\
+Desenvolvimento & Projeto informacional; projeto conceitual; projeto detalhado; planejamento do processo & Corresponde à fase de \textit{projeto} do ciclo operacional, onde se definem arquitetura, interfaces e configurações. \\
+Produção e disponibilização & Fabricação; montagem e embalagem; armazenagem; lançamento; venda e compra; transporte & Abrange fabricação, armazenagem de peças, montagem por pedido, armazenagem do produto, venda e distribuição ao distribuidor. \\
+Uso e suporte & Compra; uso; função; manutenção ou suporte enquanto o produto permanecer em operação & Compreende o uso no distribuidor, a função de proteger a louça em trânsito, a movimentação na obra e a manutenção entre ciclos. \\
+Retirada e fim de vida & Retirada; desativação; reciclagem, reúso, remanufatura ou descarte & O produto é retornável: a cada entrega volta ao distribuidor, é conferido e recolocado em circulação. O descarte ocorre apenas ao fim da vida útil. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base em \citet{rozenfeld2006}, \citet{back2008} e no modelo em espiral de \citet{fonseca2000}.}
+\end{table}
+
+\noindent\textbf{Estratégia de produção.} A equipe adotou a estratégia \textit{Assemble to Order} (ATO) com produção própria. Componentes padronizados são produzidos e mantidos em estoque intermediário; o pedido do distribuidor define uma configuração previamente aprovada e dispara a montagem final, a inspeção e a expedição. O ATO é premissa de planejamento, não definição da solução: ele não determina se o produto será uma embalagem, um dispositivo de proteção, um sistema de unitização ou uma combinação desses elementos \citep{rozenfeld2006}.
+
+\noindent\textbf{Produto retornável.} Cada unidade percorre o trecho distribuidor--obra--distribuidor diversas vezes, é conferida a cada retorno e permanece em circulação enquanto mantiver a condição exigida. Essa decisão introduz no ciclo as fases de \textit{manutenção} e \textit{retorno}, e é a razão pela qual durabilidade e custo por ciclo aparecem como exigências desde o levantamento das necessidades.
+
+
+\footnotesize
+\begin{longtable}{@{}L{2.6cm}@{\hspace{0.45cm}}L{4.3cm}@{\hspace{0.45cm}}L{4.0cm}@{\hspace{0.45cm}}L{3.6cm}@{}}
+\caption{Ciclo de vida operacional do dispositivo retornável}\label{tab:ciclo-vida}\\
+\toprule
+\textbf{Fase} & \textbf{Atividade ou estado do produto} & \textbf{Atores} & \textbf{Resultado da fase} \\
+\midrule
+\endfirsthead
+\caption[]{Ciclo de vida operacional -- continuação}\\
+\toprule
+\textbf{Fase} & \textbf{Atividade ou estado do produto} & \textbf{Atores} & \textbf{Resultado da fase} \\
+\midrule
+\endhead
+Projeto & Definição da arquitetura, das interfaces e das configurações do produto & Equipe de projeto e engenharia & Conjunto de peças e interfaces definido \\
+Fabricação & Transformação das matérias-primas nos componentes do produto & Planejamento da produção, operadores e qualidade & Componentes conformes e rastreáveis \\
+Armazenagem de peças & Guarda dos componentes padronizados antes da montagem por pedido & Almoxarifado e planejamento da produção & Componentes preservados e localizáveis \\
+Montagem & Separação, configuração, montagem e inspeção após o pedido & Separadores, montadores e controle de qualidade & Produto montado, inspecionado e liberado \\
+Armazenagem do produto & Guarda do produto montado até a expedição e entre entregas & Almoxarifado próprio e do distribuidor & Produto preservado e pronto para uso \\
+Venda & Oferta, configuração e negociação do pedido com o distribuidor & Comercial, atendimento e comprador do distribuidor & Pedido confirmado em configuração aprovada \\
+Distribuição & Embalagem, carregamento, transporte e entrega ao distribuidor & Expedição, logística e transportador & Produto entregue sem dano ao próprio produto \\
+Uso no distribuidor & Acomodação da louça no produto durante a preparação do envio & Supervisores e operadores do distribuidor & Louça acomodada e protegida para a expedição \\
+Função & Proteção da louça ao longo do transporte do distribuidor até a obra & Produto em serviço; motoristas, ajudantes e movimentadores & Louça entregue íntegra no canteiro \\
+Movimentação na obra & Recebimento, conferência e deslocamento interno até o ponto de uso & Almoxarife, auxiliares e movimentadores da obra & Louça disponibilizada sem avaria \\
+Manutenção & Limpeza, inspeção e reposição de partes entre um ciclo e o seguinte & Recebimento de retornos do distribuidor & Produto recolocado em condição de uso \\
+Retorno & Agrupamento, carregamento e transporte reverso do produto usado & Coordenação e equipe de logística reversa do distribuidor & Produto de volta ao ponto de consolidação \\
+Descarte & Segregação e encaminhamento à destinação final ao fim da vida útil & Gestor de resíduos, transportador e destinador & Produto retirado de circulação de forma rastreável \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe com base no modelo em espiral apresentado por \citet{fonseca2000}.}
+
+Após estabelecer o ciclo, o método da disciplina considera clientes todas as pessoas e instituições afetadas pelas decisões do produto. A classificação é feita pelo papel no ciclo, não pelo vínculo empregatício: clientes internos participam da obtenção e agregação de valor; intermediários conectam a empresa produtora ao contexto de aplicação; e externos usam, movimentam, recebem ou destinam o produto \citep{fonseca2000}. Por isso uma mesma organização contém papéis de tipos diferentes: no distribuidor, compras e recebimento representam o cliente intermediário, enquanto os operadores que manipulam o produto representam clientes externos.
+
+
+\subsection{Identificação das Necessidades dos Clientes}
+
+\subsubsection{Métodos de Pesquisa Aplicados}
+
+Quatro técnicas de pesquisa podem apoiar o levantamento junto aos clientes: observações diretas, entrevistas, questionários e grupos focais. Observações e entrevistas detalham o contexto e a experiência dos atores. Questionários permitem reunir respostas comparáveis, mas sua generalização depende da amostragem e do instrumento. Grupos focais confrontam percepções em discussão mediada \citep{back2008,fonseca2000}.
+
+O levantamento combina observação direta, duas entrevistas e pesquisa documental. A classificação Kano resulta de julgamento de projeto sobre essas evidências, sem aplicação do questionário funcional/disfuncional a uma amostra de clientes. Seu uso orienta a decisão no recorte considerado, sem inferência estatística para o setor.
+
+\begin{table}[H]
+\caption{Técnicas de pesquisa aplicadas no levantamento das necessidades}
+\label{tab:metodos-pesquisa}
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}L{1.95cm}@{\hspace{0.3cm}}L{3.7cm}@{\hspace{0.3cm}}Y@{\hspace{0.3cm}}L{2.9cm}@{\hspace{0.3cm}}L{1.15cm}@{}}
+\toprule
+\textbf{Técnica} & \textbf{Aplicação no projeto} & \textbf{Resultado incorporado} & \textbf{Limite reconhecido} & \textbf{Evid.} \\
+\midrule
+Observação direta & Acompanhamento do recebimento, do estoque e da movimentação de louças em obra residencial em fase de acabamento, com registro fotográfico & Caracterização do ambiente real de recebimento e das restrições de acesso e de armazenagem no canteiro & Amostra e duração não registradas; uma única obra observada & E-02 \\
+Entrevista semiestruturada & Entrevista gravada com operário da construção civil atuante desde 2009, sobre manuseio, descarga e movimentação de louças & Relato de peças recebidas já trincadas, de quedas durante a descarga e de transporte manual quando o carrinho não acessa o local & Relato qualitativo de um único ator; não quantifica frequência nem etapa causal dominante & E-04 \\
+Entrevista e visita técnica & Visita a distribuidor de louças e materiais com operação própria de logística & Atribuição das avarias ao trecho entre o estoque da loja e a obra; identificação da reposição como custo absorvido; explicitação da tensão entre proteção e preço & Relato qualitativo; sem estimativa estatística de troca, crédito ou devolução & E-03 \\
+Pesquisa documental & Levantamento de escala setorial da produção brasileira de louças sanitárias e consulta a bases de patentes & Dimensionamento da cadeia e identificação das famílias de solução já existentes para proteção no transporte & Os dados setoriais não comprovam taxa de quebra; a busca não constitui parecer de patenteabilidade & E-06, E-07 \\
+Análise de convergência & Confronto entre observação em obra, relato do operário e relato do distribuidor & Hipótese de investigação da avaria anterior à instalação, com foco no transporte de distribuição & Convergência qualitativa não mede taxa de quebra nem demonstra a etapa causal dominante & E-05 \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir do levantamento da Semana 03 \citep{equipe2026} e das técnicas descritas em \citet{back2008} e \citet{fonseca2000}.}
+\end{table}
+
+Para cobrir de forma sistemática todas as fases do ciclo, a equipe empregou ainda o guia de questões proposto por \citet{andrade1991}, que organiza perguntas orientadoras pelos principais elementos desenvolvidos no ciclo de vida do produto. O próprio autor trata o conjunto como orientação, a ser expandido em cada caso prático.
+
+\subsubsection{Necessidade como Característica do Produto}
+
+A primeira versão deste levantamento registrava, em cada fase, o que cada ator precisava \textit{fazer}: selecionar configurações aprovadas, conferir itens recebidos, comunicar preço e prazo. A revisão corrigiu o enquadramento. Necessidade do cliente, no projeto informacional, é uma exigência sobre o \textbf{produto}, não sobre o processo de quem o opera --- é dela que sairão as características físicas, de forma, de material e de uso. A declaração de processo não se converte em requisito de produto e não tem lugar na matriz de atributos.
+
+A mesma necessidade, reescrita, muda de natureza: \textit{selecionar apenas configurações aprovadas} descreve uma rotina do comercial; \textit{ter peças modulares} e \textit{ter configurações padronizadas} descrevem o produto que torna essa rotina possível. Foi esse o critério de reescrita, e as declarações que não tinham característica de produto por trás --- comunicar preço, receber pedidos com antecedência --- foram eliminadas.
+
+Distinguem-se ainda necessidades verbalizadas das que o cliente não declara, além de latentes, culturais, logísticas, de manutenção e atribuíveis a usos inesperados \citep{back2008,fonseca2000}. Necessidades básicas costumam não ser verbalizadas justamente por serem consideradas óbvias, e latentes só aparecem quando o contexto real de uso é observado. Quanto aos usos inesperados, o produto poderá ser operado sem treinamento, empilhado além do previsto ou reutilizado por mais ciclos do que o dimensionado; por isso uso intuitivo, estabilidade no empilhamento e desempenho ao longo de ciclos repetidos foram incorporados já nesta fase.
+
+\subsubsection{Necessidades Consolidadas}
+
+A Tabela~\ref{tab:necessidades-consolidadas} reúne as necessidades por fase do ciclo, com o tipo de cliente e o atributo predominante. É a entrada direta da matriz de atributos.
+
+
+\footnotesize
+\begin{longtable}{@{}L{1.05cm}@{\hspace{0.22cm}}L{2.9cm}@{\hspace{0.22cm}}L{2.15cm}@{\hspace{0.22cm}}L{5.85cm}@{\hspace{0.22cm}}L{2.55cm}@{}}
+\caption{Necessidades dos clientes por fase do ciclo de vida}\label{tab:necessidades-consolidadas}\\
+\toprule
+\textbf{ID} & \textbf{Fase} & \textbf{Tipo} & \textbf{Necessidade} & \textbf{Atributo} \\
+\midrule
+\endfirsthead
+\caption[]{Necessidades dos clientes -- continuação}\\
+\toprule
+\textbf{ID} & \textbf{Fase} & \textbf{Tipo} & \textbf{Necessidade} & \textbf{Atributo} \\
+\midrule
+\endhead
+N-01 & Projeto & Interno & Ter peças modulares & Modularidade \\
+N-02 & Projeto & Interno & Ter semelhança entre as peças & Modularidade \\
+N-03 & Projeto & Interno & Ter poucos tipos de componentes & Modularidade \\
+N-04 & Projeto & Interno & Ser adaptável às variações de louça & Funcionamento \\
+N-05 & Fabricação & Interno & Ter matéria-prima acessível no mercado local & Econômico \\
+N-06 & Fabricação & Interno & Ter geometria simples de fabricar & Eficiência operacional \\
+N-07 & Fabricação & Interno & Ter geometria repetível entre lotes & Confiabilidade \\
+N-08 & Armazenagem de peças & Interno & Ter peças identificáveis visualmente & Confiabilidade \\
+N-09 & Armazenagem de peças & Interno & Resistir à degradação por umidade no estoque & Durabilidade e robustez \\
+N-10 & Armazenagem de peças & Interno & Ter peças empilháveis & Eficiência operacional \\
+N-11 & Montagem & Interno & Ter encaixes intuitivos & Modularidade \\
+N-12 & Montagem & Interno & Ter montagem em poucas etapas & Eficiência operacional \\
+N-13 & Montagem & Interno & Dispensar ferramenta especial para montar & Ergonomia e segurança \\
+N-14 & Montagem & Interno & Ter indicação visual de montagem correta & Funcionamento \\
+N-15 & Armazenagem do produto & Interno & Ser compacto quando vazio & Eficiência operacional \\
+N-16 & Armazenagem do produto & Interno & Ser empilhável no estoque & Eficiência operacional \\
+N-17 & Armazenagem do produto & Interno & Resistir às intempéries de estocagem & Durabilidade e robustez \\
+N-18 & Venda & Intermediário & Ter custo por ciclo inferior ao da avaria evitada & Econômico \\
+N-19 & Venda & Intermediário & Ter configurações padronizadas & Modularidade \\
+N-20 & Venda & Intermediário & Ter vida útil declarada em número de ciclos & Confiabilidade \\
+N-21 & Distribuição & Intermediário & Ser compatível com o arranjo de carga do veículo & Funcionamento \\
+N-22 & Distribuição & Intermediário & Ocupar pouco espaço no transporte & Eficiência operacional \\
+N-23 & Distribuição & Intermediário & Proteger o próprio produto até o distribuidor & Durabilidade e robustez \\
+N-24 & Uso no distribuidor & Externo & Ser de uso intuitivo, sem treinamento formal & Ergonomia e segurança \\
+N-25 & Uso no distribuidor & Externo & Ter pontos de pega definidos & Ergonomia e segurança \\
+N-26 & Uso no distribuidor & Externo & Acomodar as variações de louça do distribuidor & Funcionamento \\
+N-27 & Uso no distribuidor & Externo & Ter indicação visual de fechamento correto & Confiabilidade \\
+N-28 & Função & Externo & Amortecer impactos do transporte & Funcionamento \\
+N-29 & Função & Externo & Imobilizar a louça & Funcionamento \\
+N-30 & Função & Externo & Evitar atrito entre a louça e o produto & Funcionamento \\
+N-31 & Função & Externo & Permitir conferir a integridade da louça sem abrir & Funcionamento \\
+N-32 & Movimentação na obra & Externo & Ter dimensões compatíveis com as passagens da obra & Ergonomia e segurança \\
+N-33 & Movimentação na obra & Externo & Ter peso compatível com o transporte por duas pessoas & Ergonomia e segurança \\
+N-34 & Movimentação na obra & Externo & Permitir retirar a louça sem contato com aresta cortante & Ergonomia e segurança \\
+N-35 & Movimentação na obra & Externo & Ser estável quando apoiado no canteiro & Eficiência operacional \\
+N-36 & Manutenção & Externo & Ter peças substituíveis individualmente & Modularidade \\
+N-37 & Manutenção & Externo & Ter peça de reposição de baixo custo & Econômico \\
+N-38 & Manutenção & Externo & Ser de fácil limpeza & Ergonomia e segurança \\
+N-39 & Retorno & Externo & Ser dobrável ou desmontável para o retorno & Eficiência operacional \\
+N-40 & Retorno & Externo & Suportar ciclos repetidos de uso & Durabilidade e robustez \\
+N-41 & Retorno & Externo & Ter identificação para rastreio do retorno & Sustentabilidade e conformidade \\
+N-42 & Descarte & Externo & Ter materiais identificados & Sustentabilidade e conformidade \\
+N-43 & Descarte & Externo & Ser de fácil desmontagem & Sustentabilidade e conformidade \\
+N-44 & Descarte & Externo & Ter materiais recicláveis & Sustentabilidade e conformidade \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe, com classificação de clientes baseada em \citet{fonseca2000}.}
+
+\notaquadro{A rastreabilidade identifica a origem de cada necessidade: observação, entrevista, documento ou interpretação de projeto.}
+
+
+\subsection{Requisitos dos Clientes}
+
+Requisitos dos clientes são as necessidades organizadas, categorizadas e estruturadas. Converter necessidades em requisitos significa relacioná-las a aspectos de desempenho funcional, fatores humanos, propriedades e espaço, confiabilidade, ciclo de vida e recursos de manufatura, eliminando redundâncias e classificando o conjunto hierarquicamente \citep{back2008,fonseca2000}.
+
+Duas formas agrupam as necessidades nessa conversão: a \textbf{matriz de atributos} e a \textbf{técnica de cenários} \citep{back2008,fonseca2000}. A equipe usou as duas em sequência: primeiro a matriz, para agrupar e revelar lacunas; depois os cenários, para converter necessidades de redação imprecisa em requisitos verificáveis.
+
+\subsubsection{Matriz de Atributos}
+
+A construção segue três passos: identificar as fases do ciclo de vida; definir os atributos básicos do produto; e distribuir as necessidades agrupadas nas células. Os atributos foram selecionados a partir das categorias usuais do projeto de produto --- funcionais, estéticos e ergonômicos, técnicos, econômicos e de conformidade --- e restringidos aos que o problema delimitado efetivamente cobra \citep{back2008}. A estética foi deliberadamente excluída: o produto é meio de transporte de outro produto e não é exposto ao consumidor final.
+
+\begin{table}[H]
+\caption{Atributos básicos adotados no projeto do produto}
+\label{tab:atributos-definicao}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{3.3cm}@{\hspace{0.4cm}}Y@{}}
+\toprule
+\textbf{Atributo} & \textbf{Definição adotada e justificativa} \\
+\midrule
+Funcionamento & Adequação ao uso e capacidade de proteger, imobilizar e permitir a conferência da louça. Responde diretamente ao problema definido. \\
+Ergonomia e segurança & Usabilidade, facilidade de manuseio e proteção do trabalhador. Justificado pelo relato de quedas na descarga, transporte manual sem acesso para carrinho e exposição a peças trincadas. \\
+Eficiência operacional & Desempenho de tempo e espaço nas operações de preparação, carga, armazenagem e retorno. \\
+Durabilidade e robustez & Vida útil e resistência ao desgaste. Justificado pelo retorno e pela reutilização do produto após cada entrega. \\
+Confiabilidade & Repetibilidade do desempenho e baixa taxa de falha entre unidades e entregas. \\
+Econômico & Relação entre custo e benefício e viabilidade produtiva. Justificado pela tensão entre proteção e preço relatada pelo distribuidor. \\
+Modularidade & Divisão em componentes independentes que funcionam de forma integrada, permitindo configuração e escalabilidade. Justificado pela estratégia ATO. \\
+Sustentabilidade e conformidade & Uso eficiente de recursos, rastreabilidade e atendimento a normas. Justificado pela logística reversa e pelo descarte previstos. \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base nas categorias de \citet{back2008}.}
+\end{table}
+
+A matriz combina treze fases e oito atributos e foi apresentada em duas partes para preservar a legibilidade. As células indicam os identificadores da Tabela~\ref{tab:necessidades-consolidadas}. Células vazias funcionam como verificação de cobertura.
+
+\clearpage
+\begin{table}[H]
+\caption{Matriz de atributos -- parte 1: funcionamento, ergonomia, eficiência e durabilidade}
+\label{tab:matriz-atributos-1}
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}L{2.35cm}@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{}}
+\toprule
+\textbf{Fase do ciclo de vida} & \textbf{Funcionamento} & \textbf{Ergonomia e segurança} & \textbf{Eficiência operacional} & \textbf{Durabilidade e robustez} \\
+\midrule
+Projeto & 4 ser adaptável às variações de louça &  &  &  \\
+Fabricação &  &  & 6 ter geometria simples de fabricar &  \\
+Armazenagem de peças &  &  & 10 ter peças empilháveis & 9 resistir à degradação por umidade no estoque \\
+Montagem & 14 ter indicação visual de montagem correta & 13 dispensar ferramenta especial para montar & 12 ter montagem em poucas etapas &  \\
+Armazenagem do produto &  &  & 15 ser compacto quando vazio; 16 ser empilhável no estoque & 17 resistir às intempéries de estocagem \\
+Venda &  &  &  &  \\
+Distribuição & 21 ser compatível com o arranjo de carga do veículo &  & 22 ocupar pouco espaço no transporte & 23 proteger o próprio produto até o distribuidor \\
+Uso no distribuidor & 26 acomodar as variações de louça do distribuidor & 24 ser de uso intuitivo, sem treinamento formal; 25 ter pontos de pega definidos &  &  \\
+Função & 28 amortecer impactos do transporte; 29 imobilizar a louça; 30 evitar atrito entre a louça e o produto; 31 permitir conferir a integridade da louça sem abrir &  &  &  \\
+Movimentação na obra &  & 32 ter dimensões compatíveis com as passagens da obra; 33 ter peso compatível com o transporte por duas pessoas; 34 permitir retirar a louça sem contato com aresta cortante & 35 ser estável quando apoiado no canteiro &  \\
+Manutenção &  & 38 ser de fácil limpeza &  &  \\
+Retorno &  &  & 39 ser dobrável ou desmontável para o retorno & 40 suportar ciclos repetidos de uso \\
+Descarte &  &  &  &  \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base em \citet{back2008} e nas necessidades da Tabela~\ref{tab:necessidades-consolidadas}.}
+\end{table}
+\clearpage
+\begin{table}[H]
+\caption{Matriz de atributos -- parte 2: confiabilidade, economia, modularidade e conformidade}
+\label{tab:matriz-atributos-2}
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}L{2.35cm}@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{\hspace{0.22cm}}Y@{}}
+\toprule
+\textbf{Fase do ciclo de vida} & \textbf{Confiabilidade} & \textbf{Econômico} & \textbf{Modularidade} & \textbf{Sustentabilidade e conformidade} \\
+\midrule
+Projeto &  &  & 1 ter peças modulares; 2 ter semelhança entre as peças; 3 ter poucos tipos de componentes &  \\
+Fabricação & 7 ter geometria repetível entre lotes & 5 ter matéria-prima acessível no mercado local &  &  \\
+Armazenagem de peças & 8 ter peças identificáveis visualmente &  &  &  \\
+Montagem &  &  & 11 ter encaixes intuitivos &  \\
+Armazenagem do produto &  &  &  &  \\
+Venda & 20 ter vida útil declarada em número de ciclos & 18 ter custo por ciclo inferior ao da avaria evitada & 19 ter configurações padronizadas &  \\
+Distribuição &  &  &  &  \\
+Uso no distribuidor & 27 ter indicação visual de fechamento correto &  &  &  \\
+Função &  &  &  &  \\
+Movimentação na obra &  &  &  &  \\
+Manutenção &  & 37 ter peça de reposição de baixo custo & 36 ter peças substituíveis individualmente &  \\
+Retorno &  &  &  & 41 ter identificação para rastreio do retorno \\
+Descarte &  &  &  & 42 ter materiais identificados; 43 ser de fácil desmontagem; 44 ter materiais recicláveis \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe com base em \citet{back2008} e nas necessidades da Tabela~\ref{tab:necessidades-consolidadas}.}
+\end{table}
+
+A leitura da matriz produziu três constatações. Primeira: \textit{funcionamento}, \textit{ergonomia e segurança} e \textit{eficiência operacional} concentram-se nas fases de uso no distribuidor, função e movimentação na obra --- exatamente o trecho delimitado como problema. A concentração confirma a coerência entre o recorte e o levantamento; se as necessidades tivessem se distribuído uniformemente pelo ciclo, o recorte estaria frouxo.
+
+Segunda: a fase \textit{função} concentra quatro necessidades, todas no atributo \textit{funcionamento}. É o núcleo do produto, e não por acaso são elas que lideram a priorização adiante.
+
+Terceira: as fases de projeto, fabricação, armazenagem e montagem concentram-se em \textit{modularidade}, \textit{confiabilidade} e \textit{econômico}, refletindo a estratégia ATO. Padronização e repetibilidade orientam essas fases; ergonomia também se aplica às interfaces de montagem e manutenção, além do manuseio no canteiro.
+
+\subsubsection{Técnica de Cenários}
+
+Parte das necessidades está redigida em termos que não permitem verificação --- amortecer, imobilizar, ser compacto, ser durável. A técnica de cenários trata desse caso: descreve uma cena concreta de uso a partir do dado original e dela extrai um requisito verificável, preservando o significado sem antecipar a solução \citep{back2008}. As cenas foram construídas a partir das situações registradas em campo e não descrevem episódios verificados individualmente.
+
+
+\footnotesize
+\begin{longtable}{@{}L{3.1cm}@{\hspace{0.3cm}}L{6.4cm}@{\hspace{0.3cm}}L{4.7cm}@{}}
+\caption{Matriz de transformação de dados originais em requisitos}\label{tab:cenarios}\\
+\toprule
+\textbf{Dado original} & \textbf{Cena} & \textbf{Requisito resultante} \\
+\midrule
+\endfirsthead
+\caption[]{Técnica de cenários -- continuação}\\
+\toprule
+\textbf{Dado original} & \textbf{Cena} & \textbf{Requisito resultante} \\
+\midrule
+\endhead
+Amortecer impactos do transporte (28) & Uma cuba viaja quarenta minutos em trecho de piso irregular, apoiada na lateral do baú, com outras cargas ao lado & Amortecer impactos do transporte (A) \\
+Imobilizar a louça (29) & O veículo freia em curva e a carga se desloca; o conjunto precisa permanecer na posição em que foi carregado & Imobilizar a louça (B) \\
+Ter dimensões compatíveis com as passagens da obra (32) & O carrinho não passa pela porta do apartamento; dois ajudantes levam o conjunto por um corredor estreito e um lance de escada & Ser de fácil movimentação (F) \\
+Permitir retirar a louça sem contato com aresta cortante (34) & O almoxarife encontra a peça trincada ao abrir o conjunto e precisa retirá-la sem tocar a borda quebrada & Ter retirada segura da louça (H) \\
+Ser de uso intuitivo, sem treinamento formal (24) & Um operador que nunca havia usado o produto prepara a primeira peça do turno sem consultar outra pessoa & Ser de uso intuitivo (I) \\
+Ser compacto quando vazio (15) & Entre entregas, os conjuntos vazios aguardam em um estoque já ocupado por louças e paletes & Ser compacto (J) \\
+Suportar ciclos repetidos de uso (40) & O mesmo conjunto retorna da obra pela décima vez e é separado para a entrega do dia seguinte & Ser reutilizável (O) \\
+Permitir conferir a integridade da louça sem abrir (31) & O motorista aguarda enquanto o almoxarife decide se assina o comprovante de entrega; a peça permanece fechada & Permitir conferência sem abrir (C) \\
+Ter custo por ciclo inferior ao da avaria evitada (18) & O comprador do distribuidor compara o preço do conjunto com o custo de repor uma peça avariada & Ter baixo custo por ciclo de uso (V) \\
+Ter materiais identificados (42) & Ao fim da vida útil, o responsável pelo resíduo precisa informar de que material o produto é feito para encaminhá-lo & Ter identificação visível (N) \\
+Ser adaptável às variações de louça (4) & O distribuidor recebe no mesmo pedido vasos, cubas e lavatórios, com massas e formatos diferentes & Ser ajustável a diferentes louças (D) \\
+Ser estável quando apoiado no canteiro (35) & A peça é pousada no piso irregular do canteiro enquanto o instalador prepara o ponto de fixação & Ser estável quando apoiado (W) \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe com base na matriz de transformação de \citet{back2008}.}
+
+\subsubsection{Lista de Requisitos dos Clientes}
+
+Com a matriz e os cenários aplicados, as necessidades foram convertidas em requisitos, eliminadas as redundâncias e classificadas pelos seis aspectos de desempenho funcional, fatores humanos, propriedades e espaço, confiabilidade, ciclo de vida e recursos de manufatura \citep{back2008,fonseca2000}. A redação é deliberadamente sucinta: o requisito carrega o tema, enquanto o detalhe permanece na necessidade de origem e no cenário. O agrupamento reúne temas comuns de volume, movimentação, reutilização e modularidade. Empilhamento (K) e estabilidade quando apoiado (W) são requisitos distintos: um trata da armazenagem e outro do tombamento no canteiro. Desempenho uniforme expressa o resultado esperado entre unidades; compactação descreve o efeito espacial sem prescrever um mecanismo dobrável.
+
+
+\footnotesize
+\begin{longtable}{@{}L{1.35cm}@{\hspace{0.35cm}}L{1.1cm}@{\hspace{0.35cm}}L{3.6cm}@{\hspace{0.35cm}}L{8.8cm}@{}}
+\caption{Requisitos dos clientes}\label{tab:requisitos-clientes}\\
+\toprule
+\textbf{ID} & \textbf{Letra} & \textbf{Aspecto} & \textbf{Requisito do cliente} \\
+\midrule
+\endfirsthead
+\caption[]{Requisitos dos clientes -- continuação}\\
+\toprule
+\textbf{ID} & \textbf{Letra} & \textbf{Aspecto} & \textbf{Requisito do cliente} \\
+\midrule
+\endhead
+RC-01 & A & Desempenho funcional & Amortecer impactos do transporte \\
+RC-02 & B & Desempenho funcional & Imobilizar a louça \\
+RC-03 & C & Desempenho funcional & Permitir conferência sem abrir \\
+RC-04 & D & Desempenho funcional & Ser ajustável a diferentes louças \\
+RC-05 & E & Desempenho funcional & Ser compatível com o veículo \\
+RC-06 & F & Fatores humanos & Ser de fácil movimentação \\
+RC-07 & G & Fatores humanos & Ter pontos de pega definidos \\
+RC-08 & H & Fatores humanos & Ter retirada segura da louça \\
+RC-09 & I & Fatores humanos & Ser de uso intuitivo \\
+RC-10 & J & Propriedades e espaço & Ser compacto \\
+RC-11 & K & Propriedades e espaço & Ser empilhável \\
+RC-12 & L & Confiabilidade & Ter desempenho uniforme \\
+RC-13 & M & Confiabilidade & Ter indicação visual de uso \\
+RC-14 & N & Confiabilidade & Ter identificação visível \\
+RC-15 & O & Ciclo de vida & Ser reutilizável \\
+RC-16 & P & Ciclo de vida & Ser resistente a intempéries \\
+RC-17 & Q & Ciclo de vida & Ter manutenção simples \\
+RC-18 & R & Ciclo de vida & Ser de fácil desmontagem \\
+RC-19 & S & Ciclo de vida & Ter materiais recicláveis \\
+RC-20 & T & Recursos e manufatura & Ter peças modulares \\
+RC-21 & U & Recursos e manufatura & Ter montagem em poucas etapas \\
+RC-22 & V & Recursos e manufatura & Ter baixo custo por ciclo de uso \\
+RC-23 & W & Propriedades e espaço & Ser estável quando apoiado \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração da equipe com base na classificação de aspectos de \citet{back2008} e na aba Rastreabilidade da planilha do grupo.}
+
+\subsubsection{Rastreabilidade entre Necessidades e Requisitos}
+
+A verificação foi feita nos dois sentidos: todo requisito possui ao menos uma necessidade de origem e toda necessidade aparece em ao menos um requisito. São 44 ligações para 44 necessidades e 23 requisitos. A dupla checagem evita os dois erros simétricos --- requisito sem lastro na voz do cliente e necessidade coletada que se perde antes do desdobramento da função qualidade.
+
+
+\footnotesize
+\begin{longtable}{@{}L{1.1cm}@{\hspace{0.35cm}}L{4.0cm}@{\hspace{0.35cm}}L{9.8cm}@{}}
+\caption{Rastreabilidade entre requisitos e necessidades}\label{tab:rastreabilidade}\\
+\toprule
+\textbf{Letra} & \textbf{Requisito do cliente} & \textbf{Necessidades de origem} \\
+\midrule
+\endfirsthead
+\caption[]{Rastreabilidade -- continuação}\\
+\toprule
+\textbf{Letra} & \textbf{Requisito do cliente} & \textbf{Necessidades de origem} \\
+\midrule
+\endhead
+A & Amortecer impactos do transporte & N-28 amortecer impactos do transporte \\
+B & Imobilizar a louça & N-29 imobilizar a louça; N-30 evitar atrito entre a louça e o produto \\
+C & Permitir conferência sem abrir & N-31 permitir conferir a integridade da louça sem abrir \\
+D & Ser ajustável a diferentes louças & N-04 ser adaptável às variações de louça; N-26 acomodar as variações de louça do distribuidor \\
+E & Ser compatível com o veículo & N-21 ser compatível com o arranjo de carga do veículo \\
+F & Ser de fácil movimentação & N-32 ter dimensões compatíveis com as passagens da obra; N-33 ter peso compatível com o transporte por duas pessoas \\
+G & Ter pontos de pega definidos & N-25 ter pontos de pega definidos \\
+H & Ter retirada segura da louça & N-34 permitir retirar a louça sem contato com aresta cortante \\
+I & Ser de uso intuitivo & N-24 ser de uso intuitivo, sem treinamento formal \\
+J & Ser compacto & N-15 ser compacto quando vazio; N-22 ocupar pouco espaço no transporte; N-39 ser dobrável ou desmontável para o retorno \\
+K & Ser empilhável & N-10 ter peças empilháveis; N-16 ser empilhável no estoque \\
+W & Ser estável quando apoiado & N-35 ser estável quando apoiado no canteiro \\
+L & Ter desempenho uniforme & N-07 ter geometria repetível entre lotes \\
+M & Ter indicação visual de uso & N-14 ter indicação visual de montagem correta; N-27 ter indicação visual de fechamento correto \\
+N & Ter identificação visível & N-08 ter peças identificáveis visualmente; N-41 ter identificação para rastreio do retorno; N-42 ter materiais identificados \\
+O & Ser reutilizável & N-20 ter vida útil declarada em número de ciclos; N-40 suportar ciclos repetidos de uso \\
+P & Ser resistente a intempéries & N-09 resistir à degradação por umidade no estoque; N-17 resistir às intempéries de estocagem; N-23 proteger o próprio produto até o distribuidor \\
+Q & Ter manutenção simples & N-36 ter peças substituíveis individualmente; N-38 ser de fácil limpeza \\
+R & Ser de fácil desmontagem & N-43 ser de fácil desmontagem \\
+S & Ter materiais recicláveis & N-44 ter materiais recicláveis \\
+T & Ter peças modulares & N-01 ter peças modulares; N-02 ter semelhança entre as peças; N-03 ter poucos tipos de componentes; N-19 ter configurações padronizadas \\
+U & Ter montagem em poucas etapas & N-11 ter encaixes intuitivos; N-12 ter montagem em poucas etapas; N-13 dispensar ferramenta especial para montar \\
+V & Ter baixo custo por ciclo de uso & N-05 ter matéria-prima acessível no mercado local; N-06 ter geometria simples de fabricar; N-18 ter custo por ciclo inferior ao da avaria evitada; N-37 ter peça de reposição de baixo custo \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração própria.}
+
+
+\subsection{Importância dos Requisitos}
+
+Os requisitos não pesam igual na satisfação do cliente, e não pesam igual pelo mesmo motivo. A disciplina prevê quatro instrumentos complementares: o diagrama de Kano, que classifica pela natureza da satisfação; o diagrama de Mudge, que atribui peso numérico por comparação pareada; o gráfico de Pareto, que separa os poucos requisitos que concentram a maior parte do peso; e o benchmarking competitivo, que situa o conjunto frente às soluções já em uso ou documentadas.
+
+\subsubsection{Diagrama de Kano}
+
+O diagrama de Kano distingue, na classificação adotada, três classes \citep{back2008}. Requisitos \textbf{básicos} são esperados e sua ausência gera insatisfação, mesmo quando não são espontaneamente verbalizados. Nos de \textbf{desempenho}, o atendimento crescente aumenta a satisfação. Os \textbf{atrativos} acrescentam um benefício que o cliente não espera; sua ausência não necessariamente gera insatisfação. Essas classes não estabelecem uma ordem automática de importância.
+
+A classificação distingue nove requisitos básicos, nove de desempenho e cinco atrativos. Essas categorias expressam julgamento de projeto sobre o contexto de uso e organizam a interpretação de satisfação, sem atribuir ao levantamento uma representatividade amostral.
+
+
+\begin{table}[H]
+\caption{Classificação dos requisitos pelo diagrama de Kano}
+\label{tab:kano}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.4cm}@{\hspace{0.35cm}}L{1.0cm}@{\hspace{0.35cm}}Y@{}}
+\toprule
+\textbf{Classe} & \textbf{Qtd.} & \textbf{Requisitos} \\
+\midrule
+Básico & 9 & A amortecer impactos do transporte; B imobilizar a louça; E ser compatível com o veículo; G ter pontos de pega definidos; H ter retirada segura da louça; K ser empilhável; N ter identificação visível; P ser resistente a intempéries; W ser estável quando apoiado \\
+Desempenho & 9 & D ser ajustável a diferentes louças; F ser de fácil movimentação; I ser de uso intuitivo; J ser compacto; L ter desempenho uniforme; R ser de fácil desmontagem; T ter peças modulares; U ter montagem em poucas etapas; V ter baixo custo por ciclo de uso \\
+Atrativo & 5 & C permitir conferência sem abrir; M ter indicação visual de uso; O ser reutilizável; Q ter manutenção simples; S ter materiais recicláveis \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir da aba Diagrama de Kano da planilha do grupo, com base em \citet{back2008}.}
+\end{table}
+
+\noindent Nove requisitos básicos descrevem o mínimo esperado no trecho: amortecer o impacto, imobilizar a louça, ser compatível com o veículo, definir a pega, retirar a peça sem contato com aresta cortante, empilhar, identificar, resistir à umidade e permanecer estável quando apoiado. Os atrativos reúnem conferência sem abrir, indicação visual de uso, reutilização, manutenção simples e materiais recicláveis. Perder comparação no Mudge não os retira do conjunto.
+
+\notaquadro{A identificação visível (N) foi mantida como básica. A embalagem atual já traz modelo, lado correto e advertência de frágil. A ausência desses elementos geraria insatisfação, e não surpresa.}
+
+\subsubsection{Diagrama de Mudge}
+
+Kano caracteriza a resposta esperada de satisfação; Mudge estabelece importância relativa. A distinção é necessária para tratar conflitos como proteção e volume, nos quais um ganho técnico pode elevar custo e ocupação de transporte. A priorização quantitativa complementa a classificação qualitativa.
+
+O Mudge produz esse número comparando os 23 requisitos dois a dois. Em cada par, duas perguntas: qual é mais importante para o sucesso do produto, e quanto mais importante. A resposta vale 5 (muito mais), 3 (mais), 1 (pouco mais) ou 0 (igual importância) \citep{back2008}. Com 23 requisitos são 253 comparações.
+
+\noindent\textbf{Base da comparação.} Para que os pares fossem consistentes entre si, a comparação apoiou-se em três critérios derivados do problema definido e das evidências de campo. Em 17 dos 253 pares a decisão se afastou dessa referência, e esses casos estão registrados na planilha de apoio.
+
+
+\begin{table}[H]
+\caption{Critérios de comparação adotados no diagrama de Mudge}
+\label{tab:criterios-mudge}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{1.1cm}@{\hspace{0.35cm}}L{3.0cm}@{\hspace{0.35cm}}Y@{}}
+\toprule
+\textbf{Sigla} & \textbf{Critério} & \textbf{O que mede} \\
+\midrule
+C1 & Avaria & Reduz diretamente a quebra no trecho distribuidor--obra \\
+C2 & Trabalhador & Reduz esforço, queda e exposição a corte \\
+C3 & Adoção & Determina o distribuidor comprar e usar: custo, ritmo e compatibilidade \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir do problema definido e das evidências de campo \citep{equipe2026}.}
+\end{table}
+
+\subsubsection{Gráfico de Pareto}
+
+A pontuação de cada requisito é a soma dos valores das comparações que venceu. O total distribuído foi de 577 pontos. Ordenados de forma decrescente e acumulados, os requisitos revelam quais concentram a maior parte do peso --- a aplicação do princípio 80/20 sobre a saída do Mudge.
+
+O grau de importância normaliza a pontuação em escala de 0 a 5: o requisito mais pontuado recebe grau 5 e os demais são ajustados proporcionalmente. Esse grau ordena a leitura do Pareto. Na quantificação da casa da qualidade, o peso utilizado é a pontuação bruta do Mudge, não o grau. Na classificação de Pareto, o requisito permanece na classe A enquanto a frequência acumulada do requisito anterior é inferior a 80\%. Por isso o décimo primeiro requisito, que leva o acumulado a 83,0\%, ainda é vital.
+
+
+\footnotesize
+\begin{longtable}{@{}L{0.9cm}@{\hspace{0.15cm}}L{4.9cm}@{\hspace{0.15cm}}L{1.25cm}@{\hspace{0.15cm}}L{2.05cm}@{\hspace{0.15cm}}L{1.05cm}@{\hspace{0.15cm}}L{1.6cm}@{\hspace{0.15cm}}L{1.85cm}@{}}
+\caption{Priorização dos requisitos: Mudge e Pareto}\label{tab:pareto}\\
+\toprule
+\textbf{Letra} & \textbf{Requisito do cliente} & \textbf{Pontos} & \textbf{Acumulado} & \textbf{Grau} & \textbf{Pareto} & \textbf{Kano} \\
+\midrule
+\endfirsthead
+\caption[]{Priorização dos requisitos -- continuação}\\
+\toprule
+\textbf{Letra} & \textbf{Requisito do cliente} & \textbf{Pontos} & \textbf{Acumulado} & \textbf{Grau} & \textbf{Pareto} & \textbf{Kano} \\
+\midrule
+\endhead
+A & Amortecer impactos do transporte & 78 & 13,5\% & 5 & A vital & Básico \\
+B & Imobilizar a louça & 77 & 26,9\% & 5 & A vital & Básico \\
+F & Ser de fácil movimentação & 70 & 39,0\% & 4 & A vital & Desempenho \\
+C & Permitir conferência sem abrir & 45 & 46,8\% & 3 & A vital & Atrativo \\
+G & Ter pontos de pega definidos & 37 & 53,2\% & 2 & A vital & Básico \\
+H & Ter retirada segura da louça & 37 & 59,6\% & 2 & A vital & Básico \\
+D & Ser ajustável a diferentes louças & 35 & 65,7\% & 2 & A vital & Desempenho \\
+E & Ser compatível com o veículo & 27 & 70,4\% & 2 & A vital & Básico \\
+W & Ser estável quando apoiado & 26 & 74,9\% & 2 & A vital & Básico \\
+V & Ter baixo custo por ciclo de uso & 25 & 79,2\% & 2 & A vital & Desempenho \\
+I & Ser de uso intuitivo & 22 & 83,0\% & 1 & A vital & Desempenho \\
+K & Ser empilhável & 17 & 86,0\% & 1 & B & Básico \\
+L & Ter desempenho uniforme & 16 & 88,7\% & 1 & B & Desempenho \\
+O & Ser reutilizável & 15 & 91,3\% & 1 & B & Atrativo \\
+J & Ser compacto & 14 & 93,8\% & 1 & B & Desempenho \\
+P & Ser resistente a intempéries & 11 & 95,7\% & 1 & B & Básico \\
+M & Ter indicação visual de uso & 10 & 97,4\% & 1 & B & Atrativo \\
+T & Ter peças modulares & 5 & 98,3\% & 1 & B & Desempenho \\
+U & Ter montagem em poucas etapas & 4 & 99,0\% & 1 & B & Desempenho \\
+Q & Ter manutenção simples & 3 & 99,5\% & 1 & B & Atrativo \\
+N & Ter identificação visível & 2 & 99,8\% & 1 & B & Básico \\
+R & Ser de fácil desmontagem & 1 & 100,0\% & 1 & B & Desempenho \\
+S & Ter materiais recicláveis & 0 & 100,0\% & 0 & B & Atrativo \\
+\midrule
+& \textbf{Total} & \textbf{577} & 100,0\% & & & \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração própria.}
+
+\noindent Onze dos 23 requisitos permanecem na classe A e acumulam 83,0\% da pontuação. O peso não se concentra em um único fator. Distribui-se entre proteger a louça, movimentá-la e tornar a solução compatível com o custo e com a operação do distribuidor.
+
+As três primeiras posições são amortecer, imobilizar e movimentar, o que mantém a priorização alinhada ao problema delimitado. Em seguida aparecem dois requisitos ligados às evidências de campo: permitir conferência sem abrir responde à avaria que só se revela no recebimento, e ter retirada segura responde à exposição do trabalhador a peças trincadas. O requisito W, separado de K, entra na classe A. Estabilidade no canteiro e empilhamento no estoque não são o mesmo requisito.
+
+\noindent\textbf{Kano e Mudge lidos em conjunto.} A classe Kano não determina quem vence o par no Mudge. Nesta comparação, C é atrativo e ficou em quarto lugar, com 45 pontos; N é básico e ficou em vigésimo primeiro, com 2 pontos; S é atrativo e recebeu zero. Os resultados mostram julgamentos de importância diferentes, não uma regra de que atrativos perdem ou de que básicos sempre lideram. S não contribui diretamente ao peso do cliente no QFD, mas a meta de reciclabilidade permanece no projeto.
+
+\subsubsection{Benchmarking Competitivo}
+
+O benchmarking situou os 23 requisitos frente a quatro referências: a embalagem de papelão do fabricante (R1), o engradado de madeira com calços (R2), a unitização com palete, filme stretch e cantoneiras (R3) e o sistema de encaixes de papelão da patente US9221577B2 (R4). A escala vai de 1 (péssimo) a 5 (ótimo) e foi aplicada a partir das evidências de campo e da especificação documental da patente.
+
+
+\begin{table}[H]
+\caption{Referências do benchmarking competitivo}
+\label{tab:bench-refs}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{1.0cm}@{\hspace{0.35cm}}L{4.2cm}@{\hspace{0.35cm}}Y@{}}
+\toprule
+\textbf{ID} & \textbf{Referência} & \textbf{Descrição} \\
+\midrule
+R1 & Embalagem de papelão do fabricante & Caixa com berço interno, uma viagem; padrão observado no estoque do distribuidor e no recebimento da obra \\
+R2 & Engradado de madeira com calços & Caixa de ripas com calços internos, usada em cargas especiais e longas distâncias \\
+R3 & Palete com filme e cantoneiras & Unitização da expedição: caixas sobre palete, filme stretch e cantoneiras \\
+R4 & Encaixes de papelão (US9221577B2) & Estado da arte documental: encaixes que posicionam bacia, caixa acoplada e tampa; reivindica cerca de 27\% menos volume \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração própria.}
+\end{table}
+
+O índice ponderado pelo Mudge, média das notas ponderada pela pontuação de cada requisito, situou as referências em 2,68 (R1), 2,98 (R2), 2,81 (R3) e 3,26 (R4). Nenhuma passa de regular para bom. As referências atendem partes do problema e deixam outras em aberto.
+
+Em \textit{permitir conferência sem abrir} (C), nenhuma referência recebe nota superior a 2. As soluções observadas são opacas e fechadas. Em \textit{ter montagem em poucas etapas} (U), as quatro notas são 1. Em identificação, reciclabilidade e compactação, o papelão atual e a patente recebem notas altas. Uma solução nova que piore esses pontos para ganhar proteção recua em relação ao que o mercado já entrega.
+
+\subsection{Comparativo entre os métodos utilizados}
+\label{sec:comparativo-metodos}
+
+O cruzamento Kano--Mudge evita interpretar a pontuação como autorização para eliminar um requisito. Kano descreve a resposta esperada de satisfação; Mudge expressa a importância relativa atribuída aos pares no recorte estudado. Pareto concentra a atenção nos pesos maiores, e benchmarking confronta o conjunto com as referências. Cada instrumento fornece uma informação distinta para a decisão.
+
+\begin{table}[H]
+\caption{Leitura cruzada dos resultados de Kano e Mudge}
+\label{tab:cruzamento-kano-mudge}
+\centering\scriptsize
+\begin{tabularx}{\textwidth}{L{3.8cm}L{1.8cm}L{1.9cm}Y}
+\toprule\textbf{Requisito}&\textbf{Kano}&\textbf{Mudge}&\textbf{Implicação para o projeto}\\\midrule
+A e B: amortecer e imobilizar&Básicos&78 e 77; 1º e 2º&Concentram proteção na geração e avaliação das soluções\\
+F: fácil movimentação&Desempenho&70; 3º&Proteção precisa funcionar com o esforço e o acesso do canteiro\\
+C: conferência sem abrir&Atrativo&45; 4º&Diferenciação com alta importância no recorte; exige acesso real à cerâmica\\
+K: empilhável&Básico&17; 12º&Fora dos onze vitais, mas compressão e empilhamento continuam exigidos\\
+N: identificação visível&Básico&2; 21º&Peso baixo não dispensa identificação e orientação de uso\\
+S: materiais recicláveis&Atrativo&0; 23º&Sem contribuição direta no QFD; a meta de fim de vida permanece\\
+\bottomrule\end{tabularx}
+\fonte{Abas Diagrama de Kano, Diagrama de Mudge e Diagrama de Pareto. Classes e comparações preliminares da equipe.}
+\end{table}
+
+A, B e F concentram 225 dos 577 pontos, ou 39,0\%, e justificam a ênfase inicial em proteção e movimentação. C mostra que um benefício classificado como atrativo pode receber importância elevada quando responde à avaria oculta. A prioridade não resolve seu princípio de solução: indicador de choque não inspeciona trinca. K e N mostram o caso inverso, em que a pontuação menor não remove uma condição de aceitação.
+
+O benchmarking amplia essa leitura: C recebeu no máximo nota 2 nas referências e, portanto, combina peso elevado com uma lacuna de conferência. Reciclabilidade e identificação já aparecem atendidas nas referências; melhorar proteção não justifica regredir nesses atributos. No QFD, a pontuação bruta do Mudge entra na quantificação; a classe Kano acompanha a interpretação, sem multiplicador ou alteração automática dos pesos. A morfológica e o Pugh devem preservar todos os requisitos e verificar as restrições, inclusive os de baixo peso.
+
+A aplicação conjunta preserva prioridades e condições de aceitação: os pesos concentram a decisão, enquanto requisitos de segurança, identidade e fim de vida permanecem exigências independentemente da posição no Pareto. Os resultados são julgamentos do contexto analisado, sem representar uma pesquisa estatística de mercado.
+
+
+\subsection{Desdobramento da Função Qualidade}
+
+O QFD recebe a lista de requisitos da Tabela~\ref{tab:requisitos-clientes}, a pontuação de Mudge da Tabela~\ref{tab:pareto} e a classe de Kano da Tabela~\ref{tab:kano}, e converte os requisitos dos clientes em requisitos de projeto mensuráveis. As matrizes de relacionamento e correlação explicitam intensidade, dependências e conflitos entre as características técnicas.
+
+\subsubsection{Requisitos do produto}
+
+Cada requisito do cliente foi traduzido em um requisito de projeto, com unidade, sentido de melhoria, parâmetro técnico, método de verificação e referência normativa. A correspondência é de um para um.
+
+
+\scriptsize
+\begin{longtable}{@{}L{1.05cm}@{\hspace{0.12cm}}L{0.7cm}@{\hspace{0.12cm}}L{2.15cm}@{\hspace{0.12cm}}L{1.35cm}@{\hspace{0.12cm}}L{3.15cm}@{\hspace{0.12cm}}L{5.55cm}@{}}
+\caption{Requisitos de projeto}\label{tab:requisitos-projeto}\\
+\toprule
+\textbf{RP} & \textbf{Letra} & \textbf{Unidade} & \textbf{Direção} & \textbf{Norma-chave} & \textbf{Parâmetro técnico} \\
+\midrule
+\endfirsthead
+\caption[]{Requisitos de projeto -- continuação}\\
+\toprule
+\textbf{RP} & \textbf{Letra} & \textbf{Unidade} & \textbf{Direção} & \textbf{Norma-chave} & \textbf{Parâmetro técnico} \\
+\midrule
+\endhead
+RP1 & A & g & $(-)$ & ASTM D5276 / D4169 & Pico de aceleração na peça em queda livre \\
+RP2 & B & mm & $(-)$ & ASTM D4169 / D999 & Deslocamento residual após ciclo de distribuição \\
+RP3 & F & N & $(-)$ & ISO 11228-2 & Força de partida do conjunto carregado \\
+RP4 & C & \% área crítica & $(+)$ & Evidência E-04 & Fração inspecionável sem abrir \\
+RP5 & G & un & $(+)$ & ISO 11228-1 & Pontos de pega com vão para mão enluvada \\
+RP6 & H & \% massa & $(+)$ & Ensaio próprio & Fragmentos retidos após quebra provocada \\
+RP7 & D & mm & $(+)$ & NBR 15097 & Amplitude aceita sem troca de componentes \\
+RP8 & E & \% palete & $(+)$ & NBR 8252 & Aproveitamento do palete PBR $1200\times1000$\,mm \\
+RP9 & W & $^\circ$ & $(+)$ & Ensaio de tombamento & Ângulo de tombamento do conjunto carregado \\
+RP10 & I & etapas & $(-)$ & Ensaio de uso & Etapas até o primeiro uso correto \\
+RP11 & K & kN & $(+)$ & ISO 12048 & Carga de compressão sem perda de proteção \\
+RP12 & L & \% CV & $(-)$ & Repetição D5276 & Coeficiente de variação do pico de aceleração \\
+RP13 & P & \% carga seca & $(-)$ & ASTM D4332 & Perda de compressão após 48\,h úmidas \\
+RP14 & J & m$^3$/peça & $(-)$ & Medição volumétrica & Volume do envoltório por peça \\
+RP15 & Q & min/ciclo & $(-)$ & Cronometragem & Tempo de limpeza, inspeção e reposição \\
+RP16 & M & m & $(+)$ & Ensaio de legibilidade & Distância de leitura de modelo e advertência \\
+RP17 & R & s & $(-)$ & Cronometragem & Tempo de desmontagem completa \\
+RP18 & O & ciclos & $(+)$ & Ensaio cíclico & Ciclos até falha funcional \\
+RP19 & S & \% massa & $(+)$ & Declaração de composição & Massa com cadeia de reciclagem estabelecida \\
+RP20 & T & módulos & $(+)$ & Contagem de interfaces & Módulos substituíveis de forma independente \\
+RP21 & N & un & $(+)$ & Verificação pós-ensaio & Identificador único por unidade \\
+RP22 & U & etapas & $(-)$ & Contagem de ações & Etapas de montagem e fechamento \\
+RP23 & V & R\$/ciclo & $(-)$ & Custeio do ciclo & Custo por ciclo de uso \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração própria.}
+
+\notaquadro{O RP23 mede o custo por ciclo. O benefício associado a esse custo está distribuído nos demais requisitos de projeto.}
+
+\subsubsection{Matriz de Relacionamento}
+
+A matriz cruza os 23 requisitos dos clientes com os 23 requisitos de projeto. A intensidade da relação vale 9 (forte), 3 (média), 1 (fraca) ou 0 (ausente). Como cada requisito de projeto é a medida do requisito do cliente da mesma linha, a diagonal está preenchida com 9. Nenhum requisito do cliente ficou sem relação, e nenhum requisito de projeto ficou sem requisito do cliente.
+
+\subsubsection{Quantificação}
+
+O valor de importância de cada RP corresponde à soma dos produtos entre pontuação de Mudge e intensidade de relacionamento. O total da casa é 12\,223 pontos. A importância relativa normaliza esse valor; a classificação ordena os RPs pelo peso técnico que exercem sobre a satisfação do cliente.
+
+
+\footnotesize
+\begin{longtable}{@{}L{1.05cm}@{\hspace{0.18cm}}L{5.35cm}@{\hspace{0.18cm}}L{2.15cm}@{\hspace{0.18cm}}L{1.85cm}@{\hspace{0.18cm}}L{1.35cm}@{}}
+\caption{Quantificação da casa da qualidade -- requisitos de projeto por importância}\label{tab:qfd-quant}\\
+\toprule
+\textbf{RP} & \textbf{Requisito do cliente associado} & \textbf{Importância} & \textbf{Relativa} & \textbf{Rank} \\
+\midrule
+\endfirsthead
+\caption[]{Quantificação da casa da qualidade -- continuação}\\
+\toprule
+\textbf{RP} & \textbf{Requisito do cliente associado} & \textbf{Importância} & \textbf{Relativa} & \textbf{Rank} \\
+\midrule
+\endhead
+RP1 & Amortecer impactos do transporte & 1\,255 & 10,3\% & 1 \\
+RP2 & Imobilizar a louça & 1\,041 & 8,5\% & 2 \\
+RP3 & Ser de fácil movimentação & 1\,008 & 8,2\% & 3 \\
+RP5 & Ter pontos de pega definidos & 902 & 7,4\% & 4 \\
+RP11 & Ser empilhável & 644 & 5,3\% & 5 \\
+RP7 & Ser ajustável a diferentes louças & 624 & 5,1\% & 6 \\
+RP12 & Ter desempenho uniforme & 618 & 5,1\% & 7 \\
+RP6 & Ter retirada segura da louça & 568 & 4,6\% & 8 \\
+RP13 & Ser resistente a intempéries & 553 & 4,5\% & 9 \\
+RP18 & Ser reutilizável & 532 & 4,4\% & 10 \\
+RP9 & Ser estável quando apoiado & 528 & 4,3\% & 11 \\
+RP4 & Permitir conferência sem abrir & 521 & 4,3\% & 12 \\
+RP14 & Ser compacto & 462 & 3,8\% & 13 \\
+RP23 & Ter baixo custo por ciclo de uso & 459 & 3,8\% & 14 \\
+RP15 & Ter manutenção simples & 441 & 3,6\% & 15 \\
+RP8 & Ser compatível com o veículo & 428 & 3,5\% & 16 \\
+RP16 & Ter indicação visual de uso & 419 & 3,4\% & 17 \\
+RP22 & Ter montagem em poucas etapas & 305 & 2,5\% & 18 \\
+RP10 & Ser de uso intuitivo & 254 & 2,1\% & 19 \\
+RP17 & Ser de fácil desmontagem & 205 & 1,7\% & 20 \\
+RP19 & Ter materiais recicláveis & 181 & 1,5\% & 21 \\
+RP20 & Ter peças modulares & 147 & 1,2\% & 22 \\
+RP21 & Ter identificação visível & 128 & 1,0\% & 23 \\
+\midrule
+& \textbf{Total} & \textbf{12\,223} & 100,0\% & \\
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Elaboração própria.}
+
+\noindent Os quatro primeiros requisitos de projeto tratam de proteção e manuseio: aceleração transmitida, imobilização, força para iniciar o movimento e pontos de pega. O RP11, carga de compressão, sobe na quantificação porque se relaciona com vários requisitos de pontuação intermediária, e não apenas com o requisito de empilhamento. O RP4, conferência sem abrir, passa da quarta posição no Pareto para a décima segunda na casa da qualidade: pesa para o cliente, mas se relaciona com poucas características além da própria. O RP19 permanece entre os últimos, embora receba relações fracas de outros requisitos, porque o requisito S tem pontuação nula no Mudge.
+
+\subsubsection{Matriz de Correlação}
+
+O teto da casa da qualidade registra a interação entre requisitos de projeto: $++$ (forte sinergia), $+$ (sinergia), $0$ (sem interação), $-$ (conflito) e $--$ (forte conflito). Das 253 células do triângulo superior, 72 estão em zero, 98 em sinergia e 83 em conflito, das quais quatro são fortes.
+
+
+\begin{table}[H]
+\caption{Conflitos fortes e sinergias críticas da matriz de correlação}
+\label{tab:correlacao}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.8cm}@{\hspace{0.3cm}}L{1.0cm}@{\hspace{0.3cm}}Y@{}}
+\toprule
+\textbf{Par} & \textbf{Corr.} & \textbf{Leitura de projeto} \\
+\midrule
+RP1 $\times$ RP7 & $--$ & Mais folga para amortecer conflita com amplitude de ajuste sem troca de componentes \\
+RP4 $\times$ RP6 & $--$ & Área vazada para conferir abre caminho de fuga para fragmentos \\
+RP3 $\times$ RP15 & $--$ & Facilitar a movimentação e acelerar o recondicionamento puxam decisões opostas de massa e interfaces \\
+RP7 $\times$ RP15 & $--$ & Amplitude de ajuste amplia superfícies e peças a limpar e inspecionar \\
+RP15 $\times$ RP20 & $++$ & Módulo trocável é o que torna o recondicionamento rápido \\
+RP15 $\times$ RP17 & $++$ & Recondicionar e desmontar compartilham o mesmo laço operacional \\
+RP21 $\times$ RP18 & $++$ & Sem identificador por unidade não há como contar ciclos alcançados \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração própria.}
+\end{table}
+
+\noindent Os quatro conflitos fortes pedem compensação, e as sinergias da mesma tabela indicam por onde ela passa. Folga zero amortece a peça e, ao mesmo tempo, prende o berço a um único modelo: servir a uma faixa de louças pede regulagem (RP1~$\times$~RP7). Área aberta permite conferir e também deixa o fragmento escapar (RP4~$\times$~RP6). Massa, interfaces e superfície a limpar encurtam o recondicionamento quando aumentam a força de movimentação ou a amplitude de ajuste (RP3~$\times$~RP15 e RP7~$\times$~RP15). No sentido oposto, a manutenção rápida se reforça com módulos substituíveis (RP20) e com desmontagem curta (RP17), e a contagem de ciclos (RP18) depende do identificador por unidade (RP21).
+
+O conflito registra um compromisso. As duas metas permanecem, e a de maior importância técnica é a restrição: ela não se relaxa para aliviar a outra. O meio de atender as duas ao mesmo tempo fica para o projeto conceitual, na modelagem funcional, na matriz morfológica e na matriz indicadora de módulos \citep{erixon1998}. É o mesmo encaminhamento da fase: a correlação nomeia a dualidade e fixa a restrição; a forma que a supre vem depois.
+
+
+\begin{table}[H]
+\caption{Compensação dos conflitos fortes}
+\label{tab:compensacao}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.3cm}@{\hspace{0.25cm}}L{4.3cm}@{\hspace{0.25cm}}Y@{}}
+\toprule
+\textbf{Par} & \textbf{Restrição} & \textbf{Compensação} \\
+\midrule
+RP1 $\times$ RP7 & RP1 (1\,255) prevalece sobre RP7 (624). A meta de aceleração permanece & A faixa de modelos sai da folga livre junto à peça. A matriz já indica a modularidade como saída: o que varia fica em módulo, a organizar na matriz indicadora de módulos \\
+RP4 $\times$ RP6 & RP6 (568) prevalece sobre RP4 (521). A retenção é básica; a conferência é atrativa & A área de conferência continua fechada para o fragmento. As duas metas permanecem \\
+RP3 $\times$ RP15 & RP3 (1\,008) prevalece sobre RP15 (441). A força de partida permanece em até 150\,N & O tempo de recondicionamento é buscado nas sinergias com módulos substituíveis (RP20) e com a desmontagem (RP17) \\
+RP7 $\times$ RP15 & RP7 (624) prevalece sobre RP15 (441). A amplitude permanece & O acréscimo de superfície a limpar fica em poucos módulos trocáveis, para manter os 5\,min por ciclo \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir da importância da Tabela~\ref{tab:qfd-quant}, das metas da Tabela~\ref{tab:especificacoes-meta} e das relações físicas entre requisitos.}
+\end{table}
+
+Além dos quatro conflitos fortes, seis conflitos simples incidem sobre o mesmo conjunto retornável: limpeza, estabilidade, variação entre unidades e identidade da peça.
+
+
+\begin{table}[H]
+\caption{Conflitos simples com razão física registrada}
+\label{tab:conflitos-simples}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.5cm}@{\hspace{0.25cm}}Y@{\hspace{0.25cm}}L{4.4cm}@{}}
+\toprule
+\textbf{Par} & \textbf{Razão} & \textbf{Restrição} \\
+\midrule
+RP6 $\times$ RP15 & A superfície que retém o fragmento dificulta a limpeza & RP6 (568) prevalece sobre RP15 (441) \\
+RP9 $\times$ RP17 & Fixação leve acelera a desmontagem e reduz o ângulo de tombamento & RP9 (528) prevalece sobre RP17 (205) \\
+RP12 $\times$ RP20 & Mais módulos aumentam a variação entre unidades & RP12 (618) prevalece sobre RP20 (147) \\
+RP6 $\times$ RP20 & A fresta entre módulos deixa passar fragmento & RP6 (568) prevalece sobre RP20 (147) \\
+RP9 $\times$ RP20 & A junta modular reduz a rigidez e a estabilidade & RP9 (528) prevalece sobre RP20 (147) \\
+RP20 $\times$ RP21 & Trocar o módulo pode apagar o identificador da unidade & O identificador fica na estrutura que não se troca: RP21 sustenta a contagem de ciclos (RP18, sinergia forte) \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaboração da equipe a partir das justificativas registradas na aba Matriz de Correlação da planilha do grupo.}
+\end{table}
+
+\noindent Os conflitos simples seguem a mesma regra de atenção à importância técnica e de preservação das duas metas. A importância técnica orienta a atenção ao par, sem dispensar a outra meta. A modelagem funcional, a TRIZ e a morfológica exploram meios de conciliar as exigências; a MIM apoia o agrupamento em módulos e a discussão das interfaces. A solução do conflito exige verificação conjunta das metas.
+
+\subsubsection{Análise dos Resultados do QFD}
+
+O resultado orienta o projeto conceitual em três pontos. A maior importância técnica está na proteção e no manuseio, correspondentes a RP1, RP2, RP3 e RP5. A conferência sem abrir permanece como lacuna em relação às referências, condicionada à retenção de fragmentos, conforme a Tabela~\ref{tab:compensacao}. A reutilização, a manutenção, a identificação da unidade e o custo por ciclo se reforçam: registrar a identidade da unidade permite acompanhar vida, manutenção e retorno para calcular o custo real. As dualidades da correlação --- aceleração e faixa de ajuste, conferência e retenção, movimentação e recondicionamento --- orientam a geração dos princípios e a verificação das concepções. Agrupar funções na MIM não demonstra atendimento simultâneo às metas.
+
+
+\subsection{Especificações Meta}
+
+As especificações-meta traduzem os requisitos em limites quantitativos e métodos de verificação. Sua fundamentação distingue dados de catálogo, resultados de cálculo e critérios escolhidos para o produto. As 23 metas formam o contrato técnico da solução; as referências de comparação caracterizam o problema, sem serem apresentadas como medições do dispositivo.
+
+
+\footnotesize
+\begin{longtable}{@{}L{1.0cm}@{\hspace{0.2cm}}L{5.5cm}@{\hspace{0.2cm}}L{4.2cm}@{\hspace{0.2cm}}L{2.4cm}@{}}
+\caption{Especificações-meta dos requisitos de projeto}\label{tab:especificacoes-meta}\\
+\toprule
+\textbf{RP} & \textbf{Meta de projeto} & \textbf{Linha de base (R1)} & \textbf{Origem da base} \\
+\midrule
+\endfirsthead
+\caption[]{Especificações-meta -- continuação}\\
+\toprule
+\textbf{RP} & \textbf{Meta de projeto} & \textbf{Linha de base (R1)} & \textbf{Origem da base} \\
+\midrule
+\endhead
+\linhasquadro{quadros/especificacoes-atuais}
+\bottomrule
+\end{longtable}
+\normalsize
+\fonte{Especificações do projeto e bases de referência. Fontes documentais e cálculos detalhados nas seções seguintes. Valores identificados como estimativa ou cenário não são resultados experimentais do dispositivo.}
+
+\notaquadro{O requisito S tem pontuação zero no Mudge. A meta do RP19 foi mantida porque a embalagem atual já é, em grande parte, reciclável, e a solução nova não deve piorar essa condição.}
+
+\subsubsection{Recorte dimensional de referência para as metas}
+
+O recorte de porte médio considera faixas de cubas e corpos individuais de bacias, apoiadas em fichas técnicas de fabricantes. A orientação considera uma louça por dispositivo. Kits com caixa montada e monoblocos não foram incorporados automaticamente. A Tabela~\ref{tab:mix-referencia} apresenta as faixas nominais de estudo; as faixas definem o envelope de aplicação, em vez de uma lista de modelos homologados \citep{celited5,decalk,planilhapsp62026}.
+
+\begin{table}[H]
+\caption{Mix e envelope de aplicação do dispositivo}
+\label{tab:mix-referencia}
+\centering\footnotesize
+\begin{tabularx}{\textwidth}{L{3.0cm}L{2.5cm}L{2.5cm}L{2.5cm}Y}
+\toprule\textbf{Família}&\textbf{A (mm)}&\textbf{B (mm)}&\textbf{H (mm)}&\textbf{Massa máxima}\\\midrule
+Cubas&350--600&300--420&80--200&15\,kg\\
+Corpos individuais de bacias&500--630&340--400&350--420&40\,kg\\
+\bottomrule\end{tabularx}
+\fonte{Faixas de aplicação e critérios dimensionais do projeto. A é a maior dimensão horizontal; B, a perpendicular; H, a altura.}
+\end{table}
+
+A reserva dimensional adotada é de $\pm10$\,mm, apoiada na advertência de tolerância aproximada da ficha Celite e aplicada como margem de engenharia \citep{celited5}. No conjunto das famílias, isso leva A de 340 a 640\,mm e B de 290 a 430\,mm. A amplitude em A é de 300\,mm; em B, de 140\,mm, para a qual foi adotado curso de 150\,mm. Esses resultados fundamentam os cursos do RP7 e delimitam a capacidade de acomodação requerida dos apoios.
+
+O orçamento externo de estudo é uma base de $680\times480$\,mm, com alturas carregadas de 275\,mm para cuba e 480\,mm para bacia. Os volumes calculados são 0,08976 e 0,156672\,m$^3$, que orientam os tetos por família do RP14. Três bases somam 0,9792\,m$^2$ e ocupam 81,6\% da área nominal do PBR $1200\times1000$\,mm \citep{abraspbr}; o mínimo preliminar do RP8 é 80\%, mantendo 90\% como alvo de otimização. O arranjo em T, com 10\,mm entre unidades, requer 970\,$\times$\,1\,170\,mm e comporta três peças por camada. A ocupação é geométrica; economia de frete depende também de massa, altura e condição real de carregamento.
+
+A reserva de massa do dispositivo é de 8\,kg; somada à bacia de 40\,kg, resulta em 48\,kg carregados. Dois níveis por 24\,h definem uma condição de avaliação, enquanto a capacidade nominal é estabelecida por compressão, estabilidade e duração de carregamento. Compatibilidade com o veículo abrange passagem, amarração e distribuição de carga. Os orçamentos delimitam espaço e massa do projeto, sem equivaler a limites de levantamento manual.
+
+\input{secoes/03a-fundamentacao}
+
+\subsection{Encerramento da Fase de Projeto Informacional}
+
+O projeto informacional estabelece 23 requisitos com metas e critérios de aceitação. O QFD concentra a prioridade em proteção e manuseio e explicita conflitos entre amortecimento, ajuste, inspeção, retenção e custo. Esse conjunto sustenta a comparação funcional.

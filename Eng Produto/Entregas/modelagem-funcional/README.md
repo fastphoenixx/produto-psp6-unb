@@ -24,7 +24,9 @@ Material usa linha contínua escura; energia, linha laranja; sinal, linha azul t
 
 Retirar a vantagem de imobilização reduz M1 para +2; retirar também a de inspeção reduz para −1. Confirmar RP2, RP4, RP6, preparo e custo completo. Nenhuma concepção física foi selecionada pela primeira Pugh.
 
-Nas etapas posteriores, os vínculos e encaminhamentos foram ajustados para M1. Princípios, concepções, portadores, agrupamentos e escores anteriores continuam estudos a revisar e completar para as 21 elementares e sete complementares antes da segunda Pugh. As metas e os valores numéricos da MIM e da segunda Pugh foram preservados.
+Em 04/11/2026, a planilha recebeu a morfológica das 21 elementares e sete complementares da M1: quatro alternativas físicas por função e três combinações exploratórias. A TRIZ explicita dez conflitos do QFD, os parâmetros e cruzamentos consultados, as analogias adicionais e a aplicação às funções. As 23 metas permanecem vinculadas como condições de aceitação. A síntese de Concepções lê a morfológica. Ver o [registro dos princípios de solução](../logs-ajustes/2026-11-04-principios-solucao/registro-ajustes.md).
+
+A definição de interfaces e a reavaliação de portadores, agrupamentos e escores da MIM ainda precedem a segunda Pugh. Os valores numéricos históricos da MIM e da segunda Pugh foram preservados. Nenhuma concepção física foi selecionada nesta etapa.
 
 ## Relatório integrado
 

@@ -1,0 +1,20 @@
+% !TeX program = xelatex
+\documentclass[12pt,a4paper,oneside]{article}
+
+\input{configuracao}
+\input{dados-projeto}
+\usepackage{bibentry}
+\bibliographystyle{plainnat}
+
+\begin{document}
+
+\input{secoes/00-elementos-pre-textuais}
+\input{secoes/01-introducao}
+\input{secoes/02-pre-desenvolvimento}
+\input{secoes/03-projeto-informacional}
+\input{secoes/04-projeto-conceitual}
+
+% Mantém as citações autor-data sem imprimir uma seção de referências.
+\nobibliography{referencias}
+
+\end{document}
