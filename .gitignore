@@ -46,3 +46,16 @@ Eng Produto/Engenharia de Produto - cópia/Curso/Livros/Ulrich & Eppinger 6 ed.p
 *.bak
 **/.~lock.*#
 ~$*
+
+# Acervo privado de provas e resumos recebidos
+# [Codex — 2026-10-04]
+03_Provas/
+
+# Figuras originais dos slides: acervo privado local
+# [Codex — 2026-10-04]
+02_Aulas/estudo/revisao-por-aulas/imagens/
+
+# Estudo pessoal: respostas, acervo de provas e scripts da coleção local
+02_Aulas/estudo/revisao-por-aulas/
+02_Aulas/estudo/caderno-2026-10-02/
+02_Aulas/estudo/Produto-e-PSP6-Anki.apkg

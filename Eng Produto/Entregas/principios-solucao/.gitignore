@@ -1,0 +1,4 @@
+build/
+__pycache__/
+*.zip
+!Principios_de_Solucao_Equipe_2_Fontes.zip

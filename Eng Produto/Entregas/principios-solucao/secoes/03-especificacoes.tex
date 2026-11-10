@@ -1,0 +1,69 @@
+\clearpage
+\section{Especificações-meta e cobertura conceitual}
+As metas dão critérios de comparação para as combinações e devem ser verificadas em ensaios. Os vínculos com as funções mostram onde cada requisito entra na geração de princípios.
+
+As 23 metas foram preservadas da base de projeto \citep{baseequipe2026}. São critérios preliminares da equipe: seus valores não representam desempenho comprovado nem são atribuídos, neste documento, a limites numéricos impostos pela disciplina. Dimensionamento, condições detalhadas de ensaio e avaliação conjunta das interfaces permanecem pendentes.
+
+\subsection{Proteção e uso}
+\begin{singlespace}
+\small
+\begin{longtable}{@{}L{0.075\linewidth} L{0.625\linewidth} L{\dimexpr0.30\linewidth-4\tabcolsep\relax}@{}}
+\caption{Especificações-meta: RP1 a RP12}\label{tab:metas1}\\
+\toprule\textbf{ID} & \textbf{Meta de projeto} & \textbf{Funções associadas}\\
+\midrule\endfirsthead
+\multicolumn{3}{l}{\small Quadro \thetable{} — continuação}\\
+\toprule\textbf{ID} & \textbf{Meta de projeto} & \textbf{Funções associadas}\\
+\midrule\endhead
+\midrule\multicolumn{3}{r}{\small Continua na próxima página.}\\\endfoot
+\bottomrule\endlastfoot
+RP1 & \(\leq\) 35 g de pico transmitido à louça, e sempre abaixo do resultado da embalagem atual no mesmo ensaio & E04, E05 \\ \addlinespace[3pt]
+RP2 & \(\leq\) 6 mm de deslocamento residual após o ciclo de distribuição & E01–E03, E12 \\ \addlinespace[3pt]
+RP3 & \(\leq\) 150 N de força de partida com o conjunto carregado, em piso de canteiro & E13, E14, E21 \\ \addlinespace[3pt]
+RP4 & \(\geq\) 60\% da área crítica verificável com o conjunto fechado & E07, E09, E16 \\ \addlinespace[3pt]
+RP5 & \(\geq\) 2 pontos de pega com vão livre compatível com mão enluvada & E13 \\ \addlinespace[3pt]
+RP6 & \(\geq\) 90\% da massa de fragmentos retida no interior & E07–E09, E19–E21 \\ \addlinespace[3pt]
+RP7 & \(\geq\) 300 mm no eixo A e \(\geq\) 150 mm no eixo B, sem troca de componentes no ajuste & E10–E12 \\ \addlinespace[3pt]
+RP8 & \(\geq\) 80\% de ocupação da área do PBR 1200 × 1000 mm; alvo de otimização \(\geq\) 90\% & Restrição geométrica \\ \addlinespace[3pt]
+RP9 & \(\geq\) 40° de ângulo de tombamento com o conjunto carregado & E15, E06, C05 \\ \addlinespace[3pt]
+RP10 & \(\leq\) 7 etapas até o primeiro uso correto, sem consultar instrução & E17; interação \\ \addlinespace[3pt]
+RP11 & \(\geq\) 7,5 kN de carga de compressão sem perda de proteção & E06, C02, C05 \\ \addlinespace[3pt]
+RP12 & \(\leq\) 10\% de coeficiente de variação do pico de aceleração & E04, E05, C04 \\ \addlinespace[3pt]
+\end{longtable}
+\fonte{Planilha da Equipe 2, base de 4 de novembro de 2026; metas preservadas do relatório recebido.}
+\end{singlespace}
+\clearpage
+\subsection{Durabilidade e ciclo de vida}
+\begin{singlespace}
+\small
+\begin{longtable}{@{}L{0.075\linewidth} L{0.625\linewidth} L{\dimexpr0.30\linewidth-4\tabcolsep\relax}@{}}
+\caption{Especificações-meta: RP13 a RP23}\label{tab:metas2}\\
+\toprule\textbf{ID} & \textbf{Meta de projeto} & \textbf{Funções associadas}\\
+\midrule\endfirsthead
+\multicolumn{3}{l}{\small Quadro \thetable{} — continuação}\\
+\toprule\textbf{ID} & \textbf{Meta de projeto} & \textbf{Funções associadas}\\
+\midrule\endhead
+\midrule\multicolumn{3}{r}{\small Continua na próxima página.}\\\endfoot
+\bottomrule\endlastfoot
+RP13 & \(\leq\) 12,5\% de perda da carga de compressão após 48 h em câmara úmida & E06; materiais e juntas \\ \addlinespace[3pt]
+RP14 & \(\leq\) 0,090 m\textsuperscript{3}/cuba e \(\leq\) 0,160 m\textsuperscript{3}/bacia individual, incluindo o dispositivo carregado & Restrição carregada; C01/C02 no vazio \\ \addlinespace[3pt]
+RP15 & \(\leq\) 5 min por ciclo de limpeza, inspeção e reposição & C03, C04, E08, E09 \\ \addlinespace[3pt]
+RP16 & \(\geq\) 5 m de distância de leitura do modelo, do lado correto e da advertência & E17, E18; sinalização \\ \addlinespace[3pt]
+RP17 & \(\leq\) 120 s de desmontagem completa, sem ferramenta dedicada & C06, E19, E20 \\ \addlinespace[3pt]
+RP18 & \(\geq\) 20 ciclos de reuso até a falha funcional & Todas as funções críticas \\ \addlinespace[3pt]
+RP19 & \(\geq\) 95\% da massa em materiais com cadeia de reciclagem estabelecida & C06, C07; materiais \\ \addlinespace[3pt]
+RP20 & \(\geq\) 3 módulos substituíveis de forma independente & C04, C05 \\ \addlinespace[3pt]
+RP21 & 1 identificador único por unidade, legível após o ensaio cíclico e o condicionamento úmido & E18 \\ \addlinespace[3pt]
+RP22 & \(\leq\) 6 etapas de montagem e fechamento & C05, E01, E07, E17 \\ \addlinespace[3pt]
+RP23 & \(\leq\) R\$ 15 por ciclo de uso, com teto econômico no custo médio da avaria evitada & Restrição econômica transversal \\ \addlinespace[3pt]
+\end{longtable}
+\fonte{Planilha da Equipe 2, base de 4 de novembro de 2026; metas preservadas do relatório recebido.}
+\end{singlespace}
+\subsection{Realização conceitual da sinalização de RP16}
+Para C1, C2 e C3, a realização pretendida de RP16 é a comunicação visual por inscrições ou sinalização aplicada à parte externa visível do conjunto: identificação textual do modelo, indicação do lado correto por palavra e símbolo direcional e advertência de manuseio por texto e pictograma contrastantes. O princípio é a leitura humana direta, sem depender de consulta a QR Code ou RFID.
+
+A indicação de fechamento em E17 comunica o estado dos fechos e não substitui orientação e advertência. A identidade única em E18 preserva o serial de RP21, mas também não substitui a sinalização de RP16. As funções E17/E18 permanecem associadas à sinalização; não se altera o catálogo de alternativas ou as escolhas das combinações.
+
+A meta de leitura a pelo menos 5 m permanece como critério a verificar. Dimensões das inscrições, contraste, posição definitiva e resistência ao desgaste serão especificados e avaliados com a definição da concepção. Este relatório estabelece o meio de realização e não a arte final da sinalização.
+
+\subsection{Limites da presente entrega}
+As referências de catálogo demonstram exemplos de mecanismos, não a adequação final do produto. Os princípios ainda precisam ser integrados, dimensionados e comparados nas mesmas condições de uso. Força de partida, volume carregado, estabilidade, retenção de fragmentos, durabilidade e custo permanecem como critérios de verificação. Não se declara concepção vencedora, protótipo validado ou atendimento já comprovado às metas.

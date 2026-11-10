@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-11-07T14:38:44.886948-03:00",
+  "document": "Principios_de_Solucao_Equipe_2.pdf",
+  "pdf_sha256": "7bf43db1b5fee99347a3d02d6837bff6dee68fd12b275b3b1a529e0b92c6c515",
+  "baseline_commit": "e7501e47a84b12e9b1f7703377ae4c8d2ee32f39",
+  "received_docx_sha256": "dfbbc3ca5ecc450c630906d6e63e242d00b53513c2b5839a232cfd9af3b3dd31",
+  "compile": {
+    "engine": "XeLaTeX",
+    "bibliography": "BibTeX/plainnat",
+    "exit_code": 0,
+    "pages": 17,
+    "landscape_matrix_pages": 7,
+    "final_pass_warnings": [],
+    "global_tex_config_modified": false
+  },
+  "integrity_tests": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0,
+    "scope": "local execution with original DOCX and final build log available"
+  },
+  "preserved": {
+    "functions": 28,
+    "option_descriptions": 112,
+    "combination_choices": 84,
+    "specification_targets_and_links": 23,
+    "original_TRIZ_cases": 10,
+    "embedded_images": 112,
+    "visual_source_hyperlink_occurrences": 184,
+    "source_hyperlink_labels_and_pdf_page_fragments": true
+  },
+  "checks_against_original": {
+    "direct_docx_descriptions_images_specifications_and_hyperlinks": true,
+    "workbook_descriptions_and_choices": true
+  },
+  "changes": [
+    "A2: explicit RP-to-TRIZ translation and separation rationale",
+    "A1: provisional economics and operational boundary",
+    "A3: conceptual human-readable RP16 signaling",
+    "A4: distributor preparation and M1 functional boundary"
+  ],
+  "visual_review": {
+    "rendered_pages": 17,
+    "reviewed_all_pages": true,
+    "annex_choices_readability_fixed": true,
+    "unresolved_clipping_or_overlaps_observed": false,
+    "contact_sheet_review_scope": "layout; exact content separately tested"
+  },
+  "protected_files_unchanged": {
+    "_inbox/Principios_de_Solucao_Equipe_2.docx": true,
+    "Eng Produto/Entregas/planilha/Planilha_PSP6_Grupo2_Loucas.xlsx": true,
+    "Eng Produto/Entregas/relatorio/Relatorio_Engenharia_Produto_Loucas.pdf": true,
+    "Eng Produto/Entregas/relatorio-ate-pugh/Relatorio_Engenharia_Produto_Loucas_ate_Pugh.pdf": true
+  },
+  "not_done": [
+    "No workbook or consolidated-report changes",
+    "No physical performance tests or full financial feasibility study",
+    "No re-audit of every manufacturer webpage",
+    "No commit, push, Drive upload or Overleaf publication"
+  ],
+  "portable_package": {
+    "entrypoint": "main.tex",
+    "compiler": "XeLaTeX",
+    "clean_room_check": {"status": "passed", "compilation_exit_code": 0, "same_17_page_text": true, "same_185_URI_annotations_including_bibliography": true, "tests_run": 11, "tests_passed": 10, "tests_skipped": 1, "skip_reason": "Private original DOCX intentionally absent from the portable ZIP"}
+  }
+}

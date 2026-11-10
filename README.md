@@ -12,6 +12,7 @@ O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias 
 - `Eng Produto/docs/`: sínteses metodológicas e referências.
 - `Eng Produto/Entregas/planilha/`: planilha operacional atual do projeto.
 - `Eng Produto/Entregas/relatorio/`: relatório e fontes editáveis.
+- [Princípios de solução — edição revisada em 07/11/2026](Eng%20Produto/Entregas/principios-solucao/README.md): relatório avulso em PDF, fontes LaTeX e pacote editável; não substitui a planilha nem o relatório consolidado.
 - `Eng Produto/Entregas/VALIDACAO-CADEIA-PROBLEMA-QFD.md`: auditoria metodológica da cadeia de requisitos.
 - `DISCIPLINA.md`: cronograma e regras acadêmicas relevantes.
 - `MAPA.md`: visão rápida do projeto e dos próximos passos.
@@ -19,3 +20,9 @@ O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias 
 ## Privacidade e direitos autorais
 
 Conversas, entrevistas identificáveis, registros de campo, fotografias recebidas, dados pessoais, livros, materiais distribuídos em aula e exemplos de outras equipes não integram a versão pública. Esses itens permanecem somente no acervo privado local.
+
+## Provas antigas — acervo local
+
+Material recebido em `03_Provas/p1/`, com inventário e dois simulados para 04/10/2026 (`03_Provas/p1/TREINO-2026-10-04.md`). Esses caminhos, as compilações e os resumos pertencem ao acervo privado local e não estão disponíveis na versão pública.
+
+*[Codex — 2026-10-04]*

@@ -1,0 +1,2272 @@
+{
+  "source_file": "Principios_de_Solucao_Equipe_2.docx",
+  "source_sha256": "dfbbc3ca5ecc450c630906d6e63e242d00b53513c2b5839a232cfd9af3b3dd31",
+  "baseline_commit": "e7501e47a84b12e9b1f7703377ae4c8d2ee32f39",
+  "functions": [
+    {
+      "id": "E01",
+      "name": "Travar apoios",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E01.1",
+          "description": "Pino cativo em furos indexados do carro de apoio.",
+          "image": "figuras/E01.1.png",
+          "sha256": "3770efcd27ee5ac9cb86f6957c3369cb4f206273c374ad5911a4f92d62c5b6a8",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess"
+            }
+          ]
+        },
+        {
+          "id": "E01.2",
+          "description": "Came sobre-centro com batente de curso e trava secundária.",
+          "image": "figuras/E01.2.png",
+          "sha256": "a5c4a775a0d24c12c5d23cc01975ca0f06b123bfe05a46e3d9c6c5194fff3331",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-927.5-Stainless-Steel-Clamping-Levers-with-Eccentrical-Cam-with-Plastic-Contact-Plate-Tapped-Type"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-761.1-Steel-Stainless-Steel-Toggle-Latches-with-Safety-Mechanism"
+            }
+          ]
+        },
+        {
+          "id": "E01.3",
+          "description": "Cunha de quarto de volta bloqueando o apoio na guia.",
+          "image": "figuras/E01.3.png",
+          "sha256": "d21032e53e5c9966dc6e7a568f5958c92adf74c00d240b44c737c87acac4505a",
+          "links": [
+            {
+              "label": "a JW Winco p. 1",
+              "url": "https://live-catalog.jwwinco.com/pdf/winco/US/920_1.pdf#page=1"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-115-Stainless-Steel-Cam-Latches-with-Stainless-Steel-Operating-Elements"
+            }
+          ]
+        },
+        {
+          "id": "E01.4",
+          "description": "Fuso autotravante com bloqueio positivo secundário.",
+          "image": "figuras/E01.4.png",
+          "sha256": "328680d1e20caa5b45b0857323e5e345e4d9aa7258ba2b3eec1d0c1fc492fc83",
+          "links": [
+            {
+              "label": "a igus",
+              "url": "https://www.igus.eu/drive-technology/xy-table/tbi-xy"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-417-Stainless-Steel-Indexing-Plunger-Latch-Mechanisms-Lock-Out-and-Non-Lock-Out-with-Knob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "Distribuir pressão",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E02.1",
+          "description": "Sapatas largas com revestimento celular removível.",
+          "image": "figuras/E02.1.png",
+          "sha256": "f9b770d692b2f8ed64c5bbb2921844c9cef542f15ebdc12ba8ef2027cfc632ef",
+          "links": [
+            {
+              "label": "Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            }
+          ]
+        },
+        {
+          "id": "E02.2",
+          "description": "Sapatas côncavas flutuantes com camada resiliente contínua.",
+          "image": "figuras/E02.2.png",
+          "sha256": "5bada791a5ca9ecd5f7f7cf4996f3e2e8163ae24e9341761008a4286010b1491",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-903-Stainless-steel-Toggle-Clamp-Spindle-Assemblies-with-Swivel-Thrust-Pad"
+            },
+            {
+              "label": "b ACE",
+              "url": "https://www.acecontrols.com/us/products/automation-control.html"
+            }
+          ]
+        },
+        {
+          "id": "E02.3",
+          "description": "Faixas largas sobre selas conformáveis, sem contato de ferragens.",
+          "image": "figuras/E02.3.png",
+          "sha256": "6f23d8b993d88491478cebd5e0b30310eb664ab80dea20b34f0e487a3775e07c",
+          "links": [
+            {
+              "label": "a Ancra",
+              "url": "https://ancracargo.com/utility-tie-downs/cam-buckle-strap-packs/"
+            },
+            {
+              "label": "b Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            }
+          ]
+        },
+        {
+          "id": "E02.4",
+          "description": "Bolsas pneumáticas multicâmara com limite de pressão.",
+          "image": "figuras/E02.4.png",
+          "sha256": "77ba3cd53df123bbdb2697718d50bd539b45d887a4c1ab3ea2dfb792c3dcc0c6",
+          "links": [
+            {
+              "label": "a Pronal",
+              "url": "https://pronal-liftingbag.com/"
+            },
+            {
+              "label": "b Pronal",
+              "url": "https://pronal-liftingbag.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "Restringir movimento",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E03.1",
+          "description": "Cintas de baixa extensão com tensão limitada pelos batentes.",
+          "image": "figuras/E03.1.png",
+          "sha256": "e887e3d0ea182a801e2c1b4eedd28409a2bd9e50b653236800a032a949071997",
+          "links": [
+            {
+              "label": "Ancra",
+              "url": "https://ancracargo.com/utility-tie-downs/cam-buckle-strap-packs/"
+            }
+          ]
+        },
+        {
+          "id": "E03.2",
+          "description": "Braços opostos com batentes acolchoados e curso limitado.",
+          "image": "figuras/E03.2.png",
+          "sha256": "d0a77107e02b152ba7def60cb64d645e5eb7f4e35b26264934b52e1f740f0027",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-820.3-Stainless-Steel-Horizontal-Acting-Toggle-Clamps-with-Safety-Hook-with-Horizontal-Mounting-Base"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-631.2-NBR-Thrust-Pads-for-Standard-Parts-with-Ball-Thrust-Point"
+            }
+          ]
+        },
+        {
+          "id": "E03.3",
+          "description": "Painéis reguláveis com batentes protegidos e faixa de retenção.",
+          "image": "figuras/E03.3.png",
+          "sha256": "c72ca4a4f9148029d78277149ed60e4fe945c56252549768e1f4f6d1acffddb0",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            },
+            {
+              "label": "b Ancra",
+              "url": "https://ancracargo.com/utility-tie-downs/cam-buckle-strap-packs/"
+            }
+          ]
+        },
+        {
+          "id": "E03.4",
+          "description": "Berço de três apoios com retenção superior limitada.",
+          "image": "figuras/E03.4.png",
+          "sha256": "e95c60eb6df30f9634055b719b4c2ad3ea6bbb537e5a943bed6d17b1e2669cbd",
+          "links": [
+            {
+              "label": "a Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            },
+            {
+              "label": "b Ancra",
+              "url": "https://ancracargo.com/utility-tie-downs/cam-buckle-strap-packs/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "name": "Absorver impacto",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E04.1",
+          "description": "Cartuchos de espuma celular reutilizável trabalhando em compressão.",
+          "image": "figuras/E04.1.png",
+          "sha256": "820cb072e895ceb01ceb52b558200236228d3101e1bc2b8d0b71ce127b45904e",
+          "links": [
+            {
+              "label": "Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            }
+          ]
+        },
+        {
+          "id": "E04.2",
+          "description": "Células de elastômero dissipando energia por histerese.",
+          "image": "figuras/E04.2.png",
+          "sha256": "a32fcc06b0dcd5c906f3eb14461ed3db2a3bf4a40d127f94d619a8bea91db316",
+          "links": [
+            {
+              "label": "ACE",
+              "url": "https://www.acecontrols.com/us/products/automation-control.html"
+            }
+          ]
+        },
+        {
+          "id": "E04.3",
+          "description": "Lâminas flexíveis com amortecedor e limitador de fim de curso.",
+          "image": "figuras/E04.3.png",
+          "sha256": "3eb52049bb9127506cb1e5ca6a7f174a2395a2de35d950dee67f548a5daa813d",
+          "links": [
+            {
+              "label": "a Smalley",
+              "url": "https://www.smalley.com/wave-springs/linear-springs"
+            },
+            {
+              "label": "b ACE",
+              "url": "https://www.acecontrols.com/us/products/automation-control.html"
+            }
+          ]
+        },
+        {
+          "id": "E04.4",
+          "description": "Câmaras de ar reutilizáveis com alívio de pressão.",
+          "image": "figuras/E04.4.png",
+          "sha256": "6c87c5d95a316b8ce07fb93cacd3d1b20b6234121c8e42bd31acf00b8ee42bdf",
+          "links": [
+            {
+              "label": "a Pronal",
+              "url": "https://pronal-liftingbag.com/"
+            },
+            {
+              "label": "b Pronal",
+              "url": "https://pronal-liftingbag.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "name": "Isolar vibração",
+      "choices": [
+        1,
+        2,
+        2
+      ],
+      "options": [
+        {
+          "id": "E05.1",
+          "description": "Camada resiliente entre o berço e a base estrutural.",
+          "image": "figuras/E05.1.png",
+          "sha256": "247751bfcb4a8c51c39a62ddc8c24a81dcb9bbd81ac0d2aee960628255b93481",
+          "links": [
+            {
+              "label": "ACE",
+              "url": "https://www.acecontrols.com/us/products/automation-control.html"
+            }
+          ]
+        },
+        {
+          "id": "E05.2",
+          "description": "Isoladores de elastômero solicitados em cisalhamento.",
+          "image": "figuras/E05.2.png",
+          "sha256": "879609a5c6df71fa8a29a68946eec2383cb55a91f35ed460590618827800cfc0",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-454-Vibration-Shock-Absorption-Mounts-with-Stainless-Steel-Retaining-Washer"
+            }
+          ]
+        },
+        {
+          "id": "E05.3",
+          "description": "Suspensão por tirantes flexíveis com amortecimento e batentes.",
+          "image": "figuras/E05.3.png",
+          "sha256": "e62ce6539b75ab23c0a22ffef3a830a427ca6217837d369403fc20541642b3d5",
+          "links": [
+            {
+              "label": "a Ancra",
+              "url": "https://ancracargo.com/utility-tie-downs/cam-buckle-strap-packs/"
+            },
+            {
+              "label": "b ACE",
+              "url": "https://www.acecontrols.com/us/products/automation-control.html"
+            }
+          ]
+        },
+        {
+          "id": "E05.4",
+          "description": "Isoladores de cabo metálico com apoio protegido.",
+          "image": "figuras/E05.4.png",
+          "sha256": "442fcf39177966d0384b4047df54affb64e9197e55ffa520497bc8ec12a786fe",
+          "links": [
+            {
+              "label": "EKD",
+              "url": "https://www.vibroabsorber.com/products/wire-rope-vibration-isolators/wr-wire-rope-vibration-isolators"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "name": "Desviar compressão",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E06.1",
+          "description": "Colunas periféricas e travessa conduzindo carga entre bases.",
+          "image": "figuras/E06.1.png",
+          "sha256": "d6822a61f55d04a14e8c89caf12be058a8c487ce0daea02930960e59eb18b738",
+          "links": [
+            {
+              "label": "SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            }
+          ]
+        },
+        {
+          "id": "E06.2",
+          "description": "Pórticos telescópicos com batentes resistentes fora da peça.",
+          "image": "figuras/E06.2.png",
+          "sha256": "d2a23b1b9df72aedb2b14290a75967c4035a6be1a296871e34e73b8e1b66e4ad",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel"
+            },
+            {
+              "label": "b SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            }
+          ]
+        },
+        {
+          "id": "E06.3",
+          "description": "Quadros laterais articulados com travamento estrutural.",
+          "image": "figuras/E06.3.png",
+          "sha256": "0449e2a6c8f04fc90bb166eee3da1251133e7497c39f55ed7d631b05965cc233",
+          "links": [
+            {
+              "label": "a KIGA",
+              "url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-761.1-Steel-Stainless-Steel-Toggle-Latches-with-Safety-Mechanism"
+            }
+          ]
+        },
+        {
+          "id": "E06.4",
+          "description": "Arcos externos removíveis com conexões de carga positivas.",
+          "image": "figuras/E06.4.png",
+          "sha256": "bcf88b41f9cd80c658b01fa5770596226cb40f86ee74dd2af74fe829628762b8",
+          "links": [
+            {
+              "label": "a SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-273-Stainless-Steel-Swivel-Clamp-Connectors-Round-Bore-Type"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "name": "Envolver louça",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E07.1",
+          "description": "Envoltório flexível contínuo fixado à bandeja, com zonas transparentes.",
+          "image": "figuras/E07.1.png",
+          "sha256": "982c4d952a5b33c650fd1223d1986891b73daf4d00e7981ce1c978ffcb5b2038",
+          "links": [
+            {
+              "label": "a AmCraft p. 5",
+              "url": "https://media.amcraftindustrialcurtainwall.com/wp-content/uploads/2017/06/AmCraft-Manufacturing-Industrial-Curtain-Catalogue.pdf#page=5"
+            },
+            {
+              "label": "b UltraTech",
+              "url": "https://spillcontainment.com/products/ultra-utility-tray/"
+            }
+          ]
+        },
+        {
+          "id": "E07.2",
+          "description": "Painéis transparentes contínuos em quadro periférico.",
+          "image": "figuras/E07.2.png",
+          "sha256": "6776fb5e5474b3601f2390b875ab8b3066b5951ae5157f296237789d6cad70ef",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Accessories-Other.html"
+            },
+            {
+              "label": "b Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            }
+          ]
+        },
+        {
+          "id": "E07.3",
+          "description": "Painéis rebatíveis com inserções transparentes e saia interna.",
+          "image": "figuras/E07.3.png",
+          "sha256": "a22e25ae5dbed6d800a3e2a37c26d8b529f3c4abdeeff9f83545a216354c3e9c",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Accessories-Other.html"
+            }
+          ]
+        },
+        {
+          "id": "E07.4",
+          "description": "Capota transparente removível, afastada da cerâmica.",
+          "image": "figuras/E07.4.png",
+          "sha256": "085ccc0c9ebaea314b2b802c251060fe35639682a6af626492aae2858e5a4a83",
+          "links": [
+            {
+              "label": "a AmCraft p. 5",
+              "url": "https://media.amcraftindustrialcurtainwall.com/wp-content/uploads/2017/06/AmCraft-Manufacturing-Industrial-Curtain-Catalogue.pdf#page=5"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "name": "Reter fragmentos",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E08.1",
+          "description": "Bandeja com borda elevada e bolso interno resistente à perfuração.",
+          "image": "figuras/E08.1.png",
+          "sha256": "ef9b55ccb054a50770df15d3e0ca4f9e4c0ddfc17470af5f4650a6d4aece3f33",
+          "links": [
+            {
+              "label": "a UltraTech",
+              "url": "https://spillcontainment.com/products/ultra-utility-tray/"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/de/Standard-Inliner.html"
+            }
+          ]
+        },
+        {
+          "id": "E08.2",
+          "description": "Cuba coletora rígida com forro substituível.",
+          "image": "figuras/E08.2.png",
+          "sha256": "538891ad767f5d950473c22ec74857f4f401b9c6deea0ade4fda264b5222cccb",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/de/Standard-Inliner.html"
+            }
+          ]
+        },
+        {
+          "id": "E08.3",
+          "description": "Bolsa coletora contínua retida na base e nos painéis.",
+          "image": "figuras/E08.3.png",
+          "sha256": "27ce5ade0dd6295ec3032e0a4fdcdc0c8f06033454fe3b765edaba54559bcee6",
+          "links": [
+            {
+              "label": "AUER",
+              "url": "https://www.auer-packaging.com/de/Standard-Inliner.html"
+            }
+          ]
+        },
+        {
+          "id": "E08.4",
+          "description": "Dupla barreira transparente com camada interna substituível.",
+          "image": "figuras/E08.4.png",
+          "sha256": "9649eab54acfd437f515200eb5b4c87d5472e9b3db800b0d54d84edf94a6c1b2",
+          "links": [
+            {
+              "label": "a AmCraft p. 5",
+              "url": "https://media.amcraftindustrialcurtainwall.com/wp-content/uploads/2017/06/AmCraft-Manufacturing-Industrial-Curtain-Catalogue.pdf#page=5"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Accessories-Other.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "name": "Vedar juntas",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E09.1",
+          "description": "Saias flexíveis sobrepostas com retenção nas extremidades.",
+          "image": "figuras/E09.1.png",
+          "sha256": "0f97e0e3452b516fed582c922a7c48134032738bd54d508357bfa8d09d48652a",
+          "links": [
+            {
+              "label": "Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            }
+          ]
+        },
+        {
+          "id": "E09.2",
+          "description": "Junta macho-fêmea com vedante removível protegido.",
+          "image": "figuras/E09.2.png",
+          "sha256": "7a1afca385de0e94287e93c7cfb141bc0acb4653339e89a4b99e86dd2f4cac2c",
+          "links": [
+            {
+              "label": "Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            }
+          ]
+        },
+        {
+          "id": "E09.3",
+          "description": "Juntas em labirinto com forro interno contínuo.",
+          "image": "figuras/E09.3.png",
+          "sha256": "dbf006b52c86df781b472b4dc23783ca90e0a0173179c2a1ac142ece7170accc",
+          "links": [
+            {
+              "label": "a Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/de/Standard-Inliner.html"
+            }
+          ]
+        },
+        {
+          "id": "E09.4",
+          "description": "Perfil de fechamento contínuo com cobertura interna da junta.",
+          "image": "figuras/E09.4.png",
+          "sha256": "70ce9bf6960244a4932be925f2ad9649b252e211ae9c9556510f2d591fee765e",
+          "links": [
+            {
+              "label": "Zippertubing",
+              "url": "https://www.zippertubing.com/collections/closures"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "name": "Receber louça",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E10.1",
+          "description": "Berço aberto superiormente, apoiado sobre bandeja coletora.",
+          "image": "figuras/E10.1.png",
+          "sha256": "e24c99c018c6e84ab2a3899b729389e9639c250986106f996eec31a7726b1ca2",
+          "links": [
+            {
+              "label": "a Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            },
+            {
+              "label": "b UltraTech",
+              "url": "https://spillcontainment.com/products/ultra-utility-tray/"
+            }
+          ]
+        },
+        {
+          "id": "E10.2",
+          "description": "Bandeja de carga frontal guiada e travável.",
+          "image": "figuras/E10.2.png",
+          "sha256": "61f75aaa9d189c59b5df90771ddff335e39baa4650aafcafc60aa8abfbb1238c",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-1450-Stainless-Steel-Telescopic-Slides-with-Full-Extension-Load-Capacity-up-to-108-lbf"
+            },
+            {
+              "label": "b UltraTech",
+              "url": "https://spillcontainment.com/products/ultra-utility-tray/"
+            }
+          ]
+        },
+        {
+          "id": "E10.3",
+          "description": "Lateral rebatível que libera acesso à base de apoio.",
+          "image": "figuras/E10.3.png",
+          "sha256": "66b0684c321f7f973c7f1be79a40b9ed89616abde1ae393f6f6a44b978df7c9a",
+          "links": [
+            {
+              "label": "AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            }
+          ]
+        },
+        {
+          "id": "E10.4",
+          "description": "Cobertura separável assentada sobre base portadora.",
+          "image": "figuras/E10.4.png",
+          "sha256": "dec8ebabf5d662ad0ffacdb2d6e196f23f6f93cd8aa25d8327977b0928f1cb06",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "name": "Ajustar apoios",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E11.1",
+          "description": "Carros cativos em guias ortogonais, com regulagem nos dois eixos.",
+          "image": "figuras/E11.1.png",
+          "sha256": "49b621c1498511cbcf7b3df0a63faf81469a517c75478643c81b747f00f49298",
+          "links": [
+            {
+              "label": "igus",
+              "url": "https://www.igus.eu/drive-technology/xy-table/tbi-xy"
+            }
+          ]
+        },
+        {
+          "id": "E11.2",
+          "description": "Braços telescópicos independentes nos eixos A e B.",
+          "image": "figuras/E11.2.png",
+          "sha256": "f4a55096fa0db3ceb8231eb8cef9e5dd526e2da067d5a7dd015b1b30cab53c36",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel"
+            }
+          ]
+        },
+        {
+          "id": "E11.3",
+          "description": "Braços articulados com rasgos de regulagem e trava.",
+          "image": "figuras/E11.3.png",
+          "sha256": "16e6f34ae671bf18de536c9c738dc6d578eeaa412cc03fe5b793390945a2e16c",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-281-Stainless-Steel-Swivel-Clamp-Connector-Joints"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-927.5-Stainless-Steel-Clamping-Levers-with-Eccentrical-Cam-with-Plastic-Contact-Plate-Tapped-Type"
+            }
+          ]
+        },
+        {
+          "id": "E11.4",
+          "description": "Fusos sincronizados movimentando pares de apoios opostos.",
+          "image": "figuras/E11.4.png",
+          "sha256": "056041dc648e9c6df4bd466cec2badc02d7d756a5a1a4c62940d54f165b49f61",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-292-Steel-Linear-Actuators-With-Left-and-Right-Hand-Thread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "name": "Posicionar louça",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E12.1",
+          "description": "Três apoios largos e referências mecânicas de posicionamento.",
+          "image": "figuras/E12.1.png",
+          "sha256": "99a3612e99f1d67046b0759f249bbdc8046929b0050ea1847d19af4d4119670c",
+          "links": [
+            {
+              "label": "a Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-417-Stainless-Steel-Indexing-Plunger-Latch-Mechanisms-Lock-Out-and-Non-Lock-Out-with-Knob"
+            }
+          ]
+        },
+        {
+          "id": "E12.2",
+          "description": "Berço em V com apoios protegidos em zonas resistentes da peça.",
+          "image": "figuras/E12.2.png",
+          "sha256": "841fed2e8244a5df5f61dd830e6cdc0d1681dddff1ce3dfca2cfe3fec0e13cfd",
+          "links": [
+            {
+              "label": "KIGA",
+              "url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars"
+            }
+          ]
+        },
+        {
+          "id": "E12.3",
+          "description": "Selas articuladas que se acomodam à geometria cerâmica.",
+          "image": "figuras/E12.3.png",
+          "sha256": "21917260b8e19a273afaf51b9744a34f43a67b037df7f611a78425b4e58d5462",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-903-Stainless-steel-Toggle-Clamp-Spindle-Assemblies-with-Swivel-Thrust-Pad"
+            },
+            {
+              "label": "b Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            }
+          ]
+        },
+        {
+          "id": "E12.4",
+          "description": "Apoios autocentrantes com movimento limitado e contato distribuído.",
+          "image": "figuras/E12.4.png",
+          "sha256": "d8187e07375b8169dd352122b1ef9eeec91c992283391700dfcdc600dbe36687",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-292-Steel-Linear-Actuators-With-Left-and-Right-Hand-Thread"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-631.2-NBR-Thrust-Pads-for-Standard-Parts-with-Ball-Thrust-Point"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E13",
+      "name": "Receber força",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E13.1",
+          "description": "Duas alças rígidas externas ligadas à base resistente.",
+          "image": "figuras/E13.1.png",
+          "sha256": "974faec4f6e40d9af9fd4e6977784efed8ba30bf625be52dc52d697af65f387c",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-425-Round-Stainless-Steel-Cabinet-U-Handles-with-Tapped-Holes"
+            }
+          ]
+        },
+        {
+          "id": "E13.2",
+          "description": "Cavas de pega na estrutura, com bordas arredondadas.",
+          "image": "figuras/E13.2.png",
+          "sha256": "f276f988aa45927b484f7c454946e4b8c1771cbc92318f1ccc75f673042f75f3",
+          "links": [
+            {
+              "label": "JW Winco p. 1",
+              "url": "https://live-catalog.jwwinco.com/pdf/winco/US/7330.pdf#page=1"
+            }
+          ]
+        },
+        {
+          "id": "E13.3",
+          "description": "Duas alças retráteis com trava na posição de uso.",
+          "image": "figuras/E13.3.png",
+          "sha256": "5c09fc336e37832a4e18950fa85bb6fe3e1d6c0008f3e94bd84152e0145d9e35",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-425.5-Stainless-Steel-Folding-handles"
+            }
+          ]
+        },
+        {
+          "id": "E13.4",
+          "description": "Manoplas em tirantes externos ancorados na base.",
+          "image": "figuras/E13.4.png",
+          "sha256": "5d931072f6ca816d8f319fca3e61a2d99a410a0202775281635ca94d39734915",
+          "links": [
+            {
+              "label": "a Ancra",
+              "url": "https://ancracargo.com/utility-tie-downs/cam-buckle-strap-packs/"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-425-Round-Stainless-Steel-Cabinet-U-Handles-with-Tapped-Holes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "name": "Transmitir força",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E14.1",
+          "description": "Acoplamento estrutural e trava positiva para carrinho externo.",
+          "image": "figuras/E14.1.png",
+          "sha256": "94f9736d8e8d8971fb8acbb1b49ee79b32267212151d980f9f4e605bf6845369",
+          "links": [
+            {
+              "label": "AUER",
+              "url": "https://www.auer-packaging.com/en/Transport-trolleys.html"
+            }
+          ]
+        },
+        {
+          "id": "E14.2",
+          "description": "Bogies de rolamento removíveis e traváveis na base.",
+          "image": "figuras/E14.2.png",
+          "sha256": "222acc06bc573c09e393e3e0c16692282cdf25ef64743696d25d64d5bb35ee07",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Transport-trolleys.html"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess"
+            }
+          ]
+        },
+        {
+          "id": "E14.3",
+          "description": "Base com rodízios integrados, freios e pontos de apoio.",
+          "image": "figuras/E14.3.png",
+          "sha256": "1ba184a0bc365ff7c2dbea37cb78154e7852f39a0c87e454bfc3e52eb619f795",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/EN-22872-Steel-Stainless-Steel-Medium-Duty-Casters-Rubber-Wheel-Tread-Polypropylene-Wheel-Core-Light-Version"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-44-Stainless-Steel-AISI-316-L-Leveling-Feet-Threaded-Stud-or-Tapped-Plain-finish-or-with-Rubber-Cap-or-Rubber-Pad"
+            }
+          ]
+        },
+        {
+          "id": "E14.4",
+          "description": "Canais estruturais para garfos de equipamento compatível.",
+          "image": "figuras/E14.4.png",
+          "sha256": "4d2b0ed52da8057c8dbec148a21bfb596ba0929012f833614cc60c01f74c9721",
+          "links": [
+            {
+              "label": "SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E15",
+      "name": "Estabilizar conjunto",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E15.1",
+          "description": "Base larga com apoios perimétricos e centro de massa baixo.",
+          "image": "figuras/E15.1.png",
+          "sha256": "1037714b3fa6ae783d6cc944f3420db60aa3d1dd0aebc4e0ae7b4d788c736835",
+          "links": [
+            {
+              "label": "a KIGA",
+              "url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-44-Stainless-Steel-AISI-316-L-Leveling-Feet-Threaded-Stud-or-Tapped-Plain-finish-or-with-Rubber-Cap-or-Rubber-Pad"
+            }
+          ]
+        },
+        {
+          "id": "E15.2",
+          "description": "Sapatas retráteis travadas, descarregando o conjunto do rolamento.",
+          "image": "figuras/E15.2.png",
+          "sha256": "a503e9a29812ed8136da8f69a970bfb39f764b2b703fdbc65264e65d3e9b7dd4",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-44-Stainless-Steel-AISI-316-L-Leveling-Feet-Threaded-Stud-or-Tapped-Plain-finish-or-with-Rubber-Cap-or-Rubber-Pad"
+            }
+          ]
+        },
+        {
+          "id": "E15.3",
+          "description": "Rodízios com freios e apoios de descanso niveláveis.",
+          "image": "figuras/E15.3.png",
+          "sha256": "a1e72fa160ab6853f046773f530b39a19b2df8095a952dca8fed03ba9719e0ee",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/EN-22872-Steel-Stainless-Steel-Medium-Duty-Casters-Rubber-Wheel-Tread-Polypropylene-Wheel-Core-Light-Version"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-439.5-Stainless-Steel-Vibration-Damping-Leveling-Mounts-Threaded-Stud-Type"
+            }
+          ]
+        },
+        {
+          "id": "E15.4",
+          "description": "Estabilizadores giratórios recolhidos no transporte e travados no apoio.",
+          "image": "figuras/E15.4.png",
+          "sha256": "a3e629c5c29c295d1d200f037d9af22f5688b414e90087b709a73c8e82d10095",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-281-Stainless-Steel-Swivel-Clamp-Connector-Joints"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-44-Stainless-Steel-AISI-316-L-Leveling-Feet-Threaded-Stud-or-Tapped-Plain-finish-or-with-Rubber-Cap-or-Rubber-Pad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E16",
+      "name": "Expor superfície",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E16.1",
+          "description": "Visores flexíveis transparentes e tensionados no envoltório.",
+          "image": "figuras/E16.1.png",
+          "sha256": "6cc0d66ccc196bdf1643977d9a49e9e29a2d7195ee4d014b0deff75e0963ea5a",
+          "links": [
+            {
+              "label": "AmCraft p. 5",
+              "url": "https://media.amcraftindustrialcurtainwall.com/wp-content/uploads/2017/06/AmCraft-Manufacturing-Industrial-Curtain-Catalogue.pdf#page=5"
+            }
+          ]
+        },
+        {
+          "id": "E16.2",
+          "description": "Painéis transparentes protegidos por rebaixo do quadro.",
+          "image": "figuras/E16.2.png",
+          "sha256": "007fcc2c3e9388de0f5872e605c4c4ccdb0560f14b5349342d05a52cd4be1b6c",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Accessories-Other.html"
+            },
+            {
+              "label": "b Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            }
+          ]
+        },
+        {
+          "id": "E16.3",
+          "description": "Inserções transparentes distribuídas nos painéis rebatíveis.",
+          "image": "figuras/E16.3.png",
+          "sha256": "42a04caebbe71031f5f60ecab80dec43d57acf8b910f7e1f8b1f036748aa520e",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Accessories-Other.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            }
+          ]
+        },
+        {
+          "id": "E16.4",
+          "description": "Portas ópticas seladas com espelhos internos para regiões ocultas.",
+          "image": "figuras/E16.4.png",
+          "sha256": "5fa5e7842995ac88df24aa31d8f79da28419a3f56ef6680dc7d41e6f16afd317",
+          "links": [
+            {
+              "label": "a Ullman",
+              "url": "https://ullmandevices.com/collections/inspection-mirrors"
+            },
+            {
+              "label": "b Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E17",
+      "name": "Indicar fechamento",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E17.1",
+          "description": "Bandeira mecânica com palavra e símbolo acionada pelo fecho.",
+          "image": "figuras/E17.1.png",
+          "sha256": "f7d179987656fc64607f034c867c060a4b98d94675be96c60f61296d589a5769",
+          "links": [
+            {
+              "label": "Southco p. 2",
+              "url": "https://media.southco.com/media/static/JDrawing/J-E3-A12-21.pdf#page=2"
+            }
+          ]
+        },
+        {
+          "id": "E17.2",
+          "description": "Testemunho visível de alinhamento do pino de travamento.",
+          "image": "figuras/E17.2.png",
+          "sha256": "8c92be0116ea3079291e8266b68234a256ab8ba525a83f76e1db3015415e4d8a",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-417-Stainless-Steel-Indexing-Plunger-Latch-Mechanisms-Lock-Out-and-Non-Lock-Out-with-Knob"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-711.1-Plastic-or-Stainless-Steel-Indicator-Arrows-with-Self-Adhesive-Backing-for-Rulers"
+            }
+          ]
+        },
+        {
+          "id": "E17.3",
+          "description": "Indicador mecânico ligado aos fechos críticos por intertravamento.",
+          "image": "figuras/E17.3.png",
+          "sha256": "fe8819cc5b096fbe25211cd8971caa62c19e80849db31b7fd5665887b1359197",
+          "links": [
+            {
+              "label": "a Southco p. 2",
+              "url": "https://media.southco.com/media/static/JDrawing/J-E3-A12-21.pdf#page=2"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-111.2-Stainless-Steel-Retaining-cables-with-tabs-or-loops"
+            }
+          ]
+        },
+        {
+          "id": "E17.4",
+          "description": "Trava com encaixe tátil e marca visual de posição final.",
+          "image": "figuras/E17.4.png",
+          "sha256": "49d6a6e8f3e0266aa9858fb7d841f6b30706b7f1086043d4747d383de988e2df",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-449.5-Stainless-Steel-Snap-Latches-with-Gripping-Tray-with-and-without-Lock"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-711.1-Plastic-or-Stainless-Steel-Indicator-Arrows-with-Self-Adhesive-Backing-for-Rulers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E18",
+      "name": "Exibir identidade",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E18.1",
+          "description": "Serial e código bidimensional gravados na base permanente.",
+          "image": "figuras/E18.1.png",
+          "sha256": "5c9d696b3cdb67ef45fadab23831e1b10e540c2e2d2f7e95f4d715bcd08d1c09",
+          "links": [
+            {
+              "label": "Trotec",
+              "url": "https://www.troteclaser.com/en-us/resources/blog/laser-marking-with-datamatrix-traceability-directly-on-the-component"
+            }
+          ]
+        },
+        {
+          "id": "E18.2",
+          "description": "Plaqueta serial protegida e fixada à base permanente.",
+          "image": "figuras/E18.2.png",
+          "sha256": "f92f4d261550da7c3f87d9ef0405887847b3c0dc82d59d26c4d03d9a3a5f3a23",
+          "links": [
+            {
+              "label": "Camcode",
+              "url": "https://camcode.com/metalphoto-anodized-aluminum/"
+            }
+          ]
+        },
+        {
+          "id": "E18.3",
+          "description": "Serial moldado e gravação complementar na estrutura permanente.",
+          "image": "figuras/E18.3.png",
+          "sha256": "bb7d53061db06f92aac66b28a6f2c8eced5de0efa84da7853ea2d9ff93bc765d",
+          "links": [
+            {
+              "label": "a DME p. 10",
+              "url": "https://www.dme.net/wp-content/uploads/TechnicalGuides/Mold-Inserts-Brochure.pdf#page=10"
+            },
+            {
+              "label": "b Trotec",
+              "url": "https://www.troteclaser.com/en-us/resources/blog/laser-marking-with-datamatrix-traceability-directly-on-the-component"
+            }
+          ]
+        },
+        {
+          "id": "E18.4",
+          "description": "Tag RFID protegida e serial visível na base permanente.",
+          "image": "figuras/E18.4.png",
+          "sha256": "0f3db8b82683f8ac6fbd90bb1620b99b3b0a7301a90e98f85994e8d3b951c80f",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/de/RFID/RFID-TT-HL2.html"
+            },
+            {
+              "label": "b Camcode",
+              "url": "https://camcode.com/metalphoto-anodized-aluminum/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E19",
+      "name": "Destravar apoios",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E19.1",
+          "description": "Pino cativo com liberação em dois estágios após alívio da tensão.",
+          "image": "figuras/E19.1.png",
+          "sha256": "5b0d8bdc3cee036b270476670441911b7cdda9f35e561d2e5007c22a3cf6ddf4",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-111.2-Stainless-Steel-Retaining-cables-with-tabs-or-loops"
+            }
+          ]
+        },
+        {
+          "id": "E19.2",
+          "description": "Came com posição intermediária que mantém o apoio capturado.",
+          "image": "figuras/E19.2.png",
+          "sha256": "b5de5ebbd19e1a39e9fdb9d60359ce760751eb15b4bdb4234b04ac8a46e13702",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-927.5-Stainless-Steel-Clamping-Levers-with-Eccentrical-Cam-with-Plastic-Contact-Plate-Tapped-Type"
+            }
+          ]
+        },
+        {
+          "id": "E19.3",
+          "description": "Cunha liberável por quarto de volta com retenção do carro.",
+          "image": "figuras/E19.3.png",
+          "sha256": "5093540953309272187ccce9f0bca049f581e6e59d0203528228343592b10c45",
+          "links": [
+            {
+              "label": "a JW Winco p. 1",
+              "url": "https://live-catalog.jwwinco.com/pdf/winco/US/920_1.pdf#page=1"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-115-Stainless-Steel-Cam-Latches-with-Stainless-Steel-Operating-Elements"
+            }
+          ]
+        },
+        {
+          "id": "E19.4",
+          "description": "Recuo guiado do fuso, mantendo o apoio preso à estrutura.",
+          "image": "figuras/E19.4.png",
+          "sha256": "170e0644006b45930edda6a057f1f4c363e570d87a8cab15cad2870d33eb064a",
+          "links": [
+            {
+              "label": "a igus",
+              "url": "https://www.igus.eu/drive-technology/xy-table/tbi-xy"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-1450-Stainless-Steel-Telescopic-Slides-with-Full-Extension-Load-Capacity-up-to-108-lbf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E20",
+      "name": "Abrir barreira",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E20.1",
+          "description": "Abas superiores rebatíveis mantendo a bandeja coletora instalada.",
+          "image": "figuras/E20.1.png",
+          "sha256": "71f9397029c530b54f15f589c19f34d2814908305c6affd84803d454b62fceb1",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            },
+            {
+              "label": "b UltraTech",
+              "url": "https://spillcontainment.com/products/ultra-utility-tray/"
+            }
+          ]
+        },
+        {
+          "id": "E20.2",
+          "description": "Porta articulada acima da cuba coletora retida.",
+          "image": "figuras/E20.2.png",
+          "sha256": "e6d884dbce06bd398e93aa4eef882f052ae4e4b6d708d9b3401c4b77464ecfbb",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            },
+            {
+              "label": "b UltraTech",
+              "url": "https://spillcontainment.com/products/ultra-utility-tray/"
+            }
+          ]
+        },
+        {
+          "id": "E20.3",
+          "description": "Painéis bipartidos abertos para fora com bolsa coletora retida.",
+          "image": "figuras/E20.3.png",
+          "sha256": "f65e10015719b138c5e08ceb5947804198b6e07ee05c015b8a76ff6e914e8a05",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Foldable-boxes.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/de/Standard-Inliner.html"
+            }
+          ]
+        },
+        {
+          "id": "E20.4",
+          "description": "Cobertura elevada por guias, mantendo a bandeja na base.",
+          "image": "figuras/E20.4.png",
+          "sha256": "8bc9f6f9ce660d8273fd792e4aa63f1ed7f97c4b172b5a614fda510e83e92ec7",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-1450-Stainless-Steel-Telescopic-Slides-with-Full-Extension-Load-Capacity-up-to-108-lbf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E21",
+      "name": "Remover louça",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "E21.1",
+          "description": "Berço extraível por interface externa, com bandeja coletora retida.",
+          "image": "figuras/E21.1.png",
+          "sha256": "77ab3f51af59727502e6be2d3cde3cf1ee8d1920d8735aebebc912c5945c8cdd",
+          "links": [
+            {
+              "label": "a Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-425-Round-Stainless-Steel-Cabinet-U-Handles-with-Tapped-Holes"
+            }
+          ]
+        },
+        {
+          "id": "E21.2",
+          "description": "Base deslizante guiada para transferência lateral apoiada.",
+          "image": "figuras/E21.2.png",
+          "sha256": "b14ac197cd6c7652e1a180f9c1f0ca7254b8d1e73bcfc35eaa028f9ac449907f",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-1450-Stainless-Steel-Telescopic-Slides-with-Full-Extension-Load-Capacity-up-to-108-lbf"
+            }
+          ]
+        },
+        {
+          "id": "E21.3",
+          "description": "Plataforma frontal rebatível com apoio para transferência assistida.",
+          "image": "figuras/E21.3.png",
+          "sha256": "7a3b6e8221ea8fb854ecdcc43885cafc604f4695cb102222bb909db9be97f414",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-237-Stainless-Steel-Hinges-Countersunk-Thru-Holes-or-Threaded-Stud-Type"
+            }
+          ]
+        },
+        {
+          "id": "E21.4",
+          "description": "Base portadora separável com interface para auxílio de elevação.",
+          "image": "figuras/E21.4.png",
+          "sha256": "4c536bb70e7d4dcf40691c2b919dc0f451c8f0595e4fab15c80855deb62ca4d8",
+          "links": [
+            {
+              "label": "a SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-581.5-Stainless-Steel-Safety-Swivel-Lifting-Eye-Bolts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C01",
+      "name": "Recolher estrutura",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "C01.1",
+          "description": "Paredes dobráveis com dobradiças e fechos cativos.",
+          "image": "figuras/C01.1.png",
+          "sha256": "4ac4084a0e0a20ba062bf21067e859044679807f44e3ab1767bc62f9313cff73",
+          "links": [
+            {
+              "label": "AUER",
+              "url": "https://www.auer-packaging.com/en/Foldable-boxes.html"
+            }
+          ]
+        },
+        {
+          "id": "C01.2",
+          "description": "Quadros telescópicos recolhidos sobre a base.",
+          "image": "figuras/C01.2.png",
+          "sha256": "99016d5fe8bc88ca6cd1f24029e0a19ee9771801c79f08374347c6141c8e9ee1",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel"
+            },
+            {
+              "label": "b SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            }
+          ]
+        },
+        {
+          "id": "C01.3",
+          "description": "Painéis articulados rebatidos e retidos sobre a base.",
+          "image": "figuras/C01.3.png",
+          "sha256": "939ca942bb29e690783f33f4154726d7a56d219c384d69a20f19e29fe7efe97e",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Foldable-boxes.html"
+            }
+          ]
+        },
+        {
+          "id": "C01.4",
+          "description": "Partes planificáveis por encaixes cativos de desmontagem.",
+          "image": "figuras/C01.4.png",
+          "sha256": "aafe34bc65bdbc46f5a1f954e8506f2ff070ab7cd75a84c9138f7dc58d866f36",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-337-Stainless-Steel-Lift-Off-Hinges-With-Countersunk-Thru-Holes"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "Encaixar unidades",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "C02.1",
+          "description": "Encaixes macho-fêmea nos cantos da base e das colunas.",
+          "image": "figuras/C02.1.png",
+          "sha256": "8fb5b55895c9645af28a15a290973747dcb56ee058504f318adb2e5b28786d19",
+          "links": [
+            {
+              "label": "a SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            },
+            {
+              "label": "b KIGA",
+              "url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars"
+            }
+          ]
+        },
+        {
+          "id": "C02.2",
+          "description": "Cones de centragem com batentes estruturais de apoio.",
+          "image": "figuras/C02.2.png",
+          "sha256": "f2fb9ba063cf7baf4d932583fedeb7eadfcd3405d20333c3509c3d8f10b0a6f2",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-412.5-Stainless-Steel-Locating-Bushings-with-Cone-for-Indexing-Plungers"
+            },
+            {
+              "label": "b KIGA",
+              "url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars"
+            }
+          ]
+        },
+        {
+          "id": "C02.3",
+          "description": "Trilhos periféricos com ressaltos e alojamentos correspondentes.",
+          "image": "figuras/C02.3.png",
+          "sha256": "377df13ae89f8e027b909ac904ba92913b825da618f7b1817ff26c3e9f1aec44",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            }
+          ]
+        },
+        {
+          "id": "C02.4",
+          "description": "Bolsões na base para pés de outra unidade, com apoio estrutural.",
+          "image": "figuras/C02.4.png",
+          "sha256": "4f8424c1db7b7c74f8bee172b4238cc5edae388e8979e813e71731ab2327467a",
+          "links": [
+            {
+              "label": "KIGA",
+              "url": "https://kiga-gmbh.de/en/infothek/lexicon/pallet-collars"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "Expor interfaces",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "C03.1",
+          "description": "Aberturas de serviço e superfícies laváveis expostas ao rebater as paredes.",
+          "image": "figuras/C03.1.png",
+          "sha256": "4e9d7281df0e19c9fa0fa3a4bf82b95637edb5afc2792fe38fa585f0db2b7ad7",
+          "links": [
+            {
+              "label": "AUER",
+              "url": "https://www.auer-packaging.com/en/Foldable-boxes.html"
+            }
+          ]
+        },
+        {
+          "id": "C03.2",
+          "description": "Tampas cativas que expõem guias e conexões para limpeza.",
+          "image": "figuras/C03.2.png",
+          "sha256": "e1b74fbc8615879e3451a57c083b902e036386a730b7e408be3e46f0dee58cd0",
+          "links": [
+            {
+              "label": "Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            }
+          ]
+        },
+        {
+          "id": "C03.3",
+          "description": "Forro removível expondo juntas e zonas de desgaste.",
+          "image": "figuras/C03.3.png",
+          "sha256": "5ccce8083fc06de7cebed0f1cfae33cd4fb1d9e089d90eb5fd734a72b9c1e370",
+          "links": [
+            {
+              "label": "AUER",
+              "url": "https://www.auer-packaging.com/de/Standard-Inliner.html"
+            }
+          ]
+        },
+        {
+          "id": "C03.4",
+          "description": "Portas de serviço fechadas durante o uso e abertas no recondicionamento.",
+          "image": "figuras/C03.4.png",
+          "sha256": "18b004c138e29c31a5c6e7a8de41c48b5bb7e33c7c99a8c2965391d490296ee7",
+          "links": [
+            {
+              "label": "AUER",
+              "url": "https://www.auer-packaging.com/en/Collapsible-pallet-containers.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "Substituir módulos",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "C04.1",
+          "description": "Cartuchos identificados, presos por pinos externos independentes.",
+          "image": "figuras/C04.1.png",
+          "sha256": "517ea0e80a26794cdf6a530ea4d968e3c6802aa2493778d5469758037f7cbbbf",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess"
+            },
+            {
+              "label": "b Storopack",
+              "url": "https://www.storopack.de/produkte/massgeschneiderte-verpackung/epp/"
+            }
+          ]
+        },
+        {
+          "id": "C04.2",
+          "description": "Sapatas e amortecedores em gavetas indexadas de reposição.",
+          "image": "figuras/C04.2.png",
+          "sha256": "a385ff81c2281c8659ef14ddb9f3cbe5d3de7aedb7e46e4e2247bce138f59508",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-1450-Stainless-Steel-Telescopic-Slides-with-Full-Extension-Load-Capacity-up-to-108-lbf"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-631.2-NBR-Thrust-Pads-for-Standard-Parts-with-Ball-Thrust-Point"
+            }
+          ]
+        },
+        {
+          "id": "C04.3",
+          "description": "Bolsa, apoios e conjunto de rodas removíveis por interfaces próprias.",
+          "image": "figuras/C04.3.png",
+          "sha256": "580be1ee30301e1d64335aefefd8e56f4ea663cb2db086dcaa7f40afdd1d956a",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/de/Standard-Inliner.html"
+            },
+            {
+              "label": "b AUER",
+              "url": "https://www.auer-packaging.com/en/Transport-trolleys.html"
+            }
+          ]
+        },
+        {
+          "id": "C04.4",
+          "description": "Conexões aparafusadas padronizadas e acessíveis por módulo.",
+          "image": "figuras/C04.4.png",
+          "sha256": "a42ce106dcf2c9b21a9f8b3a3caa159155a28a56de0dec632a2bad765e02615d",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-912.2-Stainless-Steel-Socket-Cap-Screws-with-Recessed-Stud-for-Loss-Protection"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-273-Stainless-Steel-Swivel-Clamp-Connectors-Round-Bore-Type"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "name": "Unir partes",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "C05.1",
+          "description": "Fechos sobre-centro com retenção secundária na estrutura.",
+          "image": "figuras/C05.1.png",
+          "sha256": "a2c595b09660ff6b7958513a3703cbbad94d93a6fbed2aa551ec5744138c8f8c",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-761.1-Steel-Stainless-Steel-Toggle-Latches-with-Safety-Mechanism"
+            }
+          ]
+        },
+        {
+          "id": "C05.2",
+          "description": "Baionetas com indexação e bloqueio positivo.",
+          "image": "figuras/C05.2.png",
+          "sha256": "3ca8e9e9af17e76115830d6847474e4c32d64d53e61ae68bff54a9b130aa97bd",
+          "links": [
+            {
+              "label": "Southco p. 7",
+              "url": "https://media.southco.com/media/static/Literature/D8.en.pdf#page=7"
+            }
+          ]
+        },
+        {
+          "id": "C05.3",
+          "description": "Pinos cativos e dobradiças com travas estruturais.",
+          "image": "figuras/C05.3.png",
+          "sha256": "b3c1bcef61b6188839e939c70da7a07e043c50c366f57fcf9925d950a6e3a4d7",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-113.3-Stainless-Steel-AISI-303-Ball-Lock-Pins-with-Finger-Recess"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-237-Stainless-Steel-Hinges-Countersunk-Thru-Holes-or-Threaded-Stud-Type"
+            }
+          ]
+        },
+        {
+          "id": "C05.4",
+          "description": "Encaixes de cauda de andorinha com lingueta de retenção.",
+          "image": "figuras/C05.4.png",
+          "sha256": "0fe599e133b6bd4b41f2aae20490e8a3933f51d3ae8767dc81226df46a517a87",
+          "links": [
+            {
+              "label": "a norelem",
+              "url": "https://www.norelem.de/en/Product-overview/Systems-and-components-for-machine-and-plant-construction/21000/Carriage-guides/c/21468"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-449.5-Stainless-Steel-Snap-Latches-with-Gripping-Tray-with-and-without-Lock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "name": "Soltar uniões",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "id": "C06.1",
+          "description": "Alavancas manuais com destravamento protegido.",
+          "image": "figuras/C06.1.png",
+          "sha256": "f13010756b90c8932885c0c5a24ba42e5bd880afafe290573ac45501652f3df6",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-761.1-Steel-Stainless-Steel-Toggle-Latches-with-Safety-Mechanism"
+            }
+          ]
+        },
+        {
+          "id": "C06.2",
+          "description": "Giro e extração guiada de baioneta sem soltar peças pequenas.",
+          "image": "figuras/C06.2.png",
+          "sha256": "790e4106bf9c8693a9740857ec2a6345d721d6021ecae31f29597915dafe39da",
+          "links": [
+            {
+              "label": "Southco p. 7",
+              "url": "https://media.southco.com/media/static/Literature/D8.en.pdf#page=7"
+            }
+          ]
+        },
+        {
+          "id": "C06.3",
+          "description": "Retração de pinos cativos com duas posições de segurança.",
+          "image": "figuras/C06.3.png",
+          "sha256": "cc0d614f74fdae2219042da557472f0dcd06ba52ae3133658511352fa847724b",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-417-Stainless-Steel-Indexing-Plunger-Latch-Mechanisms-Lock-Out-and-Non-Lock-Out-with-Knob"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-111.2-Stainless-Steel-Retaining-cables-with-tabs-or-loops"
+            }
+          ]
+        },
+        {
+          "id": "C06.4",
+          "description": "Linguetas acessíveis que liberam encaixes em sequência definida.",
+          "image": "figuras/C06.4.png",
+          "sha256": "62f8e47cf545bbdb259af8f5de03749b1f1b9d295f8f44a5b5b04ed4cf731923",
+          "links": [
+            {
+              "label": "JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-449.5-Stainless-Steel-Snap-Latches-with-Gripping-Tray-with-and-without-Lock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "name": "Separar materiais",
+      "choices": [
+        1,
+        4,
+        3
+      ],
+      "options": [
+        {
+          "id": "C07.1",
+          "description": "Fixações reversíveis e marcação dos materiais em cada parte.",
+          "image": "figuras/C07.1.png",
+          "sha256": "576e50c73dda75a5ef5f32d939d98ab471b17f1f7d08e7f2671c7765081c89a7",
+          "links": [
+            {
+              "label": "a JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-912.2-Stainless-Steel-Socket-Cap-Screws-with-Recessed-Stud-for-Loss-Protection"
+            },
+            {
+              "label": "b DME p. 10",
+              "url": "https://www.dme.net/wp-content/uploads/TechnicalGuides/Mold-Inserts-Brochure.pdf#page=10"
+            }
+          ]
+        },
+        {
+          "id": "C07.2",
+          "description": "Carcaças de um polímero com ferragens removíveis.",
+          "image": "figuras/C07.2.png",
+          "sha256": "1995c812c55c78650ab469149b2b1a2e2ab57efcec7203dad215ee00a136ba78",
+          "links": [
+            {
+              "label": "a AUER",
+              "url": "https://www.auer-packaging.com/en/Euro-containers.html"
+            },
+            {
+              "label": "b JW Winco",
+              "url": "https://www.jwwinco.com/en-us/products/product-family/Stainless-Steel/GN-912.2-Stainless-Steel-Socket-Cap-Screws-with-Recessed-Stud-for-Loss-Protection"
+            }
+          ]
+        },
+        {
+          "id": "C07.3",
+          "description": "Barreira em camadas separáveis por fixação mecânica periférica.",
+          "image": "figuras/C07.3.png",
+          "sha256": "e77aa4bfd25ad96459e87e8611bc4b338828feaf4305825b4efe3103723106d0",
+          "links": [
+            {
+              "label": "a Trim-Lok",
+              "url": "https://www.trimlok.com/cmspage.aspx?UrlKey=all-products"
+            },
+            {
+              "label": "b Zippertubing",
+              "url": "https://www.zippertubing.com/collections/closures"
+            }
+          ]
+        },
+        {
+          "id": "C07.4",
+          "description": "Capas poliméricas extraíveis de quadro metálico desmontável.",
+          "image": "figuras/C07.4.png",
+          "sha256": "4d9cd3c8971f53583609a4ef07bc9cf6a6637728ac912d584f68ca7fb967bdb2",
+          "links": [
+            {
+              "label": "a SLT Bauer",
+              "url": "https://slt-bauer.de/en/products/palettenaufsatz"
+            },
+            {
+              "label": "b AmCraft p. 5",
+              "url": "https://media.amcraftindustrialcurtainwall.com/wp-content/uploads/2017/06/AmCraft-Manufacturing-Industrial-Curtain-Catalogue.pdf#page=5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "combinations": [
+    {
+      "id": "C1",
+      "principles": "Berço com amortecimento celular, cintas limitadas, guias ortogonais e carrinho externo. Envoltório com visores, bandeja retida e colunas periféricas.",
+      "interfaces": "Conferir tensão e área de contato, partida no carrinho, transparência após desgaste e recolhimento das paredes entre as colunas."
+    },
+    {
+      "id": "C2",
+      "principles": "Quadro telescópico, sapatas flutuantes, elastômeros e rolamento removível. Painéis transparentes, cuba coletora e conexões indexadas.",
+      "interfaces": "Conferir limpeza dos telescópios, massa, volume carregado, desvio da carga para fora da cerâmica e alinhamento após reposição."
+    },
+    {
+      "id": "C3",
+      "principles": "Painéis articulados, apoios conformáveis e mobilidade integrada. Bolsa coletora, visores distribuídos e juntas em labirinto.",
+      "interfaces": "Conferir freios e apoios no piso, ângulo de tombamento, transferência assistida e separação das camadas ao fim de vida."
+    }
+  ],
+  "specifications": [
+    {
+      "id": "RP1",
+      "target": "≤ 35 g de pico transmitido à louça, e sempre abaixo do resultado da embalagem atual no mesmo ensaio",
+      "functions": "E04, E05"
+    },
+    {
+      "id": "RP2",
+      "target": "≤ 6 mm de deslocamento residual após o ciclo de distribuição",
+      "functions": "E01–E03, E12"
+    },
+    {
+      "id": "RP3",
+      "target": "≤ 150 N de força de partida com o conjunto carregado, em piso de canteiro",
+      "functions": "E13, E14, E21"
+    },
+    {
+      "id": "RP4",
+      "target": "≥ 60% da área crítica verificável com o conjunto fechado",
+      "functions": "E07, E09, E16"
+    },
+    {
+      "id": "RP5",
+      "target": "≥ 2 pontos de pega com vão livre compatível com mão enluvada",
+      "functions": "E13"
+    },
+    {
+      "id": "RP6",
+      "target": "≥ 90% da massa de fragmentos retida no interior",
+      "functions": "E07–E09, E19–E21"
+    },
+    {
+      "id": "RP7",
+      "target": "≥ 300 mm no eixo A e ≥ 150 mm no eixo B, sem troca de componentes no ajuste",
+      "functions": "E10–E12"
+    },
+    {
+      "id": "RP8",
+      "target": "≥ 80% de ocupação da área do PBR 1200 × 1000 mm; alvo de otimização ≥ 90%",
+      "functions": "Restrição geométrica"
+    },
+    {
+      "id": "RP9",
+      "target": "≥ 40° de ângulo de tombamento com o conjunto carregado",
+      "functions": "E15, E06, C05"
+    },
+    {
+      "id": "RP10",
+      "target": "≤ 7 etapas até o primeiro uso correto, sem consultar instrução",
+      "functions": "E17; interação"
+    },
+    {
+      "id": "RP11",
+      "target": "≥ 7,5 kN de carga de compressão sem perda de proteção",
+      "functions": "E06, C02, C05"
+    },
+    {
+      "id": "RP12",
+      "target": "≤ 10% de coeficiente de variação do pico de aceleração",
+      "functions": "E04, E05, C04"
+    },
+    {
+      "id": "RP13",
+      "target": "≤ 12,5% de perda da carga de compressão após 48 h em câmara úmida",
+      "functions": "E06; materiais e juntas"
+    },
+    {
+      "id": "RP14",
+      "target": "≤ 0,090 m³/cuba e ≤ 0,160 m³/bacia individual, incluindo o dispositivo carregado",
+      "functions": "Restrição carregada; C01/C02 no vazio"
+    },
+    {
+      "id": "RP15",
+      "target": "≤ 5 min por ciclo de limpeza, inspeção e reposição",
+      "functions": "C03, C04, E08, E09"
+    },
+    {
+      "id": "RP16",
+      "target": "≥ 5 m de distância de leitura do modelo, do lado correto e da advertência",
+      "functions": "E17, E18; sinalização"
+    },
+    {
+      "id": "RP17",
+      "target": "≤ 120 s de desmontagem completa, sem ferramenta dedicada",
+      "functions": "C06, E19, E20"
+    },
+    {
+      "id": "RP18",
+      "target": "≥ 20 ciclos de reuso até a falha funcional",
+      "functions": "Todas as funções críticas"
+    },
+    {
+      "id": "RP19",
+      "target": "≥ 95% da massa em materiais com cadeia de reciclagem estabelecida",
+      "functions": "C06, C07; materiais"
+    },
+    {
+      "id": "RP20",
+      "target": "≥ 3 módulos substituíveis de forma independente",
+      "functions": "C04, C05"
+    },
+    {
+      "id": "RP21",
+      "target": "1 identificador único por unidade, legível após o ensaio cíclico e o condicionamento úmido",
+      "functions": "E18"
+    },
+    {
+      "id": "RP22",
+      "target": "≤ 6 etapas de montagem e fechamento",
+      "functions": "C05, E01, E07, E17"
+    },
+    {
+      "id": "RP23",
+      "target": "≤ R$ 15 por ciclo de uso, com teto econômico no custo médio da avaria evitada",
+      "functions": "Restrição econômica transversal"
+    }
+  ],
+  "triz_cases": [
+    {
+      "id": "T01",
+      "title": "Impacto e faixa de ajuste",
+      "paragraphs": [
+        "RP1 × RP7 no QFD, célula I3. Reduzir o pico com apoios rígidos ou conformados limita a faixa de ajuste. A proteção deve permanecer nos extremos do mix.",
+        "Consulta 30 × 35 na matriz TRIZ com indicações 35, 11, 22, 31. Foram adotados PI35, alteração de propriedades, e PI31, materiais porosos. PI15, dinamicidade, complementa a proposta por analogia.",
+        "Separar a guia de regulagem da célula amortecedora. Ajustar contatos sem eliminar curso de absorção. Opções E04.1–4, E05.1–2, E11.1–3.",
+        "Verificação conjunta de RP1/RP7/RP12/RP18. Queda e vibração por família nos extremos, mesmo SKU e regulagem para medir CV."
+      ]
+    },
+    {
+      "id": "T02",
+      "title": "Inspeção e retenção de fragmentos",
+      "paragraphs": [
+        "RP4 × RP6 no QFD, célula H6. Abrir regiões para inspeção facilita a observação, mas cria caminhos de fuga de fragmentos.",
+        "Consulta 37 × 31 na matriz TRIZ com indicações 2, 21. Foi adotado PI2, extração. PI32, alteração óptica, complementa a proposta por analogia.",
+        "Repor a zona opaca por visor transparente contínuo e protegido, com junta retida. Manter bandeja e barreira fechadas. Opções E07.1–4, E09.1–4, E16.1–3.",
+        "Verificação conjunta de RP4/RP6. Mapear ≥60% de área crítica acessível e testar retenção e perfuração no mesmo conjunto fechado."
+      ]
+    },
+    {
+      "id": "T03",
+      "title": "Movimentação e recondicionamento",
+      "paragraphs": [
+        "RP3 × RP15 no QFD, célula Q5. Rodamento reduz força de partida, mas eixos, rodas e encaixes podem aumentar o tempo de limpeza e reposição.",
+        "Consulta 10 × 25 na matriz TRIZ com indicações 10, 37, 36. Foi adotado PI10, ação prévia. PI1, segmentação, complementa a proposta por analogia.",
+        "Usar acoplamento externo acessível. Rodamento sai para serviço sem desmontar apoios, barreira e identidade. Opções E14.1–3, E21.2–4, C03.1–4.",
+        "Verificação conjunta de RP3/RP15/RP23. Medir partida no piso e recondicionamento completo, incluindo o rolamento e seu custo."
+      ]
+    },
+    {
+      "id": "T04",
+      "title": "Ajuste e limpeza",
+      "paragraphs": [
+        "RP7 × RP15 no QFD, célula Q9. Mais articulações para ampliar a faixa criam pontos de retenção de sujeira e elevam o tempo de recondicionamento.",
+        "Consulta 35 × 25 na matriz TRIZ com indicações 35, 28. Foi adotado PI35, alteração de propriedades. PI15, dinamicidade, e PI3, qualidade local, complementam por analogia.",
+        "Guias externas com proteção flexível removível e superfícies acessíveis. O mesmo apoio percorre a faixa sem peças por SKU. Opções E11.1–4, C03.1–4.",
+        "Verificação conjunta de RP7/RP15/RP18. Verificar cursos 300/150 mm e tempo ≤5 min na regulagem mais difícil de limpar."
+      ]
+    },
+    {
+      "id": "T05",
+      "title": "Contenção e acesso para manutenção",
+      "paragraphs": [
+        "RP6 × RP15 no QFD, célula Q8. Uma barreira integral retém os cacos, mas dificulta o acesso para limpar e repor as partes desgastadas.",
+        "Consulta 31 × 34 na matriz TRIZ sem indicação. A busca na lista dos 40 princípios orientou a aplicação de PI2, extração, e PI34, descarte e recuperação de partes.",
+        "Forro removível dentro da bandeja permanente. Abertura em etapas preserva a contenção antes da retirada e na limpeza. Opções E08.1–4, E19.1–4, E20.1–4, C03.1–4.",
+        "Verificação conjunta de RP6/RP15/RP17. Reter ≥90% da massa, avaliar fragmentos pequenos, abertura e retirada, e medir o ciclo completo."
+      ]
+    },
+    {
+      "id": "T06",
+      "title": "Estabilidade e desmontagem",
+      "paragraphs": [
+        "RP9 × RP17 no QFD, célula S11. Apoios largos e travados estabilizam o carregado. Para desmontar e retornar, esses apoios devem se recolher.",
+        "Tratamento por separação. A separação no tempo distingue a configuração resistente em uso da configuração recolhida no retorno.",
+        "Sapatas e paredes recolhíveis apenas após descarregar. Encaixes positivos mantêm a base resistente durante transporte e apoio. Opções E15.1–4, C01.1–4, C02.1–4, C06.1–4.",
+        "Verificação conjunta de RP9/RP17/RP14. Medir ≥40° carregado e ≤120 s de desmontagem. Medir retorno vazio e carregado separadamente."
+      ]
+    },
+    {
+      "id": "T07",
+      "title": "Reposição e repetibilidade da proteção",
+      "paragraphs": [
+        "RP20 × RP12 no QFD, célula V14. Trocar módulos com facilidade introduz folgas e variação de montagem que podem elevar a dispersão da proteção.",
+        "Consulta 34 × 27 na matriz TRIZ com indicações 11, 10, 1, 16. Foram adotados PI1, segmentação, e PI10, ação prévia, para configurar interfaces independentes e indexadas.",
+        "Reposição externa por conexão codificada. Batentes e testemunhos restringem montagem e pré-carga incorretas. Opções E01.1–4, E12.1–4, E17.1–4, C04.1–4, C05.1–4.",
+        "Verificação conjunta de RP20/RP12/RP18. Trocar ≥3 módulos isoladamente e repetir impactos antes/depois da remontagem para CV ≤10%."
+      ]
+    },
+    {
+      "id": "T08",
+      "title": "Vedação e reposição independente",
+      "paragraphs": [
+        "RP6 × RP20 no QFD, célula V8. Vedação permanente retém fragmentos, mas dificulta substituir partes independentes. Juntas removíveis podem abrir frestas.",
+        "Consulta 31 × 34 na matriz TRIZ sem indicação. Por analogia com a lista dos 40 princípios, foram explorados PI1, segmentação, e PI30, membranas flexíveis.",
+        "Sobrepor a barreira às juntas estruturais. O forro fecha o caminho dos cacos e pode ser trocado por fixação periférica própria. Opções E07.1–4, E09.1–4, C04.1–4.",
+        "Verificação conjunta de RP6/RP20/RP15. Repetir quebra controlada após troca de módulo e regulagem. Verificar limpeza e remontagem."
+      ]
+    },
+    {
+      "id": "T09",
+      "title": "Estabilidade e reposição independente",
+      "paragraphs": [
+        "RP9 × RP20 no QFD, célula V11. Juntas independentes facilitam reposição, mas folgas podem alterar rigidez e posição dos apoios, reduzindo estabilidade.",
+        "Tratamento por separação. A separação no espaço mantém o caminho de carga na base comum e posiciona as peças de desgaste fora das uniões críticas.",
+        "Encaixes estruturais com travamento positivo e batentes de apoio. Trocar contato e barreira sem liberar a base resistente. Opções E01.1–4, E06.1–4, E15.1–4, C04.1–4, C05.1–4.",
+        "Verificação conjunta de RP9/RP20/RP11. Ensaiar estabilidade após trocas e desgaste. Medir o ângulo de tombamento e verificar a integridade da junta."
+      ]
+    },
+    {
+      "id": "T10",
+      "title": "Reposição e identidade da unidade",
+      "paragraphs": [
+        "RP20 × RP21 no QFD, célula W22. Substituir a parte que carrega a identificação pode apagar o vínculo com o histórico da unidade retornável.",
+        "Consulta 34 × 24 na matriz TRIZ sem indicação. PI2, extração, e PI1, segmentação, orientam separar a identidade permanente das partes de desgaste.",
+        "Identificação única na base comum permanente. Reposição de apoios, amortecedores ou barreira preserva o mesmo serial. Opções E18.1–4, C04.1–4.",
+        "Verificação conjunta de RP21/RP18/RP13. Confirmar 1 ID legível após trocas, ciclos e umidade."
+      ]
+    }
+  ],
+  "original_paragraphs": [
+    "Universidade de Brasília",
+    "Faculdade de Tecnologia  •  Engenharia de Produção",
+    "Engenharia de Produto PSP6  •  Equipe 2  •  2026/2",
+    "Princípios de solução para a proteção de louças sanitárias",
+    "Projeto conceitual do transporte entre distribuidor e obra",
+    "Brasília, 7 de novembro de 2026",
+    "A equipe desenvolveu princípios físicos para proteger diretamente uma cuba ou um corpo individual de bacia durante o transporte e a movimentação até a instalação. A primeira matriz de Pugh selecionou a estrutura funcional M1, com pontuação ponderada de +7. M2 foi a referência, com 0, e M3 obteve −4.",
+    "A etapa gera quatro opções para cada uma das 28 funções de menor nível. A equipe usa o método TRIZ para tratar dez conflitos do desdobramento da função qualidade (QFD) e organiza três combinações exploratórias. As 23 especificações-meta orientam o dimensionamento e os ensaios das alternativas.",
+    "Geração de princípios físicos",
+    "A função global Proteger louça se desdobra em sete funções parciais, 21 elementares e sete complementares. Na matriz morfológica, cada linha representa uma função de menor nível e cada coluna apresenta um mecanismo possível. E04.1 identifica a primeira opção para absorver impacto. Para cada função, C1, C2 e C3 registram a opção usada em cada combinação.",
+    "Para combinar os mecanismos, é preciso verificar os contatos com a cerâmica, o caminho das cargas, a vedação durante a inspeção e as interfaces de montagem e manutenção. Uma mesma peça pode atender a várias funções. A análise de interfaces determina como os princípios trabalham juntos.",
+    "Materiais de referência",
+    "BACK, N. et al. Projeto integrado de produtos. Barueri, Manole, 2008. Capítulo 6. Material da disciplina Engenharia de Produto, aulas 15, 17 e 18.",
+    "Matriz clássica TRIZ 39 × 39 e princípios de separação. DTOceanPlus, figura 15 e tabelas 6 e 7",
+    "Base da entrega de 4 de novembro de 2026. Planilha de projeto da Equipe 2",
+    "O anexo reúne as 112 opções com imagens de 72 referências de fabricantes. A planilha registra as adaptações ao produto associadas a cada imagem.",
+    "Combinações exploratórias",
+    "Cada combinação reúne 28 escolhas. A matriz no anexo registra as três escolhas ao lado de cada função, da primeira elementar à última complementar.",
+    "Verificações para a próxima seleção",
+    "O apoio precisa imobilizar a louça e, ao mesmo tempo, manter curso disponível para absorver impacto. A travessa e as colunas devem conduzir a compressão fora da cerâmica. A barreira precisa permitir inspeção com o conjunto fechado e reter fragmentos mesmo depois de uma troca de módulo.",
+    "A comparação entre as combinações depende de verificar, nas mesmas condições de uso, as metas de impacto, deslocamento, inspeção, contenção e movimentação. O custo por ciclo inclui aquisição rateada pela vida efetiva, recondicionamento, retorno e consumíveis. A seleção da concepção física ocorrerá depois do estudo de módulos e interfaces.",
+    "Contradições de projeto na TRIZ",
+    "Os dez casos partem de correlações negativas do telhado do QFD. Nos pares consultados na TRIZ, o primeiro número identifica o parâmetro a melhorar e o segundo, o parâmetro cuja piora se procura evitar. A aplicação usa princípios selecionados da matriz, analogias ou separação no tempo e no espaço.",
+    "T01 Impacto e faixa de ajuste",
+    "RP1 × RP7 no QFD, célula I3. Reduzir o pico com apoios rígidos ou conformados limita a faixa de ajuste. A proteção deve permanecer nos extremos do mix.",
+    "Consulta 30 × 35 na matriz TRIZ com indicações 35, 11, 22, 31. Foram adotados PI35, alteração de propriedades, e PI31, materiais porosos. PI15, dinamicidade, complementa a proposta por analogia.",
+    "Separar a guia de regulagem da célula amortecedora. Ajustar contatos sem eliminar curso de absorção. Opções E04.1–4, E05.1–2, E11.1–3.",
+    "Verificação conjunta de RP1/RP7/RP12/RP18. Queda e vibração por família nos extremos, mesmo SKU e regulagem para medir CV.",
+    "T02 Inspeção e retenção de fragmentos",
+    "RP4 × RP6 no QFD, célula H6. Abrir regiões para inspeção facilita a observação, mas cria caminhos de fuga de fragmentos.",
+    "Consulta 37 × 31 na matriz TRIZ com indicações 2, 21. Foi adotado PI2, extração. PI32, alteração óptica, complementa a proposta por analogia.",
+    "Repor a zona opaca por visor transparente contínuo e protegido, com junta retida. Manter bandeja e barreira fechadas. Opções E07.1–4, E09.1–4, E16.1–3.",
+    "Verificação conjunta de RP4/RP6. Mapear ≥60% de área crítica acessível e testar retenção e perfuração no mesmo conjunto fechado.",
+    "T03 Movimentação e recondicionamento",
+    "RP3 × RP15 no QFD, célula Q5. Rodamento reduz força de partida, mas eixos, rodas e encaixes podem aumentar o tempo de limpeza e reposição.",
+    "Consulta 10 × 25 na matriz TRIZ com indicações 10, 37, 36. Foi adotado PI10, ação prévia. PI1, segmentação, complementa a proposta por analogia.",
+    "Usar acoplamento externo acessível. Rodamento sai para serviço sem desmontar apoios, barreira e identidade. Opções E14.1–3, E21.2–4, C03.1–4.",
+    "Verificação conjunta de RP3/RP15/RP23. Medir partida no piso e recondicionamento completo, incluindo o rolamento e seu custo.",
+    "Contradições de ajuste e manutenção",
+    "T04 Ajuste e limpeza",
+    "RP7 × RP15 no QFD, célula Q9. Mais articulações para ampliar a faixa criam pontos de retenção de sujeira e elevam o tempo de recondicionamento.",
+    "Consulta 35 × 25 na matriz TRIZ com indicações 35, 28. Foi adotado PI35, alteração de propriedades. PI15, dinamicidade, e PI3, qualidade local, complementam por analogia.",
+    "Guias externas com proteção flexível removível e superfícies acessíveis. O mesmo apoio percorre a faixa sem peças por SKU. Opções E11.1–4, C03.1–4.",
+    "Verificação conjunta de RP7/RP15/RP18. Verificar cursos 300/150 mm e tempo ≤5 min na regulagem mais difícil de limpar.",
+    "T05 Contenção e acesso para manutenção",
+    "RP6 × RP15 no QFD, célula Q8. Uma barreira integral retém os cacos, mas dificulta o acesso para limpar e repor as partes desgastadas.",
+    "Consulta 31 × 34 na matriz TRIZ sem indicação. A busca na lista dos 40 princípios orientou a aplicação de PI2, extração, e PI34, descarte e recuperação de partes.",
+    "Forro removível dentro da bandeja permanente. Abertura em etapas preserva a contenção antes da retirada e na limpeza. Opções E08.1–4, E19.1–4, E20.1–4, C03.1–4.",
+    "Verificação conjunta de RP6/RP15/RP17. Reter ≥90% da massa, avaliar fragmentos pequenos, abertura e retirada, e medir o ciclo completo.",
+    "T06 Estabilidade e desmontagem",
+    "RP9 × RP17 no QFD, célula S11. Apoios largos e travados estabilizam o carregado. Para desmontar e retornar, esses apoios devem se recolher.",
+    "Tratamento por separação. A separação no tempo distingue a configuração resistente em uso da configuração recolhida no retorno.",
+    "Sapatas e paredes recolhíveis apenas após descarregar. Encaixes positivos mantêm a base resistente durante transporte e apoio. Opções E15.1–4, C01.1–4, C02.1–4, C06.1–4.",
+    "Verificação conjunta de RP9/RP17/RP14. Medir ≥40° carregado e ≤120 s de desmontagem. Medir retorno vazio e carregado separadamente.",
+    "Contradições de modularidade",
+    "T07 Reposição e repetibilidade da proteção",
+    "RP20 × RP12 no QFD, célula V14. Trocar módulos com facilidade introduz folgas e variação de montagem que podem elevar a dispersão da proteção.",
+    "Consulta 34 × 27 na matriz TRIZ com indicações 11, 10, 1, 16. Foram adotados PI1, segmentação, e PI10, ação prévia, para configurar interfaces independentes e indexadas.",
+    "Reposição externa por conexão codificada. Batentes e testemunhos restringem montagem e pré-carga incorretas. Opções E01.1–4, E12.1–4, E17.1–4, C04.1–4, C05.1–4.",
+    "Verificação conjunta de RP20/RP12/RP18. Trocar ≥3 módulos isoladamente e repetir impactos antes/depois da remontagem para CV ≤10%.",
+    "T08 Vedação e reposição independente",
+    "RP6 × RP20 no QFD, célula V8. Vedação permanente retém fragmentos, mas dificulta substituir partes independentes. Juntas removíveis podem abrir frestas.",
+    "Consulta 31 × 34 na matriz TRIZ sem indicação. Por analogia com a lista dos 40 princípios, foram explorados PI1, segmentação, e PI30, membranas flexíveis.",
+    "Sobrepor a barreira às juntas estruturais. O forro fecha o caminho dos cacos e pode ser trocado por fixação periférica própria. Opções E07.1–4, E09.1–4, C04.1–4.",
+    "Verificação conjunta de RP6/RP20/RP15. Repetir quebra controlada após troca de módulo e regulagem. Verificar limpeza e remontagem.",
+    "T09 Estabilidade e reposição independente",
+    "RP9 × RP20 no QFD, célula V11. Juntas independentes facilitam reposição, mas folgas podem alterar rigidez e posição dos apoios, reduzindo estabilidade.",
+    "Tratamento por separação. A separação no espaço mantém o caminho de carga na base comum e posiciona as peças de desgaste fora das uniões críticas.",
+    "Encaixes estruturais com travamento positivo e batentes de apoio. Trocar contato e barreira sem liberar a base resistente. Opções E01.1–4, E06.1–4, E15.1–4, C04.1–4, C05.1–4.",
+    "Verificação conjunta de RP9/RP20/RP11. Ensaiar estabilidade após trocas e desgaste. Medir o ângulo de tombamento e verificar a integridade da junta.",
+    "T10 Reposição e identidade da unidade",
+    "RP20 × RP21 no QFD, célula W22. Substituir a parte que carrega a identificação pode apagar o vínculo com o histórico da unidade retornável.",
+    "Consulta 34 × 24 na matriz TRIZ sem indicação. PI2, extração, e PI1, segmentação, orientam separar a identidade permanente das partes de desgaste.",
+    "Identificação única na base comum permanente. Reposição de apoios, amortecedores ou barreira preserva o mesmo serial. Opções E18.1–4, C04.1–4.",
+    "Verificação conjunta de RP21/RP18/RP13. Confirmar 1 ID legível após trocas, ciclos e umidade.",
+    "Especificações meta de proteção e uso",
+    "As metas dão critérios de comparação para as combinações e devem ser verificadas em ensaios. Os vínculos com as funções mostram onde cada requisito entra na geração de princípios.",
+    "Especificações meta de durabilidade e ciclo de vida",
+    "",
+    "Matriz morfológica ilustrada 1 de 7",
+    "Os números junto às funções indicam as opções adotadas em C1, C2 e C3. As fotos e os desenhos de catálogo ilustram mecanismos e aplicações análogas. Quando há dois componentes, as letras a e b correspondem aos links abaixo da figura.",
+    "Matriz morfológica ilustrada 2 de 7",
+    "Matriz morfológica ilustrada 3 de 7",
+    "Matriz morfológica ilustrada 4 de 7",
+    "Matriz morfológica ilustrada 5 de 7",
+    "Matriz morfológica ilustrada 6 de 7",
+    "Matriz morfológica ilustrada 7 de 7"
+  ]
+}

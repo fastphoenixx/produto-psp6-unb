@@ -126,7 +126,7 @@ medição (ver anexo). A mais sensível é a taxa de avaria de 2%, que sustenta 
 econômico do projeto: é faixa de mercado para longa distância aplicada a um trecho curto. Enquanto
 o distribuidor não confirmar esse número, a viabilidade permanece plausível e não demonstrada.
 
-## 6. Correção após o retorno da professora (17/09/2026)
+## 6. Correção após o retorno docente (17/09/2026)
 
 O retorno apontou requisitos do cliente que eram dois requisitos em um, pediu que se evitasse o
 "e" e questionou se "ser durável" não seria "ser reutilizável". A revisão foi além dos itens
@@ -168,7 +168,7 @@ apoio no canteiro acontece depois desse trecho.
 
 ## 7. Correção do método do Mudge (17/09/2026)
 
-A professora confirmou que a avaliação do Mudge é par a par. A auditoria mostrou que a nossa
+O retorno docente confirmou que a avaliação do Mudge é par a par. A auditoria mostrou que a nossa
 grade **não era**: 253 de 253 células reproduziam exatamente o que a regra de critérios previa, e
 não havia uma única inversão em 1.771 triplas. Transitividade perfeita é assinatura de grade
 calculada, não julgada — numa comparação par a par real alguma inversão sempre aparece, porque

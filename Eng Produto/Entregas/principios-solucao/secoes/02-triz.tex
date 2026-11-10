@@ -1,0 +1,77 @@
+\section{Contradições de projeto na TRIZ}
+Os dez casos partem de correlações negativas do telhado do QFD. Nos pares consultados na TRIZ, o primeiro número identifica o parâmetro a melhorar e o segundo, o parâmetro cuja piora se procura evitar. A aplicação usa princípios selecionados da matriz, analogias ou separação no tempo e no espaço.
+
+A tradução do problema específico para parâmetros de engenharia torna explícita a formulação da contradição, conforme o procedimento apresentado na disciplina \citep[slides~27--30, 35, 37]{aula17}. Os dez casos abaixo preservam os pares, as células do QFD, os princípios e as aplicações da base da equipe \citep{baseequipe2026}; acrescenta-se a justificativa da tradução adotada. Trata-se de uma abstração de projeto, não de uma equivalência entre a unidade de medida do requisito e a definição do parâmetro.
+
+As denominações seguem a terminologia registrada na planilha. Nos casos com consulta, a linha identifica o parâmetro a melhorar e a coluna, aquele cuja piora se procura evitar. Uma célula sem indicação não fornece princípios por si só: nesses casos a busca na lista de princípios é declarada separadamente. A distinção entre matriz clássica e separação está documentada na referência TRIZ utilizada pela equipe \citep{dtoceantriz}. T06 e T09 mantêm tratamento por separação, sem forçar um cruzamento numérico.
+
+\subsection{T01 — Impacto e faixa de ajuste}
+\campocaso{Origem no QFD.}{RP1 × RP7 no QFD, célula I3. Reduzir o pico com apoios rígidos ou conformados limita a faixa de ajuste. A proteção deve permanecer nos extremos do mix.}
+\campocaso{Tradução adotada.}{RP1 → 30 (efeitos nocivos externos): reduzir a solicitação de impacto transmitida à louça. RP7 → 35 (adaptabilidade): preservar a faixa de regulagem do mesmo conjunto. A consulta procura melhorar a proteção sem perder adaptação dimensional.}
+\campocaso{Consulta e princípios.}{Consulta 30 × 35 na matriz TRIZ com indicações 35, 11, 22, 31. Foram adotados PI35, alteração de propriedades, e PI31, materiais porosos. PI15, dinamicidade, complementa a proposta por analogia.}
+\campocaso{Aplicação aos princípios físicos.}{Separar a guia de regulagem da célula amortecedora. Ajustar contatos sem eliminar curso de absorção. Opções E04.1–4, E05.1–2, E11.1–3.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP1/RP7/RP12/RP18. Queda e vibração por família nos extremos, mesmo SKU e regulagem para medir CV.}
+
+\subsection{T02 — Inspeção e retenção de fragmentos}
+\campocaso{Origem no QFD.}{RP4 × RP6 no QFD, célula H6. Abrir regiões para inspeção facilita a observação, mas cria caminhos de fuga de fragmentos.}
+\campocaso{Tradução adotada.}{RP4 → 37 (dificuldade de detectar/medir): tornar a área crítica observável com o conjunto fechado. RP6 → 31 (fatores nocivos gerados): não ampliar a exposição a fragmentos. A consulta procura facilitar a inspeção sem criar caminhos de fuga de cacos.}
+\campocaso{Consulta e princípios.}{Consulta 37 × 31 na matriz TRIZ com indicações 2, 21. Foi adotado PI2, extração. PI32, alteração óptica, complementa a proposta por analogia.}
+\campocaso{Aplicação aos princípios físicos.}{Repor a zona opaca por visor transparente contínuo e protegido, com junta retida. Manter bandeja e barreira fechadas. Opções E07.1–4, E09.1–4, E16.1–3.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP4/RP6. Mapear \(\geq\)60\% de área crítica acessível e testar retenção e perfuração no mesmo conjunto fechado.}
+
+\subsection{T03 — Movimentação e recondicionamento}
+\campocaso{Origem no QFD.}{RP3 × RP15 no QFD, célula Q5. Rodamento reduz força de partida, mas eixos, rodas e encaixes podem aumentar o tempo de limpeza e reposição.}
+\campocaso{Tradução adotada.}{RP3 → 10 (força): reduzir a força de partida do conjunto carregado. RP15 → 25 (perda de tempo): não aumentar o tempo de limpeza, inspeção e reposição. A consulta procura facilitar a movimentação sem penalizar o recondicionamento.}
+\campocaso{Consulta e princípios.}{Consulta 10 × 25 na matriz TRIZ com indicações 10, 37, 36. Foi adotado PI10, ação prévia. PI1, segmentação, complementa a proposta por analogia.}
+\campocaso{Aplicação aos princípios físicos.}{Usar acoplamento externo acessível. Rodamento sai para serviço sem desmontar apoios, barreira e identidade. Opções E14.1–3, E21.2–4, C03.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP3/RP15/RP23. Medir partida no piso e recondicionamento completo, incluindo o rolamento e seu custo.}
+
+\subsection{T04 — Ajuste e limpeza}
+\campocaso{Origem no QFD.}{RP7 × RP15 no QFD, célula Q9. Mais articulações para ampliar a faixa criam pontos de retenção de sujeira e elevam o tempo de recondicionamento.}
+\campocaso{Tradução adotada.}{RP7 → 35 (adaptabilidade): ampliar a faixa de ajuste sem trocar componentes. RP15 → 25 (perda de tempo): não aumentar o tempo de recondicionamento. A consulta procura preservar adaptação dimensional sem multiplicar articulações difíceis de limpar.}
+\campocaso{Consulta e princípios.}{Consulta 35 × 25 na matriz TRIZ com indicações 35, 28. Foi adotado PI35, alteração de propriedades. PI15, dinamicidade, e PI3, qualidade local, complementam por analogia.}
+\campocaso{Aplicação aos princípios físicos.}{Guias externas com proteção flexível removível e superfícies acessíveis. O mesmo apoio percorre a faixa sem peças por SKU. Opções E11.1–4, C03.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP7/RP15/RP18. Verificar cursos 300/150 mm e tempo \(\leq\)5 min na regulagem mais difícil de limpar.}
+
+\subsection{T05 — Contenção e acesso para manutenção}
+\campocaso{Origem no QFD.}{RP6 × RP15 no QFD, célula Q8. Uma barreira integral retém os cacos, mas dificulta o acesso para limpar e repor as partes desgastadas.}
+\campocaso{Tradução adotada.}{RP6 → 31 (fatores nocivos gerados): reduzir a exposição a fragmentos por retenção da massa. RP15 → 34 (facilidade de reparo): preservar o acesso para limpeza e reposição. O tempo de recondicionamento é traduzido aqui pela acessibilidade de manutenção, diferentemente da abstração de perda de tempo adotada em T03/T04.}
+\campocaso{Consulta e princípios.}{Consulta 31 × 34 na matriz TRIZ sem indicação. A busca na lista dos 40 princípios orientou a aplicação de PI2, extração, e PI34, descarte e recuperação de partes.}
+\campocaso{Aplicação aos princípios físicos.}{Forro removível dentro da bandeja permanente. Abertura em etapas preserva a contenção antes da retirada e na limpeza. Opções E08.1–4, E19.1–4, E20.1–4, C03.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP6/RP15/RP17. Reter \(\geq\)90\% da massa, avaliar fragmentos pequenos, abertura e retirada, e medir o ciclo completo.}
+
+\subsection{T06 — Estabilidade e desmontagem}
+\campocaso{Origem no QFD.}{RP9 × RP17 no QFD, célula S11. Apoios largos e travados estabilizam o carregado. Para desmontar e retornar, esses apoios devem se recolher.}
+\campocaso{Tradução adotada.}{O mesmo conjunto deve permanecer expandido e rigidamente travado durante o uso carregado e poder recolher-se após a retirada da louça. A formulação usa separação no tempo, sem atribuir números de parâmetros a um cruzamento 39 × 39. A configuração recolhida não é uma condição admissível sob carga.}
+\campocaso{Consulta e princípios.}{Tratamento por separação. A separação no tempo distingue a configuração resistente em uso da configuração recolhida no retorno.}
+\campocaso{Aplicação aos princípios físicos.}{Sapatas e paredes recolhíveis apenas após descarregar. Encaixes positivos mantêm a base resistente durante transporte e apoio. Opções E15.1–4, C01.1–4, C02.1–4, C06.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP9/RP17/RP14. Medir \(\geq\)40° carregado e \(\leq\)120 s de desmontagem. Medir retorno vazio e carregado separadamente.}
+
+\subsection{T07 — Reposição e repetibilidade da proteção}
+\campocaso{Origem no QFD.}{RP20 × RP12 no QFD, célula V14. Trocar módulos com facilidade introduz folgas e variação de montagem que podem elevar a dispersão da proteção.}
+\campocaso{Tradução adotada.}{RP20 → 34 (facilidade de reparo): permitir reposição independente de módulos. RP12 → 27 (confiabilidade): preservar a resposta de proteção depois das remontagens. Confiabilidade é a abstração adotada para essa busca; não é sinônimo do coeficiente de variação, que continua sendo medido diretamente conforme RP12.}
+\campocaso{Consulta e princípios.}{Consulta 34 × 27 na matriz TRIZ com indicações 11, 10, 1, 16. Foram adotados PI1, segmentação, e PI10, ação prévia, para configurar interfaces independentes e indexadas.}
+\campocaso{Aplicação aos princípios físicos.}{Reposição externa por conexão codificada. Batentes e testemunhos restringem montagem e pré-carga incorretas. Opções E01.1–4, E12.1–4, E17.1–4, C04.1–4, C05.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP20/RP12/RP18. Trocar \(\geq\)3 módulos isoladamente e repetir impactos antes/depois da remontagem para CV \(\leq\)10\%.}
+
+\subsection{T08 — Vedação e reposição independente}
+\campocaso{Origem no QFD.}{RP6 × RP20 no QFD, célula V8. Vedação permanente retém fragmentos, mas dificulta substituir partes independentes. Juntas removíveis podem abrir frestas.}
+\campocaso{Tradução adotada.}{RP6 → 31 (fatores nocivos gerados): manter a barreira contra fragmentos. RP20 → 34 (facilidade de reparo): permitir reposição independente sem destruir a vedação. A consulta expressa o conflito entre continuidade da contenção e acesso aos módulos.}
+\campocaso{Consulta e princípios.}{Consulta 31 × 34 na matriz TRIZ sem indicação. Por analogia com a lista dos 40 princípios, foram explorados PI1, segmentação, e PI30, membranas flexíveis.}
+\campocaso{Aplicação aos princípios físicos.}{Sobrepor a barreira às juntas estruturais. O forro fecha o caminho dos cacos e pode ser trocado por fixação periférica própria. Opções E07.1–4, E09.1–4, C04.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP6/RP20/RP15. Repetir quebra controlada após troca de módulo e regulagem. Verificar limpeza e remontagem.}
+
+\subsection{T09 — Estabilidade e reposição independente}
+\campocaso{Origem no QFD.}{RP9 × RP20 no QFD, célula V11. Juntas independentes facilitam reposição, mas folgas podem alterar rigidez e posição dos apoios, reduzindo estabilidade.}
+\campocaso{Tradução adotada.}{O caminho estrutural precisa permanecer contínuo e rígido em uso, enquanto as partes de desgaste precisam admitir remoção independente. A formulação adota separação no espaço entre a base resistente e as regiões substituíveis, sem cruzamento 39 × 39. A integridade das juntas não substitui a medição do ângulo de tombamento.}
+\campocaso{Consulta e princípios.}{Tratamento por separação. A separação no espaço mantém o caminho de carga na base comum e posiciona as peças de desgaste fora das uniões críticas.}
+\campocaso{Aplicação aos princípios físicos.}{Encaixes estruturais com travamento positivo e batentes de apoio. Trocar contato e barreira sem liberar a base resistente. Opções E01.1–4, E06.1–4, E15.1–4, C04.1–4, C05.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP9/RP20/RP11. Ensaiar estabilidade após trocas e desgaste. Medir o ângulo de tombamento e verificar a integridade da junta.}
+
+\subsection{T10 — Reposição e identidade da unidade}
+\campocaso{Origem no QFD.}{RP20 × RP21 no QFD, célula W22. Substituir a parte que carrega a identificação pode apagar o vínculo com o histórico da unidade retornável.}
+\campocaso{Tradução adotada.}{RP20 → 34 (facilidade de reparo): substituir módulos sem interdependência desnecessária. RP21 → 24 (perda de informação): preservar o vínculo entre a unidade e seu identificador. A consulta procura facilitar reposição sem apagar a identidade permanente.}
+\campocaso{Consulta e princípios.}{Consulta 34 × 24 na matriz TRIZ sem indicação. PI2, extração, e PI1, segmentação, orientam separar a identidade permanente das partes de desgaste.}
+\campocaso{Aplicação aos princípios físicos.}{Identificação única na base comum permanente. Reposição de apoios, amortecedores ou barreira preserva o mesmo serial. Opções E18.1–4, C04.1–4.}
+\campocaso{Verificação futura.}{Verificação conjunta de RP21/RP18/RP13. Confirmar 1 ID legível após trocas, ciclos e umidade.}
+
