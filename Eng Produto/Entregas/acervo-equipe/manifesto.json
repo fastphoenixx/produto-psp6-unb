@@ -137,11 +137,20 @@
       "source": "drive",
       "source_id": "1L6-ZV9OYfyunsgpvHHCw_uKsrXIWVKdP",
       "original_name": "Concepção do Produto - PSP6.pptx",
-      "modified_utc": "2026-11-16T00:02:57.091Z",
+      "modified_utc": "2026-11-24T00:37:45.724Z",
       "path": "Eng Produto/Entregas/acervo-equipe/drive/Concepção do Produto/Concepção do Produto - PSP6.pptx",
-      "size": 1371869,
-      "sha256": "3b368ae8f483c56386e0ec8e8cc48d7cab3f4778a3d4d455473291eaf3b2bc8e",
-      "new_copy": true
+      "size": 962544,
+      "sha256": "17ed1f3db7abfec56ee813de1299654d500e613a26b207e379d8558399f3a35c",
+      "new_copy": true,
+      "revision_note": "20 slides; texto normalizado preservado e ilustração conceitual adicional, conferida sem identificadores pessoais. Revisão do Drive detectada na checagem final, não criada pela sincronização.",
+      "previous_versions": [
+        {
+          "modified_utc": "2026-11-16T00:02:57.091Z",
+          "size": 1371869,
+          "sha256": "3b368ae8f483c56386e0ec8e8cc48d7cab3f4778a3d4d455473291eaf3b2bc8e",
+          "git_commit": "c01564a28884d27e20fa10a92674ee16aeba3612"
+        }
+      ]
     },
     {
       "source": "drive",

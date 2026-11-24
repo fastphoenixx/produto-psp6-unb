@@ -14,6 +14,10 @@ Este índice distingue as entregas efetivamente encontradas no Teams dos editáv
 
 Os rótulos `[26.11]` e `[28.10]` foram preservados como recebidos. Os arquivos de concepção rotulados `[26.11]` constam no Teams como enviados em **18/11/2026**, antes da consulta de 23/11; o rótulo não foi usado como data de envio. A modelagem rotulada `[28.10]` consta como criada em 26/10.
 
+## Revisão detectada na conferência final
+
+A apresentação editável `drive/Concepção do Produto/Concepção do Produto - PSP6.pptx` foi conferida novamente: a versão 22 do Drive, modificada em 23/11/2026 às 21:37:45 (UTC−03), tem 20 slides e acrescenta uma ilustração conceitual do dispositivo, sem mudança no texto normalizado das decisões. A imagem não comprova construção ou ensaio. A versão anterior, com 19 slides, fica preservada no commit `c01564a` e no backup privado; o manifesto registra os dois hashes. Essa revisão foi encontrada na origem e não foi criada pelos uploads desta sincronização.
+
 ## Estado do projeto que estes documentos registram
 
 - Estrutura funcional M1, com 21 funções elementares e sete complementares.
