@@ -1,5 +1,7 @@
 # Relatório acadêmico em LaTeX
 
+> **Nota de versão — 23/11/2026:** esta pasta preserva a base LaTeX anterior e sua trilha de revisão. Para os princípios corrigidos, os módulos e a seleção C2 encontrados nas entregas posteriores do Teams, consulte o [acervo atual da equipe](../acervo-equipe/README.md). Este PDF não foi reescrito nem anunciado como consolidação dessas etapas posteriores.
+
 O projeto foi separado em arquivos pequenos para facilitar a edição:
 
 - `main.tex`: arquivo principal;

@@ -1,28 +1,32 @@
 # Produto e PSP6 — UnB 2026/2
 
-Repositório acadêmico do projeto desenvolvido nas disciplinas Engenharia de Produto e Projeto de Sistemas de Produção 6 da Universidade de Brasília.
+Repositório acadêmico da Equipe 2 nas disciplinas Engenharia de Produto e Projeto de Sistemas de Produção 6 da Universidade de Brasília.
 
-## Projeto
+## Estado atual — fontes conferidas em 23/11/2026
 
-O trabalho desenvolve uma solução para reduzir avarias em louças sanitárias durante o transporte, a descarga e a movimentação até o ponto de instalação. O informacional consolidou requisitos, prioridades, QFD e metas provisórias. Em 26/10/2026, a apresentação da Equipe 2 foi adotada como base do conceitual: função global Proteger louça, sete parciais, 21 elementares da M1 e sete complementares do ciclo de vida. A primeira Pugh compara M1/M2/M3 pelos 23 requisitos com pesos do Mudge/Pareto e seleciona M1, proteção direta da peça após preparo no distribuidor, com totais +7/0/−4. Em 04/11, a planilha avançou para os princípios: quatro opções por função na morfológica, três combinações exploratórias e dez conflitos do QFD tratados por TRIZ. As 23 metas permanecem condições de aceitação. Os 156 escores anteriores da MIM e seus agrupamentos continuam históricos. Interfaces, custo e verificações vão sustentar a segunda seleção, que ainda não escolheu uma concepção física final. Ver a [base funcional vigente](Eng%20Produto/Entregas/modelagem-funcional/README.md).
+O projeto desenvolve um dispositivo retornável para proteger louças sanitárias no transporte, descarga e movimentação até a instalação. A estrutura funcional selecionada é M1: proteção direta da peça após preparo no distribuidor, com 21 funções elementares e sete complementares.
 
-## Conteúdo público
+As entregas posteriores geraram 112 princípios, trataram dez casos TRIZ, definiram seis módulos e oito interfaces e selecionaram a concepção **C2: quadro rígido telescópico, painéis transparentes e rolamento removível**. A C3 permanece como contingência. Os documentos declaram TRL 2 e cinco protótipos planejados, sem ensaios concluídos até essa entrega.
 
-- `02_Aulas/estudo/`: materiais autorais de estudo.
-- `Eng Produto/docs/`: sínteses metodológicas e referências.
-- `Eng Produto/Entregas/planilha/`: planilha operacional atual do projeto.
-- `Eng Produto/Entregas/relatorio/`: relatório e fontes editáveis.
-- [Princípios de solução — edição revisada em 07/11/2026](Eng%20Produto/Entregas/principios-solucao/README.md): relatório avulso em PDF, fontes LaTeX e pacote editável; não substitui a planilha nem o relatório consolidado.
-- `Eng Produto/Entregas/VALIDACAO-CADEIA-PROBLEMA-QFD.md`: auditoria metodológica da cadeia de requisitos.
-- `DISCIPLINA.md`: cronograma e regras acadêmicas relevantes.
-- `MAPA.md`: visão rápida do projeto e dos próximos passos.
+**Comece pelo [acervo atual da equipe](Eng%20Produto/Entregas/acervo-equipe/README.md)**: reúne as entregas encontradas no Teams, incluindo os princípios corrigidos, os módulos e a concepção, além dos editáveis do Drive. O manifesto registra os originais e as datas reais de envio; rótulos de nomes não foram tratados como prova de data.
+
+## Organização
+
+- [Acervo atual da equipe](Eng%20Produto/Entregas/acervo-equipe/README.md): referências por etapa, originais técnicos do Teams e apoio do Drive.
+- [Mapa do projeto](MAPA.md): decisões vigentes, limites e fontes.
+- [Base informacional e planilha de trabalho](Eng%20Produto/Entregas/planilha/README.md): preservada com fórmulas, figuras e histórico; as abas conceituais ainda não incorporam todas as decisões posteriores do Teams.
+- `Eng Produto/Entregas/relatorio/`: relatório LaTeX da base anterior; consultar o aviso de versão no README dessa pasta.
+- [Princípios em LaTeX — versão de 07/11](Eng%20Produto/Entregas/principios-solucao/README.md): PDF, fontes e pacote portátil dessa edição, preservados sem reescrever o histórico. A revisão corrigida posterior está no acervo atual.
+- `Eng Produto/Entregas/logs-ajustes/`: registros técnicos das revisões anteriores.
+- `Eng Produto/docs/` e `02_Aulas/estudo/`: sínteses e materiais autorais publicáveis.
+- [Disciplina](DISCIPLINA.md): cronograma e regras acadêmicas registradas.
+
+## Versões e fontes
+
+A sincronização preserva as versões: não substitui a planilha local por uma planilha antiga do Drive nem apresenta os fontes LaTeX anteriores como se gerassem as entregas mais recentes. Para a seleção física C2, a arquitetura e a correção TRIZ de RP15, prevalecem os documentos de etapa identificados no acervo. A transposição desses resultados às células da planilha e a um novo relatório LaTeX é uma revisão técnica separada.
 
 ## Privacidade e direitos autorais
 
-Conversas, entrevistas identificáveis, registros de campo, fotografias recebidas, dados pessoais, livros, materiais distribuídos em aula e exemplos de outras equipes não integram a versão pública. Esses itens permanecem somente no acervo privado local.
+Conversas, entrevistas identificáveis, registros de campo, fotografias recebidas, matrículas, feedbacks privados, livros, materiais distribuídos em aula e exemplos de outras equipes não integram o conteúdo público. O acervo completo permanece localmente em `_inbox/privado/acervo-psp6/`, ignorado pelo Git. O manifesto público registra apenas a classificação das exclusões, não seu conteúdo.
 
-## Provas antigas — acervo local
-
-Material recebido em `03_Provas/p1/`, com inventário e dois simulados para 04/10/2026 (`03_Provas/p1/TREINO-2026-10-04.md`). Esses caminhos, as compilações e os resumos pertencem ao acervo privado local e não estão disponíveis na versão pública.
-
-*[Codex — 2026-10-04]*
+Os originais do Teams e do Drive são preservados. A publicação não altera os envios à professora nem amplia as permissões das pastas de origem. Esta é uma sincronização pontual, não um serviço automático que propaga exclusões.

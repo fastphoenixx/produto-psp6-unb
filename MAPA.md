@@ -1,50 +1,49 @@
 # Mapa do projeto — Produto e PSP6
 
+Atualizado a partir das entregas do Grupo 2 no Teams e dos arquivos do Drive, conferidos em 23/11/2026.
+
 ## O produto
 
-A equipe está desenvolvendo um sistema de proteção reutilizável para reduzir avarias em louças sanitárias entre a saída do distribuidor e a chegada ao ponto de instalação. O sistema precisa proteger a peça contra impactos, permitir transporte e descarga seguros, funcionar com diferentes modelos, facilitar conferência e retirada e manter custo viável por ciclo de uso.
+Dispositivo retornável de proteção de louças sanitárias no trecho distribuidor–obra e na movimentação até a instalação. A fronteira M1 inclui o preparo no distribuidor, a proteção da peça descoberta, a inspeção pelo conjunto fechado e o retorno.
 
-## Fase atual
+## Decisões documentadas
 
-O projeto está no **projeto conceitual em elaboração**. O informacional fornece os 23 requisitos e as metas provisórias. A primeira Pugh selecionou a estrutura funcional M1. Agora são gerados e combinados princípios físicos para essa estrutura, antes de dimensionar e selecionar uma concepção.
+1. Informacional: 23 requisitos e especificações-meta provisórias, rastreáveis ao QFD.
+2. Estrutura funcional: M1 selecionada pela primeira Pugh; M2 referência, totais ponderados +7/0/−4 para M1/M2/M3.
+3. Funções e princípios: 21 elementares e sete complementares, 112 princípios e três combinações C1/C2/C3.
+4. TRIZ: dez casos; a revisão corrigida mantém RP15 no parâmetro 25 e usa 31 × 25 em T05. As opções derivadas dos casos são marcadas na morfológica dos slides corrigidos.
+5. Módulos: seis módulos e oito interfaces, com estudo das 28 funções frente a 12 diretrizes de modularização.
+6. Concepção: C2, quadro rígido telescópico com painéis transparentes e rolamento removível.
+7. Segunda Pugh: com C1 de referência, 0/+9/+4; com C2 de referência, −9/0/−4. C3 fica como contingência, especialmente dependente das verificações de inspeção e retenção.
+8. Prontidão declarada: TRL 2; cinco protótipos planejados, sem construção ou ensaios registrados até essa entrega.
 
-Fluxo atual:
+## Fonte por assunto
 
-1. requisitos e especificações-meta rastreáveis ao informacional;
-2. função global Proteger louça, sete parciais, 21 elementares da M1 e sete complementares; FAST e fluxos de energia, material e sinal, preservando atributos e restrições;
-3. M1 (peça descoberta), M2 (volume embalado) e M3 (volume com registro de evento opcional);
-4. primeira Pugh funcional com os 23 critérios da apresentação adotada: M1 selecionada, M2 datum, totais ponderados +7/0/−4;
-5. morfológica com quatro opções para cada uma das 28 funções, três combinações exploratórias e dez conflitos do QFD tratados por TRIZ, vinculados às funções e às 23 metas;
-6. MIM anterior da C1 preservada como histórico; reavaliar escores e agrupamentos após a mudança para M1;
-7. três concepções preliminares sob M1, contato direto, inspeção pela própria barreira, preparo, custo e verificações;
-8. seleção apoiada nas metas, seguida de protótipo e ensaios.
+- [Acervo da equipe](Eng%20Produto/Entregas/acervo-equipe/README.md): entrega vigente por etapa, materiais do Teams e editáveis do Drive.
+- [Manifesto de origem](Eng%20Produto/Entregas/acervo-equipe/manifesto.json): nomes originais, datas, hashes e correspondências.
+- [Planilha de trabalho](Eng%20Produto/Entregas/planilha/README.md): informacional e histórico; a parte conceitual está anterior às entregas de módulos/concepção e à correção TRIZ posterior.
+- `Eng Produto/Entregas/relatorio/`: relatório LaTeX histórico, não uma consolidação automática das novas entregas.
+- `Eng Produto/Entregas/VALIDACAO-CADEIA-PROBLEMA-QFD.md`: auditoria metodológica anterior.
 
-## Fonte de verdade
+Não se escolhe a versão pelo nome da plataforma. A planilha antiga do Drive não substitui a base local; a seleção C2 do relatório do Teams não pode ser desconsiderada porque uma aba histórica continua com notas pendentes. Os originais são preservados e a diferença está explícita.
 
-- Planilha operacional: `Eng Produto/Entregas/planilha/Planilha_PSP6_Grupo2_Loucas.xlsx`.
-- Relatório: `Eng Produto/Entregas/relatorio/Relatorio_Engenharia_Produto_Loucas.pdf`.
-- Auditoria metodológica: `Eng Produto/Entregas/VALIDACAO-CADEIA-PROBLEMA-QFD.md`.
+## Limites ainda declarados nas fontes
 
-## Decisões ainda abertas
+- Metas, massa, dimensões, materiais e custo da concepção não constituem desempenho demonstrado.
+- A vantagem sobre C3 depende de área visível e retenção de fragmentos; a comparação de amortecimento ainda carece de ensaio.
+- A fronteira econômica deve incluir preparo, embalagem atribuível e destinação, retorno, manutenção, consumíveis e avaria residual, sem dupla contagem.
+- A transposição da MIM nova, da segunda Pugh e da correção TRIZ às células da planilha é revisão de conteúdo, não efeito automático desta organização de arquivos.
 
-- validar com usuários reais as comparações do Mudge;
-- medir a taxa de avaria e o custo da embalagem atualmente utilizada;
-- confirmar massa, dimensões e fragilidade das peças de referência;
-- fechar metas numéricas que ainda partem de estimativas;
-- manter planilha e relatório coerentes após cada alteração;
-- definir o preparo seguro no distribuidor e o destino/custo atribuível da embalagem retirada;
-- fechar a inspeção da peça descoberta através da própria barreira do dispositivo e definir pressão/área dos contatos diretos;
-- demonstrar ajuste sem troca, força, estabilidade, volume e retenção;
-- comparar custos M1 com preparo, embalagem atribuível, destino, retorno, manutenção, consumíveis e avaria residual, na mesma fronteira contábil;
-- justificar notas da segunda Pugh e reavaliar os 156 julgamentos herdados da MIM antes de adotar seus agrupamentos sob M1; C2/C3 exigem análise própria;
-- tratar o módulo de evento como opção experimental, sem confundi-lo com diagnóstico de trinca.
+## Marcos do cronograma registrado
 
-## Próximos marcos
+- 09/11/2026: princípios de solução; versão corrigida enviada ao Teams em 15/11.
+- 16/11/2026: módulos do produto.
+- 23/11/2026: concepção; arquivos rotulados `[26.11]` constam como enviados ao Teams em 18/11, com esse rótulo preservado.
+- 30/11/2026: otimização, conforme o cronograma local.
+- 02/12/2026: apresentação final, conforme o cronograma local.
 
-- **21/09/2026:** especificações-meta;
-- **28/09/2026:** relatório consolidado da segunda entrega;
-- **26/10/2026:** modelagem funcional;
-- **09/11/2026:** princípios de solução;
-- **16/11/2026:** módulos do produto;
-- **23/11/2026:** concepção;
-- **02/12/2026:** apresentação final.
+## Acervos
+
+- Público: materiais técnicos revisados em `Eng Produto/Entregas/acervo-equipe/`, junto às entregas e fontes anteriores já publicadas.
+- Privado local: `_inbox/privado/acervo-psp6/`, separado em Teams, Drive da equipe, cópia antiga, referências dos links e conversas.
+- Teams: originais enviados à professora, sem alteração por esta sincronização.
